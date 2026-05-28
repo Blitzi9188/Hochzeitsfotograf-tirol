@@ -86,6 +86,18 @@ const mimeTypes = {
   ".svg": "image/svg+xml"
 };
 
+const buildCacheControl = (ext) => {
+  const lowerExt = String(ext || "").toLowerCase();
+  if ([".html"].includes(lowerExt)) return "no-store";
+  if ([".jpg", ".jpeg", ".png", ".webp", ".avif", ".heic", ".heif", ".svg"].includes(lowerExt)) {
+    return "public, max-age=31536000, immutable";
+  }
+  if ([".css", ".js", ".json", ".xml", ".txt", ".md", ".yml", ".yaml"].includes(lowerExt)) {
+    return "public, max-age=3600";
+  }
+  return "public, max-age=900";
+};
+
 const sendJson = (res, statusCode, data) => {
   res.writeHead(statusCode, {
     "Content-Type": "application/json; charset=utf-8",
@@ -431,7 +443,7 @@ const serveStatic = async (req, res, pathname) => {
       const content = await fsp.readFile(targetFile);
       res.writeHead(200, {
         "Content-Type": mimeTypes[ext] || "application/octet-stream",
-        "Cache-Control": "no-store"
+        "Cache-Control": buildCacheControl(ext)
       });
       res.end(content);
       return;

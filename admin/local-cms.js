@@ -137,7 +137,7 @@ const STATIC_IMAGE_USAGES = [
     detail: "Bildblock in der About-Sektion der Startseite"
   },
   {
-    image: "/assets/uploads/Blitzkneisser-Elopemnt-Dolomites-Lago-di-Braies-15.jpg",
+    image: "/assets/uploads/Blitzkneisser-Elopemnt-Dolomites-Lago-di-Braies-19.jpg",
     area: "Homepage",
     slot: "Leistungen",
     detail: "Bildkarte in den Leistungen"
