@@ -1,0 +1,694 @@
+{
+  "de": {
+    "slug": "elopement-vs-traditional-wedding-alps",
+    "title": "Elopement oder klassische Hochzeit in den Alpen | Guide",
+    "description": "Ein ehrlicher Guide für Paare, die zwischen Elopement und klassischer Hochzeit in den Alpen entscheiden und Tagesgefühl, Gäste, Budget und Nähe abwägen möchten.",
+    "hero": {
+      "eyebrow": "Vergleichs-Guide",
+      "title": "Elopement oder klassische Hochzeit in den Alpen",
+      "copy": "Ein ehrlicher Vergleich für Paare, die zwischen Intimität, Gästen, Budget und Tagesrhythmus abwägen und herausfinden möchten, welche Form wirklich zu ihnen passt.",
+      "cta": "Planung starten",
+      "image": "/assets/uploads/Blitzkneisser-Elopement_lago-di-Braies-9.jpg",
+      "imageAlt": "Paar in alpiner Landschaft zwischen intimer und größerer Hochzeitsstimmung"
+    },
+    "utility": {
+      "reading": "Guide",
+      "focus": "Für Paare, die zwischen Intimität, Gästen, Budget und Tagesrhythmus abwägen",
+      "navOverview": "Überblick",
+      "navSeasons": "Vergleich",
+      "navPhilosophy": "Einführung",
+      "navVisual": "Weitere Guides",
+      "navFaq": "FAQ"
+    },
+    "overview": {
+      "eyebrow": "Guide im Überblick",
+      "copy": "Die Entscheidung zwischen Elopement und klassischer Hochzeit ist selten nur eine Stilfrage. Es geht darum, wie viel Nähe ihr braucht, wie viel Organisation euch gut tut und ob ihr lieber in einem stillen Tagesbogen oder in einer größeren Feier aufblüht.",
+      "items": [
+        {
+          "icon": "guests",
+          "label": "Zentrale Frage",
+          "value": "Wie viele Menschen gehören wirklich dazu?"
+        },
+        {
+          "icon": "sunrise",
+          "label": "Stärkstes Kriterium",
+          "value": "Wie möchtet ihr euch fühlen?"
+        },
+        {
+          "icon": "calendar",
+          "label": "Budgetrealität",
+          "value": "Mehr Gäste bedeuten meist mehr Struktur"
+        },
+        {
+          "icon": "path",
+          "label": "Tagesrhythmus",
+          "value": "Elopements erlauben mehr Weite"
+        },
+        {
+          "icon": "crowd",
+          "label": "Ideal für",
+          "value": "Paare, die ehrlich statt erwartbar wählen möchten"
+        }
+      ]
+    },
+    "philosophy": {
+      "eyebrow": "Eine erste Orientierung",
+      "title": "Die richtige Hochzeitsform fühlt sich nicht größer an, sondern stimmiger.",
+      "copy": "Manche Paare werden mit Gästen, Stimmen und langen Tafeln richtig lebendig. Andere finden ihre stärksten Momente erst dort, wo niemand zusieht. Beides kann schön sein, aber selten auf dieselbe Weise."
+    },
+    "sections": {
+      "seasonOrder": [
+        "personality",
+        "guests",
+        "budget",
+        "rhythm",
+        "emotion"
+      ],
+      "seasons": {
+        "personality": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Pragser-Wildsee-208.jpg",
+          "imageAlt": "Intimes Paar in ruhiger Berglandschaft",
+          "eyebrow": "Persönlichkeit",
+          "title": "Welche Form passt zu euch als Menschen?",
+          "intro": "",
+          "copy": "Manche Paare blühen in einem stillen, reduzierten Rahmen auf. Andere spüren, dass Familie, Freunde und geteilte Freude ganz natürlich dazugehören. Die bessere Wahl ist nicht die ästhetischere Form, sondern die, in der ihr euch nicht verstellen müsst.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "guests",
+              "label": "Elopement",
+              "value": "Mehr Stille und Nähe"
+            },
+            {
+              "icon": "sun",
+              "label": "Traditionelle Hochzeit",
+              "value": "Mehr gemeinsames Erleben"
+            },
+            {
+              "icon": "path",
+              "label": "Entscheidend",
+              "value": "Wie präsent ihr euch fühlen wollt"
+            }
+          ],
+          "note": "",
+          "meta": "Persönlichkeit • Präsenz • Echtheit",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "guests": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Hochtennboden-Standesamt-40.jpg",
+          "imageAlt": "Hochzeitsmoment mit Gästen in alpiner Umgebung",
+          "eyebrow": "Gäste",
+          "title": "Was eure Gästeliste wirklich verändert",
+          "intro": "",
+          "copy": "Sobald Gäste dazukommen, verändert sich nicht nur die Logistik, sondern auch die emotionale Dynamik des Tages. Wege, Temperaturen, Wartezeiten und Zugänglichkeit werden plötzlich Teil des Erlebens. Das ist nicht schlecht. Es verlangt nur eine andere Art von Planung.",
+          "points": [
+            "Wenige Menschen können einen Tag sehr tragen.\\nViele Menschen brauchen eine klarere Struktur.\\nNicht jeder schöne Ort ist auch ein guter Gästeort."
+          ],
+          "facts": [
+            {
+              "icon": "crowd",
+              "label": "Mehr Gäste",
+              "value": "Mehr Ablauf und Betreuung"
+            },
+            {
+              "icon": "path",
+              "label": "Wichtig",
+              "value": "Zugänglichkeit und Komfort"
+            },
+            {
+              "icon": "guests",
+              "label": "Gut zu wissen",
+              "value": "Intim heißt nicht automatisch ohne Familie"
+            }
+          ],
+          "note": "",
+          "meta": "Gäste • Komfort • Struktur",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "budget": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Wedding-140.jpg",
+          "imageAlt": "Alpine Hochzeit mit bewusster Budgetentscheidung",
+          "eyebrow": "Budget",
+          "title": "Wofür ihr euer Budget eigentlich einsetzen möchtet",
+          "intro": "",
+          "copy": "Ein Elopement bedeutet nicht automatisch billig, und eine größere Hochzeit ist nicht automatisch verschwenderisch. Der Unterschied liegt meist darin, wohin das Geld fließt: mehr Menschen und Infrastruktur oder mehr Zeit, Landschaft, Privatheit und Erlebnisse.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "calendar",
+              "label": "Elopement",
+              "value": "Mehr Raum für Erlebnisse und Zeit"
+            },
+            {
+              "icon": "guests",
+              "label": "Traditionelle Hochzeit",
+              "value": "Mehr Budget für Gäste und Struktur"
+            },
+            {
+              "icon": "sunrise",
+              "label": "Beste Frage",
+              "value": "Was soll euch später wirklich wichtig sein?"
+            }
+          ],
+          "note": "",
+          "meta": "Budget • Prioritäten • Erinnerung",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "rhythm": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-360.jpg",
+          "imageAlt": "Ruhiger Tagesrhythmus in den Bergen",
+          "eyebrow": "Rhythmus",
+          "title": "Wie sich der Tagesablauf anfühlen soll",
+          "intro": "",
+          "copy": "Ein Elopement kann sich über Sonnenaufgang, Wanderung, Pause, Abendlicht und lange leise Zwischenräume entfalten. Eine größere Hochzeit trägt meist mehr Fixpunkte, mehr Übergänge und mehr Verantwortung für andere Menschen. Beides kann schön sein. Es fühlt sich nur völlig anders an.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "sunrise",
+              "label": "Elopement",
+              "value": "Mehr Offenheit und Luft"
+            },
+            {
+              "icon": "calendar",
+              "label": "Traditionell",
+              "value": "Mehr Programmpunkte"
+            },
+            {
+              "icon": "path",
+              "label": "Frage",
+              "value": "Wollt ihr treiben oder führen?"
+            }
+          ],
+          "note": "",
+          "meta": "Rhythmus • Offenheit • Verantwortung",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "emotion": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Photo-165.jpg",
+          "imageAlt": "Emotionaler Moment eines Paares in den Alpen",
+          "eyebrow": "Gefühl",
+          "title": "Welche emotionale Form sich richtiger anfühlt",
+          "intro": "",
+          "copy": "Manche Paare wünschen sich eine sehr private Tiefe, fast ohne Publikum. Andere möchten den Tag bewusst teilen und dabei trotzdem Intimität bewahren. Die stärkste Wahl ist meist die, die weniger wie eine Erwartung und mehr wie euer eigener innerer Takt wirkt.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "wind",
+              "label": "Elopement",
+              "value": "Oft stiller und innerlicher"
+            },
+            {
+              "icon": "guests",
+              "label": "Traditionell",
+              "value": "Oft gemeinsamer und feierlicher"
+            },
+            {
+              "icon": "sun",
+              "label": "Beste Entscheidung",
+              "value": "Die Form, in der ihr weich bleiben könnt"
+            }
+          ],
+          "note": "",
+          "meta": "Gefühl • Nähe • eigener Takt",
+          "linkLabel": "",
+          "linkHref": ""
+        }
+      }
+    },
+    "planning": {
+      "eyebrow": "Planungsnotizen",
+      "title": "Woran ihr euch bei dieser Entscheidung festhalten könnt.",
+      "intro": "Ihr müsst nicht zuerst die perfekte Form kennen. Es reicht, wenn ihr versteht, was euch mehr Ruhe gibt und was euch eher unter Druck setzt.",
+      "items": [
+        {
+          "label": "Mit Gefühl beginnen",
+          "title": "Fragt nicht zuerst, was schöner aussieht.",
+          "copy": "Fragt zuerst, ob ihr euch nach Weite, Stille und wenig Publikum sehnt oder nach einem geteilten Tag mit mehr Menschen.",
+          "meta": "Die ehrlichste Frage ist oft die wichtigste."
+        },
+        {
+          "label": "Gäste realistisch sehen",
+          "title": "Eine Gästeliste ist keine neutrale Zahl.",
+          "copy": "Jede zusätzliche Person verändert Wege, Timing, Komfort und Verantwortung.",
+          "meta": "Zahlen werden Atmosphäre."
+        },
+        {
+          "label": "Budget bewusst lesen",
+          "title": "Es geht weniger um teuer oder günstig als um Richtung.",
+          "copy": "Wollt ihr mehr in Menschen und Struktur investieren oder in Landschaft, Zeit und Privatheit?",
+          "meta": "Budget ist ein Spiegel eurer Prioritäten."
+        },
+        {
+          "label": "Keinen Kompromiss aus Angst wählen",
+          "title": "Nicht die sichere Mitte suchen, wenn sie sich nicht nach euch anfühlt.",
+          "copy": "Der beste Tag wirkt nicht ausgewogen für alle. Er wirkt wahr für euch.",
+          "meta": "Wahrheit schlägt Durchschnitt."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Fragen, die bei dieser Entscheidung fast immer auftauchen.",
+      "intro": "Die eigentliche Frage ist selten nur groß oder klein. Meist geht es darum, in welchem Rahmen ihr euch emotional und menschlich wirklich wiederfindet.",
+      "items": [
+        {
+          "q": "Ist ein Elopement automatisch emotionaler?",
+          "a": "Nicht automatisch. Es ist oft konzentrierter, stiller und näher, aber manche Paare erleben genau mit ihren Menschen die tiefsten Momente. Emotional wird ein Tag dort, wo ihr euch nicht verstellen müsst."
+        },
+        {
+          "q": "Ist eine traditionelle Hochzeit automatisch stressiger?",
+          "a": "Nicht zwingend. Sie wird nur schneller komplexer, weil mehr Menschen, Abläufe und Erwartungen zusammenkommen. Mit guter Planung kann auch ein größerer Tag sehr getragen und schön wirken."
+        },
+        {
+          "q": "Können wir Familie einbeziehen und den Tag trotzdem intim halten?",
+          "a": "Ja. Viele Paare finden gerade in kleinen Gästezahlen, klaren Tagesteilen oder einer Trennung zwischen Feier und Paarmoment einen sehr stimmigen Mittelweg."
+        },
+        {
+          "q": "Ist ein Elopement günstiger?",
+          "a": "Oft ja, aber nicht immer. Weniger Gäste bedeuten meist weniger Kosten, gleichzeitig investieren viele Paare bewusster in Orte, Bilder, Reise oder besondere Erlebnisse. Es ist eher eine andere Verteilung als nur eine kleinere Summe."
+        },
+        {
+          "q": "Wie finden wir heraus, was besser zu uns passt?",
+          "a": "Fragt euch, wann ihr euch wirklich als Paar spürt: mit vielen Menschen oder in stillen Momenten. Diese Antwort ist oft ehrlicher als jede Budgettabelle."
+        },
+        {
+          "q": "Kann man auch beides verbinden?",
+          "a": "Ja, sehr gut sogar. Ein intimer Bergtag mit einem zweiten Kapitel im größeren Kreis kann für viele Paare genau die richtige Form sein."
+        }
+      ]
+    },
+    "related": {
+      "eyebrow": "Verwandte Leitfäden",
+      "items": [
+        {
+          "label": "Planung",
+          "title": "Elopement-Guide für die Dolomiten",
+          "copy": "Ein ruhiger Ausgangspunkt für Paare, die ein Dolomites Elopement oder eine intime Berghochzeit planen und verstehen möchten, wie Licht, Wege, Wetter und Menschenmengen den Tag wirklich prägen.",
+          "href": "/guides/dolomites-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-120.jpg",
+          "imageAlt": "Paar bei einem Dolomiten-Elopement im weichen Morgenlicht",
+          "alt": "Paar bei einem Dolomiten-Elopement im weichen Morgenlicht"
+        },
+        {
+          "label": "Planung",
+          "title": "Standesamtliche Hochzeit in Österreich",
+          "copy": "Ein klarer Guide für internationale Paare, die in Österreich legal heiraten und den offiziellen Teil mit Bergen, Ruhe und einem persönlichen Hochzeitstag verbinden möchten.",
+          "href": "/guides/civil-wedding-austria-foreign-couples/",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Kemater-Alm-12.jpg",
+          "imageAlt": "Internationales Paar bei einer zivilen Hochzeit in Österreich",
+          "alt": "Internationales Paar bei einer zivilen Hochzeit in Österreich"
+        },
+        {
+          "label": "Planung",
+          "title": "Mehrtägiger Elopement-Guide",
+          "copy": "Ein Guide für Paare, die mehr wollen als ein paar schnelle Stunden in den Bergen und ihren Hochzeitstag lieber in Ruhe entfalten lassen möchten.",
+          "href": "/guides/multi-day-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Insta-11.jpg",
+          "imageAlt": "Mehrtägiges Elopement in den Dolomiten",
+          "alt": "Mehrtägiges Elopement in den Dolomiten"
+        },
+        {
+          "label": "Tirol",
+          "title": "Die schönsten Orte für eine offizielle Trauung in Tirol",
+          "copy": "Ein Guide für Paare, die eine offizielle Trauung in Tirol mit Bergen, Seen und einem klaren, persönlichen Tagesgefühl verbinden möchten.",
+          "href": "/guides/best-places-officially-elope-tyrol/",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Winter-Wedding-Shooting-58.jpg",
+          "imageAlt": "Offizielle Hochzeit in Tirol mit Bergen im Hintergrund",
+          "alt": "Offizielle Hochzeit in Tirol mit Bergen im Hintergrund"
+        },
+        {
+          "label": "Planung",
+          "title": "Guide zur Wetter- und Backup-Planung",
+          "copy": "Ein ruhiger Wetter-Guide für Paare, die in den Bergen nicht auf perfekte Bedingungen hoffen, sondern einen Tag planen möchten, der auch bei Nebel, Wind oder Regen stimmig bleibt.",
+          "href": "/guides/weather-and-backup-planning/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-161.jpg",
+          "imageAlt": "Wetterstimmung in den Dolomiten mit Wolken und Nebel",
+          "alt": "Wetterstimmung in den Dolomiten mit Wolken und Nebel"
+        }
+      ],
+      "hint": "Wischt nach links oder rechts, um weitere Guides zu sehen."
+    },
+    "final": {
+      "image": "/assets/uploads/Blitzkneisser-Photo-Drei-Zinnen-Italy-24.jpg",
+      "imageAlt": "Drei Zinnen in den Dolomiten bei ruhigem, klarem Licht",
+      "eyebrow": "Ruhig geplant",
+      "title": "Lasst uns etwas gestalten, das sich ruhig, persönlich und zutiefst wahr anfühlt.",
+      "copy": "Wenn ihr euch einen Hochzeitstag oder ein Elopement wünscht, das nicht nur schön aussieht, sondern sich auch ehrlich und leicht anfühlt, begleite ich euch gern bei der Planung.",
+      "cta": "Termin anfragen"
+    }
+  },
+  "en": {
+    "slug": "elopement-vs-traditional-wedding-alps",
+    "title": "Elopement vs Traditional Wedding in the Alps | Guide",
+    "description": "An honest guide for couples deciding between an alpine elopement and a more traditional wedding, weighing pace, guests, budget and intimacy.",
+    "hero": {
+      "eyebrow": "Comparison Guide",
+      "title": "Elopement vs Traditional Wedding in the Alps",
+      "copy": "An honest comparison for couples weighing intimacy, guests, budget and pace, and trying to understand which kind of wedding day genuinely fits them.",
+      "cta": "Explore the difference",
+      "image": "/assets/uploads/Blitzkneisser-Elopement_lago-di-Braies-9.jpg",
+      "imageAlt": "Couple in the Alps between intimate and larger wedding atmosphere"
+    },
+    "utility": {
+      "reading": "Guide",
+      "focus": "For couples weighing intimacy, guests, budget and the pace of the day",
+      "navOverview": "Overview",
+      "navSeasons": "Comparison",
+      "navPhilosophy": "Intro",
+      "navVisual": "More guides",
+      "navFaq": "FAQ"
+    },
+    "overview": {
+      "eyebrow": "Guide Overview",
+      "copy": "Choosing between an elopement and a more traditional wedding is rarely just about style. It is about how much closeness you need, how much structure feels supportive and whether you come alive in quiet arcs or larger celebrations.",
+      "items": [
+        {
+          "icon": "guests",
+          "label": "Core question",
+          "value": "How many people truly belong there?"
+        },
+        {
+          "icon": "sunrise",
+          "label": "Strongest criterion",
+          "value": "How do you want to feel?"
+        },
+        {
+          "icon": "calendar",
+          "label": "Budget reality",
+          "value": "More guests usually mean more structure"
+        },
+        {
+          "icon": "path",
+          "label": "Day rhythm",
+          "value": "Elopements usually allow more openness"
+        },
+        {
+          "icon": "crowd",
+          "label": "Ideal for",
+          "value": "Couples wanting an honest decision instead of an expected one"
+        }
+      ]
+    },
+    "philosophy": {
+      "eyebrow": "A first note",
+      "title": "The right wedding format does not feel bigger. It feels more true.",
+      "copy": "Some couples become fully themselves around guests, voices and long tables. Others only settle into the day when nobody is watching. Both can be beautiful, but not in the same way."
+    },
+    "sections": {
+      "seasonOrder": [
+        "personality",
+        "guests",
+        "budget",
+        "rhythm",
+        "emotion"
+      ],
+      "seasons": {
+        "personality": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Pragser-Wildsee-208.jpg",
+          "imageAlt": "Intimate couple in a quiet mountain landscape",
+          "eyebrow": "Personality",
+          "title": "Which format fits you as people?",
+          "intro": "",
+          "copy": "Some couples open most naturally in a quiet, reduced setting. Others feel that family, friends and shared joy belong there quite organically. The better choice is not the more aesthetic format. It is the one in which you do not have to perform a version of yourselves.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "guests",
+              "label": "Elopement",
+              "value": "More stillness and closeness"
+            },
+            {
+              "icon": "sun",
+              "label": "Traditional wedding",
+              "value": "More shared experience"
+            },
+            {
+              "icon": "path",
+              "label": "What matters",
+              "value": "How present you want to feel"
+            }
+          ],
+          "note": "",
+          "meta": "Personality • Presence • Truth",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "guests": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Hochtennboden-Standesamt-40.jpg",
+          "imageAlt": "Wedding moment with guests in an alpine setting",
+          "eyebrow": "Guests",
+          "title": "What your guest list really changes",
+          "intro": "",
+          "copy": "As soon as guests are part of the day, not only the logistics change but the emotional dynamic too. Access, temperatures, waiting times and comfort all become part of the lived experience. That is not a problem. It simply asks for a different kind of planning.",
+          "points": [
+            "A few people can shape a day deeply.\\nMany people need a clearer structure.\\nNot every beautiful place is a good guest place."
+          ],
+          "facts": [
+            {
+              "icon": "crowd",
+              "label": "More guests",
+              "value": "More timing and hosting"
+            },
+            {
+              "icon": "path",
+              "label": "Important",
+              "value": "Access and comfort"
+            },
+            {
+              "icon": "guests",
+              "label": "Good to know",
+              "value": "Intimate does not always mean without family"
+            }
+          ],
+          "note": "",
+          "meta": "Guests • Comfort • Structure",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "budget": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Wedding-140.jpg",
+          "imageAlt": "Alpine wedding with thoughtful budget choices",
+          "eyebrow": "Budget",
+          "title": "What you want your budget to hold",
+          "intro": "",
+          "copy": "An elopement is not automatically cheap, and a larger wedding is not automatically excessive. The difference is usually where the money goes: more people and infrastructure, or more time, landscape, privacy and experience.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "calendar",
+              "label": "Elopement",
+              "value": "Often more space for time and experience"
+            },
+            {
+              "icon": "guests",
+              "label": "Traditional wedding",
+              "value": "Often more budget for people and structure"
+            },
+            {
+              "icon": "sunrise",
+              "label": "Best question",
+              "value": "What do you want to matter later?"
+            }
+          ],
+          "note": "",
+          "meta": "Budget • Priorities • Memory",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "rhythm": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-360.jpg",
+          "imageAlt": "Quiet rhythm of a mountain day",
+          "eyebrow": "Rhythm",
+          "title": "How you want the day to move",
+          "intro": "",
+          "copy": "An elopement can unfold through sunrise, a walk, pauses, evening light and long quiet spaces in between. A larger wedding usually carries more fixed points, more transitions and more responsibility toward other people. Both can be beautiful. They simply feel completely different.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "sunrise",
+              "label": "Elopement",
+              "value": "More openness and air"
+            },
+            {
+              "icon": "calendar",
+              "label": "Traditional",
+              "value": "More programme and transitions"
+            },
+            {
+              "icon": "path",
+              "label": "Real question",
+              "value": "Do you want to drift or to host?"
+            }
+          ],
+          "note": "",
+          "meta": "Rhythm • Openness • Responsibility",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "emotion": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Photo-165.jpg",
+          "imageAlt": "Emotional couple moment in the Alps",
+          "eyebrow": "Emotion",
+          "title": "Which emotional shape feels truest",
+          "intro": "",
+          "copy": "Some couples long for a very private depth with almost no audience. Others want to share the day consciously while still protecting intimacy. The strongest choice is usually the one that feels less like an expectation and more like your own inner tempo.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "wind",
+              "label": "Elopement",
+              "value": "Often quieter and more inward"
+            },
+            {
+              "icon": "guests",
+              "label": "Traditional",
+              "value": "Often more communal and celebratory"
+            },
+            {
+              "icon": "sun",
+              "label": "Best choice",
+              "value": "The shape in which you stay soft"
+            }
+          ],
+          "note": "",
+          "meta": "Emotion • Nearness • Inner tempo",
+          "linkLabel": "",
+          "linkHref": ""
+        }
+      }
+    },
+    "planning": {
+      "eyebrow": "Planning Notes",
+      "title": "What can actually help you decide.",
+      "intro": "You do not have to know the perfect format immediately. It is enough to understand what gives you calm and what is likely to make you tense.",
+      "items": [
+        {
+          "label": "Start with feeling",
+          "title": "Do not begin with what looks prettier.",
+          "copy": "Start with whether you are longing for stillness, openness and little audience, or for a day shared with more people.",
+          "meta": "The most honest question is often the most useful."
+        },
+        {
+          "label": "Read guests realistically",
+          "title": "A guest count is not a neutral number.",
+          "copy": "Every additional person changes access, timing, comfort and responsibility.",
+          "meta": "Numbers become atmosphere."
+        },
+        {
+          "label": "Read budget direction",
+          "title": "It is less about cheap or expensive than about where things go.",
+          "copy": "Do you want to invest more in people and structure or in landscape, time and privacy?",
+          "meta": "Budget mirrors priorities."
+        },
+        {
+          "label": "Do not choose the middle from fear",
+          "title": "Do not aim for a compromise that does not actually feel like you.",
+          "copy": "The strongest day is not the one that pleases everyone equally. It is the one that feels true to you.",
+          "meta": "Truth beats average."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Questions that almost always come up in this decision.",
+      "intro": "The real question is rarely only big versus small. More often, it is about the setting in which you feel most like yourselves.",
+      "items": [
+        {
+          "q": "Is an elopement automatically more emotional?",
+          "a": "Not automatically. It is often more concentrated, quieter and closer, but some couples feel their deepest emotions surrounded by the people they love. A day becomes emotional where you do not have to perform."
+        },
+        {
+          "q": "Is a traditional wedding automatically more stressful?",
+          "a": "Not necessarily. It simply becomes more complex more quickly because more people, timing and expectations are involved. With good planning, a larger day can still feel beautifully held."
+        },
+        {
+          "q": "Can we include family and still keep the day intimate?",
+          "a": "Yes. Many couples find a strong middle ground in a smaller guest count, clearly separated chapters or a distinction between the shared celebration and the private part of the day."
+        },
+        {
+          "q": "Is an elopement cheaper?",
+          "a": "Often yes, but not always. Fewer guests usually reduce costs, while many couples invest more intentionally in place, imagery, travel or meaningful experiences. It is often a different distribution rather than simply a smaller number."
+        },
+        {
+          "q": "How do we know what fits us better?",
+          "a": "Ask yourselves when you feel most like a couple: among many people, or in a quieter space. That answer is often more honest than any budget sheet."
+        },
+        {
+          "q": "Can we combine both?",
+          "a": "Yes, very well. An intimate mountain day and a second celebration with family can be the most fitting structure for many couples."
+        }
+      ]
+    },
+    "related": {
+      "eyebrow": "Related Guides",
+      "items": [
+        {
+          "label": "Planning",
+          "title": "Dolomites Elopement Guide",
+          "copy": "A calm starting point for couples planning a Dolomites Elopement or intimate mountain wedding and wanting to understand how light, access, weather and crowds truly shape the day.",
+          "href": "/guides/dolomites-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-120.jpg",
+          "imageAlt": "Couple during a Dolomites elopement in soft morning light",
+          "alt": "Couple during a Dolomites elopement in soft morning light"
+        },
+        {
+          "label": "Civil Wedding",
+          "title": "Civil Wedding in Austria",
+          "copy": "A clear guide for international couples who want to marry legally in Austria and connect the official part with mountains, quiet and a personal wedding day.",
+          "href": "/guides/civil-wedding-austria-foreign-couples/",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Kemater-Alm-12.jpg",
+          "imageAlt": "International couple during a civil wedding in Austria",
+          "alt": "International couple during a civil wedding in Austria"
+        },
+        {
+          "label": "Planning",
+          "title": "Multi-Day Elopement Guide",
+          "copy": "A guide for couples who want more than a few rushed hours in the mountains and would rather let the day unfold with space around it.",
+          "href": "/guides/multi-day-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Insta-11.jpg",
+          "imageAlt": "Multi-day elopement in the Dolomites",
+          "alt": "Multi-day elopement in the Dolomites"
+        },
+        {
+          "label": "Tyrol",
+          "title": "Best Places to Officially Elope in Tyrol",
+          "copy": "A guide for couples who want to combine an official ceremony in Tyrol with mountains, lakes and a wedding day that still feels clear and personal.",
+          "href": "/guides/best-places-officially-elope-tyrol/",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Winter-Wedding-Shooting-58.jpg",
+          "imageAlt": "Official wedding in Tyrol with mountains in the background",
+          "alt": "Official wedding in Tyrol with mountains in the background"
+        },
+        {
+          "label": "Planning",
+          "title": "Weather & Backup Planning Guide",
+          "copy": "A calm weather guide for couples who do not want to hope for perfect conditions in the mountains, but want to build a day that still feels right in fog, wind or rain.",
+          "href": "/guides/weather-and-backup-planning/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-161.jpg",
+          "imageAlt": "Weather in the Dolomites with clouds and fog",
+          "alt": "Weather in the Dolomites with clouds and fog"
+        }
+      ],
+      "hint": "Swipe left or right to explore more guides."
+    },
+    "final": {
+      "image": "/assets/uploads/Blitzkneisser-Photo-Drei-Zinnen-Italy-24.jpg",
+      "imageAlt": "Tre Cime in the Dolomites in calm, clear light",
+      "eyebrow": "Planned with intention",
+      "title": "Let’s create something that feels calm, personal and deeply true.",
+      "copy": "If you are looking for a wedding day or elopement that feels honest, spacious and beautifully considered, I would love to help you shape it.",
+      "cta": "Inquire now"
+    }
+  }
+}

@@ -1,0 +1,718 @@
+{
+  "de": {
+    "slug": "sunrise-vs-sunset-dolomites",
+    "title": "Sonnenaufgang oder Sonnenuntergang in den Dolomiten | Licht, Ruhe und Tagesrhythmus",
+    "description": "Guide zu Sonnenaufgang oder Sonnenuntergang in den Dolomiten mit ehrlichen Hinweisen zu Licht, Kälte, Menschenmengen und der Tageszeit, die wirklich zu euch passt.",
+    "hero": {
+      "eyebrow": "Planungs-Guide",
+      "title": "Sonnenaufgang vs. Sonnenuntergang in den Dolomiten",
+      "copy": "Ein ehrlicher Vergleich für Paare, die nicht nur schönes Licht suchen, sondern verstehen möchten, welche Tageszeit zu ihrem Energielevel, ihrem Ort und dem gewünschten Gefühl passt.",
+      "cta": "Planung starten",
+      "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Photo-368.jpg",
+      "imageAlt": "Lichtstimmung in den Bergen bei Sonnenaufgang oder Sonnenuntergang"
+    },
+    "utility": {
+      "reading": "Guide",
+      "focus": "Für Paare, die das Licht und den Rhythmus des Tages wählen",
+      "navOverview": "Überblick",
+      "navSeasons": "Lichtfenster",
+      "navPhilosophy": "Einführung",
+      "navVisual": "Weitere Guides",
+      "navFaq": "FAQ"
+    },
+    "overview": {
+      "eyebrow": "Guide im Überblick",
+      "copy": "Sonnenaufgang ist in den Dolomiten oft ruhiger, kälter und persönlicher. Sonnenuntergang wirkt wärmer und weicher, bringt aber je nach Ort oft mehr Menschen, mehr Geräusche und weniger zeitliche Kontrolle mit sich.",
+      "items": [
+        {
+          "icon": "sunrise",
+          "label": "Ideal für Privatsphäre",
+          "value": "Normalerweise Sonnenaufgang"
+        },
+        {
+          "icon": "sun",
+          "label": "Wärmste Stimmung",
+          "value": "Normalerweise Sonnenuntergang"
+        },
+        {
+          "icon": "crowd",
+          "label": "Massen",
+          "value": "Früh niedriger, später höher"
+        },
+        {
+          "icon": "guests",
+          "label": "Energiebedarf",
+          "value": "Höher bei Sonnenaufgang"
+        },
+        {
+          "icon": "calendar",
+          "label": "Ideal für",
+          "value": "Paare, die zwischen Stille und Leichtigkeit wählen"
+        }
+      ]
+    },
+    "philosophy": {
+      "eyebrow": "Eine erste Orientierung",
+      "title": "Die schönere Tageszeit ist nicht immer dieselbe. Die passendere fast schon.",
+      "copy": "Manche Paare blühen im Dunkeln vor dem ersten Licht auf, andere möchten den Tag lieber langsamer beginnen. Beides kann richtig sein. Entscheidend ist, wie ihr den Morgen, die Wege und eure Energie wirklich erleben möchtet."
+    },
+    "sections": {
+      "seasonOrder": [
+        "why",
+        "sunset",
+        "light",
+        "recommendations"
+      ],
+      "seasons": {
+        "why": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-1.jpg",
+          "imageAlt": "Platzhalterbild für Sonnenaufgang in den Dolomiten",
+          "eyebrow": "",
+          "title": "Warum Sonnenaufgang in den Dolomiten meist am stärksten ist",
+          "intro": "Die Berge gehören morgens oft für einen kurzen Moment fast nur euch.",
+          "copy": "Frühe Starts bedeuten leere Parkplätze, kühlere Luft, weicheres Licht und deutlich weniger Stimmen auf den Wegen. Gerade an bekannten Orten ist das oft der Unterschied zwischen einem stillen Erlebnis und einem sehr öffentlichen Morgen.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "guests",
+              "label": "Ideal für",
+              "value": "Privatsphäre und Stille"
+            },
+            {
+              "icon": "sunrise",
+              "label": "Licht",
+              "value": "Weich und dimensional"
+            },
+            {
+              "icon": "crowd",
+              "label": "Massen",
+              "value": "Am niedrigsten"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "sunset": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Proposel-98.jpg",
+          "imageAlt": "Platzhalterbild für das Berglicht am späten Abend",
+          "eyebrow": "",
+          "title": "Wann Sonnenuntergang besser funktioniert",
+          "intro": "Der Abend kann wunderbar sein, wenn der Ort und euer Tagesrhythmus dazu passen.",
+          "copy": "Späteres Licht ist wärmer, oft entspannter im Körper und leichter für Paare, die keine nächtliche Anreise mögen. Gleichzeitig sind manche Hotspots am Abend voller, lauter und weniger konzentriert.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "sun",
+              "label": "Ideal für",
+              "value": "Wärme und langsameres Tempo"
+            },
+            {
+              "icon": "path",
+              "label": "Funktioniert gut",
+              "value": "Wiesen, Seen, sanftere Landschaften"
+            },
+            {
+              "icon": "crowd",
+              "label": "Abtausch",
+              "value": "Oft mehr Leute"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "light": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-8.jpg",
+          "imageAlt": "Platzhalterbild für Berglichtqualität",
+          "eyebrow": "",
+          "title": "Wie sich das Licht wirklich unterscheidet",
+          "intro": "Morgenlicht erzählt anders als Abendlicht.",
+          "copy": "Sonnenaufgang wirkt oft klarer, frischer und stiller. Sonnenuntergang bringt mehr Wärme, längere Schatten und manchmal eine weichere, schwerere Stimmung.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "sunrise",
+              "label": "Sonnenaufgangslicht",
+              "value": "Klar, weich, geräumig"
+            },
+            {
+              "icon": "sun",
+              "label": "Sonnenuntergangslicht",
+              "value": "Warm, langsam, golden"
+            },
+            {
+              "icon": "wind",
+              "label": "Beste Wahl",
+              "value": "Hängt von der gewünschten Stimmung ab"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "recommendations": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Instagram-174.jpg",
+          "imageAlt": "Platzhalterbild für Standortempfehlungen bei Licht",
+          "eyebrow": "",
+          "title": "Welche Orte zu welcher Tageszeit passen",
+          "intro": "Nicht jeder Ort trägt beide Zeitfenster gleich gut.",
+          "copy": "Braies, Cadini oder Drei Zinnen profitieren stark von frühen Stunden. Sanftere Täler oder Orte mit mehr Bewegungsfreiheit können auch am Abend sehr schön funktionieren, wenn der Betrieb überschaubar bleibt.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "sunrise",
+              "label": "Am besten bei Sonnenaufgang",
+              "value": "Lago di Braies, Seceda, Drei Zinnen"
+            },
+            {
+              "icon": "sun",
+              "label": "Flexibler",
+              "value": "Wiesen und ruhigere Täler"
+            },
+            {
+              "icon": "path",
+              "label": "Beste Regel",
+              "value": "Passen ihr das Licht an den Standort an, nicht nur an eure Vorlieben"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        }
+      }
+    },
+    "planning": {
+      "eyebrow": "Planungsnotizen",
+      "title": "Was bei der Wahl zwischen Morgen und Abend wirklich hilft.",
+      "intro": "Wählt nicht nur nach Farben im Himmel, sondern danach, wie ihr euch auf Wegen, in Kälte und unter Zeitdruck erleben möchtet.",
+      "items": [
+        {
+          "label": "Crowds",
+          "title": "Bekannte Orte verhalten sich morgens oft völlig anders.",
+          "copy": "Wenn ihr Intimität sucht, ist der Tagesbeginn an vielen Dolomiten-Locations fast unschlagbar.",
+          "meta": "Leere ist oft der eigentliche Luxus."
+        },
+        {
+          "label": "Körper",
+          "title": "Ein sehr früher Start ist nicht für jedes Paar automatisch schön.",
+          "copy": "Wenn Müdigkeit euch nervös macht, kann ein späteres Zeitfenster die bessere Entscheidung sein.",
+          "meta": "Energie gehört zum Bild."
+        },
+        {
+          "label": "Licht",
+          "title": "Morgens ist das Licht häufig klarer, abends weicher und wärmer.",
+          "copy": "Beides kann großartig aussehen, aber es erzählt unterschiedliche Geschichten.",
+          "meta": "Licht ist auch Stimmung."
+        },
+        {
+          "label": "Ort",
+          "title": "Der Ort entscheidet mit.",
+          "copy": "Ein bekannter Aussichtspunkt kann am Abend zu viel tragen, während ein stillerer Talort gerade dann wunderschön ist.",
+          "meta": "Zeit und Ort lassen sich nicht trennen."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Fragen, die bei der Entscheidung zwischen Sonnenaufgang und Sonnenuntergang oft auftauchen.",
+      "intro": "Die beste Tageszeit hängt selten nur vom Licht ab. Meist geht es um Energie, Menschenmengen, Kälte und darum, wie ihr euch in diesem Teil des Tages wirklich erleben möchtet.",
+      "items": [
+        {
+          "q": "Ist der Sonnenaufgang in den Dolomiten immer schöner?",
+          "a": "Nicht immer schöner, aber an vielen bekannten Orten deutlich stiller. Wenn euch Leere, Kühle und ein persönlicheres Gefühl wichtig sind, ist der Morgen oft die stärkere Wahl."
+        },
+        {
+          "q": "Kann sich der Sonnenuntergang noch privat anfühlen?",
+          "a": "Ja, aber stärker ortsabhängig. An ruhigen Tälern oder weniger bekannten Spots kann Abendlicht wunderschön sein. An ikonischen Hotspots wird es zum Abend hin oft voller."
+        },
+        {
+          "q": "Welches hat das schönere Licht?",
+          "a": "Das hängt von eurer Bildsprache ab. Sonnenaufgang wirkt oft klarer, kühler und stiller. Sonnenuntergang bringt Wärme, längere Schatten und eine weichere Schwere mit."
+        },
+        {
+          "q": "Was, wenn wir keine Morgenmenschen sind?",
+          "a": "Dann muss Sonnenaufgang nicht automatisch richtig sein. Wenn Müdigkeit euch verkrampft macht, kann ein gut gewählter Abendort die bessere Entscheidung sein."
+        }
+      ]
+    },
+    "related": {
+      "eyebrow": "Verwandte Leitfäden",
+      "hint": "Wischt nach links oder rechts, um weitere Guides zu sehen.",
+      "items": [
+        {
+          "label": "Dolomiten",
+          "title": "Elopement-Guide für die Dolomiten",
+          "copy": "Ein ruhiger Ausgangspunkt für Paare, die ein Dolomites Elopement oder eine intime Berghochzeit planen und verstehen möchten, wie Licht, Wege, Wetter und Menschenmengen den Tag wirklich prägen.",
+          "href": "/guides/dolomites-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-120.jpg",
+          "imageAlt": "Paar bei einem Dolomiten-Elopement im weichen Morgenlicht",
+          "alt": "Paar bei einem Dolomiten-Elopement im weichen Morgenlicht"
+        },
+        {
+          "label": "Standorte",
+          "title": "Die beliebtesten Elopement-Orte in den Dolomiten",
+          "copy": "Ein kuratierter Guide für Paare, die nicht einfach irgendeine schöne Aussicht suchen, sondern den Ort, dessen Stimmung wirklich zu ihrem Tag passt.",
+          "href": "/guides/best-dolomites-elopement-locations/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-191.jpg",
+          "imageAlt": "Elopement-Standorte in den Dolomiten",
+          "alt": "Elopement-Standorte in den Dolomiten"
+        },
+        {
+          "label": "Standorte",
+          "title": "Lago di Braies Guide",
+          "copy": "Ein ehrlicher Guide für Paare, die den Pragser Wildsee nicht nur als berühmtes Bild kennen, sondern verstehen möchten, wann er still, weich und tatsächlich erlebbar wird.",
+          "href": "/guides/lago-di-braies-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopemnt-Dolomites-Lago-di-Braies-19.jpg",
+          "imageAlt": "Lago di Braies mit ruhigem Wasser und frühem Licht",
+          "alt": "Lago di Braies mit ruhigem Wasser und frühem Licht"
+        },
+        {
+          "label": "Standorte",
+          "title": "Seceda Guide",
+          "copy": "Ein Guide für Paare, die an Seceda nicht nur die berühmte Kante suchen, sondern das Gefühl von Weite, Wind und offenem Berglicht, das diesen Ort so unverwechselbar macht.",
+          "href": "/guides/seceda-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Seceda-180.jpg",
+          "imageAlt": "Seceda bei klarem Berglicht",
+          "alt": "Seceda bei klarem Berglicht"
+        },
+        {
+          "label": "Standorte",
+          "title": "Cadini di Misurina Guide",
+          "copy": "Ein Guide für Paare, die an Cadini diese wilde, kinoreife Spannung lieben und zugleich wissen möchten, wann der Ort zugänglich, sicher und wirklich stimmig ist.",
+          "href": "/guides/cadini-di-misurina-guide/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-12.jpg",
+          "imageAlt": "Cadini di Misurina mit markanten Felsformen",
+          "alt": "Cadini di Misurina mit markanten Felsformen"
+        },
+        {
+          "label": "Standorte",
+          "title": "Drei Zinnen Guide",
+          "copy": "Ein ehrlicher Guide für Paare, die Drei Zinnen nicht nur wegen des berühmten Blicks wählen, sondern wegen dieser monumentalen, fast unwirklichen Präsenz, die der Ort im richtigen Moment entfaltet.",
+          "href": "/guides/tre-cime-wedding-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14.jpg",
+          "imageAlt": "Drei Zinnen bei klarem Berglicht",
+          "alt": "Drei Zinnen bei klarem Berglicht"
+        },
+        {
+          "label": "Planung",
+          "title": "Beste Jahreszeit für ein Dolomiten-Elopement",
+          "copy": "Ein ehrlicher Guide zu Licht, Temperaturen, Menschenmengen und der Frage, wann sich die Berge nicht nur schön, sondern wirklich stimmig für euch anfühlen.",
+          "href": "/guides/best-time-for-a-dolomites-elopement/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-16.jpg",
+          "imageAlt": "Vorhandenes Bild zur schönsten Zeit in den Dolomiten",
+          "alt": "Vorhandenes Bild zur schönsten Zeit in den Dolomiten"
+        },
+        {
+          "label": "Planung",
+          "title": "Guide zur Wetter- und Backup-Planung",
+          "copy": "Ein ruhiger Wetter-Guide für Paare, die in den Bergen nicht auf perfekte Bedingungen hoffen, sondern einen Tag planen möchten, der auch bei Nebel, Wind oder Regen stimmig bleibt.",
+          "href": "/guides/weather-and-backup-planning/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-161.jpg",
+          "imageAlt": "Wetterstimmung in den Dolomiten mit Wolken und Nebel",
+          "alt": "Wetterstimmung in den Dolomiten mit Wolken und Nebel"
+        },
+        {
+          "label": "Planung",
+          "title": "Was man in den Bergen anziehen sollte",
+          "copy": "Ein praktischer Guide für Paare, die in den Bergen nicht nur schön aussehen, sondern sich auch frei bewegen, warm bleiben und sich in ihrer Kleidung wirklich wiederfinden möchten.",
+          "href": "/guides/what-to-wear-in-the-mountains/",
+          "image": "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Hut-13.jpg",
+          "imageAlt": "Kleidung für ein Elopement in den Bergen",
+          "alt": "Kleidung für ein Elopement in den Bergen"
+        },
+        {
+          "label": "Planung",
+          "title": "Helikopter-Elopement-Guide",
+          "copy": "Ein Guide für Paare, die Weite, Abgeschiedenheit und einen klareren Tagesfluss suchen und verstehen möchten, wann ein Helikopter in den Bergen wirklich sinnvoll ist.",
+          "href": "/guides/helicopter-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-12.jpg",
+          "imageAlt": "Helikopterflug über den Bergen für ein Elopement",
+          "alt": "Helikopterflug über den Bergen für ein Elopement"
+        },
+        {
+          "label": "Planung",
+          "title": "Mehrtägiger Elopement-Guide",
+          "copy": "Ein Guide für Paare, die mehr wollen als ein paar schnelle Stunden in den Bergen und ihren Hochzeitstag lieber in Ruhe entfalten lassen möchten.",
+          "href": "/guides/multi-day-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Insta-11.jpg",
+          "imageAlt": "Mehrtägiges Elopement in den Dolomiten",
+          "alt": "Mehrtägiges Elopement in den Dolomiten"
+        }
+      ]
+    },
+    "final": {
+      "eyebrow": "Ruhig geplant",
+      "title": "Lasst uns etwas gestalten, das sich ruhig, persönlich und zutiefst wahr anfühlt.",
+      "copy": "Wenn sich dieser Guide bereits nah an dem anfühlt, was ihr euch wünscht, helfe ich euch gern dabei, dieses Gefühl in etwas Ruhiges, Filmisches und wirklich Eigenes in den Bergen zu verwandeln.",
+      "cta": "Termin anfragen",
+      "image": "/assets/uploads/Blitzkneisser-Photo-Drei-Zinnen-Italy-24.jpg",
+      "imageAlt": "Drei Zinnen in den Dolomiten bei ruhigem, klarem Licht"
+    }
+  },
+  "en": {
+    "slug": "sunrise-vs-sunset-dolomites",
+    "title": "Sunrise vs Sunset in the Dolomites | Light, Quiet and Daily Rhythm",
+    "description": "A guide to sunrise versus sunset in the Dolomites, with honest notes on light, cold air, crowds and the time of day that truly fits you.",
+    "hero": {
+      "eyebrow": "Planning Guide",
+      "title": "Sunrise vs Sunset in the Dolomites",
+      "copy": "An honest comparison for couples who want more than beautiful light and are trying to understand which time of day fits their energy, their location and the feeling they want to remember.",
+      "cta": "Start planning",
+      "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Photo-368.jpg",
+      "imageAlt": "Mountain light at sunrise or sunset"
+    },
+    "utility": {
+      "reading": "Guide",
+      "focus": "For couples choosing the light and rhythm of the day",
+      "navOverview": "Overview",
+      "navSeasons": "Light Windows",
+      "navPhilosophy": "Intro",
+      "navVisual": "More guides",
+      "navFaq": "FAQ"
+    },
+    "overview": {
+      "eyebrow": "Guide Overview",
+      "copy": "Sunrise in the Dolomites is often quieter, colder and more personal. Sunset tends to feel warmer and softer, but depending on the place it can also bring more people, more noise and less control over the mood.",
+      "items": [
+        {
+          "icon": "sunrise",
+          "label": "Best For Privacy",
+          "value": "Usually sunrise"
+        },
+        {
+          "icon": "sun",
+          "label": "Warmest Mood",
+          "value": "Usually sunset"
+        },
+        {
+          "icon": "crowd",
+          "label": "Crowds",
+          "value": "Lower early, higher later"
+        },
+        {
+          "icon": "guests",
+          "label": "Energy Need",
+          "value": "Higher at sunrise"
+        },
+        {
+          "icon": "calendar",
+          "label": "Best For",
+          "value": "Couples choosing between stillness and ease"
+        }
+      ]
+    },
+    "philosophy": {
+      "eyebrow": "A first note",
+      "title": "The more beautiful time of day is not always the same. The more fitting one usually is.",
+      "copy": "Some couples come alive in the dark before first light. Others want the day to begin more slowly. Both can be right. What matters is how you actually want to move through the morning, the approach and your own energy."
+    },
+    "sections": {
+      "seasonOrder": [
+        "why",
+        "sunset",
+        "light",
+        "recommendations"
+      ],
+      "seasons": {
+        "why": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-1.jpg",
+          "imageAlt": "Placeholder image for sunrise in the Dolomites",
+          "eyebrow": "",
+          "title": "Why sunrise is often the strongest choice in the Dolomites",
+          "intro": "For a short window, the mountains can feel almost entirely yours.",
+          "copy": "Early starts usually mean emptier parking areas, colder air, gentler light and far fewer voices on the trails. At famous locations, that alone often changes the whole emotional quality of the experience.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "guests",
+              "label": "Best For",
+              "value": "Privacy and stillness"
+            },
+            {
+              "icon": "sunrise",
+              "label": "Light",
+              "value": "Soft and dimensional"
+            },
+            {
+              "icon": "crowd",
+              "label": "Crowds",
+              "value": "Lowest"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "sunset": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Proposel-98.jpg",
+          "imageAlt": "Placeholder image for late evening mountain light",
+          "eyebrow": "",
+          "title": "When sunset works better",
+          "intro": "Evening can be beautiful when the place and your natural rhythm suit it.",
+          "copy": "Later light feels warmer and often easier on the body for couples who do not love a night start. At the same time, some well-known places are fuller, louder and less focused by evening.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "sun",
+              "label": "Best For",
+              "value": "Warmth and slower pacing"
+            },
+            {
+              "icon": "path",
+              "label": "Works Well At",
+              "value": "Meadows, lakes, gentler landscapes"
+            },
+            {
+              "icon": "crowd",
+              "label": "Tradeoff",
+              "value": "Often more people"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "light": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-8.jpg",
+          "imageAlt": "Placeholder image for mountain light quality",
+          "eyebrow": "",
+          "title": "How the light really differs",
+          "intro": "Morning light tells a different story than evening light.",
+          "copy": "Sunrise usually feels clearer, cooler and more still. Sunset brings more warmth, longer shadows and sometimes a softer, heavier mood.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "sunrise",
+              "label": "Sunrise Light",
+              "value": "Clear, soft, spacious"
+            },
+            {
+              "icon": "sun",
+              "label": "Sunset Light",
+              "value": "Warm, slow, golden"
+            },
+            {
+              "icon": "wind",
+              "label": "Best Choice",
+              "value": "Depends on the mood you want"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "recommendations": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Instagram-174.jpg",
+          "imageAlt": "Placeholder image for location recommendations by light",
+          "eyebrow": "",
+          "title": "Which places suit which time of day",
+          "intro": "Not every location carries both windows equally well.",
+          "copy": "Braies, Cadini and Tre Cime benefit strongly from early hours. Gentler valleys or locations with more movement can also feel beautiful in the evening if the visitor rhythm stays manageable.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "sunrise",
+              "label": "Best at Sunrise",
+              "value": "Lago di Braies, Seceda, Tre Cime"
+            },
+            {
+              "icon": "sun",
+              "label": "More Flexible",
+              "value": "Meadows and quieter valleys"
+            },
+            {
+              "icon": "path",
+              "label": "Best Rule",
+              "value": "Match light to location, not only preference"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        }
+      }
+    },
+    "planning": {
+      "eyebrow": "Planning Notes",
+      "title": "What really helps when choosing between morning and evening.",
+      "intro": "Choose not only by sky color, but by how you want to feel on the walk, in the cold and under time pressure.",
+      "items": [
+        {
+          "label": "Crowds",
+          "title": "Famous places behave very differently in the morning.",
+          "copy": "If privacy matters, the start of the day is often hard to beat in the Dolomites.",
+          "meta": "Empty space is often the real luxury."
+        },
+        {
+          "label": "Body",
+          "title": "A very early start is not automatically beautiful for every couple.",
+          "copy": "If exhaustion makes you tense, a later window may serve the day better.",
+          "meta": "Energy belongs in the picture too."
+        },
+        {
+          "label": "Light",
+          "title": "Morning is often clearer; evening is softer and warmer.",
+          "copy": "Both can look beautiful, but they do not tell the same story.",
+          "meta": "Light is also emotional tone."
+        },
+        {
+          "label": "Place",
+          "title": "The location helps make the decision.",
+          "copy": "An iconic lookout may feel too public in the evening, while a quieter valley can be gorgeous at that same hour.",
+          "meta": "Time and place always work together."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Questions that often come up when choosing between sunrise and sunset.",
+      "intro": "The better time of day is rarely only about light. More often, it is about energy, crowds, temperature and how you actually want to feel in that part of the day.",
+      "items": [
+        {
+          "q": "Is sunrise in the Dolomites always more beautiful?",
+          "a": "Not always more beautiful, but at famous places it is often much quieter. If space, cold air and a more personal feeling matter to you, morning is usually the stronger choice."
+        },
+        {
+          "q": "Can sunset still feel private?",
+          "a": "Yes, but it depends more heavily on the location. In quieter valleys or less obvious places, evening can be beautiful. At iconic hotspots, it often becomes busier as the day goes on."
+        },
+        {
+          "q": "Which has the better light?",
+          "a": "That depends on the visual story you want. Sunrise often feels clearer, cooler and quieter. Sunset brings warmth, longer shadows and a softer heaviness."
+        },
+        {
+          "q": "What if we are not morning people?",
+          "a": "Then sunrise is not automatically right for you. If exhaustion makes you tense, a well-chosen evening location may serve the day much better."
+        }
+      ]
+    },
+    "related": {
+      "eyebrow": "Related Guides",
+      "hint": "Swipe left or right to explore more guides.",
+      "items": [
+        {
+          "label": "Dolomites",
+          "title": "Dolomites Elopement Guide",
+          "copy": "A calm starting point for couples planning a Dolomites Elopement or intimate mountain wedding and wanting to understand how light, access, weather and crowds truly shape the day.",
+          "href": "/guides/dolomites-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-120.jpg",
+          "imageAlt": "Couple during a Dolomites elopement in soft morning light",
+          "alt": "Couple during a Dolomites elopement in soft morning light"
+        },
+        {
+          "label": "Locations",
+          "title": "The most popular elopement locations in the Dolomites",
+          "copy": "A curated guide for couples who are not looking for just any beautiful view, but for the place whose atmosphere truly fits the day they want.",
+          "href": "/guides/best-dolomites-elopement-locations/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-191.jpg",
+          "imageAlt": "Elopement locations in the Dolomites",
+          "alt": "Elopement locations in the Dolomites"
+        },
+        {
+          "label": "Locations",
+          "title": "Lago di Braies Guide",
+          "copy": "An honest guide for couples who know Lago di Braies as more than a famous photograph and want to understand when it feels soft, quiet and truly worth experiencing.",
+          "href": "/guides/lago-di-braies-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopemnt-Dolomites-Lago-di-Braies-19.jpg",
+          "imageAlt": "Lago di Braies with still water and early light",
+          "alt": "Lago di Braies with still water and early light"
+        },
+        {
+          "label": "Locations",
+          "title": "Seceda Guide",
+          "copy": "A guide for couples drawn to Seceda not only for the famous ridge, but for the feeling of openness, wind and high alpine light that makes it so distinctive.",
+          "href": "/guides/seceda-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Seceda-180.jpg",
+          "imageAlt": "Seceda in clear mountain light",
+          "alt": "Seceda in clear mountain light"
+        },
+        {
+          "label": "Locations",
+          "title": "Cadini di Misurina Guide",
+          "copy": "A guide for couples who love the wild, cinematic tension of Cadini and want to know when it is accessible, safe and genuinely worth choosing.",
+          "href": "/guides/cadini-di-misurina-guide/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-12.jpg",
+          "imageAlt": "Cadini di Misurina with dramatic rock formations",
+          "alt": "Cadini di Misurina with dramatic rock formations"
+        },
+        {
+          "label": "Locations",
+          "title": "Tre Cime Wedding Guide",
+          "copy": "An honest guide for couples choosing Tre Cime not only for the famous view, but for the monumental, almost unreal presence the place carries when the timing is right.",
+          "href": "/guides/tre-cime-wedding-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14.jpg",
+          "imageAlt": "Tre Cime in clear mountain light",
+          "alt": "Tre Cime in clear mountain light"
+        },
+        {
+          "label": "Planning",
+          "title": "Best Time for a Dolomites Elopement",
+          "copy": "An honest guide to light, temperatures, crowds and the question of when the mountains will not only look beautiful, but genuinely feel right for you.",
+          "href": "/guides/best-time-for-a-dolomites-elopement/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-16.jpg",
+          "imageAlt": "Existing image for best time in the Dolomites",
+          "alt": "Existing image for best time in the Dolomites"
+        },
+        {
+          "label": "Planning",
+          "title": "Weather & Backup Planning Guide",
+          "copy": "A calm weather guide for couples who do not want to hope for perfect conditions in the mountains, but want to build a day that still feels right in fog, wind or rain.",
+          "href": "/guides/weather-and-backup-planning/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-161.jpg",
+          "imageAlt": "Weather in the Dolomites with clouds and fog",
+          "alt": "Weather in the Dolomites with clouds and fog"
+        },
+        {
+          "label": "Planning",
+          "title": "What to Wear in the Mountains",
+          "copy": "A practical guide for couples who want to look beautiful in the mountains, but also move freely, stay warm and still feel like themselves in what they wear.",
+          "href": "/guides/what-to-wear-in-the-mountains/",
+          "image": "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Hut-13.jpg",
+          "imageAlt": "Outfit ideas for a mountain elopement",
+          "alt": "Outfit ideas for a mountain elopement"
+        },
+        {
+          "label": "Planning",
+          "title": "Helicopter Elopement Guide",
+          "copy": "A guide for couples seeking more space, privacy and a clearer flow to the day, and wanting to understand when a helicopter in the mountains genuinely makes sense.",
+          "href": "/guides/helicopter-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-12.jpg",
+          "imageAlt": "Helicopter flight above the mountains for an elopement",
+          "alt": "Helicopter flight above the mountains for an elopement"
+        },
+        {
+          "label": "Planning",
+          "title": "Multi-Day Elopement Guide",
+          "copy": "A guide for couples who want more than a few rushed hours in the mountains and would rather let the day unfold with space around it.",
+          "href": "/guides/multi-day-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Insta-11.jpg",
+          "imageAlt": "Multi-day elopement in the Dolomites",
+          "alt": "Multi-day elopement in the Dolomites"
+        }
+      ]
+    },
+    "final": {
+      "eyebrow": "Planned with intention",
+      "title": "Let’s shape something that feels quiet, personal and deeply true to you.",
+      "copy": "If this guide already feels close to the way you want the day to move, I would love to help you turn that feeling into something calm, cinematic and genuinely your own in the mountains.",
+      "cta": "Inquire now",
+      "image": "/assets/uploads/Blitzkneisser-Photo-Drei-Zinnen-Italy-24.jpg",
+      "imageAlt": "Tre Cime in the Dolomites in calm, clear light"
+    }
+  }
+}

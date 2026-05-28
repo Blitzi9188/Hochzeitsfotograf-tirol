@@ -1,0 +1,198 @@
+backend:
+  name: git-gateway
+  branch: main
+
+local_backend: true
+
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+site_url: "https://visionary-semolina-505891.netlify.app"
+display_url: "https://visionary-semolina-505891.netlify.app"
+logo_url: "/assets/uploads/logo-mark.png"
+
+slug:
+  encoding: "ascii"
+  clean_accents: true
+  sanitize_replacement: "-"
+
+collections:
+  - name: "homepage"
+    label: "Homepage"
+    files:
+      - file: "content/homepage/de.json"
+        label: "Homepage DE"
+        name: "homepage_de"
+        fields:
+          - { label: "Meta Title", name: "metaTitle", widget: "string" }
+          - { label: "Meta Description", name: "metaDescription", widget: "text" }
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Copy", name: "copy", widget: "text" }
+              - { label: "Primary CTA", name: "primaryCta", widget: "string" }
+              - { label: "Secondary CTA", name: "secondaryCta", widget: "string" }
+          - label: "About"
+            name: "about"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Copy 1", name: "copy1", widget: "text" }
+              - { label: "Copy 2", name: "copy2", widget: "text" }
+          - label: "Services"
+            name: "services"
+            widget: "object"
+            fields:
+              - { label: "Section Title", name: "title", widget: "string" }
+              - label: "Wedding Service"
+                name: "weddings"
+                widget: "object"
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Copy", name: "copy", widget: "text" }
+                  - { label: "Highlights", name: "highlights", widget: "list" }
+              - label: "Elopement Service"
+                name: "elopements"
+                widget: "object"
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Copy", name: "copy", widget: "text" }
+                  - { label: "Highlights", name: "highlights", widget: "list" }
+          - label: "FAQ"
+            name: "faq"
+            widget: "list"
+            summary: "{{fields.question}}"
+            fields:
+              - { label: "Question", name: "question", widget: "string" }
+              - { label: "Answer", name: "answer", widget: "text" }
+      - file: "content/homepage/en.json"
+        label: "Homepage EN"
+        name: "homepage_en"
+        fields:
+          - { label: "Meta Title", name: "metaTitle", widget: "string" }
+          - { label: "Meta Description", name: "metaDescription", widget: "text" }
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Copy", name: "copy", widget: "text" }
+              - { label: "Primary CTA", name: "primaryCta", widget: "string" }
+              - { label: "Secondary CTA", name: "secondaryCta", widget: "string" }
+          - label: "About"
+            name: "about"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Copy 1", name: "copy1", widget: "text" }
+              - { label: "Copy 2", name: "copy2", widget: "text" }
+          - label: "Services"
+            name: "services"
+            widget: "object"
+            fields:
+              - { label: "Section Title", name: "title", widget: "string" }
+              - label: "Wedding Service"
+                name: "weddings"
+                widget: "object"
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Copy", name: "copy", widget: "text" }
+                  - { label: "Highlights", name: "highlights", widget: "list" }
+              - label: "Elopement Service"
+                name: "elopements"
+                widget: "object"
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Copy", name: "copy", widget: "text" }
+                  - { label: "Highlights", name: "highlights", widget: "list" }
+          - label: "FAQ"
+            name: "faq"
+            widget: "list"
+            summary: "{{fields.question}}"
+            fields:
+              - { label: "Question", name: "question", widget: "string" }
+              - { label: "Answer", name: "answer", widget: "text" }
+
+  - name: "journal"
+    label: "Journal"
+    folder: "content/journal"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Language", name: "lang", widget: "select", options: ["de", "en"] }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Author", name: "author", widget: "string", default: "Blitzkneisser" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Reading Time", name: "readingTime", widget: "string", hint: "z. B. 6 Min" }
+      - { label: "SEO Title", name: "seoTitle", widget: "string" }
+      - { label: "SEO Description", name: "seoDescription", widget: "text" }
+      - { label: "Featured Image", name: "featuredImage", widget: "image" }
+      - { label: "Featured Image Alt", name: "featuredImageAlt", widget: "string" }
+      - { label: "Show Table of Contents", name: "showToc", widget: "boolean", default: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "archive"
+    label: "Wedding Archive"
+    folder: "content/archive"
+    create: true
+    slug: "{{year}}-{{slug}}"
+    fields:
+      - { label: "Language", name: "lang", widget: "select", options: ["de", "en"] }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Location", name: "location", widget: "string" }
+      - { label: "Season", name: "season", widget: "string" }
+      - { label: "Hero Image", name: "heroImage", widget: "image" }
+      - { label: "Hero Image Alt", name: "heroImageAlt", widget: "string" }
+      - { label: "Gallery", name: "gallery", widget: "list", fields: [
+          { label: "Image", name: "image", widget: "image" },
+          { label: "Alt Text", name: "alt", widget: "string" }
+        ] }
+      - { label: "Summary", name: "summary", widget: "text" }
+
+  - name: "images"
+    label: "SEO Image Library"
+    folder: "content/images"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Language", name: "lang", widget: "select", options: ["de", "en", "neutral"], default: "neutral" }
+      - { label: "Alt Text", name: "alt", widget: "string" }
+      - { label: "Auto Alt Prompt", name: "altPrompt", widget: "text", required: false, hint: "Beschreibung fuer spaetere automatische ALT-Text-Generierung." }
+      - { label: "Keywords", name: "keywords", widget: "list", required: false }
+
+  - name: "settings"
+    label: "Site Settings"
+    files:
+      - file: "content/settings/site.json"
+        label: "SEO and Contact"
+        name: "site_settings"
+        fields:
+          - { label: "Site Name", name: "siteName", widget: "string" }
+          - { label: "Default Language", name: "defaultLanguage", widget: "select", options: ["de", "en"] }
+          - { label: "Primary Domain", name: "siteUrl", widget: "string" }
+          - { label: "Business Name", name: "businessName", widget: "string" }
+          - { label: "Phone", name: "phone", widget: "string" }
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "Address Locality", name: "locality", widget: "string" }
+          - { label: "Region", name: "region", widget: "string" }
+          - { label: "Instagram", name: "instagram", widget: "string" }
+          - { label: "Pinterest", name: "pinterest", widget: "string", required: false }
+          - { label: "Google Reviews URL", name: "googleReviews", widget: "string", required: false }
+          - { label: "Impressum Titel DE", name: "impressumTitleDe", widget: "string", required: false }
+          - { label: "Impressum Titel EN", name: "impressumTitleEn", widget: "string", required: false }
+          - { label: "Impressum Text DE", name: "impressumBodyDe", widget: "text", required: false }
+          - { label: "Impressum Text EN", name: "impressumBodyEn", widget: "text", required: false }
+          - { label: "DSGVO Titel DE", name: "dsgvoTitleDe", widget: "string", required: false }
+          - { label: "DSGVO Titel EN", name: "dsgvoTitleEn", widget: "string", required: false }
+          - { label: "DSGVO Text DE", name: "dsgvoBodyDe", widget: "text", required: false }
+          - { label: "DSGVO Text EN", name: "dsgvoBodyEn", widget: "text", required: false }
+          - { label: "AGB Titel DE", name: "agbTitleDe", widget: "string", required: false }
+          - { label: "AGB Titel EN", name: "agbTitleEn", widget: "string", required: false }
+          - { label: "AGB Text DE", name: "agbBodyDe", widget: "text", required: false }
+          - { label: "AGB Text EN", name: "agbBodyEn", widget: "text", required: false }

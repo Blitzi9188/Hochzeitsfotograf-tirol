@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="de" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Workshops & Presets | Blitzkneisser Photography</title>
+  <meta
+    name="description"
+    content="Workshops, Mentoring und Presets von Blitzkneisser Photography. Für Fotograf:innen, die ihren Blick, Workflow und ihre Bildsprache gezielt weiterentwickeln möchten."
+  >
+  <link rel="icon" type="image/png" href="/Logo-Blitzkneisser-BERG.png">
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ["Inter", "sans-serif"]
+          },
+          colors: {
+            brand: {
+              bg: "#FFFFFF",
+              text: "#1B1A18",
+              muted: "#8A837A",
+              border: "#E6DED4",
+              wash: "#F7F3EE"
+            }
+          },
+          letterSpacing: {
+            tightest: "-0.06em"
+          }
+        }
+      }
+    };
+  </script>
+  <style>
+    body {
+      background-color: #FFFFFF;
+      color: #1B1A18;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    .headline {
+      font-weight: 700;
+      letter-spacing: -0.05em;
+      line-height: 0.9;
+      text-transform: uppercase;
+    }
+
+    .section-rule {
+      border-top: 1px solid #E6DED4;
+      width: 100%;
+    }
+
+    .offer-card {
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+      min-height: 100%;
+      padding: 1.75rem;
+      border: 1px solid #E6DED4;
+      background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(249,247,242,0.65) 100%);
+      transition: transform .45s cubic-bezier(0.16, 1, 0.3, 1), border-color .25s ease;
+    }
+
+    .offer-card:hover {
+      transform: translateY(-4px);
+      border-color: #D8CEC2;
+    }
+
+    .fade-in-up {
+      animation: fadeInUp 1.05s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+      opacity: 0;
+      transform: translateY(24px);
+    }
+
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .mobile-menu-toggle { display: none; }
+    .floating-lang-toggle { display: none; }
+
+    @media (max-width: 767px) {
+      .mobile-menu-toggle {
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5px;
+        width: 44px;
+        height: 44px;
+        margin-left: auto;
+      }
+
+      .mobile-menu-toggle span {
+        width: 24px;
+        height: 2px;
+        margin-left: auto;
+        background: #1B1A18;
+        transition: transform 0.25s ease, opacity 0.25s ease;
+      }
+
+      #mainNav.is-open .mobile-menu-toggle span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+      #mainNav.is-open .mobile-menu-toggle span:nth-child(2) { opacity: 0; }
+      #mainNav.is-open .mobile-menu-toggle span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+      .nav-menu-panel {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem 1.5rem 1.25rem;
+        background: rgba(255,255,255,.94);
+        backdrop-filter: blur(14px);
+        border-bottom: 1px solid #E6DED4;
+        opacity: 0;
+        pointer-events: none;
+        transform: translateY(-8px);
+        transition: opacity .25s ease, transform .25s ease;
+      }
+
+      #mainNav.is-open .nav-menu-panel {
+        opacity: 1;
+        pointer-events: auto;
+        transform: translateY(0);
+      }
+
+      .nav-menu-panel > div:first-child {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+      }
+
+      .nav-menu-panel a {
+        font-size: 1rem;
+        font-weight: 700;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+      }
+
+      .nav-menu-panel .nav-lang-toggle { display: none; }
+
+      .floating-lang-toggle {
+        position: fixed;
+        right: 1rem;
+        bottom: 1rem;
+        z-index: 60;
+        display: flex;
+        align-items: center;
+        gap: 0.35rem;
+        padding: 0.4rem;
+        background: rgba(255,255,255,.94);
+        backdrop-filter: blur(14px);
+        border: 1px solid #E6DED4;
+        box-shadow: 0 12px 30px rgba(27, 26, 24, 0.08);
+      }
+
+      .floating-lang-toggle button {
+        border: 1px solid #E6DED4;
+        min-width: 2.8rem;
+        padding: 0.7rem 0.75rem;
+        font-size: 0.625rem;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        transition: all 0.2s ease;
+      }
+    }
+  </style>
+</head>
+<body class="overflow-x-hidden selection:bg-stone-300 selection:text-black">
+  <nav class="fixed top-0 left-0 z-50 w-full bg-white/80 px-6 py-5 text-brand-text backdrop-blur-sm transition-all duration-500 md:px-12 md:py-8" id="mainNav">
+    <div class="mx-auto flex max-w-[120rem] items-center justify-between gap-6">
+      <a href="/index.html" id="navHomeLink" class="group flex items-center" aria-label="Blitzkneisser Photography">
+        <img src="/Logo-Blitzkneisser-BERG.png" alt="Blitzkneisser Photography" class="h-11 w-auto brightness-0 contrast-125 opacity-70 transition duration-500 ease-out group-hover:opacity-100 md:h-14">
+      </a>
+      <button type="button" class="mobile-menu-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenuPanel" aria-label="Menü öffnen"><span></span><span></span><span></span></button>
+      <div class="nav-menu-panel ml-auto flex items-center justify-end gap-4 text-right" id="navMenuPanel">
+        <div class="flex items-center gap-4 text-[10px] uppercase tracking-[0.2em] sm:gap-6 md:gap-8 md:text-xs">
+          <a href="/index.html" class="hover:opacity-60 transition-opacity duration-300" id="navHomeMenuLink" data-i18n="nav.home">Home</a>
+          <a href="/experience/" class="hover:opacity-60 transition-opacity duration-300" id="navExperienceLink">Experience</a>
+          <a href="/guides/" class="hover:opacity-60 transition-opacity duration-300" id="navGuidesLink">Guides</a>
+          <a href="/journal/" class="hover:opacity-60 transition-opacity duration-300" id="navJournalLink">Journal</a>
+          <a href="/about/" class="hover:opacity-60 transition-opacity duration-300" id="navAboutLink" data-i18n="nav.about">About</a>
+          <a href="/contact/" class="hover:opacity-60 transition-opacity duration-300" id="navContactLink" data-i18n="nav.contact">Contact</a>
+          <a href="/film/" class="hidden hover:opacity-60 transition-opacity duration-300" id="navFilmLink" data-i18n="nav.film">Film</a>
+          <a href="/portfolio/" class="hidden hover:opacity-60 transition-opacity duration-300" id="navPortfolioLink" data-i18n="nav.portfolio">Portfolio</a>
+        </div>
+        <div class="nav-lang-toggle flex items-center gap-2 text-[10px] uppercase tracking-[0.24em] md:text-xs">
+          <button type="button" class="border border-brand-border px-3 py-2 transition-colors" data-lang-button="de" aria-pressed="true">DE</button>
+          <button type="button" class="border border-brand-border px-3 py-2 transition-colors" data-lang-button="en" aria-pressed="false">EN</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="floating-lang-toggle" id="floatingLangToggle" aria-label="Sprache wechseln">
+    <button type="button" data-lang-button="de" aria-pressed="true">DE</button>
+    <button type="button" data-lang-button="en" aria-pressed="false">EN</button>
+  </div>
+
+  <main class="pt-32 md:pt-48 pb-24">
+    <header class="px-6 md:px-12 max-w-[120rem] mx-auto mb-24 md:mb-28 fade-in-up" style="animation-delay: 0.06s;">
+      <div class="grid gap-12 lg:grid-cols-[1.1fr_0.9fr] lg:items-end">
+        <div class="space-y-7">
+          <p class="text-[10px] uppercase tracking-[0.28em] text-brand-muted" data-i18n="hero.eyebrow">Education</p>
+          <h1 class="headline text-[3.1rem] md:text-[5.8rem] lg:text-[8rem]" data-i18n="hero.title">Workshops & Presets</h1>
+        </div>
+        <div class="space-y-8 max-w-xl">
+          <p class="text-base md:text-lg leading-relaxed font-light text-brand-text/80" data-i18n="hero.copy">
+            Für Fotograf:innen, die ihre Bildsprache, ihr Editing und ihre Arbeit in den Bergen gezielt weiterentwickeln möchten.
+          </p>
+          <a id="heroCtaLink" href="/contact/" class="inline-flex items-center gap-4 border border-brand-border px-7 py-4 text-[10px] uppercase tracking-[0.28em] font-medium transition-colors hover:bg-brand-text hover:text-white">
+            <span data-i18n="hero.cta">Anfragen</span>
+            <span aria-hidden="true">→</span>
+          </a>
+        </div>
+      </div>
+      <div class="mt-12 section-rule"></div>
+    </header>
+
+    <section class="px-6 md:px-12 max-w-[120rem] mx-auto mb-20 md:mb-24 fade-in-up" style="animation-delay: 0.16s;">
+      <div class="grid gap-8 lg:grid-cols-[0.32fr_1fr] lg:items-start">
+        <div>
+          <p class="text-[10px] uppercase tracking-[0.28em] text-brand-muted" data-i18n="workshops.eyebrow">Workshops</p>
+        </div>
+        <div class="grid gap-5 md:grid-cols-2" id="workshopsGrid"></div>
+      </div>
+    </section>
+
+    <section class="px-6 md:px-12 max-w-[120rem] mx-auto mb-24 md:mb-28 fade-in-up" style="animation-delay: 0.22s;">
+      <div class="section-rule mb-12"></div>
+      <div class="grid gap-8 lg:grid-cols-[0.32fr_1fr] lg:items-start">
+        <div>
+          <p class="text-[10px] uppercase tracking-[0.28em] text-brand-muted" data-i18n="presets.eyebrow">Presets</p>
+        </div>
+        <div class="grid gap-5 md:grid-cols-2" id="presetsGrid"></div>
+      </div>
+    </section>
+
+    <section class="px-6 md:px-12 max-w-[120rem] mx-auto fade-in-up" style="animation-delay: 0.3s;">
+      <div class="section-rule mb-10 md:mb-14"></div>
+      <div class="grid gap-10 md:gap-12 lg:grid-cols-[1fr_auto] lg:items-end">
+        <div class="max-w-3xl">
+          <p class="text-sm uppercase tracking-[0.22em] text-brand-muted mb-6" data-i18n="closing.eyebrow">Nächster Schritt</p>
+          <p class="text-xl md:text-3xl leading-[1.35] font-light" data-i18n="closing.copy">
+            Wenn du tiefer in Bildsprache, Workflow oder Editing einsteigen möchtest, schreib mir und wir schauen, welches Format zu dir passt.
+          </p>
+        </div>
+        <a id="closingCtaLink" href="/contact/" class="inline-flex items-center gap-4 border border-brand-text px-9 py-4 text-[10px] uppercase tracking-[0.3em] font-medium transition-colors hover:bg-brand-text hover:text-white">
+          <span data-i18n="closing.cta">Kontakt aufnehmen</span>
+          <span aria-hidden="true">→</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="py-16 px-6 md:px-12 border-t border-brand-border flex flex-col md:flex-row justify-between items-start md:items-center text-[10px] md:text-xs text-brand-muted tracking-[0.2em] uppercase font-medium bg-brand-bg">
+    <div class="mb-8 md:mb-0" id="footerBrandText">© 2026 Blitzkneisser Photography</div>
+    <div class="flex flex-col md:flex-row gap-6 md:gap-12">
+      <a id="footerInstagramLink" href="#" class="hover:text-brand-text transition-colors duration-300">Instagram</a>
+      <a href="/contact/" class="hover:text-brand-text transition-colors duration-300" id="footerContactLink" data-i18n="footer.contact">Kontakt</a>
+      <a href="/journal/" class="hover:text-brand-text transition-colors duration-300" id="footerJournalLink">Journal</a>
+    </div>
+    <div id="footerInstagramFeed" class="footer-instagram-feed"></div>
+  </footer>
+
+  <script>
+    const workshops = [
+      {
+        title: { de: "1:1 Mentoring", en: "1:1 Mentoring" },
+        duration: { de: "90 Minuten", en: "90 minutes" },
+        price: { de: "ab €290", en: "from €290" },
+        description: {
+          de: "Individuelles Coaching für Portfolio, Editing, Workflow und Business.",
+          en: "Individual coaching for portfolio, editing, workflow and business."
+        },
+        cta: { de: "Mentoring anfragen", en: "Inquire about mentoring" }
+      },
+      {
+        title: { de: "Mountain Wedding Workshop", en: "Mountain Wedding Workshop" },
+        duration: { de: "1 Tag", en: "1 day" },
+        price: { de: "auf Anfrage", en: "upon request" },
+        description: {
+          de: "Lerne, wie du Paare in alpiner Umgebung sicher und emotional fotografierst.",
+          en: "Learn how to photograph couples in alpine settings with confidence and emotional depth."
+        },
+        cta: { de: "Workshop ansehen", en: "View workshop" }
+      }
+    ];
+
+    const presets = [
+      {
+        title: { de: "Mountain Wedding Presets", en: "Mountain Wedding Presets" },
+        price: { de: "€79", en: "€79" },
+        compatibleWith: { de: "Lightroom Classic & Mobile", en: "Lightroom Classic & Mobile" },
+        description: {
+          de: "Warme, natürliche Presets für Hochzeiten, Elopements und Bergreportagen.",
+          en: "Warm, natural presets for weddings, elopements and mountain stories."
+        },
+        cta: { de: "Presets kaufen", en: "Buy presets" }
+      }
+    ];
+
+    const uiTranslations = {
+      de: {
+        pageTitle: "Workshops & Presets | Blitzkneisser Photography",
+        metaDescription: "Workshops, Mentoring und Presets von Blitzkneisser Photography. Für Fotograf:innen, die ihren Blick, Workflow und ihre Bildsprache gezielt weiterentwickeln möchten.",
+        "nav.home": "Home",
+        "nav.about": "Über mich",
+        "nav.film": "Film",
+        "nav.portfolio": "Portfolio",
+        "nav.contact": "Kontakt",
+        "hero.eyebrow": "Education",
+        "hero.title": "Workshops & Presets",
+        "hero.copy": "Für Fotograf:innen, die ihre Bildsprache, ihr Editing und ihre Arbeit in den Bergen gezielt weiterentwickeln möchten.",
+        "hero.cta": "Anfragen",
+        "workshops.eyebrow": "Workshops",
+        "presets.eyebrow": "Presets",
+        "closing.eyebrow": "Nächster Schritt",
+        "closing.copy": "Wenn du tiefer in Bildsprache, Workflow oder Editing einsteigen möchtest, schreib mir und wir schauen, welches Format zu dir passt.",
+        "closing.cta": "Kontakt aufnehmen",
+        "footer.contact": "Kontakt",
+        duration: "Dauer",
+        price: "Preis",
+        compatibility: "Kompatibel mit"
+      },
+      en: {
+        pageTitle: "Workshops & Presets | Blitzkneisser Photography",
+        metaDescription: "Workshops, mentoring and presets by Blitzkneisser Photography. For photographers who want to refine their visual language, workflow and editing.",
+        "nav.home": "Home",
+        "nav.about": "About",
+        "nav.film": "Film",
+        "nav.portfolio": "Portfolio",
+        "nav.contact": "Contact",
+        "hero.eyebrow": "Education",
+        "hero.title": "Workshops & Presets",
+        "hero.copy": "For photographers who want to intentionally refine their visual language, editing and work in the mountains.",
+        "hero.cta": "Inquire",
+        "workshops.eyebrow": "Workshops",
+        "presets.eyebrow": "Presets",
+        "closing.eyebrow": "Next Step",
+        "closing.copy": "If you want to go deeper into visual language, workflow or editing, send me a message and we will see which format fits you best.",
+        "closing.cta": "Get in touch",
+        "footer.contact": "Contact",
+        duration: "Duration",
+        price: "Price",
+        compatibility: "Compatible with"
+      }
+    };
+
+    const nav = document.getElementById("mainNav");
+    const navToggle = document.getElementById("navToggle");
+    const navMenuPanel = document.getElementById("navMenuPanel");
+
+    const closeNavMenu = () => {
+      nav.classList.remove("is-open");
+      navToggle.setAttribute("aria-expanded", "false");
+    };
+
+    navToggle.addEventListener("click", () => {
+      const willOpen = !nav.classList.contains("is-open");
+      nav.classList.toggle("is-open", willOpen);
+      navToggle.setAttribute("aria-expanded", willOpen ? "true" : "false");
+    });
+
+    navMenuPanel.querySelectorAll("a, button[data-lang-button]").forEach((item) => {
+      item.addEventListener("click", () => {
+        if (window.innerWidth < 768) closeNavMenu();
+      });
+    });
+
+    window.addEventListener("resize", () => {
+      if (window.innerWidth >= 768) closeNavMenu();
+    });
+
+    window.addEventListener("scroll", () => {
+      if (window.innerWidth < 768 && nav.classList.contains("is-open")) {
+        closeNavMenu();
+      }
+    }, { passive: true });
+
+    const renderCards = (containerId, entries, activeLang, type) => {
+      const container = document.getElementById(containerId);
+      if (!container) return;
+      const t = uiTranslations[activeLang];
+      container.innerHTML = entries.map((entry, index) => `
+        <article class="offer-card fade-in-up" style="animation-delay: ${(0.16 + index * 0.05).toFixed(2)}s;">
+          <div class="flex items-start justify-between gap-6">
+            <h2 class="text-[1.6rem] md:text-[2rem] leading-tight font-light">${entry.title[activeLang]}</h2>
+            <span class="text-[10px] uppercase tracking-[0.24em] text-brand-muted whitespace-nowrap">${type === "workshop" ? entry.duration[activeLang] : entry.price[activeLang]}</span>
+          </div>
+          <div class="section-rule"></div>
+          <div class="grid gap-3 text-sm md:text-base leading-relaxed text-brand-text/80 font-light">
+            ${type === "workshop" ? `
+              <p><span class="uppercase tracking-[0.2em] text-[10px] text-brand-muted mr-2">${t.duration}</span>${entry.duration[activeLang]}</p>
+              <p><span class="uppercase tracking-[0.2em] text-[10px] text-brand-muted mr-2">${t.price}</span>${entry.price[activeLang]}</p>
+            ` : `
+              <p><span class="uppercase tracking-[0.2em] text-[10px] text-brand-muted mr-2">${t.price}</span>${entry.price[activeLang]}</p>
+              <p><span class="uppercase tracking-[0.2em] text-[10px] text-brand-muted mr-2">${t.compatibility}</span>${entry.compatibleWith[activeLang]}</p>
+            `}
+            <p>${entry.description[activeLang]}</p>
+          </div>
+          <div class="mt-auto pt-3">
+            <a href="${activeLang === "en" ? "/contact/?lang=en" : "/contact/"}" class="inline-flex items-center gap-4 border border-brand-border px-6 py-3 text-[10px] uppercase tracking-[0.28em] font-medium transition-colors hover:bg-brand-text hover:text-white">
+              <span>${entry.cta[activeLang]}</span>
+              <span aria-hidden="true">→</span>
+            </a>
+          </div>
+        </article>
+      `).join("");
+    };
+
+    const applyLanguage = (lang) => {
+      const activeLang = lang === "en" ? "en" : "de";
+      const t = uiTranslations[activeLang];
+      localStorage.setItem("site-lang", activeLang);
+      document.documentElement.lang = activeLang;
+
+      document.title = t.pageTitle;
+      document.querySelector('meta[name="description"]').setAttribute("content", t.metaDescription);
+
+      document.querySelectorAll("[data-i18n]").forEach((node) => {
+        const key = node.dataset.i18n;
+        if (t[key]) node.textContent = t[key];
+      });
+
+      document.querySelectorAll("[data-lang-button]").forEach((button) => {
+        const isActive = button.dataset.langButton === activeLang;
+        button.setAttribute("aria-pressed", isActive ? "true" : "false");
+        button.style.backgroundColor = isActive ? "#1B1A18" : "transparent";
+        button.style.color = isActive ? "#F9F7F2" : "#1B1A18";
+        button.style.borderColor = isActive ? "#1B1A18" : "#E6DED4";
+      });
+
+      const homeHref = activeLang === "en" ? "/index.html?lang=en" : "/index.html";
+      document.getElementById("navHomeLink").href = homeHref;
+      document.getElementById("navHomeMenuLink").href = homeHref;
+      document.getElementById("navExperienceLink").href = activeLang === "en" ? "/experience/?lang=en" : "/experience/";
+      document.getElementById("navGuidesLink").href = activeLang === "en" ? "/guides/?lang=en" : "/guides/";
+      document.getElementById("navAboutLink").href = activeLang === "en" ? "/about/?lang=en" : "/about/";
+      document.getElementById("navFilmLink").href = activeLang === "en" ? "/film/?lang=en" : "/film/";
+      document.getElementById("navPortfolioLink").href = activeLang === "en" ? "/portfolio/?lang=en" : "/portfolio/";
+      document.getElementById("navJournalLink").href = activeLang === "en" ? "/journal/?lang=en" : "/journal/";
+      document.getElementById("navContactLink").href = activeLang === "en" ? "/contact/?lang=en" : "/contact/";
+      document.getElementById("heroCtaLink").href = activeLang === "en" ? "/contact/?lang=en" : "/contact/";
+      document.getElementById("closingCtaLink").href = activeLang === "en" ? "/contact/?lang=en" : "/contact/";
+      document.getElementById("footerContactLink").href = activeLang === "en" ? "/contact/?lang=en" : "/contact/";
+
+      renderCards("workshopsGrid", workshops, activeLang, "workshop");
+      renderCards("presetsGrid", presets, activeLang, "preset");
+
+      window.history.replaceState({}, "", activeLang === "en" ? "/workshops-presets/?lang=en" : "/workshops-presets/");
+    };
+
+    document.addEventListener("DOMContentLoaded", () => {
+      const detectAutoLanguage = () => {
+        const browserLanguages = [
+          ...(navigator.languages || []),
+          navigator.language,
+          navigator.userLanguage
+        ]
+          .filter(Boolean)
+          .map((value) => String(value).toLowerCase());
+        return browserLanguages.some((value) => value.startsWith("de")) ? "de" : "en";
+      };
+
+      const params = new URLSearchParams(window.location.search);
+      const initialLang = params.get("lang") === "en"
+        ? "en"
+        : (params.get("lang") === "de" ? "de" : (localStorage.getItem("site-lang") || detectAutoLanguage()));
+
+      document.querySelectorAll("[data-lang-button]").forEach((button) => {
+        button.addEventListener("click", () => applyLanguage(button.dataset.langButton));
+      });
+
+      applyLanguage(initialLang);
+    });
+  </script>
+  <script src="/assets/footer-settings.js"></script>
+</body>
+</html>

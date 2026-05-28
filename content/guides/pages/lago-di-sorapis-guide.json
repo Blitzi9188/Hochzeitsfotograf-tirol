@@ -1,0 +1,740 @@
+{
+  "de": {
+    "slug": "lago-di-sorapis-guide",
+    "title": "Lago di Sorapis Guide | Türkisfarbenes Wasser, Wandern und Timing",
+    "description": "Guide zu Lago di Sorapis für Paare, die türkises Wasser, mehr Bewegung und ehrliche Hinweise zu Wanderrealität, Timing und Wetter suchen.",
+    "hero": {
+      "eyebrow": "Standort-Guide",
+      "title": "Lago di Sorapis Guide",
+      "copy": "Ein Guide für Paare, die türkises Wasser und Bewegung mögen und wissen möchten, wann dieser Weg in die Berge sich wirklich lohnt.",
+      "cta": "Planung starten",
+      "image": "/assets/guide-placeholders/IMAGE_PLACEHOLDER_LAGO_DI_SORAPIS.svg",
+      "imageAlt": "Lago di Sorapis mit türkisfarbenem Wasser"
+    },
+    "utility": {
+      "reading": "Guide",
+      "focus": "Für türkisfarbene Seenlandschaften und wandernde Planung",
+      "navOverview": "Überblick",
+      "navSeasons": "Standorthinweise",
+      "navPhilosophy": "Einführung",
+      "navVisual": "Weitere Guides",
+      "navFaq": "FAQ"
+    },
+    "overview": {
+      "eyebrow": "Guide im Überblick",
+      "copy": "Lago di Sorapis wird weniger wegen der Leichtigkeit als vielmehr wegen der Atmosphäre gewählt. Am besten eignet es sich für Paare, die wirklich möchten, dass der Spaziergang Teil der Geschichte wird.",
+      "items": [
+        {
+          "label": "Beste Zeit",
+          "value": "Sommer bis Frühherbst",
+          "icon": "calendar"
+        },
+        {
+          "label": "Bestes Licht",
+          "value": "Morgen",
+          "icon": "sunrise"
+        },
+        {
+          "label": "Crowd Level",
+          "value": "In der Saison mittel bis hoch",
+          "icon": "crowd"
+        },
+        {
+          "label": "Zugang",
+          "value": "Wanderbasiert",
+          "icon": "path"
+        },
+        {
+          "label": "Ideal für",
+          "value": "Abenteuerorientierte Paare",
+          "icon": "guests"
+        }
+      ]
+    },
+    "philosophy": {
+      "eyebrow": "Eine erste Orientierung",
+      "title": "Lago di Sorapis wirkt weniger still als suchend, fast wie ein Ort, den man sich erst verdienen muss.",
+      "copy": "Im Gegensatz zu leichter zugänglichen Orten entsteht hier oft das Gefühl, dass man sich bewegen muss, um dorthin zu gelangen. Das verändert das gesamte emotionale Gewicht der Erfahrung."
+    },
+    "sections": {
+      "seasonOrder": [
+        "special",
+        "time",
+        "access",
+        "crowds",
+        "weather"
+      ],
+      "seasons": {
+        "special": {
+          "layout": "image-left",
+          "image": "/assets/guide-placeholders/IMAGE_PLACEHOLDER_LAGO_DI_SORAPIS.svg",
+          "imageAlt": "Türkisfarbener Bergsee am Lago di Sorapis",
+          "title": "Warum sich Lago di Sorapis anders anfühlt",
+          "intro": "Das Wasser ist beeindruckend, aber das Gefühl des Ankommens ist genauso wichtig.",
+          "copy": "Dieser See wirkt oft eher abenteuerlich als besinnlich. Der Weg, das Gelände und das Gefühl, endlich das Wasser zu erreichen, werden Teil des Erlebnisses.",
+          "facts": [
+            {
+              "label": "Stimmung",
+              "value": "Abenteuer und Belohnung",
+              "icon": "wind"
+            },
+            {
+              "label": "Ideal für",
+              "value": "Paare mit Bewegungswunsch",
+              "icon": "guests"
+            },
+            {
+              "label": "Visuelle Stärke",
+              "value": "Türkisfarbener See im Berggelände",
+              "icon": "sun"
+            }
+          ]
+        },
+        "time": {
+          "layout": "image-right",
+          "image": "/assets/guide-placeholders/IMAGE_PLACEHOLDER_LAGO_DI_SORAPIS.svg",
+          "imageAlt": "Frühes Licht am Lago di Sorapis",
+          "title": "Beste Zeit",
+          "intro": "Früher fühlt sich hier normalerweise sowohl für den leichten als auch für den Trail-Rhythmus besser an.",
+          "copy": "Der Morgen sorgt im Allgemeinen für weicheres Licht und einen besseren Bezug zur Route. Es hilft auch, bevor der Weg belebter wird.",
+          "facts": [
+            {
+              "label": "Am besten",
+              "value": "Morgen",
+              "icon": "sunrise"
+            },
+            {
+              "label": "Warum",
+              "value": "Leicht und ruhig",
+              "icon": "calendar"
+            },
+            {
+              "label": "Vermeiden",
+              "value": "Später überfüllte Fenster, wenn Privatsphäre wichtig ist",
+              "icon": "crowd"
+            }
+          ]
+        },
+        "access": {
+          "layout": "image-left",
+          "image": "/assets/guide-placeholders/IMAGE_PLACEHOLDER_LAGO_DI_SORAPIS.svg",
+          "imageAlt": "Wanderweg zum Lago di Sorapis",
+          "title": "Zugang und Wanderrealität",
+          "intro": "Dieser Ort funktioniert nur, wenn der Spaziergang selbst wirklich zu eurem Tag gehört.",
+          "copy": "Lago di Sorapis ist nicht für jedes Paar die richtige Wahl, insbesondere wenn Gäste Teil des Tages sind oder ein weicherer Zeitplan benötigt wird. Aber für abenteuerlustige Paare kann die Annäherung einer der bedeutungsvollsten Teile des Erlebnisses sein.",
+          "facts": [
+            {
+              "label": "Schwierigkeit",
+              "value": "Mäßig bis engagierter",
+              "icon": "path"
+            },
+            {
+              "label": "Ideal für",
+              "value": "Bequeme Wanderer",
+              "icon": "guests"
+            },
+            {
+              "label": "Hauptfrage",
+              "value": "Möchten ihr, dass die Route Teil der Geschichte ist?",
+              "icon": "key"
+            }
+          ]
+        },
+        "crowds": {
+          "layout": "image-right",
+          "image": "/assets/guide-placeholders/IMAGE_PLACEHOLDER_LAGO_DI_SORAPIS.svg",
+          "imageAlt": "Besucherrhythmus auf dem Weg zum Lago di Sorapis",
+          "title": "Massenrhythmus",
+          "intro": "Da die Route anspruchsvoller ist, versammeln sich die Menschen in der Regel an bestimmten Fenstern.",
+          "copy": "Ein früherer Beginn ist normalerweise der beste Weg, um Raum und emotionale Ruhe zu bewahren. Sobald der Weg und der See belebter sind, fühlt sich der Tag viel öffentlicher an.",
+          "facts": [
+            {
+              "label": "Am leisesten",
+              "value": "Früher auf dem Weg",
+              "icon": "calendar"
+            },
+            {
+              "label": "Am geschäftigsten",
+              "value": "Später am Morgen und Tag",
+              "icon": "crowd"
+            },
+            {
+              "label": "Beste Strategie",
+              "value": "Beginnt vor dem offensichtlichen Fluss",
+              "icon": "path"
+            }
+          ]
+        },
+        "weather": {
+          "layout": "image-left",
+          "image": "/assets/guide-placeholders/IMAGE_PLACEHOLDER_WEATHER.svg",
+          "imageAlt": "Wetterstimmung auf dem Weg zum Lago di Sorapis",
+          "title": "Wetternotizen",
+          "intro": "Da es hier auf die Route ankommt, hat das Wetter einen größeren Einfluss als die Aussicht.",
+          "copy": "Wind, Regen und Sicht prägen nicht nur das Aussehen des Sees, sondern auch das Gefühl der Wanderung. Flexibilität und ehrliche Entscheidungsfindung sind daher besonders wichtig.",
+          "facts": [
+            {
+              "label": "Hauptfaktoren",
+              "value": "Wegbedingungen und Sichtverhältnisse",
+              "icon": "cloud"
+            },
+            {
+              "label": "Beste Antwort",
+              "value": "Lasst Raum zum Anpassen",
+              "icon": "calendar"
+            },
+            {
+              "label": "Ideal für",
+              "value": "Paare fühlen sich mit Unsicherheit wohl",
+              "icon": "guests"
+            }
+          ]
+        }
+      }
+    },
+    "planning": {
+      "eyebrow": "Planungsnotizen",
+      "title": "Was bei Lago di Sorapis normalerweise am wichtigsten ist.",
+      "intro": "Dies ist ein Ort, an dem Ehrlichkeit in Bezug auf Energie, Wandern und Wetter wichtiger ist als der Versuch, einen Traumrahmen zu erzwingen.",
+      "items": [
+        {
+          "label": "Energie",
+          "title": "Wählt diesen Ort nur, wenn sich die Route auch sinnvoll anfühlt.",
+          "copy": "Der See funktioniert am besten, wenn die Anstrengung zu der Art von Tag passt, die ihr euch tatsächlich wünscht.",
+          "meta": "Der Spaziergang ist Teil der Geschichte."
+        },
+        {
+          "label": "Gäste",
+          "title": "Normalerweise nicht ideal für die meisten Gästetage.",
+          "copy": "Orte mit leichterem Zugang sorgen oft für ein besseres gemeinsames Erlebnis, wenn die Familie beteiligt ist.",
+          "meta": "Abenteuer verändert die Gästegleichung."
+        },
+        {
+          "label": "Wetter",
+          "title": "Die Bedingungen wirken sich auf die Route aus, nicht nur auf das Bild.",
+          "copy": "Ein See, der durch Wandern erreicht wird, bringt immer eine praktischere Sensibilität gegenüber dem Wetter mit sich.",
+          "meta": "Route und Wetter hängen zusammen."
+        },
+        {
+          "label": "Timing",
+          "title": "Beginnt früher, als es offensichtlich erscheint.",
+          "copy": "Wenn der Tag früh beginnt, sind sowohl die Ruhe am Weg als auch das weichere Licht stärker.",
+          "meta": "Der Morgen schützt die Stimmung."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Fragen, die Paare oft zu Lago di Sorapis stellen.",
+      "intro": "Dies sind einige der Fragen, die Paare oft stellen, wenn sich der Traum realer anfühlt und die Berge nicht mehr nur eine Idee sind.",
+      "items": [
+        {
+          "q": "Ist Lago di Sorapis schwierig?",
+          "a": "Es ist anspruchsvoller als leichter zugängliche Orte in den Dolomiten und eignet sich am besten für Paare, die bequeme Wanderungen im Berggelände unternehmen möchten."
+        },
+        {
+          "q": "Ist es gut für die Gäste?",
+          "a": "Normalerweise nicht die beste Wahl, wenn ihr euch einen entspannten, gastfreundlichen Tag wünscht."
+        },
+        {
+          "q": "Ist hier ein frühes Timing wichtig?",
+          "a": "Ja, es trägt dazu bei, dass sich sowohl der Weg ruhiger anfühlt als auch der See persönlicher."
+        },
+        {
+          "q": "Spielt das Wetter aufgrund der Wanderung eine größere Rolle?",
+          "a": "Ja, denn die Bedingungen prägen die Route ebenso wie die Aussicht."
+        }
+      ]
+    },
+    "related": {
+      "eyebrow": "Verwandte Leitfäden",
+      "hint": "Wischt nach links oder rechts, um weitere Guides zu sehen.",
+      "items": [
+        {
+          "label": "Dolomiten",
+          "title": "Elopement-Guide für die Dolomiten",
+          "copy": "Ein ruhiger Ausgangspunkt für Paare, die ein Dolomites Elopement oder eine intime Berghochzeit planen und verstehen möchten, wie Licht, Wege, Wetter und Menschenmengen den Tag wirklich prägen.",
+          "href": "/guides/dolomites-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-120.jpg",
+          "imageAlt": "Paar bei einem Dolomiten-Elopement im weichen Morgenlicht",
+          "alt": "Paar bei einem Dolomiten-Elopement im weichen Morgenlicht"
+        },
+        {
+          "label": "Standorte",
+          "title": "Die beliebtesten Elopement-Orte in den Dolomiten",
+          "copy": "Ein kuratierter Guide für Paare, die nicht einfach irgendeine schöne Aussicht suchen, sondern den Ort, dessen Stimmung wirklich zu ihrem Tag passt.",
+          "href": "/guides/best-dolomites-elopement-locations/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-191.jpg",
+          "imageAlt": "Elopement-Standorte in den Dolomiten",
+          "alt": "Elopement-Standorte in den Dolomiten"
+        },
+        {
+          "label": "Standorte",
+          "title": "Lago di Braies Guide",
+          "copy": "Ein ehrlicher Guide für Paare, die den Pragser Wildsee nicht nur als berühmtes Bild kennen, sondern verstehen möchten, wann er still, weich und tatsächlich erlebbar wird.",
+          "href": "/guides/lago-di-braies-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopemnt-Dolomites-Lago-di-Braies-19.jpg",
+          "imageAlt": "Lago di Braies mit ruhigem Wasser und frühem Licht",
+          "alt": "Lago di Braies mit ruhigem Wasser und frühem Licht"
+        },
+        {
+          "label": "Standorte",
+          "title": "Seceda Guide",
+          "copy": "Ein Guide für Paare, die an Seceda nicht nur die berühmte Kante suchen, sondern das Gefühl von Weite, Wind und offenem Berglicht, das diesen Ort so unverwechselbar macht.",
+          "href": "/guides/seceda-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Seceda-180.jpg",
+          "imageAlt": "Seceda bei klarem Berglicht",
+          "alt": "Seceda bei klarem Berglicht"
+        },
+        {
+          "label": "Standorte",
+          "title": "Cadini di Misurina Guide",
+          "copy": "Ein Guide für Paare, die an Cadini diese wilde, kinoreife Spannung lieben und zugleich wissen möchten, wann der Ort zugänglich, sicher und wirklich stimmig ist.",
+          "href": "/guides/cadini-di-misurina-guide/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-12.jpg",
+          "imageAlt": "Cadini di Misurina mit markanten Felsformen",
+          "alt": "Cadini di Misurina mit markanten Felsformen"
+        },
+        {
+          "label": "Standorte",
+          "title": "Drei Zinnen Guide",
+          "copy": "Ein ehrlicher Guide für Paare, die Drei Zinnen nicht nur wegen des berühmten Blicks wählen, sondern wegen dieser monumentalen, fast unwirklichen Präsenz, die der Ort im richtigen Moment entfaltet.",
+          "href": "/guides/tre-cime-wedding-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14.jpg",
+          "imageAlt": "Drei Zinnen bei klarem Berglicht",
+          "alt": "Drei Zinnen bei klarem Berglicht"
+        },
+        {
+          "label": "Planung",
+          "title": "Beste Jahreszeit für ein Dolomiten-Elopement",
+          "copy": "Ein ehrlicher Guide zu Licht, Temperaturen, Menschenmengen und der Frage, wann sich die Berge nicht nur schön, sondern wirklich stimmig für euch anfühlen.",
+          "href": "/guides/best-time-for-a-dolomites-elopement/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-16.jpg",
+          "imageAlt": "Vorhandenes Bild zur schönsten Zeit in den Dolomiten",
+          "alt": "Vorhandenes Bild zur schönsten Zeit in den Dolomiten"
+        },
+        {
+          "label": "Planung",
+          "title": "Sonnenaufgang vs. Sonnenuntergang in den Dolomiten",
+          "copy": "Ein ehrlicher Vergleich für Paare, die nicht nur schönes Licht suchen, sondern verstehen möchten, welche Tageszeit zu ihrem Energielevel, ihrem Ort und dem gewünschten Gefühl passt.",
+          "href": "/guides/sunrise-vs-sunset-dolomites/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Photo-368.jpg",
+          "imageAlt": "Lichtstimmung in den Bergen bei Sonnenaufgang oder Sonnenuntergang",
+          "alt": "Lichtstimmung in den Bergen bei Sonnenaufgang oder Sonnenuntergang"
+        },
+        {
+          "label": "Planung",
+          "title": "Guide zur Wetter- und Backup-Planung",
+          "copy": "Ein ruhiger Wetter-Guide für Paare, die in den Bergen nicht auf perfekte Bedingungen hoffen, sondern einen Tag planen möchten, der auch bei Nebel, Wind oder Regen stimmig bleibt.",
+          "href": "/guides/weather-and-backup-planning/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-161.jpg",
+          "imageAlt": "Wetterstimmung in den Dolomiten mit Wolken und Nebel",
+          "alt": "Wetterstimmung in den Dolomiten mit Wolken und Nebel"
+        },
+        {
+          "label": "Planung",
+          "title": "Was man in den Bergen anziehen sollte",
+          "copy": "Ein praktischer Guide für Paare, die in den Bergen nicht nur schön aussehen, sondern sich auch frei bewegen, warm bleiben und sich in ihrer Kleidung wirklich wiederfinden möchten.",
+          "href": "/guides/what-to-wear-in-the-mountains/",
+          "image": "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Hut-13.jpg",
+          "imageAlt": "Kleidung für ein Elopement in den Bergen",
+          "alt": "Kleidung für ein Elopement in den Bergen"
+        },
+        {
+          "label": "Planung",
+          "title": "Helikopter-Elopement-Guide",
+          "copy": "Ein Guide für Paare, die Weite, Abgeschiedenheit und einen klareren Tagesfluss suchen und verstehen möchten, wann ein Helikopter in den Bergen wirklich sinnvoll ist.",
+          "href": "/guides/helicopter-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-12.jpg",
+          "imageAlt": "Helikopterflug über den Bergen für ein Elopement",
+          "alt": "Helikopterflug über den Bergen für ein Elopement"
+        },
+        {
+          "label": "Planung",
+          "title": "Mehrtägiger Elopement-Guide",
+          "copy": "Ein Guide für Paare, die mehr wollen als ein paar schnelle Stunden in den Bergen und ihren Hochzeitstag lieber in Ruhe entfalten lassen möchten.",
+          "href": "/guides/multi-day-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Insta-11.jpg",
+          "imageAlt": "Mehrtägiges Elopement in den Dolomiten",
+          "alt": "Mehrtägiges Elopement in den Dolomiten"
+        }
+      ]
+    },
+    "final": {
+      "eyebrow": "Ruhig geplant",
+      "title": "Lasst uns etwas gestalten, das sich ruhig, persönlich und zutiefst wahr anfühlt.",
+      "copy": "Wenn sich dieser Guide bereits nah an dem anfühlt, was ihr euch wünscht, helfe ich euch gern dabei, dieses Gefühl in etwas Ruhiges, Filmisches und wirklich Eigenes in den Bergen zu verwandeln.",
+      "cta": "Termin anfragen",
+      "image": "/assets/uploads/Blitzkneisser-Photo-Drei-Zinnen-Italy-24.jpg",
+      "imageAlt": "Drei Zinnen in den Dolomiten bei ruhigem, klarem Licht"
+    }
+  },
+  "en": {
+    "slug": "lago-di-sorapis-guide",
+    "title": "Lago di Sorapis Guide | Turquoise Water, Hiking and Timing",
+    "description": "A guide to Lago di Sorapis for couples drawn to turquoise water, more movement and honest notes on hiking reality, timing and weather.",
+    "hero": {
+      "eyebrow": "Location Guide",
+      "title": "Lago di Sorapis Guide",
+      "copy": "A guide for couples drawn to turquoise water and a little more movement, and wanting to know when this alpine walk is genuinely worth it.",
+      "cta": "Start planning",
+      "image": "/assets/guide-placeholders/IMAGE_PLACEHOLDER_LAGO_DI_SORAPIS.svg",
+      "imageAlt": "Lago di Sorapis with turquoise water"
+    },
+    "utility": {
+      "reading": "Guide",
+      "focus": "For turquoise lake landscapes and hiking-based planning",
+      "navOverview": "Overview",
+      "navSeasons": "Location Notes",
+      "navPhilosophy": "Intro",
+      "navVisual": "More guides",
+      "navFaq": "FAQ"
+    },
+    "overview": {
+      "eyebrow": "Guide Overview",
+      "copy": "Lago di Sorapis is chosen less for ease and more for atmosphere. It is best for couples who genuinely want the walk to be part of the story.",
+      "items": [
+        {
+          "label": "Best Time",
+          "value": "Summer to early autumn",
+          "icon": "calendar"
+        },
+        {
+          "label": "Best Light",
+          "value": "Morning",
+          "icon": "sunrise"
+        },
+        {
+          "label": "Crowd Level",
+          "value": "Medium to high in season",
+          "icon": "crowd"
+        },
+        {
+          "label": "Access",
+          "value": "Hike-based",
+          "icon": "path"
+        },
+        {
+          "label": "Best For",
+          "value": "Adventure-focused couples",
+          "icon": "guests"
+        }
+      ]
+    },
+    "philosophy": {
+      "eyebrow": "A first note",
+      "title": "Lago di Sorapis feels less still than quest-like, almost like a place that has to be earned.",
+      "copy": "Unlike easier-access places, the feeling here often comes from the fact that you have to move to reach it. That changes the whole emotional weight of the experience."
+    },
+    "sections": {
+      "seasonOrder": [
+        "special",
+        "time",
+        "access",
+        "crowds",
+        "weather"
+      ],
+      "seasons": {
+        "special": {
+          "layout": "image-left",
+          "image": "/assets/guide-placeholders/IMAGE_PLACEHOLDER_LAGO_DI_SORAPIS.svg",
+          "imageAlt": "Turquoise mountain lake at Lago di Sorapis",
+          "title": "Why Lago di Sorapis feels different",
+          "intro": "The water is striking, but the sense of arrival matters just as much.",
+          "copy": "This lake often feels more adventure-led than reflective. The walk, the terrain and the sense of finally reaching the water all become part of the experience.",
+          "facts": [
+            {
+              "label": "Mood",
+              "value": "Adventure and reward",
+              "icon": "wind"
+            },
+            {
+              "label": "Best For",
+              "value": "Couples wanting movement",
+              "icon": "guests"
+            },
+            {
+              "label": "Visual Strength",
+              "value": "Turquoise lake in mountain terrain",
+              "icon": "sun"
+            }
+          ]
+        },
+        "time": {
+          "layout": "image-right",
+          "image": "/assets/guide-placeholders/IMAGE_PLACEHOLDER_LAGO_DI_SORAPIS.svg",
+          "imageAlt": "Early light at Lago di Sorapis",
+          "title": "Best time",
+          "intro": "Earlier usually feels better here for both light and trail rhythm.",
+          "copy": "Morning generally gives softer light and a better relationship with the route. It also helps before the path grows busier.",
+          "facts": [
+            {
+              "label": "Best",
+              "value": "Morning",
+              "icon": "sunrise"
+            },
+            {
+              "label": "Why",
+              "value": "Light and trail calm",
+              "icon": "calendar"
+            },
+            {
+              "label": "Avoid",
+              "value": "Later crowded windows if privacy matters",
+              "icon": "crowd"
+            }
+          ]
+        },
+        "access": {
+          "layout": "image-left",
+          "image": "/assets/guide-placeholders/IMAGE_PLACEHOLDER_LAGO_DI_SORAPIS.svg",
+          "imageAlt": "Hiking route to Lago di Sorapis",
+          "title": "Access and hiking reality",
+          "intro": "This location only works if the walk itself genuinely belongs in your day.",
+          "copy": "Lago di Sorapis is not the right choice for every couple, especially if guests are part of the day or if a softer timeline is needed. But for adventurous couples, the approach can be one of the most meaningful parts of the experience.",
+          "facts": [
+            {
+              "label": "Difficulty",
+              "value": "Moderate to more involved",
+              "icon": "path"
+            },
+            {
+              "label": "Best For",
+              "value": "Comfortable hikers",
+              "icon": "guests"
+            },
+            {
+              "label": "Main Question",
+              "value": "Do you want the route to be part of the story?",
+              "icon": "key"
+            }
+          ]
+        },
+        "crowds": {
+          "layout": "image-right",
+          "image": "/assets/guide-placeholders/IMAGE_PLACEHOLDER_LAGO_DI_SORAPIS.svg",
+          "imageAlt": "Visitor rhythm on the trail to Lago di Sorapis",
+          "title": "Crowd rhythm",
+          "intro": "Because the route is more committed, people tend to gather in specific windows.",
+          "copy": "An earlier start is usually the best way to protect space and emotional quiet. Once the trail and lake are busier, the day feels much more public.",
+          "facts": [
+            {
+              "label": "Quietest",
+              "value": "Earlier on the trail",
+              "icon": "calendar"
+            },
+            {
+              "label": "Busiest",
+              "value": "Later in the morning and day",
+              "icon": "crowd"
+            },
+            {
+              "label": "Best Strategy",
+              "value": "Start before the obvious flow",
+              "icon": "path"
+            }
+          ]
+        },
+        "weather": {
+          "layout": "image-left",
+          "image": "/assets/guide-placeholders/IMAGE_PLACEHOLDER_WEATHER.svg",
+          "imageAlt": "Weather mood on the trail to Lago di Sorapis",
+          "title": "Weather notes",
+          "intro": "Because the route matters here, weather affects more than the view.",
+          "copy": "Wind, rain and visibility all shape how the hike feels, not only how the lake looks. This makes flexibility and honest decision-making especially important.",
+          "facts": [
+            {
+              "label": "Main Factors",
+              "value": "Trail conditions and visibility",
+              "icon": "cloud"
+            },
+            {
+              "label": "Best Response",
+              "value": "Leave room to adjust",
+              "icon": "calendar"
+            },
+            {
+              "label": "Best For",
+              "value": "Couples comfortable with uncertainty",
+              "icon": "guests"
+            }
+          ]
+        }
+      }
+    },
+    "planning": {
+      "eyebrow": "Planning Notes",
+      "title": "What usually matters most at Lago di Sorapis.",
+      "intro": "This is a location where honesty about energy, hiking and weather matters more than trying to force a dream frame.",
+      "items": [
+        {
+          "label": "Energy",
+          "title": "Choose this place only if the route feels meaningful too.",
+          "copy": "The lake works best when the effort fits the kind of day you actually want.",
+          "meta": "The walk is part of the story."
+        },
+        {
+          "label": "Guests",
+          "title": "Usually not ideal for most guest-inclusive days.",
+          "copy": "Softer-access places often create a better shared experience if family is involved.",
+          "meta": "Adventure changes the guest equation."
+        },
+        {
+          "label": "Weather",
+          "title": "Conditions affect the route, not only the image.",
+          "copy": "A lake reached by hiking always carries more practical sensitivity to weather.",
+          "meta": "Route and weather are connected."
+        },
+        {
+          "label": "Timing",
+          "title": "Start earlier than feels obvious.",
+          "copy": "Trail calm and softer light are both stronger when the day begins early.",
+          "meta": "Morning protects the mood."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Questions couples often ask about Lago di Sorapis.",
+      "intro": "A few of the questions couples often ask once the dream begins feeling more real, and the mountains stop being only an idea.",
+      "items": [
+        {
+          "q": "Is Lago di Sorapis difficult?",
+          "a": "It is more involved than easier-access Dolomites locations and best suited to couples comfortable walking in mountain terrain."
+        },
+        {
+          "q": "Is it good for guests?",
+          "a": "Usually not the strongest choice if you want an easy guest-friendly day."
+        },
+        {
+          "q": "Is early timing important here?",
+          "a": "Yes, it helps both the trail feel calmer and the lake feel more personal."
+        },
+        {
+          "q": "Does weather matter more because of the hike?",
+          "a": "Yes, because conditions shape the route just as much as the view."
+        }
+      ]
+    },
+    "related": {
+      "eyebrow": "Related Guides",
+      "hint": "Swipe left or right to explore more guides.",
+      "items": [
+        {
+          "label": "Dolomites",
+          "title": "Dolomites Elopement Guide",
+          "copy": "A calm starting point for couples planning a Dolomites Elopement or intimate mountain wedding and wanting to understand how light, access, weather and crowds truly shape the day.",
+          "href": "/guides/dolomites-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-120.jpg",
+          "imageAlt": "Couple during a Dolomites elopement in soft morning light",
+          "alt": "Couple during a Dolomites elopement in soft morning light"
+        },
+        {
+          "label": "Locations",
+          "title": "The most popular elopement locations in the Dolomites",
+          "copy": "A curated guide for couples who are not looking for just any beautiful view, but for the place whose atmosphere truly fits the day they want.",
+          "href": "/guides/best-dolomites-elopement-locations/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-191.jpg",
+          "imageAlt": "Elopement locations in the Dolomites",
+          "alt": "Elopement locations in the Dolomites"
+        },
+        {
+          "label": "Locations",
+          "title": "Lago di Braies Guide",
+          "copy": "An honest guide for couples who know Lago di Braies as more than a famous photograph and want to understand when it feels soft, quiet and truly worth experiencing.",
+          "href": "/guides/lago-di-braies-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopemnt-Dolomites-Lago-di-Braies-19.jpg",
+          "imageAlt": "Lago di Braies with still water and early light",
+          "alt": "Lago di Braies with still water and early light"
+        },
+        {
+          "label": "Locations",
+          "title": "Seceda Guide",
+          "copy": "A guide for couples drawn to Seceda not only for the famous ridge, but for the feeling of openness, wind and high alpine light that makes it so distinctive.",
+          "href": "/guides/seceda-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Seceda-180.jpg",
+          "imageAlt": "Seceda in clear mountain light",
+          "alt": "Seceda in clear mountain light"
+        },
+        {
+          "label": "Locations",
+          "title": "Cadini di Misurina Guide",
+          "copy": "A guide for couples who love the wild, cinematic tension of Cadini and want to know when it is accessible, safe and genuinely worth choosing.",
+          "href": "/guides/cadini-di-misurina-guide/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-12.jpg",
+          "imageAlt": "Cadini di Misurina with dramatic rock formations",
+          "alt": "Cadini di Misurina with dramatic rock formations"
+        },
+        {
+          "label": "Locations",
+          "title": "Tre Cime Wedding Guide",
+          "copy": "An honest guide for couples choosing Tre Cime not only for the famous view, but for the monumental, almost unreal presence the place carries when the timing is right.",
+          "href": "/guides/tre-cime-wedding-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14.jpg",
+          "imageAlt": "Tre Cime in clear mountain light",
+          "alt": "Tre Cime in clear mountain light"
+        },
+        {
+          "label": "Planning",
+          "title": "Best Time for a Dolomites Elopement",
+          "copy": "An honest guide to light, temperatures, crowds and the question of when the mountains will not only look beautiful, but genuinely feel right for you.",
+          "href": "/guides/best-time-for-a-dolomites-elopement/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-16.jpg",
+          "imageAlt": "Existing image for best time in the Dolomites",
+          "alt": "Existing image for best time in the Dolomites"
+        },
+        {
+          "label": "Planning",
+          "title": "Sunrise vs Sunset in the Dolomites",
+          "copy": "An honest comparison for couples who want more than beautiful light and are trying to understand which time of day fits their energy, their location and the feeling they want to remember.",
+          "href": "/guides/sunrise-vs-sunset-dolomites/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Photo-368.jpg",
+          "imageAlt": "Mountain light at sunrise or sunset",
+          "alt": "Mountain light at sunrise or sunset"
+        },
+        {
+          "label": "Planning",
+          "title": "Weather & Backup Planning Guide",
+          "copy": "A calm weather guide for couples who do not want to hope for perfect conditions in the mountains, but want to build a day that still feels right in fog, wind or rain.",
+          "href": "/guides/weather-and-backup-planning/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-161.jpg",
+          "imageAlt": "Weather in the Dolomites with clouds and fog",
+          "alt": "Weather in the Dolomites with clouds and fog"
+        },
+        {
+          "label": "Planning",
+          "title": "What to Wear in the Mountains",
+          "copy": "A practical guide for couples who want to look beautiful in the mountains, but also move freely, stay warm and still feel like themselves in what they wear.",
+          "href": "/guides/what-to-wear-in-the-mountains/",
+          "image": "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Hut-13.jpg",
+          "imageAlt": "Outfit ideas for a mountain elopement",
+          "alt": "Outfit ideas for a mountain elopement"
+        },
+        {
+          "label": "Planning",
+          "title": "Helicopter Elopement Guide",
+          "copy": "A guide for couples seeking more space, privacy and a clearer flow to the day, and wanting to understand when a helicopter in the mountains genuinely makes sense.",
+          "href": "/guides/helicopter-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-12.jpg",
+          "imageAlt": "Helicopter flight above the mountains for an elopement",
+          "alt": "Helicopter flight above the mountains for an elopement"
+        },
+        {
+          "label": "Planning",
+          "title": "Multi-Day Elopement Guide",
+          "copy": "A guide for couples who want more than a few rushed hours in the mountains and would rather let the day unfold with space around it.",
+          "href": "/guides/multi-day-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Insta-11.jpg",
+          "imageAlt": "Multi-day elopement in the Dolomites",
+          "alt": "Multi-day elopement in the Dolomites"
+        }
+      ]
+    },
+    "final": {
+      "eyebrow": "Planned with intention",
+      "title": "Let’s shape something that feels quiet, personal and deeply true to you.",
+      "copy": "If this guide already feels close to the way you want the day to move, I would love to help you turn that feeling into something calm, cinematic and genuinely your own in the mountains.",
+      "cta": "Inquire now",
+      "image": "/assets/uploads/Blitzkneisser-Photo-Drei-Zinnen-Italy-24.jpg",
+      "imageAlt": "Tre Cime in the Dolomites in calm, clear light"
+    }
+  }
+}

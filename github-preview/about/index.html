@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="de" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hochzeitsfotograf Tirol | Über mich | Blitzkneisser Photography</title>
+  <meta
+    name="description"
+    content="Hochzeitsfotograf Tirol für ruhige, echte Reportagen in den Alpen. Entdeckt emotionale Bilder aus Innsbruck, Dolomiten & Tirol und fragt euren Termin an."
+  >
+  <link rel="icon" type="image/png" href="/Logo-Blitzkneisser-BERG.png">
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ["Inter", "sans-serif"]
+          },
+          colors: {
+            brand: {
+              bg: "#FFFFFF",
+              text: "#1B1A18",
+              muted: "#8A837A",
+              border: "#E6DED4"
+            }
+          },
+          letterSpacing: {
+            tightest: "-0.06em"
+          }
+        }
+      }
+    };
+  </script>
+  <style>
+    body {
+      background-color: #FFFFFF;
+      color: #1B1A18;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    .headline {
+      font-weight: 700;
+      letter-spacing: -0.05em;
+      line-height: 0.9;
+      text-transform: uppercase;
+    }
+
+    .image-hover-container {
+      overflow: hidden;
+      background-color: #EFEFEF;
+    }
+
+    .image-hover-container img {
+      transition: transform 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .image-hover-container:hover img {
+      transform: none;
+    }
+
+    .fade-in-up {
+      animation: fadeInUp 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+      opacity: 0;
+      transform: translateY(20px);
+    }
+
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .timeline-line {
+      width: 1px;
+      background: #E5E5E5;
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+    }
+
+    @media (min-width: 768px) {
+      .timeline-line {
+        left: 50%;
+      }
+    }
+
+    .mobile-menu-toggle {
+      display: none;
+    }
+
+    .floating-lang-toggle {
+      display: none;
+    }
+
+    @media (max-width: 767px) {
+      .mobile-menu-toggle {
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5px;
+        width: 44px;
+        height: 44px;
+        margin-left: auto;
+      }
+
+      .mobile-menu-toggle span {
+        width: 24px;
+        height: 2px;
+        margin-left: auto;
+        background: #1B1A18;
+        transition: transform 0.25s ease, opacity 0.25s ease;
+      }
+
+      #mainNav.is-open .mobile-menu-toggle span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+      #mainNav.is-open .mobile-menu-toggle span:nth-child(2) { opacity: 0; }
+      #mainNav.is-open .mobile-menu-toggle span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+      .nav-menu-panel {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 1rem;
+        padding: 1rem 1.5rem 1.25rem;
+        background: rgba(255, 255, 255, 0.94);
+        backdrop-filter: blur(14px);
+        border-bottom: 1px solid #E6DED4;
+        opacity: 0;
+        pointer-events: none;
+        transform: translateY(-8px);
+        transition: opacity 0.25s ease, transform 0.25s ease;
+      }
+
+      #mainNav.is-open .nav-menu-panel {
+        opacity: 1;
+        pointer-events: auto;
+        transform: translateY(0);
+      }
+
+      .nav-menu-panel > div:first-child {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+      }
+
+      .nav-menu-panel .text-right {
+        text-align: center;
+      }
+
+      .nav-menu-panel a {
+        font-size: 1rem;
+        font-weight: 700;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+      }
+
+      .nav-menu-panel .nav-lang-toggle {
+        display: none;
+      }
+
+      .floating-lang-toggle {
+        position: fixed;
+        right: 1rem;
+        bottom: 1rem;
+        z-index: 60;
+        display: flex;
+        align-items: center;
+        gap: 0.35rem;
+        padding: 0.4rem;
+        background: rgba(255, 255, 255, 0.94);
+        backdrop-filter: blur(14px);
+        border: 1px solid #E6DED4;
+        box-shadow: 0 12px 30px rgba(27, 26, 24, 0.08);
+      }
+
+      .floating-lang-toggle button {
+        border: 1px solid #E6DED4;
+        min-width: 2.8rem;
+        padding: 0.7rem 0.75rem;
+        font-size: 0.625rem;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        transition: all 0.2s ease;
+      }
+    }
+  </style>
+</head>
+<body class="overflow-x-hidden selection:bg-stone-300 selection:text-black">
+  <nav class="fixed top-0 left-0 z-50 w-full bg-white/80 px-6 py-5 text-brand-text backdrop-blur-sm transition-all duration-500 md:px-12 md:py-8" id="mainNav">
+    <div class="mx-auto flex max-w-[120rem] items-center justify-between gap-6">
+      <a href="/index.html" id="navHomeLink" class="group flex items-center" aria-label="Blitzkneisser Photography">
+        <img src="/Logo-Blitzkneisser-BERG.png" alt="Blitzkneisser Photography" class="h-11 w-auto brightness-0 contrast-125 opacity-70 transition duration-500 ease-out group-hover:opacity-100 md:h-14">
+      </a>
+      <button type="button" class="mobile-menu-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenuPanel" aria-label="Menü öffnen"><span></span><span></span><span></span></button>
+      <div class="nav-menu-panel ml-auto flex items-center justify-end gap-4 text-right" id="navMenuPanel">
+        <div class="flex items-center gap-4 text-[10px] uppercase tracking-[0.2em] sm:gap-6 md:gap-8 md:text-xs">
+          <a href="/index.html" id="navHomeMenuLink" class="hover:opacity-60 transition-opacity duration-300">Home</a>
+          <a href="/about/" id="navAboutLink" class="opacity-60 transition-opacity duration-300" data-i18n="nav.about" aria-current="page">About</a>
+          <a href="/film/" id="navFilmLink" class="hover:opacity-60 transition-opacity duration-300" data-i18n="nav.film">Film</a>
+          <a href="/portfolio/" id="navPortfolioLink" class="hover:opacity-60 transition-opacity duration-300" data-i18n="nav.portfolio">Portfolio</a>
+          <a href="/journal/" id="navJournalLink" class="hover:opacity-60 transition-opacity duration-300">Journal</a>
+          <a href="/contact/" id="navContactLink" class="hover:opacity-60 transition-opacity duration-300" data-i18n="nav.contact">Contact</a>
+        </div>
+        <div class="nav-lang-toggle flex items-center gap-2 text-[10px] uppercase tracking-[0.24em] md:text-xs">
+          <button type="button" class="border border-brand-border px-3 py-2 transition-colors" data-lang-button="de" aria-pressed="true">DE</button>
+          <button type="button" class="border border-brand-border px-3 py-2 transition-colors" data-lang-button="en" aria-pressed="false">EN</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="floating-lang-toggle" id="floatingLangToggle" aria-label="Sprache wechseln">
+    <button type="button" data-lang-button="de" aria-pressed="true">DE</button>
+    <button type="button" data-lang-button="en" aria-pressed="false">EN</button>
+  </div>
+
+  <main>
+    <section class="pt-32 md:pt-48 pb-16 px-6 md:px-12 max-w-[120rem] mx-auto">
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12 items-start">
+        <div class="md:col-span-7 fade-in-up" style="animation-delay: 0.2s;">
+          <h1 class="headline text-[3.3rem] md:text-[6.4rem] lg:text-[8.7rem] text-brand-text" id="heroTitle">
+            Die<br>Perspektive
+          </h1>
+        </div>
+        <div class="md:col-span-4 md:col-start-9 fade-in-up md:pt-6 lg:pt-10" style="animation-delay: 0.4s;">
+          <p class="max-w-md text-lg md:text-xl font-light leading-relaxed text-brand-muted mb-3" id="heroCopy"></p>
+        </div>
+      </div>
+      <div class="mt-10 border-t border-brand-border pt-6"></div>
+    </section>
+
+    <section class="py-16 px-6 md:px-12 max-w-[120rem] mx-auto scroll-fade">
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-10 md:gap-12 items-start">
+        <div class="md:col-span-5">
+          <div class="image-hover-container aspect-[4/5] w-full">
+            <img id="portraitImage" src="/assets/uploads/About-Me-Ich.webp" alt="Portrait von Blitzkneisser Photography" class="w-full h-full object-cover">
+          </div>
+          <div class="mt-4 flex justify-between items-center text-[10px] uppercase tracking-widest text-brand-muted">
+            <span>Blitzkneisser</span>
+            <span id="portraitRole">Photographer</span>
+          </div>
+        </div>
+        <div class="md:col-span-6 md:col-start-7 pt-4">
+          <h2 class="headline text-3xl md:text-4xl mb-5" id="storyTitle">Mehr als Bilder</h2>
+          <div class="space-y-3 text-brand-text font-light leading-relaxed text-base md:text-lg opacity-80" id="storyCopyBlock"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-24 px-6 md:px-12 max-w-[120rem] mx-auto bg-white scroll-fade">
+      <div class="max-w-4xl mx-auto text-center">
+        <span class="text-[10px] md:text-xs uppercase tracking-[0.2em] text-brand-muted mb-5 block" id="philosophyEyebrow">Die Haltung</span>
+        <h3 class="text-3xl md:text-5xl font-light italic leading-tight text-brand-text mb-5" id="philosophyQuote"></h3>
+        <div class="w-12 h-px bg-brand-border mx-auto"></div>
+      </div>
+    </section>
+
+    <section class="py-32 px-6 md:px-12 max-w-[120rem] mx-auto scroll-fade">
+      <h3 class="text-[10px] md:text-xs uppercase tracking-[0.2em] text-brand-muted mb-24 text-center" id="timelineEyebrow">Weg und Entwicklung</h3>
+
+      <div class="relative max-w-5xl mx-auto">
+        <div class="timeline-line hidden md:block"></div>
+        <div class="space-y-24" id="timelineItems"></div>
+      </div>
+    </section>
+
+    <section class="py-32 px-6 md:px-12 max-w-[120rem] mx-auto border-t border-brand-border scroll-fade">
+      <div class="flex flex-col md:flex-row justify-between items-end gap-8">
+        <div class="max-w-xl">
+          <h3 class="headline text-4xl md:text-6xl mb-6" id="ctaTitle"></h3>
+          <p class="text-brand-text font-light opacity-80 mb-8" id="ctaCopy"></p>
+          <div class="flex border-b border-brand-text pb-4 w-full">
+            <a id="ctaLink" href="/contact/" class="text-xs uppercase tracking-widest font-medium hover:text-brand-muted transition-colors"></a>
+          </div>
+        </div>
+        <div class="image-hover-container w-full md:w-1/3 aspect-[16/9]">
+          <img id="ctaImage" src="/assets/uploads/Blitzkneisser-Mountain-Elopement-Instagram-5.webp" alt="Berglandschaft in den Alpen" class="w-full h-full object-cover">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="py-16 px-6 md:px-12 border-t border-brand-border flex flex-col md:flex-row justify-between items-start md:items-center text-[10px] md:text-xs text-brand-muted tracking-[0.2em] uppercase font-medium bg-brand-bg">
+    <div class="mb-8 md:mb-0" id="footerBrandText">© 2026 Blitzkneisser Photography</div>
+    <div class="flex flex-col md:flex-row gap-6 md:gap-12">
+      <a id="footerInstagramLink" href="#" class="hover:text-brand-text transition-colors duration-300">Instagram</a>
+      <a id="footerContactLink" href="/contact/" class="hover:text-brand-text transition-colors duration-300" data-i18n="nav.contact">Contact</a>
+      <a id="footerJournalLink" href="/journal/" class="hover:text-brand-text transition-colors duration-300">Journal</a>
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", async () => {
+      const nav = document.getElementById("mainNav");
+      const navToggle = document.getElementById("navToggle");
+      const navMenuPanel = document.getElementById("navMenuPanel");
+      const ui = {
+        de: {
+          navHome: "Home",
+          navAbout: "Über mich",
+          navFilm: "Film",
+          navPortfolio: "Portfolio",
+          navJournal: "Journal",
+          navContact: "Kontakt"
+        },
+        en: {
+          navHome: "Home",
+          navAbout: "About",
+          navFilm: "Film",
+          navPortfolio: "Portfolio",
+          navJournal: "Journal",
+          navContact: "Contact"
+        }
+      };
+
+      let aboutData = null;
+      let selectedAboutPortraitImage = "";
+      const langParam = new URLSearchParams(window.location.search).get("lang");
+      const detectAutoLanguage = () => {
+        const browserLanguages = [
+          ...(navigator.languages || []),
+          navigator.language,
+          navigator.userLanguage
+        ]
+          .filter(Boolean)
+          .map((value) => String(value).toLowerCase());
+        return browserLanguages.some((value) => value.startsWith("de")) ? "de" : "en";
+      };
+      let currentLang = langParam === "en" ? "en" : ((langParam === "de" ? "de" : localStorage.getItem("site-lang")) || detectAutoLanguage());
+      const metaDescriptionNode = document.querySelector('meta[name="description"]');
+
+      const closeNavMenu = () => {
+        nav.classList.remove("is-open");
+        navToggle.setAttribute("aria-expanded", "false");
+      };
+
+      navToggle.addEventListener("click", () => {
+        const willOpen = !nav.classList.contains("is-open");
+        nav.classList.toggle("is-open", willOpen);
+        navToggle.setAttribute("aria-expanded", willOpen ? "true" : "false");
+      });
+
+      navMenuPanel.querySelectorAll("a, button[data-lang-button]").forEach((item) => {
+        item.addEventListener("click", () => {
+          if (window.innerWidth < 768) closeNavMenu();
+        });
+      });
+
+      window.addEventListener("resize", () => {
+        if (window.innerWidth >= 768) closeNavMenu();
+      });
+
+      window.addEventListener("scroll", () => {
+        if (window.innerWidth < 768 && nav.classList.contains("is-open")) {
+          closeNavMenu();
+        }
+      }, { passive: true });
+
+      const renderTimeline = (entries) => {
+        const timelineRoot = document.getElementById("timelineItems");
+        timelineRoot.innerHTML = entries.map((item, index) => {
+          const leftYear = index % 2 === 0;
+          return `
+            <div class="relative flex flex-col md:flex-row items-center">
+              <div class="md:w-1/2 ${leftYear ? "md:pr-16 text-right hidden md:block" : "md:pr-16 md:text-right border-l md:border-l-0 border-brand-border pl-8 md:pl-0"}">
+                ${leftYear ? `<h4 class="headline text-4xl">${item.year}</h4>` : `
+                  <span class="md:hidden headline text-2xl block mb-2">${item.year}</span>
+                  <h5 class="text-sm uppercase tracking-widest font-medium mb-2">${item.title}</h5>
+                  <p class="text-sm font-light text-brand-muted leading-relaxed">${item.copy}</p>
+                `}
+              </div>
+              <div class="md:w-1/2 ${leftYear ? "md:pl-16 border-l md:border-l-0 border-brand-border pl-8" : "md:pl-16 hidden md:block"}">
+                ${leftYear ? `
+                  <span class="md:hidden headline text-2xl block mb-2">${item.year}</span>
+                  <h5 class="text-sm uppercase tracking-widest font-medium mb-2">${item.title}</h5>
+                  <p class="text-sm font-light text-brand-muted leading-relaxed">${item.copy}</p>
+                ` : `<h4 class="headline text-4xl">${item.year}</h4>`}
+              </div>
+            </div>
+          `;
+        }).join("");
+      };
+
+      const getSelectedPortraitImage = (data) => {
+        if (selectedAboutPortraitImage) return selectedAboutPortraitImage;
+        const candidates = [];
+        if (Array.isArray(data?.portraitImages)) {
+          data.portraitImages.forEach((entry) => {
+            if (typeof entry === "string" && entry.trim()) candidates.push(entry.trim());
+            if (entry && typeof entry === "object" && typeof entry.image === "string" && entry.image.trim()) {
+              candidates.push(entry.image.trim());
+            }
+          });
+        }
+        if (data?.portraitImage) candidates.push(String(data.portraitImage).trim());
+        const filtered = candidates.filter(Boolean);
+        if (!filtered.length) return "";
+        selectedAboutPortraitImage = filtered[Math.floor(Math.random() * filtered.length)];
+        return selectedAboutPortraitImage;
+      };
+
+      const applyLanguage = (lang) => {
+        currentLang = lang;
+        localStorage.setItem("site-lang", lang);
+        const t = ui[lang];
+        const data = aboutData || {};
+        document.documentElement.lang = lang;
+        document.title = lang === "en" ? (data.metaTitleEn || data.metaTitle || "About | Blitzkneisser Photography") : (data.metaTitle || "Über mich | Blitzkneisser Photography");
+        if (metaDescriptionNode) {
+          metaDescriptionNode.setAttribute("content", lang === "en" ? (data.metaDescriptionEn || data.metaDescription || "") : (data.metaDescription || ""));
+        }
+
+        document.getElementById("navHomeMenuLink").textContent = t.navHome;
+        document.getElementById("navAboutLink").textContent = t.navAbout;
+        document.getElementById("navFilmLink").textContent = t.navFilm;
+        document.getElementById("navPortfolioLink").textContent = t.navPortfolio;
+        document.getElementById("navJournalLink").textContent = t.navJournal;
+        document.getElementById("navContactLink").textContent = t.navContact;
+        const footerContactLink = document.getElementById("footerContactLink");
+        if (footerContactLink) {
+          footerContactLink.textContent = t.navContact;
+        }
+
+        document.getElementById("heroTitle").innerHTML = lang === "en" ? (data.heroTitleEn || data.heroTitle || "") : (data.heroTitle || "");
+        document.getElementById("heroCopy").textContent = lang === "en"
+          ? (data.heroCopySecondaryEn || data.heroCopySecondary || "")
+          : (data.heroCopySecondary || "");
+        document.getElementById("portraitRole").textContent = lang === "en" ? (data.portraitRoleEn || data.portraitRole || "") : (data.portraitRole || "");
+        document.getElementById("storyTitle").textContent = lang === "en" ? (data.storyTitleEn || data.storyTitle || "") : (data.storyTitle || "");
+        const storyText = lang === "en"
+          ? (data.storyCopyEn || [data.storyCopy1En, data.storyCopy2En, data.storyCopy3En].filter(Boolean).join("\n\n") || data.storyCopy || [data.storyCopy1, data.storyCopy2, data.storyCopy3].filter(Boolean).join("\n\n") || "")
+          : (data.storyCopy || [data.storyCopy1, data.storyCopy2, data.storyCopy3].filter(Boolean).join("\n\n") || "");
+        const storyCopyBlock = document.getElementById("storyCopyBlock");
+        storyCopyBlock.innerHTML = "";
+        String(storyText || "")
+          .split(/\n\s*\n+/)
+          .map((part) => part.trim())
+          .filter(Boolean)
+          .forEach((paragraph) => {
+            const node = document.createElement("p");
+            node.textContent = paragraph;
+            storyCopyBlock.appendChild(node);
+          });
+        document.getElementById("philosophyEyebrow").textContent = lang === "en" ? (data.philosophyEyebrowEn || data.philosophyEyebrow || "") : (data.philosophyEyebrow || "");
+        document.getElementById("philosophyQuote").textContent = lang === "en" ? (data.philosophyQuoteEn || data.philosophyQuote || "") : (data.philosophyQuote || "");
+        document.getElementById("timelineEyebrow").textContent = lang === "en" ? (data.timelineEyebrowEn || data.timelineEyebrow || "") : (data.timelineEyebrow || "");
+        document.getElementById("ctaTitle").textContent = lang === "en" ? (data.ctaTitleEn || data.ctaTitle || "") : (data.ctaTitle || "");
+        document.getElementById("ctaCopy").textContent = lang === "en" ? (data.ctaCopyEn || data.ctaCopy || "") : (data.ctaCopy || "");
+        document.getElementById("ctaLink").textContent = lang === "en" ? (data.ctaLinkLabelEn || data.ctaLinkLabel || "") : (data.ctaLinkLabel || "");
+
+        const portraitImage = document.getElementById("portraitImage");
+        const selectedPortrait = getSelectedPortraitImage(data);
+        portraitImage.src = selectedPortrait || data.portraitImage || portraitImage.src;
+        portraitImage.alt = lang === "en" ? (data.portraitAltEn || data.portraitAlt || "") : (data.portraitAlt || "");
+
+        const ctaImage = document.getElementById("ctaImage");
+        ctaImage.src = data.ctaImage || ctaImage.src;
+        ctaImage.alt = lang === "en" ? (data.ctaAltEn || data.ctaAlt || "") : (data.ctaAlt || "");
+
+        const timelineEntries = Array.isArray(data.timeline) ? data.timeline.map((item) => ({
+          year: lang === "en" ? (item.yearEn || item.year || "") : (item.year || ""),
+          title: lang === "en" ? (item.titleEn || item.title || "") : (item.title || ""),
+          copy: lang === "en" ? (item.copyEn || item.copy || "") : (item.copy || "")
+        })) : [];
+        renderTimeline(timelineEntries);
+
+        document.getElementById("navHomeMenuLink").href = lang === "en" ? "/index.html?lang=en" : "/index.html";
+        document.getElementById("navHomeLink").href = lang === "en" ? "/index.html?lang=en" : "/index.html";
+        document.getElementById("navAboutLink").href = lang === "en" ? "/about/?lang=en" : "/about/";
+        document.getElementById("navFilmLink").href = lang === "en" ? "/film/?lang=en" : "/film/";
+        document.getElementById("navPortfolioLink").href = lang === "en" ? "/portfolio/?lang=en" : "/portfolio/";
+        document.getElementById("navJournalLink").href = lang === "en" ? "/journal/?lang=en" : "/journal/";
+        document.getElementById("navContactLink").href = lang === "en" ? "/contact/?lang=en" : "/contact/";
+        document.getElementById("ctaLink").href = lang === "en" ? "/contact/?lang=en" : "/contact/";
+        if (footerContactLink) {
+          footerContactLink.href = lang === "en" ? "/contact/?lang=en" : "/contact/";
+        }
+        const footerJournalLink = document.getElementById("footerJournalLink");
+        if (footerJournalLink) {
+          footerJournalLink.href = lang === "en" ? "/journal/?lang=en" : "/journal/";
+        }
+
+        document.querySelectorAll("[data-lang-button]").forEach((button) => {
+          const active = button.dataset.langButton === lang;
+          button.setAttribute("aria-pressed", active ? "true" : "false");
+          button.style.backgroundColor = active ? "#1B1A18" : "transparent";
+          button.style.color = active ? "#F9F7F2" : "#1B1A18";
+          button.style.borderColor = active ? "#1B1A18" : "#E6DED4";
+        });
+
+        window.history.replaceState({}, "", lang === "en" ? "/about/?lang=en" : "/about/");
+      };
+
+      document.querySelectorAll("[data-lang-button]").forEach((button) => {
+        button.addEventListener("click", () => applyLanguage(button.dataset.langButton));
+      });
+
+      try {
+        const response = await fetch(`/content/about/page.json?ts=${Date.now()}`, { cache: "no-store" });
+        aboutData = await response.json();
+      } catch {
+        aboutData = {};
+      }
+
+      applyLanguage(currentLang);
+
+      const observer = new IntersectionObserver((entries, currentObserver) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.style.opacity = "1";
+            entry.target.style.transform = "translateY(0)";
+            currentObserver.unobserve(entry.target);
+          }
+        });
+      }, { root: null, rootMargin: "0px", threshold: 0.1 });
+
+      document.querySelectorAll(".scroll-fade").forEach((element) => {
+        element.style.opacity = "0";
+        element.style.transform = "translateY(30px)";
+        element.style.transition = "opacity 1s cubic-bezier(0.16, 1, 0.3, 1), transform 1s cubic-bezier(0.16, 1, 0.3, 1)";
+        observer.observe(element);
+      });
+    });
+  </script>
+  <script src="/assets/footer-settings.js"></script>
+  <script src="/assets/pinterest-pin.js"></script>
+</body>
+</html>

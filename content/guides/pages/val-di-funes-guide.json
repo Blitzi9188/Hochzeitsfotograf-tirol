@@ -1,0 +1,740 @@
+{
+  "de": {
+    "slug": "val-di-funes-guide",
+    "title": "Val di Funes Guide | Ruhige Talatmosphäre und Berglicht",
+    "description": "Guide zu Val di Funes für Paare, die weiche Talstimmung, Kirchenblicke, sanfteres Licht und eine ruhigere Alternative zu den ikonischen Gipfeln suchen.",
+    "hero": {
+      "eyebrow": "Standort-Guide",
+      "title": "Val di Funes Guide",
+      "copy": "Ein Guide für Paare, die sich statt reiner Dramatik eher ein weiches, stilles Talgefühl mit Blickachsen, Kirchen und viel Luft zwischen den Bergen wünschen.",
+      "cta": "Planung starten",
+      "image": "/assets/guide-placeholders/IMAGE_PLACEHOLDER_VAL_DI_FUNES.svg",
+      "imageAlt": "Val di Funes mit Blick über das Tal"
+    },
+    "utility": {
+      "reading": "Guide",
+      "focus": "Für ruhigere Talstimmungen in den Dolomiten",
+      "navOverview": "Überblick",
+      "navSeasons": "Standorthinweise",
+      "navPhilosophy": "Einführung",
+      "navVisual": "Weitere Guides",
+      "navFaq": "FAQ"
+    },
+    "overview": {
+      "eyebrow": "Guide im Überblick",
+      "copy": "Val di Funes ist nicht der lauteste Ort in den Dolomiten und genau darin liegt seine Stärke. Das Tal wirkt friedlicher, pastoraler und oft weniger angespannt als die bekanntesten Kanten und Gipfel.",
+      "items": [
+        {
+          "label": "Beste Zeit",
+          "value": "Sommer bis Herbst",
+          "icon": "calendar"
+        },
+        {
+          "label": "Bestes Licht",
+          "value": "Morgen und sanfter Abend",
+          "icon": "sun"
+        },
+        {
+          "label": "Crowd Level",
+          "value": "Medium",
+          "icon": "crowd"
+        },
+        {
+          "label": "Zugang",
+          "value": "Leicht bis mittelschwer",
+          "icon": "path"
+        },
+        {
+          "label": "Ideal für",
+          "value": "Ruhige pastorale Atmosphäre",
+          "icon": "guests"
+        }
+      ]
+    },
+    "philosophy": {
+      "eyebrow": "Eine erste Orientierung",
+      "title": "Val di Funes erzählt seine Schönheit leiser, aber nicht schwächer.",
+      "copy": "Hier geht es weniger um eine einzelne überwältigende Felswand als um Wiesen, Distanz, Kirchtürme und das Gefühl, dass sich ein Hochzeitstag langsamer setzen darf."
+    },
+    "sections": {
+      "seasonOrder": [
+        "special",
+        "time",
+        "access",
+        "crowds",
+        "weather"
+      ],
+      "seasons": {
+        "special": {
+          "layout": "image-left",
+          "image": "/assets/guide-placeholders/IMAGE_PLACEHOLDER_VAL_DI_FUNES.svg",
+          "imageAlt": "Val di Funes mit Blick über das Tal Tal",
+          "title": "Warum sich Val di Funes anders anfühlt",
+          "intro": "Es tauscht auf sehr schöne Weise Spektakel gegen Atmosphäre.",
+          "copy": "Dieses Tal fühlt sich oft sanfter, ländlicher und weniger dramatisch an als die Hauptstandorte. Genau das macht es für viele Paare bedeutsam.",
+          "facts": [
+            {
+              "label": "Stimmung",
+              "value": "Pastoral und ruhig",
+              "icon": "wind"
+            },
+            {
+              "label": "Ideal für",
+              "value": "Paare, die Weichheit suchen",
+              "icon": "guests"
+            },
+            {
+              "label": "Visuelle Stärke",
+              "value": "Taltiefe und Blick auf die Kirche",
+              "icon": "sun"
+            }
+          ]
+        },
+        "time": {
+          "layout": "image-right",
+          "image": "/assets/guide-placeholders/IMAGE_PLACEHOLDER_VAL_DI_FUNES.svg",
+          "imageAlt": "Sanftes Licht in Val di Funes",
+          "title": "Beste Zeit",
+          "intro": "Diese Landschaft ist nachsichtiger als die berühmten Orte, an denen nur der Sonnenaufgang herrscht.",
+          "copy": "Sowohl der Morgen als auch der späte Tag können sich stark anfühlen, abhängig von der genauen Szene, die ihr möchtet. Das Tallicht hat oft eine sanfte Qualität, die auch außerhalb des strengsten Sonnenaufgangsfensters funktioniert.",
+          "facts": [
+            {
+              "label": "Am flexibelsten",
+              "value": "Morgens und abends",
+              "icon": "sun"
+            },
+            {
+              "label": "Warum",
+              "value": "Weicheres Gelände und breitere Stimmung",
+              "icon": "wind"
+            },
+            {
+              "label": "Ideal für",
+              "value": "Paare, die weniger Druck wünschen",
+              "icon": "guests"
+            }
+          ]
+        },
+        "access": {
+          "layout": "image-left",
+          "image": "/assets/guide-placeholders/IMAGE_PLACEHOLDER_VAL_DI_FUNES.svg",
+          "imageAlt": "Zugang und Wege in Val di Funes",
+          "title": "Zugriffsnotizen",
+          "intro": "Hier lässt es sich oft leichter leben als an exponierteren Standorten.",
+          "copy": "Der Zugang ist in der Regel einfacher, was Val di Funes für Gäste oder für Tage, die einen ruhigeren emotionalen Start benötigen, nützlicher macht.",
+          "facts": [
+            {
+              "label": "Schwierigkeit",
+              "value": "Leicht bis mittelschwer",
+              "icon": "path"
+            },
+            {
+              "label": "Gästefreundlich",
+              "value": "Ja",
+              "icon": "guests"
+            },
+            {
+              "label": "Beste Verwendung",
+              "value": "Ruhigere redaktionelle Bergtage",
+              "icon": "calendar"
+            }
+          ]
+        },
+        "crowds": {
+          "layout": "image-right",
+          "image": "/assets/guide-placeholders/IMAGE_PLACEHOLDER_VAL_DI_FUNES.svg",
+          "imageAlt": "Besucherrhythmus in Val di Funes",
+          "title": "Crowd Reality",
+          "intro": "Dies ist normalerweise sanfter als die berühmtesten Grate, aber das Timing ist trotzdem wichtig.",
+          "copy": "Bestimmte Aussichtspunkte können immer noch Aufmerksamkeit erregen, dennoch wirkt das Tal insgesamt oft weniger konzentriert und lässt sich leichter ruhig durchqueren.",
+          "facts": [
+            {
+              "label": "Allgemeines Gefühl",
+              "value": "Weniger konzentriert als Icon-Spots",
+              "icon": "crowd"
+            },
+            {
+              "label": "Am leisesten",
+              "value": "Vor- und Nebensaison",
+              "icon": "calendar"
+            },
+            {
+              "label": "Beste Strategie",
+              "value": "Verwendet ruhigere Kanten, nicht nur Schlagzeilenansichten",
+              "icon": "path"
+            }
+          ]
+        },
+        "weather": {
+          "layout": "image-left",
+          "image": "/assets/guide-placeholders/IMAGE_PLACEHOLDER_WEATHER.svg",
+          "imageAlt": "Nebelstimmung in Val di Funes",
+          "title": "Wetternotizen",
+          "intro": "Nebel und wechselndes Wetter fühlen sich hier oft besonders schön an.",
+          "copy": "Da die Landschaft sanfter und vielschichtiger ist, können Wolken und Nebel viel emotionale Tiefe verleihen, ohne das Ortsgefühl zu beeinträchtigen.",
+          "facts": [
+            {
+              "label": "Beste Stimmung",
+              "value": "Nebel, weiche Wolke, ruhiges Licht",
+              "icon": "cloud"
+            },
+            {
+              "label": "Hauptstärke",
+              "value": "Das Wetter sorgt oft für Atmosphäre",
+              "icon": "wind"
+            },
+            {
+              "label": "Ideal für",
+              "value": "Paare sind offen für filmische Sanftheit",
+              "icon": "guests"
+            }
+          ]
+        }
+      }
+    },
+    "planning": {
+      "eyebrow": "Planungsnotizen",
+      "title": "Was in Val di Funes normalerweise am wichtigsten ist.",
+      "intro": "Dieser Ort funktioniert oft am besten, wenn man sich in seine Sanftheit hineinlehnt, anstatt zu versuchen, noch mehr Spektakel daraus zu erzwingen.",
+      "items": [
+        {
+          "label": "Stimmung",
+          "title": "Lass das Tal sanft bleiben.",
+          "copy": "Die Stärke dieses Ortes ist die Atmosphäre, nicht der dramatische Aufwand.",
+          "meta": "Weichheit ist der Punkt."
+        },
+        {
+          "label": "Gäste",
+          "title": "Eine nützliche Option für inklusivere Tage.",
+          "copy": "Der einfachere Zugang kann es für eine größere Gruppe komfortabler machen.",
+          "meta": "Ruhe kann auch praktisch sein."
+        },
+        {
+          "label": "Wetter",
+          "title": "Keine Angst vor Nebel.",
+          "copy": "Nebel und tiefe Wolken vertiefen das Tal oft wunderschön.",
+          "meta": "Das Wetter hilft oft."
+        },
+        {
+          "label": "Licht",
+          "title": "ihr habt mehr Flexibilität als bei Headline-Kämmen.",
+          "copy": "Der Morgen ist noch schön, aber die Landschaft verträgt auch ruhigeres Abendlicht gut.",
+          "meta": "Weniger Zeitdruck."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Fragen, die Paare oft zu Val di Funes stellen.",
+      "intro": "Dies sind einige der Fragen, die Paare oft stellen, wenn sich der Traum realer anfühlt und die Berge nicht mehr nur eine Idee sind.",
+      "items": [
+        {
+          "q": "Ist Val di Funes eine gute Alternative zu den ikonischen Graten?",
+          "a": "Ja, vor allem, wenn ihr euch etwas Weicheres, Leiseres und weniger Exponiertes wünscht."
+        },
+        {
+          "q": "Ist es gastfreundlich?",
+          "a": "Oftmals ja, vor allem im Vergleich zu Orten, die eher auf Wanderungen ausgerichtet sind."
+        },
+        {
+          "q": "Braucht es einen Sonnenaufgang?",
+          "a": "Nicht so streng wie einige berühmte Orte. Es kann zu verschiedenen Zeiten sanftes Licht halten."
+        },
+        {
+          "q": "Kann Nebel trotzdem wunderbar wirken?",
+          "a": "Sehr oft ja. Es kann einer der stärksten Teile der Talstimmung sein."
+        }
+      ]
+    },
+    "related": {
+      "eyebrow": "Verwandte Leitfäden",
+      "hint": "Wischt nach links oder rechts, um weitere Guides zu sehen.",
+      "items": [
+        {
+          "label": "Dolomiten",
+          "title": "Elopement-Guide für die Dolomiten",
+          "copy": "Ein ruhiger Ausgangspunkt für Paare, die ein Dolomites Elopement oder eine intime Berghochzeit planen und verstehen möchten, wie Licht, Wege, Wetter und Menschenmengen den Tag wirklich prägen.",
+          "href": "/guides/dolomites-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-120.jpg",
+          "imageAlt": "Paar bei einem Dolomiten-Elopement im weichen Morgenlicht",
+          "alt": "Paar bei einem Dolomiten-Elopement im weichen Morgenlicht"
+        },
+        {
+          "label": "Standorte",
+          "title": "Die beliebtesten Elopement-Orte in den Dolomiten",
+          "copy": "Ein kuratierter Guide für Paare, die nicht einfach irgendeine schöne Aussicht suchen, sondern den Ort, dessen Stimmung wirklich zu ihrem Tag passt.",
+          "href": "/guides/best-dolomites-elopement-locations/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-191.jpg",
+          "imageAlt": "Elopement-Standorte in den Dolomiten",
+          "alt": "Elopement-Standorte in den Dolomiten"
+        },
+        {
+          "label": "Standorte",
+          "title": "Lago di Braies Guide",
+          "copy": "Ein ehrlicher Guide für Paare, die den Pragser Wildsee nicht nur als berühmtes Bild kennen, sondern verstehen möchten, wann er still, weich und tatsächlich erlebbar wird.",
+          "href": "/guides/lago-di-braies-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopemnt-Dolomites-Lago-di-Braies-19.jpg",
+          "imageAlt": "Lago di Braies mit ruhigem Wasser und frühem Licht",
+          "alt": "Lago di Braies mit ruhigem Wasser und frühem Licht"
+        },
+        {
+          "label": "Standorte",
+          "title": "Seceda Guide",
+          "copy": "Ein Guide für Paare, die an Seceda nicht nur die berühmte Kante suchen, sondern das Gefühl von Weite, Wind und offenem Berglicht, das diesen Ort so unverwechselbar macht.",
+          "href": "/guides/seceda-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Seceda-180.jpg",
+          "imageAlt": "Seceda bei klarem Berglicht",
+          "alt": "Seceda bei klarem Berglicht"
+        },
+        {
+          "label": "Standorte",
+          "title": "Cadini di Misurina Guide",
+          "copy": "Ein Guide für Paare, die an Cadini diese wilde, kinoreife Spannung lieben und zugleich wissen möchten, wann der Ort zugänglich, sicher und wirklich stimmig ist.",
+          "href": "/guides/cadini-di-misurina-guide/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-12.jpg",
+          "imageAlt": "Cadini di Misurina mit markanten Felsformen",
+          "alt": "Cadini di Misurina mit markanten Felsformen"
+        },
+        {
+          "label": "Standorte",
+          "title": "Drei Zinnen Guide",
+          "copy": "Ein ehrlicher Guide für Paare, die Drei Zinnen nicht nur wegen des berühmten Blicks wählen, sondern wegen dieser monumentalen, fast unwirklichen Präsenz, die der Ort im richtigen Moment entfaltet.",
+          "href": "/guides/tre-cime-wedding-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14.jpg",
+          "imageAlt": "Drei Zinnen bei klarem Berglicht",
+          "alt": "Drei Zinnen bei klarem Berglicht"
+        },
+        {
+          "label": "Planung",
+          "title": "Beste Jahreszeit für ein Dolomiten-Elopement",
+          "copy": "Ein ehrlicher Guide zu Licht, Temperaturen, Menschenmengen und der Frage, wann sich die Berge nicht nur schön, sondern wirklich stimmig für euch anfühlen.",
+          "href": "/guides/best-time-for-a-dolomites-elopement/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-16.jpg",
+          "imageAlt": "Vorhandenes Bild zur schönsten Zeit in den Dolomiten",
+          "alt": "Vorhandenes Bild zur schönsten Zeit in den Dolomiten"
+        },
+        {
+          "label": "Planung",
+          "title": "Sonnenaufgang vs. Sonnenuntergang in den Dolomiten",
+          "copy": "Ein ehrlicher Vergleich für Paare, die nicht nur schönes Licht suchen, sondern verstehen möchten, welche Tageszeit zu ihrem Energielevel, ihrem Ort und dem gewünschten Gefühl passt.",
+          "href": "/guides/sunrise-vs-sunset-dolomites/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Photo-368.jpg",
+          "imageAlt": "Lichtstimmung in den Bergen bei Sonnenaufgang oder Sonnenuntergang",
+          "alt": "Lichtstimmung in den Bergen bei Sonnenaufgang oder Sonnenuntergang"
+        },
+        {
+          "label": "Planung",
+          "title": "Guide zur Wetter- und Backup-Planung",
+          "copy": "Ein ruhiger Wetter-Guide für Paare, die in den Bergen nicht auf perfekte Bedingungen hoffen, sondern einen Tag planen möchten, der auch bei Nebel, Wind oder Regen stimmig bleibt.",
+          "href": "/guides/weather-and-backup-planning/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-161.jpg",
+          "imageAlt": "Wetterstimmung in den Dolomiten mit Wolken und Nebel",
+          "alt": "Wetterstimmung in den Dolomiten mit Wolken und Nebel"
+        },
+        {
+          "label": "Planung",
+          "title": "Was man in den Bergen anziehen sollte",
+          "copy": "Ein praktischer Guide für Paare, die in den Bergen nicht nur schön aussehen, sondern sich auch frei bewegen, warm bleiben und sich in ihrer Kleidung wirklich wiederfinden möchten.",
+          "href": "/guides/what-to-wear-in-the-mountains/",
+          "image": "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Hut-13.jpg",
+          "imageAlt": "Kleidung für ein Elopement in den Bergen",
+          "alt": "Kleidung für ein Elopement in den Bergen"
+        },
+        {
+          "label": "Planung",
+          "title": "Helikopter-Elopement-Guide",
+          "copy": "Ein Guide für Paare, die Weite, Abgeschiedenheit und einen klareren Tagesfluss suchen und verstehen möchten, wann ein Helikopter in den Bergen wirklich sinnvoll ist.",
+          "href": "/guides/helicopter-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-12.jpg",
+          "imageAlt": "Helikopterflug über den Bergen für ein Elopement",
+          "alt": "Helikopterflug über den Bergen für ein Elopement"
+        },
+        {
+          "label": "Planung",
+          "title": "Mehrtägiger Elopement-Guide",
+          "copy": "Ein Guide für Paare, die mehr wollen als ein paar schnelle Stunden in den Bergen und ihren Hochzeitstag lieber in Ruhe entfalten lassen möchten.",
+          "href": "/guides/multi-day-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Insta-11.jpg",
+          "imageAlt": "Mehrtägiges Elopement in den Dolomiten",
+          "alt": "Mehrtägiges Elopement in den Dolomiten"
+        }
+      ]
+    },
+    "final": {
+      "eyebrow": "Ruhig geplant",
+      "title": "Lasst uns etwas gestalten, das sich ruhig, persönlich und zutiefst wahr anfühlt.",
+      "copy": "Wenn sich dieser Guide bereits nah an dem anfühlt, was ihr euch wünscht, helfe ich euch gern dabei, dieses Gefühl in etwas Ruhiges, Filmisches und wirklich Eigenes in den Bergen zu verwandeln.",
+      "cta": "Termin anfragen",
+      "image": "/assets/uploads/Blitzkneisser-Photo-Drei-Zinnen-Italy-24.jpg",
+      "imageAlt": "Drei Zinnen in den Dolomiten bei ruhigem, klarem Licht"
+    }
+  },
+  "en": {
+    "slug": "val-di-funes-guide",
+    "title": "Val di Funes Guide | Quiet Valley Atmosphere and Mountain Light",
+    "description": "A guide to Val di Funes for couples drawn to softer valley mood, church views, gentler light and a quieter alternative to the iconic peaks.",
+    "hero": {
+      "eyebrow": "Location Guide",
+      "title": "Val di Funes Guide",
+      "copy": "A guide for couples who want something softer and quieter than pure drama: more valley atmosphere, long views, churches and breathing space between the mountains.",
+      "cta": "Start planning",
+      "image": "/assets/guide-placeholders/IMAGE_PLACEHOLDER_VAL_DI_FUNES.svg",
+      "imageAlt": "Val di Funes with open valley views"
+    },
+    "utility": {
+      "reading": "Guide",
+      "focus": "For quieter valley moods in the Dolomites",
+      "navOverview": "Overview",
+      "navSeasons": "Location Notes",
+      "navPhilosophy": "Intro",
+      "navVisual": "More guides",
+      "navFaq": "FAQ"
+    },
+    "overview": {
+      "eyebrow": "Guide Overview",
+      "copy": "Val di Funes is not the loudest place in the Dolomites, and that is exactly where its strength lies. The valley feels more pastoral, more peaceful and often less pressured than the most famous ridges and peaks.",
+      "items": [
+        {
+          "label": "Best Time",
+          "value": "Summer to autumn",
+          "icon": "calendar"
+        },
+        {
+          "label": "Best Light",
+          "value": "Morning and soft evening",
+          "icon": "sun"
+        },
+        {
+          "label": "Crowd Level",
+          "value": "Medium",
+          "icon": "crowd"
+        },
+        {
+          "label": "Access",
+          "value": "Easy to moderate",
+          "icon": "path"
+        },
+        {
+          "label": "Best For",
+          "value": "Quiet pastoral atmosphere",
+          "icon": "guests"
+        }
+      ]
+    },
+    "philosophy": {
+      "eyebrow": "A first note",
+      "title": "Val di Funes tells its beauty more softly, but not more weakly.",
+      "copy": "This place is less about one overwhelming rock wall and more about meadows, distance, church spires and the feeling that a wedding day can settle more slowly here."
+    },
+    "sections": {
+      "seasonOrder": [
+        "special",
+        "time",
+        "access",
+        "crowds",
+        "weather"
+      ],
+      "seasons": {
+        "special": {
+          "layout": "image-left",
+          "image": "/assets/guide-placeholders/IMAGE_PLACEHOLDER_VAL_DI_FUNES.svg",
+          "imageAlt": "Val di Funes with open valley views valley",
+          "title": "Why Val di Funes feels different",
+          "intro": "It trades spectacle for atmosphere in a very beautiful way.",
+          "copy": "This valley often feels softer, more pastoral and less dramatic than the headline locations. That is exactly what makes it meaningful for many couples.",
+          "facts": [
+            {
+              "label": "Mood",
+              "value": "Pastoral and calm",
+              "icon": "wind"
+            },
+            {
+              "label": "Best For",
+              "value": "Couples wanting softness",
+              "icon": "guests"
+            },
+            {
+              "label": "Visual Strength",
+              "value": "Valley depth and church views",
+              "icon": "sun"
+            }
+          ]
+        },
+        "time": {
+          "layout": "image-right",
+          "image": "/assets/guide-placeholders/IMAGE_PLACEHOLDER_VAL_DI_FUNES.svg",
+          "imageAlt": "Soft light in Val di Funes",
+          "title": "Best time",
+          "intro": "This landscape is more forgiving than the iconic sunrise-only spots.",
+          "copy": "Morning and late day can both feel strong, depending on the exact scene you want. The valley light often has a gentle quality that works outside the strictest sunrise window.",
+          "facts": [
+            {
+              "label": "Most Flexible",
+              "value": "Morning and evening",
+              "icon": "sun"
+            },
+            {
+              "label": "Why",
+              "value": "Softer terrain and broader mood",
+              "icon": "wind"
+            },
+            {
+              "label": "Best For",
+              "value": "Couples wanting less pressure",
+              "icon": "guests"
+            }
+          ]
+        },
+        "access": {
+          "layout": "image-left",
+          "image": "/assets/guide-placeholders/IMAGE_PLACEHOLDER_VAL_DI_FUNES.svg",
+          "imageAlt": "Access and paths in Val di Funes",
+          "title": "Access notes",
+          "intro": "This is often easier to live than the more exposed locations.",
+          "copy": "Access is usually simpler, which makes Val di Funes more useful for guests or for days that need a calmer emotional start.",
+          "facts": [
+            {
+              "label": "Difficulty",
+              "value": "Easy to moderate",
+              "icon": "path"
+            },
+            {
+              "label": "Guest Friendly",
+              "value": "Yes",
+              "icon": "guests"
+            },
+            {
+              "label": "Best Use",
+              "value": "Calmer editorial mountain days",
+              "icon": "calendar"
+            }
+          ]
+        },
+        "crowds": {
+          "layout": "image-right",
+          "image": "/assets/guide-placeholders/IMAGE_PLACEHOLDER_VAL_DI_FUNES.svg",
+          "imageAlt": "Visitor rhythm in Val di Funes",
+          "title": "Crowd reality",
+          "intro": "This is usually gentler than the most famous ridges, but timing still matters.",
+          "copy": "Certain viewpoints can still attract attention, yet the valley overall often feels less concentrated and easier to move through quietly.",
+          "facts": [
+            {
+              "label": "General Feel",
+              "value": "Less concentrated than icon spots",
+              "icon": "crowd"
+            },
+            {
+              "label": "Quietest",
+              "value": "Early and shoulder season",
+              "icon": "calendar"
+            },
+            {
+              "label": "Best Strategy",
+              "value": "Use quieter edges, not only headline views",
+              "icon": "path"
+            }
+          ]
+        },
+        "weather": {
+          "layout": "image-left",
+          "image": "/assets/guide-placeholders/IMAGE_PLACEHOLDER_WEATHER.svg",
+          "imageAlt": "Foggy mood in Val di Funes",
+          "title": "Weather notes",
+          "intro": "Mist and changing weather often feel especially beautiful here.",
+          "copy": "Because the landscape is gentler and more layered, cloud and fog can add a lot of emotional depth without taking away the sense of place.",
+          "facts": [
+            {
+              "label": "Best Mood",
+              "value": "Mist, soft cloud, quiet light",
+              "icon": "cloud"
+            },
+            {
+              "label": "Main Strength",
+              "value": "Weather often adds atmosphere",
+              "icon": "wind"
+            },
+            {
+              "label": "Best For",
+              "value": "Couples open to cinematic softness",
+              "icon": "guests"
+            }
+          ]
+        }
+      }
+    },
+    "planning": {
+      "eyebrow": "Planning Notes",
+      "title": "What usually matters most in Val di Funes.",
+      "intro": "This location often works best when you lean into its softness instead of trying to force more spectacle out of it.",
+      "items": [
+        {
+          "label": "Mood",
+          "title": "Let the valley stay gentle.",
+          "copy": "The strength of this place is atmosphere, not dramatic effort.",
+          "meta": "Softness is the point."
+        },
+        {
+          "label": "Guests",
+          "title": "A useful option for more inclusive days.",
+          "copy": "Its easier access can make it more comfortable for a broader group.",
+          "meta": "Calm can be practical too."
+        },
+        {
+          "label": "Weather",
+          "title": "Do not fear mist here.",
+          "copy": "Fog and low cloud often deepen the valley beautifully.",
+          "meta": "Weather often helps."
+        },
+        {
+          "label": "Light",
+          "title": "You have more flexibility than at headline ridges.",
+          "copy": "Morning is still beautiful, but the landscape can also hold quieter evening light well.",
+          "meta": "Less pressure on timing."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Questions couples often ask about Val di Funes.",
+      "intro": "A few of the questions couples often ask once the dream begins feeling more real, and the mountains stop being only an idea.",
+      "items": [
+        {
+          "q": "Is Val di Funes a good alternative to the iconic ridges?",
+          "a": "Yes, especially if you want something softer, quieter and less exposed."
+        },
+        {
+          "q": "Is it guest friendly?",
+          "a": "Often yes, especially compared with more hike-based locations."
+        },
+        {
+          "q": "Does it need sunrise?",
+          "a": "Not as strictly as some iconic locations. It can hold gentle light at different times."
+        },
+        {
+          "q": "Can mist still work beautifully?",
+          "a": "Very often yes. It can be one of the strongest parts of the valley mood."
+        }
+      ]
+    },
+    "related": {
+      "eyebrow": "Related Guides",
+      "hint": "Swipe left or right to explore more guides.",
+      "items": [
+        {
+          "label": "Dolomites",
+          "title": "Dolomites Elopement Guide",
+          "copy": "A calm starting point for couples planning a Dolomites Elopement or intimate mountain wedding and wanting to understand how light, access, weather and crowds truly shape the day.",
+          "href": "/guides/dolomites-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-120.jpg",
+          "imageAlt": "Couple during a Dolomites elopement in soft morning light",
+          "alt": "Couple during a Dolomites elopement in soft morning light"
+        },
+        {
+          "label": "Locations",
+          "title": "The most popular elopement locations in the Dolomites",
+          "copy": "A curated guide for couples who are not looking for just any beautiful view, but for the place whose atmosphere truly fits the day they want.",
+          "href": "/guides/best-dolomites-elopement-locations/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-191.jpg",
+          "imageAlt": "Elopement locations in the Dolomites",
+          "alt": "Elopement locations in the Dolomites"
+        },
+        {
+          "label": "Locations",
+          "title": "Lago di Braies Guide",
+          "copy": "An honest guide for couples who know Lago di Braies as more than a famous photograph and want to understand when it feels soft, quiet and truly worth experiencing.",
+          "href": "/guides/lago-di-braies-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopemnt-Dolomites-Lago-di-Braies-19.jpg",
+          "imageAlt": "Lago di Braies with still water and early light",
+          "alt": "Lago di Braies with still water and early light"
+        },
+        {
+          "label": "Locations",
+          "title": "Seceda Guide",
+          "copy": "A guide for couples drawn to Seceda not only for the famous ridge, but for the feeling of openness, wind and high alpine light that makes it so distinctive.",
+          "href": "/guides/seceda-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Seceda-180.jpg",
+          "imageAlt": "Seceda in clear mountain light",
+          "alt": "Seceda in clear mountain light"
+        },
+        {
+          "label": "Locations",
+          "title": "Cadini di Misurina Guide",
+          "copy": "A guide for couples who love the wild, cinematic tension of Cadini and want to know when it is accessible, safe and genuinely worth choosing.",
+          "href": "/guides/cadini-di-misurina-guide/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-12.jpg",
+          "imageAlt": "Cadini di Misurina with dramatic rock formations",
+          "alt": "Cadini di Misurina with dramatic rock formations"
+        },
+        {
+          "label": "Locations",
+          "title": "Tre Cime Wedding Guide",
+          "copy": "An honest guide for couples choosing Tre Cime not only for the famous view, but for the monumental, almost unreal presence the place carries when the timing is right.",
+          "href": "/guides/tre-cime-wedding-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14.jpg",
+          "imageAlt": "Tre Cime in clear mountain light",
+          "alt": "Tre Cime in clear mountain light"
+        },
+        {
+          "label": "Planning",
+          "title": "Best Time for a Dolomites Elopement",
+          "copy": "An honest guide to light, temperatures, crowds and the question of when the mountains will not only look beautiful, but genuinely feel right for you.",
+          "href": "/guides/best-time-for-a-dolomites-elopement/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-16.jpg",
+          "imageAlt": "Existing image for best time in the Dolomites",
+          "alt": "Existing image for best time in the Dolomites"
+        },
+        {
+          "label": "Planning",
+          "title": "Sunrise vs Sunset in the Dolomites",
+          "copy": "An honest comparison for couples who want more than beautiful light and are trying to understand which time of day fits their energy, their location and the feeling they want to remember.",
+          "href": "/guides/sunrise-vs-sunset-dolomites/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Photo-368.jpg",
+          "imageAlt": "Mountain light at sunrise or sunset",
+          "alt": "Mountain light at sunrise or sunset"
+        },
+        {
+          "label": "Planning",
+          "title": "Weather & Backup Planning Guide",
+          "copy": "A calm weather guide for couples who do not want to hope for perfect conditions in the mountains, but want to build a day that still feels right in fog, wind or rain.",
+          "href": "/guides/weather-and-backup-planning/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-161.jpg",
+          "imageAlt": "Weather in the Dolomites with clouds and fog",
+          "alt": "Weather in the Dolomites with clouds and fog"
+        },
+        {
+          "label": "Planning",
+          "title": "What to Wear in the Mountains",
+          "copy": "A practical guide for couples who want to look beautiful in the mountains, but also move freely, stay warm and still feel like themselves in what they wear.",
+          "href": "/guides/what-to-wear-in-the-mountains/",
+          "image": "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Hut-13.jpg",
+          "imageAlt": "Outfit ideas for a mountain elopement",
+          "alt": "Outfit ideas for a mountain elopement"
+        },
+        {
+          "label": "Planning",
+          "title": "Helicopter Elopement Guide",
+          "copy": "A guide for couples seeking more space, privacy and a clearer flow to the day, and wanting to understand when a helicopter in the mountains genuinely makes sense.",
+          "href": "/guides/helicopter-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-12.jpg",
+          "imageAlt": "Helicopter flight above the mountains for an elopement",
+          "alt": "Helicopter flight above the mountains for an elopement"
+        },
+        {
+          "label": "Planning",
+          "title": "Multi-Day Elopement Guide",
+          "copy": "A guide for couples who want more than a few rushed hours in the mountains and would rather let the day unfold with space around it.",
+          "href": "/guides/multi-day-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Insta-11.jpg",
+          "imageAlt": "Multi-day elopement in the Dolomites",
+          "alt": "Multi-day elopement in the Dolomites"
+        }
+      ]
+    },
+    "final": {
+      "eyebrow": "Planned with intention",
+      "title": "Let’s shape something that feels quiet, personal and deeply true to you.",
+      "copy": "If this guide already feels close to the way you want the day to move, I would love to help you turn that feeling into something calm, cinematic and genuinely your own in the mountains.",
+      "cta": "Inquire now",
+      "image": "/assets/uploads/Blitzkneisser-Photo-Drei-Zinnen-Italy-24.jpg",
+      "imageAlt": "Tre Cime in the Dolomites in calm, clear light"
+    }
+  }
+}

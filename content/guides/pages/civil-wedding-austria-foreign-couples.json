@@ -1,0 +1,702 @@
+{
+  "de": {
+    "slug": "civil-wedding-austria-foreign-couples",
+    "title": "Standesamtliche Hochzeit in Österreich | Guide für internationale Paare",
+    "description": "Guide für internationale Paare, die in Österreich standesamtlich heiraten und den offiziellen Teil mit Bergen, Ruhe und einem persönlichen Hochzeitstag verbinden möchten.",
+    "hero": {
+      "eyebrow": "Standesamt-Guide",
+      "title": "Standesamtliche Hochzeit in Österreich",
+      "copy": "Ein klarer Guide für internationale Paare, die in Österreich legal heiraten und den offiziellen Teil mit Bergen, Ruhe und einem persönlichen Hochzeitstag verbinden möchten.",
+      "cta": "Planung starten",
+      "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Kemater-Alm-12.jpg",
+      "imageAlt": "Internationales Paar bei einer zivilen Hochzeit in Österreich"
+    },
+    "utility": {
+      "reading": "Guide",
+      "focus": "Für internationale Paare, die eine legale Hochzeit in Österreich mit einem Bergtag verbinden möchten",
+      "navOverview": "Überblick",
+      "navSeasons": "Ablauf",
+      "navPhilosophy": "Einführung",
+      "navVisual": "Weitere Guides",
+      "navFaq": "FAQ"
+    },
+    "overview": {
+      "eyebrow": "Guide im Überblick",
+      "copy": "Für Paare aus dem Ausland fühlt sich eine zivile Hochzeit in Österreich oft einfacher an als befürchtet und zugleich formeller, als Bilder vermuten lassen. Dokumente, Fristen und Zuständigkeiten sind wichtig, aber mit genügend Vorlauf gut zu ordnen.",
+      "items": [
+        {
+          "icon": "calendar",
+          "label": "Früh starten",
+          "value": "Oft 4 bis 8 Monate vorher"
+        },
+        {
+          "icon": "path",
+          "label": "Am hilfreichsten",
+          "value": "Standesamt und Bergtag getrennt denken"
+        },
+        {
+          "icon": "cloud",
+          "label": "Wichtigste Stärke",
+          "value": "Mehr Ruhe durch klare Vorbereitung"
+        },
+        {
+          "icon": "guests",
+          "label": "Ideal für",
+          "value": "Internationale Paare mit bewusstem Ablauf"
+        },
+        {
+          "icon": "sunrise",
+          "label": "Am schönsten",
+          "value": "Wenn legaler Teil und emotionaler Tag zusammenpassen"
+        }
+      ]
+    },
+    "philosophy": {
+      "eyebrow": "Eine erste Orientierung",
+      "title": "Der rechtliche Teil darf schlicht sein und trotzdem Raum für Schönheit lassen.",
+      "copy": "Viele Paare entscheiden sich für einen klaren standesamtlichen Termin und legen den emotionalen Schwerpunkt auf einen zweiten Teil in den Bergen. Genau diese Trennung kann viel Ruhe in die Planung bringen."
+    },
+    "sections": {
+      "seasonOrder": [
+        "basics",
+        "documents",
+        "timing",
+        "combine",
+        "symbolic"
+      ],
+      "seasons": {
+        "basics": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Wedding-Innsbruck-172.jpg",
+          "imageAlt": "Paar nach einer standesamtlichen Hochzeit in Österreich",
+          "eyebrow": "Grundidee",
+          "title": "Wie Standesamtliche Hochzeiten in Österreich meist funktionieren",
+          "intro": "",
+          "copy": "In Österreich wird die rechtlich bindende Trauung standesamtlich geschlossen. Für internationale Paare bedeutet das meist: früh Kontakt mit dem zuständigen Standesamt aufnehmen, Dokumente abstimmen und genügend Zeit für Rückfragen lassen. Der Ablauf ist meist klarer als viele zuerst denken, aber selten so spontan, wie die Berge später wirken.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "calendar",
+              "label": "Rechtsform",
+              "value": "Standesamtliche Trauung"
+            },
+            {
+              "icon": "guests",
+              "label": "Wichtig",
+              "value": "Frühe Abstimmung mit dem Amt"
+            },
+            {
+              "icon": "path",
+              "label": "Ziel",
+              "value": "Klarheit vor Romantikdruck"
+            }
+          ],
+          "note": "",
+          "meta": "Ablauf • Klarheit • Vorbereitung",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "documents": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Hochzeit-Seefeld-8.jpg",
+          "imageAlt": "Paar vor einem offiziellen Hochzeitstermin in Österreich",
+          "eyebrow": "Vorbereitung",
+          "title": "Was internationale Paare meist vorbereiten sollten",
+          "intro": "",
+          "copy": "Je nach Nationalität, Wohnsitz und Familienstand können Dokumente unterschiedlich ausfallen. Genau deshalb ist frühe Kommunikation so wertvoll. Es geht weniger darum, jedes Papier sofort zu kennen, sondern rechtzeitig zu wissen, was euer konkreter Fall verlangt und welche Fristen realistisch sind.",
+          "points": [
+            "Dokumente und Übersetzungen sollten frühzeitig mit dem Standesamt abgestimmt werden, da Rückfragen, Beglaubigungen oder Apostillen oft mehr Zeit benötigen als erwartet — eine entspannte Planung funktioniert hier deutlich besser als Last-Minute-Organisation."
+          ],
+          "facts": [
+            {
+              "icon": "path",
+              "label": "Meist nötig",
+              "value": "Klare Dokumentenliste"
+            },
+            {
+              "icon": "wind",
+              "label": "Wichtig",
+              "value": "Zeitpuffer"
+            },
+            {
+              "icon": "cloud",
+              "label": "Am ruhigsten",
+              "value": "Ein Fall nach dem anderen klären"
+            }
+          ],
+          "note": "",
+          "meta": "Dokumente • Fristen • Puffer",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "timing": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Hochtennboden-Standesamt-41.jpg",
+          "imageAlt": "Ruhe rund um eine geplante standesamtliche Hochzeit in Österreich",
+          "eyebrow": "Timing",
+          "title": "Warum frühe Planung so viel Ruhe schafft",
+          "intro": "",
+          "copy": "Sobald mehrere Länder, Dokumente, Reisepläne und ein Bergtag zusammenkommen, wird Zeit zum größten Beruhigungsfaktor. Früh zu planen bedeutet nicht, alles sofort entscheiden zu müssen. Es bedeutet nur, die wichtigen Stellen in Ruhe zu öffnen, bevor sich der Tag emotional auflädt.",
+          "points": [
+            "In Nordtirol ist es sogar möglich, eine offizielle standesamtliche Trauung direkt in den Bergen zu vollziehen — eine besondere Möglichkeit für Paare, die ihre Hochzeit mitten in der alpinen Landschaft erleben möchten."
+          ],
+          "facts": [
+            {
+              "icon": "calendar",
+              "label": "Frühester Vorteil",
+              "value": "Mehr Terminspielraum"
+            },
+            {
+              "icon": "crowd",
+              "label": "Emotionaler Gewinn",
+              "value": "Weniger Druck kurz davor"
+            },
+            {
+              "icon": "sunrise",
+              "label": "Bestes Gefühl",
+              "value": "Wenn der Ablauf schon innerlich ruhig ist"
+            }
+          ],
+          "note": "",
+          "meta": "Früh starten • Räume offen halten • Druck reduzieren",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "combine": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Kemater-Alm-73.jpg",
+          "imageAlt": "Paar in alpiner Landschaft nach dem offiziellen Teil der Hochzeit",
+          "eyebrow": "Verbindung",
+          "title": "Wie sich Standesamt und Bergtag gut verbinden lassen",
+          "intro": "",
+          "copy": "Viele Paare trennen den offiziellen Teil bewusst von ihrem eigentlichen Elopement- oder Hochzeitstag. Das kann am selben Wochenende geschehen oder mit ein paar Tagen Abstand. Genau diese Trennung schafft oft mehr Weite: Das Standesamt bekommt Klarheit, der Bergtag bekommt Gefühl, Licht und Zeit.",
+          "points": [
+            "Das Standesamt kann ein ruhiger offizieller Teil des Tages sein, während der emotionale Höhepunkt oft in einem persönlichen Moment in den Bergen entsteht — dadurch gewinnen Paare mehr Freiheit bei Zeit, Ort und Atmosphäre, und der gesamte Tag fühlt sich deutlich entspannter und natürlicher an."
+          ],
+          "facts": [
+            {
+              "icon": "guests",
+              "label": "Hilfreich für",
+              "value": "Paare mit legalem und emotionalem Doppelfokus"
+            },
+            {
+              "icon": "sun",
+              "label": "Stärkste Variante",
+              "value": "Offizieller Teil + eigener Bergtag"
+            },
+            {
+              "icon": "path",
+              "label": "Ergebnis",
+              "value": "Mehr Freiheit am eigentlichen Hochzeitstag"
+            }
+          ],
+          "note": "",
+          "meta": "Legalität • Freiheit • Gefühl",
+          "linkLabel": "Dolomiten-Elopement-Guide lesen",
+          "linkHref": "/guides/dolomites-elopement-guide/"
+        },
+        "symbolic": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Wedding-Dolomites-889.jpg",
+          "imageAlt": "Intimer symbolischer Moment in den Bergen nach einer zivilen Hochzeit",
+          "eyebrow": "Atmosphäre",
+          "title": "Warum eine symbolische Zeremonie trotzdem stark bleiben kann",
+          "intro": "",
+          "copy": "Eine symbolische Zeremonie ist nicht die „zweite Wahl“. Für viele Paare ist sie der Moment, der sich wirklich nach ihnen anfühlt, weil dort Licht, Worte, Ruhe und Landschaft zusammenfinden. Rechtlich bindend wird die Ehe im Standesamt. Emotional bindend wird sie oft erst dort, wo ihr wirklich atmen könnt.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "sunrise",
+              "label": "Stärkster Effekt",
+              "value": "Mehr Präsenz am eigentlichen Moment"
+            },
+            {
+              "icon": "guests",
+              "label": "Besonders gut für",
+              "value": "Paare mit persönlichem Fokus"
+            },
+            {
+              "icon": "path",
+              "label": "Nicht weniger echt",
+              "value": "Nur anders getragen"
+            }
+          ],
+          "note": "",
+          "meta": "Symbolisch • Persönlich • Filmisch",
+          "linkLabel": "",
+          "linkHref": ""
+        }
+      }
+    },
+    "planning": {
+      "eyebrow": "Planungsnotizen",
+      "title": "Was internationale Paare meist am meisten entlastet.",
+      "intro": "Die ruhigsten legalen Hochzeiten entstehen selten durch Perfektion, sondern durch einen klaren nächsten Schritt nach dem anderen.",
+      "items": [
+        {
+          "label": "Standesamt zuerst",
+          "title": "Früh Kontakt aufnehmen statt später improvisieren.",
+          "copy": "Die erste Antwort des Standesamts schafft fast immer mehr Ruhe als jede Suche in Foren oder verstreuten Quellen.",
+          "meta": "Klarheit beginnt mit dem richtigen Ansprechpartner."
+        },
+        {
+          "label": "Dokumente",
+          "title": "Mit realistischen Fristen planen.",
+          "copy": "Übersetzungen, Beglaubigungen und internationale Nachweise brauchen oft mehr Zeit als man denkt.",
+          "meta": "Früh anfangen ist hier kein Luxus."
+        },
+        {
+          "label": "Bergtag",
+          "title": "Den emotionalen Tag nicht zu eng an den Amtstermin pressen.",
+          "copy": "Oft fühlt sich alles besser an, wenn zwischen offiziellem Teil und Bergmoment genug Luft bleibt.",
+          "meta": "Raum macht Tage weicher."
+        },
+        {
+          "label": "Unterkünfte",
+          "title": "Nähe und Ruhe wichtiger nehmen als nur Optik.",
+          "copy": "Wenn Standesamt, Hotel und Landschaft sinnvoll verbunden sind, beginnt der Tag meist deutlich gelassener.",
+          "meta": "Logistik formt Atmosphäre."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Fragen, die internationale Paare fast immer zuerst stellen.",
+      "intro": "Bei einer standesamtlichen Hochzeit im Ausland geht es meist zuerst um Klarheit: Was ist wirklich nötig, wie früh müssen wir anfangen und wie verbinden wir das Formelle mit etwas Persönlichem?",
+      "items": [
+        {
+          "q": "Können wir als ausländisches Paar legal in Österreich heiraten?",
+          "a": "Ja, grundsätzlich schon. Welche Unterlagen genau nötig sind, hängt von eurer Staatsangehörigkeit, eurem Wohnsitz und manchmal auch vom konkreten Standesamt ab. Genau deshalb lohnt sich der frühe Kontakt mit der zuständigen Stelle."
+        },
+        {
+          "q": "Wie früh sollten wir mit der Planung beginnen?",
+          "a": "Lieber früher als später. Gerade bei internationalen Paaren kosten Dokumente, Beglaubigungen, Übersetzungen und Terminabstimmungen oft mehr Zeit, als man anfangs erwartet."
+        },
+        {
+          "q": "Brauchen wir immer Übersetzungen oder beglaubigte Unterlagen?",
+          "a": "Oft ja, zumindest für einen Teil der Dokumente. Welche Form akzeptiert wird, kann sich je nach Herkunftsland und Standesamt unterscheiden. Man sollte das nie einfach annehmen, sondern konkret abklären."
+        },
+        {
+          "q": "Können wir das Standesamt mit einem Elopement verbinden?",
+          "a": "Ja, und genau das machen viele Paare. Der offizielle Termin kann bewusst schlicht bleiben, während ihr den emotionalen Teil des Tages in die Berge, an einen See oder an einen für euch passenderen Ort legt."
+        },
+        {
+          "q": "Ist eine symbolische Zeremonie dann überhaupt noch wichtig?",
+          "a": "Für viele Paare ja. Nicht weil sie den rechtlichen Teil ersetzt, sondern weil sie den Moment persönlicher macht und euch erlaubt, Worte und Stimmung an dem Ort zu erleben, der sich wirklich nach euch anfühlt."
+        },
+        {
+          "q": "Müssen wir alles in einem einzigen Tag unterbringen?",
+          "a": "Nein, und oft ist genau das die bessere Lösung. Wenn ihr den rechtlichen und den emotionalen Teil trennt, wird der gesamte Ablauf meist ruhiger und viel freier."
+        }
+      ]
+    },
+    "related": {
+      "eyebrow": "Verwandte Leitfäden",
+      "items": [
+        {
+          "label": "Planung",
+          "title": "Elopement-Guide für die Dolomiten",
+          "copy": "Ein ruhiger Ausgangspunkt für Paare, die ein Dolomites Elopement oder eine intime Berghochzeit planen und verstehen möchten, wie Licht, Wege, Wetter und Menschenmengen den Tag wirklich prägen.",
+          "href": "/guides/dolomites-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-120.jpg",
+          "imageAlt": "Paar bei einem Dolomiten-Elopement im weichen Morgenlicht",
+          "alt": "Paar bei einem Dolomiten-Elopement im weichen Morgenlicht"
+        },
+        {
+          "label": "Planung",
+          "title": "Elopement oder klassische Hochzeit in den Alpen",
+          "copy": "Ein ehrlicher Vergleich für Paare, die zwischen Intimität, Gästen, Budget und Tagesrhythmus abwägen und herausfinden möchten, welche Form wirklich zu ihnen passt.",
+          "href": "/guides/elopement-vs-traditional-wedding-alps/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement_lago-di-Braies-9.jpg",
+          "imageAlt": "Paar in alpiner Landschaft zwischen intimer und größerer Hochzeitsstimmung",
+          "alt": "Paar in alpiner Landschaft zwischen intimer und größerer Hochzeitsstimmung"
+        },
+        {
+          "label": "Tirol",
+          "title": "Die schönsten Orte für eine offizielle Trauung in Tirol",
+          "copy": "Ein Guide für Paare, die eine offizielle Trauung in Tirol mit Bergen, Seen und einem klaren, persönlichen Tagesgefühl verbinden möchten.",
+          "href": "/guides/best-places-officially-elope-tyrol/",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Winter-Wedding-Shooting-58.jpg",
+          "imageAlt": "Offizielle Hochzeit in Tirol mit Bergen im Hintergrund",
+          "alt": "Offizielle Hochzeit in Tirol mit Bergen im Hintergrund"
+        },
+        {
+          "label": "Planung",
+          "title": "Guide zur Wetter- und Backup-Planung",
+          "copy": "Ein ruhiger Wetter-Guide für Paare, die in den Bergen nicht auf perfekte Bedingungen hoffen, sondern einen Tag planen möchten, der auch bei Nebel, Wind oder Regen stimmig bleibt.",
+          "href": "/guides/weather-and-backup-planning/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-161.jpg",
+          "imageAlt": "Wetterstimmung in den Dolomiten mit Wolken und Nebel",
+          "alt": "Wetterstimmung in den Dolomiten mit Wolken und Nebel"
+        },
+        {
+          "label": "Planung",
+          "title": "Was man in den Bergen anziehen sollte",
+          "copy": "Ein praktischer Guide für Paare, die in den Bergen nicht nur schön aussehen, sondern sich auch frei bewegen, warm bleiben und sich in ihrer Kleidung wirklich wiederfinden möchten.",
+          "href": "/guides/what-to-wear-in-the-mountains/",
+          "image": "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Hut-13.jpg",
+          "imageAlt": "Kleidung für ein Elopement in den Bergen",
+          "alt": "Kleidung für ein Elopement in den Bergen"
+        }
+      ],
+      "hint": "Wischt nach links oder rechts, um weitere Guides zu sehen."
+    },
+    "final": {
+      "image": "/assets/uploads/Blitzkneisser-Photo-Drei-Zinnen-Italy-24.jpg",
+      "imageAlt": "Drei Zinnen in den Dolomiten bei ruhigem, klarem Licht",
+      "eyebrow": "Ruhig geplant",
+      "title": "Lasst uns etwas gestalten, das sich ruhig, persönlich und zutiefst wahr anfühlt.",
+      "copy": "Wenn ihr euch einen Hochzeitstag oder ein Elopement wünscht, das nicht nur schön aussieht, sondern sich auch ehrlich und leicht anfühlt, begleite ich euch gern bei der Planung.",
+      "cta": "Termin anfragen"
+    }
+  },
+  "en": {
+    "slug": "civil-wedding-austria-foreign-couples",
+    "title": "Civil Wedding in Austria for Foreign Couples | Legal Planning and Mountain Wedding Flow",
+    "description": "A guide for international couples planning a legal wedding in Austria and wanting to connect the official part with mountains and a personal wedding day.",
+    "hero": {
+      "eyebrow": "Civil Wedding Guide",
+      "title": "Civil Wedding in Austria",
+      "copy": "A clear guide for international couples who want to marry legally in Austria and connect the official part with mountains, quiet and a personal wedding day.",
+      "cta": "Plan your civil wedding",
+      "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Kemater-Alm-12.jpg",
+      "imageAlt": "International couple during a civil wedding in Austria"
+    },
+    "utility": {
+      "reading": "Guide",
+      "focus": "For international couples combining a legal ceremony in Austria with a mountain wedding day",
+      "navOverview": "Overview",
+      "navSeasons": "Process",
+      "navPhilosophy": "Intro",
+      "navVisual": "More guides",
+      "navFaq": "FAQ"
+    },
+    "overview": {
+      "eyebrow": "Guide Overview",
+      "copy": "For couples coming from abroad, a civil wedding in Austria often feels simpler than expected and more formal than the images suggest. Documents, deadlines and local offices matter, but with enough lead time they are usually very manageable.",
+      "items": [
+        {
+          "icon": "calendar",
+          "label": "Best timing",
+          "value": "Often 4 to 8 months ahead"
+        },
+        {
+          "icon": "path",
+          "label": "Strongest structure",
+          "value": "Think legal ceremony and mountain day separately"
+        },
+        {
+          "icon": "cloud",
+          "label": "Biggest strength",
+          "value": "Clarity creates calm"
+        },
+        {
+          "icon": "guests",
+          "label": "Ideal for",
+          "value": "International couples with a thoughtful timeline"
+        },
+        {
+          "icon": "sunrise",
+          "label": "Most meaningful",
+          "value": "When legal and emotional parts support each other"
+        }
+      ]
+    },
+    "philosophy": {
+      "eyebrow": "A first note",
+      "title": "The legal part can stay simple and still leave room for beauty.",
+      "copy": "Many couples choose a clear civil appointment and place the emotional heart of the experience in a second chapter in the mountains. That separation often creates much more calm in planning."
+    },
+    "sections": {
+      "seasonOrder": [
+        "basics",
+        "documents",
+        "timing",
+        "combine",
+        "symbolic"
+      ],
+      "seasons": {
+        "basics": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Wedding-Innsbruck-172.jpg",
+          "imageAlt": "Couple after a civil wedding in Austria",
+          "eyebrow": "The basics",
+          "title": "How civil weddings in Austria usually work",
+          "intro": "",
+          "copy": "In Austria, the legally binding marriage is concluded through a civil ceremony. For foreign couples, that usually means contacting the relevant registry office early, aligning documents and leaving space for follow-up questions. The structure is often clearer than people expect, but rarely as spontaneous as the mountains later feel.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "calendar",
+              "label": "Legal form",
+              "value": "Civil ceremony"
+            },
+            {
+              "icon": "guests",
+              "label": "Most helpful",
+              "value": "Early contact with the registry office"
+            },
+            {
+              "icon": "path",
+              "label": "Main goal",
+              "value": "Clarity before romance pressure"
+            }
+          ],
+          "note": "",
+          "meta": "Process • Clarity • Preparation",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "documents": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Hochzeit-Seefeld-8.jpg",
+          "imageAlt": "Couple before an official civil wedding appointment in Austria",
+          "eyebrow": "Preparation",
+          "title": "What foreign couples usually need to prepare",
+          "intro": "",
+          "copy": "Depending on nationality, residence and marital status, document requirements can vary. That is exactly why early communication matters. The goal is not to know every paper immediately, but to understand early what your specific case requires and which timelines are realistic.",
+          "points": [
+            "Documents and translations should be coordinated with the registry office at an early stage, as queries, certifications or apostilles often take more time than expected - relaxed planning works much better than last-minute organization."
+          ],
+          "facts": [
+            {
+              "icon": "path",
+              "label": "Usually needed",
+              "value": "A clear document list"
+            },
+            {
+              "icon": "wind",
+              "label": "Most important",
+              "value": "Time buffer"
+            },
+            {
+              "icon": "cloud",
+              "label": "Calmest approach",
+              "value": "Clarify one step at a time"
+            }
+          ],
+          "note": "",
+          "meta": "Documents • Timelines • Buffer",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "timing": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Hochtennboden-Standesamt-41.jpg",
+          "imageAlt": "Calm around a planned civil wedding in Austria",
+          "eyebrow": "Timing",
+          "title": "Why early planning creates so much calm",
+          "intro": "",
+          "copy": "Once several countries, documents, travel plans and a mountain day come together, time becomes the biggest source of calm. Planning early does not mean forcing every decision immediately. It simply means opening the important questions before the day becomes emotionally charged.",
+          "points": [
+            "In North Tyrol it is even possible to have an official civil wedding directly in the mountains - a special opportunity for couples who want to experience their wedding in the middle of the Alpine landscape."
+          ],
+          "facts": [
+            {
+              "icon": "calendar",
+              "label": "Earliest benefit",
+              "value": "More appointment flexibility"
+            },
+            {
+              "icon": "crowd",
+              "label": "Emotional gain",
+              "value": "Less pressure shortly before the day"
+            },
+            {
+              "icon": "sunrise",
+              "label": "Best feeling",
+              "value": "When the structure already feels calm"
+            }
+          ],
+          "note": "",
+          "meta": "Start early • Keep space open • Reduce pressure",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "combine": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Kemater-Alm-73.jpg",
+          "imageAlt": "Couple in alpine landscape after the official part of their wedding",
+          "eyebrow": "Combining both",
+          "title": "How to combine a civil ceremony with a mountain wedding day",
+          "intro": "",
+          "copy": "Many couples intentionally separate the official ceremony from their actual elopement or wedding day. That can happen on the same weekend or a few days apart. That separation often creates more spaciousness: the registry office holds legal clarity, the mountain day holds light, feeling and time.",
+          "points": [
+            "The registry office can be a calm foundation, not the only emotional peak.\\nA symbolic moment in the mountains gives much more freedom for timing and location.\\nThat often makes the entire experience feel lighter and less compressed."
+          ],
+          "facts": [
+            {
+              "icon": "guests",
+              "label": "Especially helpful for",
+              "value": "Couples balancing legal and emotional priorities"
+            },
+            {
+              "icon": "sun",
+              "label": "Strongest version",
+              "value": "Official part plus a separate mountain day"
+            },
+            {
+              "icon": "path",
+              "label": "Result",
+              "value": "More freedom on the real wedding day"
+            }
+          ],
+          "note": "",
+          "meta": "Legality • Freedom • Feeling",
+          "linkLabel": "Read the Dolomites Elopement Guide",
+          "linkHref": "/guides/dolomites-elopement-guide/"
+        },
+        "symbolic": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Wedding-Dolomites-889.jpg",
+          "imageAlt": "Intimate symbolic moment in the mountains after a civil wedding",
+          "eyebrow": "Atmosphere",
+          "title": "Why a symbolic ceremony can still be the strongest part",
+          "intro": "",
+          "copy": "A symbolic ceremony is not a second-best option. For many couples, it becomes the part that truly feels like them, because light, words, stillness and landscape finally come together there. The marriage becomes legal at the registry office. It often becomes emotionally real where you can actually breathe.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "sunrise",
+              "label": "Biggest effect",
+              "value": "More presence during the actual moment"
+            },
+            {
+              "icon": "guests",
+              "label": "Especially good for",
+              "value": "Couples with a deeply personal focus"
+            },
+            {
+              "icon": "path",
+              "label": "Not less real",
+              "value": "Simply carried differently"
+            }
+          ],
+          "note": "",
+          "meta": "Symbolic • Personal • Cinematic",
+          "linkLabel": "",
+          "linkHref": ""
+        }
+      }
+    },
+    "planning": {
+      "eyebrow": "Planning Notes",
+      "title": "What usually gives international couples the most relief.",
+      "intro": "The calmest legal weddings rarely come from perfection. They come from taking the next clear step at the right time.",
+      "items": [
+        {
+          "label": "Registry office",
+          "title": "Contact the right office early instead of improvising later.",
+          "copy": "The first real answer from the registry office almost always brings more calm than forum threads or scattered assumptions.",
+          "meta": "Clarity begins with the right contact."
+        },
+        {
+          "label": "Documents",
+          "title": "Plan with realistic timelines.",
+          "copy": "Translations, certifications and international documents usually need more time than expected.",
+          "meta": "Starting early is not a luxury here."
+        },
+        {
+          "label": "Mountain day",
+          "title": "Do not press the emotional day too tightly against the official appointment.",
+          "copy": "The whole experience often feels stronger when the legal part and the mountain part do not rush each other.",
+          "meta": "Space makes days softer."
+        },
+        {
+          "label": "Accommodation",
+          "title": "Value proximity and calm over looks alone.",
+          "copy": "When the registry office, hotel and landscape are connected sensibly, the day begins much more gently.",
+          "meta": "Logistics shape atmosphere."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Questions international couples usually ask first.",
+      "intro": "With a civil wedding abroad, the first need is usually clarity: what is truly required, how early do we need to begin, and how do we connect the official part with something personal?",
+      "items": [
+        {
+          "q": "Can we legally marry in Austria as a foreign couple?",
+          "a": "Yes, in principle. The exact documents depend on your nationality, residency and sometimes the specific registry office. That is why early contact with the responsible office is so helpful."
+        },
+        {
+          "q": "How early should we start planning?",
+          "a": "Earlier than you think is comfortable. Documents, certified copies, translations and appointment timing often take more time than international couples expect at first."
+        },
+        {
+          "q": "Do we always need translations or certified documents?",
+          "a": "Often yes, at least for part of the paperwork. What is accepted can vary depending on your country and the registry office, so it is worth checking directly rather than assuming."
+        },
+        {
+          "q": "Can we combine the civil ceremony with an elopement?",
+          "a": "Yes, and many couples do exactly that. The official appointment can stay simple while the emotional part of the day happens in the mountains, by a lake or somewhere that feels more like you."
+        },
+        {
+          "q": "Is a symbolic ceremony still meaningful then?",
+          "a": "For many couples, very much so. Not because it replaces the legal part, but because it makes the moment more personal and allows you to say your words in the place that actually feels right."
+        },
+        {
+          "q": "Do we need to fit everything into a single day?",
+          "a": "No, and often that is the calmer choice. Separating the legal and emotional parts usually makes the whole experience feel much more spacious."
+        }
+      ]
+    },
+    "related": {
+      "eyebrow": "Related Guides",
+      "items": [
+        {
+          "label": "Planning",
+          "title": "Dolomites Elopement Guide",
+          "copy": "A calm starting point for couples planning a Dolomites Elopement or intimate mountain wedding and wanting to understand how light, access, weather and crowds truly shape the day.",
+          "href": "/guides/dolomites-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-120.jpg",
+          "imageAlt": "Couple during a Dolomites elopement in soft morning light",
+          "alt": "Couple during a Dolomites elopement in soft morning light"
+        },
+        {
+          "label": "Planning",
+          "title": "Elopement vs Traditional Wedding in the Alps",
+          "copy": "An honest comparison for couples weighing intimacy, guests, budget and pace, and trying to understand which kind of wedding day genuinely fits them.",
+          "href": "/guides/elopement-vs-traditional-wedding-alps/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement_lago-di-Braies-9.jpg",
+          "imageAlt": "Couple in the Alps between intimate and larger wedding atmosphere",
+          "alt": "Couple in the Alps between intimate and larger wedding atmosphere"
+        },
+        {
+          "label": "Tyrol",
+          "title": "Best Places to Officially Elope in Tyrol",
+          "copy": "A guide for couples who want to combine an official ceremony in Tyrol with mountains, lakes and a wedding day that still feels clear and personal.",
+          "href": "/guides/best-places-officially-elope-tyrol/",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Winter-Wedding-Shooting-58.jpg",
+          "imageAlt": "Official wedding in Tyrol with mountains in the background",
+          "alt": "Official wedding in Tyrol with mountains in the background"
+        },
+        {
+          "label": "Planning",
+          "title": "Weather & Backup Planning Guide",
+          "copy": "A calm weather guide for couples who do not want to hope for perfect conditions in the mountains, but want to build a day that still feels right in fog, wind or rain.",
+          "href": "/guides/weather-and-backup-planning/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-161.jpg",
+          "imageAlt": "Weather in the Dolomites with clouds and fog",
+          "alt": "Weather in the Dolomites with clouds and fog"
+        },
+        {
+          "label": "Planning",
+          "title": "What to Wear in the Mountains",
+          "copy": "A practical guide for couples who want to look beautiful in the mountains, but also move freely, stay warm and still feel like themselves in what they wear.",
+          "href": "/guides/what-to-wear-in-the-mountains/",
+          "image": "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Hut-13.jpg",
+          "imageAlt": "Outfit ideas for a mountain elopement",
+          "alt": "Outfit ideas for a mountain elopement"
+        }
+      ],
+      "hint": "Swipe left or right to explore more guides."
+    },
+    "final": {
+      "image": "/assets/uploads/Blitzkneisser-Photo-Drei-Zinnen-Italy-24.jpg",
+      "imageAlt": "Tre Cime in the Dolomites in calm, clear light",
+      "eyebrow": "Planned with intention",
+      "title": "Let’s create something that feels calm, personal and deeply true.",
+      "copy": "If you are looking for a wedding day or elopement that feels honest, spacious and beautifully considered, I would love to help you shape it.",
+      "cta": "Inquire now"
+    }
+  }
+}

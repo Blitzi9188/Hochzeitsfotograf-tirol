@@ -1,0 +1,726 @@
+{
+  "de": {
+    "slug": "best-time-for-a-dolomites-elopement",
+    "title": "Beste Jahreszeit für ein Dolomiten-Elopement | Licht, Wetter und Tagesgefühl",
+    "description": "Guide zur besten Jahreszeit für ein Dolomiten-Elopement mit ehrlichen Hinweisen zu Licht, Wetter, Menschenmengen, Zugang und dem wirklichen Tagesgefühl in den Bergen.",
+    "hero": {
+      "eyebrow": "Planungs-Guide",
+      "title": "Beste Jahreszeit für ein Dolomiten-Elopement",
+      "copy": "Ein ehrlicher Guide zu Licht, Temperaturen, Menschenmengen und der Frage, wann sich die Berge nicht nur schön, sondern wirklich stimmig für euch anfühlen.",
+      "cta": "Planung starten",
+      "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-16.jpg",
+      "imageAlt": "Vorhandenes Bild zur schönsten Zeit in den Dolomiten"
+    },
+    "utility": {
+      "reading": "Guide",
+      "focus": "Für Paare, die je nach Jahreszeit, Licht und Atmosphäre planen",
+      "navOverview": "Überblick",
+      "navSeasons": "Jahreszeiten",
+      "navPhilosophy": "Einführung",
+      "navVisual": "Weitere Guides",
+      "navFaq": "FAQ"
+    },
+    "overview": {
+      "eyebrow": "Guide im Überblick",
+      "copy": "Die Jahreszeit verändert in den Dolomiten nicht nur Farben und Temperaturen. Sie entscheidet darüber, ob Wege frei sind, ob Parkplätze schon vor Sonnenaufgang voll werden, wie der Wind auf den Kanten steht und wie lange ihr es draußen wirklich gut aushaltet.",
+      "items": [
+        {
+          "icon": "calendar",
+          "label": "Beste Monate",
+          "value": "Juni bis Anfang Oktober"
+        },
+        {
+          "icon": "sun",
+          "label": "Schönstes Licht",
+          "value": "Sonnenaufgang und später Abend"
+        },
+        {
+          "icon": "cloud",
+          "label": "Wetterstimmung",
+          "value": "Schnell wechselnd, sanft und dramatisch"
+        },
+        {
+          "icon": "crowd",
+          "label": "Crowd Level",
+          "value": "Bei gutem Timing niedrig bis mittel"
+        },
+        {
+          "icon": "guests",
+          "label": "Ideal für",
+          "value": "Paare, die Atmosphäre lieben"
+        }
+      ]
+    },
+    "philosophy": {
+      "eyebrow": "Eine erste Orientierung",
+      "title": "Es gibt keine perfekte Saison, nur die, die euren Tag glaubwürdig trägt.",
+      "copy": "Manche Paare wünschen sich klare Kälte und Stille, andere lange Abende, Blumenwiesen oder weiche Herbstfarben. Die schönste Wahl ist fast immer die, die sich schon in der Planung nach euch anfühlt."
+    },
+    "sections": {
+      "seasonOrder": [
+        "spring",
+        "summer",
+        "autumn",
+        "winter"
+      ],
+      "seasons": {
+        "spring": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Wedding-155.jpg",
+          "imageAlt": "Vorhandenes Bild für die Vorsaison in den Dolomiten",
+          "title": "Frühling in den Dolomiten",
+          "intro": "Der Frühling beginnt vorsichtig und oft später, als man denkt.",
+          "copy": "Im Tal wird es schon weich und grün, während höher gelegene Orte noch Schnee tragen oder erst langsam zugänglich werden. Diese Zeit kann wunderschön sein, wenn ihr offen für Flexibilität seid und nicht an eine einzige bekannte Kulisse gebunden seid.",
+          "points": [
+            "Eine Jahreszeit voller Kontraste zwischen sanftem Frühling und spätem Bergwinter."
+          ],
+          "facts": [
+            {
+              "icon": "cloud",
+              "label": "Temperatur",
+              "value": "8–18 °C"
+            },
+            {
+              "icon": "guests",
+              "label": "Ideal für",
+              "value": "Offene, frische Bergtage"
+            },
+            {
+              "icon": "crowd",
+              "label": "Massen",
+              "value": "Niedriger als im Hochsommer"
+            }
+          ],
+          "note": "Diese Jahreszeit fühlt sich oft leicht und fast schwerelos an.",
+          "meta": "Offen • frisch • weich",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "summer": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-INSTAGRAM-7.jpg",
+          "imageAlt": "Sommermorgen in den Dolomiten",
+          "title": "Sommer in den Dolomiten",
+          "intro": "Der Sommer schenkt Zugang, verlangt aber frühe Entscheidungen.",
+          "copy": "Von Ende Juni bis Anfang September sind die meisten klassischen Orte erreichbar, gleichzeitig sind genau dann auch Parkplätze, Mautstraßen und Wege am stärksten gefragt. Wer den Sommer liebt, plant am besten mit sehr frühen Starts und einem klaren Gefühl dafür, wie viel Betrieb ein Ort tragen darf.",
+          "points": [
+            "Bester Gesamtzugang Warme Abende und langes Licht viel Torismus an ikonischen Orten"
+          ],
+          "facts": [
+            {
+              "icon": "cloud",
+              "label": "Temperatur",
+              "value": "14–25 °C"
+            },
+            {
+              "icon": "guests",
+              "label": "Ideal für",
+              "value": "Leichtigkeit, Gäste, längere Tage"
+            },
+            {
+              "icon": "crowd",
+              "label": "Massen",
+              "value": "Höher an berühmten Orten"
+            }
+          ],
+          "note": "Der September fühlt sich oft wie die ruhigste Version des Sommers an.",
+          "meta": "Warm • offen • zugänglich",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "autumn": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-30.jpg",
+          "imageAlt": "Vorhandenes Bild für den Herbst in den Dolomiten",
+          "title": "Herbst in den Dolomiten",
+          "intro": "Der Herbst fühlt sich oft klarer, leiser und erwachsener an.",
+          "copy": "Im September und frühen Oktober liegt häufig eine besondere Ruhe über den Bergen. Das Licht wird wärmer, die Luft trockener und viele Orte atmen freier. Genau deshalb ist der Herbst für viele Paare die stimmigste Zeit für ein Dolomites Elopement.",
+          "points": [
+            "Goldene Lärchen und kältere Luft\\nRuhigere Berge\\nMöglichkeit des ersten Schnees"
+          ],
+          "facts": [
+            {
+              "icon": "cloud",
+              "label": "Temperatur",
+              "value": "3–14 °C"
+            },
+            {
+              "icon": "wind",
+              "label": "Ideal für",
+              "value": "Filmische, ruhigere Tage"
+            },
+            {
+              "icon": "crowd",
+              "label": "Massen",
+              "value": "Wochentags oft niedriger"
+            }
+          ],
+          "note": "Für viele Paare ist dies die stimmungsvollste Jahreszeit überhaupt.",
+          "meta": "Golden • ruhig • filmisch",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "winter": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-3.jpg",
+          "imageAlt": "Vorhandenes Winterbild in den Dolomiten",
+          "title": "Winter in den Dolomiten",
+          "intro": "Der Winter ist nicht kleiner, sondern konsequenter.",
+          "copy": "Schnee, Kälte und kurze Tage machen vieles aufwendiger, aber auch stiller. Wer Winter in den Dolomiten wählt, bekommt oft eine eindrucksvolle Klarheit und mehr Abgeschiedenheit, muss aber mit Straßen, Temperaturen und Tageslicht deutlich bewusster umgehen.",
+          "points": [
+            "Schnee und Stille\\nKürzere Lichtfenster\\nViel mehr wetterabhängige Planung"
+          ],
+          "facts": [
+            {
+              "icon": "cloud",
+              "label": "Temperatur",
+              "value": "-8 bis 4 °C"
+            },
+            {
+              "icon": "guests",
+              "label": "Ideal für",
+              "value": "Intime, reduzierte Erlebnisse"
+            },
+            {
+              "icon": "path",
+              "label": "Zugang",
+              "value": "Im Vergleich zum Sommer begrenzt"
+            }
+          ],
+          "note": "Der Winter ist selten die einfachste Jahreszeit, aber oft die intimste.",
+          "meta": "Schnee • Stille • Intimität",
+          "linkLabel": "",
+          "linkHref": ""
+        }
+      }
+    },
+    "planning": {
+      "eyebrow": "Planungsnotizen",
+      "title": "Was die Jahreszeit wirklich am Tag verändert.",
+      "intro": "Die stärkste Frage lautet selten nur Sommer oder Herbst. Meist geht es darum, wie euer Körper, eure Wege und eure Nerven auf diese Jahreszeit reagieren sollen.",
+      "items": [
+        {
+          "label": "Licht",
+          "title": "Nicht nur die Farbe des Lichts ändert sich, sondern auch seine Dauer.",
+          "copy": "Im Sommer könnt ihr sehr früh starten und trotzdem lange Tage nutzen. Im Winter wird jede Stunde kostbarer.",
+          "meta": "Zeitfenster prägen den Ablauf."
+        },
+        {
+          "label": "Zugang",
+          "title": "Erreichbarkeit ist eine saisonale Frage.",
+          "copy": "Ein Ort, der im August einfach wirkt, kann im Mai oder November ganz anders funktionieren.",
+          "meta": "Zugänge sind nie nur geografisch."
+        },
+        {
+          "label": "Temperatur",
+          "title": "Kälte oder Hitze verändern die Stimmung schneller als viele denken.",
+          "copy": "Was auf Bildern romantisch aussieht, kann sich vor Ort entweder belebend oder anstrengend anfühlen.",
+          "meta": "Der Körper plant mit."
+        },
+        {
+          "label": "Crowds",
+          "title": "Menschenmengen folgen einem klaren Jahresrhythmus.",
+          "copy": "Feiertage, Ferien und ikonische Sommermonate verändern nicht nur die Zahl der Menschen, sondern auch Geräusche, Wartezeiten und Parkdruck.",
+          "meta": "Der Kalender ist Teil der Locationwahl."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Fragen zur besten Jahreszeit in den Dolomiten.",
+      "intro": "Hier hilft meist keine pauschale Empfehlung, sondern ein ehrlicher Blick darauf, wie ihr Licht, Temperatur und Betriebsamkeit tatsächlich erleben möchtet.",
+      "items": [
+        {
+          "q": "Wann ist die beste Zeit für ein Dolomiten-Elopement?",
+          "a": "Für viele Paare liegt das stärkste Fenster zwischen Juni und Anfang Oktober. Besonders September fühlt sich oft ausgewogen an: klares Licht, etwas weniger Betrieb und noch gute Erreichbarkeit."
+        },
+        {
+          "q": "Ist der Sommer immer die beste Wahl?",
+          "a": "Nicht unbedingt. Der Sommer ist am einfachsten zugänglich, aber oft auch am vollsten. Frühling und Herbst können sich leiser, persönlicher und atmosphärischer anfühlen, wenn ihr etwas mehr Flexibilität mitbringt."
+        },
+        {
+          "q": "Können wir im Winter heiraten oder elopen?",
+          "a": "Ja, aber Wintertage brauchen eine andere Haltung. Kälte, Straßen, kürzeres Licht und Plan B werden deutlich wichtiger. Wenn ihr diese Klarheit mögt, kann Winter wunderschön sein."
+        },
+        {
+          "q": "Ist Sonnenaufgang je nach Jahreszeit unterschiedlich wichtig?",
+          "a": "Ja, besonders im Sommer. Dann entscheidet der frühe Start oft darüber, ob ein Ort still und weit wirkt oder ob ihr schon mitten im Tagesbetrieb ankommt."
+        }
+      ]
+    },
+    "related": {
+      "eyebrow": "Verwandte Leitfäden",
+      "hint": "Wischt nach links oder rechts, um weitere Guides zu sehen.",
+      "items": [
+        {
+          "label": "Dolomiten",
+          "title": "Elopement-Guide für die Dolomiten",
+          "copy": "Ein ruhiger Ausgangspunkt für Paare, die ein Dolomites Elopement oder eine intime Berghochzeit planen und verstehen möchten, wie Licht, Wege, Wetter und Menschenmengen den Tag wirklich prägen.",
+          "href": "/guides/dolomites-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-120.jpg",
+          "imageAlt": "Paar bei einem Dolomiten-Elopement im weichen Morgenlicht",
+          "alt": "Paar bei einem Dolomiten-Elopement im weichen Morgenlicht"
+        },
+        {
+          "label": "Standorte",
+          "title": "Die beliebtesten Elopement-Orte in den Dolomiten",
+          "copy": "Ein kuratierter Guide für Paare, die nicht einfach irgendeine schöne Aussicht suchen, sondern den Ort, dessen Stimmung wirklich zu ihrem Tag passt.",
+          "href": "/guides/best-dolomites-elopement-locations/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-191.jpg",
+          "imageAlt": "Elopement-Standorte in den Dolomiten",
+          "alt": "Elopement-Standorte in den Dolomiten"
+        },
+        {
+          "label": "Standorte",
+          "title": "Lago di Braies Guide",
+          "copy": "Ein ehrlicher Guide für Paare, die den Pragser Wildsee nicht nur als berühmtes Bild kennen, sondern verstehen möchten, wann er still, weich und tatsächlich erlebbar wird.",
+          "href": "/guides/lago-di-braies-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopemnt-Dolomites-Lago-di-Braies-19.jpg",
+          "imageAlt": "Lago di Braies mit ruhigem Wasser und frühem Licht",
+          "alt": "Lago di Braies mit ruhigem Wasser und frühem Licht"
+        },
+        {
+          "label": "Standorte",
+          "title": "Seceda Guide",
+          "copy": "Ein Guide für Paare, die an Seceda nicht nur die berühmte Kante suchen, sondern das Gefühl von Weite, Wind und offenem Berglicht, das diesen Ort so unverwechselbar macht.",
+          "href": "/guides/seceda-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Seceda-180.jpg",
+          "imageAlt": "Seceda bei klarem Berglicht",
+          "alt": "Seceda bei klarem Berglicht"
+        },
+        {
+          "label": "Standorte",
+          "title": "Cadini di Misurina Guide",
+          "copy": "Ein Guide für Paare, die an Cadini diese wilde, kinoreife Spannung lieben und zugleich wissen möchten, wann der Ort zugänglich, sicher und wirklich stimmig ist.",
+          "href": "/guides/cadini-di-misurina-guide/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-12.jpg",
+          "imageAlt": "Cadini di Misurina mit markanten Felsformen",
+          "alt": "Cadini di Misurina mit markanten Felsformen"
+        },
+        {
+          "label": "Standorte",
+          "title": "Drei Zinnen Guide",
+          "copy": "Ein ehrlicher Guide für Paare, die Drei Zinnen nicht nur wegen des berühmten Blicks wählen, sondern wegen dieser monumentalen, fast unwirklichen Präsenz, die der Ort im richtigen Moment entfaltet.",
+          "href": "/guides/tre-cime-wedding-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14.jpg",
+          "imageAlt": "Drei Zinnen bei klarem Berglicht",
+          "alt": "Drei Zinnen bei klarem Berglicht"
+        },
+        {
+          "label": "Planung",
+          "title": "Sonnenaufgang vs. Sonnenuntergang in den Dolomiten",
+          "copy": "Ein ehrlicher Vergleich für Paare, die nicht nur schönes Licht suchen, sondern verstehen möchten, welche Tageszeit zu ihrem Energielevel, ihrem Ort und dem gewünschten Gefühl passt.",
+          "href": "/guides/sunrise-vs-sunset-dolomites/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Photo-368.jpg",
+          "imageAlt": "Lichtstimmung in den Bergen bei Sonnenaufgang oder Sonnenuntergang",
+          "alt": "Lichtstimmung in den Bergen bei Sonnenaufgang oder Sonnenuntergang"
+        },
+        {
+          "label": "Planung",
+          "title": "Guide zur Wetter- und Backup-Planung",
+          "copy": "Ein ruhiger Wetter-Guide für Paare, die in den Bergen nicht auf perfekte Bedingungen hoffen, sondern einen Tag planen möchten, der auch bei Nebel, Wind oder Regen stimmig bleibt.",
+          "href": "/guides/weather-and-backup-planning/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-161.jpg",
+          "imageAlt": "Wetterstimmung in den Dolomiten mit Wolken und Nebel",
+          "alt": "Wetterstimmung in den Dolomiten mit Wolken und Nebel"
+        },
+        {
+          "label": "Planung",
+          "title": "Was man in den Bergen anziehen sollte",
+          "copy": "Ein praktischer Guide für Paare, die in den Bergen nicht nur schön aussehen, sondern sich auch frei bewegen, warm bleiben und sich in ihrer Kleidung wirklich wiederfinden möchten.",
+          "href": "/guides/what-to-wear-in-the-mountains/",
+          "image": "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Hut-13.jpg",
+          "imageAlt": "Kleidung für ein Elopement in den Bergen",
+          "alt": "Kleidung für ein Elopement in den Bergen"
+        },
+        {
+          "label": "Planung",
+          "title": "Helikopter-Elopement-Guide",
+          "copy": "Ein Guide für Paare, die Weite, Abgeschiedenheit und einen klareren Tagesfluss suchen und verstehen möchten, wann ein Helikopter in den Bergen wirklich sinnvoll ist.",
+          "href": "/guides/helicopter-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-12.jpg",
+          "imageAlt": "Helikopterflug über den Bergen für ein Elopement",
+          "alt": "Helikopterflug über den Bergen für ein Elopement"
+        },
+        {
+          "label": "Planung",
+          "title": "Mehrtägiger Elopement-Guide",
+          "copy": "Ein Guide für Paare, die mehr wollen als ein paar schnelle Stunden in den Bergen und ihren Hochzeitstag lieber in Ruhe entfalten lassen möchten.",
+          "href": "/guides/multi-day-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Insta-11.jpg",
+          "imageAlt": "Mehrtägiges Elopement in den Dolomiten",
+          "alt": "Mehrtägiges Elopement in den Dolomiten"
+        }
+      ]
+    },
+    "final": {
+      "eyebrow": "Ruhig geplant",
+      "title": "Lasst uns etwas gestalten, das sich ruhig, persönlich und zutiefst wahr anfühlt.",
+      "copy": "Wenn sich dieser Guide bereits nah an dem anfühlt, was ihr euch wünscht, helfe ich euch gern dabei, dieses Gefühl in etwas Ruhiges, Filmisches und wirklich Eigenes in den Bergen zu verwandeln.",
+      "cta": "Termin anfragen",
+      "image": "/assets/uploads/Blitzkneisser-Photo-Drei-Zinnen-Italy-24.jpg",
+      "imageAlt": "Drei Zinnen in den Dolomiten bei ruhigem, klarem Licht"
+    }
+  },
+  "en": {
+    "slug": "best-time-for-a-dolomites-elopement",
+    "title": "Best Time for a Dolomites Elopement | Light, Weather and Seasonal Rhythm",
+    "description": "A guide to the best time for a Dolomites Elopement, with honest notes on light, weather, crowd rhythm, access and how the mountains actually feel.",
+    "hero": {
+      "eyebrow": "Planning Guide",
+      "title": "Best Time for a Dolomites Elopement",
+      "copy": "An honest guide to light, temperatures, crowds and the question of when the mountains will not only look beautiful, but genuinely feel right for you.",
+      "cta": "Start planning",
+      "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-16.jpg",
+      "imageAlt": "Existing image for best time in the Dolomites"
+    },
+    "utility": {
+      "reading": "Guide",
+      "focus": "For couples planning around season, light and atmosphere",
+      "navOverview": "Overview",
+      "navSeasons": "Seasons",
+      "navPhilosophy": "Intro",
+      "navVisual": "More guides",
+      "navFaq": "FAQ"
+    },
+    "overview": {
+      "eyebrow": "Guide Overview",
+      "copy": "Season changes far more than color in the Dolomites. It shapes access, parking pressure, road openings, wind on the ridges and how long you can comfortably stay outside before the day starts asking more from you.",
+      "items": [
+        {
+          "icon": "calendar",
+          "label": "Best Months",
+          "value": "June through early October"
+        },
+        {
+          "icon": "sun",
+          "label": "Most Beautiful Light",
+          "value": "Sunrise and late evening"
+        },
+        {
+          "icon": "cloud",
+          "label": "Weather Mood",
+          "value": "Fast-changing, soft and dramatic"
+        },
+        {
+          "icon": "crowd",
+          "label": "Crowd Level",
+          "value": "Low to medium if timed well"
+        },
+        {
+          "icon": "guests",
+          "label": "Ideal For",
+          "value": "Couples drawn to atmosphere"
+        }
+      ]
+    },
+    "philosophy": {
+      "eyebrow": "A first note",
+      "title": "There is no perfect season, only the one that carries your day truthfully.",
+      "copy": "Some couples want crisp air and stillness. Others want long evenings, flowers or warm autumn light. The best choice is usually the one that already feels honest while you are planning it."
+    },
+    "sections": {
+      "seasonOrder": [
+        "spring",
+        "summer",
+        "autumn",
+        "winter"
+      ],
+      "seasons": {
+        "spring": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Wedding-155.jpg",
+          "imageAlt": "Existing image for early season in the Dolomites",
+          "title": "Spring in the Dolomites",
+          "intro": "Spring arrives gently and usually later than people expect.",
+          "copy": "Valleys turn green while higher places may still hold snow or remain only partly accessible. It can be beautiful if you stay flexible and do not tie the entire day to one famous location.",
+          "points": [
+            "Fresh meadows and quieter starts\\nLonger light, but still cooler mornings\\nA softer emotional tone than high summer"
+          ],
+          "facts": [
+            {
+              "icon": "cloud",
+              "label": "Temperature",
+              "value": "8–18 °C"
+            },
+            {
+              "icon": "guests",
+              "label": "Best For",
+              "value": "Open, fresh mountain days"
+            },
+            {
+              "icon": "crowd",
+              "label": "Crowds",
+              "value": "Lower than peak summer"
+            }
+          ],
+          "note": "This season often feels light and almost weightless.",
+          "meta": "open • fresh • soft",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "summer": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-INSTAGRAM-7.jpg",
+          "imageAlt": "Existing image for summer morning in the Dolomites",
+          "title": "Summer in the Dolomites",
+          "intro": "Summer gives access, but it asks for early decisions.",
+          "copy": "From late June into early September, most classic locations are open. That also means parking lots, toll roads and trails are in highest demand. If you love summer, it helps to love early starts too.",
+          "points": [
+            "Best overall access\\nWarm evenings and long light\\nMore public at iconic locations"
+          ],
+          "facts": [
+            {
+              "icon": "cloud",
+              "label": "Temperature",
+              "value": "14–25 °C"
+            },
+            {
+              "icon": "guests",
+              "label": "Best For",
+              "value": "Ease, guests, longer days"
+            },
+            {
+              "icon": "crowd",
+              "label": "Crowds",
+              "value": "Higher at famous places"
+            }
+          ],
+          "note": "September often feels like the quietest version of summer.",
+          "meta": "Warm • open • accessible",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "autumn": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-30.jpg",
+          "imageAlt": "Existing image for autumn in the Dolomites",
+          "title": "Autumn in the Dolomites",
+          "intro": "Autumn often feels clearer, quieter and more grounded.",
+          "copy": "September and early October can bring a special calm to the mountains. Light grows warmer, air feels drier and many places breathe more easily. For many couples, this is when the Dolomites feel most balanced.",
+          "points": [
+            "Golden larches and colder air\\nQuieter mountains\\nPossibility of first snow"
+          ],
+          "facts": [
+            {
+              "icon": "cloud",
+              "label": "Temperature",
+              "value": "3–14 °C"
+            },
+            {
+              "icon": "wind",
+              "label": "Best For",
+              "value": "Cinematic, quieter days"
+            },
+            {
+              "icon": "crowd",
+              "label": "Crowds",
+              "value": "Often lower on weekdays"
+            }
+          ],
+          "note": "For many couples, this is the most atmospheric season of all.",
+          "meta": "Golden • quiet • cinematic",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "winter": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-3.jpg",
+          "imageAlt": "Existing winter image in the Dolomites",
+          "title": "Winter in the Dolomites",
+          "intro": "Winter is not softer. It is simply more exacting.",
+          "copy": "Snow, cold and shorter days make everything more deliberate, but also more secluded. Couples who choose winter often gain striking stillness, while needing to think much more carefully about roads, temperature and daylight.",
+          "points": [
+            "Snow and stillness\\nShorter light windows\\nMuch more weather-led planning"
+          ],
+          "facts": [
+            {
+              "icon": "cloud",
+              "label": "Temperature",
+              "value": "-8 to 4 °C"
+            },
+            {
+              "icon": "guests",
+              "label": "Best For",
+              "value": "Intimate, reduced experiences"
+            },
+            {
+              "icon": "path",
+              "label": "Access",
+              "value": "Limited compared with summer"
+            }
+          ],
+          "note": "Winter is rarely the easiest season, but often the most intimate.",
+          "meta": "Snow • silence • intimacy",
+          "linkLabel": "",
+          "linkHref": ""
+        }
+      }
+    },
+    "planning": {
+      "eyebrow": "Planning Notes",
+      "title": "What the season really changes on the day.",
+      "intro": "The stronger question is rarely only summer versus autumn. It is usually about how you want your body, timeline and energy to move through that season.",
+      "items": [
+        {
+          "label": "Light",
+          "title": "Season changes not only the quality of light, but how long it stays with you.",
+          "copy": "Summer allows very early starts and long usable evenings. In winter, each hour matters more.",
+          "meta": "Light windows shape the structure."
+        },
+        {
+          "label": "Access",
+          "title": "Accessibility is seasonal, not just geographic.",
+          "copy": "A place that feels simple in August can work very differently in May or November.",
+          "meta": "Routes change with the calendar."
+        },
+        {
+          "label": "Temperature",
+          "title": "Cold and heat affect mood faster than many couples expect.",
+          "copy": "What looks romantic in a photo can feel either energizing or exhausting on the day itself.",
+          "meta": "Your body is part of the plan."
+        },
+        {
+          "label": "Crowds",
+          "title": "Crowds follow a very specific seasonal rhythm.",
+          "copy": "Holidays, school breaks and iconic summer weeks change more than numbers. They change noise, waiting and the pressure around access.",
+          "meta": "The calendar shapes the feeling."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Questions about the best season in the Dolomites.",
+      "intro": "This usually calls for more than a broad recommendation. It helps to look honestly at how you want to experience light, temperature and the overall pace of the mountains.",
+      "items": [
+        {
+          "q": "When is the best time for a Dolomites Elopement?",
+          "a": "For many couples, the strongest window is June through early October. September often feels especially balanced: clear light, slightly calmer visitor rhythm and still very good access."
+        },
+        {
+          "q": "Is summer always the best option?",
+          "a": "Not always. Summer is the easiest for access, but it is often the busiest. Spring and autumn can feel quieter, more personal and more atmospheric if you are open to a little more flexibility."
+        },
+        {
+          "q": "Can we elope in winter?",
+          "a": "Yes, but winter asks for a different mindset. Cold, roads, shorter light and backup plans matter much more. If you like that clarity, winter can be extraordinary."
+        },
+        {
+          "q": "Does sunrise matter more in certain seasons?",
+          "a": "Yes, especially in summer. Early starts often decide whether a place feels still and expansive or already carries the pressure of the day."
+        }
+      ]
+    },
+    "related": {
+      "eyebrow": "Related Guides",
+      "hint": "Swipe left or right to explore more guides.",
+      "items": [
+        {
+          "label": "Dolomites",
+          "title": "Dolomites Elopement Guide",
+          "copy": "A calm starting point for couples planning a Dolomites Elopement or intimate mountain wedding and wanting to understand how light, access, weather and crowds truly shape the day.",
+          "href": "/guides/dolomites-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-120.jpg",
+          "imageAlt": "Couple during a Dolomites elopement in soft morning light",
+          "alt": "Couple during a Dolomites elopement in soft morning light"
+        },
+        {
+          "label": "Locations",
+          "title": "The most popular elopement locations in the Dolomites",
+          "copy": "A curated guide for couples who are not looking for just any beautiful view, but for the place whose atmosphere truly fits the day they want.",
+          "href": "/guides/best-dolomites-elopement-locations/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-191.jpg",
+          "imageAlt": "Elopement locations in the Dolomites",
+          "alt": "Elopement locations in the Dolomites"
+        },
+        {
+          "label": "Locations",
+          "title": "Lago di Braies Guide",
+          "copy": "An honest guide for couples who know Lago di Braies as more than a famous photograph and want to understand when it feels soft, quiet and truly worth experiencing.",
+          "href": "/guides/lago-di-braies-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopemnt-Dolomites-Lago-di-Braies-19.jpg",
+          "imageAlt": "Lago di Braies with still water and early light",
+          "alt": "Lago di Braies with still water and early light"
+        },
+        {
+          "label": "Locations",
+          "title": "Seceda Guide",
+          "copy": "A guide for couples drawn to Seceda not only for the famous ridge, but for the feeling of openness, wind and high alpine light that makes it so distinctive.",
+          "href": "/guides/seceda-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Seceda-180.jpg",
+          "imageAlt": "Seceda in clear mountain light",
+          "alt": "Seceda in clear mountain light"
+        },
+        {
+          "label": "Locations",
+          "title": "Cadini di Misurina Guide",
+          "copy": "A guide for couples who love the wild, cinematic tension of Cadini and want to know when it is accessible, safe and genuinely worth choosing.",
+          "href": "/guides/cadini-di-misurina-guide/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-12.jpg",
+          "imageAlt": "Cadini di Misurina with dramatic rock formations",
+          "alt": "Cadini di Misurina with dramatic rock formations"
+        },
+        {
+          "label": "Locations",
+          "title": "Tre Cime Wedding Guide",
+          "copy": "An honest guide for couples choosing Tre Cime not only for the famous view, but for the monumental, almost unreal presence the place carries when the timing is right.",
+          "href": "/guides/tre-cime-wedding-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14.jpg",
+          "imageAlt": "Tre Cime in clear mountain light",
+          "alt": "Tre Cime in clear mountain light"
+        },
+        {
+          "label": "Planning",
+          "title": "Sunrise vs Sunset in the Dolomites",
+          "copy": "An honest comparison for couples who want more than beautiful light and are trying to understand which time of day fits their energy, their location and the feeling they want to remember.",
+          "href": "/guides/sunrise-vs-sunset-dolomites/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Photo-368.jpg",
+          "imageAlt": "Mountain light at sunrise or sunset",
+          "alt": "Mountain light at sunrise or sunset"
+        },
+        {
+          "label": "Planning",
+          "title": "Weather & Backup Planning Guide",
+          "copy": "A calm weather guide for couples who do not want to hope for perfect conditions in the mountains, but want to build a day that still feels right in fog, wind or rain.",
+          "href": "/guides/weather-and-backup-planning/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-161.jpg",
+          "imageAlt": "Weather in the Dolomites with clouds and fog",
+          "alt": "Weather in the Dolomites with clouds and fog"
+        },
+        {
+          "label": "Planning",
+          "title": "What to Wear in the Mountains",
+          "copy": "A practical guide for couples who want to look beautiful in the mountains, but also move freely, stay warm and still feel like themselves in what they wear.",
+          "href": "/guides/what-to-wear-in-the-mountains/",
+          "image": "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Hut-13.jpg",
+          "imageAlt": "Outfit ideas for a mountain elopement",
+          "alt": "Outfit ideas for a mountain elopement"
+        },
+        {
+          "label": "Planning",
+          "title": "Helicopter Elopement Guide",
+          "copy": "A guide for couples seeking more space, privacy and a clearer flow to the day, and wanting to understand when a helicopter in the mountains genuinely makes sense.",
+          "href": "/guides/helicopter-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-12.jpg",
+          "imageAlt": "Helicopter flight above the mountains for an elopement",
+          "alt": "Helicopter flight above the mountains for an elopement"
+        },
+        {
+          "label": "Planning",
+          "title": "Multi-Day Elopement Guide",
+          "copy": "A guide for couples who want more than a few rushed hours in the mountains and would rather let the day unfold with space around it.",
+          "href": "/guides/multi-day-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Insta-11.jpg",
+          "imageAlt": "Multi-day elopement in the Dolomites",
+          "alt": "Multi-day elopement in the Dolomites"
+        }
+      ]
+    },
+    "final": {
+      "eyebrow": "Planned with intention",
+      "title": "Let’s shape something that feels quiet, personal and deeply true to you.",
+      "copy": "If this guide already feels close to the way you want the day to move, I would love to help you turn that feeling into something calm, cinematic and genuinely your own in the mountains.",
+      "cta": "Inquire now",
+      "image": "/assets/uploads/Blitzkneisser-Photo-Drei-Zinnen-Italy-24.jpg",
+      "imageAlt": "Tre Cime in the Dolomites in calm, clear light"
+    }
+  }
+}

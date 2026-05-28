@@ -1,0 +1,1693 @@
+<!DOCTYPE html>
+<html lang="de" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verlobung in den Dolomiten planen</title>
+  <meta
+    name="description"
+    content="Guide für einen Heiratsantrag in den Dolomiten mit stillen Orten, schönem Licht, Wetterwissen und ehrlichen Hinweisen zu Timing, Ablauf und Privatsphäre."
+  >
+  <link rel="icon" type="image/png" href="/Logo-Blitzkneisser-BERG.png">
+  <script defer src="/assets/seo.js"></script>
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ["Inter", "sans-serif"]
+          },
+          colors: {
+            brand: {
+              bg: "#FFFFFF",
+              text: "#1B1A18",
+              muted: "#8A837A",
+              border: "#E6DED4",
+              soft: "#F7F3ED"
+            }
+          }
+        }
+      }
+    };
+  </script>
+  <style>
+    body {
+      background: #FFFFFF;
+      color: #1B1A18;
+      font-family: "Inter", sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    .eyebrow,
+    .section-label,
+    .related-card-label,
+    .season-fact-label,
+    .planning-item-label,
+    .guide-reading-meta {
+      color: #8A837A;
+      font-size: 10px;
+      font-weight: 500;
+      letter-spacing: 0.28em;
+      text-transform: uppercase;
+    }
+
+    .section-label {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.8rem;
+    }
+
+    .section-label::before {
+      content: "";
+      width: 3rem;
+      height: 1px;
+      background: #E6DED4;
+    }
+
+    .section-label.no-line::before {
+      display: none;
+    }
+
+    .body-copy,
+    .hero-copy,
+    .faq-intro,
+    .planning-item-copy {
+      font-size: 1rem;
+      line-height: 1.8;
+      font-weight: 300;
+      color: rgba(27, 26, 24, 0.82);
+    }
+
+    .section-title {
+      font-size: clamp(2rem, 4vw, 3.5rem);
+      line-height: 0.98;
+      letter-spacing: -0.05em;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #1B1A18;
+    }
+
+    .hero-frame {
+      display: grid;
+      background: #F7F3ED;
+      overflow: hidden;
+    }
+
+    .hero-media {
+      min-height: 28rem;
+      background: #F7F3ED;
+    }
+
+    .hero-media img,
+    .image-shell img,
+    .related-card-image img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .hero-content {
+      display: flex;
+      align-items: center;
+      background: #FBF8F3;
+      padding: 2.9rem 1.75rem;
+    }
+
+    .hero-panel {
+      width: 100%;
+      max-width: 39rem;
+    }
+
+    .hero-title {
+      margin-top: 1.4rem;
+      font-size: clamp(2.1rem, 4.4vw, 4.35rem);
+      line-height: 1.02;
+      letter-spacing: -0.05em;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #1B1A18;
+      word-break: break-word;
+      overflow-wrap: anywhere;
+      text-wrap: balance;
+    }
+
+    .hero-copy {
+      margin-top: 1.7rem;
+      max-width: 34rem;
+    }
+
+    .hero-panel .button-solid,
+    .hero-panel .button-outline {
+      margin-top: 2.1rem;
+    }
+
+    .button-solid,
+    .button-outline {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 3rem;
+      padding: 0.95rem 1.5rem;
+      font-size: 10px;
+      font-weight: 500;
+      letter-spacing: 0.28em;
+      text-transform: uppercase;
+      transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease, opacity 0.25s ease;
+    }
+
+    .button-solid {
+      border: 1px solid #1B1A18;
+      background: #1B1A18;
+      color: #FFFFFF;
+    }
+
+    .button-solid:hover {
+      opacity: 0.85;
+    }
+
+    .button-light {
+      border-color: rgba(255, 255, 255, 0.9);
+      background: #FFFFFF;
+      color: #1B1A18;
+    }
+
+    .button-light:hover {
+      background: rgba(255, 255, 255, 0.93);
+      color: #1B1A18;
+      opacity: 1;
+    }
+
+    .text-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      padding-bottom: 0.35rem;
+      border-bottom: 1px solid currentColor;
+      font-size: 10px;
+      font-weight: 500;
+      letter-spacing: 0.28em;
+      text-transform: uppercase;
+      transition: opacity 0.2s ease;
+    }
+
+    .text-link:hover {
+      opacity: 0.65;
+    }
+
+    .guide-utility {
+      display: grid;
+      gap: 1rem;
+      border-top: 1px solid #E6DED4;
+      border-bottom: 1px solid #E6DED4;
+      padding: 1.35rem 0;
+    }
+
+    .guide-anchor-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.9rem 1.2rem;
+      font-size: 10px;
+      font-weight: 500;
+      letter-spacing: 0.24em;
+      text-transform: uppercase;
+      color: #8A837A;
+    }
+
+    .guide-anchor-nav a {
+      transition: opacity 0.2s ease;
+    }
+
+    .guide-anchor-nav a:hover {
+      opacity: 0.65;
+    }
+
+    .quick-facts {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1.4rem 1rem;
+    }
+
+    .fact-item {
+      text-align: center;
+    }
+
+    .fact-icon,
+    .season-fact-icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      color: rgba(27, 26, 24, 0.82);
+      margin-bottom: 0.85rem;
+    }
+
+    .fact-icon svg,
+    .season-fact-icon svg {
+      width: 1.5rem;
+      height: 1.5rem;
+      stroke: currentColor;
+      stroke-width: 1.85;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      fill: none;
+    }
+
+    .fact-value {
+      margin-top: 0.5rem;
+      font-size: 0.98rem;
+      line-height: 1.55;
+      font-weight: 300;
+      color: rgba(27, 26, 24, 0.82);
+    }
+
+    .guide-season-row {
+      display: grid;
+      gap: 1.5rem;
+      margin-bottom: 4rem;
+      align-items: start;
+    }
+
+    .guide-season-image {
+      aspect-ratio: 16 / 9;
+      overflow: hidden;
+      background: #F7F3ED;
+    }
+
+    .guide-season-copy {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 1.25rem;
+      min-width: 0;
+    }
+
+    .season-heading {
+      font-size: clamp(1.8rem, 3vw, 2.9rem);
+      line-height: 0.98;
+      letter-spacing: -0.05em;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #1B1A18;
+    }
+
+    .season-intro {
+      margin-top: 1rem;
+      font-size: 1.05rem;
+      line-height: 1.75;
+      font-weight: 400;
+      color: rgba(27, 26, 24, 0.88);
+    }
+
+    .season-points {
+      margin-top: 1rem;
+      display: grid;
+      gap: 0.55rem;
+      padding-left: 1.05rem;
+      font-size: 0.98rem;
+      line-height: 1.65;
+      font-weight: 300;
+      color: rgba(27, 26, 24, 0.8);
+      list-style: disc;
+    }
+
+    .season-facts {
+      display: grid;
+      gap: 0.9rem;
+      margin-top: 1.35rem;
+      padding-top: 1.35rem;
+      border-top: 1px solid #E6DED4;
+    }
+
+    .season-fact {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 0.9rem;
+      align-items: start;
+    }
+
+    .season-fact-value,
+    .planning-item-title,
+    .season-note,
+    .content-meta,
+    .planning-item-meta {
+      color: rgba(27, 26, 24, 0.8);
+    }
+
+    .season-fact-value {
+      font-size: 0.96rem;
+      line-height: 1.6;
+      font-weight: 300;
+      margin-top: 0.15rem;
+    }
+
+    .season-note {
+      margin-top: 1.15rem;
+      font-size: 0.95rem;
+      line-height: 1.7;
+      font-style: italic;
+      font-weight: 300;
+    }
+
+    .content-meta,
+    .planning-item-meta {
+      font-size: 10px;
+      letter-spacing: 0.24em;
+      text-transform: uppercase;
+      color: #8A837A;
+    }
+
+    .planning-list {
+      display: grid;
+      gap: 1rem;
+    }
+
+    .planning-item {
+      padding: 1.5rem 0;
+      border-top: 1px solid #E6DED4;
+    }
+
+    .planning-item:first-child {
+      padding-top: 0;
+      border-top: none;
+    }
+
+    .planning-item-title {
+      margin-top: 0.65rem;
+      font-size: 1.35rem;
+      line-height: 1.2;
+      letter-spacing: -0.03em;
+      font-weight: 400;
+      color: #1B1A18;
+    }
+
+    .planning-item-copy {
+      margin-top: 0.9rem;
+    }
+
+    .planning-item-meta {
+      margin-top: 1rem;
+    }
+
+    .related-rail {
+      display: grid;
+      grid-auto-flow: column;
+      grid-auto-columns: minmax(17rem, 22rem);
+      gap: 1.25rem;
+      overflow-x: auto;
+      overscroll-behavior-x: contain;
+      scroll-snap-type: x proximity;
+      padding-bottom: 0.25rem;
+      scrollbar-width: none;
+      -ms-overflow-style: none;
+    }
+
+    .related-rail::-webkit-scrollbar {
+      display: none;
+    }
+
+    .related-card {
+      border: 1px solid #E6DED4;
+      background: #FFFFFF;
+      scroll-snap-align: start;
+    }
+
+    .related-card-image {
+      aspect-ratio: 4 / 3;
+      overflow: hidden;
+      background: #F7F3ED;
+    }
+
+    .related-card-body {
+      padding: 1.2rem 1.1rem 1.35rem;
+    }
+
+    .faq-item summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .fade-in-up {
+      animation: fadeInUp 0.85s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+      opacity: 0;
+      transform: translateY(14px);
+    }
+
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .mobile-menu-toggle,
+    .floating-lang-toggle {
+      display: none;
+    }
+
+    @media (min-width: 768px) {
+      .guide-utility {
+        grid-template-columns: auto 1fr;
+        align-items: center;
+      }
+
+      .quick-facts {
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+      }
+
+      .hero-frame {
+        grid-template-columns: minmax(0, 1.28fr) minmax(22rem, 0.72fr);
+      }
+
+      .hero-media {
+        min-height: 42rem;
+      }
+
+      .hero-content {
+        padding: 3.25rem;
+      }
+
+      .guide-season-row {
+        grid-template-columns: minmax(0, 1.12fr) minmax(20rem, 0.88fr);
+        gap: 2rem;
+      }
+
+      .guide-season-row.is-image-right .guide-season-image {
+        order: 2;
+      }
+
+      .guide-season-row.is-image-right .guide-season-copy {
+        order: 1;
+      }
+    }
+
+    @media (max-width: 767px) {
+      .quick-facts {
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+        gap: 0.8rem 0.45rem;
+      }
+
+      .fact-item {
+        min-width: 0;
+      }
+
+      .fact-icon,
+      .season-fact-icon {
+        margin-bottom: 0.45rem;
+      }
+
+      .fact-icon svg,
+      .season-fact-icon svg {
+        width: 1rem;
+        height: 1rem;
+      }
+
+      .quick-facts .eyebrow {
+        font-size: 8px;
+        letter-spacing: 0.16em;
+        line-height: 1.35;
+      }
+
+      .fact-value {
+        margin-top: 0.28rem;
+        font-size: 0.72rem;
+        line-height: 1.35;
+      }
+
+      .mobile-menu-toggle {
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5px;
+        width: 44px;
+        height: 44px;
+        margin-left: auto;
+      }
+
+      .mobile-menu-toggle span {
+        width: 24px;
+        height: 2px;
+        margin-left: auto;
+        background: #1B1A18;
+        transition: transform 0.25s ease, opacity 0.25s ease;
+      }
+
+      #mainNav.is-open .mobile-menu-toggle span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+      #mainNav.is-open .mobile-menu-toggle span:nth-child(2) { opacity: 0; }
+      #mainNav.is-open .mobile-menu-toggle span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+      .nav-menu-panel {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem 1.5rem 1.25rem;
+        background: rgba(255,255,255,.94);
+        backdrop-filter: blur(14px);
+        border-bottom: 1px solid #E6DED4;
+        opacity: 0;
+        pointer-events: none;
+        transform: translateY(-8px);
+        transition: opacity 0.2s ease, transform 0.2s ease;
+      }
+
+      #mainNav.is-open .nav-menu-panel {
+        opacity: 1;
+        pointer-events: auto;
+        transform: translateY(0);
+      }
+
+      .nav-menu-panel > div:first-child,
+      .nav-menu-panel .nav-lang-toggle {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.9rem;
+      }
+
+      .floating-lang-toggle {
+        position: fixed;
+        right: 1rem;
+        bottom: 1rem;
+        z-index: 60;
+        display: flex;
+        align-items: center;
+        gap: 0.35rem;
+        padding: 0.4rem;
+        background: rgba(255,255,255,.94);
+        backdrop-filter: blur(14px);
+        border: 1px solid #E6DED4;
+        box-shadow: 0 12px 30px rgba(27, 26, 24, 0.08);
+      }
+
+      .floating-lang-toggle button {
+        border: 1px solid #E6DED4;
+        min-width: 2.8rem;
+        padding: 0.7rem 0.75rem;
+        font-size: 0.625rem;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        transition: all 0.2s ease;
+      }
+
+      .hero-media {
+        min-height: 21rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav class="fixed top-0 left-0 z-50 w-full bg-white/80 px-6 py-5 text-brand-text backdrop-blur-sm transition-all duration-500 md:px-12 md:py-8" id="mainNav">
+    <div class="mx-auto flex max-w-[120rem] items-center justify-between gap-6">
+      <a href="/index.html" id="navHomeLink" class="group flex items-center" aria-label="Blitzkneisser Photography">
+        <img src="/Logo-Blitzkneisser-BERG.png" alt="Blitzkneisser Photography" class="h-11 w-auto brightness-0 contrast-125 opacity-70 transition duration-500 ease-out group-hover:opacity-100 md:h-14">
+      </a>
+      <button type="button" class="mobile-menu-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenuPanel" aria-label="Menü öffnen"><span></span><span></span><span></span></button>
+      <div class="nav-menu-panel ml-auto flex items-center justify-end gap-4 text-right" id="navMenuPanel">
+        <div class="flex items-center gap-4 text-[10px] uppercase tracking-[0.2em] sm:gap-6 md:gap-8 md:text-xs">
+          <a href="/experience/" id="navExperienceLink" class="hover:opacity-60 transition-opacity duration-300">Experience</a>
+          <a href="/guides/" id="navGuidesLink" class="opacity-60 transition-opacity duration-300" aria-current="page">Guides</a>
+          <a href="/journal/" id="navJournalLink" class="hover:opacity-60 transition-opacity duration-300">Journal</a>
+          <a href="/about/" id="navAboutLink" class="hover:opacity-60 transition-opacity duration-300">About</a>
+          <a href="/contact/" id="navContactLink" class="hover:opacity-60 transition-opacity duration-300">Contact</a>
+        </div>
+        <div class="nav-lang-toggle flex items-center gap-2 text-[10px] uppercase tracking-[0.24em] md:text-xs">
+          <button type="button" class="border border-brand-border px-3 py-2 transition-colors" data-lang-button="de" aria-pressed="true">DE</button>
+          <button type="button" class="border border-brand-border px-3 py-2 transition-colors" data-lang-button="en" aria-pressed="false">EN</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="floating-lang-toggle" id="floatingLangToggle" aria-label="Sprache wechseln">
+    <button type="button" data-lang-button="de" aria-pressed="true">DE</button>
+    <button type="button" data-lang-button="en" aria-pressed="false">EN</button>
+  </div>
+
+  <main class="pt-32 md:pt-38 pb-20 md:pb-24">
+    <section class="px-6 md:px-12 max-w-[120rem] mx-auto fade-in-up">
+      <div class="hero-frame">
+        <div class="hero-media">
+          <img id="heroImage" src="/assets/uploads/Blitzkneisser-Dolomites-Proposel-INSTA-1.jpg" alt="Paar in den Dolomiten kurz nach einem stillen Heiratsantrag" loading="eager" fetchpriority="high">
+        </div>
+        <div class="hero-content">
+          <div class="hero-panel">
+            <span class="eyebrow" data-i18n="hero.eyebrow">Planning Guide</span>
+            <h1 class="hero-title" data-i18n="hero.title">Best Time for a Dolomites Elopement</h1>
+            <p class="hero-copy" data-i18n="hero.copy">The Dolomites change with the seasons in a way that shapes not only the view, but the whole emotional pace of the day. This guide helps you understand which light, temperature and rhythm may feel most like you.</p>
+            <a href="/contact/" id="heroCta" class="button-solid" data-i18n="hero.cta">Start Planning</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="px-6 md:px-12 max-w-[120rem] mx-auto mt-12 md:mt-14">
+      <div class="guide-utility">
+        <div class="guide-reading-meta">
+          <span data-i18n="utility.focus">Für Dolomites Elopements & intime Dolomites Weddings</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="overview" class="px-6 md:px-12 max-w-[120rem] mx-auto mt-14 md:mt-16">
+      <div id="philosophy" class="mx-auto max-w-4xl text-center mb-12 md:mb-14">
+        <h2 class="text-3xl md:text-5xl font-bold leading-[0.98] tracking-[-0.05em] text-brand-text uppercase" data-i18n="philosophy.title">Every season has its own feeling</h2>
+        <p class="body-copy mx-auto mt-5 max-w-3xl text-center" data-i18n="philosophy.copy">There is no perfect season for a Dolomites Elopement, only the one that feels most like you. Some couples want stillness and cold air, others long for movement, warmth and long evenings. The most beautiful choice is always the one that already feels honest before the day even begins.</p>
+      </div>
+      <div class="quick-facts pt-6" id="quickFacts"></div>
+    </section>
+
+    <section id="seasons" class="guide-seasons-layout px-6 md:px-12 max-w-[120rem] mx-auto mt-14 md:mt-16">
+      <div id="seasonRows"></div>
+    </section>
+
+    <section id="planning" class="px-6 md:px-12 max-w-[120rem] mx-auto mt-14 md:mt-16">
+      <div class="grid gap-9 lg:grid-cols-[0.76fr_1.24fr]">
+        <div>
+          <span class="section-label" data-i18n="planning.eyebrow">Planning Notes</span>
+          <h2 class="section-title mt-5" data-i18n="planning.title">What the season really changes on the day.</h2>
+          <p class="faq-intro" data-i18n="planning.intro">A few practical notes that matter once this stops being an idea and begins turning into an actual day in the mountains.</p>
+        </div>
+        <div class="planning-list" id="planningNotes"></div>
+      </div>
+    </section>
+
+    <section id="related" class="px-6 md:px-12 max-w-[120rem] mx-auto mt-14 md:mt-16">
+      <div class="border-t border-brand-border pt-6 md:flex md:items-end md:justify-between md:gap-8">
+        <span class="eyebrow" data-i18n="related.eyebrow">Related Guides</span>
+      </div>
+      <div class="mt-6 related-rail" id="relatedGuides"></div>
+    </section>
+
+    <section id="faq" class="px-6 md:px-12 max-w-[120rem] mx-auto mt-14 md:mt-16">
+      <div class="grid gap-9 lg:grid-cols-[0.76fr_1.24fr]">
+        <div>
+          <span class="section-label no-line">FAQ</span>
+          <h2 class="section-title mt-5 font-bold uppercase" data-i18n="faq.title">Questions that often come up long before the day arrives.</h2>
+          <p class="faq-intro" data-i18n="faq.intro">A few of the questions couples ask most often when they begin planning an elopement in the Dolomites — with answers that are meant to feel useful, honest and calm.</p>
+        </div>
+        <div class="divide-y divide-brand-border border-t border-brand-border" id="faqList"></div>
+      </div>
+    </section>
+
+    <section class="px-6 md:px-12 max-w-[120rem] mx-auto mt-14 md:mt-16">
+      <div class="relative min-h-[24rem] overflow-hidden bg-brand-text text-white">
+        <div class="image-shell absolute inset-0">
+          <img id="finalImage" src="/assets/uploads/Blitzkneisser-Photo-Drei-Zinnen-Italy-24.jpg" alt="Drei Zinnen in den Dolomiten bei ruhigem, klarem Licht" loading="lazy" decoding="async">
+        </div>
+        <div class="absolute inset-0" style="background: linear-gradient(90deg, rgba(98, 103, 108, 0.52) 0%, rgba(98, 103, 108, 0.38) 46%, rgba(98, 103, 108, 0.24) 100%);"></div>
+        <div class="relative z-10 flex min-h-[24rem] items-end justify-start px-6 pb-10 pt-16 text-left md:px-12 md:pb-14">
+          <div class="max-w-3xl">
+            <span class="eyebrow text-white/78" data-i18n="final.eyebrow">Planning with intention</span>
+            <h2 class="mt-5 text-4xl font-semibold leading-tight tracking-[-0.04em] md:text-5xl" data-i18n="final.title">Let's create a wedding experience that feels like you.</h2>
+            <p class="mt-6 max-w-3xl text-base font-normal leading-7 text-white/90 md:text-lg" data-i18n="final.copy">If this guide already feels close to what you are imagining, I would love to help you shape a day that feels natural, meaningful and entirely your own.</p>
+            <a href="/contact/" id="finalCta" class="button-solid button-light mt-8" data-i18n="final.cta">Inquire Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="py-16 px-6 md:px-12 border-t border-brand-border flex flex-col md:flex-row justify-between items-start md:items-center text-[10px] md:text-xs text-brand-muted tracking-[0.2em] uppercase font-medium bg-brand-bg">
+    <div class="mb-8 md:mb-0" id="footerBrandText">© 2026 Blitzkneisser Photography</div>
+    <div class="flex flex-col md:flex-row gap-6 md:gap-12">
+      <a id="footerInstagramLink" href="#" class="hover:text-brand-text transition-colors duration-300">Instagram</a>
+      <a id="footerContactLink" href="/contact/" class="hover:text-brand-text transition-colors duration-300" data-i18n="nav.contact">Contact</a>
+      <a id="footerJournalLink" href="/journal/" class="hover:text-brand-text transition-colors duration-300">Journal</a>
+    </div>
+    <div id="footerInstagramFeed" class="footer-instagram-feed"></div>
+  </footer>
+
+  <script type="application/ld+json" id="faqSchema"></script>
+  <script>
+    const nav = document.getElementById("mainNav");
+    const navToggle = document.getElementById("navToggle");
+    const navMenuPanel = document.getElementById("navMenuPanel");
+    const closeNavMenu = () => {
+      nav.classList.remove("is-open");
+      navToggle.setAttribute("aria-expanded", "false");
+    };
+    navToggle.addEventListener("click", () => {
+      const willOpen = !nav.classList.contains("is-open");
+      nav.classList.toggle("is-open", willOpen);
+      navToggle.setAttribute("aria-expanded", willOpen ? "true" : "false");
+    });
+    navMenuPanel.querySelectorAll("a, button[data-lang-button]").forEach((item) => {
+      item.addEventListener("click", () => {
+        if (window.innerWidth < 768) closeNavMenu();
+      });
+    });
+
+    const pageData = {
+      "de": {
+            "slug": "dolomites-proposal-guide",
+            "title": "Verlobung in den Dolomiten planen",
+            "description": "Guide für einen Heiratsantrag in den Dolomiten mit stillen Orten, schönem Licht, Wetterwissen und ehrlichen Hinweisen zu Timing, Ablauf und Privatsphäre.",
+            "hero": {
+                  "eyebrow": "Proposal-Guide",
+                  "title": "Verlobung in den Dolomiten planen",
+                  "copy": "Ein Guide für Paare, die einen Heiratsantrag in den Dolomiten so planen möchten, dass er nicht groß inszeniert, sondern persönlich, klar und unvergesslich wirkt.",
+                  "cta": "Verlobung planen",
+                  "image": "/assets/uploads/Blitzkneisser-Dolomites-Proposel-INSTA-1.jpg",
+                  "imageAlt": "Paar in den Dolomiten kurz nach einem stillen Heiratsantrag"
+            },
+            "utility": {
+                  "reading": "Guide",
+                  "focus": "Für Paare, die einen ruhigen und bewusst geplanten Heiratsantrag in den Dolomiten suchen",
+                  "navOverview": "Überblick",
+                  "navSeasons": "Planungsblöcke",
+                  "navPhilosophy": "Einführung",
+                  "navVisual": "Weitere Guides",
+                  "navFaq": "FAQ"
+            },
+            "overview": {
+                  "eyebrow": "Guide im Überblick",
+                  "copy": "Ein Proposal in den Dolomiten lebt weniger von Überraschung allein als von dem richtigen Ort, einer guten Uhrzeit und einem Ablauf, der euch nicht unter Druck setzt. Gerade in den Bergen wirkt ein stiller Plan oft stärker als eine komplizierte Inszenierung.",
+                  "items": [
+                        {
+                              "icon": "sunrise",
+                              "label": "Beste Tageszeit",
+                              "value": "Meist Sonnenaufgang"
+                        },
+                        {
+                              "icon": "calendar",
+                              "label": "Stärkstes Saisonfenster",
+                              "value": "Juni bis Anfang Oktober"
+                        },
+                        {
+                              "icon": "crowd",
+                              "label": "Privatsphäre",
+                              "value": "Frühe Stunden verändern alles"
+                        },
+                        {
+                              "icon": "cloud",
+                              "label": "Wetterrealität",
+                              "value": "Flexibilität schafft Ruhe"
+                        },
+                        {
+                              "icon": "guests",
+                              "label": "Ideal für",
+                              "value": "Paare, die etwas Echtes statt etwas Lautes suchen"
+                        }
+                  ]
+            },
+            "philosophy": {
+                  "eyebrow": "Eine erste Orientierung",
+                  "title": "Ein Antrag wird nicht durch Lautstärke groß, sondern durch den Moment, in dem alles stimmt.",
+                  "copy": "Wenn Licht, Weg, Temperatur und Nervosität zusammenpassen, entsteht oft diese besondere Dichte, die man später nicht erklären muss. Die Dolomiten können dafür eine unglaublich starke Bühne sein, solange der Ort zum Gefühl passt."
+            },
+            "sections": {
+                  "seasonOrder": [
+                        "timeofday",
+                        "howitworks",
+                        "helicopter",
+                        "wear",
+                        "weather"
+                  ],
+                  "seasons": {
+                        "timeofday": {
+                              "layout": "image-right",
+                              "image": "/assets/uploads/Blitzkneisser-Proposal-Dolomites-186.jpg",
+                              "imageAlt": "Ruhiges Morgenlicht in den Dolomiten für einen Heiratsantrag",
+                              "eyebrow": "Tageszeit",
+                              "title": "Die beste Tageszeit",
+                              "intro": "",
+                              "copy": "Am Morgen fühlen sich selbst bekannte Orte oft größer, stiller und persönlicher an. Sonnenuntergang kann wunderbar weich und warm sein, bringt aber an vielen Spots mehr Bewegung mit sich. Der Mittag funktioniert meist nur dann gut, wenn Logistik, Reisezeiten oder andere feste Elemente kaum Spielraum lassen.",
+                              "points": [],
+                              "facts": [
+                                    {
+                                          "icon": "sunrise",
+                                          "label": "Am stärksten",
+                                          "value": "Sonnenaufgang"
+                                    },
+                                    {
+                                          "icon": "sun",
+                                          "label": "Am weichsten",
+                                          "value": "Später Abend"
+                                    },
+                                    {
+                                          "icon": "crowd",
+                                          "label": "Am schwierigsten",
+                                          "value": "Beliebte Orte mitten am Tag"
+                                    }
+                              ],
+                              "note": "",
+                              "meta": "Licht • Ruhe • Rhythmus",
+                              "linkLabel": "Sonnenaufgang vs. Sonnenuntergang lesen",
+                              "linkHref": "/guides/sunrise-vs-sunset-dolomites/"
+                        },
+                        "howitworks": {
+                              "layout": "image-left",
+                              "image": "/assets/uploads/Blitzkneisser-Proposal-Lago-di-Braies-81.jpg",
+                              "imageAlt": "Dokumentierter Heiratsantrag in den Dolomiten mit diskreter Begleitung",
+                              "eyebrow": "Ablauf",
+                              "title": "So läuft ein Proposal meist ab",
+                              "intro": "",
+                              "copy": "Meist treffen wir uns unauffällig an einem klaren Ausgangspunkt. Der Fotograf hält sich dezent zurück, bis der Moment wirklich euch gehört. Nach dem Heiratsantrag bleibt Zeit für ruhige Paarfotos und für ein zweites Kapitel des Tages: vielleicht ein Picknick, eine kleine Wanderung, ein stilles Frühstück, ein Boot oder ein spätes Dinner.",
+                              "points": [],
+                              "facts": [
+                                    {
+                                          "icon": "path",
+                                          "label": "Start",
+                                          "value": "Unauffällig und klar geplant"
+                                    },
+                                    {
+                                          "icon": "guests",
+                                          "label": "Moment",
+                                          "value": "Natürlich statt inszeniert"
+                                    },
+                                    {
+                                          "icon": "sun",
+                                          "label": "Danach",
+                                          "value": "Zeit für Bilder und ein zweites Kapitel"
+                                    }
+                              ],
+                              "note": "",
+                              "meta": "Treffpunkt • Moment • Danach",
+                              "linkLabel": "",
+                              "linkHref": ""
+                        },
+                        "helicopter": {
+                              "layout": "image-right",
+                              "image": "/assets/uploads/Blitzkneisser-Proposal-Dolomites-267.jpg",
+                              "imageAlt": "Helikopter über den Dolomiten für ein exklusives Proposal-Erlebnis",
+                              "eyebrow": "Helikopter-Option",
+                              "title": "Wenn ihr den Tag noch privater und offener erleben möchtet",
+                              "intro": "",
+                              "copy": "Für manche Paare ist ein Helikopter kein Effekt, sondern die ruhigste Art, an einen wirklich privaten Ort zu gelangen. Weniger Touristen, mehr Weite und ein Moment, der sich fast schwebend anfühlt. Gleichzeitig bleibt diese Option wetterabhängig und braucht einen ruhigen, gut abgestimmten Ablauf.",
+                              "points": [],
+                              "facts": [
+                                    {
+                                          "icon": "wind",
+                                          "label": "Gefühl",
+                                          "value": "Privater und weiter"
+                                    },
+                                    {
+                                          "icon": "crowd",
+                                          "label": "Stärke",
+                                          "value": "Weniger Menschen"
+                                    },
+                                    {
+                                          "icon": "cloud",
+                                          "label": "Wichtig",
+                                          "value": "Wetter bleibt entscheidend"
+                                    }
+                              ],
+                              "note": "",
+                              "meta": "Privatsphäre • Weite • Wetter",
+                              "linkLabel": "Helikopter-Guide lesen",
+                              "linkHref": "/guides/helicopter-elopement-guide/"
+                        },
+                        "wear": {
+                              "layout": "image-left",
+                              "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Wedding-43.jpg",
+                              "imageAlt": "Kleidung für einen Heiratsantrag in den Bergen",
+                              "eyebrow": "Kleidung",
+                              "title": "Was man für einen Proposal in den Bergen tragen sollte",
+                              "intro": "",
+                              "copy": "Am schönsten wirken meist natürliche Farben, weiche Layer und Kleidung, die sich mit der Landschaft verbindet statt gegen sie zu arbeiten. Gutes Schuhwerk, Wärme und Beweglichkeit sind oft wichtiger als Perfektion. Ein Proposal muss nicht starr elegant sein, um besonders zu wirken.",
+                              "points": [],
+                              "facts": [
+                                    {
+                                          "icon": "sun",
+                                          "label": "Farben",
+                                          "value": "Natürlich und ruhig"
+                                    },
+                                    {
+                                          "icon": "wind",
+                                          "label": "Wichtig",
+                                          "value": "Layer und gutes Schuhwerk"
+                                    },
+                                    {
+                                          "icon": "path",
+                                          "label": "Gefühl",
+                                          "value": "Bewusst, aber nie zu steif"
+                                    }
+                              ],
+                              "note": "",
+                              "meta": "Farben • Wärme • Bewegung",
+                              "linkLabel": "Styling-Guide lesen",
+                              "linkHref": "/guides/what-to-wear-in-the-mountains/"
+                        },
+                        "weather": {
+                              "layout": "image-right",
+                              "image": "/assets/uploads/Blitzkneisser-Proposal-Dolomites-29.jpg",
+                              "imageAlt": "Wechselhaftes Wetter in den Bergen für einen Proposal-Tag",
+                              "eyebrow": "Wetter & Backup",
+                              "title": "Warum Flexibilität bei einem Proposal so viel Ruhe schafft",
+                              "intro": "",
+                              "copy": "Das Wetter in den Bergen kann schnell wechseln, und genau deshalb ist ein ruhiger Backup-Gedanke so wertvoll. Nebel kann weich und filmisch wirken, Wind kann Energie bringen und ein leicht verschobenes Zeitfenster kann einen ganzen Ort verändern. Der stärkste Plan ist meist der, der sich auch mit anderem Licht noch richtig anfühlt.",
+                              "points": [],
+                              "facts": [
+                                    {
+                                          "icon": "cloud",
+                                          "label": "Realität",
+                                          "value": "Wetter bleibt beweglich"
+                                    },
+                                    {
+                                          "icon": "sunrise",
+                                          "label": "Stärke",
+                                          "value": "Nebel kann wunderschön sein"
+                                    },
+                                    {
+                                          "icon": "calendar",
+                                          "label": "Hilfreich",
+                                          "value": "Backup-Zeitfenster oder zweiter Spot"
+                                    }
+                              ],
+                              "note": "",
+                              "meta": "Wetter • Backup • Ruhe",
+                              "linkLabel": "Wetter-Guide lesen",
+                              "linkHref": "/guides/weather-and-backup-planning/"
+                        }
+                  }
+            },
+            "planning": {
+                  "eyebrow": "Planungsnotizen",
+                  "title": "Was bei Proposals meist den größten Unterschied macht.",
+                  "intro": "Ein Heiratsantrag lebt selten von mehr Aufwand, sondern fast immer von besserem Timing und mehr innerer Ruhe.",
+                  "items": [
+                        {
+                              "label": "Ort",
+                              "title": "Wählt einen Ort, der zu eurem Tempo passt.",
+                              "copy": "Nicht jeder ikonische Spot fühlt sich automatisch persönlich an. Die stärksten Orte passen meist zu eurem Charakter, eurem Zugang und eurer Idee von Ruhe.",
+                              "meta": "Passung schlägt bloße Bekanntheit."
+                        },
+                        {
+                              "label": "Licht",
+                              "title": "Das Licht entscheidet oft über die Intimität des Moments.",
+                              "copy": "Ein Ort kann sich bei Sonnenaufgang still und privat anfühlen und drei Stunden später deutlich öffentlicher wirken. Timing ist oft wichtiger als die Kulisse allein.",
+                              "meta": "Licht formt Nähe."
+                        },
+                        {
+                              "label": "Ablauf",
+                              "title": "Haltet den Plan einfach.",
+                              "copy": "Je weniger technische oder emotionale Überladung der Ablauf trägt, desto natürlicher kann der eigentliche Moment werden.",
+                              "meta": "Einfachheit macht Tiefe möglich."
+                        },
+                        {
+                              "label": "Backup",
+                              "title": "Plant eine zweite gute Version des Tages mit.",
+                              "copy": "Wenn das Wetter kippt oder sich ein Ort anders anfühlt als gedacht, hilft ein ehrlicher zweiter Plan mehr als Perfektionsdruck.",
+                              "meta": "Ruhe kommt aus Beweglichkeit."
+                        }
+                  ]
+            },
+            "faq": {
+                  "title": "Fragen, die vor einem Proposal in den Dolomiten oft auftauchen.",
+                  "intro": "Bei einem Heiratsantrag geht es meist um zwei Dinge: Wie schaffen wir einen Moment, der echt bleibt, und wie verhindern wir, dass Ort oder Logistik ihn unnötig stören?",
+                  "items": [
+                        {
+                              "q": "Was ist der beste Ort für einen Heiratsantrag in den Dolomiten?",
+                              "a": "Das hängt weniger vom bekanntesten Spot ab als davon, welche Stimmung ihr sucht. Braies wirkt still und weich, Cadini wilder und intensiver, Seceda weit und frei. Der beste Ort ist der, der euer Gefühl trägt."
+                        },
+                        {
+                              "q": "Welche Tageszeit ist am besten für einen Proposal?",
+                              "a": "Meist der frühe Morgen. Dann sind bekannte Orte leerer, die Luft stiller und der Moment fühlt sich weniger beobachtet an. Abends kann es ebenfalls schön sein, ist aber oft öffentlicher."
+                        },
+                        {
+                              "q": "Kann man am Lago di Braies einen Heiratsantrag planen?",
+                              "a": "Ja, sehr gut sogar, wenn ihr früh da seid. Gerade dort entscheidet die Uhrzeit fast mehr als der Ort selbst."
+                        },
+                        {
+                              "q": "Brauchen wir eine Genehmigung?",
+                              "a": "Manchmal, je nach Ort, Setup und Saison. Wenn nur ihr zwei und ein sehr unauffälliger Ablauf geplant sind, ist vieles einfacher. Größere Aufbauten oder stark regulierte Orte sollte man vorher prüfen."
+                        },
+                        {
+                              "q": "Hilfst du auch bei der Planung?",
+                              "a": "Ja, genau darin liegt oft der größte Unterschied. Der Ort, die Uhrzeit, ein stiller Ablauf und ein Plan B machen aus einer schönen Idee meist erst einen wirklich guten Proposal-Moment."
+                        },
+                        {
+                              "q": "Ist ein Helikopter-Proposal möglich?",
+                              "a": "Ja, wenn ihr euch wirklich viel Privatsphäre und Weite wünscht. Es sollte sich aber nach euch anfühlen und nicht nur größer aussehen."
+                        },
+                        {
+                              "q": "Was passiert, wenn sich das Wetter ändert?",
+                              "a": "Dann greifen Plan B, ein anderes Zeitfenster oder ein anderer Ort. Gerade Proposals profitieren von Flexibilität, weil der Moment selbst wichtiger ist als ein einziges festes Bild."
+                        },
+                        {
+                              "q": "Wie weit im Voraus sollten wir buchen?",
+                              "a": "Je nach Saison und Ort lieber früher. Gute Zeitfenster, ruhigere Wochentage und die passenden Unterkünfte lassen sich mit Vorlauf deutlich besser aufeinander abstimmen."
+                        }
+                  ]
+            },
+            "related": {
+                  "eyebrow": "Verwandte Leitfäden",
+                  "items": [
+                        {
+                              "label": "Planung",
+                              "title": "Elopement-Guide für die Dolomiten",
+                              "copy": "Ein ruhiger Ausgangspunkt für Paare, die ein Dolomites Elopement oder eine intime Berghochzeit planen und verstehen möchten, wie Licht, Wege, Wetter und Menschenmengen den Tag wirklich prägen.",
+                              "href": "/guides/dolomites-elopement-guide/",
+                              "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-120.jpg"
+                        },
+                        {
+                              "label": "Standorte",
+                              "title": "Die beliebtesten Elopement-Orte in den Dolomiten",
+                              "copy": "Ein kuratierter Guide für Paare, die nicht einfach irgendeine schöne Aussicht suchen, sondern den Ort, dessen Stimmung wirklich zu ihrem Tag passt.",
+                              "href": "/guides/best-dolomites-elopement-locations/",
+                              "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-191.jpg"
+                        },
+                        {
+                              "label": "Planung",
+                              "title": "Sonnenaufgang vs. Sonnenuntergang in den Dolomiten",
+                              "copy": "Ein ehrlicher Vergleich für Paare, die nicht nur schönes Licht suchen, sondern verstehen möchten, welche Tageszeit zu ihrem Energielevel, ihrem Ort und dem gewünschten Gefühl passt.",
+                              "href": "/guides/sunrise-vs-sunset-dolomites/",
+                              "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Photo-368.jpg"
+                        },
+                        {
+                              "label": "Planung",
+                              "title": "Guide zur Wetter- und Backup-Planung",
+                              "copy": "Ein ruhiger Wetter-Guide für Paare, die in den Bergen nicht auf perfekte Bedingungen hoffen, sondern einen Tag planen möchten, der auch bei Nebel, Wind oder Regen stimmig bleibt.",
+                              "href": "/guides/weather-and-backup-planning/",
+                              "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-161.jpg"
+                        },
+                        {
+                              "label": "Planung",
+                              "title": "Was man in den Bergen anziehen sollte",
+                              "copy": "Ein praktischer Guide für Paare, die in den Bergen nicht nur schön aussehen, sondern sich auch frei bewegen, warm bleiben und sich in ihrer Kleidung wirklich wiederfinden möchten.",
+                              "href": "/guides/what-to-wear-in-the-mountains/",
+                              "image": "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Hut-13.jpg"
+                        },
+                        {
+                              "label": "Helikopter",
+                              "title": "Helikopter-Elopement-Guide",
+                              "copy": "Ein Guide für Paare, die Weite, Abgeschiedenheit und einen klareren Tagesfluss suchen und verstehen möchten, wann ein Helikopter in den Bergen wirklich sinnvoll ist.",
+                              "href": "/guides/helicopter-elopement-guide/",
+                              "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-12.jpg"
+                        }
+                  ],
+                  "hint": "Wischt nach links oder rechts, um weitere Guides zu sehen."
+            },
+            "final": {
+                  "image": "/assets/uploads/Blitzkneisser-Photo-Drei-Zinnen-Italy-24.jpg",
+                  "imageAlt": "Drei Zinnen in den Dolomiten bei ruhigem, klarem Licht",
+                  "eyebrow": "Ruhig geplant",
+                  "title": "Lasst uns etwas gestalten, das sich ruhig, persönlich und zutiefst wahr anfühlt.",
+                  "copy": "Wenn ihr euch einen Proposal-Moment wünscht, der nicht nur schön aussieht, sondern sich auch ehrlich, leicht und tief erinnert anfühlt, helfe ich euch gern dabei, Ort, Licht und Timing dafür zu finden.",
+                  "cta": "Termin anfragen"
+            }
+      },
+      "en": {
+            "slug": "dolomites-proposal-guide",
+            "title": "Dolomites Proposal Guide | Best Places to Propose in the Dolomites",
+            "description": "A proposal guide for the Dolomites with quiet locations, beautiful light, weather notes and honest advice on timing, flow and privacy.",
+            "hero": {
+                  "eyebrow": "Proposal Guide",
+                  "title": "Planning a Proposal in the Dolomites",
+                  "copy": "A guide for couples who want to plan a proposal in the Dolomites in a way that feels personal, clear and unforgettable rather than over-produced.",
+                  "cta": "Plan your proposal",
+                  "image": "/assets/uploads/Blitzkneisser-Dolomites-Proposel-INSTA-1.jpg",
+                  "imageAlt": "Couple in the Dolomites just after a quiet proposal"
+            },
+            "utility": {
+                  "reading": "Guide",
+                  "focus": "For couples planning a calm and thoughtfully documented proposal in the Dolomites",
+                  "navOverview": "Overview",
+                  "navSeasons": "Planning Blocks",
+                  "navPhilosophy": "Intro",
+                  "navVisual": "More guides",
+                  "navFaq": "FAQ"
+            },
+            "overview": {
+                  "eyebrow": "Guide Overview",
+                  "copy": "A proposal in the Dolomites is not only about surprise. It is about the right place, the right time of day and a structure that does not put pressure on the moment. In the mountains, a simple plan often feels stronger than an elaborate setup.",
+                  "items": [
+                        {
+                              "icon": "sunrise",
+                              "label": "Best time of day",
+                              "value": "Usually sunrise"
+                        },
+                        {
+                              "icon": "calendar",
+                              "label": "Strongest season window",
+                              "value": "June to early October"
+                        },
+                        {
+                              "icon": "crowd",
+                              "label": "Privacy",
+                              "value": "Early hours change everything"
+                        },
+                        {
+                              "icon": "cloud",
+                              "label": "Weather reality",
+                              "value": "Flexibility creates calm"
+                        },
+                        {
+                              "icon": "guests",
+                              "label": "Ideal for",
+                              "value": "Couples wanting something true rather than loud"
+                        }
+                  ]
+            },
+            "philosophy": {
+                  "eyebrow": "A first note",
+                  "title": "A proposal feels big not because it is loud, but because everything aligns in that one moment.",
+                  "copy": "When light, route, temperature and nerves all work together, the moment gains a kind of density that is hard to explain afterwards. The Dolomites can be a remarkable setting for that, as long as the place fits the feeling."
+            },
+            "sections": {
+                  "seasonOrder": [
+                        "timeofday",
+                        "howitworks",
+                        "helicopter",
+                        "wear",
+                        "weather"
+                  ],
+                  "seasons": {
+                        "timeofday": {
+                              "layout": "image-right",
+                              "image": "/assets/uploads/Blitzkneisser-Proposal-Dolomites-186.jpg",
+                              "imageAlt": "Quiet morning light in the Dolomites for a proposal",
+                              "eyebrow": "Time of day",
+                              "title": "The best time of day",
+                              "intro": "",
+                              "copy": "In the morning, even well-known places often feel bigger, quieter and more personal. Sunset can be beautifully warm and soft, but at many locations it also brings more movement. Midday usually only works well when logistics or travel timing leave very little room for flexibility.",
+                              "points": [],
+                              "facts": [
+                                    {
+                                          "icon": "sunrise",
+                                          "label": "Strongest",
+                                          "value": "Sunrise"
+                                    },
+                                    {
+                                          "icon": "sun",
+                                          "label": "Softest",
+                                          "value": "Late evening"
+                                    },
+                                    {
+                                          "icon": "crowd",
+                                          "label": "Most difficult",
+                                          "value": "Popular places in the middle of the day"
+                                    }
+                              ],
+                              "note": "",
+                              "meta": "Light • Quiet • Rhythm",
+                              "linkLabel": "Read sunrise vs sunset",
+                              "linkHref": "/guides/sunrise-vs-sunset-dolomites/"
+                        },
+                        "howitworks": {
+                              "layout": "image-left",
+                              "image": "/assets/uploads/Blitzkneisser-Proposal-Lago-di-Braies-81.jpg",
+                              "imageAlt": "Documented proposal in the Dolomites with discreet coverage",
+                              "eyebrow": "How it works",
+                              "title": "How a proposal usually unfolds",
+                              "intro": "",
+                              "copy": "Most of the time we meet discreetly at a clear starting point. The photographer stays back gently until the moment truly belongs to you. After the proposal, there is time for calm portraits and a second chapter of the day: maybe a picnic, a short walk, a quiet breakfast, a boat or a late dinner.",
+                              "points": [],
+                              "facts": [
+                                    {
+                                          "icon": "path",
+                                          "label": "Beginning",
+                                          "value": "Quiet and clearly planned"
+                                    },
+                                    {
+                                          "icon": "guests",
+                                          "label": "The moment",
+                                          "value": "Natural rather than staged"
+                                    },
+                                    {
+                                          "icon": "sun",
+                                          "label": "Afterwards",
+                                          "value": "Time for portraits and a second chapter"
+                                    }
+                              ],
+                              "note": "",
+                              "meta": "Meeting point • Moment • Afterwards",
+                              "linkLabel": "",
+                              "linkHref": ""
+                        },
+                        "helicopter": {
+                              "layout": "image-right",
+                              "image": "/assets/uploads/Blitzkneisser-Proposal-Dolomites-267.jpg",
+                              "imageAlt": "Helicopter above the Dolomites for an exclusive proposal experience",
+                              "eyebrow": "Helicopter option",
+                              "title": "If you want the day to feel even more private and open",
+                              "intro": "",
+                              "copy": "For some couples, a helicopter is not an effect. It is simply the calmest way to reach a truly private place. Fewer people, more space and a feeling that almost hovers. At the same time, this option always remains weather-dependent and needs a calm, thoughtful structure.",
+                              "points": [],
+                              "facts": [
+                                    {
+                                          "icon": "wind",
+                                          "label": "Feeling",
+                                          "value": "More private and expansive"
+                                    },
+                                    {
+                                          "icon": "crowd",
+                                          "label": "Strength",
+                                          "value": "Far fewer people"
+                                    },
+                                    {
+                                          "icon": "cloud",
+                                          "label": "Important",
+                                          "value": "Weather remains decisive"
+                                    }
+                              ],
+                              "note": "",
+                              "meta": "Privacy • Space • Weather",
+                              "linkLabel": "Read the helicopter guide",
+                              "linkHref": "/guides/helicopter-elopement-guide/"
+                        },
+                        "wear": {
+                              "layout": "image-left",
+                              "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Wedding-43.jpg",
+                              "imageAlt": "Clothing for a proposal in the mountains",
+                              "eyebrow": "What to wear",
+                              "title": "What to wear for a proposal in the mountains",
+                              "intro": "",
+                              "copy": "Natural colours, soft layers and clothing that belongs to the landscape usually feel strongest. Good shoes, warmth and ease of movement are often more valuable than perfection. A proposal does not need to look stiff to feel deeply intentional.",
+                              "points": [],
+                              "facts": [
+                                    {
+                                          "icon": "sun",
+                                          "label": "Colours",
+                                          "value": "Natural and quiet"
+                                    },
+                                    {
+                                          "icon": "wind",
+                                          "label": "Important",
+                                          "value": "Layers and solid shoes"
+                                    },
+                                    {
+                                          "icon": "path",
+                                          "label": "Feeling",
+                                          "value": "Thoughtful, never too stiff"
+                                    }
+                              ],
+                              "note": "",
+                              "meta": "Colour • Warmth • Movement",
+                              "linkLabel": "Read the styling guide",
+                              "linkHref": "/guides/what-to-wear-in-the-mountains/"
+                        },
+                        "weather": {
+                              "layout": "image-right",
+                              "image": "/assets/uploads/Blitzkneisser-Proposal-Dolomites-29.jpg",
+                              "imageAlt": "Changing mountain weather during a proposal day",
+                              "eyebrow": "Weather & backup plan",
+                              "title": "Why flexibility creates so much calm",
+                              "intro": "",
+                              "copy": "Mountain weather can change quickly, and that is exactly why a gentle backup idea matters. Fog can feel soft and cinematic, wind can bring movement, and a shifted time window can completely transform a place. The strongest plan is usually the one that still feels right under different light.",
+                              "points": [],
+                              "facts": [
+                                    {
+                                          "icon": "cloud",
+                                          "label": "Reality",
+                                          "value": "Weather stays mobile"
+                                    },
+                                    {
+                                          "icon": "sunrise",
+                                          "label": "Strength",
+                                          "value": "Fog can be beautiful"
+                                    },
+                                    {
+                                          "icon": "calendar",
+                                          "label": "Helpful",
+                                          "value": "A second time window or backup place"
+                                    }
+                              ],
+                              "note": "",
+                              "meta": "Weather • Backup • Calm",
+                              "linkLabel": "Read the weather guide",
+                              "linkHref": "/guides/weather-and-backup-planning/"
+                        }
+                  }
+            },
+            "planning": {
+                  "eyebrow": "Planning Notes",
+                  "title": "What usually makes the biggest difference for a proposal.",
+                  "intro": "Most proposals are not made stronger by more effort. They become stronger through better timing and more inner calm.",
+                  "items": [
+                        {
+                              "label": "Location",
+                              "title": "Choose a place that matches your pace.",
+                              "copy": "Not every iconic location automatically feels personal. The strongest places usually match your character, your access level and your idea of quiet.",
+                              "meta": "Fit matters more than fame."
+                        },
+                        {
+                              "label": "Light",
+                              "title": "Light often decides how intimate the moment feels.",
+                              "copy": "A place can feel calm and private at sunrise and much more public three hours later. Timing is often more important than the scenery alone.",
+                              "meta": "Light shapes closeness."
+                        },
+                        {
+                              "label": "Flow",
+                              "title": "Keep the structure simple.",
+                              "copy": "The less technical or emotional overload the day carries, the more natural the actual proposal can become.",
+                              "meta": "Simplicity makes depth possible."
+                        },
+                        {
+                              "label": "Backup",
+                              "title": "Carry a second honest version of the day with you.",
+                              "copy": "If weather turns or a place feels different than expected, a real second option helps far more than pressure for perfection.",
+                              "meta": "Calm comes from flexibility."
+                        }
+                  ]
+            },
+            "faq": {
+                  "title": "Questions that often come up before a proposal in the Dolomites.",
+                  "intro": "A proposal usually comes down to two things: how do we keep the moment genuine, and how do we make sure location or logistics do not get in the way?",
+                  "items": [
+                        {
+                              "q": "What is the best place to propose in the Dolomites?",
+                              "a": "It depends less on the most famous spot than on the feeling you want. Braies is soft and quiet, Cadini feels wilder and more intense, Seceda more open and free. The best place is the one that holds the mood well."
+                        },
+                        {
+                              "q": "What is the best time of day for a Dolomites proposal?",
+                              "a": "Usually early morning. Iconic places are quieter then, the air is calmer and the moment feels less observed. Evening can be beautiful too, but it is often more public."
+                        },
+                        {
+                              "q": "Can I propose at Lago di Braies?",
+                              "a": "Yes, very beautifully, especially if you arrive early. At Braies, timing often matters almost more than the place itself."
+                        },
+                        {
+                              "q": "Do we need a permit?",
+                              "a": "Sometimes, depending on the location, the setup and the season. If it is just the two of you and a very discreet plan, things are often simpler. Larger setups or tightly regulated places are worth checking in advance."
+                        },
+                        {
+                              "q": "Do you help with planning?",
+                              "a": "Yes, and that usually makes the biggest difference. The right place, the right hour, a discreet structure and a backup plan are what turn a beautiful idea into a truly strong proposal."
+                        },
+                        {
+                              "q": "Is a helicopter proposal possible?",
+                              "a": "Yes, especially if you want more seclusion and more space. It should still feel like you, though, not simply look bigger."
+                        },
+                        {
+                              "q": "What happens if the weather changes?",
+                              "a": "That is where a backup location, a second time window or a softer structure matters. Proposals benefit greatly from flexibility because the moment itself is more important than one fixed image."
+                        },
+                        {
+                              "q": "How far in advance should we book?",
+                              "a": "Earlier is usually better, especially in strong seasons. Quiet weekdays, good timing windows and the right lodging all come together more easily with lead time."
+                        }
+                  ]
+            },
+            "related": {
+                  "eyebrow": "Related Guides",
+                  "items": [
+                        {
+                              "label": "Planning",
+                              "title": "Dolomites Elopement Guide",
+                              "copy": "A calm starting point for couples planning a Dolomites Elopement or intimate mountain wedding and wanting to understand how light, access, weather and crowds truly shape the day.",
+                              "href": "/guides/dolomites-elopement-guide/",
+                              "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-120.jpg"
+                        },
+                        {
+                              "label": "Locations",
+                              "title": "The most popular elopement locations in the Dolomites",
+                              "copy": "A curated guide for couples who are not looking for just any beautiful view, but for the place whose atmosphere truly fits the day they want.",
+                              "href": "/guides/best-dolomites-elopement-locations/",
+                              "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-191.jpg"
+                        },
+                        {
+                              "label": "Planning",
+                              "title": "Sunrise vs Sunset in the Dolomites",
+                              "copy": "An honest comparison for couples who want more than beautiful light and are trying to understand which time of day fits their energy, their location and the feeling they want to remember.",
+                              "href": "/guides/sunrise-vs-sunset-dolomites/",
+                              "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Photo-368.jpg"
+                        },
+                        {
+                              "label": "Planning",
+                              "title": "Weather & Backup Planning Guide",
+                              "copy": "A calm weather guide for couples who do not want to hope for perfect conditions in the mountains, but want to build a day that still feels right in fog, wind or rain.",
+                              "href": "/guides/weather-and-backup-planning/",
+                              "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-161.jpg"
+                        },
+                        {
+                              "label": "Planning",
+                              "title": "What to Wear in the Mountains",
+                              "copy": "A practical guide for couples who want to look beautiful in the mountains, but also move freely, stay warm and still feel like themselves in what they wear.",
+                              "href": "/guides/what-to-wear-in-the-mountains/",
+                              "image": "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Hut-13.jpg"
+                        },
+                        {
+                              "label": "Helicopter",
+                              "title": "Helicopter Elopement Guide",
+                              "copy": "A guide for couples seeking more space, privacy and a clearer flow to the day, and wanting to understand when a helicopter in the mountains genuinely makes sense.",
+                              "href": "/guides/helicopter-elopement-guide/",
+                              "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-12.jpg"
+                        }
+                  ],
+                  "hint": "Swipe left or right to explore more guides."
+            },
+            "final": {
+                  "image": "/assets/uploads/Blitzkneisser-Photo-Drei-Zinnen-Italy-24.jpg",
+                  "imageAlt": "Tre Cime in the Dolomites in calm, clear light",
+                  "eyebrow": "Planned with intention",
+                  "title": "Ready to plan your Dolomites proposal?",
+                  "copy": "If you are dreaming of a quiet, emotional and beautifully documented proposal in the Dolomites, I would love to help you find the right place, timing and feeling for it.",
+                  "cta": "Inquire now"
+            }
+      }
+};
+
+    const params = new URLSearchParams(window.location.search);
+    const storedLang = localStorage.getItem("site-lang");
+    let activeLang = params.get("lang") === "en"
+      ? "en"
+      : (params.get("lang") === "de" ? "de" : (storedLang === "en" || storedLang === "de" ? storedLang : "de"));
+    const currentData = () => pageData[activeLang] || pageData.de;
+    const siteRootPath = (() => {
+      const markers = ["/guides/", "/journal/", "/experience/", "/about/", "/contact/", "/film/", "/portfolio/", "/admin/", "/index.html"];
+      for (const marker of markers) {
+        const index = window.location.pathname.indexOf(marker);
+        if (index !== -1) return window.location.pathname.slice(0, index);
+      }
+      return window.location.pathname.replace(/\/[^/]*$/, "");
+    })();
+    const normalizeHref = (href) => {
+      if (window.location.protocol !== "file:" || !href.startsWith("/")) return href;
+      const [pathPart, queryPart] = href.split("?");
+      const localPath = pathPart === "/index.html"
+        ? `${siteRootPath}/index.html`
+        : pathPart.endsWith("/")
+          ? `${siteRootPath}${pathPart}index.html`
+          : `${siteRootPath}${pathPart}`;
+      return queryPart ? `${localPath}?${queryPart}` : localPath;
+    };
+    const withLang = (href) => normalizeHref(activeLang === "en" && !href.includes("?lang=en")
+      ? `${href}${href.includes("?") ? "&" : "?"}lang=en`
+      : href);
+
+
+    const escapeHtml = (value = "") => String(value)
+      .replaceAll("&", "&amp;")
+      .replaceAll("<", "&lt;")
+      .replaceAll(">", "&gt;")
+      .replaceAll('"', "&quot;")
+      .replaceAll("'", "&#39;");
+
+    const iconMap = {
+      sunrise: '<svg viewBox="0 0 24 24"><path d="M4 16a8 8 0 0 1 16 0"/><path d="M12 4v4"/><path d="M5 9l2.2 1.8"/><path d="M19 9l-2.2 1.8"/><path d="M3 20h18"/></svg>',
+      sun: '<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v3"/><path d="M12 19v3"/><path d="M4.93 4.93l2.12 2.12"/><path d="M16.95 16.95l2.12 2.12"/><path d="M2 12h3"/><path d="M19 12h3"/><path d="M4.93 19.07l2.12-2.12"/><path d="M16.95 7.05l2.12-2.12"/></svg>',
+      cloud: '<svg viewBox="0 0 24 24"><path d="M7 18h10a4 4 0 0 0 .2-8A6 6 0 0 0 5 11.5 3.5 3.5 0 0 0 7 18Z"/></svg>',
+      crowd: '<svg viewBox="0 0 24 24"><path d="M16 19v-1a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v1"/><circle cx="10" cy="8" r="3"/><path d="M20 19v-1a4 4 0 0 0-3-3.87"/><path d="M14 4.13a3 3 0 0 1 0 5.74"/></svg>',
+      guests: '<svg viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4v2"/><circle cx="9.5" cy="7" r="3"/><path d="M20 21v-2a4 4 0 0 0-3-3.87"/><path d="M15 4.13a3 3 0 0 1 0 5.74"/></svg>',
+      calendar: '<svg viewBox="0 0 24 24"><path d="M8 2v4"/><path d="M16 2v4"/><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 10h18"/></svg>',
+      path: '<svg viewBox="0 0 24 24"><path d="M4 20c5-6 6-7 6-11a2.5 2.5 0 1 1 5 0c0 4 1 5 5 11"/><path d="M10 20h10"/></svg>',
+      wind: '<svg viewBox="0 0 24 24"><path d="M3 8h11a3 3 0 1 0-3-3"/><path d="M2 12h15a3 3 0 1 1-3 3"/><path d="M4 16h8"/></svg>',
+      key: '<svg viewBox="0 0 24 24"><circle cx="8" cy="15" r="4"/><path d="M12 15h9"/><path d="M18 12v6"/><path d="M21 13v4"/></svg>',
+      boots: '<svg viewBox="0 0 24 24"><path d="M4 17h9l2 3H4z"/><path d="M13 17v-7l4 2 1 5"/><path d="M18 17h2a2 2 0 0 1 2 2H15"/></svg>',
+      layers: '<svg viewBox="0 0 24 24"><path d="M12 3l8 4-8 4-8-4 8-4Z"/><path d="M4 11l8 4 8-4"/><path d="M4 15l8 4 8-4"/></svg>',
+      default: '<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/></svg>'
+    };
+
+    const iconMarkup = (icon, className = 'fact-icon') => 
+      '<span class="' + className + '" aria-hidden="true">' + (iconMap[icon] || iconMap.default) + '</span>';
+
+    const normalizePoints = (points) => {
+      if (!Array.isArray(points)) return [];
+      return points.flatMap((item) => String(item || '').split(/\n+/)).map((item) => item.trim()).filter(Boolean);
+    };
+
+    const renderQuickFacts = (data) => {
+      const root = document.getElementById('quickFacts');
+      if (!root) return;
+      const items = Array.isArray(data?.overview?.items) ? data.overview.items : [];
+      root.innerHTML = items.map((item) => 
+        '<div class="fact-item">' +
+          iconMarkup(item?.icon) +
+          '<div class="eyebrow">' + escapeHtml(item?.label || '') + '</div>' +
+          '<div class="fact-value">' + escapeHtml(item?.value || '') + '</div>' +
+        '</div>'
+      ).join('');
+    };
+
+    const renderSeasons = (data) => {
+      const root = document.getElementById('seasonRows');
+      if (!root) return;
+      const sections = data?.sections?.seasons || {};
+      const order = Array.isArray(data?.sections?.seasonOrder) ? data.sections.seasonOrder : Object.keys(sections);
+      root.innerHTML = order.map((key, index) => {
+        const item = sections[key] || {};
+        const points = normalizePoints(item.points);
+        const facts = Array.isArray(item.facts) ? item.facts : [];
+        const classes = 'guide-season-row ' + (((item.layout === 'image-right') || (item.layout !== 'image-left' && index % 2 === 1)) ? 'is-image-right' : '');
+        return '<article class="' + classes.trim() + '">' +
+          '<div class="guide-season-image">' +
+            '<img src="' + escapeHtml(item.image || '') + '" alt="' + escapeHtml(item.imageAlt || item.alt || item.title || '') + '" loading="lazy" decoding="async" class="w-full h-full object-cover">' +
+          '</div>' +
+          '<div class="guide-season-copy">' +
+            '<div>' +
+              (item.eyebrow ? '<div class="content-meta">' + escapeHtml(item.eyebrow) + '</div>' : '') +
+              '<h3 class="season-heading">' + escapeHtml(item.title || '') + '</h3>' +
+              (item.intro ? '<p class="season-intro">' + escapeHtml(item.intro) + '</p>' : '') +
+              (item.copy ? '<p class="body-copy">' + escapeHtml(item.copy) + '</p>' : '') +
+              (points.length ? '<ul class="season-points">' + points.map((point) => '<li>' + escapeHtml(point) + '</li>').join('') + '</ul>' : '') +
+              (facts.length ? '<div class="season-facts">' + facts.map((fact) =>
+                '<div class="season-fact">' +
+                  iconMarkup(fact?.icon, 'season-fact-icon') +
+                  '<div><div class="content-meta">' + escapeHtml(fact?.label || '') + '</div><div class="season-fact-value">' + escapeHtml(fact?.value || '') + '</div></div>' +
+                '</div>'
+              ).join('') + '</div>' : '') +
+              (item.note ? '<p class="season-note">' + escapeHtml(item.note) + '</p>' : '') +
+            '</div>' +
+            '<div>' +
+              (item.meta ? '<div class="content-meta">' + escapeHtml(item.meta) + '</div>' : '') +
+              (item.linkLabel && item.linkHref ? '<a class="button-outline mt-4 inline-flex" href="' + escapeHtml(withLang(item.linkHref)) + '">' + escapeHtml(item.linkLabel) + '</a>' : '') +
+            '</div>' +
+          '</div>' +
+        '</article>';
+      }).join('');
+    };
+
+    const renderPlanning = (data) => {
+      const root = document.getElementById('planningNotes');
+      if (!root) return;
+      const items = Array.isArray(data?.planning?.items) ? data.planning.items : [];
+      root.innerHTML = items.map((item) =>
+        '<article class="planning-item">' +
+          (item?.eyebrow ? '<div class="content-meta">' + escapeHtml(item.eyebrow) + '</div>' : '') +
+          '<h3 class="planning-item-title">' + escapeHtml(item?.title || '') + '</h3>' +
+          (item?.copy ? '<p class="body-copy planning-item-copy">' + escapeHtml(item.copy) + '</p>' : '') +
+          (item?.meta ? '<div class="planning-item-meta">' + escapeHtml(item.meta) + '</div>' : '') +
+        '</article>'
+      ).join('');
+    };
+
+    const renderFaq = (data) => {
+      const root = document.getElementById('faqList');
+      if (!root) return;
+      const items = Array.isArray(data?.faq?.items) ? data.faq.items : [];
+      root.innerHTML = items.map((item, index) =>
+        '<details class="faq-item"' + (index === 0 ? ' open' : '') + '>' +
+          '<summary class="flex cursor-pointer list-none items-start justify-between gap-6 py-5 text-left">' +
+            '<span class="text-[1.02rem] md:text-[1.1rem] leading-7 tracking-[-0.02em] text-brand-text">' + escapeHtml(item?.q ?? item?.question ?? item?.title ?? '') + '</span>' +
+            '<span class="text-brand-muted text-lg leading-none">+</span>' +
+          '</summary>' +
+          '<div class="pb-5 pr-8 body-copy">' + escapeHtml(item?.a ?? item?.answer ?? item?.copy ?? '') + '</div>' +
+        '</details>'
+      ).join('');
+    };
+
+    const renderRelated = (data) => {
+      const root = document.getElementById('relatedGuides');
+      if (!root) return;
+      const items = Array.isArray(data?.related?.items) ? data.related.items : [];
+      root.innerHTML = items.map((item) =>
+        '<a class="related-card" href="' + escapeHtml(withLang(item?.href || '/guides/')) + '">' +
+          '<div class="related-card-image">' +
+            '<img src="' + escapeHtml(item?.image || '') + '" alt="' + escapeHtml(item?.imageAlt || item?.alt || item?.title || '') + '" loading="lazy" decoding="async" class="w-full h-full object-cover">' +
+          '</div>' +
+          '<div class="related-card-body">' +
+            (item?.label ? '<div class="related-card-label content-meta">' + escapeHtml(item.label) + '</div>' : '') +
+            '<h3 class="mt-3 text-[1.85rem] leading-[1.02] tracking-[-0.05em] text-brand-text">' + escapeHtml(item?.title || '') + '</h3>' +
+            (item?.copy ? '<p class="body-copy mt-4">' + escapeHtml(item.copy) + '</p>' : '') +
+            '<span class="button-text mt-5 inline-flex">Mehr ansehen</span>' +
+          '</div>' +
+        '</a>'
+      ).join('');
+    };
+
+    const getNestedValue = (source, path) => path.split(".").reduce((value, segment) => {
+      if (value == null) return undefined;
+      return value[segment];
+    }, source);
+
+    const applyText = (data) => {
+      document.documentElement.lang = activeLang;
+      localStorage.setItem("site-lang", activeLang);
+      document.title = data.title;
+      document.querySelector('meta[name="description"]').setAttribute("content", data.description);
+
+      document.querySelectorAll("[data-i18n]").forEach((node) => {
+        const value = getNestedValue(data, node.dataset.i18n);
+        if (typeof value === "string") node.textContent = value;
+      });
+
+      document.getElementById("heroImage").src = data.hero.image;
+      document.getElementById("heroImage").alt = data.hero.imageAlt;
+      document.getElementById("heroCta").href = withLang("/contact/");
+      if (document.getElementById("finalImage")) { document.getElementById("finalImage").src = data.final?.image || document.getElementById("finalImage").src; document.getElementById("finalImage").alt = data.final?.imageAlt || document.getElementById("finalImage").alt; }
+      document.getElementById("finalCta").href = withLang("/contact/");
+      document.getElementById("navHomeLink").href = withLang("/index.html");
+      document.getElementById("navGuidesLink").href = withLang("/guides/");
+      document.getElementById("navExperienceLink").href = withLang("/experience/");
+      document.getElementById("navJournalLink").href = withLang("/journal/");
+      document.getElementById("navAboutLink").href = withLang("/about/");
+      document.getElementById("navContactLink").href = withLang("/contact/");
+
+      document.querySelectorAll("[data-lang-button]").forEach((button) => {
+        button.setAttribute("aria-pressed", button.dataset.langButton === activeLang ? "true" : "false");
+        button.classList.toggle("bg-brand-text", button.dataset.langButton === activeLang);
+        button.classList.toggle("text-white", button.dataset.langButton === activeLang);
+      });
+
+      const faqSchema = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": (Array.isArray(data?.faq?.items) ? data.faq.items : []).map((item) => ({
+          "@type": "Question",
+          "name": item?.q ?? item?.question ?? item?.title ?? "",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": item?.a ?? item?.answer ?? item?.copy ?? ""
+          }
+        }))
+      };
+      document.getElementById("faqSchema").textContent = JSON.stringify(faqSchema);
+    };
+
+    const renderPage = () => {
+      const data = currentData();
+      applyText(data);
+      renderQuickFacts(data);
+      renderSeasons(data);
+      renderPlanning(data);
+      renderFaq(data);
+      renderRelated(data);
+    };
+
+    renderPage();
+
+    document.querySelectorAll("[data-lang-button]").forEach((button) => {
+      button.addEventListener("click", () => {
+        const nextLang = button.dataset.langButton === "en" ? "en" : "de";
+        if (nextLang === activeLang) return;
+        activeLang = nextLang;
+        localStorage.setItem("site-lang", activeLang);
+        const nextUrl = activeLang === "en"
+          ? `${window.location.pathname}?lang=en`
+          : window.location.pathname;
+        window.history.replaceState({}, "", nextUrl);
+        renderPage();
+        if (window.innerWidth < 768) closeNavMenu();
+      });
+    });
+
+    document.addEventListener("toggle", (event) => {
+      if (!event.target.matches("#faqList details")) return;
+      if (!event.target.open) return;
+      document.querySelectorAll("#faqList details").forEach((item) => {
+        if (item !== event.target) item.open = false;
+      });
+    }, true);
+  </script>
+  <script src="/assets/footer-settings.js"></script>
+</body>
+</html>

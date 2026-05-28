@@ -1,0 +1,700 @@
+{
+  "de": {
+    "slug": "dolomites-proposal-guide",
+    "title": "Verlobung in den Dolomiten planen",
+    "description": "Guide für einen Heiratsantrag in den Dolomiten mit stillen Orten, schönem Licht, Wetterwissen und ehrlichen Hinweisen zu Timing, Ablauf und Privatsphäre.",
+    "hero": {
+      "eyebrow": "Proposal-Guide",
+      "title": "Verlobung in den Dolomiten planen",
+      "copy": "Ein Guide für Paare, die einen Heiratsantrag in den Dolomiten so planen möchten, dass er nicht groß inszeniert, sondern persönlich, klar und unvergesslich wirkt.",
+      "cta": "Verlobung planen",
+      "image": "/assets/uploads/Blitzkneisser-Dolomites-Proposel-INSTA-1.jpg",
+      "imageAlt": "Paar in den Dolomiten kurz nach einem stillen Heiratsantrag"
+    },
+    "utility": {
+      "reading": "Guide",
+      "focus": "Für Paare, die einen ruhigen und bewusst geplanten Heiratsantrag in den Dolomiten suchen",
+      "navOverview": "Überblick",
+      "navSeasons": "Planungsblöcke",
+      "navPhilosophy": "Einführung",
+      "navVisual": "Weitere Guides",
+      "navFaq": "FAQ"
+    },
+    "overview": {
+      "eyebrow": "Guide im Überblick",
+      "copy": "Ein Proposal in den Dolomiten lebt weniger von Überraschung allein als von dem richtigen Ort, einer guten Uhrzeit und einem Ablauf, der euch nicht unter Druck setzt. Gerade in den Bergen wirkt ein stiller Plan oft stärker als eine komplizierte Inszenierung.",
+      "items": [
+        {
+          "icon": "sunrise",
+          "label": "Beste Tageszeit",
+          "value": "Meist Sonnenaufgang"
+        },
+        {
+          "icon": "calendar",
+          "label": "Stärkstes Saisonfenster",
+          "value": "Juni bis Anfang Oktober"
+        },
+        {
+          "icon": "crowd",
+          "label": "Privatsphäre",
+          "value": "Frühe Stunden verändern alles"
+        },
+        {
+          "icon": "cloud",
+          "label": "Wetterrealität",
+          "value": "Flexibilität schafft Ruhe"
+        },
+        {
+          "icon": "guests",
+          "label": "Ideal für",
+          "value": "Paare, die etwas Echtes statt etwas Lautes suchen"
+        }
+      ]
+    },
+    "philosophy": {
+      "eyebrow": "Eine erste Orientierung",
+      "title": "Ein Antrag wird nicht durch Lautstärke groß, sondern durch den Moment, in dem alles stimmt.",
+      "copy": "Wenn Licht, Weg, Temperatur und Nervosität zusammenpassen, entsteht oft diese besondere Dichte, die man später nicht erklären muss. Die Dolomiten können dafür eine unglaublich starke Bühne sein, solange der Ort zum Gefühl passt."
+    },
+    "sections": {
+      "seasonOrder": [
+        "timeofday",
+        "howitworks",
+        "helicopter",
+        "wear",
+        "weather"
+      ],
+      "seasons": {
+        "timeofday": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Proposal-Dolomites-186.jpg",
+          "imageAlt": "Ruhiges Morgenlicht in den Dolomiten für einen Heiratsantrag",
+          "eyebrow": "Tageszeit",
+          "title": "Die beste Tageszeit",
+          "intro": "",
+          "copy": "Am Morgen fühlen sich selbst bekannte Orte oft größer, stiller und persönlicher an. Sonnenuntergang kann wunderbar weich und warm sein, bringt aber an vielen Spots mehr Bewegung mit sich. Der Mittag funktioniert meist nur dann gut, wenn Logistik, Reisezeiten oder andere feste Elemente kaum Spielraum lassen.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "sunrise",
+              "label": "Am stärksten",
+              "value": "Sonnenaufgang"
+            },
+            {
+              "icon": "sun",
+              "label": "Am weichsten",
+              "value": "Später Abend"
+            },
+            {
+              "icon": "crowd",
+              "label": "Am schwierigsten",
+              "value": "Beliebte Orte mitten am Tag"
+            }
+          ],
+          "note": "",
+          "meta": "Licht • Ruhe • Rhythmus",
+          "linkLabel": "Sonnenaufgang vs. Sonnenuntergang lesen",
+          "linkHref": "/guides/sunrise-vs-sunset-dolomites/"
+        },
+        "howitworks": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Proposal-Lago-di-Braies-81.jpg",
+          "imageAlt": "Dokumentierter Heiratsantrag in den Dolomiten mit diskreter Begleitung",
+          "eyebrow": "Ablauf",
+          "title": "So läuft ein Proposal meist ab",
+          "intro": "",
+          "copy": "Meist treffen wir uns unauffällig an einem klaren Ausgangspunkt. Der Fotograf hält sich dezent zurück, bis der Moment wirklich euch gehört. Nach dem Heiratsantrag bleibt Zeit für ruhige Paarfotos und für ein zweites Kapitel des Tages: vielleicht ein Picknick, eine kleine Wanderung, ein stilles Frühstück, ein Boot oder ein spätes Dinner.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "path",
+              "label": "Start",
+              "value": "Unauffällig und klar geplant"
+            },
+            {
+              "icon": "guests",
+              "label": "Moment",
+              "value": "Natürlich statt inszeniert"
+            },
+            {
+              "icon": "sun",
+              "label": "Danach",
+              "value": "Zeit für Bilder und ein zweites Kapitel"
+            }
+          ],
+          "note": "",
+          "meta": "Treffpunkt • Moment • Danach",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "helicopter": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Proposal-Dolomites-267.jpg",
+          "imageAlt": "Helikopter über den Dolomiten für ein exklusives Proposal-Erlebnis",
+          "eyebrow": "Helikopter-Option",
+          "title": "Wenn ihr den Tag noch privater und offener erleben möchtet",
+          "intro": "",
+          "copy": "Für manche Paare ist ein Helikopter kein Effekt, sondern die ruhigste Art, an einen wirklich privaten Ort zu gelangen. Weniger Touristen, mehr Weite und ein Moment, der sich fast schwebend anfühlt. Gleichzeitig bleibt diese Option wetterabhängig und braucht einen ruhigen, gut abgestimmten Ablauf.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "wind",
+              "label": "Gefühl",
+              "value": "Privater und weiter"
+            },
+            {
+              "icon": "crowd",
+              "label": "Stärke",
+              "value": "Weniger Menschen"
+            },
+            {
+              "icon": "cloud",
+              "label": "Wichtig",
+              "value": "Wetter bleibt entscheidend"
+            }
+          ],
+          "note": "",
+          "meta": "Privatsphäre • Weite • Wetter",
+          "linkLabel": "Helikopter-Guide lesen",
+          "linkHref": "/guides/helicopter-elopement-guide/"
+        },
+        "wear": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Wedding-43.jpg",
+          "imageAlt": "Kleidung für einen Heiratsantrag in den Bergen",
+          "eyebrow": "Kleidung",
+          "title": "Was man für einen Proposal in den Bergen tragen sollte",
+          "intro": "",
+          "copy": "Am schönsten wirken meist natürliche Farben, weiche Layer und Kleidung, die sich mit der Landschaft verbindet statt gegen sie zu arbeiten. Gutes Schuhwerk, Wärme und Beweglichkeit sind oft wichtiger als Perfektion. Ein Proposal muss nicht starr elegant sein, um besonders zu wirken.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "sun",
+              "label": "Farben",
+              "value": "Natürlich und ruhig"
+            },
+            {
+              "icon": "wind",
+              "label": "Wichtig",
+              "value": "Layer und gutes Schuhwerk"
+            },
+            {
+              "icon": "path",
+              "label": "Gefühl",
+              "value": "Bewusst, aber nie zu steif"
+            }
+          ],
+          "note": "",
+          "meta": "Farben • Wärme • Bewegung",
+          "linkLabel": "Styling-Guide lesen",
+          "linkHref": "/guides/what-to-wear-in-the-mountains/"
+        },
+        "weather": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Proposal-Dolomites-29.jpg",
+          "imageAlt": "Wechselhaftes Wetter in den Bergen für einen Proposal-Tag",
+          "eyebrow": "Wetter & Backup",
+          "title": "Warum Flexibilität bei einem Proposal so viel Ruhe schafft",
+          "intro": "",
+          "copy": "Das Wetter in den Bergen kann schnell wechseln, und genau deshalb ist ein ruhiger Backup-Gedanke so wertvoll. Nebel kann weich und filmisch wirken, Wind kann Energie bringen und ein leicht verschobenes Zeitfenster kann einen ganzen Ort verändern. Der stärkste Plan ist meist der, der sich auch mit anderem Licht noch richtig anfühlt.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "cloud",
+              "label": "Realität",
+              "value": "Wetter bleibt beweglich"
+            },
+            {
+              "icon": "sunrise",
+              "label": "Stärke",
+              "value": "Nebel kann wunderschön sein"
+            },
+            {
+              "icon": "calendar",
+              "label": "Hilfreich",
+              "value": "Backup-Zeitfenster oder zweiter Spot"
+            }
+          ],
+          "note": "",
+          "meta": "Wetter • Backup • Ruhe",
+          "linkLabel": "Wetter-Guide lesen",
+          "linkHref": "/guides/weather-and-backup-planning/"
+        }
+      }
+    },
+    "planning": {
+      "eyebrow": "Planungsnotizen",
+      "title": "Was bei Proposals meist den größten Unterschied macht.",
+      "intro": "Ein Heiratsantrag lebt selten von mehr Aufwand, sondern fast immer von besserem Timing und mehr innerer Ruhe.",
+      "items": [
+        {
+          "label": "Ort",
+          "title": "Wählt einen Ort, der zu eurem Tempo passt.",
+          "copy": "Nicht jeder ikonische Spot fühlt sich automatisch persönlich an. Die stärksten Orte passen meist zu eurem Charakter, eurem Zugang und eurer Idee von Ruhe.",
+          "meta": "Passung schlägt bloße Bekanntheit."
+        },
+        {
+          "label": "Licht",
+          "title": "Das Licht entscheidet oft über die Intimität des Moments.",
+          "copy": "Ein Ort kann sich bei Sonnenaufgang still und privat anfühlen und drei Stunden später deutlich öffentlicher wirken. Timing ist oft wichtiger als die Kulisse allein.",
+          "meta": "Licht formt Nähe."
+        },
+        {
+          "label": "Ablauf",
+          "title": "Haltet den Plan einfach.",
+          "copy": "Je weniger technische oder emotionale Überladung der Ablauf trägt, desto natürlicher kann der eigentliche Moment werden.",
+          "meta": "Einfachheit macht Tiefe möglich."
+        },
+        {
+          "label": "Backup",
+          "title": "Plant eine zweite gute Version des Tages mit.",
+          "copy": "Wenn das Wetter kippt oder sich ein Ort anders anfühlt als gedacht, hilft ein ehrlicher zweiter Plan mehr als Perfektionsdruck.",
+          "meta": "Ruhe kommt aus Beweglichkeit."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Fragen, die vor einem Proposal in den Dolomiten oft auftauchen.",
+      "intro": "Bei einem Heiratsantrag geht es meist um zwei Dinge: Wie schaffen wir einen Moment, der echt bleibt, und wie verhindern wir, dass Ort oder Logistik ihn unnötig stören?",
+      "items": [
+        {
+          "q": "Was ist der beste Ort für einen Heiratsantrag in den Dolomiten?",
+          "a": "Das hängt weniger vom bekanntesten Spot ab als davon, welche Stimmung ihr sucht. Braies wirkt still und weich, Cadini wilder und intensiver, Seceda weit und frei. Der beste Ort ist der, der euer Gefühl trägt."
+        },
+        {
+          "q": "Welche Tageszeit ist am besten für einen Proposal?",
+          "a": "Meist der frühe Morgen. Dann sind bekannte Orte leerer, die Luft stiller und der Moment fühlt sich weniger beobachtet an. Abends kann es ebenfalls schön sein, ist aber oft öffentlicher."
+        },
+        {
+          "q": "Kann man am Lago di Braies einen Heiratsantrag planen?",
+          "a": "Ja, sehr gut sogar, wenn ihr früh da seid. Gerade dort entscheidet die Uhrzeit fast mehr als der Ort selbst."
+        },
+        {
+          "q": "Brauchen wir eine Genehmigung?",
+          "a": "Manchmal, je nach Ort, Setup und Saison. Wenn nur ihr zwei und ein sehr unauffälliger Ablauf geplant sind, ist vieles einfacher. Größere Aufbauten oder stark regulierte Orte sollte man vorher prüfen."
+        },
+        {
+          "q": "Hilfst du auch bei der Planung?",
+          "a": "Ja, genau darin liegt oft der größte Unterschied. Der Ort, die Uhrzeit, ein stiller Ablauf und ein Plan B machen aus einer schönen Idee meist erst einen wirklich guten Proposal-Moment."
+        },
+        {
+          "q": "Ist ein Helikopter-Proposal möglich?",
+          "a": "Ja, wenn ihr euch wirklich viel Privatsphäre und Weite wünscht. Es sollte sich aber nach euch anfühlen und nicht nur größer aussehen."
+        },
+        {
+          "q": "Was passiert, wenn sich das Wetter ändert?",
+          "a": "Dann greifen Plan B, ein anderes Zeitfenster oder ein anderer Ort. Gerade Proposals profitieren von Flexibilität, weil der Moment selbst wichtiger ist als ein einziges festes Bild."
+        },
+        {
+          "q": "Wie weit im Voraus sollten wir buchen?",
+          "a": "Je nach Saison und Ort lieber früher. Gute Zeitfenster, ruhigere Wochentage und die passenden Unterkünfte lassen sich mit Vorlauf deutlich besser aufeinander abstimmen."
+        }
+      ]
+    },
+    "related": {
+      "eyebrow": "Verwandte Leitfäden",
+      "items": [
+        {
+          "label": "Planung",
+          "title": "Elopement-Guide für die Dolomiten",
+          "copy": "Ein ruhiger Ausgangspunkt für Paare, die ein Dolomites Elopement oder eine intime Berghochzeit planen und verstehen möchten, wie Licht, Wege, Wetter und Menschenmengen den Tag wirklich prägen.",
+          "href": "/guides/dolomites-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-120.jpg"
+        },
+        {
+          "label": "Standorte",
+          "title": "Die beliebtesten Elopement-Orte in den Dolomiten",
+          "copy": "Ein kuratierter Guide für Paare, die nicht einfach irgendeine schöne Aussicht suchen, sondern den Ort, dessen Stimmung wirklich zu ihrem Tag passt.",
+          "href": "/guides/best-dolomites-elopement-locations/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-191.jpg"
+        },
+        {
+          "label": "Planung",
+          "title": "Sonnenaufgang vs. Sonnenuntergang in den Dolomiten",
+          "copy": "Ein ehrlicher Vergleich für Paare, die nicht nur schönes Licht suchen, sondern verstehen möchten, welche Tageszeit zu ihrem Energielevel, ihrem Ort und dem gewünschten Gefühl passt.",
+          "href": "/guides/sunrise-vs-sunset-dolomites/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Photo-368.jpg"
+        },
+        {
+          "label": "Planung",
+          "title": "Guide zur Wetter- und Backup-Planung",
+          "copy": "Ein ruhiger Wetter-Guide für Paare, die in den Bergen nicht auf perfekte Bedingungen hoffen, sondern einen Tag planen möchten, der auch bei Nebel, Wind oder Regen stimmig bleibt.",
+          "href": "/guides/weather-and-backup-planning/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-161.jpg"
+        },
+        {
+          "label": "Planung",
+          "title": "Was man in den Bergen anziehen sollte",
+          "copy": "Ein praktischer Guide für Paare, die in den Bergen nicht nur schön aussehen, sondern sich auch frei bewegen, warm bleiben und sich in ihrer Kleidung wirklich wiederfinden möchten.",
+          "href": "/guides/what-to-wear-in-the-mountains/",
+          "image": "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Hut-13.jpg"
+        },
+        {
+          "label": "Helikopter",
+          "title": "Helikopter-Elopement-Guide",
+          "copy": "Ein Guide für Paare, die Weite, Abgeschiedenheit und einen klareren Tagesfluss suchen und verstehen möchten, wann ein Helikopter in den Bergen wirklich sinnvoll ist.",
+          "href": "/guides/helicopter-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-12.jpg"
+        }
+      ],
+      "hint": "Wischt nach links oder rechts, um weitere Guides zu sehen."
+    },
+    "final": {
+      "image": "/assets/uploads/Blitzkneisser-Photo-Drei-Zinnen-Italy-24.jpg",
+      "imageAlt": "Drei Zinnen in den Dolomiten bei ruhigem, klarem Licht",
+      "eyebrow": "Ruhig geplant",
+      "title": "Lasst uns etwas gestalten, das sich ruhig, persönlich und zutiefst wahr anfühlt.",
+      "copy": "Wenn ihr euch einen Proposal-Moment wünscht, der nicht nur schön aussieht, sondern sich auch ehrlich, leicht und tief erinnert anfühlt, helfe ich euch gern dabei, Ort, Licht und Timing dafür zu finden.",
+      "cta": "Termin anfragen"
+    }
+  },
+  "en": {
+    "slug": "dolomites-proposal-guide",
+    "title": "Dolomites Proposal Guide | Best Places to Propose in the Dolomites",
+    "description": "A proposal guide for the Dolomites with quiet locations, beautiful light, weather notes and honest advice on timing, flow and privacy.",
+    "hero": {
+      "eyebrow": "Proposal Guide",
+      "title": "Planning a Proposal in the Dolomites",
+      "copy": "A guide for couples who want to plan a proposal in the Dolomites in a way that feels personal, clear and unforgettable rather than over-produced.",
+      "cta": "Plan your proposal",
+      "image": "/assets/uploads/Blitzkneisser-Dolomites-Proposel-INSTA-1.jpg",
+      "imageAlt": "Couple in the Dolomites just after a quiet proposal"
+    },
+    "utility": {
+      "reading": "Guide",
+      "focus": "For couples planning a calm and thoughtfully documented proposal in the Dolomites",
+      "navOverview": "Overview",
+      "navSeasons": "Planning Blocks",
+      "navPhilosophy": "Intro",
+      "navVisual": "More guides",
+      "navFaq": "FAQ"
+    },
+    "overview": {
+      "eyebrow": "Guide Overview",
+      "copy": "A proposal in the Dolomites is not only about surprise. It is about the right place, the right time of day and a structure that does not put pressure on the moment. In the mountains, a simple plan often feels stronger than an elaborate setup.",
+      "items": [
+        {
+          "icon": "sunrise",
+          "label": "Best time of day",
+          "value": "Usually sunrise"
+        },
+        {
+          "icon": "calendar",
+          "label": "Strongest season window",
+          "value": "June to early October"
+        },
+        {
+          "icon": "crowd",
+          "label": "Privacy",
+          "value": "Early hours change everything"
+        },
+        {
+          "icon": "cloud",
+          "label": "Weather reality",
+          "value": "Flexibility creates calm"
+        },
+        {
+          "icon": "guests",
+          "label": "Ideal for",
+          "value": "Couples wanting something true rather than loud"
+        }
+      ]
+    },
+    "philosophy": {
+      "eyebrow": "A first note",
+      "title": "A proposal feels big not because it is loud, but because everything aligns in that one moment.",
+      "copy": "When light, route, temperature and nerves all work together, the moment gains a kind of density that is hard to explain afterwards. The Dolomites can be a remarkable setting for that, as long as the place fits the feeling."
+    },
+    "sections": {
+      "seasonOrder": [
+        "timeofday",
+        "howitworks",
+        "helicopter",
+        "wear",
+        "weather"
+      ],
+      "seasons": {
+        "timeofday": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Proposal-Dolomites-186.jpg",
+          "imageAlt": "Quiet morning light in the Dolomites for a proposal",
+          "eyebrow": "Time of day",
+          "title": "The best time of day",
+          "intro": "",
+          "copy": "In the morning, even well-known places often feel bigger, quieter and more personal. Sunset can be beautifully warm and soft, but at many locations it also brings more movement. Midday usually only works well when logistics or travel timing leave very little room for flexibility.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "sunrise",
+              "label": "Strongest",
+              "value": "Sunrise"
+            },
+            {
+              "icon": "sun",
+              "label": "Softest",
+              "value": "Late evening"
+            },
+            {
+              "icon": "crowd",
+              "label": "Most difficult",
+              "value": "Popular places in the middle of the day"
+            }
+          ],
+          "note": "",
+          "meta": "Light • Quiet • Rhythm",
+          "linkLabel": "Read sunrise vs sunset",
+          "linkHref": "/guides/sunrise-vs-sunset-dolomites/"
+        },
+        "howitworks": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Proposal-Lago-di-Braies-81.jpg",
+          "imageAlt": "Documented proposal in the Dolomites with discreet coverage",
+          "eyebrow": "How it works",
+          "title": "How a proposal usually unfolds",
+          "intro": "",
+          "copy": "Most of the time we meet discreetly at a clear starting point. The photographer stays back gently until the moment truly belongs to you. After the proposal, there is time for calm portraits and a second chapter of the day: maybe a picnic, a short walk, a quiet breakfast, a boat or a late dinner.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "path",
+              "label": "Beginning",
+              "value": "Quiet and clearly planned"
+            },
+            {
+              "icon": "guests",
+              "label": "The moment",
+              "value": "Natural rather than staged"
+            },
+            {
+              "icon": "sun",
+              "label": "Afterwards",
+              "value": "Time for portraits and a second chapter"
+            }
+          ],
+          "note": "",
+          "meta": "Meeting point • Moment • Afterwards",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "helicopter": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Proposal-Dolomites-267.jpg",
+          "imageAlt": "Helicopter above the Dolomites for an exclusive proposal experience",
+          "eyebrow": "Helicopter option",
+          "title": "If you want the day to feel even more private and open",
+          "intro": "",
+          "copy": "For some couples, a helicopter is not an effect. It is simply the calmest way to reach a truly private place. Fewer people, more space and a feeling that almost hovers. At the same time, this option always remains weather-dependent and needs a calm, thoughtful structure.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "wind",
+              "label": "Feeling",
+              "value": "More private and expansive"
+            },
+            {
+              "icon": "crowd",
+              "label": "Strength",
+              "value": "Far fewer people"
+            },
+            {
+              "icon": "cloud",
+              "label": "Important",
+              "value": "Weather remains decisive"
+            }
+          ],
+          "note": "",
+          "meta": "Privacy • Space • Weather",
+          "linkLabel": "Read the helicopter guide",
+          "linkHref": "/guides/helicopter-elopement-guide/"
+        },
+        "wear": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Wedding-43.jpg",
+          "imageAlt": "Clothing for a proposal in the mountains",
+          "eyebrow": "What to wear",
+          "title": "What to wear for a proposal in the mountains",
+          "intro": "",
+          "copy": "Natural colours, soft layers and clothing that belongs to the landscape usually feel strongest. Good shoes, warmth and ease of movement are often more valuable than perfection. A proposal does not need to look stiff to feel deeply intentional.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "sun",
+              "label": "Colours",
+              "value": "Natural and quiet"
+            },
+            {
+              "icon": "wind",
+              "label": "Important",
+              "value": "Layers and solid shoes"
+            },
+            {
+              "icon": "path",
+              "label": "Feeling",
+              "value": "Thoughtful, never too stiff"
+            }
+          ],
+          "note": "",
+          "meta": "Colour • Warmth • Movement",
+          "linkLabel": "Read the styling guide",
+          "linkHref": "/guides/what-to-wear-in-the-mountains/"
+        },
+        "weather": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Proposal-Dolomites-29.jpg",
+          "imageAlt": "Changing mountain weather during a proposal day",
+          "eyebrow": "Weather & backup plan",
+          "title": "Why flexibility creates so much calm",
+          "intro": "",
+          "copy": "Mountain weather can change quickly, and that is exactly why a gentle backup idea matters. Fog can feel soft and cinematic, wind can bring movement, and a shifted time window can completely transform a place. The strongest plan is usually the one that still feels right under different light.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "cloud",
+              "label": "Reality",
+              "value": "Weather stays mobile"
+            },
+            {
+              "icon": "sunrise",
+              "label": "Strength",
+              "value": "Fog can be beautiful"
+            },
+            {
+              "icon": "calendar",
+              "label": "Helpful",
+              "value": "A second time window or backup place"
+            }
+          ],
+          "note": "",
+          "meta": "Weather • Backup • Calm",
+          "linkLabel": "Read the weather guide",
+          "linkHref": "/guides/weather-and-backup-planning/"
+        }
+      }
+    },
+    "planning": {
+      "eyebrow": "Planning Notes",
+      "title": "What usually makes the biggest difference for a proposal.",
+      "intro": "Most proposals are not made stronger by more effort. They become stronger through better timing and more inner calm.",
+      "items": [
+        {
+          "label": "Location",
+          "title": "Choose a place that matches your pace.",
+          "copy": "Not every iconic location automatically feels personal. The strongest places usually match your character, your access level and your idea of quiet.",
+          "meta": "Fit matters more than fame."
+        },
+        {
+          "label": "Light",
+          "title": "Light often decides how intimate the moment feels.",
+          "copy": "A place can feel calm and private at sunrise and much more public three hours later. Timing is often more important than the scenery alone.",
+          "meta": "Light shapes closeness."
+        },
+        {
+          "label": "Flow",
+          "title": "Keep the structure simple.",
+          "copy": "The less technical or emotional overload the day carries, the more natural the actual proposal can become.",
+          "meta": "Simplicity makes depth possible."
+        },
+        {
+          "label": "Backup",
+          "title": "Carry a second honest version of the day with you.",
+          "copy": "If weather turns or a place feels different than expected, a real second option helps far more than pressure for perfection.",
+          "meta": "Calm comes from flexibility."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Questions that often come up before a proposal in the Dolomites.",
+      "intro": "A proposal usually comes down to two things: how do we keep the moment genuine, and how do we make sure location or logistics do not get in the way?",
+      "items": [
+        {
+          "q": "What is the best place to propose in the Dolomites?",
+          "a": "It depends less on the most famous spot than on the feeling you want. Braies is soft and quiet, Cadini feels wilder and more intense, Seceda more open and free. The best place is the one that holds the mood well."
+        },
+        {
+          "q": "What is the best time of day for a Dolomites proposal?",
+          "a": "Usually early morning. Iconic places are quieter then, the air is calmer and the moment feels less observed. Evening can be beautiful too, but it is often more public."
+        },
+        {
+          "q": "Can I propose at Lago di Braies?",
+          "a": "Yes, very beautifully, especially if you arrive early. At Braies, timing often matters almost more than the place itself."
+        },
+        {
+          "q": "Do we need a permit?",
+          "a": "Sometimes, depending on the location, the setup and the season. If it is just the two of you and a very discreet plan, things are often simpler. Larger setups or tightly regulated places are worth checking in advance."
+        },
+        {
+          "q": "Do you help with planning?",
+          "a": "Yes, and that usually makes the biggest difference. The right place, the right hour, a discreet structure and a backup plan are what turn a beautiful idea into a truly strong proposal."
+        },
+        {
+          "q": "Is a helicopter proposal possible?",
+          "a": "Yes, especially if you want more seclusion and more space. It should still feel like you, though, not simply look bigger."
+        },
+        {
+          "q": "What happens if the weather changes?",
+          "a": "That is where a backup location, a second time window or a softer structure matters. Proposals benefit greatly from flexibility because the moment itself is more important than one fixed image."
+        },
+        {
+          "q": "How far in advance should we book?",
+          "a": "Earlier is usually better, especially in strong seasons. Quiet weekdays, good timing windows and the right lodging all come together more easily with lead time."
+        }
+      ]
+    },
+    "related": {
+      "eyebrow": "Related Guides",
+      "items": [
+        {
+          "label": "Planning",
+          "title": "Dolomites Elopement Guide",
+          "copy": "A calm starting point for couples planning a Dolomites Elopement or intimate mountain wedding and wanting to understand how light, access, weather and crowds truly shape the day.",
+          "href": "/guides/dolomites-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-120.jpg"
+        },
+        {
+          "label": "Locations",
+          "title": "The most popular elopement locations in the Dolomites",
+          "copy": "A curated guide for couples who are not looking for just any beautiful view, but for the place whose atmosphere truly fits the day they want.",
+          "href": "/guides/best-dolomites-elopement-locations/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-191.jpg"
+        },
+        {
+          "label": "Planning",
+          "title": "Sunrise vs Sunset in the Dolomites",
+          "copy": "An honest comparison for couples who want more than beautiful light and are trying to understand which time of day fits their energy, their location and the feeling they want to remember.",
+          "href": "/guides/sunrise-vs-sunset-dolomites/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Photo-368.jpg"
+        },
+        {
+          "label": "Planning",
+          "title": "Weather & Backup Planning Guide",
+          "copy": "A calm weather guide for couples who do not want to hope for perfect conditions in the mountains, but want to build a day that still feels right in fog, wind or rain.",
+          "href": "/guides/weather-and-backup-planning/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-161.jpg"
+        },
+        {
+          "label": "Planning",
+          "title": "What to Wear in the Mountains",
+          "copy": "A practical guide for couples who want to look beautiful in the mountains, but also move freely, stay warm and still feel like themselves in what they wear.",
+          "href": "/guides/what-to-wear-in-the-mountains/",
+          "image": "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Hut-13.jpg"
+        },
+        {
+          "label": "Helicopter",
+          "title": "Helicopter Elopement Guide",
+          "copy": "A guide for couples seeking more space, privacy and a clearer flow to the day, and wanting to understand when a helicopter in the mountains genuinely makes sense.",
+          "href": "/guides/helicopter-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-12.jpg"
+        }
+      ],
+      "hint": "Swipe left or right to explore more guides."
+    },
+    "final": {
+      "image": "/assets/uploads/Blitzkneisser-Photo-Drei-Zinnen-Italy-24.jpg",
+      "imageAlt": "Tre Cime in the Dolomites in calm, clear light",
+      "eyebrow": "Planned with intention",
+      "title": "Ready to plan your Dolomites proposal?",
+      "copy": "If you are dreaming of a quiet, emotional and beautifully documented proposal in the Dolomites, I would love to help you find the right place, timing and feeling for it.",
+      "cta": "Inquire now"
+    }
+  }
+}

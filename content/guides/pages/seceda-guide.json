@@ -1,0 +1,718 @@
+{
+  "de": {
+    "slug": "seceda-guide",
+    "title": "Seceda Guide | Sunrise, Access und die ikonische Ridgeline",
+    "description": "Guide zu Seceda für Elopements und intime Hochzeiten mit ehrlichen Hinweisen zu Liftzeiten, Wind, Morgenlicht, Zugang und der offenen Weite dieses Ortes.",
+    "hero": {
+      "eyebrow": "Standort-Guide",
+      "title": "Seceda Guide",
+      "copy": "Ein Guide für Paare, die an Seceda nicht nur die berühmte Kante suchen, sondern das Gefühl von Weite, Wind und offenem Berglicht, das diesen Ort so unverwechselbar macht.",
+      "cta": "Planung starten",
+      "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Seceda-180.jpg",
+      "imageAlt": "Seceda bei klarem Berglicht"
+    },
+    "utility": {
+      "reading": "Guide",
+      "focus": "Für ausführliche Ansichten rund um Seceda und Val Gardena",
+      "navOverview": "Überblick",
+      "navSeasons": "Standorthinweise",
+      "navPhilosophy": "Einführung",
+      "navVisual": "Weitere Guides",
+      "navFaq": "FAQ"
+    },
+    "overview": {
+      "eyebrow": "Guide im Überblick",
+      "copy": "Seceda sieht großzügig aus und fühlt sich genau so an: weit, offen und leicht ausgesetzt. Das Licht kommt hier klar, der Wind ist oft spürbar und der Ort wirkt dann am stärksten, wenn ihr ihn früh und mit etwas Bewegungsfreude erlebt.",
+      "items": [
+        {
+          "icon": "calendar",
+          "label": "Beste Zeit",
+          "value": "Sommer bis Frühherbst"
+        },
+        {
+          "icon": "sun",
+          "label": "Bestes Licht",
+          "value": "Sonnenaufgang oder später Abend"
+        },
+        {
+          "icon": "crowd",
+          "label": "Crowd Level",
+          "value": "Später am Tag mittel bis hoch"
+        },
+        {
+          "icon": "path",
+          "label": "Zugang",
+          "value": "Mit Lift, teilweise zu Fuß"
+        },
+        {
+          "icon": "guests",
+          "label": "Ideal für",
+          "value": "Weites, offenes Berggefühl"
+        }
+      ]
+    },
+    "philosophy": {
+      "eyebrow": "Eine erste Orientierung",
+      "title": "Seceda lebt von Horizont, Luft und dem Gefühl, weit in die Berge hinauszuschauen.",
+      "copy": "Nicht jeder Paarmoment braucht Dramatik im engeren Sinn. Seceda wirkt oft gerade dann stark, wenn ihr die Offenheit des Ortes zulasst: viel Himmel, lange Linien und dieses Gefühl, dass alles plötzlich weiter wird."
+    },
+    "sections": {
+      "seasonOrder": [
+        "special",
+        "time",
+        "access",
+        "weather"
+      ],
+      "seasons": {
+        "special": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-6.jpg",
+          "imageAlt": "Seceda bei klarem Berglicht Kammlinie",
+          "eyebrow": "",
+          "title": "Warum Seceda eine Ikone ist",
+          "intro": "Seceda ist weniger monumental als frei.",
+          "copy": "Die Bergkanten sind ikonisch, doch was viele Paare am stärksten spüren, ist diese Mischung aus Höhe, Luft und weitem Blick. Der Ort atmet anders als die schrofferen Dolomitenkulissen.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "wind",
+              "label": "Visuelle Stimmung",
+              "value": "Offen, luftig und filmisch"
+            },
+            {
+              "icon": "guests",
+              "label": "Ideal für",
+              "value": "Paare, die Größe ohne technischen Aufwand wünschen"
+            },
+            {
+              "icon": "sun",
+              "label": "Ton",
+              "value": "Ikonisch, aber dennoch sanft im richtigen Licht"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "time": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Seceda-Dolomites-180.jpg",
+          "imageAlt": "Platzhalterbild für Abendlicht auf Bergrücken",
+          "eyebrow": "",
+          "title": "Beste Zeit",
+          "intro": "Das beste Licht ist früh, bevor der Tag hart wird.",
+          "copy": "Morgens wirkt Seceda klarer, stiller und oft viel persönlicher. Später kann das Licht flacher oder härter werden, und mit dem Tagesbetrieb verliert der Ort einen Teil seiner Leichtigkeit.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "sunrise",
+              "label": "Am besten",
+              "value": "Sonnenaufgang"
+            },
+            {
+              "icon": "sun",
+              "label": "Funktioniert auch",
+              "value": "Am späten Abend bei mildem Wetter"
+            },
+            {
+              "icon": "crowd",
+              "label": "Vermeiden",
+              "value": "Belebte Mittagsfenster, wenn ihr Privatsphäre wünschen"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "access": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-2.jpg",
+          "imageAlt": "Platzhalterbild für Bergbahn und Zugang zu Fuß",
+          "eyebrow": "",
+          "title": "Aufzugs- und Zugangshinweise",
+          "intro": "Der Lift macht Seceda erreichbar, aber nicht automatisch unkompliziert.",
+          "copy": "Liftzeiten, Anreise, erste Gondeln und die letzten Gehabschnitte entscheiden darüber, wie entspannt der Morgen beginnt. Wer nur die Aussicht sieht, unterschätzt leicht, wie wichtig das Timing rund um den Zugang ist.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "path",
+              "label": "Hauptzugang",
+              "value": "Lift und kurzer Fußweg"
+            },
+            {
+              "icon": "guests",
+              "label": "Gästefreundlich",
+              "value": "Mäßig, abhängig von der Mobilität"
+            },
+            {
+              "icon": "key",
+              "label": "Überprüfen",
+              "value": "Liftplan und Wetter"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "weather": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Wedding-Dolomites132.jpg",
+          "imageAlt": "Platzhalterbild für Wind und Wetter im Hochland",
+          "eyebrow": "",
+          "title": "Wetter und Wind",
+          "intro": "Wind gehört hier fast immer zur Realität dazu.",
+          "copy": "Seceda kann traumhaft aussehen und sich gleichzeitig sehr frisch oder unruhig anfühlen. Gerade auf den offenen Kanten verändern Wind, Wolken und Temperatur schnell die Erfahrung vor Ort.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "wind",
+              "label": "Hauptfaktor",
+              "value": "Windeinwirkung"
+            },
+            {
+              "icon": "cloud",
+              "label": "Wetterstimmung",
+              "value": "Schnell wechselnd, oft dramatisch"
+            },
+            {
+              "icon": "path",
+              "label": "Beste Antwort",
+              "value": "Ebenen und flexibles Timing"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        }
+      }
+    },
+    "planning": {
+      "eyebrow": "Planungsnotizen",
+      "title": "Was Seceda meist stark oder anstrengend macht.",
+      "intro": "Dieser Ort schenkt Weite, verlangt aber etwas mehr Wachheit im Umgang mit Wind, Liftzeiten und offener Landschaft.",
+      "items": [
+        {
+          "label": "Wind",
+          "title": "Plant Kleidung und Haltung für Bewegung, nicht nur für Bilder.",
+          "copy": "Ein schöner Look muss hier auch auf offenen Kanten funktionieren.",
+          "meta": "Seceda ist selten völlig windstill."
+        },
+        {
+          "label": "Lift",
+          "title": "Die erste Gondel verändert die ganze Stimmung.",
+          "copy": "Wer früh oben ist, erlebt oft ein ganz anderes Seceda als die späteren Stunden.",
+          "meta": "Der Tagesanfang entscheidet viel."
+        },
+        {
+          "label": "Licht",
+          "title": "Frühes Licht macht den Ort weicher und klarer.",
+          "copy": "Gerade an Seceda fühlt sich der Morgen oft luftiger und persönlicher an als der späte Vormittag.",
+          "meta": "Weite braucht gutes Timing."
+        },
+        {
+          "label": "Pace",
+          "title": "Lasst den Ort nicht zu hektisch werden.",
+          "copy": "Seceda wirkt am stärksten, wenn genug Raum zwischen Anreise, Gehen und Bildern bleibt.",
+          "meta": "Weniger Druck, mehr Horizont."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Fragen, die Paare oft zu Seceda stellen.",
+      "intro": "Bei Seceda drehen sich die meisten Fragen um Wind, Liftzeiten und darum, wie offen sich dieser Ort im echten Erleben anfühlt.",
+      "items": [
+        {
+          "q": "Ist der Sonnenaufgang an Seceda besser als der Sonnenuntergang?",
+          "a": "Für viele Paare ja. Morgens ist der Ort meist stiller, kühler und persönlicher. Abends kann das Licht schön sein, aber der Platz fühlt sich oft öffentlicher an."
+        },
+        {
+          "q": "Müssen wir viel wandern?",
+          "a": "Nicht extrem, aber ein paar Gehabschnitte gehören fast immer dazu. Mit Lift ist Seceda zugänglicher als manche anderen Spots, trotzdem sollte der Weg nicht als Nebensache behandelt werden."
+        },
+        {
+          "q": "Ist Seceda zu windig für ein Kleid?",
+          "a": "Wind ist dort keine Ausnahme, sondern oft Teil des Ortes. Stoff, Schichten und Schuhe sollten also nicht nur schön aussehen, sondern auf offener Kante auch funktionieren."
+        },
+        {
+          "q": "Funktioniert das mit Gästen?",
+          "a": "Mit der richtigen Gruppe ja. Wenn Gäste gut zu Fuß sind und ein wenig Berglogistik entspannt mittragen, kann Seceda auch mit mehreren Menschen gut funktionieren."
+        }
+      ]
+    },
+    "related": {
+      "eyebrow": "Verwandte Leitfäden",
+      "hint": "Wischt nach links oder rechts, um weitere Guides zu sehen.",
+      "items": [
+        {
+          "label": "Dolomiten",
+          "title": "Elopement-Guide für die Dolomiten",
+          "copy": "Ein ruhiger Ausgangspunkt für Paare, die ein Dolomites Elopement oder eine intime Berghochzeit planen und verstehen möchten, wie Licht, Wege, Wetter und Menschenmengen den Tag wirklich prägen.",
+          "href": "/guides/dolomites-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-120.jpg",
+          "alt": "Paar bei einem Dolomiten-Elopement im weichen Morgenlicht",
+          "imageAlt": "Paar bei einem Dolomiten-Elopement im weichen Morgenlicht"
+        },
+        {
+          "label": "Standorte",
+          "title": "Die beliebtesten Elopement-Orte in den Dolomiten",
+          "copy": "Ein kuratierter Guide für Paare, die nicht einfach irgendeine schöne Aussicht suchen, sondern den Ort, dessen Stimmung wirklich zu ihrem Tag passt.",
+          "href": "/guides/best-dolomites-elopement-locations/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-191.jpg",
+          "alt": "Elopement-Standorte in den Dolomiten",
+          "imageAlt": "Elopement-Standorte in den Dolomiten"
+        },
+        {
+          "label": "Standorte",
+          "title": "Lago di Braies Guide",
+          "copy": "Ein ehrlicher Guide für Paare, die den Pragser Wildsee nicht nur als berühmtes Bild kennen, sondern verstehen möchten, wann er still, weich und tatsächlich erlebbar wird.",
+          "href": "/guides/lago-di-braies-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopemnt-Dolomites-Lago-di-Braies-19.jpg",
+          "alt": "Lago di Braies mit ruhigem Wasser und frühem Licht",
+          "imageAlt": "Lago di Braies mit ruhigem Wasser und frühem Licht"
+        },
+        {
+          "label": "Standorte",
+          "title": "Cadini di Misurina Guide",
+          "copy": "Ein Guide für Paare, die an Cadini diese wilde, kinoreife Spannung lieben und zugleich wissen möchten, wann der Ort zugänglich, sicher und wirklich stimmig ist.",
+          "href": "/guides/cadini-di-misurina-guide/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-12.jpg",
+          "alt": "Cadini di Misurina mit markanten Felsformen",
+          "imageAlt": "Cadini di Misurina mit markanten Felsformen"
+        },
+        {
+          "label": "Standorte",
+          "title": "Drei Zinnen Guide",
+          "copy": "Ein ehrlicher Guide für Paare, die Drei Zinnen nicht nur wegen des berühmten Blicks wählen, sondern wegen dieser monumentalen, fast unwirklichen Präsenz, die der Ort im richtigen Moment entfaltet.",
+          "href": "/guides/tre-cime-wedding-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14.jpg",
+          "alt": "Drei Zinnen bei klarem Berglicht",
+          "imageAlt": "Drei Zinnen bei klarem Berglicht"
+        },
+        {
+          "label": "Planung",
+          "title": "Beste Jahreszeit für ein Dolomiten-Elopement",
+          "copy": "Ein ehrlicher Guide zu Licht, Temperaturen, Menschenmengen und der Frage, wann sich die Berge nicht nur schön, sondern wirklich stimmig für euch anfühlen.",
+          "href": "/guides/best-time-for-a-dolomites-elopement/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-16.jpg",
+          "alt": "Vorhandenes Bild zur schönsten Zeit in den Dolomiten",
+          "imageAlt": "Vorhandenes Bild zur schönsten Zeit in den Dolomiten"
+        },
+        {
+          "label": "Planung",
+          "title": "Sonnenaufgang vs. Sonnenuntergang in den Dolomiten",
+          "copy": "Ein ehrlicher Vergleich für Paare, die nicht nur schönes Licht suchen, sondern verstehen möchten, welche Tageszeit zu ihrem Energielevel, ihrem Ort und dem gewünschten Gefühl passt.",
+          "href": "/guides/sunrise-vs-sunset-dolomites/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Photo-368.jpg",
+          "alt": "Lichtstimmung in den Bergen bei Sonnenaufgang oder Sonnenuntergang",
+          "imageAlt": "Lichtstimmung in den Bergen bei Sonnenaufgang oder Sonnenuntergang"
+        },
+        {
+          "label": "Planung",
+          "title": "Guide zur Wetter- und Backup-Planung",
+          "copy": "Ein ruhiger Wetter-Guide für Paare, die in den Bergen nicht auf perfekte Bedingungen hoffen, sondern einen Tag planen möchten, der auch bei Nebel, Wind oder Regen stimmig bleibt.",
+          "href": "/guides/weather-and-backup-planning/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-161.jpg",
+          "alt": "Wetterstimmung in den Dolomiten mit Wolken und Nebel",
+          "imageAlt": "Wetterstimmung in den Dolomiten mit Wolken und Nebel"
+        },
+        {
+          "label": "Planung",
+          "title": "Was man in den Bergen anziehen sollte",
+          "copy": "Ein praktischer Guide für Paare, die in den Bergen nicht nur schön aussehen, sondern sich auch frei bewegen, warm bleiben und sich in ihrer Kleidung wirklich wiederfinden möchten.",
+          "href": "/guides/what-to-wear-in-the-mountains/",
+          "image": "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Hut-13.jpg",
+          "alt": "Kleidung für ein Elopement in den Bergen",
+          "imageAlt": "Kleidung für ein Elopement in den Bergen"
+        },
+        {
+          "label": "Planung",
+          "title": "Helikopter-Elopement-Guide",
+          "copy": "Ein Guide für Paare, die Weite, Abgeschiedenheit und einen klareren Tagesfluss suchen und verstehen möchten, wann ein Helikopter in den Bergen wirklich sinnvoll ist.",
+          "href": "/guides/helicopter-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-12.jpg",
+          "alt": "Helikopterflug über den Bergen für ein Elopement",
+          "imageAlt": "Helikopterflug über den Bergen für ein Elopement"
+        },
+        {
+          "label": "Planung",
+          "title": "Mehrtägiger Elopement-Guide",
+          "copy": "Ein Guide für Paare, die mehr wollen als ein paar schnelle Stunden in den Bergen und ihren Hochzeitstag lieber in Ruhe entfalten lassen möchten.",
+          "href": "/guides/multi-day-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Insta-11.jpg",
+          "alt": "Mehrtägiges Elopement in den Dolomiten",
+          "imageAlt": "Mehrtägiges Elopement in den Dolomiten"
+        }
+      ]
+    },
+    "final": {
+      "eyebrow": "Ruhig geplant",
+      "title": "Lasst uns etwas gestalten, das sich ruhig, persönlich und zutiefst wahr anfühlt.",
+      "copy": "Wenn sich dieser Guide bereits nah an dem anfühlt, was ihr euch wünscht, helfe ich euch gern dabei, dieses Gefühl in etwas Ruhiges, Filmisches und wirklich Eigenes in den Bergen zu verwandeln.",
+      "cta": "Termin anfragen",
+      "image": "/assets/uploads/Blitzkneisser-Photo-Drei-Zinnen-Italy-24.jpg",
+      "imageAlt": "Drei Zinnen in den Dolomiten bei ruhigem, klarem Licht"
+    }
+  },
+  "en": {
+    "slug": "seceda-guide",
+    "title": "Seceda Guide | Sunrise, Access and the Iconic Ridgeline",
+    "description": "A guide to Seceda for elopements and intimate weddings, with honest notes on lift timing, wind, morning light, access and the openness of the place.",
+    "hero": {
+      "eyebrow": "Location Guide",
+      "title": "Seceda Guide",
+      "copy": "A guide for couples drawn to Seceda not only for the famous ridge, but for the feeling of openness, wind and high alpine light that makes it so distinctive.",
+      "cta": "Start planning",
+      "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Seceda-180.jpg",
+      "imageAlt": "Seceda in clear mountain light"
+    },
+    "utility": {
+      "reading": "Guide",
+      "focus": "For expansive views around Seceda and Val Gardena",
+      "navOverview": "Overview",
+      "navSeasons": "Location Notes",
+      "navPhilosophy": "Intro",
+      "navVisual": "More guides",
+      "navFaq": "FAQ"
+    },
+    "overview": {
+      "eyebrow": "Guide Overview",
+      "copy": "Seceda looks expansive and it feels that way too: wide, open and slightly exposed. Light arrives clearly here, wind is often part of the experience and the place feels strongest when you meet it early and with a little willingness to move.",
+      "items": [
+        {
+          "icon": "calendar",
+          "label": "Best Time",
+          "value": "Summer to early autumn"
+        },
+        {
+          "icon": "sun",
+          "label": "Best Light",
+          "value": "Sunrise or late evening"
+        },
+        {
+          "icon": "crowd",
+          "label": "Crowd Level",
+          "value": "Medium to high later in the day"
+        },
+        {
+          "icon": "path",
+          "label": "Access",
+          "value": "Lift-led, some walking"
+        },
+        {
+          "icon": "guests",
+          "label": "Best For",
+          "value": "Wide, open mountain feeling"
+        }
+      ]
+    },
+    "philosophy": {
+      "eyebrow": "A first note",
+      "title": "Seceda lives in the horizon, the air and the feeling of looking far into the mountains.",
+      "copy": "Not every meaningful place needs to feel monumental. Seceda often becomes powerful because of its openness: more sky, longer lines and that sensation that everything suddenly starts to breathe wider."
+    },
+    "sections": {
+      "seasonOrder": [
+        "special",
+        "time",
+        "access",
+        "weather"
+      ],
+      "seasons": {
+        "special": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-6.jpg",
+          "imageAlt": "Seceda in clear mountain light ridgeline",
+          "eyebrow": "",
+          "title": "Why Seceda is iconic",
+          "intro": "Seceda is less monumental than it is free.",
+          "copy": "The ridgeline is iconic, but what many couples feel most strongly is the mix of altitude, air and distance. It breathes differently than the sharper, heavier Dolomite landscapes.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "wind",
+              "label": "Visual Mood",
+              "value": "Open, airy and cinematic"
+            },
+            {
+              "icon": "guests",
+              "label": "Best For",
+              "value": "Couples wanting scale without a technical hike"
+            },
+            {
+              "icon": "sun",
+              "label": "Tone",
+              "value": "Iconic but still soft in the right light"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "time": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Seceda-Dolomites-180.jpg",
+          "imageAlt": "Placeholder image for evening light on ridgelines",
+          "eyebrow": "",
+          "title": "Best time",
+          "intro": "The best light is early, before the day starts to harden.",
+          "copy": "In the morning, Seceda usually feels clearer, quieter and more personal. Later, the light can flatten or sharpen, and the energy changes with the daily flow of visitors.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "sunrise",
+              "label": "Best",
+              "value": "Sunrise"
+            },
+            {
+              "icon": "sun",
+              "label": "Also Works",
+              "value": "Late evening in soft weather"
+            },
+            {
+              "icon": "crowd",
+              "label": "Avoid",
+              "value": "Busy midday windows if you want privacy"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "access": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-2.jpg",
+          "imageAlt": "Placeholder image for mountain lift and walking access",
+          "eyebrow": "",
+          "title": "Lift and access notes",
+          "intro": "The lift makes Seceda reachable, but not automatically simple.",
+          "copy": "Lift schedules, transport timing, first gondolas and the final walking sections all shape how relaxed the morning feels. Couples often underestimate how much the access rhythm matters here.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "path",
+              "label": "Main Access",
+              "value": "Lift plus walking"
+            },
+            {
+              "icon": "guests",
+              "label": "Guest Friendly",
+              "value": "Moderately, depending on mobility"
+            },
+            {
+              "icon": "key",
+              "label": "Check",
+              "value": "Lift schedule and weather"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "weather": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Wedding-Dolomites132.jpg",
+          "imageAlt": "Placeholder image for wind and weather in high terrain",
+          "eyebrow": "",
+          "title": "Weather and wind",
+          "intro": "Wind is part of the reality here more often than not.",
+          "copy": "Seceda can look beautiful and still feel cold, exposed or unsettled. On open ridges, wind, cloud and temperature can shift the experience quickly.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "wind",
+              "label": "Main Factor",
+              "value": "Wind exposure"
+            },
+            {
+              "icon": "cloud",
+              "label": "Weather Mood",
+              "value": "Fast-changing, often dramatic"
+            },
+            {
+              "icon": "path",
+              "label": "Best Response",
+              "value": "Layers and flexible timing"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        }
+      }
+    },
+    "planning": {
+      "eyebrow": "Planning Notes",
+      "title": "What usually makes Seceda feel strong or difficult.",
+      "intro": "This place gives you scale, but it asks for more awareness around wind, lift timing and the open character of the terrain.",
+      "items": [
+        {
+          "label": "Wind",
+          "title": "Dress and move for conditions, not only for photographs.",
+          "copy": "A beautiful outfit still needs to work on an exposed ridge.",
+          "meta": "Seceda is rarely completely still."
+        },
+        {
+          "label": "Lift",
+          "title": "The first gondola changes the entire mood.",
+          "copy": "Being up early often means experiencing a very different Seceda from the later hours.",
+          "meta": "The morning sets the tone."
+        },
+        {
+          "label": "Light",
+          "title": "Early light makes the place feel softer and more defined.",
+          "copy": "At Seceda especially, morning often feels more spacious and personal than late morning.",
+          "meta": "Scale needs good timing."
+        },
+        {
+          "label": "Pace",
+          "title": "Do not let the place become rushed.",
+          "copy": "Seceda works best when there is enough room between travel, walking and photographs.",
+          "meta": "Less pressure, more horizon."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Questions couples often ask about Seceda.",
+      "intro": "Most questions here come back to wind, lift timing and how exposed this place actually feels once you are standing in it.",
+      "items": [
+        {
+          "q": "Is sunrise at Seceda better than sunset?",
+          "a": "For many couples, yes. Morning usually feels quieter, colder and more personal. Evening light can be beautiful too, but the location often feels more public by then."
+        },
+        {
+          "q": "Do we need to hike much?",
+          "a": "Not dramatically, but walking is still part of the experience. The lift makes Seceda easier than some locations, though the final sections should not be treated as an afterthought."
+        },
+        {
+          "q": "Is Seceda too windy for a dress?",
+          "a": "Wind is not unusual there. It is often part of the place. Fabric, layers and shoes need to work on an open ridge, not only in photos."
+        },
+        {
+          "q": "Does it work with guests?",
+          "a": "Yes, with the right group. If your guests are comfortable walking and handling a little mountain logistics, Seceda can work well with company too."
+        }
+      ]
+    },
+    "related": {
+      "eyebrow": "Related Guides",
+      "hint": "Swipe left or right to explore more guides.",
+      "items": [
+        {
+          "label": "Dolomites",
+          "title": "Dolomites Elopement Guide",
+          "copy": "A calm starting point for couples planning a Dolomites Elopement or intimate mountain wedding and wanting to understand how light, access, weather and crowds truly shape the day.",
+          "href": "/guides/dolomites-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-120.jpg",
+          "alt": "Couple during a Dolomites elopement in soft morning light",
+          "imageAlt": "Couple during a Dolomites elopement in soft morning light"
+        },
+        {
+          "label": "Locations",
+          "title": "The most popular elopement locations in the Dolomites",
+          "copy": "A curated guide for couples who are not looking for just any beautiful view, but for the place whose atmosphere truly fits the day they want.",
+          "href": "/guides/best-dolomites-elopement-locations/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-191.jpg",
+          "alt": "Elopement locations in the Dolomites",
+          "imageAlt": "Elopement locations in the Dolomites"
+        },
+        {
+          "label": "Locations",
+          "title": "Lago di Braies Guide",
+          "copy": "An honest guide for couples who know Lago di Braies as more than a famous photograph and want to understand when it feels soft, quiet and truly worth experiencing.",
+          "href": "/guides/lago-di-braies-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopemnt-Dolomites-Lago-di-Braies-19.jpg",
+          "alt": "Lago di Braies with still water and early light",
+          "imageAlt": "Lago di Braies with still water and early light"
+        },
+        {
+          "label": "Locations",
+          "title": "Cadini di Misurina Guide",
+          "copy": "A guide for couples who love the wild, cinematic tension of Cadini and want to know when it is accessible, safe and genuinely worth choosing.",
+          "href": "/guides/cadini-di-misurina-guide/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-12.jpg",
+          "alt": "Cadini di Misurina with dramatic rock formations",
+          "imageAlt": "Cadini di Misurina with dramatic rock formations"
+        },
+        {
+          "label": "Locations",
+          "title": "Tre Cime Wedding Guide",
+          "copy": "An honest guide for couples choosing Tre Cime not only for the famous view, but for the monumental, almost unreal presence the place carries when the timing is right.",
+          "href": "/guides/tre-cime-wedding-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14.jpg",
+          "alt": "Tre Cime in clear mountain light",
+          "imageAlt": "Tre Cime in clear mountain light"
+        },
+        {
+          "label": "Planning",
+          "title": "Best Time for a Dolomites Elopement",
+          "copy": "An honest guide to light, temperatures, crowds and the question of when the mountains will not only look beautiful, but genuinely feel right for you.",
+          "href": "/guides/best-time-for-a-dolomites-elopement/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-16.jpg",
+          "alt": "Existing image for best time in the Dolomites",
+          "imageAlt": "Existing image for best time in the Dolomites"
+        },
+        {
+          "label": "Planning",
+          "title": "Sunrise vs Sunset in the Dolomites",
+          "copy": "An honest comparison for couples who want more than beautiful light and are trying to understand which time of day fits their energy, their location and the feeling they want to remember.",
+          "href": "/guides/sunrise-vs-sunset-dolomites/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Photo-368.jpg",
+          "alt": "Mountain light at sunrise or sunset",
+          "imageAlt": "Mountain light at sunrise or sunset"
+        },
+        {
+          "label": "Planning",
+          "title": "Weather & Backup Planning Guide",
+          "copy": "A calm weather guide for couples who do not want to hope for perfect conditions in the mountains, but want to build a day that still feels right in fog, wind or rain.",
+          "href": "/guides/weather-and-backup-planning/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-161.jpg",
+          "alt": "Weather in the Dolomites with clouds and fog",
+          "imageAlt": "Weather in the Dolomites with clouds and fog"
+        },
+        {
+          "label": "Planning",
+          "title": "What to Wear in the Mountains",
+          "copy": "A practical guide for couples who want to look beautiful in the mountains, but also move freely, stay warm and still feel like themselves in what they wear.",
+          "href": "/guides/what-to-wear-in-the-mountains/",
+          "image": "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Hut-13.jpg",
+          "alt": "Outfit ideas for a mountain elopement",
+          "imageAlt": "Outfit ideas for a mountain elopement"
+        },
+        {
+          "label": "Planning",
+          "title": "Helicopter Elopement Guide",
+          "copy": "A guide for couples seeking more space, privacy and a clearer flow to the day, and wanting to understand when a helicopter in the mountains genuinely makes sense.",
+          "href": "/guides/helicopter-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-12.jpg",
+          "alt": "Helicopter flight above the mountains for an elopement",
+          "imageAlt": "Helicopter flight above the mountains for an elopement"
+        },
+        {
+          "label": "Planning",
+          "title": "Multi-Day Elopement Guide",
+          "copy": "A guide for couples who want more than a few rushed hours in the mountains and would rather let the day unfold with space around it.",
+          "href": "/guides/multi-day-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Insta-11.jpg",
+          "alt": "Multi-day elopement in the Dolomites",
+          "imageAlt": "Multi-day elopement in the Dolomites"
+        }
+      ]
+    },
+    "final": {
+      "eyebrow": "Planned with intention",
+      "title": "Let’s shape something that feels quiet, personal and deeply true to you.",
+      "copy": "If this guide already feels close to the way you want the day to move, I would love to help you turn that feeling into something calm, cinematic and genuinely your own in the mountains.",
+      "cta": "Inquire now",
+      "image": "/assets/uploads/Blitzkneisser-Photo-Drei-Zinnen-Italy-24.jpg",
+      "imageAlt": "Tre Cime in the Dolomites in calm, clear light"
+    }
+  }
+}

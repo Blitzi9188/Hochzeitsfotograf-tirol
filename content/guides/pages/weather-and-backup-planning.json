@@ -1,0 +1,782 @@
+{
+  "de": {
+    "slug": "weather-and-backup-planning",
+    "title": "Wetter- und Backup-Planungshandbuch | Bergbedingungen mit Ruhe",
+    "description": "Guide zur Wetter- und Backup-Planung für Elopements in den Dolomiten mit ehrlichen Hinweisen zu Nebel, Regen, Wind, Plan B und flexiblen Zeitfenstern.",
+    "hero": {
+      "eyebrow": "Planungs-Guide",
+      "title": "Guide zur Wetter- und Backup-Planung",
+      "copy": "Ein ruhiger Wetter-Guide für Paare, die in den Bergen nicht auf perfekte Bedingungen hoffen, sondern einen Tag planen möchten, der auch bei Nebel, Wind oder Regen stimmig bleibt.",
+      "cta": "Planung starten",
+      "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-161.jpg",
+      "imageAlt": "Wetterstimmung in den Dolomiten mit Wolken und Nebel"
+    },
+    "utility": {
+      "reading": "Guide",
+      "focus": "Für wettergerechte Planung in den Dolomiten und Tirol",
+      "navOverview": "Überblick",
+      "navSeasons": "Wetterblöcke",
+      "navPhilosophy": "Einführung",
+      "navVisual": "Weitere Guides",
+      "navFaq": "FAQ"
+    },
+    "overview": {
+      "eyebrow": "Guide im Überblick",
+      "copy": "Bergwetter ist selten stabil und genau das muss kein Problem sein. Vieles wird erst dann schwierig, wenn der gesamte Tag an einen einzigen Ort oder ein einziges Wetterbild gebunden ist.",
+      "items": [
+        {
+          "icon": "cloud",
+          "label": "Hauptwirklichkeit",
+          "value": "Das Wetter ändert sich schnell"
+        },
+        {
+          "icon": "calendar",
+          "label": "Beste Strategie",
+          "value": "Flexible Zeiteinteilung"
+        },
+        {
+          "icon": "crowd",
+          "label": "Crowd-Effekt",
+          "value": "Schlechte Wettervorhersagen können berühmte Orte zum Schweigen bringen"
+        },
+        {
+          "icon": "path",
+          "label": "Brauchen",
+          "value": "Ebenen und Backup-Spots"
+        },
+        {
+          "icon": "guests",
+          "label": "Ideal für",
+          "value": "Paare, die ruhigere Erwartungen wünschen"
+        }
+      ]
+    },
+    "philosophy": {
+      "eyebrow": "Eine erste Orientierung",
+      "title": "Schlechtes Wetter ist oft nur schlechtes Timing ohne Plan B.",
+      "copy": "Nebel kann wunderschön sein, Regen kann einen Ort stiller machen und Wolken können Licht viel weicher tragen. Wirklich problematisch wird Wetter meist erst dann, wenn es keinen Spielraum mehr gibt."
+    },
+    "sections": {
+      "seasonOrder": [
+        "reality",
+        "rain",
+        "timelines",
+        "bring",
+        "experience"
+      ],
+      "seasons": {
+        "reality": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Winter-Wedding-Jufenalm-450.jpg",
+          "imageAlt": "Platzhalterbild für die Realität des Bergwetters",
+          "eyebrow": "",
+          "title": "Bergwetter-Realität",
+          "intro": "Die Prognose ist nützlich, aber sie ist nie die ganze Geschichte.",
+          "copy": "In den Dolomiten können sich die Bedingungen zwischen Tal, Liftstation und Grat schnell ändern. Ein Wetterplan muss auf den Ort reagieren, nicht nur auf Zahlen auf einem Bildschirm.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "cloud",
+              "label": "Hauptschicht",
+              "value": "Wind, Wolken, Sicht"
+            },
+            {
+              "icon": "path",
+              "label": "Warum es wichtig ist",
+              "value": "Zugang und Stimmung ändern sich"
+            },
+            {
+              "icon": "calendar",
+              "label": "Beste Antwort",
+              "value": "Lasst Platz im Plan"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "rain": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Photo-2.jpg",
+          "imageAlt": "Platzhalterbild für Regen und Nebel in den Bergen",
+          "eyebrow": "",
+          "title": "Regen, Nebel, Wind und Stürme",
+          "intro": "Jedes Wetter verändert den emotionalen Ton anders.",
+          "copy": "Nebel schafft oft Intimität. Regen kann alles aufweichen. Wind sorgt für mehr Bewegung, kann aber auch dazu führen, dass sich exponierte Stellen schwieriger anfühlen. Das Sturmrisiko ist an Sommernachmittagen am größten, was ein Grund dafür ist, dass ein früher Start in den Bergen so gut funktioniert.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "cloud",
+              "label": "Nebel",
+              "value": "Oft tief atmosphärisch"
+            },
+            {
+              "icon": "wind",
+              "label": "Wind",
+              "value": "Am relevantesten auf Bergrücken"
+            },
+            {
+              "icon": "calendar",
+              "label": "Sturmgefahr",
+              "value": "Höher an Sommernachmittagen"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "timelines": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Instagram-27.jpg",
+          "imageAlt": "Platzhalterbild für flexible Zeitleisten",
+          "eyebrow": "",
+          "title": "Flexible Zeitpläne",
+          "intro": "Bergplanung funktioniert am besten, wenn sie atmet.",
+          "copy": "Wenn der Zeitplan zu starr ist, wird das Wetter sofort stressig. Lässt es Spielraum für einen früheren Start, eine verspätete Fahrt oder eine weichere Route, wird das Wetter zum Teil des Tagesrhythmus und nicht zu seinem Feind.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "calendar",
+              "label": "Beste Form",
+              "value": "Weich und flexibel"
+            },
+            {
+              "icon": "guests",
+              "label": "Nützliche Wahl",
+              "value": "Weniger feste Momente"
+            },
+            {
+              "icon": "wind",
+              "label": "Ergebnis",
+              "value": "Mehr Ruhe, wenn sich die Bedingungen ändern"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "bring": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Mountain-Elopement-17.jpg",
+          "imageAlt": "Platzhalterbild für Ebenen und mitzubringende Dinge",
+          "eyebrow": "",
+          "title": "Was Paare mitbringen sollten",
+          "intro": "Ein paar praktische Dinge verändern die gesamte Qualität des Erlebnisses.",
+          "copy": "Schichten, richtige Schuhe, etwas Warmes für Pausen und die Bereitschaft, sich dem Wetter anzupassen, sind wichtiger, als Paare oft erwarten. In den Bergen unterstützt Komfort die Präsenz.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "key",
+              "label": "Immer mitbringen",
+              "value": "Schichten und richtige Schuhe"
+            },
+            {
+              "icon": "wind",
+              "label": "Hilfreich",
+              "value": "Wärme für Pausen"
+            },
+            {
+              "icon": "guests",
+              "label": "Beste Denkweise",
+              "value": "Vorbereitet, aber weich"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "experience": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Lago-di-Braies-10.jpg",
+          "imageAlt": "Platzhalterbild für lokale Erfahrungen unter sich ändernden Bedingungen",
+          "eyebrow": "",
+          "title": "Warum lokale Erfahrung wichtig ist",
+          "intro": "Oft ist es wichtiger, einen Ort bei wechselndem Wetter zu kennen, als ihn bei perfektem Licht zu kennen.",
+          "copy": "Im Nebel kann sich ein Ort völlig anders anfühlen als in der Sonne. Die Erfahrung vor Ort hilft, weil sie weiß, welche Orte noch Schönheit, Zugänglichkeit und Ruhe bieten, wenn die Wettervorhersage nicht mehr ideal aussieht.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "path",
+              "label": "Am wertvollsten",
+              "value": "Wissen, wie sich Orte im Wandel verhalten"
+            },
+            {
+              "icon": "key",
+              "label": "Warum",
+              "value": "Backups fühlen sich beabsichtigt an"
+            },
+            {
+              "icon": "guests",
+              "label": "Ergebnis",
+              "value": "Mehr Vertrauen, weniger Panik"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        }
+      }
+    },
+    "planning": {
+      "eyebrow": "Planungsnotizen",
+      "title": "Was normalerweise am meisten hilft, wenn das Wetter eine Rolle spielt.",
+      "intro": "Ein besserer Wetterplan bedeutet fast nie mehr Kontrolle. Es sind bessere Erwartungen, stärkere Alternativen und ein ruhigeres Tempo.",
+      "items": [
+        {
+          "label": "Vorhersage",
+          "title": "Verwendet es als Orientierung, nicht als Urteil.",
+          "copy": "Bergprognosen sind hilfreich, aber sie sind nur ein Teil der realen Bedingungen, die ihr an diesem Tag spüren werdet.",
+          "meta": "Nützlich, aber niemals absolut."
+        },
+        {
+          "label": "Backups",
+          "title": "Wählt sie frühzeitig aus und lieben ihr sie ehrlich.",
+          "copy": "Ein Backup funktioniert nur, wenn es sich bereits wie eine sinnvolle Entscheidung anfühlt.",
+          "meta": "Emotionen sind immer noch wichtig."
+        },
+        {
+          "label": "Timing",
+          "title": "Früher bedeutet oft ruhiger.",
+          "copy": "Viele Bedenken hinsichtlich des Sommerwetters werden dadurch gemildert, dass man einfach früher beginnt.",
+          "meta": "Der Morgen bietet Optionen."
+        },
+        {
+          "label": "Vertrauen",
+          "title": "Ein wetterbedingter Tag kann unvergesslicher sein als ein perfekter.",
+          "copy": "Nebel, Wind und sich bewegende Wolken erzeugen oft die filmischste emotionale Textur von allen.",
+          "meta": "Das Wetter kann die Geschichte vertiefen."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Fragen, die Paare oft zum Bergwetter stellen.",
+      "intro": "Wetterfragen klingen in der Planung oft technisch. In Wahrheit geht es fast immer um ein Gefühl: Wie bleiben wir ruhig, wenn sich der Tag verändert?",
+      "items": [
+        {
+          "q": "Was ist, wenn es am Hochzeitstag regnet?",
+          "a": "Dann ist nicht automatisch etwas verloren. Regen kann Wege erschweren, aber er kann einen Tag auch stiller und konzentrierter machen. Wichtig ist, dass es einen echten Plan B gibt und der Ablauf nicht an nur einem offenen Ort hängt."
+        },
+        {
+          "q": "Ist Nebel schlecht für Fotos?",
+          "a": "Ganz im Gegenteil. Nebel kann Tiefe, Nähe und eine sehr besondere Stimmung erzeugen. Er nimmt Weite weg, schenkt dafür aber oft mehr Intimität."
+        },
+        {
+          "q": "Sollten wir einen Backup-Zeitplan erstellen?",
+          "a": "Ja, unbedingt. Nicht als Zeichen von Unsicherheit, sondern damit ihr bei Wetterwechseln nicht in Hektik geratet. Ein zweites Zeitfenster oder ein alternativer Ort kann enorm viel Ruhe bringen."
+        },
+        {
+          "q": "Brauchen wir spezielle Kleidung für das Bergwetter?",
+          "a": "Meist ja. Schichten, warmere Jacken, gute Schuhe und trockene Extras klingen unspektakulär, machen aber oft den Unterschied zwischen Zähne zusammenbeißen und wirklicher Präsenz."
+        }
+      ]
+    },
+    "related": {
+      "eyebrow": "Verwandte Leitfäden",
+      "hint": "Wischt nach links oder rechts, um weitere Guides zu sehen.",
+      "items": [
+        {
+          "label": "Dolomiten",
+          "title": "Elopement-Guide für die Dolomiten",
+          "copy": "Ein ruhiger Ausgangspunkt für Paare, die ein Dolomites Elopement oder eine intime Berghochzeit planen und verstehen möchten, wie Licht, Wege, Wetter und Menschenmengen den Tag wirklich prägen.",
+          "href": "/guides/dolomites-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-120.jpg",
+          "imageAlt": "Paar bei einem Dolomiten-Elopement im weichen Morgenlicht",
+          "alt": "Paar bei einem Dolomiten-Elopement im weichen Morgenlicht"
+        },
+        {
+          "label": "Standorte",
+          "title": "Die beliebtesten Elopement-Orte in den Dolomiten",
+          "copy": "Ein kuratierter Guide für Paare, die nicht einfach irgendeine schöne Aussicht suchen, sondern den Ort, dessen Stimmung wirklich zu ihrem Tag passt.",
+          "href": "/guides/best-dolomites-elopement-locations/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-191.jpg",
+          "imageAlt": "Elopement-Standorte in den Dolomiten",
+          "alt": "Elopement-Standorte in den Dolomiten"
+        },
+        {
+          "label": "Standorte",
+          "title": "Lago di Braies Guide",
+          "copy": "Ein ehrlicher Guide für Paare, die den Pragser Wildsee nicht nur als berühmtes Bild kennen, sondern verstehen möchten, wann er still, weich und tatsächlich erlebbar wird.",
+          "href": "/guides/lago-di-braies-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopemnt-Dolomites-Lago-di-Braies-19.jpg",
+          "imageAlt": "Lago di Braies mit ruhigem Wasser und frühem Licht",
+          "alt": "Lago di Braies mit ruhigem Wasser und frühem Licht"
+        },
+        {
+          "label": "Standorte",
+          "title": "Seceda Guide",
+          "copy": "Ein Guide für Paare, die an Seceda nicht nur die berühmte Kante suchen, sondern das Gefühl von Weite, Wind und offenem Berglicht, das diesen Ort so unverwechselbar macht.",
+          "href": "/guides/seceda-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Seceda-180.jpg",
+          "imageAlt": "Seceda bei klarem Berglicht",
+          "alt": "Seceda bei klarem Berglicht"
+        },
+        {
+          "label": "Standorte",
+          "title": "Cadini di Misurina Guide",
+          "copy": "Ein Guide für Paare, die an Cadini diese wilde, kinoreife Spannung lieben und zugleich wissen möchten, wann der Ort zugänglich, sicher und wirklich stimmig ist.",
+          "href": "/guides/cadini-di-misurina-guide/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-12.jpg",
+          "imageAlt": "Cadini di Misurina mit markanten Felsformen",
+          "alt": "Cadini di Misurina mit markanten Felsformen"
+        },
+        {
+          "label": "Standorte",
+          "title": "Drei Zinnen Guide",
+          "copy": "Ein ehrlicher Guide für Paare, die Drei Zinnen nicht nur wegen des berühmten Blicks wählen, sondern wegen dieser monumentalen, fast unwirklichen Präsenz, die der Ort im richtigen Moment entfaltet.",
+          "href": "/guides/tre-cime-wedding-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14.jpg",
+          "imageAlt": "Drei Zinnen bei klarem Berglicht",
+          "alt": "Drei Zinnen bei klarem Berglicht"
+        },
+        {
+          "label": "Planung",
+          "title": "Beste Jahreszeit für ein Dolomiten-Elopement",
+          "copy": "Ein ehrlicher Guide zu Licht, Temperaturen, Menschenmengen und der Frage, wann sich die Berge nicht nur schön, sondern wirklich stimmig für euch anfühlen.",
+          "href": "/guides/best-time-for-a-dolomites-elopement/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-16.jpg",
+          "imageAlt": "Vorhandenes Bild zur schönsten Zeit in den Dolomiten",
+          "alt": "Vorhandenes Bild zur schönsten Zeit in den Dolomiten"
+        },
+        {
+          "label": "Planung",
+          "title": "Sonnenaufgang vs. Sonnenuntergang in den Dolomiten",
+          "copy": "Ein ehrlicher Vergleich für Paare, die nicht nur schönes Licht suchen, sondern verstehen möchten, welche Tageszeit zu ihrem Energielevel, ihrem Ort und dem gewünschten Gefühl passt.",
+          "href": "/guides/sunrise-vs-sunset-dolomites/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Photo-368.jpg",
+          "imageAlt": "Lichtstimmung in den Bergen bei Sonnenaufgang oder Sonnenuntergang",
+          "alt": "Lichtstimmung in den Bergen bei Sonnenaufgang oder Sonnenuntergang"
+        },
+        {
+          "label": "Planung",
+          "title": "Was man in den Bergen anziehen sollte",
+          "copy": "Ein praktischer Guide für Paare, die in den Bergen nicht nur schön aussehen, sondern sich auch frei bewegen, warm bleiben und sich in ihrer Kleidung wirklich wiederfinden möchten.",
+          "href": "/guides/what-to-wear-in-the-mountains/",
+          "image": "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Hut-13.jpg",
+          "imageAlt": "Kleidung für ein Elopement in den Bergen",
+          "alt": "Kleidung für ein Elopement in den Bergen"
+        },
+        {
+          "label": "Planung",
+          "title": "Helikopter-Elopement-Guide",
+          "copy": "Ein Guide für Paare, die Weite, Abgeschiedenheit und einen klareren Tagesfluss suchen und verstehen möchten, wann ein Helikopter in den Bergen wirklich sinnvoll ist.",
+          "href": "/guides/helicopter-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-12.jpg",
+          "imageAlt": "Helikopterflug über den Bergen für ein Elopement",
+          "alt": "Helikopterflug über den Bergen für ein Elopement"
+        },
+        {
+          "label": "Planung",
+          "title": "Mehrtägiger Elopement-Guide",
+          "copy": "Ein Guide für Paare, die mehr wollen als ein paar schnelle Stunden in den Bergen und ihren Hochzeitstag lieber in Ruhe entfalten lassen möchten.",
+          "href": "/guides/multi-day-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Insta-11.jpg",
+          "imageAlt": "Mehrtägiges Elopement in den Dolomiten",
+          "alt": "Mehrtägiges Elopement in den Dolomiten"
+        }
+      ]
+    },
+    "final": {
+      "eyebrow": "Ruhig geplant",
+      "title": "Lasst uns etwas gestalten, das sich ruhig, persönlich und zutiefst wahr anfühlt.",
+      "copy": "Wenn sich dieser Guide bereits nah an dem anfühlt, was ihr euch wünscht, helfe ich euch gern dabei, dieses Gefühl in etwas Ruhiges, Filmisches und wirklich Eigenes in den Bergen zu verwandeln.",
+      "cta": "Termin anfragen",
+      "image": "/assets/uploads/Blitzkneisser-Photo-Drei-Zinnen-Italy-24.jpg",
+      "imageAlt": "Drei Zinnen in den Dolomiten bei ruhigem, klarem Licht"
+    }
+  },
+  "en": {
+    "slug": "weather-and-backup-planning",
+    "title": "Weather & Backup Planning Guide | Mountain Conditions with Calm",
+    "description": "A guide to weather and backup planning for Dolomites elopements, with honest notes on fog, rain, wind, backup options and flexible timing.",
+    "hero": {
+      "eyebrow": "Planning Guide",
+      "title": "Weather & Backup Planning Guide",
+      "copy": "A calm weather guide for couples who do not want to hope for perfect conditions in the mountains, but want to build a day that still feels right in fog, wind or rain.",
+      "cta": "Start planning",
+      "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-161.jpg",
+      "imageAlt": "Weather in the Dolomites with clouds and fog"
+    },
+    "utility": {
+      "reading": "Guide",
+      "focus": "For weather-led planning in the Dolomites and Tyrol",
+      "navOverview": "Overview",
+      "navSeasons": "Weather Notes",
+      "navPhilosophy": "Intro",
+      "navVisual": "More guides",
+      "navFaq": "FAQ"
+    },
+    "overview": {
+      "eyebrow": "Guide Overview",
+      "copy": "Mountain weather is rarely stable, and that does not have to be a problem. It usually becomes one only when the whole day depends on one location or one very specific weather picture.",
+      "items": [
+        {
+          "icon": "cloud",
+          "label": "Main Reality",
+          "value": "Weather changes fast"
+        },
+        {
+          "icon": "calendar",
+          "label": "Best Strategy",
+          "value": "Flexible timing"
+        },
+        {
+          "icon": "crowd",
+          "label": "Crowd Effect",
+          "value": "Bad forecasts can quiet famous places"
+        },
+        {
+          "icon": "path",
+          "label": "Need",
+          "value": "Layers and backup spots"
+        },
+        {
+          "icon": "guests",
+          "label": "Best For",
+          "value": "Couples wanting calmer expectations"
+        }
+      ]
+    },
+    "philosophy": {
+      "eyebrow": "A first note",
+      "title": "Bad weather is often just bad timing without a backup plan.",
+      "copy": "Fog can be beautiful, rain can make a place quieter and cloud can soften the light dramatically. Weather usually becomes stressful only when there is no room left to move."
+    },
+    "sections": {
+      "seasonOrder": [
+        "reality",
+        "rain",
+        "timelines",
+        "bring",
+        "experience"
+      ],
+      "seasons": {
+        "reality": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Winter-Wedding-Jufenalm-450.jpg",
+          "imageAlt": "Placeholder image for mountain weather reality",
+          "eyebrow": "",
+          "title": "Mountain weather reality",
+          "intro": "The forecast is useful, but it is never the whole story.",
+          "copy": "In the Dolomites, conditions can change quickly between valley, lift station and ridge. A weather plan needs to respond to place, not only to numbers on a screen.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "cloud",
+              "label": "Main Shift",
+              "value": "Wind, cloud, visibility"
+            },
+            {
+              "icon": "path",
+              "label": "Why It Matters",
+              "value": "Access and mood both change"
+            },
+            {
+              "icon": "calendar",
+              "label": "Best Response",
+              "value": "Leave room in the plan"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "rain": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Photo-2.jpg",
+          "imageAlt": "Placeholder image for rain and fog in the mountains",
+          "eyebrow": "",
+          "title": "Rain, fog, wind and storms",
+          "intro": "Each kind of weather changes the emotional tone differently.",
+          "copy": "Fog often creates intimacy. Rain can soften everything. Wind adds movement, but can also make exposed places feel harder. Storm risk matters most in summer afternoons, which is one reason early starts work so well in the mountains.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "cloud",
+              "label": "Fog",
+              "value": "Often deeply atmospheric"
+            },
+            {
+              "icon": "wind",
+              "label": "Wind",
+              "value": "Most relevant on ridges"
+            },
+            {
+              "icon": "calendar",
+              "label": "Storm Risk",
+              "value": "Higher in summer afternoons"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "timelines": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Instagram-27.jpg",
+          "imageAlt": "Placeholder image for flexible timelines",
+          "eyebrow": "",
+          "title": "Flexible timelines",
+          "intro": "Mountain planning works best when it breathes.",
+          "copy": "If the timeline is too rigid, weather immediately becomes stressful. If it leaves room for an earlier start, a delayed drive or a softer route, weather becomes part of the day's rhythm instead of its enemy.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "calendar",
+              "label": "Best Shape",
+              "value": "Soft and flexible"
+            },
+            {
+              "icon": "guests",
+              "label": "Useful Choice",
+              "value": "Fewer fixed moments"
+            },
+            {
+              "icon": "wind",
+              "label": "Result",
+              "value": "More calm when conditions shift"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "bring": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Mountain-Elopement-17.jpg",
+          "imageAlt": "Placeholder image for layers and things to bring",
+          "eyebrow": "",
+          "title": "What couples should bring",
+          "intro": "A few practical things change the whole quality of the experience.",
+          "copy": "Layers, proper shoes, something warm for pauses and a willingness to move with the weather all matter more than couples often expect. In the mountains, comfort supports presence.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "key",
+              "label": "Always Bring",
+              "value": "Layers and proper shoes"
+            },
+            {
+              "icon": "wind",
+              "label": "Helpful",
+              "value": "Warmth for pauses"
+            },
+            {
+              "icon": "guests",
+              "label": "Best Mindset",
+              "value": "Prepared but soft"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "experience": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Lago-di-Braies-10.jpg",
+          "imageAlt": "Placeholder image for local experience in changing conditions",
+          "eyebrow": "",
+          "title": "Why local experience matters",
+          "intro": "Knowing a place in changing weather often matters more than knowing it in perfect light.",
+          "copy": "A location can feel completely different in fog than in sun. Local experience helps because it knows which places still hold beauty, access and calm once the forecast stops looking ideal.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "path",
+              "label": "Most Valuable",
+              "value": "Knowing how places behave in change"
+            },
+            {
+              "icon": "key",
+              "label": "Why",
+              "value": "Backups feel intentional"
+            },
+            {
+              "icon": "guests",
+              "label": "Result",
+              "value": "More trust, less panic"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        }
+      }
+    },
+    "planning": {
+      "eyebrow": "Planning Notes",
+      "title": "What usually helps most when weather is part of the story.",
+      "intro": "A better weather plan is almost never more control. It is better expectations, stronger alternatives and a calmer pace.",
+      "items": [
+        {
+          "label": "Forecast",
+          "title": "Use it as guidance, not a verdict.",
+          "copy": "Mountain forecasts help, but they are only one layer of the real conditions you will feel on the day.",
+          "meta": "Useful, but never absolute."
+        },
+        {
+          "label": "Backups",
+          "title": "Choose them early and love them honestly.",
+          "copy": "A backup works only if it already feels like a meaningful choice.",
+          "meta": "Emotion still matters."
+        },
+        {
+          "label": "Timing",
+          "title": "Earlier often means calmer.",
+          "copy": "Many summer weather concerns are softened by simply starting earlier.",
+          "meta": "Morning gives options."
+        },
+        {
+          "label": "Trust",
+          "title": "A weather-shaped day can be more memorable than a perfect one.",
+          "copy": "Fog, wind and moving cloud often create the most cinematic emotional texture of all.",
+          "meta": "Weather can deepen the story."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Questions couples often ask about mountain weather.",
+      "intro": "Weather questions may sound technical during planning, but they are usually emotional at heart: how do we stay calm when the day changes?",
+      "items": [
+        {
+          "q": "What if it rains on the wedding day?",
+          "a": "That does not automatically mean something is lost. Rain can make access harder, but it can also make a day feel quieter and more focused. What matters is having a real backup and not depending on one exposed plan."
+        },
+        {
+          "q": "Is fog bad for photos?",
+          "a": "Quite the opposite. Fog can create depth, closeness and a very particular kind of atmosphere. You may lose some long views, but often gain intimacy."
+        },
+        {
+          "q": "Should we create a backup timeline?",
+          "a": "Yes, absolutely. Not as a sign of doubt, but so that a weather shift does not push the day into panic. A second time window or a backup place often creates enormous calm."
+        },
+        {
+          "q": "Do we need special clothing for mountain weather?",
+          "a": "Usually yes. Layers, warmer jackets, good shoes and dry extras may sound unglamorous, but they often make the difference between enduring the day and truly being present in it."
+        }
+      ]
+    },
+    "related": {
+      "eyebrow": "Related Guides",
+      "hint": "Swipe left or right to explore more guides.",
+      "items": [
+        {
+          "label": "Dolomites",
+          "title": "Dolomites Elopement Guide",
+          "copy": "A calm starting point for couples planning a Dolomites Elopement or intimate mountain wedding and wanting to understand how light, access, weather and crowds truly shape the day.",
+          "href": "/guides/dolomites-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-120.jpg",
+          "imageAlt": "Couple during a Dolomites elopement in soft morning light",
+          "alt": "Couple during a Dolomites elopement in soft morning light"
+        },
+        {
+          "label": "Locations",
+          "title": "The most popular elopement locations in the Dolomites",
+          "copy": "A curated guide for couples who are not looking for just any beautiful view, but for the place whose atmosphere truly fits the day they want.",
+          "href": "/guides/best-dolomites-elopement-locations/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-191.jpg",
+          "imageAlt": "Elopement locations in the Dolomites",
+          "alt": "Elopement locations in the Dolomites"
+        },
+        {
+          "label": "Locations",
+          "title": "Lago di Braies Guide",
+          "copy": "An honest guide for couples who know Lago di Braies as more than a famous photograph and want to understand when it feels soft, quiet and truly worth experiencing.",
+          "href": "/guides/lago-di-braies-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopemnt-Dolomites-Lago-di-Braies-19.jpg",
+          "imageAlt": "Lago di Braies with still water and early light",
+          "alt": "Lago di Braies with still water and early light"
+        },
+        {
+          "label": "Locations",
+          "title": "Seceda Guide",
+          "copy": "A guide for couples drawn to Seceda not only for the famous ridge, but for the feeling of openness, wind and high alpine light that makes it so distinctive.",
+          "href": "/guides/seceda-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Seceda-180.jpg",
+          "imageAlt": "Seceda in clear mountain light",
+          "alt": "Seceda in clear mountain light"
+        },
+        {
+          "label": "Locations",
+          "title": "Cadini di Misurina Guide",
+          "copy": "A guide for couples who love the wild, cinematic tension of Cadini and want to know when it is accessible, safe and genuinely worth choosing.",
+          "href": "/guides/cadini-di-misurina-guide/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-12.jpg",
+          "imageAlt": "Cadini di Misurina with dramatic rock formations",
+          "alt": "Cadini di Misurina with dramatic rock formations"
+        },
+        {
+          "label": "Locations",
+          "title": "Tre Cime Wedding Guide",
+          "copy": "An honest guide for couples choosing Tre Cime not only for the famous view, but for the monumental, almost unreal presence the place carries when the timing is right.",
+          "href": "/guides/tre-cime-wedding-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14.jpg",
+          "imageAlt": "Tre Cime in clear mountain light",
+          "alt": "Tre Cime in clear mountain light"
+        },
+        {
+          "label": "Planning",
+          "title": "Best Time for a Dolomites Elopement",
+          "copy": "An honest guide to light, temperatures, crowds and the question of when the mountains will not only look beautiful, but genuinely feel right for you.",
+          "href": "/guides/best-time-for-a-dolomites-elopement/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-16.jpg",
+          "imageAlt": "Existing image for best time in the Dolomites",
+          "alt": "Existing image for best time in the Dolomites"
+        },
+        {
+          "label": "Planning",
+          "title": "Sunrise vs Sunset in the Dolomites",
+          "copy": "An honest comparison for couples who want more than beautiful light and are trying to understand which time of day fits their energy, their location and the feeling they want to remember.",
+          "href": "/guides/sunrise-vs-sunset-dolomites/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Photo-368.jpg",
+          "imageAlt": "Mountain light at sunrise or sunset",
+          "alt": "Mountain light at sunrise or sunset"
+        },
+        {
+          "label": "Planning",
+          "title": "What to Wear in the Mountains",
+          "copy": "A practical guide for couples who want to look beautiful in the mountains, but also move freely, stay warm and still feel like themselves in what they wear.",
+          "href": "/guides/what-to-wear-in-the-mountains/",
+          "image": "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Hut-13.jpg",
+          "imageAlt": "Outfit ideas for a mountain elopement",
+          "alt": "Outfit ideas for a mountain elopement"
+        },
+        {
+          "label": "Planning",
+          "title": "Helicopter Elopement Guide",
+          "copy": "A guide for couples seeking more space, privacy and a clearer flow to the day, and wanting to understand when a helicopter in the mountains genuinely makes sense.",
+          "href": "/guides/helicopter-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-12.jpg",
+          "imageAlt": "Helicopter flight above the mountains for an elopement",
+          "alt": "Helicopter flight above the mountains for an elopement"
+        },
+        {
+          "label": "Planning",
+          "title": "Multi-Day Elopement Guide",
+          "copy": "A guide for couples who want more than a few rushed hours in the mountains and would rather let the day unfold with space around it.",
+          "href": "/guides/multi-day-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Insta-11.jpg",
+          "imageAlt": "Multi-day elopement in the Dolomites",
+          "alt": "Multi-day elopement in the Dolomites"
+        }
+      ]
+    },
+    "final": {
+      "eyebrow": "Planned with intention",
+      "title": "Let’s shape something that feels quiet, personal and deeply true to you.",
+      "copy": "If this guide already feels close to the way you want the day to move, I would love to help you turn that feeling into something calm, cinematic and genuinely your own in the mountains.",
+      "cta": "Inquire now",
+      "image": "/assets/uploads/Blitzkneisser-Photo-Drei-Zinnen-Italy-24.jpg",
+      "imageAlt": "Tre Cime in the Dolomites in calm, clear light"
+    }
+  }
+}

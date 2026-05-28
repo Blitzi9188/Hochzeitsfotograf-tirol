@@ -1,0 +1,674 @@
+{
+  "de": {
+    "slug": "tre-cime-wedding-guide",
+    "title": "Drei Zinnen Guide | Timing, Zugang und ikonische Bergkulisse",
+    "description": "Guide zu Drei Zinnen für Hochzeiten und Elopements mit ehrlichen Hinweisen zu Timing, Zugang, Wind, Straße, Menschenmengen und der monumentalen Wirkung des Ortes.",
+    "hero": {
+      "eyebrow": "Standort-Guide",
+      "title": "Drei Zinnen Guide",
+      "copy": "Ein ehrlicher Guide für Paare, die Drei Zinnen nicht nur wegen des berühmten Blicks wählen, sondern wegen dieser monumentalen, fast unwirklichen Präsenz, die der Ort im richtigen Moment entfaltet.",
+      "cta": "Planung starten",
+      "image": "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14.jpg",
+      "imageAlt": "Drei Zinnen Cadini di Misurina"
+    },
+    "utility": {
+      "reading": "Guide",
+      "focus": "Für ikonische Gipfel und klassische Dolomiten-Skala",
+      "navOverview": "Guide-Fakten",
+      "navSeasons": "Standorthinweise",
+      "navPhilosophy": "Einführung",
+      "navVisual": "Weitere Guides",
+      "navFaq": "FAQ"
+    },
+    "overview": {
+      "eyebrow": "Guide-Fakten",
+      "copy": "Die drei Zinnen sind monumental, unverkennbar und für viele Paare eine der stärksten Kulissen in den Dolomiten. Gerade deshalb braucht der Ort einen klaren Blick auf Timing, Mautstraße, Parken, Wind und die Wirklichkeit hinter den ikonischen Bildern.",
+      "items": [
+        {
+          "icon": "calendar",
+          "label": "Beste Zeit",
+          "value": "Sommer bis Frühherbst"
+        },
+        {
+          "icon": "sunrise",
+          "label": "Bestes Licht",
+          "value": "Sonnenaufgang"
+        },
+        {
+          "icon": "crowd",
+          "label": "Crowd Level",
+          "value": "Hoch an wichtigen Aussichtspunkten"
+        },
+        {
+          "icon": "path",
+          "label": "Zugang",
+          "value": "Straße plus Gehen"
+        },
+        {
+          "icon": "guests",
+          "label": "Ideal für",
+          "value": "Klassisches, dramatisches Dolomiten-Feeling"
+        }
+      ]
+    },
+    "philosophy": {
+      "eyebrow": "Eine erste Anmerkung",
+      "title": "Drei Zinnen wirkt nicht subtil. Es wirkt groß, klar und sofort.",
+      "copy": "Genau darin liegt die Kraft dieses Ortes. Wenn der Morgen still ist und die ersten Schatten über den Schuttfeldern liegen, fühlen sich die Drei Zinnen fast überirdisch an. Später zeigt der Ort schneller seine Bekanntheit."
+    },
+    "sections": {
+      "seasonOrder": [
+        "special",
+        "time",
+        "access",
+        "weather"
+      ],
+      "seasons": {
+        "special": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Prags-Zinnen-283.jpg",
+          "imageAlt": "Drei Zinnen Jubeldes Brautpaar",
+          "eyebrow": "",
+          "title": "Warum Drei Zinnen eine Ikone bleibt",
+          "intro": "Hier geht es weniger um Feinheit als um Wucht und Wiedererkennung.",
+          "copy": "Drei Zinnen trägt eine Größe in sich, die man nicht erklären muss. Die Form der Felsen, die offenen Flächen davor und die klare Silhouette machen den Ort so markant. Für manche Paare ist genau diese Unmittelbarkeit die eigentliche Antwort.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "wind",
+              "label": "Stimmung",
+              "value": "Ikonisch und expansiv"
+            },
+            {
+              "icon": "guests",
+              "label": "Ideal für",
+              "value": "Klassisches Berggefühl"
+            },
+            {
+              "icon": "sun",
+              "label": "Visuelle Stärke",
+              "value": "Erkennbare Gipfel und offener Himmel"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "time": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-224.jpg",
+          "imageAlt": "Sonnenaufgang nahe Drei Zinnen",
+          "eyebrow": "",
+          "title": "Beste Zeit",
+          "intro": "Die beste Zeit ist früh, bevor Straßen und Aussichtspunkte den Rhythmus bestimmen.",
+          "copy": "Am frühen Morgen wirken die drei Zinnen stiller, klarer und oft kühler. Später nehmen Autos, Wanderer und härteres Licht dem Ort etwas von seiner Größe. Wenn ihr die Zinnen als stillen Hintergrund erleben wollt, ist der Tagesanfang fast immer die stärkere Wahl.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "sunrise",
+              "label": "Am besten",
+              "value": "Sonnenaufgang"
+            },
+            {
+              "icon": "crowd",
+              "label": "Vermeiden",
+              "value": "Belebte Tagesfenster"
+            },
+            {
+              "icon": "sun",
+              "label": "Beste Stimmung",
+              "value": "Offen und ruhig"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "access": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Proposel-INSTA-4.jpg",
+          "imageAlt": "Straßenzugang und Fußgänger",
+          "eyebrow": "",
+          "title": "Zugang",
+          "intro": "Drei Zinnen ist erreichbar, aber nicht beiläufig.",
+          "copy": "Durch die Mautstraße wirkt der Ort zunächst unkompliziert. In der Praxis entscheiden jedoch Parksystem, Einfahrtszeiten, Saisonfenster und die letzten Gehstücke darüber, wie entspannt der Tag wirklich beginnt. Wer früh plant, erlebt deutlich mehr Ruhe. Die Straße ist je nach Witterungsbedingungen erst ab Mitte Mai befahrbar. ",
+          "points": [],
+          "facts": [
+            {
+              "icon": "path",
+              "label": "Hauptzugang",
+              "value": "Straße mit Gehabschnitten"
+            },
+            {
+              "icon": "key",
+              "label": "Überprüfen",
+              "value": "Straßen- und Parksysteme"
+            },
+            {
+              "icon": "guests",
+              "label": "Ideal für",
+              "value": "Paare fühlen sich mit etwas Bewegung wohl"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "weather": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-321.jpg",
+          "imageAlt": "Wetter bei den Drei Zinnen",
+          "eyebrow": "",
+          "title": "Wetternotizen",
+          "intro": "Wind und schnelle Wetterwechsel zeigen sich hier ohne viel Vorwarnung.",
+          "copy": "Die Drei Zinnen können am selben Morgen weit und klar wirken und kurze Zeit später kalt, grau und von dichtem Nebel eingehüllt werden. Gerade wegen der offenen Flächen fühlt sich das Wetter hier direkter an als an anderen Orten ind den Dolomiten.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "cloud",
+              "label": "Beste Stimmung",
+              "value": "Klar oder leicht getrübt"
+            },
+            {
+              "icon": "wind",
+              "label": "Hauptfaktoren",
+              "value": "Sicht und Wind"
+            },
+            {
+              "icon": "calendar",
+              "label": "Planen",
+              "value": "Lasst Platz für das beste Licht"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        }
+      }
+    },
+    "planning": {
+      "eyebrow": "Planungshinweise",
+      "title": "Was bei den drei Zinnen wirklich über die Stimmung entscheidet.",
+      "intro": "Hier entscheidet selten der Weg über das Erlebnis, sondern vielmehr die Tageszeit und wie viel Ruhe der Ort gerade zulässt.",
+      "items": [
+        {
+          "label": "Timing",
+          "title": "Frühe Stunden machen aus einem berühmten Ort wieder einen stilleren Raum.",
+          "copy": "Der gleiche Blick kann um sechs Uhr fast meditativ wirken und um zehn schon deutlich Touristischer.",
+          "meta": "Monumentalität braucht Leere."
+        },
+        {
+          "label": "Zugang",
+          "title": "Straße, Parken und Mautfenster sind Teil der Bildsprache.",
+          "copy": "Wenn der Morgen mit Warten beginnt, verändert das auch eure Präsenz vor Ort.",
+          "meta": "Organisation schützt Stimmung."
+        },
+        {
+          "label": "Wetter",
+          "title": "Nehmt Wind und Temperatur ernst, auch an klaren Tagen.",
+          "copy": "Die offene Lage fühlt sich oft kälter an, als Bilder vermuten lassen.",
+          "meta": "Die Zinnen sind weit, nicht mild."
+        },
+        {
+          "label": "Ort",
+          "title": "Drei Zinnen passt besonders gut zu Paaren, die Größe wirklich suchen.",
+          "copy": "Nicht jeder Tag braucht diese Wucht. Wenn ihr sie wollt, gibt der Ort sehr viel zurück.",
+          "meta": "Ikonisch ist nur dann richtig, wenn es sich auch nach euch anfühlt."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Fragen, die Paare oft zu Drei Zinnen stellen.",
+      "intro": "Drei Zinnen wirkt auf Bildern klar und direkt. In der Planung tauchen dann meist Fragen zu Timing, Straße, Wind und der tatsächlichen Größe des Ortes auf.",
+      "items": [
+        {
+          "q": "Lohnt sich Drei Zinnen für einen Hochzeitstag?",
+          "a": "Ja, wenn ihr bewusst eine monumentale, ikonische Bergkulisse sucht. Der Ort gibt sehr viel zurück, braucht aber Timing und eine gewisse Ruhe im Ablauf, damit diese Größe nicht im Tagesbetrieb verloren geht."
+        },
+        {
+          "q": "Ist der Sonnenaufgang hier wichtig?",
+          "a": "Meist ja. Früh am Morgen wirken die Zinnen stiller, weiter und weniger öffentlich. Später prägen Straße, Parken und Besucher den Ort deutlich stärker."
+        },
+        {
+          "q": "Funktioniert das mit Gästen?",
+          "a": "Mit kleiner Gruppe und realistischer Planung oft schon. Entscheidend sind weniger die Kilometer als Parklogik, Gehstücke, Temperaturen und wie früh ihr gemeinsam starten möchtet."
+        },
+        {
+          "q": "Ist das Wetter hier wichtiger als an einem See?",
+          "a": "Oft ja. Drei Zinnen liegt offener, windiger und direkter im Gelände. Wetterwechsel fühlen sich dort schneller körperlich an als an einem geschützteren Ort."
+        }
+      ]
+    },
+    "related": {
+      "eyebrow": "Verwandte Leitfäden",
+      "hint": "Wischt nach links oder rechts, um weitere Anleitungen zu entdecken.",
+      "items": [
+        {
+          "label": "Dolomiten",
+          "title": "Elopement-Guide für die Dolomiten",
+          "copy": "Ein ruhiger Ausgangspunkt für Paare, die ein Dolomites Elopement oder eine intime Berghochzeit planen und verstehen möchten, wie Licht, Wege, Wetter und Menschenmengen den Tag wirklich prägen.",
+          "href": "/guides/dolomites-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-120.jpg"
+        },
+        {
+          "label": "Standorte",
+          "title": "Die beliebtesten Elopement-Orte in den Dolomiten",
+          "copy": "Ein kuratierter Guide für Paare, die nicht einfach irgendeine schöne Aussicht suchen, sondern den Ort, dessen Stimmung wirklich zu ihrem Tag passt.",
+          "href": "/guides/best-dolomites-elopement-locations/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-191.jpg"
+        },
+        {
+          "label": "Standorte",
+          "title": "Lago di Braies Guide",
+          "copy": "Ein ehrlicher Guide für Paare, die den Pragser Wildsee nicht nur als berühmtes Bild kennen, sondern verstehen möchten, wann er still, weich und tatsächlich erlebbar wird.",
+          "href": "/guides/lago-di-braies-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopemnt-Dolomites-Lago-di-Braies-19.jpg"
+        },
+        {
+          "label": "Standorte",
+          "title": "Seceda Guide",
+          "copy": "Ein Guide für Paare, die an Seceda nicht nur die berühmte Kante suchen, sondern das Gefühl von Weite, Wind und offenem Berglicht, das diesen Ort so unverwechselbar macht.",
+          "href": "/guides/seceda-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Seceda-180.jpg"
+        },
+        {
+          "label": "Standorte",
+          "title": "Cadini di Misurina Guide",
+          "copy": "Ein Guide für Paare, die an Cadini diese wilde, kinoreife Spannung lieben und zugleich wissen möchten, wann der Ort zugänglich, sicher und wirklich stimmig ist.",
+          "href": "/guides/cadini-di-misurina-guide/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-12.jpg"
+        },
+        {
+          "label": "Planung",
+          "title": "Beste Jahreszeit für ein Dolomiten-Elopement",
+          "copy": "Ein ehrlicher Guide zu Licht, Temperaturen, Menschenmengen und der Frage, wann sich die Berge nicht nur schön, sondern wirklich stimmig für euch anfühlen.",
+          "href": "/guides/best-time-for-a-dolomites-elopement/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-16.jpg"
+        },
+        {
+          "label": "Planung",
+          "title": "Sonnenaufgang vs. Sonnenuntergang in den Dolomiten",
+          "copy": "Ein ehrlicher Vergleich für Paare, die nicht nur schönes Licht suchen, sondern verstehen möchten, welche Tageszeit zu ihrem Energielevel, ihrem Ort und dem gewünschten Gefühl passt.",
+          "href": "/guides/sunrise-vs-sunset-dolomites/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Photo-368.jpg"
+        },
+        {
+          "label": "Planung",
+          "title": "Guide zur Wetter- und Backup-Planung",
+          "copy": "Ein ruhiger Wetter-Guide für Paare, die in den Bergen nicht auf perfekte Bedingungen hoffen, sondern einen Tag planen möchten, der auch bei Nebel, Wind oder Regen stimmig bleibt.",
+          "href": "/guides/weather-and-backup-planning/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-161.jpg"
+        },
+        {
+          "label": "Planung",
+          "title": "Was man in den Bergen anziehen sollte",
+          "copy": "Ein praktischer Guide für Paare, die in den Bergen nicht nur schön aussehen, sondern sich auch frei bewegen, warm bleiben und sich in ihrer Kleidung wirklich wiederfinden möchten.",
+          "href": "/guides/what-to-wear-in-the-mountains/",
+          "image": "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Hut-13.jpg"
+        },
+        {
+          "label": "Planung",
+          "title": "Helikopter-Elopement-Guide",
+          "copy": "Ein Guide für Paare, die Weite, Abgeschiedenheit und einen klareren Tagesfluss suchen und verstehen möchten, wann ein Helikopter in den Bergen wirklich sinnvoll ist.",
+          "href": "/guides/helicopter-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-12.jpg"
+        },
+        {
+          "label": "Planung",
+          "title": "Mehrtägiger Elopement-Guide",
+          "copy": "Ein Guide für Paare, die mehr wollen als ein paar schnelle Stunden in den Bergen und ihren Hochzeitstag lieber in Ruhe entfalten lassen möchten.",
+          "href": "/guides/multi-day-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Insta-11.jpg"
+        }
+      ]
+    },
+    "final": {
+      "eyebrow": "Planen mit Absicht",
+      "title": "Lasst uns etwas gestalten, das sich ruhig, persönlich und zutiefst wahr anfühlt.",
+      "copy": "Wenn sich dieser Guide bereits nah an dem anfühlt, was ihr euch wünscht, helfe ich euch gern dabei, dieses Gefühl in etwas Ruhiges, Filmisches und wirklich Eigenes in den Bergen zu verwandeln.",
+      "cta": "Termin anfragen",
+      "image": "/assets/uploads/Blitzkneisser-Photo-Drei-Zinnen-Italy-24.jpg",
+      "imageAlt": "Drei Zinnen in den Dolomiten bei ruhigem, klarem Licht"
+    }
+  },
+  "en": {
+    "slug": "tre-cime-wedding-guide",
+    "title": "Tre Cime Wedding Guide | Timing, Access and an Iconic Mountain Setting",
+    "description": "A guide to Tre Cime for weddings and elopements, with honest notes on timing, access, wind, road logistics, crowds and the monumental feel of the place.",
+    "hero": {
+      "eyebrow": "Location Guide",
+      "title": "Tre Cime Wedding Guide",
+      "copy": "An honest guide for couples choosing Tre Cime not only for the famous view, but for the monumental, almost unreal presence the place carries when the timing is right.",
+      "cta": "Start Planning",
+      "image": "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14.jpg",
+      "imageAlt": "Three Peaks Cadini di Misurina"
+    },
+    "utility": {
+      "reading": "Guide",
+      "focus": "For iconic peaks and classic Dolomites scale",
+      "navOverview": "Guide Facts",
+      "navSeasons": "Location Notes",
+      "navPhilosophy": "Intro",
+      "navVisual": "More Guides",
+      "navFaq": "FAQ"
+    },
+    "overview": {
+      "eyebrow": "Guide Facts",
+      "copy": "Tre Cime are monumental, unmistakable and, for many couples, one of the most powerful backdrops in the Dolomites. That's precisely why the place needs a clear look at timing, toll roads, parking, wind and the reality behind the iconic images.",
+      "items": [
+        {
+          "icon": "calendar",
+          "label": "Best Time",
+          "value": "Summer to early autumn"
+        },
+        {
+          "icon": "sunrise",
+          "label": "Best Light",
+          "value": "Sunrise"
+        },
+        {
+          "icon": "crowd",
+          "label": "Crowd Level",
+          "value": "High at key viewpoints"
+        },
+        {
+          "icon": "path",
+          "label": "Access",
+          "value": "Road plus walking"
+        },
+        {
+          "icon": "guests",
+          "label": "Best For",
+          "value": "Classic dramatic Dolomites feeling"
+        }
+      ]
+    },
+    "philosophy": {
+      "eyebrow": "A first note",
+      "title": "Tre Cime does not seem subtle. It seems big, clear and immediate.",
+      "copy": "That is where its strength lives. When the morning is still and the first shadows sit across the pale ground, the peaks can feel almost otherworldly. Later, the place shows its popularity much more quickly."
+    },
+    "sections": {
+      "seasonOrder": [
+        "special",
+        "time",
+        "access",
+        "weather"
+      ],
+      "seasons": {
+        "special": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Prags-Zinnen-283.jpg",
+          "imageAlt": "Drei Zinnen A jubilant bride and groom",
+          "eyebrow": "",
+          "title": "Why Tre Cime remains iconic",
+          "intro": "This place is less about softness and more about impact.",
+          "copy": "Tre Cime carries a scale that does not need explanation. The shape of the towers, the open foreground and the clean silhouette make it instantly recognisable. For many couples, that directness is exactly the point.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "wind",
+              "label": "Mood",
+              "value": "Iconic and expansive"
+            },
+            {
+              "icon": "guests",
+              "label": "Best For",
+              "value": "Classic mountain feeling"
+            },
+            {
+              "icon": "sun",
+              "label": "Visual Strength",
+              "value": "Recognisable peaks and open sky"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "time": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-224.jpg",
+          "imageAlt": "Sunrise near Drei Zinnen",
+          "eyebrow": "",
+          "title": "Best time",
+          "intro": "The best time is early, before roads and viewpoints start shaping the rhythm.",
+          "copy": "In the early morning, the Tre Cime seem quieter, clearer and often cooler. Later, cars, hikers and harsher light take away some of the size of the place. If you want to experience the battlements as a quiet background, the beginning of the day is almost always the stronger choice.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "sunrise",
+              "label": "Best",
+              "value": "Sunrise"
+            },
+            {
+              "icon": "crowd",
+              "label": "Avoid",
+              "value": "Busy daytime windows"
+            },
+            {
+              "icon": "sun",
+              "label": "Best Mood",
+              "value": "Open and calm"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "access": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Proposel-INSTA-4.jpg",
+          "imageAlt": "Road access and pedestrians",
+          "eyebrow": "",
+          "title": "Access",
+          "intro": "Tre Cime is reachable, but it is not casual.",
+          "copy": "The toll road makes the place seem uncomplicated at first. In practice, however, the parking system, entry times, seasonal windows and the last few steps determine how relaxed the day really begins. Those who plan early experience significantly more peace and quiet. Depending on the weather conditions, the road is only accessible from mid-May.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "path",
+              "label": "Main Access",
+              "value": "Road with walking segments"
+            },
+            {
+              "icon": "key",
+              "label": "Check",
+              "value": "Road and parking systems"
+            },
+            {
+              "icon": "guests",
+              "label": "Best For",
+              "value": "Couples comfortable with some movement"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "weather": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-321.jpg",
+          "imageAlt": "Weather at the Three Peaks",
+          "eyebrow": "",
+          "title": "Weather notes",
+          "intro": "Wind and weather shifts show themselves quickly here.",
+          "copy": "The Three Peaks can appear wide and clear one morning and then become cold, gray and covered in thick fog a short time later. Precisely because of the open spaces, the weather here feels more direct than in other places in the Dolomites.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "cloud",
+              "label": "Best Mood",
+              "value": "Clear or softly clouded"
+            },
+            {
+              "icon": "wind",
+              "label": "Main Factors",
+              "value": "Visibility and wind"
+            },
+            {
+              "icon": "calendar",
+              "label": "Plan",
+              "value": "Leave room around the best light"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        }
+      }
+    },
+    "planning": {
+      "eyebrow": "Planning Notes",
+      "title": "What really determines the mood at the Tre Cime.",
+      "intro": "Here it is rarely the route that determines the experience, but rather the time of day and how much peace and quiet the place allows.",
+      "items": [
+        {
+          "label": "Timing",
+          "title": "Early hours turn a famous place back into something quieter.",
+          "copy": "The same view can seem almost meditative at six o'clock and much more touristy at ten o'clock.",
+          "meta": "Monumentality needs space."
+        },
+        {
+          "label": "Access",
+          "title": "Roads, parking and toll timing are part of the visual experience.",
+          "copy": "If the morning starts with waiting, that changes your presence before the photographs even begin.",
+          "meta": "Logistics protect the mood."
+        },
+        {
+          "label": "Weather",
+          "title": "Take wind and temperature seriously, even on bright mornings.",
+          "copy": "The open ground often feels colder and harsher than photos suggest.",
+          "meta": "The towers are vast, not gentle."
+        },
+        {
+          "label": "Place",
+          "title": "Tre Cime suits couples who genuinely want scale.",
+          "copy": "Not every day needs this much grandeur. If you do want it, the place gives a lot back.",
+          "meta": "Iconic only works when it still feels like you."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Questions couples often ask about Tre Cime.",
+      "intro": "Tre Cime looks clear and direct in photographs. In planning, the real questions usually revolve around timing, the toll road, wind and the true scale of the place.",
+      "items": [
+        {
+          "q": "Is Tre Cime worth choosing for a wedding day?",
+          "a": "Yes, if you are consciously drawn to a monumental, iconic mountain setting. It gives a lot back, but it needs timing and a calm structure so that its scale is not swallowed by daytime traffic."
+        },
+        {
+          "q": "Does sunrise matter here?",
+          "a": "Usually yes. Early hours make the peaks feel quieter, wider and less public. Later, the road, parking and visitor rhythm become much more noticeable."
+        },
+        {
+          "q": "Does it work with guests?",
+          "a": "Often yes with a small group and realistic planning. The key is not only distance, but parking logic, walking sections, temperature and how early everyone is willing to start."
+        },
+        {
+          "q": "Does weather matter more here than at a lake?",
+          "a": "Often yes. Tre Cime is more open, windier and more exposed. Weather shifts feel more immediate there than they do in more sheltered settings."
+        }
+      ]
+    },
+    "related": {
+      "eyebrow": "Related Guides",
+      "hint": "Swipe left or right to explore more guides.",
+      "items": [
+        {
+          "label": "Dolomites",
+          "title": "Dolomites Elopement Guide",
+          "copy": "A calm starting point for couples planning a Dolomites Elopement or intimate mountain wedding and wanting to understand how light, access, weather and crowds truly shape the day.",
+          "href": "/guides/dolomites-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-120.jpg"
+        },
+        {
+          "label": "Locations",
+          "title": "The most popular elopement locations in the Dolomites",
+          "copy": "A curated guide for couples who are not looking for just any beautiful view, but for the place whose atmosphere truly fits the day they want.",
+          "href": "/guides/best-dolomites-elopement-locations/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-191.jpg"
+        },
+        {
+          "label": "Locations",
+          "title": "Lago di Braies Guide",
+          "copy": "An honest guide for couples who know Lago di Braies as more than a famous photograph and want to understand when it feels soft, quiet and truly worth experiencing.",
+          "href": "/guides/lago-di-braies-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopemnt-Dolomites-Lago-di-Braies-19.jpg"
+        },
+        {
+          "label": "Locations",
+          "title": "Seceda Guide",
+          "copy": "A guide for couples drawn to Seceda not only for the famous ridge, but for the feeling of openness, wind and high alpine light that makes it so distinctive.",
+          "href": "/guides/seceda-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Seceda-180.jpg"
+        },
+        {
+          "label": "Locations",
+          "title": "Cadini di Misurina Guide",
+          "copy": "A guide for couples who love the wild, cinematic tension of Cadini and want to know when it is accessible, safe and genuinely worth choosing.",
+          "href": "/guides/cadini-di-misurina-guide/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-12.jpg"
+        },
+        {
+          "label": "Planning",
+          "title": "Best Time for a Dolomites Elopement",
+          "copy": "An honest guide to light, temperatures, crowds and the question of when the mountains will not only look beautiful, but genuinely feel right for you.",
+          "href": "/guides/best-time-for-a-dolomites-elopement/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-16.jpg"
+        },
+        {
+          "label": "Planning",
+          "title": "Sunrise vs Sunset in the Dolomites",
+          "copy": "An honest comparison for couples who want more than beautiful light and are trying to understand which time of day fits their energy, their location and the feeling they want to remember.",
+          "href": "/guides/sunrise-vs-sunset-dolomites/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Photo-368.jpg"
+        },
+        {
+          "label": "Planning",
+          "title": "Weather & Backup Planning Guide",
+          "copy": "A calm weather guide for couples who do not want to hope for perfect conditions in the mountains, but want to build a day that still feels right in fog, wind or rain.",
+          "href": "/guides/weather-and-backup-planning/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-161.jpg"
+        },
+        {
+          "label": "Planning",
+          "title": "What to Wear in the Mountains",
+          "copy": "A practical guide for couples who want to look beautiful in the mountains, but also move freely, stay warm and still feel like themselves in what they wear.",
+          "href": "/guides/what-to-wear-in-the-mountains/",
+          "image": "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Hut-13.jpg"
+        },
+        {
+          "label": "Planning",
+          "title": "Helicopter Elopement Guide",
+          "copy": "A guide for couples seeking more space, privacy and a clearer flow to the day, and wanting to understand when a helicopter in the mountains genuinely makes sense.",
+          "href": "/guides/helicopter-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-12.jpg"
+        },
+        {
+          "label": "Planning",
+          "title": "Multi-Day Elopement Guide",
+          "copy": "A guide for couples who want more than a few rushed hours in the mountains and would rather let the day unfold with space around it.",
+          "href": "/guides/multi-day-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Insta-11.jpg"
+        }
+      ]
+    },
+    "final": {
+      "eyebrow": "Planning with intention",
+      "title": "Let’s shape something that feels quiet, personal and deeply true to you.",
+      "copy": "If this guide already feels close to the way you want the day to move, I would love to help you turn that feeling into something calm, cinematic and genuinely your own in the mountains.",
+      "cta": "Inquire Now",
+      "image": "/assets/uploads/Blitzkneisser-Photo-Drei-Zinnen-Italy-24.jpg",
+      "imageAlt": "Tre Cime in the Dolomites in calm, clear light"
+    }
+  }
+}

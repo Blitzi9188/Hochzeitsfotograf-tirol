@@ -1,0 +1,708 @@
+{
+  "de": {
+    "slug": "best-places-officially-elope-tyrol",
+    "title": "Die schönsten Orte für eine offizielle Trauung in Tirol | Guide",
+    "description": "Guide zu offiziellen Trauungen in Tirol mit Seen, Bergen, Standesämtern und ehrlichen Hinweisen dazu, wie sich Rechtliches und Berggefühl stimmig verbinden lassen.",
+    "hero": {
+      "eyebrow": "Nordtirol-Guide",
+      "title": "Die schönsten Orte für eine offizielle Trauung in Tirol",
+      "copy": "Ein Guide für Paare, die eine offizielle Trauung in Tirol mit Bergen, Seen und einem klaren, persönlichen Tagesgefühl verbinden möchten.",
+      "cta": "Planung starten",
+      "image": "/assets/uploads/Blitzkneisser-Mountain-Winter-Wedding-Shooting-58.jpg",
+      "imageAlt": "Offizielle Hochzeit in Tirol mit Bergen im Hintergrund"
+    },
+    "utility": {
+      "reading": "Guide",
+      "focus": "Für Paare, die eine legale Trauung in Tirol mit Seen, Bergen und ruhigen Orten verbinden möchten",
+      "navOverview": "Überblick",
+      "navSeasons": "Orte",
+      "navPhilosophy": "Einführung",
+      "navVisual": "Weitere Guides",
+      "navFaq": "FAQ"
+    },
+    "overview": {
+      "eyebrow": "Guide im Überblick",
+      "copy": "Nordtirol ist spannend für Paare, die eine zivile oder offizielle Trauung nicht von den Bergen trennen möchten. Zwischen Städten, Seen, Tälern und ruhigeren Almen lässt sich hier oft eine sehr stimmige Mischung aus Rechtssicherheit und Landschaft aufbauen.",
+      "items": [
+        {
+          "icon": "path",
+          "label": "Am hilfreichsten",
+          "value": "Standesamt und Landschaft zusammen denken"
+        },
+        {
+          "icon": "calendar",
+          "label": "Beste Zeit",
+          "value": "Später Frühling bis früher Herbst"
+        },
+        {
+          "icon": "guests",
+          "label": "Ideal für",
+          "value": "Paare, die legal und filmisch zugleich planen möchten"
+        },
+        {
+          "icon": "cloud",
+          "label": "Wetterstärke",
+          "value": "Mehr Auswahl zwischen See, Tal und Berg"
+        },
+        {
+          "icon": "sunrise",
+          "label": "Besonderheit",
+          "value": "Ruhige Orte mit offizieller Einfachheit verbinden"
+        }
+      ]
+    },
+    "philosophy": {
+      "eyebrow": "Eine erste Orientierung",
+      "title": "Tirol funktioniert dann besonders gut, wenn der offizielle Teil nicht losgelöst vom restlichen Tag wirkt.",
+      "copy": "Ein Standesamt in der Stadt, ein See am Morgen, ein Bergpanorama am Nachmittag oder eine Hütte für den Abend: Gerade diese Übergänge können Tirol sehr stark machen."
+    },
+    "sections": {
+      "seasonOrder": [
+        "innsbruck",
+        "lakes",
+        "seefeld",
+        "valleys",
+        "huts"
+      ],
+      "seasons": {
+        "innsbruck": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Wedding-Innsbruck-249.jpg",
+          "imageAlt": "Innsbruck als offizieller Trauungsort mit Bergkulisse",
+          "eyebrow": "Stadt und Berge",
+          "title": "Innsbruck und die schnelle Nähe zur Nordkette",
+          "intro": "",
+          "copy": "Innsbruck ist oft dann stark, wenn ihr die rechtliche Seite klar und elegant halten möchtet, ohne auf Berge verzichten zu müssen. Ein offizieller Termin lässt sich hier gut mit späterem Berglicht, einem Dinner oder einem zweiten Kapitel in der Nordkette verbinden.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "path",
+              "label": "Zugang",
+              "value": "Leicht und komfortabel"
+            },
+            {
+              "icon": "guests",
+              "label": "Ideal für",
+              "value": "Paare mit Reisegästen oder kurzer Logistik"
+            },
+            {
+              "icon": "sun",
+              "label": "Stimmung",
+              "value": "Urban klar, danach alpin offen"
+            }
+          ],
+          "note": "",
+          "meta": "Innsbruck • Nordkette • Flexibilität",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "lakes": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Hochzeit-Bergelsteinersee-26.jpg",
+          "imageAlt": "Ruhiger Tiroler See für eine offizielle Trauung",
+          "eyebrow": "Seen",
+          "title": "Seen in Tirol für ruhigere und weichere Tage",
+          "intro": "",
+          "copy": "Orte rund um Achensee oder kleinere ruhigere Seen können die legale Trauung mit einem sanfteren, reflektierteren Gefühl verbinden. Wasser bringt oft eine andere Ruhe als die großen Grate, besonders wenn ihr einen stilleren Tagesrhythmus sucht.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "sunrise",
+              "label": "Stärkstes Licht",
+              "value": "Früher Morgen oder später Abend"
+            },
+            {
+              "icon": "crowd",
+              "label": "Wichtig",
+              "value": "Tageszeit verändert das Gefühl stark"
+            },
+            {
+              "icon": "guests",
+              "label": "Ideal für",
+              "value": "Paare, die Ruhe statt große Dramatik suchen"
+            }
+          ],
+          "note": "",
+          "meta": "See • Ruhe • Spiegelung",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "seefeld": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Hochzeit-Seefeld-389.jpg",
+          "imageAlt": "Seefeld als legaler und ruhiger Hochzeitsort in Tirol",
+          "eyebrow": "Plateaugefühl",
+          "title": "Seefeld und sanftere alpine Eleganz",
+          "intro": "",
+          "copy": "Seefeld kann besonders gut funktionieren, wenn ihr etwas Zugängliches, gepflegtes und dennoch bergnahes sucht. Die Mischung aus Plateau, Weite und guter Infrastruktur macht es oft leichter, Legalität und Atmosphäre in einem ruhigeren Format zu vereinen.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "path",
+              "label": "Zugang",
+              "value": "Einfach bis mittel"
+            },
+            {
+              "icon": "guests",
+              "label": "Gut für",
+              "value": "Paare mit Gästen und Komfortwunsch"
+            },
+            {
+              "icon": "sun",
+              "label": "Ton",
+              "value": "Sanfter und eleganter als wilde Grate"
+            }
+          ],
+          "note": "",
+          "meta": "Seefeld • Komfort • sanftere Alpen",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "valleys": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Hochzeit-Zillertal-Schnee-11.jpg",
+          "imageAlt": "Tiroler Tal mit offizieller Hochzeit und Bergkulisse",
+          "eyebrow": "Täler",
+          "title": "Zillertal und ruhigere Täler mit viel Raum",
+          "intro": "",
+          "copy": "Einige Tiroler Täler tragen einen Hochzeitstag sehr schön, wenn ihr mehr Raum, Privatsphäre und ein weniger touristisches Gefühl sucht. Hier wird die Kombination aus offizieller Trauung, Unterkunft, Feier und Landschaft oft deutlich weicher.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "wind",
+              "label": "Vorteil",
+              "value": "Mehr Raum und stillere Wege"
+            },
+            {
+              "icon": "calendar",
+              "label": "Planung",
+              "value": "Gut mit mehrtägigen Abläufen kombinierbar"
+            },
+            {
+              "icon": "guests",
+              "label": "Ideal für",
+              "value": "Paare, die Weite und ländliche Ruhe suchen"
+            }
+          ],
+          "note": "",
+          "meta": "Tal • Weite • Ruhe",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "huts": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Winter-Wedding-Tirol-622.jpg",
+          "imageAlt": "Hütte in Tirol als zweites Kapitel nach der offiziellen Trauung",
+          "eyebrow": "Hütten und zweites Kapitel",
+          "title": "Hütten, Almen und die Feier nach dem offiziellen Teil",
+          "intro": "",
+          "copy": "Nicht jede Hütte ist selbst Ort der legalen Trauung, aber viele können das emotionale zweite Kapitel wunderbar tragen. Gerade in Tirol wirkt diese Kombination oft besonders stimmig: Standesamt für die Klarheit, Alm oder Hütte für das Gefühl.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "sun",
+              "label": "Besonders schön",
+              "value": "Mit Abendessen oder kleiner Feier"
+            },
+            {
+              "icon": "path",
+              "label": "Wichtig",
+              "value": "Zugang und Wetter früh mitdenken"
+            },
+            {
+              "icon": "guests",
+              "label": "Ideal für",
+              "value": "Paare, die Legalität und Wärme verbinden möchten"
+            }
+          ],
+          "note": "",
+          "meta": "Hütte • Gefühl • Feier",
+          "linkLabel": "Zivile Hochzeit in Österreich lesen",
+          "linkHref": "/guides/civil-wedding-austria-foreign-couples/"
+        }
+      }
+    },
+    "planning": {
+      "eyebrow": "Planungsnotizen",
+      "title": "Was bei offiziellen Trauungen in Tirol meist am meisten hilft.",
+      "intro": "Die stärksten Tage entstehen meist dort, wo der legale Teil nicht gegen die Landschaft arbeitet, sondern von Anfang an mit ihr mitgedacht wird.",
+      "items": [
+        {
+          "label": "Standesamt zuerst",
+          "title": "Die offizielle Stelle definiert den Rahmen.",
+          "copy": "Sobald das Standesamt und der Ort klarer sind, lässt sich der restliche Tag viel leichter bauen.",
+          "meta": "Legalität setzt den Takt."
+        },
+        {
+          "label": "Landschaft danach",
+          "title": "Nicht zuerst den dramatischsten Spot jagen.",
+          "copy": "Fragt zuerst, wie gut sich Ort, Zugang, Gäste und Tageszeit miteinander verbinden lassen.",
+          "meta": "Passung schlägt Spektakel."
+        },
+        {
+          "label": "Wetter",
+          "title": "Mit Tälern, Seen und Hütten flexibel bleiben.",
+          "copy": "Tirol ist stark, weil unterschiedliche Landschaften relativ weich kombinierbar sein können.",
+          "meta": "Vielfalt macht Planung ruhiger."
+        },
+        {
+          "label": "Zweites Kapitel",
+          "title": "Den emotionalen Höhepunkt bewusst setzen.",
+          "copy": "Für viele Paare entsteht der eigentliche Zauber erst nach dem legalen Teil, wenn Licht und Landschaft ruhig werden.",
+          "meta": "Das Gefühl darf später kommen."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Fragen zu offiziellen Trauungen und Elopements in Tirol.",
+      "intro": "Sobald Rechtliches und Berggefühl zusammenkommen sollen, drehen sich die meisten Fragen um Machbarkeit, Gäste und die richtige Verbindung zwischen Standesamt und Landschaft.",
+      "items": [
+        {
+          "q": "Kann man in Tirol offiziell heiraten und trotzdem einen ruhigen Bergtag haben?",
+          "a": "Ja, sehr gut sogar. Oft funktioniert es am besten, wenn das Standesamt klar organisiert ist und der landschaftliche Teil nicht nebenbei, sondern als eigener bewusster Abschnitt geplant wird."
+        },
+        {
+          "q": "Ist Innsbruck zu städtisch für ein Elopement?",
+          "a": "Nicht unbedingt. Gerade die Nähe zwischen Stadt, Standesamt und Nordkette kann sehr hilfreich sein, wenn ihr Rechtssicherheit und Berggefühl ohne lange Übergänge verbinden möchtet."
+        },
+        {
+          "q": "Welche Orte eignen sich besonders gut mit Gästen?",
+          "a": "Seenähe, Seefeld oder Regionen mit leichterem Zugang sind oft dankbarer. Entscheidend ist, ob eure Gäste Wege, Temperaturen und den Tagesbeginn entspannt mittragen können."
+        },
+        {
+          "q": "Kann man in Tirol auch am See offiziell heiraten?",
+          "a": "Je nach Ort und Ablauf ja, oder zumindest sehr nah daran. Häufig ist die schönste Lösung ein offizieller Termin in der Nähe und der persönliche Teil direkt am Wasser oder in der umgebenden Landschaft."
+        },
+        {
+          "q": "Ist Tirol auch im Winter eine gute Idee?",
+          "a": "Ja, wenn ihr Kälte, Schneelogistik und kurze Tage bewusst mögt. Wintertage können sehr eindrucksvoll sein, brauchen aber deutlich mehr Präzision im Ablauf."
+        },
+        {
+          "q": "Brauchen wir immer einen zweiten symbolischen Moment?",
+          "a": "Nicht zwingend, aber viele Paare empfinden ihn als sehr wertvoll. Er gibt dem Tag einen persönlicheren Mittelpunkt als der formelle Teil allein."
+        }
+      ]
+    },
+    "related": {
+      "eyebrow": "Verwandte Leitfäden",
+      "items": [
+        {
+          "label": "Civil Wedding",
+          "title": "Standesamtliche Hochzeit in Österreich",
+          "copy": "Ein klarer Guide für internationale Paare, die in Österreich legal heiraten und den offiziellen Teil mit Bergen, Ruhe und einem persönlichen Hochzeitstag verbinden möchten.",
+          "href": "/guides/civil-wedding-austria-foreign-couples/",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Kemater-Alm-12.jpg",
+          "imageAlt": "Internationales Paar bei einer zivilen Hochzeit in Österreich",
+          "alt": "Internationales Paar bei einer zivilen Hochzeit in Österreich"
+        },
+        {
+          "label": "Planung",
+          "title": "Elopement-Guide für die Dolomiten",
+          "copy": "Ein ruhiger Ausgangspunkt für Paare, die ein Dolomites Elopement oder eine intime Berghochzeit planen und verstehen möchten, wie Licht, Wege, Wetter und Menschenmengen den Tag wirklich prägen.",
+          "href": "/guides/dolomites-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-120.jpg",
+          "imageAlt": "Paar bei einem Dolomiten-Elopement im weichen Morgenlicht",
+          "alt": "Paar bei einem Dolomiten-Elopement im weichen Morgenlicht"
+        },
+        {
+          "label": "Vergleich",
+          "title": "Elopement oder klassische Hochzeit in den Alpen",
+          "copy": "Ein ehrlicher Vergleich für Paare, die zwischen Intimität, Gästen, Budget und Tagesrhythmus abwägen und herausfinden möchten, welche Form wirklich zu ihnen passt.",
+          "href": "/guides/elopement-vs-traditional-wedding-alps/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement_lago-di-Braies-9.jpg",
+          "imageAlt": "Paar in alpiner Landschaft zwischen intimer und größerer Hochzeitsstimmung",
+          "alt": "Paar in alpiner Landschaft zwischen intimer und größerer Hochzeitsstimmung"
+        },
+        {
+          "label": "Planung",
+          "title": "Guide zur Wetter- und Backup-Planung",
+          "copy": "Ein ruhiger Wetter-Guide für Paare, die in den Bergen nicht auf perfekte Bedingungen hoffen, sondern einen Tag planen möchten, der auch bei Nebel, Wind oder Regen stimmig bleibt.",
+          "href": "/guides/weather-and-backup-planning/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-161.jpg",
+          "imageAlt": "Wetterstimmung in den Dolomiten mit Wolken und Nebel",
+          "alt": "Wetterstimmung in den Dolomiten mit Wolken und Nebel"
+        },
+        {
+          "label": "Planung",
+          "title": "Mehrtägiger Elopement-Guide",
+          "copy": "Ein Guide für Paare, die mehr wollen als ein paar schnelle Stunden in den Bergen und ihren Hochzeitstag lieber in Ruhe entfalten lassen möchten.",
+          "href": "/guides/multi-day-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Insta-11.jpg",
+          "imageAlt": "Mehrtägiges Elopement in den Dolomiten",
+          "alt": "Mehrtägiges Elopement in den Dolomiten"
+        },
+        {
+          "label": "Planung",
+          "title": "Was man in den Bergen anziehen sollte",
+          "copy": "Ein praktischer Guide für Paare, die in den Bergen nicht nur schön aussehen, sondern sich auch frei bewegen, warm bleiben und sich in ihrer Kleidung wirklich wiederfinden möchten.",
+          "href": "/guides/what-to-wear-in-the-mountains/",
+          "image": "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Hut-13.jpg",
+          "imageAlt": "Kleidung für ein Elopement in den Bergen",
+          "alt": "Kleidung für ein Elopement in den Bergen"
+        }
+      ],
+      "hint": "Wischt nach links oder rechts, um weitere Guides zu sehen."
+    },
+    "final": {
+      "image": "/assets/uploads/Blitzkneisser-Photo-Drei-Zinnen-Italy-24.jpg",
+      "imageAlt": "Drei Zinnen in den Dolomiten bei ruhigem, klarem Licht",
+      "eyebrow": "Ruhig geplant",
+      "title": "Lasst uns etwas gestalten, das sich ruhig, persönlich und zutiefst wahr anfühlt.",
+      "copy": "Wenn ihr euch einen Hochzeitstag oder ein Elopement wünscht, das nicht nur schön aussieht, sondern sich auch ehrlich und leicht anfühlt, begleite ich euch gern bei der Planung.",
+      "cta": "Termin anfragen"
+    }
+  },
+  "en": {
+    "slug": "best-places-officially-elope-tyrol",
+    "title": "Best Places to Officially Elope in Tyrol | Guide",
+    "description": "A guide to official elopements and civil weddings in Tyrol, with lakes, mountain settings, registry offices and honest planning notes.",
+    "hero": {
+      "eyebrow": "North Tyrol Guide",
+      "title": "Best Places to Officially Elope in Tyrol",
+      "copy": "A guide for couples who want to combine an official ceremony in Tyrol with mountains, lakes and a wedding day that still feels clear and personal.",
+      "cta": "Explore Tyrol",
+      "image": "/assets/uploads/Blitzkneisser-Mountain-Winter-Wedding-Shooting-58.jpg",
+      "imageAlt": "Official wedding in Tyrol with mountains in the background"
+    },
+    "utility": {
+      "reading": "Guide",
+      "focus": "For couples combining a legal ceremony in Tyrol with lakes, mountains and quieter alpine places",
+      "navOverview": "Overview",
+      "navSeasons": "Locations",
+      "navPhilosophy": "Intro",
+      "navVisual": "More guides",
+      "navFaq": "FAQ"
+    },
+    "overview": {
+      "eyebrow": "Guide Overview",
+      "copy": "North Tyrol works beautifully for couples who do not want to separate the legal part of the day from the alpine one. Between towns, lakes, valleys and quieter huts, it often allows a strong mix of legal clarity and mountain atmosphere.",
+      "items": [
+        {
+          "icon": "path",
+          "label": "Most helpful",
+          "value": "Think registry office and landscape together"
+        },
+        {
+          "icon": "calendar",
+          "label": "Best season",
+          "value": "Late spring to early autumn"
+        },
+        {
+          "icon": "guests",
+          "label": "Ideal for",
+          "value": "Couples wanting legal and cinematic at once"
+        },
+        {
+          "icon": "cloud",
+          "label": "Weather strength",
+          "value": "Good variety between lake, valley and mountain"
+        },
+        {
+          "icon": "sunrise",
+          "label": "What makes it special",
+          "value": "Combining official simplicity with quiet alpine beauty"
+        }
+      ]
+    },
+    "philosophy": {
+      "eyebrow": "A first note",
+      "title": "Tyrol feels strongest when the official part still belongs to the rest of the day.",
+      "copy": "A registry office in town, a lake in the morning, mountain views in the afternoon and a hut in the evening can all belong to the same story here."
+    },
+    "sections": {
+      "seasonOrder": [
+        "innsbruck",
+        "lakes",
+        "seefeld",
+        "valleys",
+        "huts"
+      ],
+      "seasons": {
+        "innsbruck": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Wedding-Innsbruck-249.jpg",
+          "imageAlt": "Innsbruck as an official wedding place with mountain backdrop",
+          "eyebrow": "City and mountains",
+          "title": "Innsbruck and the quick access to Nordkette",
+          "intro": "",
+          "copy": "Innsbruck is especially strong when you want the legal side to feel clear and elegant without giving up mountain atmosphere. An official appointment here can easily connect with later mountain light, a dinner or a second chapter high above the city.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "path",
+              "label": "Access",
+              "value": "Easy and comfortable"
+            },
+            {
+              "icon": "guests",
+              "label": "Ideal for",
+              "value": "Couples with travel guests or tighter logistics"
+            },
+            {
+              "icon": "sun",
+              "label": "Mood",
+              "value": "Urban clarity first, alpine openness later"
+            }
+          ],
+          "note": "",
+          "meta": "Innsbruck • Nordkette • Flexibility",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "lakes": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Hochzeit-Bergelsteinersee-26.jpg",
+          "imageAlt": "Quiet Tyrolean lake for an official wedding day",
+          "eyebrow": "Lakes",
+          "title": "Lakes in Tyrol for softer and quieter wedding days",
+          "intro": "",
+          "copy": "Places around Achensee or smaller quieter lakes can hold the legal part of the day with a more reflective and gentle atmosphere. Water often carries a different kind of calm than the dramatic ridges, especially if you want a slower emotional pace.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "sunrise",
+              "label": "Best light",
+              "value": "Early morning or later evening"
+            },
+            {
+              "icon": "crowd",
+              "label": "Important",
+              "value": "Time of day changes the feeling strongly"
+            },
+            {
+              "icon": "guests",
+              "label": "Ideal for",
+              "value": "Couples wanting quiet over high drama"
+            }
+          ],
+          "note": "",
+          "meta": "Lake • Quiet • Reflection",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "seefeld": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Hochzeit-Seefeld-389.jpg",
+          "imageAlt": "Seefeld as a legal and calm wedding place in Tyrol",
+          "eyebrow": "Plateau atmosphere",
+          "title": "Seefeld and a softer alpine elegance",
+          "intro": "",
+          "copy": "Seefeld works well when you want something accessible, polished and still close to the mountains. The mix of plateau openness and good infrastructure often makes it easier to combine legal clarity with a calmer editorial atmosphere.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "path",
+              "label": "Access",
+              "value": "Easy to moderate"
+            },
+            {
+              "icon": "guests",
+              "label": "Good for",
+              "value": "Couples with guests and a comfort focus"
+            },
+            {
+              "icon": "sun",
+              "label": "Tone",
+              "value": "Softer and more elegant than exposed ridges"
+            }
+          ],
+          "note": "",
+          "meta": "Seefeld • Comfort • softer Alps",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "valleys": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Hochzeit-Zillertal-Schnee-11.jpg",
+          "imageAlt": "Tyrolean valley with official wedding and mountain backdrop",
+          "eyebrow": "Valleys",
+          "title": "Zillertal and quieter valleys with more space",
+          "intro": "",
+          "copy": "Some Tyrolean valleys hold an official wedding beautifully when you want more space, privacy and a less touristic feeling. Here, the combination of registry office, accommodation, celebration and landscape often feels noticeably softer.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "wind",
+              "label": "Advantage",
+              "value": "More space and quieter movement"
+            },
+            {
+              "icon": "calendar",
+              "label": "Planning",
+              "value": "Works well with multi-day structures"
+            },
+            {
+              "icon": "guests",
+              "label": "Ideal for",
+              "value": "Couples seeking width and rural calm"
+            }
+          ],
+          "note": "",
+          "meta": "Valley • Space • Quiet",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "huts": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Winter-Wedding-Tirol-622.jpg",
+          "imageAlt": "Tyrolean hut as a second chapter after the official ceremony",
+          "eyebrow": "Huts and a second chapter",
+          "title": "Huts, alpine lodges and the emotional part after the official ceremony",
+          "intro": "",
+          "copy": "Not every hut is the place where the legal ceremony itself happens, but many can carry the emotional second chapter beautifully. In Tyrol, this combination often feels especially coherent: the registry office for clarity, the hut or alpine lodge for warmth and atmosphere.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "sun",
+              "label": "Especially beautiful with",
+              "value": "Dinner or a small celebration"
+            },
+            {
+              "icon": "path",
+              "label": "Important",
+              "value": "Think through access and weather early"
+            },
+            {
+              "icon": "guests",
+              "label": "Ideal for",
+              "value": "Couples combining legality with warmth"
+            }
+          ],
+          "note": "",
+          "meta": "Hut • Feeling • Celebration",
+          "linkLabel": "Read Civil Wedding in Austria for Foreign Couples",
+          "linkHref": "/guides/civil-wedding-austria-foreign-couples/"
+        }
+      }
+    },
+    "planning": {
+      "eyebrow": "Planning Notes",
+      "title": "What usually helps most with official weddings in Tyrol.",
+      "intro": "The strongest days usually happen where the legal part does not fight the landscape, but is planned with it from the very beginning.",
+      "items": [
+        {
+          "label": "Registry office first",
+          "title": "Let the official place define the frame.",
+          "copy": "Once the registry office and legal setting are clear, the rest of the day becomes much easier to build calmly.",
+          "meta": "Legality sets the rhythm."
+        },
+        {
+          "label": "Landscape after that",
+          "title": "Do not chase the most dramatic spot first.",
+          "copy": "Ask instead how well place, access, guests and time of day can support each other.",
+          "meta": "Fit matters more than spectacle."
+        },
+        {
+          "label": "Weather",
+          "title": "Use valleys, lakes and huts for flexibility.",
+          "copy": "Tyrol is often strong because different landscapes can be combined more softly than people expect.",
+          "meta": "Variety makes planning calmer."
+        },
+        {
+          "label": "Second chapter",
+          "title": "Place the emotional high point intentionally.",
+          "copy": "For many couples, the real magic begins after the legal part, when light and landscape soften.",
+          "meta": "The feeling can come later."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Questions about official ceremonies and elopements in Tyrol.",
+      "intro": "As soon as legal clarity and mountain atmosphere need to live in the same day, the main questions usually revolve around practicality, guests and how to connect the registry office with the landscape well.",
+      "items": [
+        {
+          "q": "Can we officially marry in Tyrol and still have a calm mountain day?",
+          "a": "Yes, very much so. It often works best when the civil part is clearly organised and the mountain chapter is planned as a meaningful part of the day rather than something squeezed in afterwards."
+        },
+        {
+          "q": "Is Innsbruck too urban for an elopement?",
+          "a": "Not necessarily. The closeness between city, registry office and Nordkette can be a real advantage if you want legal clarity and mountain atmosphere without long transitions."
+        },
+        {
+          "q": "Which places work especially well with guests?",
+          "a": "Lake areas, Seefeld and places with easier access are often more generous for groups. What matters most is whether your guests can move through the timing, terrain and temperature comfortably."
+        },
+        {
+          "q": "Can we officially marry by a lake in Tyrol?",
+          "a": "Depending on the place and structure, yes, or at least very close to it. Often the best solution is a nearby official ceremony with the personal part unfolding directly by the water or in the surrounding landscape."
+        },
+        {
+          "q": "Is Tyrol a good idea in winter too?",
+          "a": "Yes, if you consciously like cold, snow logistics and shorter days. Winter can be beautiful there, but it asks for much more precision in timing and backup thinking."
+        },
+        {
+          "q": "Do we always need a second symbolic moment?",
+          "a": "Not always, but many couples find it deeply valuable. It often gives the day a more personal emotional centre than the formal appointment alone."
+        }
+      ]
+    },
+    "related": {
+      "eyebrow": "Related Guides",
+      "items": [
+        {
+          "label": "Civil Wedding",
+          "title": "Civil Wedding in Austria",
+          "copy": "A clear guide for international couples who want to marry legally in Austria and connect the official part with mountains, quiet and a personal wedding day.",
+          "href": "/guides/civil-wedding-austria-foreign-couples/",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Kemater-Alm-12.jpg",
+          "imageAlt": "International couple during a civil wedding in Austria",
+          "alt": "International couple during a civil wedding in Austria"
+        },
+        {
+          "label": "Planning",
+          "title": "Dolomites Elopement Guide",
+          "copy": "A calm starting point for couples planning a Dolomites Elopement or intimate mountain wedding and wanting to understand how light, access, weather and crowds truly shape the day.",
+          "href": "/guides/dolomites-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-120.jpg",
+          "imageAlt": "Couple during a Dolomites elopement in soft morning light",
+          "alt": "Couple during a Dolomites elopement in soft morning light"
+        },
+        {
+          "label": "Comparison",
+          "title": "Elopement vs Traditional Wedding in the Alps",
+          "copy": "An honest comparison for couples weighing intimacy, guests, budget and pace, and trying to understand which kind of wedding day genuinely fits them.",
+          "href": "/guides/elopement-vs-traditional-wedding-alps/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement_lago-di-Braies-9.jpg",
+          "imageAlt": "Couple in the Alps between intimate and larger wedding atmosphere",
+          "alt": "Couple in the Alps between intimate and larger wedding atmosphere"
+        },
+        {
+          "label": "Planning",
+          "title": "Weather & Backup Planning Guide",
+          "copy": "A calm weather guide for couples who do not want to hope for perfect conditions in the mountains, but want to build a day that still feels right in fog, wind or rain.",
+          "href": "/guides/weather-and-backup-planning/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-161.jpg",
+          "imageAlt": "Weather in the Dolomites with clouds and fog",
+          "alt": "Weather in the Dolomites with clouds and fog"
+        },
+        {
+          "label": "Planning",
+          "title": "Multi-Day Elopement Guide",
+          "copy": "A guide for couples who want more than a few rushed hours in the mountains and would rather let the day unfold with space around it.",
+          "href": "/guides/multi-day-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Insta-11.jpg",
+          "imageAlt": "Multi-day elopement in the Dolomites",
+          "alt": "Multi-day elopement in the Dolomites"
+        },
+        {
+          "label": "Planning",
+          "title": "What to Wear in the Mountains",
+          "copy": "A practical guide for couples who want to look beautiful in the mountains, but also move freely, stay warm and still feel like themselves in what they wear.",
+          "href": "/guides/what-to-wear-in-the-mountains/",
+          "image": "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Hut-13.jpg",
+          "imageAlt": "Outfit ideas for a mountain elopement",
+          "alt": "Outfit ideas for a mountain elopement"
+        }
+      ],
+      "hint": "Swipe left or right to explore more guides."
+    },
+    "final": {
+      "image": "/assets/uploads/Blitzkneisser-Photo-Drei-Zinnen-Italy-24.jpg",
+      "imageAlt": "Tre Cime in the Dolomites in calm, clear light",
+      "eyebrow": "Planned with intention",
+      "title": "Let’s create something that feels calm, personal and deeply true.",
+      "copy": "If you are looking for a wedding day or elopement that feels honest, spacious and beautifully considered, I would love to help you shape it.",
+      "cta": "Inquire now"
+    }
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "metaTitle": "Portfolio | Hochzeitsfotograf Tirol & Dolomiten",
+  "metaDescription": "Portfolio mit Hochzeiten, Elopements und Paarreportagen aus Tirol, Innsbruck und den Dolomiten. Editorial, ruhig und zeitlos fotografiert.",
+  "metaTitleEn": "Portfolio | Wedding Photographer Tyrol & Dolomites",
+  "metaDescriptionEn": "Portfolio with weddings, elopements and couple stories from Tyrol, Innsbruck and the Dolomites. Editorial, calm and timeless.",
+  "heroEyebrow": "Portfolio",
+  "heroEyebrowEn": "Portfolio",
+  "heroTitle": "Portfolio",
+  "heroTitleEn": "Portfolio",
+  "heroCopy": "Jede Hochzeit erzählt ihre eigene Geschichte – voller leiser Momente, echter Emotionen und besonderer Augenblicke. Bilder, die nicht nur zeigen, wie es war, sondern spürbar machen, wie es sich angefühlt hat.",
+  "heroCopyEn": "Every wedding tells a unique story – filled with quiet moments, real emotions, and meaningful details. Images that don’t just show how it looked, but let you feel how it truly was.",
+  "heroCta": "Termin anfragen",
+  "heroCtaEn": "Inquire now",
+  "closingEyebrow": "Nächster Schritt",
+  "closingEyebrowEn": "Next Step",
+  "closingCopy": "Wenn euch diese Bildsprache anspricht, erzählt mir von euren Plänen. Gemeinsam gestalten wir eine Begleitung, die ruhig, klar und persönlich zu euch passt.",
+  "closingCopyEn": "If this visual language resonates with you, tell me about your plans. Together we shape a coverage that feels calm, clear and personal.",
+  "closingCta": "Zur Anfrage",
+  "closingCtaEn": "Go to inquiry",
+  "gallery": [
+    {
+      "image": "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-12.jpg",
+      "alt": "Elopement Paarporträt in alpiner Landschaft",
+      "altEn": "Elopement couple portrait in an alpine landscape"
+    },
+    {
+      "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-8.jpg",
+      "alt": "Elopement Reportage in den Tiroler Alpen",
+      "altEn": "Elopement reportage in the Tyrolean Alps"
+    },
+    {
+      "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Wedding-154.jpg",
+      "alt": "Brautpaar in ruhigem Abendlicht in den Bergen",
+      "altEn": "Couple in calm evening light in the mountains"
+    },
+    {
+      "image": "/assets/uploads/Blitzkneisser-Dolomites-Ski-Wedding-44.jpg",
+      "alt": "Ski Hochzeit in den Dolomiten mit Bergkulisse",
+      "altEn": "Ski wedding in the Dolomites with mountain backdrop"
+    },
+    {
+      "image": "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-304.jpg",
+      "alt": "Editorial Elopement Detailaufnahme im Reportage-Stil",
+      "altEn": "Editorial elopement detail in reportage style"
+    },
+    {
+      "image": "/assets/uploads/Blitzkneisser-Wedding-Innsbruck-201.jpg",
+      "alt": "Intimer Hochzeitsmoment in Innsbruck",
+      "altEn": "Intimate wedding moment in Innsbruck"
+    },
+    {
+      "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Wedding-159.jpg",
+      "alt": "Brautpaar in den Dolomiten beim Sonnenaufgang",
+      "altEn": "Couple in the Dolomites at sunrise"
+    },
+    {
+      "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-2.jpg",
+      "alt": "Brautpaar im goldenen Sonnenaufgang in den Dolomiten, dramatische Bergspitzen, weiches Licht, romantische Stimmung",
+      "altEn": "Bride and groom at golden sunrise in the Dolomites, dramatic peaks, soft light, romantic mood"
+    },
+    {
+      "image": "/assets/uploads/Blitzkneisser-Elopement-Lago-di-Braies-Dolomites-8.jpg",
+      "alt": "Brautpaar beim Rennen über eine Almwiese, Sonnenuntergang, fliegender Schleier, dynamische Bewegung",
+      "altEn": "Bride and groom running across an alpine meadow, sunset, flowing veil, dynamic motion"
+    },
+    {
+      "image": "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-20.jpg",
+      "alt": "Paarmoment am Berg mit natürlichem Licht",
+      "altEn": "Couple moment in the mountains with natural light"
+    },
+    {
+      "image": "/assets/uploads/Blitzkneisser-Weihnachts-Shooting-9.jpg",
+      "alt": "Brautpaar sitzt auf Felsen mit Blick auf die Dolomiten, Sonnenuntergang, warmes Licht",
+      "altEn": "Bride and groom sitting on rocks overlooking the Dolomites, sunset, warm light"
+    },
+    {
+      "image": "/assets/uploads/Blitzkneisser-Wedding-Dolomites-17.jpg",
+      "alt": "Just married – mitten in den Dolomiten",
+      "altEn": "Blitzkneisser Wedding Dolomites"
+    },
+    {
+      "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-12.jpg",
+      "alt": "Brautpaar vor den Drei Zinnen bei Sonnenaufgang, Nebel im Tal, episch",
+      "altEn": "Bride and groom in front of the Tre Cime at sunrise, mist in the valley, epic"
+    },
+    {
+      "image": "/assets/uploads/Blitzkneisser-Elopemnt-Dolomites-Lago-di-Braies-19.jpg",
+      "alt": "Brautpaar wandert Hand in Hand auf Bergpfad, golden hour, natürliche Emotionen",
+      "altEn": "Bride and groom hiking hand in hand on mountain trail, golden hour, natural emotions"
+    },
+    {
+      "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-28.jpg",
+      "alt": "Brautpaar mit Hubschrauber im Hintergrund auf Berggipfel, dramatischer Himmel",
+      "altEn": "Bride and groom with helicopter in background on mountain peak, dramatic sky"
+    },
+    {
+      "image": "/assets/uploads/Blitzkneisser-Hochzeit-Seefeld-9.jpg",
+      "alt": "Hochzeitsreportage mit ruhiger Stimmung in Seefeld",
+      "altEn": "Wedding reportage with a calm mood in Seefeld"
+    },
+    {
+      "image": "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Sneak-Peak-4.jpg",
+      "alt": "Blitzkneisser Eloepement Dolomites Sneak Peak",
+      "altEn": "Blitzkneisser Eloepement Dolomites Sneak Peak"
+    },
+    {
+      "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-7.jpg",
+      "alt": "Saying “I do” surrounded by the Dolomites",
+      "altEn": ""
+    },
+    {
+      "image": "/assets/uploads/Blitzkneisser-Dolomites-Lago-di-Braies-16.jpg",
+      "alt": "A wedding in the heart of the Dolomites",
+      "altEn": ""
+    },
+    {
+      "image": "/assets/uploads/Blitzkneisser-Dolomites-Wedding-16.jpg",
+      "alt": "Ein unvergesslicher Tag in den Dolomiten",
+      "altEn": "An unforgettable day in the Dolomites"
+    },
+    {
+      "image": "/assets/uploads/Blitzkneisser-Dolomites-Wedding-22.jpg",
+      "alt": "Eure Traumhochzeit in Südtirols Bergen",
+      "altEn": "Your dream wedding in South Tyrol’s mountains"
+    },
+    {
+      "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-12.jpg",
+      "alt": "Liebe auf höchstem Niveau – Dolomiten Edition",
+      "altEn": "Love at the highest level – Dolomites Edition"
+    },
+    {
+      "image": "/assets/uploads/Blitzkneisser-Winter-Wedding-Dolomites-21.jpg",
+      "alt": "Elopement in den Dolomiten",
+      "altEn": "Elopement in the Dolomites"
+    },
+    {
+      "image": "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-5.jpg",
+      "alt": "Blitzkneisser Pizza Elopement Dolomits",
+      "altEn": "Blitzkneisser Pizza Elopement Dolomites"
+    },
+    {
+      "image": "/assets/uploads/Blitzkneisser-Hochzeit-Zillertal-Schnee-7.jpg",
+      "alt": "Blitzkneisser Hochzeit Zillertal Schnee",
+      "altEn": "Blitzkneisser Wedding Zillertal Snow"
+    },
+    {
+      "image": "/assets/uploads/Blitzkneisser-vorab-Dolomites-6.jpg",
+      "alt": "Eine Hochzeit in den Dolomiten",
+      "altEn": "Blitzkneisser in advance Dolomites"
+    },
+    {
+      "image": "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14.jpg",
+      "alt": "Hochzeit über den Wolken der Dolomiten",
+      "altEn": "Wedding above the clouds of the Dolomites"
+    },
+    {
+      "image": "/assets/uploads/Blitzkneisser-Hochzeit-Nordkette-Tirol-1.jpg",
+      "alt": "Romantik pur in den Dolomiten",
+      "altEn": "Blitzkneisser Wedding Nordkette Tyrol"
+    },
+    {
+      "image": "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Sneak-Peak-6.jpg",
+      "alt": "Blitzkneisser Eloepement Dolomites Sneak Peak",
+      "altEn": "Blitzkneisser Eloepement Dolomites Sneak Peak"
+    },
+    {
+      "image": "/assets/uploads/Blitzkneisser-Eloepement-Drei-Zinne-Coldai-3.jpg",
+      "alt": "Blitzkneisser Eloepement Drei Zinne Coldai",
+      "altEn": "Blitzkneisser Eloepement Three Peaks Coldai"
+    },
+    {
+      "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-6.jpg",
+      "alt": "Blitzkneisser Elopement Dolomites",
+      "altEn": "Blitzkneisser Elopement Dolomites"
+    },
+    {
+      "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-233.jpg",
+      "alt": "Blitzkneisser Elopement Dolomites",
+      "altEn": "Blitzkneisser Elopement Dolomites"
+    },
+    {
+      "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-3.jpg",
+      "alt": "Blitzkneisser Mountain Elopement Dolomites",
+      "altEn": "Blitzkneisser Mountain Elopement Dolomites"
+    },
+    {
+      "image": "/assets/uploads/Blitzkneisser-Dolomites-Proposel-INSTA-3.jpg",
+      "alt": "Blitzkneisser Dolomites Proposel INSTA",
+      "altEn": "Blitzkneisser Dolomites Proposel INSTA"
+    },
+    {
+      "image": "/assets/uploads/Blitzkneisser-Proposal-Lago-di-Braies-81.jpg",
+      "alt": "Blitzkneisser Proposal Lago di Braies",
+      "altEn": "Blitzkneisser Proposal Lago di Braies"
+    },
+    {
+      "image": "/assets/uploads/Blitzkneisser-Winter-Wedding-Jufenalm-15.jpg",
+      "alt": "Blitzkneisser Winter Wedding Jufenalm",
+      "altEn": "Blitzkneisser Winter Wedding Jufenalm"
+    },
+    {
+      "image": "/assets/uploads/Blitzkneisser-Wedding-Photo-Nordkette-125.jpg",
+      "alt": "Blitzkneisser Wedding Photo Nordkette",
+      "altEn": "Blitzkneisser Wedding Photo Nordkette"
+    },
+    {
+      "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-120.jpg",
+      "alt": "Blitzkneisser Standesamt Kalkkögel",
+      "altEn": "Blitzkneisser registry office in Kalkkögel"
+    },
+    {
+      "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-Instagram-5.jpg",
+      "alt": "Blitzkneisser Pre Wedding Dolomites",
+      "altEn": "Blitzkneisser Pre Wedding Dolomites"
+    },
+    {
+      "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Sunrise-Dolomites-208.jpg",
+      "alt": "Blitzkneisser Pre Wedding Dolomites",
+      "altEn": "Blitzkneisser Pre Wedding Dolomites"
+    },
+    {
+      "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-191.jpg",
+      "alt": "Blitzkneisser Elopement Dolomites",
+      "altEn": "Blitzkneisser Elopement Dolomites"
+    },
+    {
+      "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Insta-8.jpg",
+      "alt": "Blitzkneisser Elopement Dolomites Insta",
+      "altEn": "Blitzkneisser Elopement Dolomites Insta"
+    },
+    {
+      "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-INSTAGRAM-16.jpg",
+      "alt": "Blitzkneisser Mountain Elopement Dolomites INSTAGRAM",
+      "altEn": "Blitzkneisser Mountain Elopement Dolomites INSTAGRAM"
+    },
+    {
+      "image": "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Sneak-Peak-7.jpg",
+      "alt": "Hochzeit am Gipfel im kleinsten Freundeskreis",
+      "altEn": "Wedding at the summit in the smallest circle of friends"
+    }
+  ]
+}

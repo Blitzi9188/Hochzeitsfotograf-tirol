@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vielen Dank | Blitzkneisser Academy</title>
+  <meta name="description" content="Vielen Dank für deinen Kauf. Hier findest du deinen Preset-Download und die nächsten Schritte.">
+  <link rel="icon" type="image/png" href="/Logo-Blitzkneisser-BERG.png">
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+</head>
+<body class="bg-white text-[#1B1A18] antialiased">
+  <main class="min-h-screen px-6 py-16 md:px-12 md:py-20">
+    <div class="mx-auto max-w-5xl border-t border-[#E6DED4] pt-8 md:pt-10">
+      <div class="flex items-start justify-between gap-6">
+        <div>
+          <p class="text-[11px] uppercase tracking-[0.28em] text-[#8A837A]" id="successEyebrow">Academy</p>
+          <h1 class="mt-3 max-w-4xl text-5xl font-black uppercase leading-[0.88] tracking-[-0.06em] md:text-8xl" id="successTitle">Vielen Dank</h1>
+        </div>
+        <div class="flex shrink-0 border border-[#E6DED4] text-[11px] uppercase tracking-[0.24em]">
+          <a id="langDeLink" class="border-r border-[#E6DED4] px-4 py-3 transition hover:bg-[#1B1A18] hover:text-white" href="?">DE</a>
+          <a id="langEnLink" class="px-4 py-3 transition hover:bg-[#1B1A18] hover:text-white" href="?lang=en">EN</a>
+        </div>
+      </div>
+      <p class="mt-6 max-w-3xl text-base leading-8 text-[#4E4942]" id="successCopy">
+        Dein Kauf war erfolgreich. Hier kannst du dein Preset herunterladen und direkt mit der Installation starten.
+      </p>
+
+      <div class="mt-10 rounded-sm border border-[#E6DED4] p-6 md:p-8" id="downloadCard">
+        <p class="text-[11px] uppercase tracking-[0.24em] text-[#8A837A]" id="downloadEyebrow">Preset Download</p>
+        <h2 class="mt-3 text-2xl font-bold uppercase tracking-[-0.04em]" id="downloadTitle">Dein Preset ist bereit</h2>
+        <p class="mt-4 max-w-2xl text-base leading-8 text-[#4E4942]" id="downloadCopy">
+          Über den folgenden Link kannst du dein gekauftes Preset sowie die Installationsanleitung öffnen.
+        </p>
+        <div class="mt-8 flex flex-wrap gap-4 text-[11px] uppercase tracking-[0.22em]">
+          <a id="downloadButton" class="hidden border border-[#1B1A18] px-5 py-3 transition hover:bg-[#1B1A18] hover:text-white" href="#" target="_blank" rel="noreferrer noopener">Preset herunterladen</a>
+          <a id="invoiceButton" class="hidden border border-[#E6DED4] px-5 py-3 transition hover:border-[#1B1A18]" href="#" target="_blank" rel="noreferrer noopener">Rechnung / Beleg</a>
+          <a id="academyBackLink" class="border border-[#E6DED4] px-5 py-3 transition hover:border-[#1B1A18]" href="/academy/">Zur Academy</a>
+          <a id="contactLink" class="border border-[#E6DED4] px-5 py-3 transition hover:border-[#1B1A18]" href="/contact/">Kontakt</a>
+        </div>
+        <p class="mt-6 text-sm leading-7 text-[#8A837A]" id="missingDownloadCopy" hidden>
+          Der Download-Link ist noch nicht hinterlegt. Bitte melde dich kurz über die Kontaktseite, dann schicken wir dir die Dateien direkt zu.
+        </p>
+      </div>
+
+      <div class="mt-8 grid gap-8 md:grid-cols-[1.1fr_0.9fr]">
+        <div class="rounded-sm border border-[#E6DED4] p-6 md:p-8" id="installCard">
+          <p class="text-[11px] uppercase tracking-[0.24em] text-[#8A837A]" id="installEyebrow">Installation</p>
+          <h2 class="mt-3 text-2xl font-bold uppercase tracking-[-0.04em]" id="installTitle">So fügst du dein Preset in Lightroom ein</h2>
+          <div class="mt-4 max-w-3xl whitespace-pre-line text-[14px] leading-7 text-[#5C564F]" id="installCopy"></div>
+        </div>
+
+        <div class="rounded-sm border border-[#E6DED4] p-6 md:p-8" id="legalCard">
+          <p class="text-[11px] uppercase tracking-[0.24em] text-[#8A837A]" id="legalEyebrow">Digitales Produkt</p>
+          <h2 class="mt-3 text-2xl font-bold uppercase tracking-[-0.04em]" id="legalTitle">Wichtiger Hinweis</h2>
+          <div class="mt-4 max-w-3xl whitespace-pre-line text-[13px] leading-6 text-[#6A645D]" id="legalCopy"></div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    const ui = {
+      de: {
+        pageTitle: "Vielen Dank | Blitzkneisser Academy",
+        metaDescription: "Vielen Dank für deinen Kauf. Hier findest du deinen Preset-Download und die nächsten Schritte.",
+        eyebrow: "Academy",
+        title: "Vielen Dank",
+        copy: "Dein Kauf war erfolgreich. Auf dieser Seite findest du deinen Download, die nächsten Schritte für Lightroom und alle wichtigen Hinweise zum digitalen Produkt.",
+        downloadEyebrow: "Preset Download",
+        downloadTitle: "Dein Preset ist bereit",
+        downloadCopy: "Über den Download-Link erhältst du dein gekauftes Preset-Paket. Die Datei enthält je nach Produkt die Presets, gegebenenfalls zusätzliche Varianten und die passende Installationshilfe.",
+        downloadButton: "Preset herunterladen",
+        invoiceButton: "Rechnung / Beleg",
+        academyBack: "Zur Academy",
+        contact: "Kontakt",
+        missingDownload: "Der Download-Link ist noch nicht hinterlegt. Bitte melde dich kurz über die Kontaktseite, dann schicken wir dir die Dateien direkt zu.",
+        installEyebrow: "Installation",
+        installTitle: "So fügst du dein Preset in Lightroom ein",
+        installCopy: "1. Lade die ZIP-Datei herunter und entpacke sie.\n2. Öffne Lightroom oder Lightroom Classic.\n3. Importiere die enthaltenen Presets über das Presets-Menü.\n4. Wähle ein Bild aus und teste das Preset.\n5. Passe Belichtung, Weißabgleich und Kontrast bei Bedarf an dein Bild an.",
+        legalEyebrow: "Digitales Produkt",
+        legalTitle: "Wichtiger Hinweis",
+        legalCopy: "Digitale Produkte sind vom Umtausch, von der Rückgabe und vom Widerruf ausgeschlossen, sobald die Auslieferung begonnen hat.\n\nBitte prüfe vor dem Kauf die Kompatibilität mit deiner Lightroom-Version. Die Presets dienen als kreative Ausgangsbasis und können je nach Licht, Kamera, Farbprofil und Aufnahme individuell angepasst werden."
+      },
+      en: {
+        pageTitle: "Thank you | Blitzkneisser Academy",
+        metaDescription: "Thank you for your purchase. Your preset download and next steps are available here.",
+        eyebrow: "Academy",
+        title: "Thank you",
+        copy: "Your purchase was successful. This page includes your download, the next Lightroom steps and the key notes related to your digital product.",
+        downloadEyebrow: "Preset Download",
+        downloadTitle: "Your preset is ready",
+        downloadCopy: "Use the download link below to access your purchased preset bundle. Depending on the product, the file may include multiple preset variations and the related installation guide.",
+        downloadButton: "Download preset",
+        invoiceButton: "Invoice / receipt",
+        academyBack: "Back to Academy",
+        contact: "Contact",
+        missingDownload: "The download link has not been stored yet. Please use the contact page and we will send the files to you directly.",
+        installEyebrow: "Installation",
+        installTitle: "How to add your preset to Lightroom",
+        installCopy: "1. Download the ZIP file and unzip it.\n2. Open Lightroom or Lightroom Classic.\n3. Import the included presets via the presets menu.\n4. Select an image and test the preset.\n5. Adjust exposure, white balance and contrast if needed to match your image.",
+        legalEyebrow: "Digital product",
+        legalTitle: "Important notice",
+        legalCopy: "Digital products are excluded from exchange, return and cancellation once delivery has started.\n\nPlease check compatibility with your Lightroom version before purchasing. Presets are designed as a creative starting point and may require individual adjustments depending on light, camera, color profile and exposure."
+      }
+    };
+
+    const normalizeEntry = (entry, kind) => ({
+      slug: entry?.slug || "",
+      kind,
+      title: entry?.title?.en ? entry.title : {
+        de: entry?.title || "",
+        en: entry?.titleEn || entry?.title || ""
+      },
+      bundleId: entry?.bundleId || "",
+      resourceUrl: entry?.resourceUrl || "",
+      installText: entry?.installText?.en ? entry.installText : {
+        de: entry?.installText || "",
+        en: entry?.installTextEn || entry?.installText || ""
+      },
+      legalNote: entry?.legalNote?.en ? entry.legalNote : {
+        de: entry?.legalNote || "",
+        en: entry?.legalNoteEn || entry?.legalNote || ""
+      },
+      resourceLabel: entry?.resourceLabel?.en ? entry.resourceLabel : {
+        de: entry?.resourceLabel || "Preset herunterladen",
+        en: entry?.resourceLabelEn || entry?.resourceLabel || "Download preset"
+      }
+    });
+
+    const loadAcademyData = async () => {
+      const response = await fetch(`/content/academy/page.json?preview=${Date.now()}`, { cache: "no-store" });
+      if (!response.ok) throw new Error("Academy data unavailable");
+      const raw = await response.json();
+      return [
+        ...(Array.isArray(raw.presets) ? raw.presets.map((item) => normalizeEntry(item, "preset")) : []),
+        ...(Array.isArray(raw.workshops) ? raw.workshops.map((item) => normalizeEntry(item, "workshop")) : [])
+      ];
+    };
+
+    const params = new URLSearchParams(window.location.search);
+    const storedLang = localStorage.getItem("site-lang");
+    const lang = params.get("lang") === "en"
+      ? "en"
+      : (params.get("lang") === "de" ? "de" : (storedLang === "en" || storedLang === "de" ? storedLang : "de"));
+    const entrySlug = params.get("entry") || "";
+    const entryType = params.get("type") || "preset";
+    const t = ui[lang];
+    const buildLangUrl = (nextLang) => {
+      const nextParams = new URLSearchParams(window.location.search);
+      if (nextLang === "en") nextParams.set("lang", "en");
+      else nextParams.delete("lang");
+      return `${window.location.pathname}${nextParams.toString() ? `?${nextParams.toString()}` : ""}`;
+    };
+
+    document.documentElement.lang = lang;
+    localStorage.setItem("site-lang", lang);
+    document.title = t.pageTitle;
+    document.querySelector('meta[name="description"]').setAttribute("content", t.metaDescription);
+    document.getElementById("successEyebrow").textContent = t.eyebrow;
+    document.getElementById("successTitle").textContent = t.title;
+    document.getElementById("successCopy").textContent = t.copy;
+    document.getElementById("downloadEyebrow").textContent = t.downloadEyebrow;
+    document.getElementById("downloadTitle").textContent = t.downloadTitle;
+    document.getElementById("downloadCopy").textContent = t.downloadCopy;
+    document.getElementById("downloadButton").textContent = t.downloadButton;
+    document.getElementById("invoiceButton").textContent = t.invoiceButton;
+    document.getElementById("academyBackLink").textContent = t.academyBack;
+    document.getElementById("contactLink").textContent = t.contact;
+    document.getElementById("missingDownloadCopy").textContent = t.missingDownload;
+    document.getElementById("installEyebrow").textContent = t.installEyebrow;
+    document.getElementById("installTitle").textContent = t.installTitle;
+    document.getElementById("installCopy").textContent = t.installCopy;
+    document.getElementById("legalEyebrow").textContent = t.legalEyebrow;
+    document.getElementById("legalTitle").textContent = t.legalTitle;
+    document.getElementById("legalCopy").textContent = t.legalCopy;
+    document.getElementById("academyBackLink").href = lang === "en" ? "/academy/?lang=en" : "/academy/";
+    document.getElementById("contactLink").href = lang === "en" ? "/contact/?lang=en" : "/contact/";
+    document.getElementById("langDeLink").href = buildLangUrl("de");
+    document.getElementById("langEnLink").href = buildLangUrl("en");
+    document.getElementById("langDeLink").classList.toggle("bg-[#1B1A18]", lang === "de");
+    document.getElementById("langDeLink").classList.toggle("text-white", lang === "de");
+    document.getElementById("langEnLink").classList.toggle("bg-[#1B1A18]", lang === "en");
+    document.getElementById("langEnLink").classList.toggle("text-white", lang === "en");
+
+    loadAcademyData()
+      .then((entries) => {
+        const entry = entries.find((item) => item.slug === entrySlug && item.kind === entryType) || null;
+        if (!entry) return;
+        document.getElementById("downloadTitle").textContent = entry.title?.[lang] || entry.title?.de || t.downloadTitle;
+        if (entry.installText?.[lang]) {
+          document.getElementById("installCopy").textContent = entry.installText[lang];
+        }
+        if (entry.legalNote?.[lang]) {
+          document.getElementById("legalCopy").textContent = entry.legalNote[lang];
+        }
+
+        const sessionId = params.get("session_id");
+        const downloadButton = document.getElementById("downloadButton");
+        const missingDownloadCopy = document.getElementById("missingDownloadCopy");
+        const revealFallbackDownload = () => {
+          if (entry.resourceUrl) {
+            downloadButton.href = entry.resourceUrl;
+            downloadButton.textContent = entry.resourceLabel?.[lang] || t.downloadButton;
+            downloadButton.classList.remove("hidden");
+            missingDownloadCopy.hidden = true;
+            return;
+          }
+          missingDownloadCopy.hidden = false;
+        };
+
+        if (sessionId && entry.bundleId) {
+          fetch(`/api/academy/session-download-link?session_id=${encodeURIComponent(sessionId)}&entry=${encodeURIComponent(entry.slug)}&type=${encodeURIComponent(entry.kind)}&lang=${encodeURIComponent(lang)}`, { cache: "no-store" })
+            .then((response) => response.ok ? response.json() : null)
+            .then((payload) => {
+              if (!payload?.downloadUrl) {
+                revealFallbackDownload();
+                return;
+              }
+              downloadButton.href = payload.downloadUrl;
+              downloadButton.textContent = entry.resourceLabel?.[lang] || t.downloadButton;
+              downloadButton.classList.remove("hidden");
+              missingDownloadCopy.hidden = true;
+            })
+            .catch(() => {
+              revealFallbackDownload();
+            });
+        } else {
+          revealFallbackDownload();
+        }
+
+        if (sessionId) {
+          fetch(`/api/stripe/session-summary?session_id=${encodeURIComponent(sessionId)}`, { cache: "no-store" })
+            .then((response) => response.ok ? response.json() : null)
+            .then((payload) => {
+              const invoiceUrl = payload?.invoiceUrl || payload?.receiptUrl || "";
+              if (!invoiceUrl) return;
+              const invoiceButton = document.getElementById("invoiceButton");
+              invoiceButton.href = invoiceUrl;
+              invoiceButton.classList.remove("hidden");
+            })
+            .catch(() => {});
+        }
+      })
+      .catch(() => {
+        document.getElementById("missingDownloadCopy").hidden = false;
+      });
+  </script>
+</body>
+</html>

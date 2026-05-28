@@ -1,0 +1,910 @@
+{
+  "de": {
+    "slug": "lago-di-braies-guide",
+    "title": "Lago di Braies Guide | Ruhiges Wasser, Sonnenaufgang und Crowd Reality",
+    "description": "Ein ruhiger Planungs-Guide für Lago di Braies für Elopements und intime Hochzeiten, von der Realität des Sonnenaufgangs bis hin zu Parkplätzen, Booten und Menschenmengenmanagement.",
+    "hero": {
+      "eyebrow": "Standort-Guide",
+      "title": "Lago di Braies Guide",
+      "copy": "Ein ehrlicher Guide für Paare, die den Pragser Wildsee nicht nur als berühmtes Bild kennen, sondern verstehen möchten, wann er still, weich und tatsächlich erlebbar wird.",
+      "cta": "Planung starten",
+      "image": "/assets/uploads/Blitzkneisser-Elopemnt-Dolomites-Lago-di-Braies-19.jpg",
+      "imageAlt": "Lago di Braies mit ruhigem Wasser und frühem Licht"
+    },
+    "utility": {
+      "reading": "Guide",
+      "focus": "Für ruhige Morgen am Lago di Braies",
+      "navOverview": "Überblick",
+      "navSeasons": "Standorthinweise",
+      "navPhilosophy": "Einführung",
+      "navVisual": "Weitere Guides",
+      "navFaq": "FAQ"
+    },
+    "overview": {
+      "eyebrow": "Guide im Überblick",
+      "copy": "Lago di Braies ist einer der bekanntesten Orte in den Dolomiten. Genau deshalb entscheidet das Timing hier über alles. Früh am Morgen kann der See fast unbewegt wirken. Später tragen Boote, Stimmen und Wege eine ganz andere Energie hinein.",
+      "items": [
+        {
+          "icon": "sun",
+          "label": "Bestes Licht",
+          "value": "Sonnenaufgang"
+        },
+        {
+          "icon": "crowd",
+          "label": "Crowd Level",
+          "value": "Hoch später am Tag"
+        },
+        {
+          "icon": "path",
+          "label": "Zugang",
+          "value": "Einfach, aber reguliert"
+        },
+        {
+          "icon": "guests",
+          "label": "Ideal für",
+          "value": "Nachdenkliche, intime Morgen"
+        },
+        {
+          "icon": "calendar",
+          "label": "Jahreszeit",
+          "value": "Spätfrühling bis Herbst"
+        }
+      ]
+    },
+    "philosophy": {
+      "eyebrow": "Eine erste Orientierung",
+      "title": "Lago di Braies lebt nicht von Größe, sondern von Spiegelung, Stille und dem ersten Licht auf dem Wasser.",
+      "copy": "Wer diesen Ort liebt, liebt meist nicht das Spektakel. Es ist eher dieses seltene Gefühl, wenn der See fast still liegt, der Holzsteg leer ist und die Berge sich nur als leiser Schatten im Wasser zeigen."
+    },
+    "sections": {
+      "seasonOrder": [
+        "special",
+        "time",
+        "sunrise",
+        "boathouse",
+        "access",
+        "weather",
+        "spots"
+      ],
+      "seasons": {
+        "special": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Elopemnt-Dolomites-Lago-di-Braies-289.jpg",
+          "imageAlt": "Platzhalterbild für Lago di Braies See",
+          "eyebrow": "",
+          "title": "Warum sich Lago di Braies so besonders anfühlt",
+          "intro": "Dieser Ort ist berühmt, aber seine Stärke liegt in den leisen Minuten.",
+          "copy": "Braies wirkt am stärksten, wenn Wasser, Berge und Geräusche noch nicht gegeneinander arbeiten. Dann fühlt sich der See fast wie ein geschlossener Raum an: kühl, ruhig und sehr konzentriert.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "wind",
+              "label": "Stimmung",
+              "value": "Nachdenklich und still"
+            },
+            {
+              "icon": "guests",
+              "label": "Ideal für",
+              "value": "Ruhige Morgen und intime Porträts"
+            },
+            {
+              "icon": "sunrise",
+              "label": "Visuelle Stärke",
+              "value": "Wasser, Bootshaus, Symmetrie"
+            }
+          ],
+          "note": "",
+          "meta": "Reflexion • Stille • weiche Struktur",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "time": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Lago-di-Braies-11.jpg",
+          "imageAlt": "Platzhalterbild für frühes Licht an einem See",
+          "eyebrow": "",
+          "title": "Beste Tageszeit",
+          "intro": "Die beste Tageszeit ist fast nie verhandelbar.",
+          "copy": "Wenn ihr den See still erleben wollt, ist der frühe Morgen meist die ehrlichste Wahl. Später wird das Licht härter, die Wege voller und die besondere Ruhe dieses Ortes lässt spürbar nach.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "calendar",
+              "label": "Beste Zeit",
+              "value": "Vor und um Sonnenaufgang"
+            },
+            {
+              "icon": "crowd",
+              "label": "Späterer Tag",
+              "value": "Viel geschäftiger und lauter"
+            },
+            {
+              "icon": "sun",
+              "label": "Bestes Licht",
+              "value": "Sanftes erstes Licht"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "sunrise": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Insta-184.jpg",
+          "imageAlt": "Platzhalterbild für Sonnenaufgang an einem Bergsee",
+          "eyebrow": "",
+          "title": "Sonnenaufgangsrealität",
+          "intro": "Sonnenaufgang bedeutet hier vor allem Leere, Kühle und Zeitvorsprung.",
+          "copy": "Braies muss nicht spektakulär glühen, um schön zu sein. Oft ist es gerade das matte, frühe Licht, das den See so ruhig wirken lässt. Dazu kommt der wichtigste Vorteil: Ihr seid den meisten Tagesbesuchern deutlich voraus.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "sunrise",
+              "label": "Warum Sonnenaufgang",
+              "value": "Stille, sanfterer Zugang, ruhigeres Wasser"
+            },
+            {
+              "icon": "calendar",
+              "label": "Wirklichkeit",
+              "value": "Erfordert einen frühen, bewussten Start"
+            },
+            {
+              "icon": "guests",
+              "label": "Es lohnt sich",
+              "value": "Normalerweise ja für Paare, die Intimität priorisieren"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "boathouse": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Pragser-Wildsee-Dolomites-98.jpg",
+          "imageAlt": "Platzhalterbild für das Erlebnis Bootshaus am See",
+          "eyebrow": "",
+          "title": "Bootshaus- und Seeerlebnis",
+          "intro": "Das Bootshaus ist schön, aber nie die ganze Geschichte.",
+          "copy": "Viele Bilder konzentrieren sich auf die Boote, dabei lebt der Ort oft stärker von den stillen Ufermomenten, vom weichen Wasser und von den Blicken entlang des Sees. Wer nur das berühmte Motiv sucht, verpasst leicht den eigentlichen Ton von Braies.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "sun",
+              "label": "Visuelles Highlight",
+              "value": "Holzboote und stille Küste"
+            },
+            {
+              "icon": "cloud",
+              "label": "Beste Stimmung",
+              "value": "Früh, ruhig und leicht neblig"
+            },
+            {
+              "icon": "wind",
+              "label": "Ansatz",
+              "value": "Nutzt es als Teil der Geschichte, nicht als die ganze Geschichte"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "access": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Couple-Shooting-Dolomites-INSTA-4.jpg",
+          "imageAlt": "Platzhalterbild für Parkplatz und Zufahrt an einem See",
+          "eyebrow": "",
+          "title": "Zufahrt und Parken",
+          "intro": "Einfach erreichbar heißt hier nicht automatisch entspannt.",
+          "copy": "Der See ist vergleichsweise leicht zugänglich, genau deshalb baut sich Druck oft über Parksysteme, Einfahrtsregeln und die Zahl der Besucher auf. Wer Braies ruhiger erleben möchte, plant den Zugang fast genauso bewusst wie die Fotos selbst.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "path",
+              "label": "Schwierigkeit",
+              "value": "Einfach"
+            },
+            {
+              "icon": "key",
+              "label": "Parken",
+              "value": "Es ist wichtig, dies im Voraus zu überprüfen"
+            },
+            {
+              "icon": "guests",
+              "label": "Gästefreundlich",
+              "value": "Ja, mehr als viele Bergrückenstandorte"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "weather": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-9.jpg",
+          "imageAlt": "Platzhalterbild für Seewetter",
+          "eyebrow": "",
+          "title": "Wetternotizen",
+          "intro": "Nebel und weiches Grau können hier stärker sein als Sonnenschein.",
+          "copy": "Bei Braies darf das Wetter sanfter sein. Ein stiller, leicht verhangener Morgen kann dem See mehr Tiefe geben als klarer Himmel zur falschen Uhrzeit.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "cloud",
+              "label": "Nebel",
+              "value": "Hier oft schön"
+            },
+            {
+              "icon": "wind",
+              "label": "Wind",
+              "value": "Wechselt das Wasser schnell"
+            },
+            {
+              "icon": "sun",
+              "label": "Beste Stimmung",
+              "value": "Weiche Wolke oder erstes Licht"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "spots": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Lago-di-Braies-151.jpg",
+          "imageAlt": "Platzhalterbild für die besten Fotospots rund um Lago di Braies",
+          "eyebrow": "",
+          "title": "Beste Fotospots",
+          "intro": "Die besten Bilder entstehen selten nur an einem einzigen Punkt.",
+          "copy": "Der Steg ist ikonisch, aber auch die stilleren Ufer, die Wege entlang des Wassers und die offeneren Blickachsen können Braies viel persönlicher wirken lassen.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "sun",
+              "label": "Ikonischer Ort",
+              "value": "Bootshaus"
+            },
+            {
+              "icon": "path",
+              "label": "Ruhigerer Ort",
+              "value": "Weitere Ränder des Sees"
+            },
+            {
+              "icon": "wind",
+              "label": "Bester Ansatz",
+              "value": "Mischt das Offensichtliche mit der ruhigeren Umgebung"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        }
+      }
+    },
+    "planning": {
+      "eyebrow": "Planungsnotizen",
+      "title": "Was bei Lago di Braies meist über die Stimmung entscheidet.",
+      "intro": "Hier geht es weniger um körperliche Anstrengung als um Disziplin beim Timing. Wer zu spät kommt, erlebt fast einen anderen Ort.",
+      "items": [
+        {
+          "label": "Timing",
+          "title": "Früh sein ist hier keine Stilfrage, sondern der Schlüssel.",
+          "copy": "Der Unterschied zwischen sehr früh und nur etwas später ist an Braies besonders deutlich.",
+          "meta": "Ruhe hat hier eine Uhrzeit."
+        },
+        {
+          "label": "Wetter",
+          "title": "Leichter Nebel kann der schönste Teil des Morgens sein.",
+          "copy": "Nicht jeder Braies-Tag braucht Sonne. Gerade matte, feuchte Morgen können wunderbare Tiefe haben.",
+          "meta": "Sanftes Wetter trägt den See."
+        },
+        {
+          "label": "Zugang",
+          "title": "Parken und Einfahrt sollten nicht erst am Vorabend geklärt werden.",
+          "copy": "Je nach Saison und Wochentag lohnt es sich, Regeln und Zeitfenster früh zu prüfen.",
+          "meta": "Entspannung beginnt vor der Anreise."
+        },
+        {
+          "label": "Bildsprache",
+          "title": "Lasst Braies nicht nur zum Postkartenmotiv werden.",
+          "copy": "Die stärksten Momente liegen oft in kleinen Bewegungen, Spiegelungen und dem stillen Wasser zwischen den bekannten Blicken.",
+          "meta": "Weniger Pose, mehr Wahrnehmung."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Fragen, die Paare oft zu Lago di Braies stellen.",
+      "intro": "Die Antworten liegen hier fast immer in zwei Dingen: Timing und Erwartung. Der See ist schön, aber nicht zu jeder Stunde derselbe Ort.",
+      "items": [
+        {
+          "q": "Ist Lago di Braies zu voll für ein Elopement?",
+          "a": "Zu spät am Morgen kann er sehr belebt wirken. Wenn ihr Braies still erleben wollt, macht der frühe Start fast den ganzen Unterschied. Wochentage und Nebensaison helfen zusätzlich."
+        },
+        {
+          "q": "Ist der See gut für Gäste?",
+          "a": "Ja, im Vergleich zu vielen Bergorten ist Braies deutlich leichter zugänglich. Genau deshalb ist er aber auch stärker besucht und braucht mehr Sorgfalt beim Timing."
+        },
+        {
+          "q": "Verdirbt Nebel den See?",
+          "a": "Im Gegenteil. Leichter Nebel oder ein matter Morgen machen Braies oft dichter, stiller und viel stimmungsvoller als ein blauer Himmel zur falschen Uhrzeit."
+        },
+        {
+          "q": "Ist das Bootshaus notwendig?",
+          "a": "Nein. Es ist schön, aber nicht der ganze Ort. Viele der stärksten Momente entstehen entlang des stillen Ufers, in Spiegelungen oder in den ruhigeren Blickachsen am See."
+        }
+      ]
+    },
+    "related": {
+      "eyebrow": "Verwandte Leitfäden",
+      "hint": "Wischt nach links oder rechts, um weitere Guides zu sehen.",
+      "items": [
+        {
+          "label": "Dolomiten",
+          "title": "Elopement-Guide für die Dolomiten",
+          "copy": "Ein ruhiger Ausgangspunkt für Paare, die ein Dolomites Elopement oder eine intime Berghochzeit planen und verstehen möchten, wie Licht, Wege, Wetter und Menschenmengen den Tag wirklich prägen.",
+          "href": "/guides/dolomites-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-120.jpg",
+          "imageAlt": "Paar bei einem Dolomiten-Elopement im weichen Morgenlicht",
+          "alt": "Paar bei einem Dolomiten-Elopement im weichen Morgenlicht"
+        },
+        {
+          "label": "Standorte",
+          "title": "Die beliebtesten Elopement-Orte in den Dolomiten",
+          "copy": "Ein kuratierter Guide für Paare, die nicht einfach irgendeine schöne Aussicht suchen, sondern den Ort, dessen Stimmung wirklich zu ihrem Tag passt.",
+          "href": "/guides/best-dolomites-elopement-locations/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-191.jpg",
+          "imageAlt": "Elopement-Standorte in den Dolomiten",
+          "alt": "Elopement-Standorte in den Dolomiten"
+        },
+        {
+          "label": "Standorte",
+          "title": "Seceda Guide",
+          "copy": "Ein Guide für Paare, die an Seceda nicht nur die berühmte Kante suchen, sondern das Gefühl von Weite, Wind und offenem Berglicht, das diesen Ort so unverwechselbar macht.",
+          "href": "/guides/seceda-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Seceda-180.jpg",
+          "imageAlt": "Seceda bei klarem Berglicht",
+          "alt": "Seceda bei klarem Berglicht"
+        },
+        {
+          "label": "Standorte",
+          "title": "Cadini di Misurina Guide",
+          "copy": "Ein Guide für Paare, die an Cadini diese wilde, kinoreife Spannung lieben und zugleich wissen möchten, wann der Ort zugänglich, sicher und wirklich stimmig ist.",
+          "href": "/guides/cadini-di-misurina-guide/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-12.jpg",
+          "imageAlt": "Cadini di Misurina mit markanten Felsformen",
+          "alt": "Cadini di Misurina mit markanten Felsformen"
+        },
+        {
+          "label": "Standorte",
+          "title": "Drei Zinnen Guide",
+          "copy": "Ein ehrlicher Guide für Paare, die Drei Zinnen nicht nur wegen des berühmten Blicks wählen, sondern wegen dieser monumentalen, fast unwirklichen Präsenz, die der Ort im richtigen Moment entfaltet.",
+          "href": "/guides/tre-cime-wedding-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14.jpg",
+          "imageAlt": "Drei Zinnen bei klarem Berglicht",
+          "alt": "Drei Zinnen bei klarem Berglicht"
+        },
+        {
+          "label": "Planung",
+          "title": "Beste Jahreszeit für ein Dolomiten-Elopement",
+          "copy": "Ein ehrlicher Guide zu Licht, Temperaturen, Menschenmengen und der Frage, wann sich die Berge nicht nur schön, sondern wirklich stimmig für euch anfühlen.",
+          "href": "/guides/best-time-for-a-dolomites-elopement/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-16.jpg",
+          "imageAlt": "Vorhandenes Bild zur schönsten Zeit in den Dolomiten",
+          "alt": "Vorhandenes Bild zur schönsten Zeit in den Dolomiten"
+        },
+        {
+          "label": "Planung",
+          "title": "Sonnenaufgang vs. Sonnenuntergang in den Dolomiten",
+          "copy": "Ein ehrlicher Vergleich für Paare, die nicht nur schönes Licht suchen, sondern verstehen möchten, welche Tageszeit zu ihrem Energielevel, ihrem Ort und dem gewünschten Gefühl passt.",
+          "href": "/guides/sunrise-vs-sunset-dolomites/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Photo-368.jpg",
+          "imageAlt": "Lichtstimmung in den Bergen bei Sonnenaufgang oder Sonnenuntergang",
+          "alt": "Lichtstimmung in den Bergen bei Sonnenaufgang oder Sonnenuntergang"
+        },
+        {
+          "label": "Planung",
+          "title": "Guide zur Wetter- und Backup-Planung",
+          "copy": "Ein ruhiger Wetter-Guide für Paare, die in den Bergen nicht auf perfekte Bedingungen hoffen, sondern einen Tag planen möchten, der auch bei Nebel, Wind oder Regen stimmig bleibt.",
+          "href": "/guides/weather-and-backup-planning/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-161.jpg",
+          "imageAlt": "Wetterstimmung in den Dolomiten mit Wolken und Nebel",
+          "alt": "Wetterstimmung in den Dolomiten mit Wolken und Nebel"
+        },
+        {
+          "label": "Planung",
+          "title": "Was man in den Bergen anziehen sollte",
+          "copy": "Ein praktischer Guide für Paare, die in den Bergen nicht nur schön aussehen, sondern sich auch frei bewegen, warm bleiben und sich in ihrer Kleidung wirklich wiederfinden möchten.",
+          "href": "/guides/what-to-wear-in-the-mountains/",
+          "image": "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Hut-13.jpg",
+          "imageAlt": "Kleidung für ein Elopement in den Bergen",
+          "alt": "Kleidung für ein Elopement in den Bergen"
+        },
+        {
+          "label": "Planung",
+          "title": "Helikopter-Elopement-Guide",
+          "copy": "Ein Guide für Paare, die Weite, Abgeschiedenheit und einen klareren Tagesfluss suchen und verstehen möchten, wann ein Helikopter in den Bergen wirklich sinnvoll ist.",
+          "href": "/guides/helicopter-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-12.jpg",
+          "imageAlt": "Helikopterflug über den Bergen für ein Elopement",
+          "alt": "Helikopterflug über den Bergen für ein Elopement"
+        },
+        {
+          "label": "Planung",
+          "title": "Mehrtägiger Elopement-Guide",
+          "copy": "Ein Guide für Paare, die mehr wollen als ein paar schnelle Stunden in den Bergen und ihren Hochzeitstag lieber in Ruhe entfalten lassen möchten.",
+          "href": "/guides/multi-day-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Insta-11.jpg",
+          "imageAlt": "Mehrtägiges Elopement in den Dolomiten",
+          "alt": "Mehrtägiges Elopement in den Dolomiten"
+        }
+      ]
+    },
+    "final": {
+      "eyebrow": "Ruhig geplant",
+      "title": "Lasst uns etwas gestalten, das sich ruhig, persönlich und zutiefst wahr anfühlt.",
+      "copy": "Wenn sich dieser Guide bereits nah an dem anfühlt, was ihr euch wünscht, helfe ich euch gern dabei, dieses Gefühl in etwas Ruhiges, Filmisches und wirklich Eigenes in den Bergen zu verwandeln.",
+      "cta": "Termin anfragen",
+      "image": "/assets/uploads/Blitzkneisser-Photo-Drei-Zinnen-Italy-24.jpg",
+      "imageAlt": "Drei Zinnen in den Dolomiten bei ruhigem, klarem Licht"
+    }
+  },
+  "en": {
+    "slug": "lago-di-braies-guide",
+    "title": "Lago di Braies Guide | Quiet Water, Sunrise and Crowd Reality",
+    "description": "A calm planning guide to Lago di Braies for elopements and intimate weddings, from sunrise reality to parking, boats and crowd management.",
+    "hero": {
+      "eyebrow": "Location Guide",
+      "title": "Lago di Braies Guide",
+      "copy": "An honest guide for couples who know Lago di Braies as more than a famous photograph and want to understand when it feels soft, quiet and truly worth experiencing.",
+      "cta": "Start planning",
+      "image": "/assets/uploads/Blitzkneisser-Elopemnt-Dolomites-Lago-di-Braies-19.jpg",
+      "imageAlt": "Lago di Braies with still water and early light"
+    },
+    "utility": {
+      "reading": "Guide",
+      "focus": "For calm mornings at Lago di Braies",
+      "navOverview": "Overview",
+      "navSeasons": "Location Notes",
+      "navPhilosophy": "Intro",
+      "navVisual": "More guides",
+      "navFaq": "FAQ"
+    },
+    "overview": {
+      "eyebrow": "Guide Overview",
+      "copy": "Lago di Braies is one of the best-known places in the Dolomites. That is exactly why timing changes everything here. At dawn, the lake can feel nearly motionless. Later, boats, voices and foot traffic bring in a completely different energy.",
+      "items": [
+        {
+          "icon": "sun",
+          "label": "Best Light",
+          "value": "Sunrise"
+        },
+        {
+          "icon": "crowd",
+          "label": "Crowd Level",
+          "value": "High later in the day"
+        },
+        {
+          "icon": "path",
+          "label": "Access",
+          "value": "Easy, but regulated"
+        },
+        {
+          "icon": "guests",
+          "label": "Best For",
+          "value": "Reflective, intimate mornings"
+        },
+        {
+          "icon": "calendar",
+          "label": "Season",
+          "value": "Late spring to autumn"
+        }
+      ]
+    },
+    "philosophy": {
+      "eyebrow": "A first note",
+      "title": "Lago di Braies is not about scale. It is about reflection, stillness and the first light on the water.",
+      "copy": "Most couples who love this place are not drawn to spectacle. They are drawn to that rare moment when the lake lies almost still, the boathouse is quiet and the mountains live more as a reflection than a statement."
+    },
+    "sections": {
+      "seasonOrder": [
+        "special",
+        "time",
+        "sunrise",
+        "boathouse",
+        "access",
+        "weather",
+        "spots"
+      ],
+      "seasons": {
+        "special": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Elopemnt-Dolomites-Lago-di-Braies-289.jpg",
+          "imageAlt": "Placeholder image for Lago di Braies lake",
+          "eyebrow": "",
+          "title": "Why Lago di Braies feels so special",
+          "intro": "This place is famous, but its real strength lives in the quieter minutes.",
+          "copy": "Braies feels strongest when water, mountains and sound are not competing with each other. In those early moments, the lake almost feels enclosed: cool, still and very focused.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "wind",
+              "label": "Mood",
+              "value": "Reflective and still"
+            },
+            {
+              "icon": "guests",
+              "label": "Best For",
+              "value": "Quiet mornings and intimate portraits"
+            },
+            {
+              "icon": "sunrise",
+              "label": "Visual Strength",
+              "value": "Water, boathouse, symmetry"
+            }
+          ],
+          "note": "",
+          "meta": "Reflection • stillness • soft structure",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "time": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Lago-di-Braies-11.jpg",
+          "imageAlt": "Placeholder image for early light at a lake",
+          "eyebrow": "",
+          "title": "Best time of day",
+          "intro": "The best time of day is rarely negotiable here.",
+          "copy": "If you want the lake to feel calm, early morning is usually the honest choice. Later, the light hardens, the paths fill and the special quiet of the place fades quickly.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "calendar",
+              "label": "Best Time",
+              "value": "Before and around sunrise"
+            },
+            {
+              "icon": "crowd",
+              "label": "Later Day",
+              "value": "Much busier and louder"
+            },
+            {
+              "icon": "sun",
+              "label": "Best Light",
+              "value": "Soft first light"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "sunrise": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Insta-184.jpg",
+          "imageAlt": "Placeholder image for sunrise at a mountain lake",
+          "eyebrow": "",
+          "title": "Sunrise reality",
+          "intro": "Sunrise here mostly means emptiness, cold air and a head start.",
+          "copy": "Braies does not need dramatic color to work beautifully. The softer, flatter light of early morning is often exactly what makes it feel serene. Just as important, you are well ahead of most day visitors.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "sunrise",
+              "label": "Why Sunrise",
+              "value": "Silence, softer access, calmer water"
+            },
+            {
+              "icon": "calendar",
+              "label": "Reality",
+              "value": "Requires an early, intentional start"
+            },
+            {
+              "icon": "guests",
+              "label": "Worth It",
+              "value": "Usually yes for couples prioritising intimacy"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "boathouse": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Pragser-Wildsee-Dolomites-98.jpg",
+          "imageAlt": "Placeholder image for lake boathouse experience",
+          "eyebrow": "",
+          "title": "Boat house and lake experience",
+          "intro": "The boathouse is beautiful, but it is never the whole story.",
+          "copy": "Many images fixate on the boats. In reality, the place often becomes more meaningful in the still shoreline moments, the soft water and the longer views along the lake. If you chase only the famous frame, you can miss the tone that makes Braies special.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "sun",
+              "label": "Visual Highlight",
+              "value": "Wooden boats & still shoreline"
+            },
+            {
+              "icon": "cloud",
+              "label": "Best Mood",
+              "value": "Early, calm and lightly foggy"
+            },
+            {
+              "icon": "wind",
+              "label": "Approach",
+              "value": "Use it as part of the story, not the whole story"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "access": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Couple-Shooting-Dolomites-INSTA-4.jpg",
+          "imageAlt": "Placeholder image for parking and access at a lake",
+          "eyebrow": "",
+          "title": "Access and parking",
+          "intro": "Easy to reach does not always mean relaxed.",
+          "copy": "The lake is relatively accessible, and that is exactly why pressure tends to build through parking systems, entry rules and the sheer number of visitors. Couples who want a quieter experience plan access almost as carefully as the photographs.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "path",
+              "label": "Difficulty",
+              "value": "Easy"
+            },
+            {
+              "icon": "key",
+              "label": "Parking",
+              "value": "Important to verify ahead of time"
+            },
+            {
+              "icon": "guests",
+              "label": "Guest Friendly",
+              "value": "Yes, more than many ridge locations"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "weather": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-9.jpg",
+          "imageAlt": "Placeholder image for lake weather",
+          "eyebrow": "",
+          "title": "Weather notes",
+          "intro": "Mist and soft grey can be stronger here than bright sunshine.",
+          "copy": "Braies often benefits from gentler weather. A still, slightly overcast morning can give the lake more depth than clear skies at the wrong hour.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "cloud",
+              "label": "Fog",
+              "value": "Often beautiful here"
+            },
+            {
+              "icon": "wind",
+              "label": "Wind",
+              "value": "Changes the water quickly"
+            },
+            {
+              "icon": "sun",
+              "label": "Best Mood",
+              "value": "Soft cloud or first light"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "spots": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Lago-di-Braies-151.jpg",
+          "imageAlt": "Placeholder image for best photo spots around Lago di Braies",
+          "eyebrow": "",
+          "title": "Best photo spots",
+          "intro": "The strongest images rarely happen at one single point.",
+          "copy": "The dock is iconic, but the quieter banks, the paths along the water and the longer open views often make Braies feel far more personal.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "sun",
+              "label": "Iconic Spot",
+              "value": "Boathouse"
+            },
+            {
+              "icon": "path",
+              "label": "Quieter Spot",
+              "value": "Farther edges of the lake"
+            },
+            {
+              "icon": "wind",
+              "label": "Best Approach",
+              "value": "Mix the obvious with the quieter surroundings"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        }
+      }
+    },
+    "planning": {
+      "eyebrow": "Planning Notes",
+      "title": "What usually shapes the mood at Lago di Braies.",
+      "intro": "This place is less about physical effort and more about discipline with timing. If you arrive too late, it can feel like an entirely different lake.",
+      "items": [
+        {
+          "label": "Timing",
+          "title": "Being early is not a style choice here. It is the key.",
+          "copy": "The difference between very early and simply “not too late” is especially obvious at Braies.",
+          "meta": "Quiet has a clear hour here."
+        },
+        {
+          "label": "Weather",
+          "title": "A little mist can be one of the best parts of the morning.",
+          "copy": "Not every Braies day needs sunlight. Damp, muted mornings often carry extraordinary depth.",
+          "meta": "Softer weather suits the lake."
+        },
+        {
+          "label": "Access",
+          "title": "Parking and entry rules are worth checking well in advance.",
+          "copy": "Depending on season and weekday, the systems around the lake can shape the whole start of the day.",
+          "meta": "Ease starts before you arrive."
+        },
+        {
+          "label": "Visual tone",
+          "title": "Do not let Braies become only a postcard.",
+          "copy": "The strongest moments are often hidden in small movements, reflections and the silence between the famous viewpoints.",
+          "meta": "Less performance, more presence."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Questions couples often ask about Lago di Braies.",
+      "intro": "The answers here usually come down to two things: timing and expectation. The lake is beautiful, but it is not the same place at every hour.",
+      "items": [
+        {
+          "q": "Is Lago di Braies too crowded for an elopement?",
+          "a": "Later in the morning, it can feel very busy. If you want Braies to feel quiet, early timing changes almost everything. Weekdays and shoulder season help as well."
+        },
+        {
+          "q": "Is the lake good for guests?",
+          "a": "Yes. Compared with many mountain locations, Braies is much easier to access. That is also why it needs more care around timing and visitor rhythm."
+        },
+        {
+          "q": "Does fog ruin the lake?",
+          "a": "Usually not at all. Light mist or a muted morning often makes Braies feel deeper, quieter and more atmospheric than clear sun at the wrong hour."
+        },
+        {
+          "q": "Is the boathouse necessary?",
+          "a": "No. It is beautiful, but it is not the whole place. Some of the strongest moments happen along the quieter shoreline, in reflections and in the softer edges of the lake."
+        }
+      ]
+    },
+    "related": {
+      "eyebrow": "Related Guides",
+      "hint": "Swipe left or right to explore more guides.",
+      "items": [
+        {
+          "label": "Dolomites",
+          "title": "Dolomites Elopement Guide",
+          "copy": "A calm starting point for couples planning a Dolomites Elopement or intimate mountain wedding and wanting to understand how light, access, weather and crowds truly shape the day.",
+          "href": "/guides/dolomites-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-120.jpg",
+          "imageAlt": "Couple during a Dolomites elopement in soft morning light",
+          "alt": "Couple during a Dolomites elopement in soft morning light"
+        },
+        {
+          "label": "Locations",
+          "title": "The most popular elopement locations in the Dolomites",
+          "copy": "A curated guide for couples who are not looking for just any beautiful view, but for the place whose atmosphere truly fits the day they want.",
+          "href": "/guides/best-dolomites-elopement-locations/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-191.jpg",
+          "imageAlt": "Elopement locations in the Dolomites",
+          "alt": "Elopement locations in the Dolomites"
+        },
+        {
+          "label": "Locations",
+          "title": "Seceda Guide",
+          "copy": "A guide for couples drawn to Seceda not only for the famous ridge, but for the feeling of openness, wind and high alpine light that makes it so distinctive.",
+          "href": "/guides/seceda-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Seceda-180.jpg",
+          "imageAlt": "Seceda in clear mountain light",
+          "alt": "Seceda in clear mountain light"
+        },
+        {
+          "label": "Locations",
+          "title": "Cadini di Misurina Guide",
+          "copy": "A guide for couples who love the wild, cinematic tension of Cadini and want to know when it is accessible, safe and genuinely worth choosing.",
+          "href": "/guides/cadini-di-misurina-guide/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-12.jpg",
+          "imageAlt": "Cadini di Misurina with dramatic rock formations",
+          "alt": "Cadini di Misurina with dramatic rock formations"
+        },
+        {
+          "label": "Locations",
+          "title": "Tre Cime Wedding Guide",
+          "copy": "An honest guide for couples choosing Tre Cime not only for the famous view, but for the monumental, almost unreal presence the place carries when the timing is right.",
+          "href": "/guides/tre-cime-wedding-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14.jpg",
+          "imageAlt": "Tre Cime in clear mountain light",
+          "alt": "Tre Cime in clear mountain light"
+        },
+        {
+          "label": "Planning",
+          "title": "Best Time for a Dolomites Elopement",
+          "copy": "An honest guide to light, temperatures, crowds and the question of when the mountains will not only look beautiful, but genuinely feel right for you.",
+          "href": "/guides/best-time-for-a-dolomites-elopement/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-16.jpg",
+          "imageAlt": "Existing image for best time in the Dolomites",
+          "alt": "Existing image for best time in the Dolomites"
+        },
+        {
+          "label": "Planning",
+          "title": "Sunrise vs Sunset in the Dolomites",
+          "copy": "An honest comparison for couples who want more than beautiful light and are trying to understand which time of day fits their energy, their location and the feeling they want to remember.",
+          "href": "/guides/sunrise-vs-sunset-dolomites/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Photo-368.jpg",
+          "imageAlt": "Mountain light at sunrise or sunset",
+          "alt": "Mountain light at sunrise or sunset"
+        },
+        {
+          "label": "Planning",
+          "title": "Weather & Backup Planning Guide",
+          "copy": "A calm weather guide for couples who do not want to hope for perfect conditions in the mountains, but want to build a day that still feels right in fog, wind or rain.",
+          "href": "/guides/weather-and-backup-planning/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-161.jpg",
+          "imageAlt": "Weather in the Dolomites with clouds and fog",
+          "alt": "Weather in the Dolomites with clouds and fog"
+        },
+        {
+          "label": "Planning",
+          "title": "What to Wear in the Mountains",
+          "copy": "A practical guide for couples who want to look beautiful in the mountains, but also move freely, stay warm and still feel like themselves in what they wear.",
+          "href": "/guides/what-to-wear-in-the-mountains/",
+          "image": "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Hut-13.jpg",
+          "imageAlt": "Outfit ideas for a mountain elopement",
+          "alt": "Outfit ideas for a mountain elopement"
+        },
+        {
+          "label": "Planning",
+          "title": "Helicopter Elopement Guide",
+          "copy": "A guide for couples seeking more space, privacy and a clearer flow to the day, and wanting to understand when a helicopter in the mountains genuinely makes sense.",
+          "href": "/guides/helicopter-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-12.jpg",
+          "imageAlt": "Helicopter flight above the mountains for an elopement",
+          "alt": "Helicopter flight above the mountains for an elopement"
+        },
+        {
+          "label": "Planning",
+          "title": "Multi-Day Elopement Guide",
+          "copy": "A guide for couples who want more than a few rushed hours in the mountains and would rather let the day unfold with space around it.",
+          "href": "/guides/multi-day-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Insta-11.jpg",
+          "imageAlt": "Multi-day elopement in the Dolomites",
+          "alt": "Multi-day elopement in the Dolomites"
+        }
+      ]
+    },
+    "final": {
+      "eyebrow": "Planned with intention",
+      "title": "Let’s shape something that feels quiet, personal and deeply true to you.",
+      "copy": "If this guide already feels close to the way you want the day to move, I would love to help you turn that feeling into something calm, cinematic and genuinely your own in the mountains.",
+      "cta": "Inquire now",
+      "image": "/assets/uploads/Blitzkneisser-Photo-Drei-Zinnen-Italy-24.jpg",
+      "imageAlt": "Tre Cime in the Dolomites in calm, clear light"
+    }
+  }
+}

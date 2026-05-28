@@ -1,0 +1,1711 @@
+<!DOCTYPE html>
+<html lang="de" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seceda Guide | Sunrise, Access und die ikonische Ridgeline</title>
+  <meta
+    name="description"
+    content="Guide zu Seceda für Elopements und intime Hochzeiten mit ehrlichen Hinweisen zu Liftzeiten, Wind, Morgenlicht, Zugang und der offenen Weite dieses Ortes."
+  >
+  <link rel="icon" type="image/png" href="/Logo-Blitzkneisser-BERG.png">
+  <script defer src="/assets/seo.js"></script>
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ["Inter", "sans-serif"]
+          },
+          colors: {
+            brand: {
+              bg: "#FFFFFF",
+              text: "#1B1A18",
+              muted: "#8A837A",
+              border: "#E6DED4",
+              soft: "#F7F3ED"
+            }
+          }
+        }
+      }
+    };
+  </script>
+  <style>
+    body {
+      background: #FFFFFF;
+      color: #1B1A18;
+      font-family: "Inter", sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    .eyebrow,
+    .section-label,
+    .related-card-label,
+    .season-fact-label,
+    .planning-item-label,
+    .guide-reading-meta {
+      color: #8A837A;
+      font-size: 10px;
+      font-weight: 500;
+      letter-spacing: 0.28em;
+      text-transform: uppercase;
+    }
+
+    .section-label {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.8rem;
+    }
+
+    .section-label::before {
+      content: "";
+      width: 3rem;
+      height: 1px;
+      background: #E6DED4;
+    }
+
+    .section-label.no-line::before {
+      display: none;
+    }
+
+    .body-copy,
+    .hero-copy,
+    .faq-intro,
+    .planning-item-copy {
+      font-size: 1rem;
+      line-height: 1.8;
+      font-weight: 300;
+      color: rgba(27, 26, 24, 0.82);
+    }
+
+    .section-title {
+      font-size: clamp(2rem, 4vw, 3.5rem);
+      line-height: 0.98;
+      letter-spacing: -0.05em;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #1B1A18;
+    }
+
+    .hero-frame {
+      display: grid;
+      background: #F7F3ED;
+      overflow: hidden;
+    }
+
+    .hero-media {
+      min-height: 28rem;
+      background: #F7F3ED;
+    }
+
+    .hero-media img,
+    .image-shell img,
+    .related-card-image img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .hero-content {
+      display: flex;
+      align-items: center;
+      background: #FBF8F3;
+      padding: 2.9rem 1.75rem;
+    }
+
+    .hero-panel {
+      width: 100%;
+      max-width: 39rem;
+    }
+
+    .hero-title {
+      margin-top: 1.4rem;
+      font-size: clamp(2.1rem, 4.4vw, 4.35rem);
+      line-height: 1.02;
+      letter-spacing: -0.05em;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #1B1A18;
+      word-break: break-word;
+      overflow-wrap: anywhere;
+      text-wrap: balance;
+    }
+
+    .hero-copy {
+      margin-top: 1.7rem;
+      max-width: 34rem;
+    }
+
+    .hero-panel .button-solid,
+    .hero-panel .button-outline {
+      margin-top: 2.1rem;
+    }
+
+    .button-solid,
+    .button-outline {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 3rem;
+      padding: 0.95rem 1.5rem;
+      font-size: 10px;
+      font-weight: 500;
+      letter-spacing: 0.28em;
+      text-transform: uppercase;
+      transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease, opacity 0.25s ease;
+    }
+
+    .button-solid {
+      border: 1px solid #1B1A18;
+      background: #1B1A18;
+      color: #FFFFFF;
+    }
+
+    .button-solid:hover {
+      opacity: 0.85;
+    }
+
+    .button-light {
+      border-color: rgba(255, 255, 255, 0.9);
+      background: #FFFFFF;
+      color: #1B1A18;
+    }
+
+    .button-light:hover {
+      background: rgba(255, 255, 255, 0.93);
+      color: #1B1A18;
+      opacity: 1;
+    }
+
+    .text-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      padding-bottom: 0.35rem;
+      border-bottom: 1px solid currentColor;
+      font-size: 10px;
+      font-weight: 500;
+      letter-spacing: 0.28em;
+      text-transform: uppercase;
+      transition: opacity 0.2s ease;
+    }
+
+    .text-link:hover {
+      opacity: 0.65;
+    }
+
+    .guide-utility {
+      display: grid;
+      gap: 1rem;
+      border-top: 1px solid #E6DED4;
+      border-bottom: 1px solid #E6DED4;
+      padding: 1.35rem 0;
+    }
+
+    .guide-anchor-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.9rem 1.2rem;
+      font-size: 10px;
+      font-weight: 500;
+      letter-spacing: 0.24em;
+      text-transform: uppercase;
+      color: #8A837A;
+    }
+
+    .guide-anchor-nav a {
+      transition: opacity 0.2s ease;
+    }
+
+    .guide-anchor-nav a:hover {
+      opacity: 0.65;
+    }
+
+    .quick-facts {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1.4rem 1rem;
+    }
+
+    .fact-item {
+      text-align: center;
+    }
+
+    .fact-icon,
+    .season-fact-icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      color: rgba(27, 26, 24, 0.82);
+      margin-bottom: 0.85rem;
+    }
+
+    .fact-icon svg,
+    .season-fact-icon svg {
+      width: 1.5rem;
+      height: 1.5rem;
+      stroke: currentColor;
+      stroke-width: 1.85;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      fill: none;
+    }
+
+    .fact-value {
+      margin-top: 0.5rem;
+      font-size: 0.98rem;
+      line-height: 1.55;
+      font-weight: 300;
+      color: rgba(27, 26, 24, 0.82);
+    }
+
+    .guide-season-row {
+      display: grid;
+      gap: 1.5rem;
+      margin-bottom: 4rem;
+      align-items: start;
+    }
+
+    .guide-season-image {
+      aspect-ratio: 16 / 9;
+      overflow: hidden;
+      background: #F7F3ED;
+    }
+
+    .guide-season-copy {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 1.25rem;
+      min-width: 0;
+    }
+
+    .season-heading {
+      font-size: clamp(1.8rem, 3vw, 2.9rem);
+      line-height: 0.98;
+      letter-spacing: -0.05em;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #1B1A18;
+    }
+
+    .season-intro {
+      margin-top: 1rem;
+      font-size: 1.05rem;
+      line-height: 1.75;
+      font-weight: 400;
+      color: rgba(27, 26, 24, 0.88);
+    }
+
+    .season-points {
+      margin-top: 1rem;
+      display: grid;
+      gap: 0.55rem;
+      padding-left: 1.05rem;
+      font-size: 0.98rem;
+      line-height: 1.65;
+      font-weight: 300;
+      color: rgba(27, 26, 24, 0.8);
+      list-style: disc;
+    }
+
+    .season-facts {
+      display: grid;
+      gap: 0.9rem;
+      margin-top: 1.35rem;
+      padding-top: 1.35rem;
+      border-top: 1px solid #E6DED4;
+    }
+
+    .season-fact {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 0.9rem;
+      align-items: start;
+    }
+
+    .season-fact-value,
+    .planning-item-title,
+    .season-note,
+    .content-meta,
+    .planning-item-meta {
+      color: rgba(27, 26, 24, 0.8);
+    }
+
+    .season-fact-value {
+      font-size: 0.96rem;
+      line-height: 1.6;
+      font-weight: 300;
+      margin-top: 0.15rem;
+    }
+
+    .season-note {
+      margin-top: 1.15rem;
+      font-size: 0.95rem;
+      line-height: 1.7;
+      font-style: italic;
+      font-weight: 300;
+    }
+
+    .content-meta,
+    .planning-item-meta {
+      font-size: 10px;
+      letter-spacing: 0.24em;
+      text-transform: uppercase;
+      color: #8A837A;
+    }
+
+    .planning-list {
+      display: grid;
+      gap: 1rem;
+    }
+
+    .planning-item {
+      padding: 1.5rem 0;
+      border-top: 1px solid #E6DED4;
+    }
+
+    .planning-item:first-child {
+      padding-top: 0;
+      border-top: none;
+    }
+
+    .planning-item-title {
+      margin-top: 0.65rem;
+      font-size: 1.35rem;
+      line-height: 1.2;
+      letter-spacing: -0.03em;
+      font-weight: 400;
+      color: #1B1A18;
+    }
+
+    .planning-item-copy {
+      margin-top: 0.9rem;
+    }
+
+    .planning-item-meta {
+      margin-top: 1rem;
+    }
+
+    .related-rail {
+      display: grid;
+      grid-auto-flow: column;
+      grid-auto-columns: minmax(17rem, 22rem);
+      gap: 1.25rem;
+      overflow-x: auto;
+      overscroll-behavior-x: contain;
+      scroll-snap-type: x proximity;
+      padding-bottom: 0.25rem;
+      scrollbar-width: none;
+      -ms-overflow-style: none;
+    }
+
+    .related-rail::-webkit-scrollbar {
+      display: none;
+    }
+
+    .related-card {
+      border: 1px solid #E6DED4;
+      background: #FFFFFF;
+      scroll-snap-align: start;
+    }
+
+    .related-card-image {
+      aspect-ratio: 4 / 3;
+      overflow: hidden;
+      background: #F7F3ED;
+    }
+
+    .related-card-body {
+      padding: 1.2rem 1.1rem 1.35rem;
+    }
+
+    .faq-item summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .fade-in-up {
+      animation: fadeInUp 0.85s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+      opacity: 0;
+      transform: translateY(14px);
+    }
+
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .mobile-menu-toggle,
+    .floating-lang-toggle {
+      display: none;
+    }
+
+    @media (min-width: 768px) {
+      .guide-utility {
+        grid-template-columns: auto 1fr;
+        align-items: center;
+      }
+
+      .quick-facts {
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+      }
+
+      .hero-frame {
+        grid-template-columns: minmax(0, 1.28fr) minmax(22rem, 0.72fr);
+      }
+
+      .hero-media {
+        min-height: 42rem;
+      }
+
+      .hero-content {
+        padding: 3.25rem;
+      }
+
+      .guide-season-row {
+        grid-template-columns: minmax(0, 1.12fr) minmax(20rem, 0.88fr);
+        gap: 2rem;
+      }
+
+      .guide-season-row.is-image-right .guide-season-image {
+        order: 2;
+      }
+
+      .guide-season-row.is-image-right .guide-season-copy {
+        order: 1;
+      }
+    }
+
+    @media (max-width: 767px) {
+      .quick-facts {
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+        gap: 0.8rem 0.45rem;
+      }
+
+      .fact-item {
+        min-width: 0;
+      }
+
+      .fact-icon,
+      .season-fact-icon {
+        margin-bottom: 0.45rem;
+      }
+
+      .fact-icon svg,
+      .season-fact-icon svg {
+        width: 1rem;
+        height: 1rem;
+      }
+
+      .quick-facts .eyebrow {
+        font-size: 8px;
+        letter-spacing: 0.16em;
+        line-height: 1.35;
+      }
+
+      .fact-value {
+        margin-top: 0.28rem;
+        font-size: 0.72rem;
+        line-height: 1.35;
+      }
+
+      .mobile-menu-toggle {
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5px;
+        width: 44px;
+        height: 44px;
+        margin-left: auto;
+      }
+
+      .mobile-menu-toggle span {
+        width: 24px;
+        height: 2px;
+        margin-left: auto;
+        background: #1B1A18;
+        transition: transform 0.25s ease, opacity 0.25s ease;
+      }
+
+      #mainNav.is-open .mobile-menu-toggle span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+      #mainNav.is-open .mobile-menu-toggle span:nth-child(2) { opacity: 0; }
+      #mainNav.is-open .mobile-menu-toggle span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+      .nav-menu-panel {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem 1.5rem 1.25rem;
+        background: rgba(255,255,255,.94);
+        backdrop-filter: blur(14px);
+        border-bottom: 1px solid #E6DED4;
+        opacity: 0;
+        pointer-events: none;
+        transform: translateY(-8px);
+        transition: opacity 0.2s ease, transform 0.2s ease;
+      }
+
+      #mainNav.is-open .nav-menu-panel {
+        opacity: 1;
+        pointer-events: auto;
+        transform: translateY(0);
+      }
+
+      .nav-menu-panel > div:first-child,
+      .nav-menu-panel .nav-lang-toggle {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.9rem;
+      }
+
+      .floating-lang-toggle {
+        position: fixed;
+        right: 1rem;
+        bottom: 1rem;
+        z-index: 60;
+        display: flex;
+        align-items: center;
+        gap: 0.35rem;
+        padding: 0.4rem;
+        background: rgba(255,255,255,.94);
+        backdrop-filter: blur(14px);
+        border: 1px solid #E6DED4;
+        box-shadow: 0 12px 30px rgba(27, 26, 24, 0.08);
+      }
+
+      .floating-lang-toggle button {
+        border: 1px solid #E6DED4;
+        min-width: 2.8rem;
+        padding: 0.7rem 0.75rem;
+        font-size: 0.625rem;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        transition: all 0.2s ease;
+      }
+
+      .hero-media {
+        min-height: 21rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav class="fixed top-0 left-0 z-50 w-full bg-white/80 px-6 py-5 text-brand-text backdrop-blur-sm transition-all duration-500 md:px-12 md:py-8" id="mainNav">
+    <div class="mx-auto flex max-w-[120rem] items-center justify-between gap-6">
+      <a href="/index.html" id="navHomeLink" class="group flex items-center" aria-label="Blitzkneisser Photography">
+        <img src="/Logo-Blitzkneisser-BERG.png" alt="Blitzkneisser Photography" class="h-11 w-auto brightness-0 contrast-125 opacity-70 transition duration-500 ease-out group-hover:opacity-100 md:h-14">
+      </a>
+      <button type="button" class="mobile-menu-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenuPanel" aria-label="Menü öffnen"><span></span><span></span><span></span></button>
+      <div class="nav-menu-panel ml-auto flex items-center justify-end gap-4 text-right" id="navMenuPanel">
+        <div class="flex items-center gap-4 text-[10px] uppercase tracking-[0.2em] sm:gap-6 md:gap-8 md:text-xs">
+          <a href="/experience/" id="navExperienceLink" class="hover:opacity-60 transition-opacity duration-300">Experience</a>
+          <a href="/guides/" id="navGuidesLink" class="opacity-60 transition-opacity duration-300" aria-current="page">Guides</a>
+          <a href="/journal/" id="navJournalLink" class="hover:opacity-60 transition-opacity duration-300">Journal</a>
+          <a href="/about/" id="navAboutLink" class="hover:opacity-60 transition-opacity duration-300">About</a>
+          <a href="/contact/" id="navContactLink" class="hover:opacity-60 transition-opacity duration-300">Contact</a>
+        </div>
+        <div class="nav-lang-toggle flex items-center gap-2 text-[10px] uppercase tracking-[0.24em] md:text-xs">
+          <button type="button" class="border border-brand-border px-3 py-2 transition-colors" data-lang-button="de" aria-pressed="true">DE</button>
+          <button type="button" class="border border-brand-border px-3 py-2 transition-colors" data-lang-button="en" aria-pressed="false">EN</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="floating-lang-toggle" id="floatingLangToggle" aria-label="Sprache wechseln">
+    <button type="button" data-lang-button="de" aria-pressed="true">DE</button>
+    <button type="button" data-lang-button="en" aria-pressed="false">EN</button>
+  </div>
+
+  <main class="pt-32 md:pt-38 pb-20 md:pb-24">
+    <section class="px-6 md:px-12 max-w-[120rem] mx-auto fade-in-up">
+      <div class="hero-frame">
+        <div class="hero-media">
+          <img id="heroImage" src="/assets/uploads/Blitzkneisser-Mountain-Elopement-Seceda-180.jpg" alt="Seceda bei klarem Berglicht" loading="eager" fetchpriority="high">
+        </div>
+        <div class="hero-content">
+          <div class="hero-panel">
+            <span class="eyebrow" data-i18n="hero.eyebrow">Location Guide</span>
+            <h1 class="hero-title" data-i18n="hero.title">Seceda Guide</h1>
+            <p class="hero-copy" data-i18n="hero.copy">For couples drawn to open ridgelines, mountain air and one of the most iconic silhouettes in the Dolomites.</p>
+            <a href="/contact/" id="heroCta" class="button-solid" data-i18n="hero.cta">Start Planning</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="px-6 md:px-12 max-w-[120rem] mx-auto mt-12 md:mt-14">
+      <div class="guide-utility">
+        <div class="guide-reading-meta">
+          <span data-i18n="utility.focus">Für Dolomites Elopements & intime Dolomites Weddings</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="overview" class="px-6 md:px-12 max-w-[120rem] mx-auto mt-14 md:mt-16">
+      <div id="philosophy" class="mx-auto max-w-4xl text-center mb-12 md:mb-14">
+        <h2 class="text-3xl md:text-5xl font-bold leading-[0.98] tracking-[-0.05em] text-brand-text uppercase" data-i18n="philosophy.title">Every season has its own feeling</h2>
+        <p class="body-copy mx-auto mt-5 max-w-3xl text-center" data-i18n="philosophy.copy">There is no perfect season for a Dolomites Elopement, only the one that feels most like you. Some couples want stillness and cold air, others long for movement, warmth and long evenings. The most beautiful choice is always the one that already feels honest before the day even begins.</p>
+      </div>
+      <div class="quick-facts pt-6" id="quickFacts"></div>
+    </section>
+
+    <section id="seasons" class="guide-seasons-layout px-6 md:px-12 max-w-[120rem] mx-auto mt-14 md:mt-16">
+      <div id="seasonRows"></div>
+    </section>
+
+    <section id="planning" class="px-6 md:px-12 max-w-[120rem] mx-auto mt-14 md:mt-16">
+      <div class="grid gap-9 lg:grid-cols-[0.76fr_1.24fr]">
+        <div>
+          <span class="section-label" data-i18n="planning.eyebrow">Planning Notes</span>
+          <h2 class="section-title mt-5" data-i18n="planning.title">What the season really changes on the day.</h2>
+          <p class="faq-intro" data-i18n="planning.intro">A few practical notes that matter once this stops being an idea and begins turning into an actual day in the mountains.</p>
+        </div>
+        <div class="planning-list" id="planningNotes"></div>
+      </div>
+    </section>
+
+    <section id="related" class="px-6 md:px-12 max-w-[120rem] mx-auto mt-14 md:mt-16">
+      <div class="border-t border-brand-border pt-6 md:flex md:items-end md:justify-between md:gap-8">
+        <span class="eyebrow" data-i18n="related.eyebrow">Related Guides</span>
+      </div>
+      <div class="mt-6 related-rail" id="relatedGuides"></div>
+    </section>
+
+    <section id="faq" class="px-6 md:px-12 max-w-[120rem] mx-auto mt-14 md:mt-16">
+      <div class="grid gap-9 lg:grid-cols-[0.76fr_1.24fr]">
+        <div>
+          <span class="section-label no-line">FAQ</span>
+          <h2 class="section-title mt-5 font-bold uppercase" data-i18n="faq.title">Questions that often come up long before the day arrives.</h2>
+          <p class="faq-intro" data-i18n="faq.intro">A few of the questions couples ask most often when they begin planning an elopement in the Dolomites — with answers that are meant to feel useful, honest and calm.</p>
+        </div>
+        <div class="divide-y divide-brand-border border-t border-brand-border" id="faqList"></div>
+      </div>
+    </section>
+
+    <section class="px-6 md:px-12 max-w-[120rem] mx-auto mt-14 md:mt-16">
+      <div class="relative min-h-[24rem] overflow-hidden bg-brand-text text-white">
+        <div class="image-shell absolute inset-0">
+          <img id="finalImage" src="/assets/uploads/Blitzkneisser-Photo-Drei-Zinnen-Italy-24.jpg" alt="Drei Zinnen in den Dolomiten bei ruhigem, klarem Licht" loading="lazy" decoding="async">
+        </div>
+        <div class="absolute inset-0" style="background: linear-gradient(90deg, rgba(98, 103, 108, 0.52) 0%, rgba(98, 103, 108, 0.38) 46%, rgba(98, 103, 108, 0.24) 100%);"></div>
+        <div class="relative z-10 flex min-h-[24rem] items-end justify-start px-6 pb-10 pt-16 text-left md:px-12 md:pb-14">
+          <div class="max-w-3xl">
+            <span class="eyebrow text-white/78" data-i18n="final.eyebrow">Planning with intention</span>
+            <h2 class="mt-5 text-4xl font-semibold leading-tight tracking-[-0.04em] md:text-5xl" data-i18n="final.title">Let's create a wedding experience that feels like you.</h2>
+            <p class="mt-6 max-w-3xl text-base font-normal leading-7 text-white/90 md:text-lg" data-i18n="final.copy">If this guide already feels close to what you are imagining, I would love to help you shape a day that feels natural, meaningful and entirely your own.</p>
+            <a href="/contact/" id="finalCta" class="button-solid button-light mt-8" data-i18n="final.cta">Inquire Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="py-16 px-6 md:px-12 border-t border-brand-border flex flex-col md:flex-row justify-between items-start md:items-center text-[10px] md:text-xs text-brand-muted tracking-[0.2em] uppercase font-medium bg-brand-bg">
+    <div class="mb-8 md:mb-0" id="footerBrandText">© 2026 Blitzkneisser Photography</div>
+    <div class="flex flex-col md:flex-row gap-6 md:gap-12">
+      <a id="footerInstagramLink" href="#" class="hover:text-brand-text transition-colors duration-300">Instagram</a>
+      <a id="footerContactLink" href="/contact/" class="hover:text-brand-text transition-colors duration-300" data-i18n="nav.contact">Contact</a>
+      <a id="footerJournalLink" href="/journal/" class="hover:text-brand-text transition-colors duration-300">Journal</a>
+    </div>
+    <div id="footerInstagramFeed" class="footer-instagram-feed"></div>
+  </footer>
+
+  <script type="application/ld+json" id="faqSchema"></script>
+  <script>
+    const nav = document.getElementById("mainNav");
+    const navToggle = document.getElementById("navToggle");
+    const navMenuPanel = document.getElementById("navMenuPanel");
+    const closeNavMenu = () => {
+      nav.classList.remove("is-open");
+      navToggle.setAttribute("aria-expanded", "false");
+    };
+    navToggle.addEventListener("click", () => {
+      const willOpen = !nav.classList.contains("is-open");
+      nav.classList.toggle("is-open", willOpen);
+      navToggle.setAttribute("aria-expanded", willOpen ? "true" : "false");
+    });
+    navMenuPanel.querySelectorAll("a, button[data-lang-button]").forEach((item) => {
+      item.addEventListener("click", () => {
+        if (window.innerWidth < 768) closeNavMenu();
+      });
+    });
+
+    const pageData = {
+      "de": {
+            "slug": "seceda-guide",
+            "title": "Seceda Guide | Sunrise, Access und die ikonische Ridgeline",
+            "description": "Guide zu Seceda für Elopements und intime Hochzeiten mit ehrlichen Hinweisen zu Liftzeiten, Wind, Morgenlicht, Zugang und der offenen Weite dieses Ortes.",
+            "hero": {
+                  "eyebrow": "Standort-Guide",
+                  "title": "Seceda Guide",
+                  "copy": "Ein Guide für Paare, die an Seceda nicht nur die berühmte Kante suchen, sondern das Gefühl von Weite, Wind und offenem Berglicht, das diesen Ort so unverwechselbar macht.",
+                  "cta": "Planung starten",
+                  "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Seceda-180.jpg",
+                  "imageAlt": "Seceda bei klarem Berglicht"
+            },
+            "utility": {
+                  "reading": "Guide",
+                  "focus": "Für ausführliche Ansichten rund um Seceda und Val Gardena",
+                  "navOverview": "Überblick",
+                  "navSeasons": "Standorthinweise",
+                  "navPhilosophy": "Einführung",
+                  "navVisual": "Weitere Guides",
+                  "navFaq": "FAQ"
+            },
+            "overview": {
+                  "eyebrow": "Guide im Überblick",
+                  "copy": "Seceda sieht großzügig aus und fühlt sich genau so an: weit, offen und leicht ausgesetzt. Das Licht kommt hier klar, der Wind ist oft spürbar und der Ort wirkt dann am stärksten, wenn ihr ihn früh und mit etwas Bewegungsfreude erlebt.",
+                  "items": [
+                        {
+                              "icon": "calendar",
+                              "label": "Beste Zeit",
+                              "value": "Sommer bis Frühherbst"
+                        },
+                        {
+                              "icon": "sun",
+                              "label": "Bestes Licht",
+                              "value": "Sonnenaufgang oder später Abend"
+                        },
+                        {
+                              "icon": "crowd",
+                              "label": "Crowd Level",
+                              "value": "Später am Tag mittel bis hoch"
+                        },
+                        {
+                              "icon": "path",
+                              "label": "Zugang",
+                              "value": "Mit Lift, teilweise zu Fuß"
+                        },
+                        {
+                              "icon": "guests",
+                              "label": "Ideal für",
+                              "value": "Weites, offenes Berggefühl"
+                        }
+                  ]
+            },
+            "philosophy": {
+                  "eyebrow": "Eine erste Orientierung",
+                  "title": "Seceda lebt von Horizont, Luft und dem Gefühl, weit in die Berge hinauszuschauen.",
+                  "copy": "Nicht jeder Paarmoment braucht Dramatik im engeren Sinn. Seceda wirkt oft gerade dann stark, wenn ihr die Offenheit des Ortes zulasst: viel Himmel, lange Linien und dieses Gefühl, dass alles plötzlich weiter wird."
+            },
+            "sections": {
+                  "seasonOrder": [
+                        "special",
+                        "time",
+                        "access",
+                        "weather"
+                  ],
+                  "seasons": {
+                        "special": {
+                              "layout": "image-left",
+                              "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-6.jpg",
+                              "imageAlt": "Seceda bei klarem Berglicht Kammlinie",
+                              "eyebrow": "",
+                              "title": "Warum Seceda eine Ikone ist",
+                              "intro": "Seceda ist weniger monumental als frei.",
+                              "copy": "Die Bergkanten sind ikonisch, doch was viele Paare am stärksten spüren, ist diese Mischung aus Höhe, Luft und weitem Blick. Der Ort atmet anders als die schrofferen Dolomitenkulissen.",
+                              "points": [],
+                              "facts": [
+                                    {
+                                          "icon": "wind",
+                                          "label": "Visuelle Stimmung",
+                                          "value": "Offen, luftig und filmisch"
+                                    },
+                                    {
+                                          "icon": "guests",
+                                          "label": "Ideal für",
+                                          "value": "Paare, die Größe ohne technischen Aufwand wünschen"
+                                    },
+                                    {
+                                          "icon": "sun",
+                                          "label": "Ton",
+                                          "value": "Ikonisch, aber dennoch sanft im richtigen Licht"
+                                    }
+                              ],
+                              "note": "",
+                              "meta": "",
+                              "linkLabel": "",
+                              "linkHref": ""
+                        },
+                        "time": {
+                              "layout": "image-right",
+                              "image": "/assets/uploads/Blitzkneisser-Elopement-Seceda-Dolomites-180.jpg",
+                              "imageAlt": "Platzhalterbild für Abendlicht auf Bergrücken",
+                              "eyebrow": "",
+                              "title": "Beste Zeit",
+                              "intro": "Das beste Licht ist früh, bevor der Tag hart wird.",
+                              "copy": "Morgens wirkt Seceda klarer, stiller und oft viel persönlicher. Später kann das Licht flacher oder härter werden, und mit dem Tagesbetrieb verliert der Ort einen Teil seiner Leichtigkeit.",
+                              "points": [],
+                              "facts": [
+                                    {
+                                          "icon": "sunrise",
+                                          "label": "Am besten",
+                                          "value": "Sonnenaufgang"
+                                    },
+                                    {
+                                          "icon": "sun",
+                                          "label": "Funktioniert auch",
+                                          "value": "Am späten Abend bei mildem Wetter"
+                                    },
+                                    {
+                                          "icon": "crowd",
+                                          "label": "Vermeiden",
+                                          "value": "Belebte Mittagsfenster, wenn ihr Privatsphäre wünschen"
+                                    }
+                              ],
+                              "note": "",
+                              "meta": "",
+                              "linkLabel": "",
+                              "linkHref": ""
+                        },
+                        "access": {
+                              "layout": "image-right",
+                              "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-2.jpg",
+                              "imageAlt": "Platzhalterbild für Bergbahn und Zugang zu Fuß",
+                              "eyebrow": "",
+                              "title": "Aufzugs- und Zugangshinweise",
+                              "intro": "Der Lift macht Seceda erreichbar, aber nicht automatisch unkompliziert.",
+                              "copy": "Liftzeiten, Anreise, erste Gondeln und die letzten Gehabschnitte entscheiden darüber, wie entspannt der Morgen beginnt. Wer nur die Aussicht sieht, unterschätzt leicht, wie wichtig das Timing rund um den Zugang ist.",
+                              "points": [],
+                              "facts": [
+                                    {
+                                          "icon": "path",
+                                          "label": "Hauptzugang",
+                                          "value": "Lift und kurzer Fußweg"
+                                    },
+                                    {
+                                          "icon": "guests",
+                                          "label": "Gästefreundlich",
+                                          "value": "Mäßig, abhängig von der Mobilität"
+                                    },
+                                    {
+                                          "icon": "key",
+                                          "label": "Überprüfen",
+                                          "value": "Liftplan und Wetter"
+                                    }
+                              ],
+                              "note": "",
+                              "meta": "",
+                              "linkLabel": "",
+                              "linkHref": ""
+                        },
+                        "weather": {
+                              "layout": "image-right",
+                              "image": "/assets/uploads/Blitzkneisser-Elopement-Wedding-Dolomites132.jpg",
+                              "imageAlt": "Platzhalterbild für Wind und Wetter im Hochland",
+                              "eyebrow": "",
+                              "title": "Wetter und Wind",
+                              "intro": "Wind gehört hier fast immer zur Realität dazu.",
+                              "copy": "Seceda kann traumhaft aussehen und sich gleichzeitig sehr frisch oder unruhig anfühlen. Gerade auf den offenen Kanten verändern Wind, Wolken und Temperatur schnell die Erfahrung vor Ort.",
+                              "points": [],
+                              "facts": [
+                                    {
+                                          "icon": "wind",
+                                          "label": "Hauptfaktor",
+                                          "value": "Windeinwirkung"
+                                    },
+                                    {
+                                          "icon": "cloud",
+                                          "label": "Wetterstimmung",
+                                          "value": "Schnell wechselnd, oft dramatisch"
+                                    },
+                                    {
+                                          "icon": "path",
+                                          "label": "Beste Antwort",
+                                          "value": "Ebenen und flexibles Timing"
+                                    }
+                              ],
+                              "note": "",
+                              "meta": "",
+                              "linkLabel": "",
+                              "linkHref": ""
+                        }
+                  }
+            },
+            "planning": {
+                  "eyebrow": "Planungsnotizen",
+                  "title": "Was Seceda meist stark oder anstrengend macht.",
+                  "intro": "Dieser Ort schenkt Weite, verlangt aber etwas mehr Wachheit im Umgang mit Wind, Liftzeiten und offener Landschaft.",
+                  "items": [
+                        {
+                              "label": "Wind",
+                              "title": "Plant Kleidung und Haltung für Bewegung, nicht nur für Bilder.",
+                              "copy": "Ein schöner Look muss hier auch auf offenen Kanten funktionieren.",
+                              "meta": "Seceda ist selten völlig windstill."
+                        },
+                        {
+                              "label": "Lift",
+                              "title": "Die erste Gondel verändert die ganze Stimmung.",
+                              "copy": "Wer früh oben ist, erlebt oft ein ganz anderes Seceda als die späteren Stunden.",
+                              "meta": "Der Tagesanfang entscheidet viel."
+                        },
+                        {
+                              "label": "Licht",
+                              "title": "Frühes Licht macht den Ort weicher und klarer.",
+                              "copy": "Gerade an Seceda fühlt sich der Morgen oft luftiger und persönlicher an als der späte Vormittag.",
+                              "meta": "Weite braucht gutes Timing."
+                        },
+                        {
+                              "label": "Pace",
+                              "title": "Lasst den Ort nicht zu hektisch werden.",
+                              "copy": "Seceda wirkt am stärksten, wenn genug Raum zwischen Anreise, Gehen und Bildern bleibt.",
+                              "meta": "Weniger Druck, mehr Horizont."
+                        }
+                  ]
+            },
+            "faq": {
+                  "title": "Fragen, die Paare oft zu Seceda stellen.",
+                  "intro": "Bei Seceda drehen sich die meisten Fragen um Wind, Liftzeiten und darum, wie offen sich dieser Ort im echten Erleben anfühlt.",
+                  "items": [
+                        {
+                              "q": "Ist der Sonnenaufgang an Seceda besser als der Sonnenuntergang?",
+                              "a": "Für viele Paare ja. Morgens ist der Ort meist stiller, kühler und persönlicher. Abends kann das Licht schön sein, aber der Platz fühlt sich oft öffentlicher an."
+                        },
+                        {
+                              "q": "Müssen wir viel wandern?",
+                              "a": "Nicht extrem, aber ein paar Gehabschnitte gehören fast immer dazu. Mit Lift ist Seceda zugänglicher als manche anderen Spots, trotzdem sollte der Weg nicht als Nebensache behandelt werden."
+                        },
+                        {
+                              "q": "Ist Seceda zu windig für ein Kleid?",
+                              "a": "Wind ist dort keine Ausnahme, sondern oft Teil des Ortes. Stoff, Schichten und Schuhe sollten also nicht nur schön aussehen, sondern auf offener Kante auch funktionieren."
+                        },
+                        {
+                              "q": "Funktioniert das mit Gästen?",
+                              "a": "Mit der richtigen Gruppe ja. Wenn Gäste gut zu Fuß sind und ein wenig Berglogistik entspannt mittragen, kann Seceda auch mit mehreren Menschen gut funktionieren."
+                        }
+                  ]
+            },
+            "related": {
+                  "eyebrow": "Verwandte Leitfäden",
+                  "hint": "Wischt nach links oder rechts, um weitere Guides zu sehen.",
+                  "items": [
+                        {
+                              "label": "Dolomiten",
+                              "title": "Elopement-Guide für die Dolomiten",
+                              "copy": "Ein ruhiger Ausgangspunkt für Paare, die ein Dolomites Elopement oder eine intime Berghochzeit planen und verstehen möchten, wie Licht, Wege, Wetter und Menschenmengen den Tag wirklich prägen.",
+                              "href": "/guides/dolomites-elopement-guide/",
+                              "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-120.jpg",
+                              "alt": "Paar bei einem Dolomiten-Elopement im weichen Morgenlicht",
+                              "imageAlt": "Paar bei einem Dolomiten-Elopement im weichen Morgenlicht"
+                        },
+                        {
+                              "label": "Standorte",
+                              "title": "Die beliebtesten Elopement-Orte in den Dolomiten",
+                              "copy": "Ein kuratierter Guide für Paare, die nicht einfach irgendeine schöne Aussicht suchen, sondern den Ort, dessen Stimmung wirklich zu ihrem Tag passt.",
+                              "href": "/guides/best-dolomites-elopement-locations/",
+                              "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-191.jpg",
+                              "alt": "Elopement-Standorte in den Dolomiten",
+                              "imageAlt": "Elopement-Standorte in den Dolomiten"
+                        },
+                        {
+                              "label": "Standorte",
+                              "title": "Lago di Braies Guide",
+                              "copy": "Ein ehrlicher Guide für Paare, die den Pragser Wildsee nicht nur als berühmtes Bild kennen, sondern verstehen möchten, wann er still, weich und tatsächlich erlebbar wird.",
+                              "href": "/guides/lago-di-braies-guide/",
+                              "image": "/assets/uploads/Blitzkneisser-Elopemnt-Dolomites-Lago-di-Braies-19.jpg",
+                              "alt": "Lago di Braies mit ruhigem Wasser und frühem Licht",
+                              "imageAlt": "Lago di Braies mit ruhigem Wasser und frühem Licht"
+                        },
+                        {
+                              "label": "Standorte",
+                              "title": "Cadini di Misurina Guide",
+                              "copy": "Ein Guide für Paare, die an Cadini diese wilde, kinoreife Spannung lieben und zugleich wissen möchten, wann der Ort zugänglich, sicher und wirklich stimmig ist.",
+                              "href": "/guides/cadini-di-misurina-guide/",
+                              "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-12.jpg",
+                              "alt": "Cadini di Misurina mit markanten Felsformen",
+                              "imageAlt": "Cadini di Misurina mit markanten Felsformen"
+                        },
+                        {
+                              "label": "Standorte",
+                              "title": "Drei Zinnen Guide",
+                              "copy": "Ein ehrlicher Guide für Paare, die Drei Zinnen nicht nur wegen des berühmten Blicks wählen, sondern wegen dieser monumentalen, fast unwirklichen Präsenz, die der Ort im richtigen Moment entfaltet.",
+                              "href": "/guides/tre-cime-wedding-guide/",
+                              "image": "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14.jpg",
+                              "alt": "Drei Zinnen bei klarem Berglicht",
+                              "imageAlt": "Drei Zinnen bei klarem Berglicht"
+                        },
+                        {
+                              "label": "Planung",
+                              "title": "Beste Jahreszeit für ein Dolomiten-Elopement",
+                              "copy": "Ein ehrlicher Guide zu Licht, Temperaturen, Menschenmengen und der Frage, wann sich die Berge nicht nur schön, sondern wirklich stimmig für euch anfühlen.",
+                              "href": "/guides/best-time-for-a-dolomites-elopement/",
+                              "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-16.jpg",
+                              "alt": "Vorhandenes Bild zur schönsten Zeit in den Dolomiten",
+                              "imageAlt": "Vorhandenes Bild zur schönsten Zeit in den Dolomiten"
+                        },
+                        {
+                              "label": "Planung",
+                              "title": "Sonnenaufgang vs. Sonnenuntergang in den Dolomiten",
+                              "copy": "Ein ehrlicher Vergleich für Paare, die nicht nur schönes Licht suchen, sondern verstehen möchten, welche Tageszeit zu ihrem Energielevel, ihrem Ort und dem gewünschten Gefühl passt.",
+                              "href": "/guides/sunrise-vs-sunset-dolomites/",
+                              "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Photo-368.jpg",
+                              "alt": "Lichtstimmung in den Bergen bei Sonnenaufgang oder Sonnenuntergang",
+                              "imageAlt": "Lichtstimmung in den Bergen bei Sonnenaufgang oder Sonnenuntergang"
+                        },
+                        {
+                              "label": "Planung",
+                              "title": "Guide zur Wetter- und Backup-Planung",
+                              "copy": "Ein ruhiger Wetter-Guide für Paare, die in den Bergen nicht auf perfekte Bedingungen hoffen, sondern einen Tag planen möchten, der auch bei Nebel, Wind oder Regen stimmig bleibt.",
+                              "href": "/guides/weather-and-backup-planning/",
+                              "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-161.jpg",
+                              "alt": "Wetterstimmung in den Dolomiten mit Wolken und Nebel",
+                              "imageAlt": "Wetterstimmung in den Dolomiten mit Wolken und Nebel"
+                        },
+                        {
+                              "label": "Planung",
+                              "title": "Was man in den Bergen anziehen sollte",
+                              "copy": "Ein praktischer Guide für Paare, die in den Bergen nicht nur schön aussehen, sondern sich auch frei bewegen, warm bleiben und sich in ihrer Kleidung wirklich wiederfinden möchten.",
+                              "href": "/guides/what-to-wear-in-the-mountains/",
+                              "image": "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Hut-13.jpg",
+                              "alt": "Kleidung für ein Elopement in den Bergen",
+                              "imageAlt": "Kleidung für ein Elopement in den Bergen"
+                        },
+                        {
+                              "label": "Planung",
+                              "title": "Helikopter-Elopement-Guide",
+                              "copy": "Ein Guide für Paare, die Weite, Abgeschiedenheit und einen klareren Tagesfluss suchen und verstehen möchten, wann ein Helikopter in den Bergen wirklich sinnvoll ist.",
+                              "href": "/guides/helicopter-elopement-guide/",
+                              "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-12.jpg",
+                              "alt": "Helikopterflug über den Bergen für ein Elopement",
+                              "imageAlt": "Helikopterflug über den Bergen für ein Elopement"
+                        },
+                        {
+                              "label": "Planung",
+                              "title": "Mehrtägiger Elopement-Guide",
+                              "copy": "Ein Guide für Paare, die mehr wollen als ein paar schnelle Stunden in den Bergen und ihren Hochzeitstag lieber in Ruhe entfalten lassen möchten.",
+                              "href": "/guides/multi-day-elopement-guide/",
+                              "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Insta-11.jpg",
+                              "alt": "Mehrtägiges Elopement in den Dolomiten",
+                              "imageAlt": "Mehrtägiges Elopement in den Dolomiten"
+                        }
+                  ]
+            },
+            "final": {
+                  "eyebrow": "Ruhig geplant",
+                  "title": "Lasst uns etwas gestalten, das sich ruhig, persönlich und zutiefst wahr anfühlt.",
+                  "copy": "Wenn sich dieser Guide bereits nah an dem anfühlt, was ihr euch wünscht, helfe ich euch gern dabei, dieses Gefühl in etwas Ruhiges, Filmisches und wirklich Eigenes in den Bergen zu verwandeln.",
+                  "cta": "Termin anfragen",
+                  "image": "/assets/uploads/Blitzkneisser-Photo-Drei-Zinnen-Italy-24.jpg",
+                  "imageAlt": "Drei Zinnen in den Dolomiten bei ruhigem, klarem Licht"
+            }
+      },
+      "en": {
+            "slug": "seceda-guide",
+            "title": "Seceda Guide | Sunrise, Access and the Iconic Ridgeline",
+            "description": "A guide to Seceda for elopements and intimate weddings, with honest notes on lift timing, wind, morning light, access and the openness of the place.",
+            "hero": {
+                  "eyebrow": "Location Guide",
+                  "title": "Seceda Guide",
+                  "copy": "A guide for couples drawn to Seceda not only for the famous ridge, but for the feeling of openness, wind and high alpine light that makes it so distinctive.",
+                  "cta": "Start planning",
+                  "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Seceda-180.jpg",
+                  "imageAlt": "Seceda in clear mountain light"
+            },
+            "utility": {
+                  "reading": "Guide",
+                  "focus": "For expansive views around Seceda and Val Gardena",
+                  "navOverview": "Overview",
+                  "navSeasons": "Location Notes",
+                  "navPhilosophy": "Intro",
+                  "navVisual": "More guides",
+                  "navFaq": "FAQ"
+            },
+            "overview": {
+                  "eyebrow": "Guide Overview",
+                  "copy": "Seceda looks expansive and it feels that way too: wide, open and slightly exposed. Light arrives clearly here, wind is often part of the experience and the place feels strongest when you meet it early and with a little willingness to move.",
+                  "items": [
+                        {
+                              "icon": "calendar",
+                              "label": "Best Time",
+                              "value": "Summer to early autumn"
+                        },
+                        {
+                              "icon": "sun",
+                              "label": "Best Light",
+                              "value": "Sunrise or late evening"
+                        },
+                        {
+                              "icon": "crowd",
+                              "label": "Crowd Level",
+                              "value": "Medium to high later in the day"
+                        },
+                        {
+                              "icon": "path",
+                              "label": "Access",
+                              "value": "Lift-led, some walking"
+                        },
+                        {
+                              "icon": "guests",
+                              "label": "Best For",
+                              "value": "Wide, open mountain feeling"
+                        }
+                  ]
+            },
+            "philosophy": {
+                  "eyebrow": "A first note",
+                  "title": "Seceda lives in the horizon, the air and the feeling of looking far into the mountains.",
+                  "copy": "Not every meaningful place needs to feel monumental. Seceda often becomes powerful because of its openness: more sky, longer lines and that sensation that everything suddenly starts to breathe wider."
+            },
+            "sections": {
+                  "seasonOrder": [
+                        "special",
+                        "time",
+                        "access",
+                        "weather"
+                  ],
+                  "seasons": {
+                        "special": {
+                              "layout": "image-left",
+                              "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-6.jpg",
+                              "imageAlt": "Seceda in clear mountain light ridgeline",
+                              "eyebrow": "",
+                              "title": "Why Seceda is iconic",
+                              "intro": "Seceda is less monumental than it is free.",
+                              "copy": "The ridgeline is iconic, but what many couples feel most strongly is the mix of altitude, air and distance. It breathes differently than the sharper, heavier Dolomite landscapes.",
+                              "points": [],
+                              "facts": [
+                                    {
+                                          "icon": "wind",
+                                          "label": "Visual Mood",
+                                          "value": "Open, airy and cinematic"
+                                    },
+                                    {
+                                          "icon": "guests",
+                                          "label": "Best For",
+                                          "value": "Couples wanting scale without a technical hike"
+                                    },
+                                    {
+                                          "icon": "sun",
+                                          "label": "Tone",
+                                          "value": "Iconic but still soft in the right light"
+                                    }
+                              ],
+                              "note": "",
+                              "meta": "",
+                              "linkLabel": "",
+                              "linkHref": ""
+                        },
+                        "time": {
+                              "layout": "image-right",
+                              "image": "/assets/uploads/Blitzkneisser-Elopement-Seceda-Dolomites-180.jpg",
+                              "imageAlt": "Placeholder image for evening light on ridgelines",
+                              "eyebrow": "",
+                              "title": "Best time",
+                              "intro": "The best light is early, before the day starts to harden.",
+                              "copy": "In the morning, Seceda usually feels clearer, quieter and more personal. Later, the light can flatten or sharpen, and the energy changes with the daily flow of visitors.",
+                              "points": [],
+                              "facts": [
+                                    {
+                                          "icon": "sunrise",
+                                          "label": "Best",
+                                          "value": "Sunrise"
+                                    },
+                                    {
+                                          "icon": "sun",
+                                          "label": "Also Works",
+                                          "value": "Late evening in soft weather"
+                                    },
+                                    {
+                                          "icon": "crowd",
+                                          "label": "Avoid",
+                                          "value": "Busy midday windows if you want privacy"
+                                    }
+                              ],
+                              "note": "",
+                              "meta": "",
+                              "linkLabel": "",
+                              "linkHref": ""
+                        },
+                        "access": {
+                              "layout": "image-right",
+                              "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-2.jpg",
+                              "imageAlt": "Placeholder image for mountain lift and walking access",
+                              "eyebrow": "",
+                              "title": "Lift and access notes",
+                              "intro": "The lift makes Seceda reachable, but not automatically simple.",
+                              "copy": "Lift schedules, transport timing, first gondolas and the final walking sections all shape how relaxed the morning feels. Couples often underestimate how much the access rhythm matters here.",
+                              "points": [],
+                              "facts": [
+                                    {
+                                          "icon": "path",
+                                          "label": "Main Access",
+                                          "value": "Lift plus walking"
+                                    },
+                                    {
+                                          "icon": "guests",
+                                          "label": "Guest Friendly",
+                                          "value": "Moderately, depending on mobility"
+                                    },
+                                    {
+                                          "icon": "key",
+                                          "label": "Check",
+                                          "value": "Lift schedule and weather"
+                                    }
+                              ],
+                              "note": "",
+                              "meta": "",
+                              "linkLabel": "",
+                              "linkHref": ""
+                        },
+                        "weather": {
+                              "layout": "image-right",
+                              "image": "/assets/uploads/Blitzkneisser-Elopement-Wedding-Dolomites132.jpg",
+                              "imageAlt": "Placeholder image for wind and weather in high terrain",
+                              "eyebrow": "",
+                              "title": "Weather and wind",
+                              "intro": "Wind is part of the reality here more often than not.",
+                              "copy": "Seceda can look beautiful and still feel cold, exposed or unsettled. On open ridges, wind, cloud and temperature can shift the experience quickly.",
+                              "points": [],
+                              "facts": [
+                                    {
+                                          "icon": "wind",
+                                          "label": "Main Factor",
+                                          "value": "Wind exposure"
+                                    },
+                                    {
+                                          "icon": "cloud",
+                                          "label": "Weather Mood",
+                                          "value": "Fast-changing, often dramatic"
+                                    },
+                                    {
+                                          "icon": "path",
+                                          "label": "Best Response",
+                                          "value": "Layers and flexible timing"
+                                    }
+                              ],
+                              "note": "",
+                              "meta": "",
+                              "linkLabel": "",
+                              "linkHref": ""
+                        }
+                  }
+            },
+            "planning": {
+                  "eyebrow": "Planning Notes",
+                  "title": "What usually makes Seceda feel strong or difficult.",
+                  "intro": "This place gives you scale, but it asks for more awareness around wind, lift timing and the open character of the terrain.",
+                  "items": [
+                        {
+                              "label": "Wind",
+                              "title": "Dress and move for conditions, not only for photographs.",
+                              "copy": "A beautiful outfit still needs to work on an exposed ridge.",
+                              "meta": "Seceda is rarely completely still."
+                        },
+                        {
+                              "label": "Lift",
+                              "title": "The first gondola changes the entire mood.",
+                              "copy": "Being up early often means experiencing a very different Seceda from the later hours.",
+                              "meta": "The morning sets the tone."
+                        },
+                        {
+                              "label": "Light",
+                              "title": "Early light makes the place feel softer and more defined.",
+                              "copy": "At Seceda especially, morning often feels more spacious and personal than late morning.",
+                              "meta": "Scale needs good timing."
+                        },
+                        {
+                              "label": "Pace",
+                              "title": "Do not let the place become rushed.",
+                              "copy": "Seceda works best when there is enough room between travel, walking and photographs.",
+                              "meta": "Less pressure, more horizon."
+                        }
+                  ]
+            },
+            "faq": {
+                  "title": "Questions couples often ask about Seceda.",
+                  "intro": "Most questions here come back to wind, lift timing and how exposed this place actually feels once you are standing in it.",
+                  "items": [
+                        {
+                              "q": "Is sunrise at Seceda better than sunset?",
+                              "a": "For many couples, yes. Morning usually feels quieter, colder and more personal. Evening light can be beautiful too, but the location often feels more public by then."
+                        },
+                        {
+                              "q": "Do we need to hike much?",
+                              "a": "Not dramatically, but walking is still part of the experience. The lift makes Seceda easier than some locations, though the final sections should not be treated as an afterthought."
+                        },
+                        {
+                              "q": "Is Seceda too windy for a dress?",
+                              "a": "Wind is not unusual there. It is often part of the place. Fabric, layers and shoes need to work on an open ridge, not only in photos."
+                        },
+                        {
+                              "q": "Does it work with guests?",
+                              "a": "Yes, with the right group. If your guests are comfortable walking and handling a little mountain logistics, Seceda can work well with company too."
+                        }
+                  ]
+            },
+            "related": {
+                  "eyebrow": "Related Guides",
+                  "hint": "Swipe left or right to explore more guides.",
+                  "items": [
+                        {
+                              "label": "Dolomites",
+                              "title": "Dolomites Elopement Guide",
+                              "copy": "A calm starting point for couples planning a Dolomites Elopement or intimate mountain wedding and wanting to understand how light, access, weather and crowds truly shape the day.",
+                              "href": "/guides/dolomites-elopement-guide/",
+                              "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-120.jpg",
+                              "alt": "Couple during a Dolomites elopement in soft morning light",
+                              "imageAlt": "Couple during a Dolomites elopement in soft morning light"
+                        },
+                        {
+                              "label": "Locations",
+                              "title": "The most popular elopement locations in the Dolomites",
+                              "copy": "A curated guide for couples who are not looking for just any beautiful view, but for the place whose atmosphere truly fits the day they want.",
+                              "href": "/guides/best-dolomites-elopement-locations/",
+                              "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-191.jpg",
+                              "alt": "Elopement locations in the Dolomites",
+                              "imageAlt": "Elopement locations in the Dolomites"
+                        },
+                        {
+                              "label": "Locations",
+                              "title": "Lago di Braies Guide",
+                              "copy": "An honest guide for couples who know Lago di Braies as more than a famous photograph and want to understand when it feels soft, quiet and truly worth experiencing.",
+                              "href": "/guides/lago-di-braies-guide/",
+                              "image": "/assets/uploads/Blitzkneisser-Elopemnt-Dolomites-Lago-di-Braies-19.jpg",
+                              "alt": "Lago di Braies with still water and early light",
+                              "imageAlt": "Lago di Braies with still water and early light"
+                        },
+                        {
+                              "label": "Locations",
+                              "title": "Cadini di Misurina Guide",
+                              "copy": "A guide for couples who love the wild, cinematic tension of Cadini and want to know when it is accessible, safe and genuinely worth choosing.",
+                              "href": "/guides/cadini-di-misurina-guide/",
+                              "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-12.jpg",
+                              "alt": "Cadini di Misurina with dramatic rock formations",
+                              "imageAlt": "Cadini di Misurina with dramatic rock formations"
+                        },
+                        {
+                              "label": "Locations",
+                              "title": "Tre Cime Wedding Guide",
+                              "copy": "An honest guide for couples choosing Tre Cime not only for the famous view, but for the monumental, almost unreal presence the place carries when the timing is right.",
+                              "href": "/guides/tre-cime-wedding-guide/",
+                              "image": "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14.jpg",
+                              "alt": "Tre Cime in clear mountain light",
+                              "imageAlt": "Tre Cime in clear mountain light"
+                        },
+                        {
+                              "label": "Planning",
+                              "title": "Best Time for a Dolomites Elopement",
+                              "copy": "An honest guide to light, temperatures, crowds and the question of when the mountains will not only look beautiful, but genuinely feel right for you.",
+                              "href": "/guides/best-time-for-a-dolomites-elopement/",
+                              "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-16.jpg",
+                              "alt": "Existing image for best time in the Dolomites",
+                              "imageAlt": "Existing image for best time in the Dolomites"
+                        },
+                        {
+                              "label": "Planning",
+                              "title": "Sunrise vs Sunset in the Dolomites",
+                              "copy": "An honest comparison for couples who want more than beautiful light and are trying to understand which time of day fits their energy, their location and the feeling they want to remember.",
+                              "href": "/guides/sunrise-vs-sunset-dolomites/",
+                              "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Photo-368.jpg",
+                              "alt": "Mountain light at sunrise or sunset",
+                              "imageAlt": "Mountain light at sunrise or sunset"
+                        },
+                        {
+                              "label": "Planning",
+                              "title": "Weather & Backup Planning Guide",
+                              "copy": "A calm weather guide for couples who do not want to hope for perfect conditions in the mountains, but want to build a day that still feels right in fog, wind or rain.",
+                              "href": "/guides/weather-and-backup-planning/",
+                              "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-161.jpg",
+                              "alt": "Weather in the Dolomites with clouds and fog",
+                              "imageAlt": "Weather in the Dolomites with clouds and fog"
+                        },
+                        {
+                              "label": "Planning",
+                              "title": "What to Wear in the Mountains",
+                              "copy": "A practical guide for couples who want to look beautiful in the mountains, but also move freely, stay warm and still feel like themselves in what they wear.",
+                              "href": "/guides/what-to-wear-in-the-mountains/",
+                              "image": "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Hut-13.jpg",
+                              "alt": "Outfit ideas for a mountain elopement",
+                              "imageAlt": "Outfit ideas for a mountain elopement"
+                        },
+                        {
+                              "label": "Planning",
+                              "title": "Helicopter Elopement Guide",
+                              "copy": "A guide for couples seeking more space, privacy and a clearer flow to the day, and wanting to understand when a helicopter in the mountains genuinely makes sense.",
+                              "href": "/guides/helicopter-elopement-guide/",
+                              "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-12.jpg",
+                              "alt": "Helicopter flight above the mountains for an elopement",
+                              "imageAlt": "Helicopter flight above the mountains for an elopement"
+                        },
+                        {
+                              "label": "Planning",
+                              "title": "Multi-Day Elopement Guide",
+                              "copy": "A guide for couples who want more than a few rushed hours in the mountains and would rather let the day unfold with space around it.",
+                              "href": "/guides/multi-day-elopement-guide/",
+                              "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Insta-11.jpg",
+                              "alt": "Multi-day elopement in the Dolomites",
+                              "imageAlt": "Multi-day elopement in the Dolomites"
+                        }
+                  ]
+            },
+            "final": {
+                  "eyebrow": "Planned with intention",
+                  "title": "Let’s shape something that feels quiet, personal and deeply true to you.",
+                  "copy": "If this guide already feels close to the way you want the day to move, I would love to help you turn that feeling into something calm, cinematic and genuinely your own in the mountains.",
+                  "cta": "Inquire now",
+                  "image": "/assets/uploads/Blitzkneisser-Photo-Drei-Zinnen-Italy-24.jpg",
+                  "imageAlt": "Tre Cime in the Dolomites in calm, clear light"
+            }
+      }
+};
+
+    const params = new URLSearchParams(window.location.search);
+    const storedLang = localStorage.getItem("site-lang");
+    let activeLang = params.get("lang") === "en"
+      ? "en"
+      : (params.get("lang") === "de" ? "de" : (storedLang === "en" || storedLang === "de" ? storedLang : "de"));
+    const currentData = () => pageData[activeLang] || pageData.de;
+    const siteRootPath = (() => {
+      const markers = ["/guides/", "/journal/", "/experience/", "/about/", "/contact/", "/film/", "/portfolio/", "/admin/", "/index.html"];
+      for (const marker of markers) {
+        const index = window.location.pathname.indexOf(marker);
+        if (index !== -1) return window.location.pathname.slice(0, index);
+      }
+      return window.location.pathname.replace(/\/[^/]*$/, "");
+    })();
+    const normalizeHref = (href) => {
+      if (window.location.protocol !== "file:" || !href.startsWith("/")) return href;
+      const [pathPart, queryPart] = href.split("?");
+      const localPath = pathPart === "/index.html"
+        ? `${siteRootPath}/index.html`
+        : pathPart.endsWith("/")
+          ? `${siteRootPath}${pathPart}index.html`
+          : `${siteRootPath}${pathPart}`;
+      return queryPart ? `${localPath}?${queryPart}` : localPath;
+    };
+    const withLang = (href) => normalizeHref(activeLang === "en" && !href.includes("?lang=en")
+      ? `${href}${href.includes("?") ? "&" : "?"}lang=en`
+      : href);
+
+
+    const escapeHtml = (value = "") => String(value)
+      .replaceAll("&", "&amp;")
+      .replaceAll("<", "&lt;")
+      .replaceAll(">", "&gt;")
+      .replaceAll('"', "&quot;")
+      .replaceAll("'", "&#39;");
+
+    const iconMap = {
+      sunrise: '<svg viewBox="0 0 24 24"><path d="M4 16a8 8 0 0 1 16 0"/><path d="M12 4v4"/><path d="M5 9l2.2 1.8"/><path d="M19 9l-2.2 1.8"/><path d="M3 20h18"/></svg>',
+      sun: '<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v3"/><path d="M12 19v3"/><path d="M4.93 4.93l2.12 2.12"/><path d="M16.95 16.95l2.12 2.12"/><path d="M2 12h3"/><path d="M19 12h3"/><path d="M4.93 19.07l2.12-2.12"/><path d="M16.95 7.05l2.12-2.12"/></svg>',
+      cloud: '<svg viewBox="0 0 24 24"><path d="M7 18h10a4 4 0 0 0 .2-8A6 6 0 0 0 5 11.5 3.5 3.5 0 0 0 7 18Z"/></svg>',
+      crowd: '<svg viewBox="0 0 24 24"><path d="M16 19v-1a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v1"/><circle cx="10" cy="8" r="3"/><path d="M20 19v-1a4 4 0 0 0-3-3.87"/><path d="M14 4.13a3 3 0 0 1 0 5.74"/></svg>',
+      guests: '<svg viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4v2"/><circle cx="9.5" cy="7" r="3"/><path d="M20 21v-2a4 4 0 0 0-3-3.87"/><path d="M15 4.13a3 3 0 0 1 0 5.74"/></svg>',
+      calendar: '<svg viewBox="0 0 24 24"><path d="M8 2v4"/><path d="M16 2v4"/><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 10h18"/></svg>',
+      path: '<svg viewBox="0 0 24 24"><path d="M4 20c5-6 6-7 6-11a2.5 2.5 0 1 1 5 0c0 4 1 5 5 11"/><path d="M10 20h10"/></svg>',
+      wind: '<svg viewBox="0 0 24 24"><path d="M3 8h11a3 3 0 1 0-3-3"/><path d="M2 12h15a3 3 0 1 1-3 3"/><path d="M4 16h8"/></svg>',
+      key: '<svg viewBox="0 0 24 24"><circle cx="8" cy="15" r="4"/><path d="M12 15h9"/><path d="M18 12v6"/><path d="M21 13v4"/></svg>',
+      boots: '<svg viewBox="0 0 24 24"><path d="M4 17h9l2 3H4z"/><path d="M13 17v-7l4 2 1 5"/><path d="M18 17h2a2 2 0 0 1 2 2H15"/></svg>',
+      layers: '<svg viewBox="0 0 24 24"><path d="M12 3l8 4-8 4-8-4 8-4Z"/><path d="M4 11l8 4 8-4"/><path d="M4 15l8 4 8-4"/></svg>',
+      default: '<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/></svg>'
+    };
+
+    const iconMarkup = (icon, className = 'fact-icon') => 
+      '<span class="' + className + '" aria-hidden="true">' + (iconMap[icon] || iconMap.default) + '</span>';
+
+    const normalizePoints = (points) => {
+      if (!Array.isArray(points)) return [];
+      return points.flatMap((item) => String(item || '').split(/\n+/)).map((item) => item.trim()).filter(Boolean);
+    };
+
+    const renderQuickFacts = (data) => {
+      const root = document.getElementById('quickFacts');
+      if (!root) return;
+      const items = Array.isArray(data?.overview?.items) ? data.overview.items : [];
+      root.innerHTML = items.map((item) => 
+        '<div class="fact-item">' +
+          iconMarkup(item?.icon) +
+          '<div class="eyebrow">' + escapeHtml(item?.label || '') + '</div>' +
+          '<div class="fact-value">' + escapeHtml(item?.value || '') + '</div>' +
+        '</div>'
+      ).join('');
+    };
+
+    const renderSeasons = (data) => {
+      const root = document.getElementById('seasonRows');
+      if (!root) return;
+      const sections = data?.sections?.seasons || {};
+      const order = Array.isArray(data?.sections?.seasonOrder) ? data.sections.seasonOrder : Object.keys(sections);
+      root.innerHTML = order.map((key, index) => {
+        const item = sections[key] || {};
+        const points = normalizePoints(item.points);
+        const facts = Array.isArray(item.facts) ? item.facts : [];
+        const classes = 'guide-season-row ' + (((item.layout === 'image-right') || (item.layout !== 'image-left' && index % 2 === 1)) ? 'is-image-right' : '');
+        return '<article class="' + classes.trim() + '">' +
+          '<div class="guide-season-image">' +
+            '<img src="' + escapeHtml(item.image || '') + '" alt="' + escapeHtml(item.imageAlt || item.alt || item.title || '') + '" loading="lazy" decoding="async" class="w-full h-full object-cover">' +
+          '</div>' +
+          '<div class="guide-season-copy">' +
+            '<div>' +
+              (item.eyebrow ? '<div class="content-meta">' + escapeHtml(item.eyebrow) + '</div>' : '') +
+              '<h3 class="season-heading">' + escapeHtml(item.title || '') + '</h3>' +
+              (item.intro ? '<p class="season-intro">' + escapeHtml(item.intro) + '</p>' : '') +
+              (item.copy ? '<p class="body-copy">' + escapeHtml(item.copy) + '</p>' : '') +
+              (points.length ? '<ul class="season-points">' + points.map((point) => '<li>' + escapeHtml(point) + '</li>').join('') + '</ul>' : '') +
+              (facts.length ? '<div class="season-facts">' + facts.map((fact) =>
+                '<div class="season-fact">' +
+                  iconMarkup(fact?.icon, 'season-fact-icon') +
+                  '<div><div class="content-meta">' + escapeHtml(fact?.label || '') + '</div><div class="season-fact-value">' + escapeHtml(fact?.value || '') + '</div></div>' +
+                '</div>'
+              ).join('') + '</div>' : '') +
+              (item.note ? '<p class="season-note">' + escapeHtml(item.note) + '</p>' : '') +
+            '</div>' +
+            '<div>' +
+              (item.meta ? '<div class="content-meta">' + escapeHtml(item.meta) + '</div>' : '') +
+              (item.linkLabel && item.linkHref ? '<a class="button-outline mt-4 inline-flex" href="' + escapeHtml(withLang(item.linkHref)) + '">' + escapeHtml(item.linkLabel) + '</a>' : '') +
+            '</div>' +
+          '</div>' +
+        '</article>';
+      }).join('');
+    };
+
+    const renderPlanning = (data) => {
+      const root = document.getElementById('planningNotes');
+      if (!root) return;
+      const items = Array.isArray(data?.planning?.items) ? data.planning.items : [];
+      root.innerHTML = items.map((item) =>
+        '<article class="planning-item">' +
+          (item?.eyebrow ? '<div class="content-meta">' + escapeHtml(item.eyebrow) + '</div>' : '') +
+          '<h3 class="planning-item-title">' + escapeHtml(item?.title || '') + '</h3>' +
+          (item?.copy ? '<p class="body-copy planning-item-copy">' + escapeHtml(item.copy) + '</p>' : '') +
+          (item?.meta ? '<div class="planning-item-meta">' + escapeHtml(item.meta) + '</div>' : '') +
+        '</article>'
+      ).join('');
+    };
+
+    const renderFaq = (data) => {
+      const root = document.getElementById('faqList');
+      if (!root) return;
+      const items = Array.isArray(data?.faq?.items) ? data.faq.items : [];
+      root.innerHTML = items.map((item, index) =>
+        '<details class="faq-item"' + (index === 0 ? ' open' : '') + '>' +
+          '<summary class="flex cursor-pointer list-none items-start justify-between gap-6 py-5 text-left">' +
+            '<span class="text-[1.02rem] md:text-[1.1rem] leading-7 tracking-[-0.02em] text-brand-text">' + escapeHtml(item?.q ?? item?.question ?? item?.title ?? '') + '</span>' +
+            '<span class="text-brand-muted text-lg leading-none">+</span>' +
+          '</summary>' +
+          '<div class="pb-5 pr-8 body-copy">' + escapeHtml(item?.a ?? item?.answer ?? item?.copy ?? '') + '</div>' +
+        '</details>'
+      ).join('');
+    };
+
+    const renderRelated = (data) => {
+      const root = document.getElementById('relatedGuides');
+      if (!root) return;
+      const items = Array.isArray(data?.related?.items) ? data.related.items : [];
+      root.innerHTML = items.map((item) =>
+        '<a class="related-card" href="' + escapeHtml(withLang(item?.href || '/guides/')) + '">' +
+          '<div class="related-card-image">' +
+            '<img src="' + escapeHtml(item?.image || '') + '" alt="' + escapeHtml(item?.imageAlt || item?.alt || item?.title || '') + '" loading="lazy" decoding="async" class="w-full h-full object-cover">' +
+          '</div>' +
+          '<div class="related-card-body">' +
+            (item?.label ? '<div class="related-card-label content-meta">' + escapeHtml(item.label) + '</div>' : '') +
+            '<h3 class="mt-3 text-[1.85rem] leading-[1.02] tracking-[-0.05em] text-brand-text">' + escapeHtml(item?.title || '') + '</h3>' +
+            (item?.copy ? '<p class="body-copy mt-4">' + escapeHtml(item.copy) + '</p>' : '') +
+            '<span class="button-text mt-5 inline-flex">Mehr ansehen</span>' +
+          '</div>' +
+        '</a>'
+      ).join('');
+    };
+
+    const getNestedValue = (source, path) => path.split(".").reduce((value, segment) => {
+      if (value == null) return undefined;
+      return value[segment];
+    }, source);
+
+    const applyText = (data) => {
+      document.documentElement.lang = activeLang;
+      localStorage.setItem("site-lang", activeLang);
+      document.title = data.title;
+      document.querySelector('meta[name="description"]').setAttribute("content", data.description);
+
+      document.querySelectorAll("[data-i18n]").forEach((node) => {
+        const value = getNestedValue(data, node.dataset.i18n);
+        if (typeof value === "string") node.textContent = value;
+      });
+
+      document.getElementById("heroImage").src = data.hero.image;
+      document.getElementById("heroImage").alt = data.hero.imageAlt;
+      document.getElementById("heroCta").href = withLang("/contact/");
+      if (document.getElementById("finalImage")) { document.getElementById("finalImage").src = data.final?.image || document.getElementById("finalImage").src; document.getElementById("finalImage").alt = data.final?.imageAlt || document.getElementById("finalImage").alt; }
+      document.getElementById("finalCta").href = withLang("/contact/");
+      document.getElementById("navHomeLink").href = withLang("/index.html");
+      document.getElementById("navGuidesLink").href = withLang("/guides/");
+      document.getElementById("navExperienceLink").href = withLang("/experience/");
+      document.getElementById("navJournalLink").href = withLang("/journal/");
+      document.getElementById("navAboutLink").href = withLang("/about/");
+      document.getElementById("navContactLink").href = withLang("/contact/");
+
+      document.querySelectorAll("[data-lang-button]").forEach((button) => {
+        button.setAttribute("aria-pressed", button.dataset.langButton === activeLang ? "true" : "false");
+        button.classList.toggle("bg-brand-text", button.dataset.langButton === activeLang);
+        button.classList.toggle("text-white", button.dataset.langButton === activeLang);
+      });
+
+      const faqSchema = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": (Array.isArray(data?.faq?.items) ? data.faq.items : []).map((item) => ({
+          "@type": "Question",
+          "name": item?.q ?? item?.question ?? item?.title ?? "",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": item?.a ?? item?.answer ?? item?.copy ?? ""
+          }
+        }))
+      };
+      document.getElementById("faqSchema").textContent = JSON.stringify(faqSchema);
+    };
+
+    const renderPage = () => {
+      const data = currentData();
+      applyText(data);
+      renderQuickFacts(data);
+      renderSeasons(data);
+      renderPlanning(data);
+      renderFaq(data);
+      renderRelated(data);
+    };
+
+    renderPage();
+
+    document.querySelectorAll("[data-lang-button]").forEach((button) => {
+      button.addEventListener("click", () => {
+        const nextLang = button.dataset.langButton === "en" ? "en" : "de";
+        if (nextLang === activeLang) return;
+        activeLang = nextLang;
+        localStorage.setItem("site-lang", activeLang);
+        const nextUrl = activeLang === "en"
+          ? `${window.location.pathname}?lang=en`
+          : window.location.pathname;
+        window.history.replaceState({}, "", nextUrl);
+        renderPage();
+        if (window.innerWidth < 768) closeNavMenu();
+      });
+    });
+
+    document.addEventListener("toggle", (event) => {
+      if (!event.target.matches("#faqList details")) return;
+      if (!event.target.open) return;
+      document.querySelectorAll("#faqList details").forEach((item) => {
+        if (item !== event.target) item.open = false;
+      });
+    }, true);
+  </script>
+  <script src="/assets/footer-settings.js"></script>
+</body>
+</html>

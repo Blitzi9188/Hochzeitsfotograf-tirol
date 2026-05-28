@@ -1,0 +1,1072 @@
+<!DOCTYPE html>
+<html lang="de" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Journal | Hochzeiten, Elopements und Geschichten aus den Bergen</title>
+  <meta
+    name="description"
+    content="Echte Geschichten aus Tirol, den Dolomiten und den Alpen: Elopements, intime Hochzeiten und Tage in den Bergen mit Licht, Wetter und Persönlichkeit."
+  >
+  <link rel="canonical" href="">
+  <link rel="icon" type="image/png" href="/Logo-Blitzkneisser-BERG.png">
+  <script defer src="/assets/seo.js"></script>
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ["Inter", "sans-serif"]
+          },
+          colors: {
+            brand: {
+              bg: "#FFFFFF",
+              text: "#1A1A1A",
+              muted: "#8C8C8C",
+              border: "#E5E0D8"
+            }
+          },
+          letterSpacing: {
+            tightest: "-0.06em"
+          }
+        }
+      }
+    };
+  </script>
+  <style>
+    body {
+      background-color: #FFFFFF;
+      color: #1A1A1A;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    .headline {
+      font-weight: 700;
+      letter-spacing: -0.05em;
+      line-height: 0.9;
+      text-transform: uppercase;
+    }
+
+    .image-hover-container {
+      overflow: hidden;
+      background-color: #EFE8DE;
+    }
+
+    .image-hover-container img {
+      transition: transform 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .image-hover-container:hover img {
+      transform: none;
+    }
+
+    .reading-progress-bar {
+      width: 0%;
+      height: 2px;
+      background-color: #1A1A1A;
+      transition: width 0.2s ease;
+    }
+
+    .full-bleed-container {
+      width: 100vw;
+      position: relative;
+      left: 50%;
+      right: 50%;
+      margin-left: -50vw;
+      margin-right: -50vw;
+    }
+
+    .dropcap::first-letter {
+      float: left;
+      font-size: 5.5rem;
+      line-height: 0.8;
+      padding-top: 4px;
+      padding-right: 12px;
+      font-weight: 700;
+      color: #1A1A1A;
+    }
+
+    .cluster-grid {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 1.5rem;
+    }
+
+    .cluster-grid img,
+    .cluster-grid a {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+
+    .gallery-frame {
+      padding: 0.5rem;
+      background: #FFFFFF;
+    }
+
+    .partner-links {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .partner-link-item {
+      display: flex;
+      flex-direction: column;
+      gap: 0.2rem;
+    }
+
+    .partner-link-item strong {
+      font-size: 1rem;
+      font-weight: 500;
+      line-height: 1.45;
+      color: #1A1A1A;
+    }
+
+    .partner-link-item a {
+      font-size: 1rem;
+      line-height: 1.55;
+      color: rgba(26, 26, 26, 0.78);
+      font-weight: 500;
+      text-decoration: underline;
+      text-decoration-color: rgba(26, 26, 26, 0.24);
+      text-decoration-thickness: 0.12em;
+      text-underline-offset: 0.2em;
+      word-break: break-word;
+    }
+
+    .journal-link-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.85rem;
+      margin: 1.25rem 0 1.5rem;
+    }
+
+    .journal-link-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 2.95rem;
+      padding: 0.82rem 1.2rem;
+      border: 1px solid rgba(26, 26, 26, 0.18);
+      background: rgba(255, 255, 255, 0.86);
+      color: #1A1A1A;
+      font-size: 0.78rem;
+      line-height: 1;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      text-decoration: none;
+      transition: background-color 0.25s ease, border-color 0.25s ease, transform 0.25s ease;
+    }
+
+    .prose-entry a.journal-link-button {
+      color: #1A1A1A;
+      font-weight: 500;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+
+    .journal-link-button:hover {
+      background: rgba(26, 26, 26, 0.03);
+      border-color: rgba(26, 26, 26, 0.34);
+      transform: translateY(-1px);
+    }
+
+    .prose-entry a {
+      color: rgba(26, 26, 26, 0.9);
+      font-weight: 500;
+      text-decoration: underline;
+      text-decoration-color: rgba(26, 26, 26, 0.28);
+      text-decoration-thickness: 0.11em;
+      text-underline-offset: 0.2em;
+    }
+
+    .prose-entry p {
+      font-size: 1.05rem;
+      line-height: 1.58;
+      font-weight: 300;
+      opacity: 0.92;
+      margin-bottom: 1rem;
+    }
+
+    @media (min-width: 768px) {
+      .prose-entry p {
+        font-size: 1.2rem;
+      }
+    }
+
+    @media (max-width: 767px) {
+      .cluster-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1rem;
+      }
+    }
+
+    .mobile-menu-toggle {
+      display: none;
+    }
+
+    .floating-lang-toggle {
+      display: none;
+    }
+
+    @media (max-width: 767px) {
+      .mobile-menu-toggle {
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5px;
+        width: 44px;
+        height: 44px;
+        margin-left: auto;
+      }
+
+      .mobile-menu-toggle span {
+        width: 24px;
+        height: 2px;
+        margin-left: auto;
+        background: #1A1A1A;
+        transition: transform 0.25s ease, opacity 0.25s ease;
+      }
+
+      #mainNav.is-open .mobile-menu-toggle span:nth-child(1) {
+        transform: translateY(7px) rotate(45deg);
+      }
+
+      #mainNav.is-open .mobile-menu-toggle span:nth-child(2) {
+        opacity: 0;
+      }
+
+      #mainNav.is-open .mobile-menu-toggle span:nth-child(3) {
+        transform: translateY(-7px) rotate(-45deg);
+      }
+
+      .nav-menu-panel {
+        position: absolute;
+        top: calc(100% + 2px);
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem 1.5rem 1.25rem;
+        background: rgba(255, 255, 255, 0.94);
+        backdrop-filter: blur(14px);
+        border-bottom: 1px solid #E5E0D8;
+        opacity: 0;
+        pointer-events: none;
+        transform: translateY(-8px);
+        transition: opacity 0.25s ease, transform 0.25s ease;
+      }
+
+      #mainNav.is-open .nav-menu-panel {
+        opacity: 1;
+        pointer-events: auto;
+        transform: translateY(0);
+      }
+
+      .nav-menu-panel > div:first-child {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+      }
+
+      .nav-menu-panel .text-right {
+        text-align: center;
+      }
+
+      .nav-menu-panel a {
+        font-size: 1rem;
+        font-weight: 700;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+      }
+
+      .nav-menu-panel .nav-lang-toggle {
+        display: none;
+      }
+
+      .floating-lang-toggle {
+        position: fixed;
+        right: 1rem;
+        bottom: 1rem;
+        z-index: 60;
+        display: flex;
+        align-items: center;
+        gap: 0.35rem;
+        padding: 0.4rem;
+        background: rgba(255, 255, 255, 0.94);
+        backdrop-filter: blur(14px);
+        border: 1px solid #E5E0D8;
+        box-shadow: 0 12px 30px rgba(27, 26, 24, 0.08);
+      }
+
+      .floating-lang-toggle button {
+        border: 1px solid #E5E0D8;
+        min-width: 2.8rem;
+        padding: 0.7rem 0.75rem;
+        font-size: 0.625rem;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        transition: all 0.2s ease;
+      }
+    }
+  </style>
+</head>
+<body class="overflow-x-hidden selection:bg-stone-300 selection:text-black">
+  <header class="fixed top-0 left-0 w-full z-[60] bg-white/80 backdrop-blur-sm">
+    <nav class="w-full px-6 py-5 text-brand-text md:px-12 md:py-8" id="mainNav">
+      <div class="relative mx-auto flex max-w-[120rem] items-center justify-between gap-6">
+        <a href="/index.html" id="navHomeLink" class="group flex items-center no-underline text-current" aria-label="Blitzkneisser Photography">
+          <img src="/Logo-Blitzkneisser-BERG.png" alt="Blitzkneisser Photography" class="h-11 w-auto brightness-0 contrast-125 opacity-70 transition duration-500 ease-out group-hover:opacity-100 md:h-14">
+        </a>
+        <div class="pointer-events-none absolute left-1/2 hidden -translate-x-1/2 md:block text-[10px] uppercase tracking-[0.2em] font-medium whitespace-nowrap text-brand-text" id="readLabelCentered">0% Read</div>
+        <div class="pointer-events-none absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 md:hidden text-[10px] uppercase tracking-[0.2em] font-medium whitespace-nowrap text-brand-text" id="readLabel">0% Read</div>
+        <button type="button" class="mobile-menu-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenuPanel" aria-label="Menü öffnen">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="nav-menu-panel ml-auto flex items-center justify-end gap-4 text-right" id="navMenuPanel">
+          <div class="flex items-center gap-4 text-[10px] uppercase tracking-[0.2em] sm:gap-6 md:gap-8 md:text-xs">
+            <a href="/experience/" id="navExperienceLink" class="hover:opacity-60 transition-opacity duration-300">Experience</a>
+            <a href="/guides/" id="navGuidesLink" class="hover:opacity-60 transition-opacity duration-300">Guides</a>
+            <a href="/journal/" id="navJournalLink" class="opacity-60 transition-opacity duration-300" aria-current="page">Journal</a>
+            <a href="/about/" id="navAboutLink" class="hover:opacity-60 transition-opacity duration-300">About</a>
+            <a href="/contact/" id="navContactLink" class="hover:opacity-60 transition-opacity duration-300" data-i18n="nav.contact">Contact</a>
+            <a href="/film/" id="navFilmLink" class="hidden hover:opacity-60 transition-opacity duration-300" data-i18n="nav.film">Film</a>
+            <a href="/academy/" id="navAcademyLink" class="hidden hover:opacity-60 transition-opacity duration-300" data-i18n="nav.academy">Academy</a>
+          </div>
+          <div class="nav-lang-toggle hidden sm:flex items-center gap-2 text-[10px] uppercase tracking-[0.24em] md:text-xs">
+            <button type="button" class="border border-brand-border px-3 py-2 transition-colors" data-lang-button="de" aria-pressed="true">DE</button>
+            <button type="button" class="border border-brand-border px-3 py-2 transition-colors" data-lang-button="en" aria-pressed="false">EN</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="w-full h-[2px] bg-brand-border">
+      <div class="reading-progress-bar" id="readingProgressBar"></div>
+    </div>
+  </header>
+
+  <div class="floating-lang-toggle" id="floatingLangToggle" aria-label="Sprache wechseln">
+    <button type="button" data-lang-button="de" aria-pressed="true">DE</button>
+    <button type="button" data-lang-button="en" aria-pressed="false">EN</button>
+  </div>
+
+  <main class="pt-48">
+    <section class="max-w-4xl mx-auto px-6 mb-32 text-center">
+      <span class="text-[10px] uppercase tracking-[0.4em] text-brand-muted mb-4 block" id="entryEyebrow">Journal Entry</span>
+      <h1 class="headline text-5xl md:text-7xl lg:text-8xl mb-12" id="entryTitle">Loading Entry</h1>
+      <p class="text-xs uppercase tracking-[0.3em] text-brand-muted" id="entryMeta">By Blitzkneisser</p>
+    </section>
+
+    <section class="mb-32" data-no-pin>
+      <div class="full-bleed-container aspect-[21/9] image-hover-container" data-no-pin>
+        <img id="heroImage" src="/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-8.jpg" alt="Journal image" class="w-full h-full object-cover">
+      </div>
+      <div class="max-w-4xl mx-auto px-6 mt-6" hidden aria-hidden="true">
+        <p class="text-[10px] uppercase tracking-widest text-brand-muted text-center" id="heroCaption">Featured visual</p>
+      </div>
+    </section>
+
+    <section class="max-w-5xl mx-auto px-6 mb-20 md:mb-24 prose-entry" id="introSection"></section>
+
+    <section class="max-w-6xl mx-auto px-6 mb-32">
+      <div class="cluster-grid">
+        <div class="col-span-8 aspect-[4/3] image-hover-container">
+          <img src="/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-143.jpg" alt="Editorial elopement moment in the Dolomites" class="w-full h-full object-cover">
+        </div>
+        <div class="col-span-4 aspect-square mt-12 image-hover-container">
+          <img src="/assets/uploads/Blitzkneisser-Dolomites-Proposel-INSTA-3.jpg" alt="Proposal in the Dolomites" class="w-full h-full object-cover">
+        </div>
+        <div class="col-span-4 aspect-square -mt-12 image-hover-container">
+          <img src="/assets/uploads/Blitzkneisser-Couple-Shooting-Dolomites-INSTA-4.jpg" alt="Couple session in alpine light" class="w-full h-full object-cover">
+        </div>
+        <div class="col-span-8 aspect-[16/9] image-hover-container">
+          <img src="/assets/uploads/Blitzkneisser-Elopement-Dolomites-Insta-20.jpg" alt="Portrait in mountain scenery" class="w-full h-full object-cover">
+        </div>
+      </div>
+      <div class="mt-8 flex justify-between items-start border-t border-brand-border pt-4">
+        <span class="text-[9px] uppercase tracking-[0.3em] text-brand-muted" id="seriesLabel">Series / Journal</span>
+        <span class="text-[9px] uppercase tracking-[0.3em] text-brand-muted" id="seriesDate">Digital Capture</span>
+      </div>
+    </section>
+
+    <section class="max-w-4xl mx-auto px-6 mb-16 md:mb-20" id="galleryIntroSection"></section>
+
+    <section class="max-w-4xl mx-auto px-6 mb-10 md:mb-14 text-center">
+      <a
+        id="entryContactCta"
+        href="/contact/"
+        class="inline-flex items-center gap-3 border border-brand-border px-7 py-3 text-[10px] uppercase tracking-[0.24em] font-medium text-brand-text transition-colors duration-300 hover:bg-brand-text hover:text-white"
+      >
+        So etwas will ich auch haben · Mehr Infos
+      </a>
+    </section>
+
+    <section class="max-w-4xl mx-auto px-6 mb-32" id="galleryOutroSection"></section>
+
+    <section class="mb-48">
+      <div class="full-bleed-container h-[80vh] image-hover-container relative">
+        <img id="finalImage" src="/assets/uploads/Blitzkneisser-Mountain-Elopement-Instagram-5.jpg" alt="Mountain horizon" class="w-full h-full object-cover grayscale brightness-[0.85]">
+        <div class="absolute inset-0 bg-black/10"></div>
+        <div class="absolute bottom-12 left-12 right-12 flex justify-between items-end text-white">
+          <div class="max-w-sm">
+            <h3 class="headline text-4xl mb-2" data-i18n="final.title">The Final Frame</h3>
+            <p class="text-[10px] uppercase tracking-widest opacity-80" id="finalObservation">Feature observation</p>
+          </div>
+          <div class="hidden md:block">
+            <a href="/journal/" id="backToJournalLink" class="text-[10px] uppercase tracking-[0.4em] font-medium border border-white/30 px-6 py-3" data-i18n="final.back">Back to Journal</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="py-16 px-6 md:px-12 border-t border-brand-border flex flex-col md:flex-row justify-between items-start md:items-center text-[10px] md:text-xs text-brand-muted tracking-[0.2em] uppercase font-medium bg-brand-bg">
+    <div id="footerBrandText">© 2026 Blitzkneisser Photography</div>
+    <div class="flex flex-col md:flex-row gap-6 md:gap-12 mt-8 md:mt-0">
+      <a id="footerInstagramLink" href="#" class="hover:text-brand-text transition-colors duration-300">Instagram</a>
+      <a id="footerContactLink" href="/contact/" class="hover:text-brand-text transition-colors duration-300" data-i18n="nav.contact">Contact</a>
+      <a id="footerJournalLink" href="/journal/" class="hover:text-brand-text transition-colors duration-300">Journal</a>
+    </div>
+    <div id="footerInstagramFeed" class="footer-instagram-feed"></div>
+  </footer>
+
+  <script>
+    const uiTranslations = {
+      de: {
+        pageTitleSuffix: "Blitzkneisser Photography",
+        navHome: "Home",
+        fallbackTitle: "Journal Eintrag",
+        fallbackDescription: "Journal Beitrag von Blitzkneisser Photography.",
+        featurePrefix: "Feature",
+        featureLabelPrefix: "Special Feature",
+        metaBy: "Von",
+        metaRead: "Min Lesezeit",
+        heroCaption: "Featured Visual",
+        seriesSuffix: "Feature",
+        finalTitle: "Der letzte Blick",
+        finalBack: "Zurück zum Journal",
+        finalObservation: "Feature Beobachtung",
+        footerServices: "Film",
+        footerTop: "Nach oben",
+        "nav.contact": "Kontakt",
+        readSuffix: "gelesen",
+        imageAlt: "Journal Bild",
+        finalAlt: "Bergpanorama",
+        entryNotFound: "Eintrag nicht gefunden",
+        returnText: "Bitte kehre zur Journal-Übersicht zurück.",
+        brand: "Blitzkneisser Journal",
+        entryCta: "So etwas will ich auch haben · Mehr Infos"
+      },
+      en: {
+        pageTitleSuffix: "Blitzkneisser Photography",
+        navHome: "Home",
+        fallbackTitle: "Journal Entry",
+        fallbackDescription: "Journal entry by Blitzkneisser Photography.",
+        featurePrefix: "Journal Feature",
+        featureLabelPrefix: "Special Feature",
+        metaBy: "By",
+        metaRead: "Min Read",
+        heroCaption: "Featured visual",
+        seriesSuffix: "Feature",
+        finalTitle: "The Final Frame",
+        finalBack: "Back to Journal",
+        finalObservation: "Feature observation",
+        footerServices: "Film",
+        footerTop: "Top of Page",
+        "nav.contact": "Contact",
+        readSuffix: "Read",
+        imageAlt: "Journal image",
+        finalAlt: "Mountain horizon",
+        entryNotFound: "Entry not found",
+        returnText: "Please return to the journal overview.",
+        brand: "Blitzkneisser Journal",
+        entryCta: "I want this too · More info"
+      }
+    };
+
+    const parseFrontmatter = (content) => {
+      if (!content.startsWith("---")) return { data: {}, body: content };
+      const end = content.indexOf("\n---", 3);
+      if (end === -1) return { data: {}, body: content };
+      const frontmatter = content.slice(4, end).trim();
+      const body = content.slice(end + 4).trim();
+      const data = {};
+      let lastKey = "";
+      frontmatter.split("\n").forEach((line) => {
+        if (/^\s+/.test(line) && lastKey) {
+          data[lastKey] = `${data[lastKey]} ${line.trim()}`.trim();
+          return;
+        }
+        const match = line.match(/^([A-Za-z0-9_]+):\s*(.*)$/);
+        if (!match) return;
+        let value = match[2].trim();
+        if ((value.startsWith('"') && value.endsWith('"')) || (value.startsWith("'") && value.endsWith("'"))) {
+          value = value.slice(1, -1).replace(/\\n/g, "\n");
+        }
+        data[match[1]] = value;
+        lastKey = match[1];
+      });
+      return { data, body };
+    };
+
+    const bodyToParagraphs = (body) => String(body || "")
+      .split("\n")
+      .map((line) => line.trim())
+      .filter((line) => line && !line.startsWith("## "));
+
+    const JOURNAL_LINK_GROUPS = {
+      "the-best-elopement-locations": {
+        de: {
+          mautgebuhr: { label: "Mautgebühr", href: "https://www.dreizinnen.com/de/informationen/anreise.html" },
+          seilbahn: { label: "Seilbahn", href: "https://www.seceda.it/" },
+          boothaus: { label: "Boot Haus", href: "https://www.prags.bz/de/der-pragser-wildsee" },
+          roadtrip: { label: "Roadtrip", href: "https://maps.google.com/?q=Passo+Giau" },
+          rifugiolagazuoi: { label: "Rifugio-Lagazuoi", href: "https://lagazuoi.it/index.php" },
+          geschichte: { label: "Geschichte", href: "https://lagazuoi.it/index.php/en/homepage-en/history" },
+          wandertipp: { label: "Wandertipp", href: "https://maps.google.com/?q=Col+di+Lana+Col+Galina" }
+        },
+        en: {
+          tollfee: { label: "Toll Fee", href: "https://www.dreizinnen.com/en/information/mobility.html" },
+          cablecar: { label: "Cable Car", href: "https://www.seceda.it/en/" },
+          boathouse: { label: "Boat House", href: "https://www.prags.bz/en/the-pragser-wildsee" },
+          roadtrip: { label: "Road Trip", href: "https://maps.google.com/?q=Passo+Giau" },
+          rifugiolagazuoi: { label: "Rifugio-Lagazuoi", href: "https://lagazuoi.it/en/" },
+          history: { label: "History", href: "https://lagazuoi.it/index.php/en/homepage-en/history" },
+          hikingtipp: { label: "Hiking Tip", href: "https://maps.google.com/?q=Col+di+Lana+Col+Galina" }
+        }
+      }
+    };
+
+    const normalizeJournalLinkKey = (value) => String(value || "")
+      .toLowerCase()
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .replace(/[^a-z0-9]+/g, "");
+
+    const getCurrentJournalSlug = () => getJournalSlugFromFilePath(currentEntryPath) || getSlugFromPath();
+
+    const resolveJournalLinkItem = (rawLabel) => {
+      const slug = getCurrentJournalSlug();
+      const langMap = JOURNAL_LINK_GROUPS[slug]?.[currentLang];
+      if (!langMap) return null;
+      const normalized = normalizeJournalLinkKey(rawLabel);
+      const aliases = {
+        boatrealtal: "boothaus",
+        boatreantal: "boathouse",
+        hikingtip: "hikingtipp"
+      };
+      return langMap[normalized] || langMap[aliases[normalized]] || null;
+    };
+
+    const renderJournalLinkButton = (paragraph) => {
+      const match = String(paragraph || "").trim().match(/^LINK:\s*(.+)$/i);
+      if (!match) return "";
+      const item = resolveJournalLinkItem(match[1]);
+      if (!item?.href || !item?.label) return "";
+      return `
+        <div class="journal-link-buttons">
+          <a class="journal-link-button" href="${item.href}" target="_blank" rel="noreferrer">${item.label}</a>
+        </div>
+      `;
+    };
+
+    const textToParagraphMarkup = (value) => String(value || "")
+      .split(/\n\s*\n|\n/)
+      .map((paragraph) => paragraph.trim())
+      .filter(Boolean)
+      .map((paragraph) => renderJournalLinkButton(paragraph) || `<p>${paragraph}</p>`)
+      .join("");
+
+    const linkifyInlineUrls = (value) => String(value || "").replace(/(https?:\/\/[^\s<]+|www\.[^\s<]+)/gi, (match) => {
+      const href = /^https?:\/\//i.test(match) ? match : `https://${match}`;
+      return `<a href="${href}" target="_blank" rel="noreferrer">${match}</a>`;
+    });
+
+    const textToParagraphMarkupWithLinks = (value) => String(value || "")
+      .split(/\n\s*\n|\n/)
+      .map((paragraph) => paragraph.trim())
+      .filter(Boolean)
+      .map((paragraph) => renderJournalLinkButton(paragraph) || `<p>${linkifyInlineUrls(paragraph)}</p>`)
+      .join("");
+
+    const normalizeUrl = (value) => {
+      const trimmed = String(value || "").trim();
+      if (!trimmed) return "";
+      if (/^https?:\/\//i.test(trimmed)) return trimmed;
+      if (/^www\./i.test(trimmed)) return `https://${trimmed}`;
+      return "";
+    };
+
+    const textToPartnerMarkup = (value) => {
+      const blocks = String(value || "")
+        .split(/\n\s*\n/)
+        .map((block) => block.split("\n").map((line) => line.trim()).filter(Boolean))
+        .filter((block) => block.length);
+
+      if (!blocks.length) return "";
+
+      const items = [];
+      let allPartnerBlocks = true;
+
+      blocks.forEach((lines) => {
+        let label = "";
+        let rawUrl = "";
+
+        if (lines.length >= 2) {
+          label = lines[0].replace(/^[-*]\s*/, "").replace(/:\s*$/, "").trim();
+          rawUrl = lines[1].replace(/^[-*]\s*/, "").trim();
+        } else if (lines.length === 1) {
+          const compactLine = lines[0].replace(/^[-*]\s*/, "").trim();
+          const match = compactLine.match(/^(.*?):\s*(https?:\/\/\S+|www\.\S+)$/i);
+          if (match) {
+            label = match[1].trim();
+            rawUrl = match[2].trim();
+          }
+        }
+
+        const url = normalizeUrl(rawUrl);
+        if (!label || !url) {
+          allPartnerBlocks = false;
+          return;
+        }
+
+        items.push({
+          label,
+          rawUrl,
+          url
+        });
+      });
+
+      if (!allPartnerBlocks || !items.length) {
+        return textToParagraphMarkupWithLinks(value);
+      }
+
+      return `
+        <div class="partner-links">
+          ${items.map((item) => `
+            <div class="partner-link-item">
+              <strong>${item.label}</strong>
+              <a href="${item.url}" target="_blank" rel="noreferrer">${item.rawUrl}</a>
+            </div>
+          `).join("")}
+        </div>
+      `;
+    };
+
+    let currentLang = "de";
+    let currentEntryData = null;
+    let currentEntryPath = "";
+
+    const formatDate = (value) => {
+      const date = new Date(value);
+      if (Number.isNaN(date.getTime())) return value || "";
+      return date.toLocaleDateString(currentLang === "en" ? "en-US" : "de-AT", { year: "numeric", month: "long", day: "2-digit" });
+    };
+
+    const getSlugFromPath = () => {
+      const parts = window.location.pathname.split("/").filter(Boolean);
+      return parts[1] || "";
+    };
+
+    const getJournalSlugFromFilePath = (filePath) => String(filePath || "")
+      .split("/")
+      .pop()
+      .replace(/\.md$/i, "")
+      .replace(/^\d{4}-\d{2}-\d{2}-/, "");
+
+    const applyAdjacentFinalImage = async () => {
+      if (!currentEntryPath) return;
+      try {
+        const listResponse = await fetch(`/api/files?ts=${Date.now()}`, { cache: "no-store" });
+        if (!listResponse.ok) return;
+        const payload = await listResponse.json();
+        const files = Array.isArray(payload.files) ? payload.files : [];
+        const journalFiles = files
+          .filter((file) => file.startsWith("content/journal/") && file.endsWith(".md"));
+        if (journalFiles.length < 2) return;
+
+        const entries = await Promise.all(journalFiles.map(async (path) => {
+          try {
+            const response = await fetch(`/api/file?path=${encodeURIComponent(path)}&ts=${Date.now()}`, { cache: "no-store" });
+            if (!response.ok) return null;
+            const filePayload = await response.json();
+            const parsed = parseFrontmatter(filePayload.content || "");
+            const data = parsed.data || {};
+            return {
+              path,
+              slug: getJournalSlugFromFilePath(path),
+              date: data.date || "",
+              featuredImage: data.featuredImage || "",
+              featuredImageAlt: data.featuredImageAlt || "",
+              featuredImageAltEn: data.featuredImageAltEn || "",
+              title: data.title || "",
+              titleEn: data.titleEn || ""
+            };
+          } catch (_) {
+            return null;
+          }
+        }));
+
+        const validEntries = entries
+          .filter(Boolean)
+          .sort((a, b) => new Date(b.date || 0) - new Date(a.date || 0));
+
+        const currentIndex = validEntries.findIndex((entry) => entry.path === currentEntryPath);
+        if (currentIndex === -1) return;
+
+        const adjacent = validEntries[currentIndex + 1] || validEntries[currentIndex - 1];
+        if (!adjacent || !adjacent.featuredImage) return;
+
+        const finalImageNode = document.getElementById("finalImage");
+        if (!finalImageNode) return;
+        finalImageNode.src = adjacent.featuredImage;
+        const adjacentAlt = currentLang === "en"
+          ? (adjacent.featuredImageAltEn || adjacent.featuredImageAlt || adjacent.titleEn || adjacent.title || uiTranslations[currentLang].finalAlt)
+          : (adjacent.featuredImageAlt || adjacent.featuredImageAltEn || adjacent.title || uiTranslations[currentLang].finalAlt);
+        finalImageNode.alt = adjacentAlt;
+      } catch (_) {
+        // Keep fallback final image when adjacent post lookup is not available.
+      }
+    };
+
+    const renderGalleryChunk = (chunk, chunkIndex) => {
+      if (!Array.isArray(chunk) || !chunk.length) return "";
+      const renderImage = (item) => {
+        const imageAlt = currentLang === "en"
+          ? (item.altEn || item.alt || "Gallery image")
+          : (item.alt || item.altEn || "Galeriebild");
+        const imageMarkup = `<img src="${item.image}" alt="${imageAlt}" class="w-full h-full object-cover">`;
+        if (item.link) {
+          return `<a href="${item.link}" class="block h-full w-full">${imageMarkup}</a>`;
+        }
+        return imageMarkup;
+      };
+
+      const first = chunk[0];
+      const second = chunk[1] || null;
+      const third = chunk[2] || null;
+      const fourth = chunk[3] || null;
+
+      return `
+        <div class="col-span-12 grid grid-cols-12 gap-4 md:gap-6">
+          <div class="col-span-12 md:col-span-8 gallery-frame">
+            <div class="aspect-[4/5] image-hover-container">
+              ${renderImage(first)}
+            </div>
+          </div>
+          ${second ? `
+            <div class="col-span-6 md:col-span-4 gallery-frame">
+              <div class="aspect-[4/5] image-hover-container">
+                ${renderImage(second)}
+              </div>
+            </div>
+          ` : ""}
+          ${third ? `
+            <div class="col-span-6 md:col-span-4 gallery-frame">
+              <div class="aspect-[4/5] image-hover-container">
+                ${renderImage(third)}
+              </div>
+            </div>
+          ` : ""}
+          ${fourth ? `
+            <div class="col-span-12 md:col-span-8 gallery-frame">
+              <div class="aspect-[4/5] image-hover-container">
+                ${renderImage(fourth)}
+              </div>
+            </div>
+          ` : ""}
+        </div>
+      `;
+    };
+
+    const renderGallery = (gallery, middleHeading = "", middleText = "") => {
+      const items = (Array.isArray(gallery) && gallery.length ? gallery : [
+        { image: "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-143.jpg", alt: "Editorial elopement moment in the Dolomites" },
+        { image: "/assets/uploads/Blitzkneisser-Dolomites-Proposel-INSTA-3.jpg", alt: "Proposal in the Dolomites" },
+        { image: "/assets/uploads/Blitzkneisser-Couple-Shooting-Dolomites-INSTA-4.jpg", alt: "Couple session in alpine light" },
+        { image: "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Insta-20.jpg", alt: "Portrait in mountain scenery" }
+      ]).slice(0, 30);
+
+      const blocks = [];
+      for (let index = 0; index < items.length; index += 4) {
+        blocks.push(items.slice(index, index + 4));
+      }
+      const renderedBlocks = blocks.map((chunk, index) => renderGalleryChunk(chunk, index));
+      if (renderedBlocks.length > 1 && (middleHeading || middleText)) {
+        const middleMarkup = `
+          <div class="col-span-12 max-w-4xl mx-auto px-0 py-4 md:py-8">
+            ${middleHeading ? `<h3 class="headline text-2xl md:text-3xl mb-6">${middleHeading}</h3>` : ""}
+            ${middleText ? `<div class="prose-entry">${textToParagraphMarkup(middleText)}</div>` : ""}
+          </div>
+        `;
+        renderedBlocks.splice(1, 0, middleMarkup);
+      }
+      return renderedBlocks.join("");
+    };
+
+    const buildDolomitesLocationSections = (entry) => {
+      const isGerman = currentLang !== "en";
+      const fullText = isGerman
+        ? (entry.galleryIntroText || "")
+        : (entry.galleryIntroTextEn || entry.galleryIntroText || "");
+      const allImages = Array.isArray(entry.gallery) ? entry.gallery : [];
+      if (!fullText || !allImages.length) return null;
+
+      const config = isGerman ? {
+        firstHeading: "Drei Zinnen von Lavaredo",
+        markers: ["Seceda", "Pragser Wildsee", "Passo Giau", "Rifugio Lagazuoi", "Col di Lana – Col Galina"],
+        counts: [5, 5, 4, 3, 3, 5]
+      } : {
+        firstHeading: "Tre Cime di Lavaredo",
+        markers: ["Seceda", "Lago di Braies", "Passo Giau", "Rifugio Lagazuoi", "Col di Lana – Col Galina"],
+        counts: [5, 5, 4, 3, 3, 5]
+      };
+
+      const markerPositions = config.markers
+        .map((marker) => ({ marker, index: fullText.indexOf(`\n\n${marker}\n\n`) }))
+        .filter((item) => item.index >= 0);
+      if (!markerPositions.length) return null;
+
+      const textSections = [];
+      let sectionStart = 0;
+      const headings = [config.firstHeading, ...config.markers];
+
+      markerPositions.forEach((item, index) => {
+        textSections.push({
+          heading: headings[index],
+          text: fullText.slice(sectionStart, item.index).trim()
+        });
+        sectionStart = item.index + 4 + item.marker.length + 4;
+      });
+
+      textSections.push({
+        heading: headings[headings.length - 1],
+        text: fullText.slice(sectionStart).trim()
+      });
+
+      let imageCursor = 0;
+      return textSections.map((section, index) => {
+        const count = config.counts[index] || 4;
+        const images = allImages.slice(imageCursor, imageCursor + count);
+        imageCursor += count;
+        return {
+          ...section,
+          images
+        };
+      }).filter((section) => section.text || section.images.length);
+    };
+
+    const renderNarrativeSections = (sections) => {
+      if (!Array.isArray(sections) || !sections.length) return "";
+      return sections.map((section) => `
+        <section class="col-span-12 py-4 md:py-8">
+          ${section.heading ? `<h3 class="headline text-2xl md:text-3xl mb-6">${section.heading}</h3>` : ""}
+          ${section.text ? `<div class="prose-entry mb-8">${textToParagraphMarkup(section.text)}</div>` : ""}
+          ${section.images && section.images.length ? renderGallery(section.images) : ""}
+        </section>
+      `).join("");
+    };
+
+    const ensureHeadMeta = (selector, attributes) => {
+      let node = document.head.querySelector(selector);
+      if (!node) {
+        node = document.createElement("meta");
+        document.head.appendChild(node);
+      }
+      Object.entries(attributes).forEach(([key, value]) => node.setAttribute(key, value));
+      return node;
+    };
+
+    const renderEntry = (entry) => {
+      const t = uiTranslations[currentLang];
+      const entryTitle = currentLang === "en" ? (entry.titleEn || entry.title) : entry.title;
+      const seoTitle = currentLang === "en" ? (entry.seoTitleEn || entry.seoTitle || entryTitle) : (entry.seoTitle || entryTitle);
+      const seoDescription = currentLang === "en" ? (entry.seoDescriptionEn || entry.seoDescription) : entry.seoDescription;
+      const featuredImageAlt = currentLang === "en" ? (entry.featuredImageAltEn || entry.featuredImageAlt || entryTitle) : (entry.featuredImageAlt || entryTitle);
+      const entryBody = currentLang === "en" ? (entry.bodyEn || entry.body || "") : (entry.body || "");
+      const introParagraphs = bodyToParagraphs(entryBody);
+      const galleryIntroHeading = currentLang === "en" ? (entry.galleryIntroHeadingEn || entry.galleryIntroHeading || "") : (entry.galleryIntroHeading || "");
+      const galleryIntroText = currentLang === "en" ? (entry.galleryIntroTextEn || entry.galleryIntroText || "") : (entry.galleryIntroText || "");
+      const partnersHeading = currentLang === "en"
+        ? (entry.partnersHeadingEn || entry.partnersHeading || entry.galleryOutroHeadingEn || entry.galleryOutroHeading || "Contributing vendors")
+        : (entry.partnersHeading || entry.galleryOutroHeading || "Mitwirkende Dienstleister");
+      const partnersText = currentLang === "en"
+        ? (entry.partnersTextEn || entry.partnersText || entry.galleryOutroTextEn || entry.galleryOutroText || "")
+        : (entry.partnersText || entry.galleryOutroText || "");
+
+      document.title = `${seoTitle || entryTitle || t.fallbackTitle} | ${t.pageTitleSuffix}`;
+      document.querySelector('meta[name="description"]').setAttribute("content", seoDescription || t.fallbackDescription);
+      ensureHeadMeta('meta[property="og:title"]', {
+        property: "og:title",
+        content: `${seoTitle || entryTitle || t.fallbackTitle} | ${t.pageTitleSuffix}`
+      });
+      ensureHeadMeta('meta[property="og:description"]', {
+        property: "og:description",
+        content: seoDescription || t.fallbackDescription
+      });
+      ensureHeadMeta('meta[property="og:image"]', {
+        property: "og:image",
+        content: entry.featuredImage || "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-8.jpg"
+      });
+
+      document.getElementById("entryEyebrow").textContent = t.featurePrefix;
+      document.getElementById("entryTitle").innerHTML = (entryTitle || "Journal Entry").replace(/ \| /g, "<br>");
+      document.getElementById("entryMeta").textContent = `${t.metaBy} ${entry.author || "Blitzkneisser"}`;
+      document.getElementById("heroImage").src = entry.featuredImage || "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-8.jpg";
+      document.getElementById("heroImage").alt = featuredImageAlt || t.imageAlt;
+      document.getElementById("heroCaption").textContent = featuredImageAlt || t.heroCaption;
+      document.getElementById("introSection").innerHTML = introParagraphs.map((paragraph, index) => `
+        <p class="${index === 0 ? "dropcap text-lg md:text-xl font-light leading-relaxed text-brand-text opacity-90 mb-8" : "text-lg md:text-xl font-light leading-relaxed text-brand-text opacity-90 mb-8"}">${paragraph}</p>
+      `).join("");
+      const isDolomitesGuide = (entry.title || "").toLowerCase().includes("elopement-orte")
+        || (entry.titleEn || "").toLowerCase().includes("elopement locations");
+      const narrativeSections = isDolomitesGuide ? buildDolomitesLocationSections(entry) : null;
+      document.querySelector(".cluster-grid").innerHTML = narrativeSections && narrativeSections.length
+        ? renderNarrativeSections(narrativeSections)
+        : renderGallery(entry.gallery, galleryIntroHeading, galleryIntroText);
+      document.getElementById("seriesLabel").textContent = `${entryTitle || t.fallbackTitle} / ${t.seriesSuffix}`;
+      document.getElementById("seriesDate").textContent = formatDate(entry.date);
+      document.getElementById("finalObservation").textContent = `${entryTitle || t.fallbackTitle} • ${formatDate(entry.date)}`;
+
+      document.getElementById("galleryIntroSection").innerHTML = "";
+      document.getElementById("galleryOutroSection").innerHTML = partnersText ? `
+        <h3 class="headline text-2xl md:text-3xl mb-6">${partnersHeading}</h3>
+        <div class="prose-entry">${textToPartnerMarkup(partnersText)}</div>
+      ` : "";
+    };
+
+    const applyLanguage = (lang) => {
+      currentLang = lang;
+      const t = uiTranslations[lang];
+      localStorage.setItem("site-lang", lang);
+      document.documentElement.lang = lang;
+      document.querySelectorAll("[data-lang-button]").forEach((button) => {
+        const active = button.dataset.langButton === lang;
+        button.setAttribute("aria-pressed", active ? "true" : "false");
+        button.style.backgroundColor = active ? "#1A1A1A" : "transparent";
+        button.style.color = active ? "#F9F7F2" : "#1A1A1A";
+        button.style.borderColor = active ? "#1A1A1A" : "#E5E0D8";
+      });
+      document.querySelectorAll("[data-i18n]").forEach((node) => {
+        const key = node.dataset.i18n;
+        if (key === "header.brand") node.textContent = t.brand;
+        if (key === "final.title") node.textContent = t.finalTitle;
+        if (key === "final.back") node.textContent = t.finalBack;
+        if (key === "nav.film") node.textContent = t["nav.film"];
+        if (key === "footer.top") node.textContent = t.footerTop;
+        if (key === "nav.contact") node.textContent = t["nav.contact"];
+      });
+      document.getElementById("finalImage").alt = t.finalAlt;
+      document.getElementById("navHomeLink").href = lang === "en" ? "/index.html?lang=en" : "/index.html";
+      document.getElementById("navExperienceLink").href = lang === "en" ? "/experience/?lang=en" : "/experience/";
+      document.getElementById("navGuidesLink").href = lang === "en" ? "/guides/?lang=en" : "/guides/";
+      document.getElementById("navAboutLink").href = lang === "en" ? "/about/?lang=en" : "/about/";
+      document.getElementById("navJournalLink").href = lang === "en" ? "/journal/?lang=en" : "/journal/";
+      document.getElementById("navContactLink").href = lang === "en" ? "/contact/?lang=en" : "/contact/";
+      document.getElementById("backToJournalLink").href = lang === "en" ? "/journal/?lang=en" : "/journal/";
+      document.getElementById("navFilmLink").href = lang === "en" ? "/film/?lang=en" : "/film/";
+      const entryContactCta = document.getElementById("entryContactCta");
+      if (entryContactCta) {
+        entryContactCta.textContent = t.entryCta;
+        entryContactCta.href = lang === "en" ? "/contact/?lang=en" : "/contact/";
+      }
+
+      // Re-render full journal content when language changes.
+      if (currentEntryData) {
+        renderEntry(currentEntryData);
+      }
+    };
+
+    const updateReadingProgress = () => {
+      const scrollTop = window.scrollY;
+      const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
+      const percentage = maxScroll > 0 ? Math.min(100, Math.max(0, (scrollTop / maxScroll) * 100)) : 0;
+      document.getElementById("readingProgressBar").style.width = `${percentage}%`;
+      const progressText = `${Math.round(percentage)}% ${uiTranslations[currentLang].readSuffix}`;
+      document.getElementById("readLabel").textContent = progressText;
+      document.getElementById("readLabelCentered").textContent = progressText;
+    };
+
+    document.addEventListener("DOMContentLoaded", async () => {
+      const nav = document.getElementById("mainNav");
+      const navToggle = document.getElementById("navToggle");
+      const navMenuPanel = document.getElementById("navMenuPanel");
+      const closeNavMenu = () => {
+        nav.classList.remove("is-open");
+        navToggle.setAttribute("aria-expanded", "false");
+      };
+
+      navToggle.addEventListener("click", () => {
+        const willOpen = !nav.classList.contains("is-open");
+        nav.classList.toggle("is-open", willOpen);
+        navToggle.setAttribute("aria-expanded", willOpen ? "true" : "false");
+      });
+
+      navMenuPanel.querySelectorAll("a, button[data-lang-button]").forEach((item) => {
+        item.addEventListener("click", () => {
+          if (window.innerWidth < 768) closeNavMenu();
+        });
+      });
+
+      window.addEventListener("resize", () => {
+        if (window.innerWidth >= 768) closeNavMenu();
+      });
+
+      window.addEventListener("scroll", () => {
+        if (window.innerWidth < 768 && nav.classList.contains("is-open")) {
+          closeNavMenu();
+        }
+      }, { passive: true });
+
+      const detectAutoLanguage = () => {
+        const browserLanguages = [
+          ...(navigator.languages || []),
+          navigator.language,
+          navigator.userLanguage
+        ]
+          .filter(Boolean)
+          .map((value) => String(value).toLowerCase());
+        return browserLanguages.some((value) => value.startsWith("de")) ? "de" : "en";
+      };
+      const params = new URLSearchParams(window.location.search);
+      applyLanguage(params.get("lang") === "en" ? "en" : (params.get("lang") === "de" ? "de" : (localStorage.getItem("site-lang") || detectAutoLanguage())));
+      document.querySelectorAll("[data-lang-button]").forEach((button) => {
+        button.addEventListener("click", () => {
+          applyLanguage(button.dataset.langButton);
+          window.history.replaceState({}, "", button.dataset.langButton === "en" ? `${window.location.pathname}?lang=en` : window.location.pathname);
+        });
+      });
+      try {
+        const slug = getSlugFromPath();
+        const response = await fetch(`/api/journal-entry?slug=${encodeURIComponent(slug)}&ts=${Date.now()}`, { cache: "no-store" });
+        if (!response.ok) {
+          throw new Error("Journal entry not found");
+        }
+        const payload = await response.json();
+        currentEntryPath = payload.path || "";
+        currentEntryData = { ...payload.data, body: payload.body };
+        renderEntry(currentEntryData);
+        await applyAdjacentFinalImage();
+      } catch (error) {
+        document.getElementById("entryTitle").textContent = uiTranslations[currentLang].entryNotFound;
+        document.getElementById("entryMeta").textContent = uiTranslations[currentLang].returnText;
+      }
+
+      updateReadingProgress();
+      window.addEventListener("scroll", updateReadingProgress);
+    });
+  </script>
+  <script src="/assets/footer-settings.js"></script>
+  <script src="/assets/pinterest-pin.js"></script>
+</body>
+</html>

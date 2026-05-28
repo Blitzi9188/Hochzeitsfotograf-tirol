@@ -1,0 +1,1242 @@
+<!DOCTYPE html>
+<html lang="de" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontakt | Hochzeitsfotograf Tirol & Dolomiten</title>
+  <meta
+    name="description"
+    content="Kontakt zu eurem Hochzeitsfotografen für Tirol, Innsbruck und die Dolomiten. Jetzt Termin für Hochzeit oder Elopement anfragen."
+  >
+  <link rel="canonical" href="https://www.hochzeitsfotograf.tirol/contact/">
+  <link rel="icon" type="image/png" href="/Logo-Blitzkneisser-BERG.png">
+  <script defer src="/assets/seo.js"></script>
+  <link rel="preload" as="image" href="/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-7.jpg">
+  <link rel="preload" as="image" href="/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-7.png">
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ["Inter", "sans-serif"]
+          },
+          colors: {
+            brand: {
+              bg: "#FFFFFF",
+              text: "#1B1A18",
+              muted: "#8A837A",
+              border: "#E6DED4"
+            }
+          }
+        }
+      }
+    };
+  </script>
+  <style>
+    body {
+      background-color: #FFFFFF;
+      color: #1B1A18;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    img {
+      image-rendering: auto;
+    }
+
+    .headline {
+      font-weight: 700;
+      letter-spacing: -0.05em;
+      line-height: 0.9;
+      text-transform: uppercase;
+    }
+
+    .fade-in-up {
+      animation: fadeInUp 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+      opacity: 0;
+      transform: translateY(20px);
+    }
+
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    input,
+    textarea,
+    select {
+      background: transparent;
+      border-bottom: 1px solid #E6DED4;
+      transition: border-color 0.3s ease;
+    }
+
+    input:focus,
+    textarea:focus,
+    select:focus {
+      outline: none;
+      border-color: #1B1A18;
+    }
+
+    select {
+      background: rgba(255, 255, 255, 0.42);
+      color: rgba(27, 26, 24, 0.8);
+    }
+
+    select option {
+      background: rgba(255, 255, 255, 0.88);
+      color: rgba(27, 26, 24, 0.84);
+    }
+
+    .captcha-panel {
+      border: 1px solid #E6DED4;
+      background: rgba(255, 255, 255, 0.72);
+      padding: 1.5rem;
+    }
+
+    .captcha-visual {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.75rem;
+      font-size: 1.25rem;
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      color: #1B1A18;
+    }
+
+    .captcha-refresh {
+      border: 1px solid #E6DED4;
+      padding: 0.55rem 0.75rem;
+      font-size: 0.625rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      transition: border-color 0.2s ease, color 0.2s ease;
+    }
+
+    .captcha-refresh:hover {
+      border-color: #1B1A18;
+      color: #1B1A18;
+    }
+
+    .form-status {
+      min-height: 1.25rem;
+    }
+
+    .honeypot-field {
+      position: absolute;
+      left: -9999px;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    .calendar-grid {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      gap: 1px;
+    }
+
+    .calendar-day {
+      aspect-ratio: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 13px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .calendar-day:hover:not(.empty) {
+      background: #f0ece5;
+    }
+
+    .calendar-day.selected {
+      background: #1B1A18;
+      color: white;
+    }
+
+    .calendar-day.range-start,
+    .calendar-day.range-end {
+      background: #1B1A18;
+      color: white;
+    }
+
+    .calendar-day.in-range {
+      background: #f0ece5;
+      color: #1B1A18;
+    }
+
+    .calendar-day.disabled {
+      color: #c7bfb5;
+      cursor: not-allowed;
+      background: transparent;
+    }
+
+    .calendar-nav-button {
+      border: 0;
+      padding: 0.35rem 0.6rem;
+      font-size: 2rem;
+      font-weight: 700;
+      line-height: 1;
+      color: #1B1A18;
+      transition: opacity 0.2s ease, transform 0.2s ease;
+    }
+
+    .calendar-nav-button:hover:not(:disabled) {
+      transform: scale(1.08);
+    }
+
+    .calendar-nav-button:disabled {
+      opacity: 0.35;
+      cursor: not-allowed;
+    }
+
+    .mobile-menu-toggle {
+      display: none;
+    }
+
+    .floating-lang-toggle {
+      display: none;
+    }
+
+    .reviews-slider-shell {
+      position: relative;
+    }
+
+    .reviews-slider-track {
+      display: grid;
+      grid-auto-flow: column;
+      grid-auto-columns: calc((100% - 2rem) / 3);
+      gap: 1rem;
+      overflow-x: auto;
+      overscroll-behavior-x: contain;
+      scroll-snap-type: x mandatory;
+      scrollbar-width: none;
+      padding-bottom: 0.5rem;
+      scroll-behavior: smooth;
+    }
+
+    .reviews-slider-track::-webkit-scrollbar {
+      display: none;
+    }
+
+    .review-slide {
+      scroll-snap-align: start;
+      min-width: 0;
+    }
+
+    .review-card {
+      display: flex;
+      min-height: 100%;
+      flex-direction: column;
+      gap: 1.25rem;
+      border: 1px solid #E6DED4;
+      background: #FFFFFF;
+      padding: 2rem;
+      box-shadow: 0 20px 50px rgba(27, 26, 24, 0.05);
+    }
+
+    @media (max-width: 767px) {
+      .mobile-menu-toggle {
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5px;
+        width: 44px;
+        height: 44px;
+        margin-left: auto;
+      }
+
+      .mobile-menu-toggle span {
+        width: 24px;
+        height: 2px;
+        margin-left: auto;
+        background: #1B1A18;
+        transition: transform 0.25s ease, opacity 0.25s ease;
+      }
+
+      #mainNav.is-open .mobile-menu-toggle span:nth-child(1) {
+        transform: translateY(7px) rotate(45deg);
+      }
+
+      #mainNav.is-open .mobile-menu-toggle span:nth-child(2) {
+        opacity: 0;
+      }
+
+      #mainNav.is-open .mobile-menu-toggle span:nth-child(3) {
+        transform: translateY(-7px) rotate(-45deg);
+      }
+
+      .nav-menu-panel {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem 1.5rem 1.25rem;
+        background: rgba(255, 255, 255, 0.94);
+        backdrop-filter: blur(14px);
+        border-bottom: 1px solid #E6DED4;
+        opacity: 0;
+        pointer-events: none;
+        transform: translateY(-8px);
+        transition: opacity 0.25s ease, transform 0.25s ease;
+      }
+
+      #mainNav.is-open .nav-menu-panel {
+        opacity: 1;
+        pointer-events: auto;
+        transform: translateY(0);
+      }
+
+      .nav-menu-panel > div:first-child {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+      }
+
+      .nav-menu-panel .text-right {
+        text-align: center;
+      }
+
+      .nav-menu-panel a {
+        font-size: 1rem;
+        font-weight: 700;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+      }
+
+      .nav-menu-panel .nav-lang-toggle {
+        display: none;
+      }
+
+      .floating-lang-toggle {
+        position: fixed;
+        right: 1rem;
+        bottom: 1rem;
+        z-index: 60;
+        display: flex;
+        align-items: center;
+        gap: 0.35rem;
+        padding: 0.4rem;
+        background: rgba(255, 255, 255, 0.94);
+        backdrop-filter: blur(14px);
+        border: 1px solid #E6DED4;
+        box-shadow: 0 12px 30px rgba(27, 26, 24, 0.08);
+      }
+
+      .floating-lang-toggle button {
+        border: 1px solid #E6DED4;
+        min-width: 2.8rem;
+        padding: 0.7rem 0.75rem;
+        font-size: 0.625rem;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        transition: all 0.2s ease;
+      }
+
+      #mainNav {
+        transition: background-color 0.5s ease;
+      }
+    }
+
+    @media (max-width: 640px) {
+      #calendarWrap {
+        max-width: 100%;
+      }
+
+      #calendarMonth {
+        min-width: auto;
+        font-size: 9px;
+        letter-spacing: 0.18em;
+      }
+
+      .calendar-grid {
+        gap: 0;
+      }
+
+      .calendar-grid > div {
+        padding-top: 0.45rem;
+        padding-bottom: 0.45rem;
+        font-size: 8px;
+        letter-spacing: 0.16em;
+      }
+
+      .calendar-day {
+        min-height: 2.3rem;
+        aspect-ratio: auto;
+        font-size: 11px;
+      }
+
+      .calendar-nav-button {
+        padding: 0.15rem 0.35rem;
+        font-size: 1.5rem;
+      }
+
+      .reviews-slider-track {
+        grid-auto-columns: minmax(260px, 86vw);
+        gap: 0.85rem;
+      }
+    }
+
+    @media (min-width: 768px) and (max-width: 1023px) {
+      .reviews-slider-track {
+        grid-auto-columns: calc((100% - 1rem) / 2);
+      }
+    }
+  </style>
+</head>
+<body class="overflow-x-hidden selection:bg-stone-300 selection:text-black">
+  <nav class="fixed top-0 left-0 z-50 w-full bg-white/80 px-6 py-5 text-brand-text backdrop-blur-sm transition-all duration-500 md:px-12 md:py-8" id="mainNav">
+    <div class="mx-auto flex max-w-[120rem] items-center justify-between gap-6">
+      <a href="/index.html" id="navHomeLink" class="group flex items-center" aria-label="Blitzkneisser Photography">
+        <img src="/Logo-Blitzkneisser-BERG.png" alt="Blitzkneisser Photography" class="h-11 w-auto brightness-0 contrast-125 opacity-70 transition duration-500 ease-out group-hover:opacity-100 md:h-14">
+      </a>
+      <button type="button" class="mobile-menu-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenuPanel" aria-label="Menü öffnen">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="nav-menu-panel ml-auto flex items-center justify-end gap-4 text-right" id="navMenuPanel">
+        <div class="flex items-center gap-4 text-[10px] uppercase tracking-[0.2em] sm:gap-6 md:gap-8 md:text-xs">
+          <a href="/experience/" id="navExperienceLink" class="hover:opacity-60 transition-opacity duration-300">Experience</a>
+          <a href="/guides/" id="navGuidesLink" class="hover:opacity-60 transition-opacity duration-300">Guides</a>
+          <a href="/journal/" id="navJournalLink" class="hover:opacity-60 transition-opacity duration-300">Journal</a>
+          <a href="/about/" id="navAboutLink" class="hover:opacity-60 transition-opacity duration-300" data-i18n="nav.about">About</a>
+          <a href="/film/" id="navFilmLink" class="hidden hover:opacity-60 transition-opacity duration-300" data-i18n="nav.film">Film</a>
+          <a href="/portfolio/" id="navPortfolioLink" class="hidden hover:opacity-60 transition-opacity duration-300" data-i18n="nav.portfolio">Portfolio</a>
+          <a href="/academy/" id="navAcademyLink" class="hidden hover:opacity-60 transition-opacity duration-300" data-i18n="nav.academy">Academy</a>
+          <a href="/contact/" id="navContactLink" class="opacity-80 hover:opacity-100 transition-opacity duration-300" data-i18n="nav.contact" aria-current="page">Contact</a>
+        </div>
+        <div class="nav-lang-toggle flex items-center gap-2 text-[10px] uppercase tracking-[0.24em] md:text-xs">
+          <button type="button" class="border border-brand-border px-3 py-2 transition-colors" data-lang-button="de" aria-pressed="true">DE</button>
+          <button type="button" class="border border-brand-border px-3 py-2 transition-colors" data-lang-button="en" aria-pressed="false">EN</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="floating-lang-toggle" id="floatingLangToggle" aria-label="Sprache wechseln">
+    <button type="button" data-lang-button="de" aria-pressed="true">DE</button>
+    <button type="button" data-lang-button="en" aria-pressed="false">EN</button>
+  </div>
+
+  <main>
+    <section id="contactHero" class="contact-hero relative w-full h-[58vh] md:h-[62vh] overflow-hidden" data-no-pin>
+      <div class="absolute inset-0" style="z-index: 10;" data-no-pin data-hero-layer>
+        <img id="heroImage" src="/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-7.jpg" alt="Alpine peaks" class="w-full h-full object-cover object-center" loading="eager" fetchpriority="high" decoding="sync">
+      </div>
+      <div class="absolute inset-0 bg-black/10" style="z-index: 15;" data-hero-layer></div>
+      <div class="relative w-full h-full flex flex-col justify-center items-center p-6 text-center -translate-y-3 fade-in-up" style="z-index: 20; animation-delay: 0.35s;" data-hero-text>
+        <span class="text-[10px] md:text-xs uppercase tracking-[0.5em] text-white/90 mb-6 block font-medium" id="heroEyebrow">Connect</span>
+        <h1 class="headline text-[3.3rem] md:text-[6.4rem] lg:text-[8.7rem] text-white" id="heroTitle">Get in Touch</h1>
+      </div>
+      <div class="absolute inset-0 pointer-events-none" style="z-index: 30;" data-no-pin data-hero-layer>
+        <img id="heroOverlayImage" src="/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-7.png" alt="" class="w-full h-full object-cover object-center" loading="eager" fetchpriority="high" decoding="sync">
+      </div>
+    </section>
+
+    <section class="py-32 md:py-48 px-6 md:px-12 bg-brand-bg">
+      <div class="max-w-[120rem] mx-auto">
+        <div class="max-w-3xl mx-auto fade-in-up text-center mb-20 md:mb-24" style="animation-delay: 0.6s;">
+          <h2 class="headline text-3xl md:text-4xl mb-6" id="introTitle">Begin a conversation</h2>
+          <p class="text-brand-muted tracking-widest text-[10px] uppercase" id="introMeta">We respond to inquiries within 48 hours</p>
+        </div>
+
+        <form class="w-full fade-in-up" style="animation-delay: 0.7s;">
+          <div class="grid grid-cols-1 lg:grid-cols-[0.92fr_1.08fr] gap-16 lg:gap-20 items-start border-t border-brand-border pt-6 md:pt-8">
+            <div class="pt-2 pb-2">
+              <div class="mb-12 flex flex-col items-center gap-4 text-center">
+                <div>
+                  <label class="text-[10px] uppercase tracking-widest text-brand-muted block mb-2" id="calendarLabel">Consultation Availability</label>
+                  <h3 class="text-2xl md:text-3xl font-light tracking-tight" id="calendarTitle">Select a preferred date</h3>
+                </div>
+                <div class="flex items-center justify-center gap-3">
+                  <button type="button" class="calendar-nav-button" id="calendarPrev">Prev</button>
+                  <span class="text-[10px] uppercase tracking-widest text-brand-muted font-bold min-w-[12rem]" id="calendarMonth">March 2026</span>
+                  <button type="button" class="calendar-nav-button" id="calendarNext">Next</button>
+                </div>
+              </div>
+
+              <div class="w-full" id="calendarWrap">
+                <div class="calendar-grid text-brand-muted border border-brand-border bg-white/60 p-6 md:p-8" id="calendarGrid"></div>
+              </div>
+            </div>
+
+            <div class="space-y-12">
+              <div class="grid grid-cols-1 xl:grid-cols-[0.95fr_1.05fr] gap-12 xl:gap-14 items-start">
+                <div class="space-y-10">
+                  <div class="flex flex-col gap-2">
+                    <label class="text-[10px] uppercase tracking-widest text-brand-muted" id="labelName">Name *</label>
+                    <input type="text" class="py-3 text-lg font-light" id="placeholderName" placeholder="Your name" required aria-required="true">
+                  </div>
+                  <div class="flex flex-col gap-2">
+                    <label class="text-[10px] uppercase tracking-widest text-brand-muted" id="labelEmail">Email *</label>
+                    <input type="email" class="py-3 text-lg font-light" id="placeholderEmail" placeholder="hello@example.com" required aria-required="true">
+                  </div>
+                  <div class="flex flex-col gap-2">
+                    <label class="text-[10px] uppercase tracking-widest text-brand-muted" id="labelDate">Wedding Date *</label>
+                    <input type="text" class="py-3 text-lg font-light" id="placeholderDate" placeholder="Preferred date" required aria-required="true">
+                  </div>
+                  <div class="flex flex-col gap-2">
+                    <label class="text-[10px] uppercase tracking-widest text-brand-muted" id="labelLocation">Location</label>
+                    <input type="text" class="py-3 text-lg font-light" id="placeholderLocation" placeholder="Tyrol, Dolomites, Alps">
+                  </div>
+                </div>
+
+                <div class="space-y-10">
+                  <div class="flex flex-col gap-2">
+                    <label class="text-[10px] uppercase tracking-widest text-brand-muted" id="labelMessage">Message</label>
+                    <textarea rows="11" class="py-3 text-lg font-light resize-none min-h-[22rem]" id="placeholderMessage" placeholder="Share your plans..."></textarea>
+                  </div>
+                  <div class="flex flex-col gap-2">
+                    <label class="text-[10px] uppercase tracking-widest text-brand-muted" id="labelReferral">Wie habt ihr mich gefunden?</label>
+                    <select class="py-3 text-lg font-light bg-transparent" id="referralSelect">
+                      <option value="">Bitte auswählen</option>
+                      <option value="Instagram">Instagram</option>
+                      <option value="Google">Google</option>
+                      <option value="Weitere Empfehlungen">Weitere Empfehlungen</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <div class="captcha-panel">
+                <div class="grid grid-cols-1 md:grid-cols-[1fr_auto] gap-8 items-end">
+                  <div class="flex flex-col gap-4">
+                    <div>
+                      <label class="text-[10px] uppercase tracking-widest text-brand-muted block mb-2" id="captchaLabel">Sicherheitsabfrage *</label>
+                      <div class="captcha-visual">
+                        <span id="captchaQuestion">4 + 3 = ?</span>
+                      </div>
+                    </div>
+                    <div class="flex flex-col gap-2">
+                      <label class="text-[10px] uppercase tracking-widest text-brand-muted" id="captchaInputLabel">Antwort *</label>
+                      <input type="text" class="py-3 text-lg font-light" id="captchaAnswer" inputmode="numeric" autocomplete="off" placeholder="Antwort eingeben" required aria-required="true">
+                    </div>
+                  </div>
+                  <div class="flex flex-col gap-3 md:items-end">
+                    <button type="button" class="captcha-refresh" id="captchaRefresh">Neu laden</button>
+                    <div class="honeypot-field" aria-hidden="true">
+                      <label for="websiteField">Website</label>
+                      <input type="text" id="websiteField" tabindex="-1" autocomplete="off">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-status text-center lg:text-left text-[10px] uppercase tracking-[0.22em] text-brand-muted" id="formStatus" aria-live="polite"></div>
+
+              <div class="flex justify-center lg:justify-start pt-2">
+                <button class="px-16 py-5 bg-brand-text text-white text-[10px] uppercase tracking-[0.4em] hover:bg-brand-muted transition-all duration-500 hover:px-20" id="submitButton" type="button">
+                  Send Message
+                </button>
+              </div>
+            </div>
+          </div>
+        </form>
+
+        <div class="w-full mt-48 grid grid-cols-1 md:grid-cols-3 gap-12 text-center fade-in-up border-t border-brand-border pt-16" style="animation-delay: 0.9s;">
+          <div>
+            <span class="text-[10px] uppercase tracking-widest text-brand-muted block mb-4" id="infoMailLabel">Direct Mail</span>
+            <a href="mailto:hello@blitzkneisser.com" class="text-xl font-light underline underline-offset-8" id="infoMail">hello@blitzkneisser.com</a>
+          </div>
+          <div>
+            <span class="text-[10px] uppercase tracking-widest text-brand-muted block mb-4" id="infoLocationLabel">Studio Location</span>
+            <p class="text-xl font-light leading-relaxed" id="infoLocation">Innsbruck, Tirol<br>Available across the Alps</p>
+          </div>
+          <div>
+            <span class="text-[10px] uppercase tracking-widest text-brand-muted block mb-4" id="infoPhoneLabel">Telefon</span>
+            <a href="tel:+436643918228" class="text-xl font-light underline underline-offset-8" id="infoPhone">+43 664 3918228</a>
+          </div>
+        </div>
+
+        <div class="max-w-4xl mx-auto mt-20 md:mt-24 text-center fade-in-up border-t border-brand-border pt-14 md:pt-16" style="animation-delay: 1s;">
+          <span class="text-[10px] uppercase tracking-[0.3em] text-brand-muted block mb-4" id="academyEyebrow">Academy</span>
+          <h3 class="headline text-3xl md:text-4xl mb-5" id="academyTitle">Presets und Education</h3>
+          <p class="text-base md:text-lg font-light leading-8 text-brand-text/80 max-w-2xl mx-auto" id="academyCopy">
+            Wenn ihr auch meinen Workflow, Presets oder kommende Workshops entdecken möchtet, findet ihr alles gesammelt in der Academy.
+          </p>
+          <div class="mt-10">
+            <a href="/academy/" class="inline-flex items-center gap-3 border border-brand-text px-8 py-4 text-[10px] uppercase tracking-[0.3em] text-brand-text transition-colors duration-300 hover:bg-brand-text hover:text-white" id="academyCta">
+              Zur Academy
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <section class="px-6 md:px-12 pb-24 md:pb-32 bg-brand-bg">
+    <div class="max-w-[120rem] mx-auto border-t border-brand-border pt-16 md:pt-20">
+      <div class="max-w-3xl mx-auto text-center mb-14 md:mb-16">
+        <span class="text-[10px] uppercase tracking-[0.3em] text-brand-muted block mb-4" id="reviewsEyebrow">Rezensionen</span>
+        <h3 class="headline text-3xl md:text-4xl mb-5" id="reviewsTitle">Was Paare Sagen</h3>
+        <div class="text-2xl tracking-[0.35em] text-black" id="reviewsStars" aria-label="5 von 5 Sternen">★★★★★</div>
+      </div>
+
+      <div class="reviews-slider-shell">
+        <div class="reviews-slider-track" id="reviewsTrack">
+          <article class="review-slide">
+            <div class="review-card">
+              <p class="text-base md:text-lg leading-relaxed text-brand-text opacity-90">Reviews werden geladen.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="py-20 px-6 md:px-12 border-t border-brand-border flex flex-col md:flex-row justify-between items-center text-[10px] text-brand-muted tracking-[0.3em] uppercase font-medium bg-white">
+    <div id="footerBrandText">© 2026 Blitzkneisser Photography</div>
+    <div class="flex gap-12 mt-8 md:mt-0">
+      <a id="footerInstagramLink" href="#" class="hover:text-brand-text transition-colors duration-300">Instagram</a>
+      <a id="footerContactLink" href="/contact/" class="hover:text-brand-text transition-colors duration-300" data-i18n="nav.contact">Contact</a>
+      <a id="footerJournalLink" href="/journal/" class="hover:text-brand-text transition-colors duration-300">Journal</a>
+    </div>
+    <div id="footerInstagramFeed" class="footer-instagram-feed"></div>
+  </footer>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const googleReviewLibrary = {
+        de: [
+          {
+            name: "Google Review",
+            date: "Proposal",
+            copy: "Ein großartiger Fotograf. Andy ist kurzfristig eingesprungen, nachdem mein ursprünglicher Fotograf abgesagt hatte, und ist zwei Stunden gefahren, um meinen Heiratsantrag zu begleiten. Er war unglaublich angenehm, die Fotos kamen schnell und in starker Qualität. Für unsere Hochzeit würden wir ihn jederzeit wieder anfragen.",
+            image: "/assets/uploads/Blitzkneisser-Proposal-Dolomites-186.jpg"
+          },
+          {
+            name: "Google Review",
+            date: "After Wedding",
+            copy: "Was soll ich sagen, es war einfach eine wahnsinnige Erfahrung. Wir haben mit Andi After-Wedding-Fotos in den Dolomiten gemacht und waren vom ersten Moment an begeistert. Schon der gemeinsame Weg zum Spot war Teil des Erlebnisses, und durch seine lockere, witzige Art haben wir uns sofort wohl und ganz natürlich gefühlt.",
+            image: "/assets/uploads/Blitzkneisser-Elopement-Drei-Zinnen-Dolomiten-Italien-52.jpg"
+          },
+          {
+            name: "Google Review",
+            date: "Pragser Wildsee",
+            copy: "Wir hatten eine wundervolle Zeit mit Andy. Er war herzlich, aufmerksam und es hat einfach Spaß gemacht, mit ihm unterwegs zu sein. Wir haben heimlich mit unserem Hund am Pragser Wildsee geheiratet, und Andy hat uns beim Posieren unterstützt, uns Sicherheit gegeben und dafür gesorgt, dass wir diesen besonderen Moment wirklich genießen konnten.",
+            image: "/assets/uploads/Blitzkneisser-Elopement-Lago-di-Braies-Dolomites-11.jpg"
+          }
+        ],
+        en: [
+          {
+            name: "Google Review",
+            date: "Proposal",
+            copy: "Amazing photographer. Andy stepped in last minute after my previous photographer canceled and drove two hours to support my proposal. He was easy to talk to, reassuring throughout, and delivered high-quality photos very quickly. We would happily use his services again for our wedding in the future.",
+            image: "/assets/uploads/Blitzkneisser-Proposal-Dolomites-186.jpg"
+          },
+          {
+            name: "Google Review",
+            date: "After Wedding",
+            copy: "What can I say, it was an incredible experience. We did after-wedding photos with Andi in the Dolomites and were completely blown away. Even the walk to our photo spot felt like part of the day, and his relaxed, funny way immediately made us feel comfortable and natural in front of the camera.",
+            image: "/assets/uploads/Blitzkneisser-Elopement-Drei-Zinnen-Dolomiten-Italien-52.jpg"
+          },
+          {
+            name: "Google Review",
+            date: "Lago di Braies",
+            copy: "We had such a wonderful time with Andy. He was kind, thoughtful and simply great to be around. We secretly got married at Lago di Braies with our dog, and he helped us pose, made sure we felt comfortable and gave us the space to truly enjoy that moment together.",
+            image: "/assets/uploads/Blitzkneisser-Elopement-Lago-di-Braies-Dolomites-11.jpg"
+          }
+        ]
+      };
+
+
+      let destroyReviewsSlider = null;
+
+      const initReviewsSlider = () => {
+        if (typeof destroyReviewsSlider === "function") {
+          destroyReviewsSlider();
+        }
+
+        const track = document.getElementById("reviewsTrack");
+        if (!track) return;
+        track.scrollLeft = 0;
+        destroyReviewsSlider = () => {
+          destroyReviewsSlider = null;
+        };
+      };
+
+      const renderGoogleReviews = (lang) => {
+        const track = document.getElementById("reviewsTrack");
+        if (!track) return;
+
+        const reviews = googleReviewLibrary[lang] || googleReviewLibrary.de;
+        const resolveReviewImage = (review) => review.googleImage || review.profilePhotoUrl || review.image || "";
+
+        track.innerHTML = reviews.map((review) => {
+          const image = resolveReviewImage(review);
+          return `
+            <article class="review-slide">
+              <div class="review-card">
+                <div class="flex items-center gap-4">
+                  ${image ? `<img src="${image}" alt="${review.name}" class="review-avatar w-12 h-12 rounded-full object-cover" loading="lazy" decoding="async">` : ``}
+                  <div>
+                    <div class="text-[10px] uppercase tracking-[0.24em] text-brand-muted">${review.name}</div>
+                    <div class="text-[10px] uppercase tracking-[0.18em] text-brand-muted mt-1">${review.date}</div>
+                  </div>
+                </div>
+                <p class="text-base md:text-lg leading-relaxed text-brand-text opacity-90">${review.copy}</p>
+              </div>
+            </article>
+          `;
+        }).join("");
+
+        initReviewsSlider();
+      };
+
+      const translations = {
+        de: {
+          pageTitle: "Kontakt | Hochzeitsfotograf Tirol & Dolomiten",
+          metaDescription: "Kontakt zu eurem Hochzeitsfotografen für Tirol, Innsbruck und die Dolomiten. Jetzt Termin für Hochzeit oder Elopement anfragen.",
+          navHome: "Home",
+          navAbout: "Über mich",
+          navFilm: "Film",
+          navPortfolio: "Portfolio",
+          navJournal: "Journal",
+          navContact: "Kontakt",
+          navAcademy: "Academy",
+          heroEyebrow: "Verbindung",
+          heroTitle: "Kontakt",
+          introTitle: "Lasst uns ins Gespräch kommen",
+          introMeta: "Antworten erfolgen in der Regel innerhalb von 48 Stunden",
+          labelName: "Name",
+          placeholderName: "Euer Name",
+          labelEmail: "E-Mail",
+          placeholderEmail: "hallo@beispiel.de",
+          labelDate: "Hochzeitsdatum",
+          placeholderDate: "Wunschdatum",
+          labelLocation: "Ort",
+          placeholderLocation: "Tirol, Dolomiten, Alpen",
+          labelMessage: "Nachricht",
+          placeholderMessage: "Erzählt mir von euren Plänen...",
+          labelReferral: "Wie habt ihr mich gefunden?",
+          placeholderReferral: "Bitte auswählen",
+          referralInstagram: "Instagram",
+          referralGoogle: "Google",
+          referralRecommendations: "Weitere Empfehlungen",
+          calendarLabel: "Verfügbarkeit",
+          calendarTitle: "Wunschdatum auswählen",
+          calendarPrev: "←",
+          calendarNext: "→",
+          captchaLabel: "Sicherheitsabfrage",
+          captchaInputLabel: "Antwort",
+          captchaPlaceholder: "Antwort eingeben",
+          captchaRefresh: "Neu laden",
+          captchaQuestionPrefix: "Bitte löse",
+          captchaError: "Bitte die Sicherheitsabfrage korrekt lösen.",
+          validationError: "Bitte Name, E-Mail, Wunschdatum und Nachricht ausfüllen.",
+          submitReady: "Mailprogramm wird geöffnet.",
+          submit: "Nachricht senden",
+          reviewsEyebrow: "Rezensionen",
+          reviewsTitle: "Was Paare Sagen",
+          reviewsStarsLabel: "5 von 5 Sternen",
+          infoLocationLabel: "Standort",
+          infoLocation: "Innsbruck, Tirol\nBegleitung in den Alpen",
+          infoMailLabel: "Direkte Mail",
+          infoMail: "hello@blitzkneisser.com",
+          infoPhoneLabel: "Telefon",
+          infoPhone: "+43 664 3918228",
+          academyEyebrow: "Academy",
+          academyTitle: "Presets und Education",
+          academyCopy: "Wenn ihr auch meinen Workflow, Presets oder kommende Workshops entdecken möchtet, findet ihr alles gesammelt in der Academy.",
+          academyCta: "Zur Academy",
+          heroAlt: "Alpine Gipfel in heller Morgenstimmung",
+          monthNames: ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"],
+          weekdayNames: ["M", "D", "M", "D", "F", "S", "S"]
+        },
+        en: {
+          pageTitle: "Contact | Wedding Photographer Tyrol & Dolomites",
+          metaDescription: "Get in touch for weddings and elopements in Tyrol, Innsbruck and the Dolomites.",
+          navHome: "Home",
+          navAbout: "About",
+          navFilm: "Film",
+          navPortfolio: "Portfolio",
+          navJournal: "Journal",
+          navContact: "Contact",
+          navAcademy: "Academy",
+          heroEyebrow: "Connect",
+          heroTitle: "Get in Touch",
+          introTitle: "Begin a conversation",
+          introMeta: "We usually reply within 48 hours",
+          labelName: "Name",
+          placeholderName: "Your name",
+          labelEmail: "Email",
+          placeholderEmail: "hello@example.com",
+          labelDate: "Wedding Date",
+          placeholderDate: "Preferred date",
+          labelLocation: "Location",
+          placeholderLocation: "Tyrol, Dolomites, Alps",
+          labelMessage: "Message",
+          placeholderMessage: "Share your plans...",
+          labelReferral: "How did you find me?",
+          placeholderReferral: "Please select",
+          referralInstagram: "Instagram",
+          referralGoogle: "Google",
+          referralRecommendations: "Other recommendations",
+          calendarLabel: "Consultation Availability",
+          calendarTitle: "Select a preferred date",
+          calendarPrev: "←",
+          calendarNext: "→",
+          captchaLabel: "Security Check",
+          captchaInputLabel: "Answer",
+          captchaPlaceholder: "Enter answer",
+          captchaRefresh: "Refresh",
+          captchaQuestionPrefix: "Please solve",
+          captchaError: "Please solve the security check correctly.",
+          validationError: "Please complete name, email, preferred date and message.",
+          submitReady: "Opening your mail app.",
+          submit: "Send Message",
+          reviewsEyebrow: "Reviews",
+          reviewsTitle: "What Couples Say",
+          reviewsStarsLabel: "5 out of 5 stars",
+          infoLocationLabel: "Studio Location",
+          infoLocation: "Innsbruck, Tyrol\nAvailable across the Alps",
+          infoMailLabel: "Direct Mail",
+          infoMail: "hello@blitzkneisser.com",
+          infoPhoneLabel: "Phone",
+          infoPhone: "+43 664 3918228",
+          academyEyebrow: "Academy",
+          academyTitle: "Presets and Education",
+          academyCopy: "If you would also like to explore my workflow, preset collections or upcoming workshops, you will find everything collected in the Academy.",
+          academyCta: "Open Academy",
+          heroAlt: "Alpine peaks in soft morning light",
+          monthNames: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+          weekdayNames: ["M", "T", "W", "T", "F", "S", "S"]
+        }
+      };
+
+      const metaDescriptionNode = document.querySelector('meta[name="description"]');
+      const nav = document.getElementById("mainNav");
+      const navToggle = document.getElementById("navToggle");
+      const navMenuPanel = document.getElementById("navMenuPanel");
+      const calendarGrid = document.getElementById("calendarGrid");
+      const calendarMonth = document.getElementById("calendarMonth");
+      const calendarPrev = document.getElementById("calendarPrev");
+      const calendarNext = document.getElementById("calendarNext");
+      const dateInput = document.getElementById("placeholderDate");
+      const nameInput = document.getElementById("placeholderName");
+      const emailInput = document.getElementById("placeholderEmail");
+      const locationInput = document.getElementById("placeholderLocation");
+      const messageInput = document.getElementById("placeholderMessage");
+      const referralSelect = document.getElementById("referralSelect");
+      const submitButton = document.getElementById("submitButton");
+      const captchaQuestion = document.getElementById("captchaQuestion");
+      const captchaAnswer = document.getElementById("captchaAnswer");
+      const captchaRefresh = document.getElementById("captchaRefresh");
+      const websiteField = document.getElementById("websiteField");
+      const formStatus = document.getElementById("formStatus");
+      const contactHero = document.getElementById("contactHero");
+      const heroImage = document.getElementById("heroImage");
+      const heroOverlayImage = document.getElementById("heroOverlayImage");
+      const today = new Date();
+      const todayStart = new Date(today.getFullYear(), today.getMonth(), today.getDate());
+      let visibleMonth = new Date(todayStart.getFullYear(), todayStart.getMonth(), 1);
+      let selectedRangeStart = null;
+      let selectedRangeEnd = null;
+      let captchaResult = null;
+      let siteSettings = {};
+      const langParam = new URLSearchParams(window.location.search).get("lang");
+      const detectAutoLanguage = () => {
+        const browserLanguages = [
+          ...(navigator.languages || []),
+          navigator.language,
+          navigator.userLanguage
+        ]
+          .filter(Boolean)
+          .map((value) => String(value).toLowerCase());
+        return browserLanguages.some((value) => value.startsWith("de")) ? "de" : "en";
+      };
+      let currentLang = langParam === "en" ? "en" : ((langParam === "de" ? "de" : localStorage.getItem("site-lang")) || detectAutoLanguage());
+
+      const formatSelectedDate = (date, lang) => {
+        return new Intl.DateTimeFormat(lang === "de" ? "de-AT" : "en-US", {
+          year: "numeric",
+          month: "long",
+          day: "numeric"
+        }).format(date);
+      };
+
+      const updateDateInput = () => {
+        if (!selectedRangeStart) {
+          dateInput.value = "";
+          return;
+        }
+        if (!selectedRangeEnd) {
+          dateInput.value = formatSelectedDate(selectedRangeStart, currentLang);
+          return;
+        }
+        dateInput.value = `${formatSelectedDate(selectedRangeStart, currentLang)} - ${formatSelectedDate(selectedRangeEnd, currentLang)}`;
+      };
+
+      const isImageReady = (img) => Boolean(img && img.complete && img.naturalWidth > 0);
+
+      const syncHeroReveal = () => {
+        if (!contactHero || !heroImage || !heroOverlayImage) return;
+        contactHero.classList.add("is-loading");
+
+        const revealIfReady = () => {
+          if (isImageReady(heroImage) && isImageReady(heroOverlayImage)) {
+            contactHero.classList.remove("is-loading");
+          }
+        };
+
+        if (isImageReady(heroImage) && isImageReady(heroOverlayImage)) {
+          revealIfReady();
+          return;
+        }
+
+        heroImage.addEventListener("load", revealIfReady, { once: true });
+        heroOverlayImage.addEventListener("load", revealIfReady, { once: true });
+      };
+
+      const formatRequiredLabel = (value) => `${String(value || "").replace(/\s*\*$/, "")} *`;
+
+      const closeNavMenu = () => {
+        nav.classList.remove("is-open");
+        navToggle.setAttribute("aria-expanded", "false");
+      };
+
+      const setFormStatus = (message, isError = false) => {
+        formStatus.textContent = message;
+        formStatus.style.color = isError ? "#9B3D2F" : "#8A837A";
+      };
+
+      const buildCaptcha = () => {
+        const first = Math.floor(Math.random() * 7) + 2;
+        const second = Math.floor(Math.random() * 7) + 2;
+        captchaResult = first + second;
+        captchaAnswer.value = "";
+        captchaQuestion.textContent = `${first} + ${second} = ?`;
+      };
+
+      const submitContactForm = () => {
+        const t = translations[currentLang];
+        const name = nameInput.value.trim();
+        const email = emailInput.value.trim();
+        const date = dateInput.value.trim();
+        const location = locationInput.value.trim();
+        const message = messageInput.value.trim();
+        const referral = referralSelect.value.trim();
+        const answer = Number.parseInt(captchaAnswer.value.trim(), 10);
+
+        if (websiteField.value.trim()) {
+          setFormStatus(t.captchaError, true);
+          buildCaptcha();
+          return;
+        }
+
+        if (!name || !email || !date || !message) {
+          setFormStatus(t.validationError, true);
+          return;
+        }
+
+        if (!Number.isFinite(answer) || answer !== captchaResult) {
+          setFormStatus(t.captchaError, true);
+          buildCaptcha();
+          return;
+        }
+
+        const recipient = String(siteSettings.contactFormRecipient || document.getElementById("infoMail").textContent || "foto@blitzkneisser.com").trim();
+        const subject = encodeURIComponent(currentLang === "en" ? `Wedding inquiry from ${name}` : `Hochzeitsanfrage von ${name}`);
+        const body = encodeURIComponent(
+          [
+            `${currentLang === "en" ? "Name" : "Name"}: ${name}`,
+            `${currentLang === "en" ? "Email" : "E-Mail"}: ${email}`,
+            `${currentLang === "en" ? "Preferred date" : "Wunschdatum"}: ${date || "-"}`,
+            `${currentLang === "en" ? "Location" : "Ort"}: ${location || "-"}`,
+            `${currentLang === "en" ? "How did you find me?" : "Wie habt ihr mich gefunden?"}: ${referral || "-"}`,
+            "",
+            `${currentLang === "en" ? "Message" : "Nachricht"}:`,
+            message
+          ].join("\n")
+        );
+
+        setFormStatus(t.submitReady, false);
+        window.location.href = `mailto:${recipient}?subject=${subject}&body=${body}`;
+      };
+
+      navToggle.addEventListener("click", () => {
+        const willOpen = !nav.classList.contains("is-open");
+        nav.classList.toggle("is-open", willOpen);
+        navToggle.setAttribute("aria-expanded", willOpen ? "true" : "false");
+      });
+
+      navMenuPanel.querySelectorAll("a, button[data-lang-button]").forEach((item) => {
+        item.addEventListener("click", () => {
+          if (window.innerWidth < 768) closeNavMenu();
+        });
+      });
+
+      window.addEventListener("resize", () => {
+        if (window.innerWidth >= 768) closeNavMenu();
+      });
+
+      window.addEventListener("scroll", () => {
+        if (window.innerWidth < 768 && nav.classList.contains("is-open")) {
+          closeNavMenu();
+        }
+      }, { passive: true });
+
+      const renderCalendar = () => {
+        const t = translations[currentLang];
+        const year = visibleMonth.getFullYear();
+        const month = visibleMonth.getMonth();
+        const firstDay = new Date(year, month, 1);
+        const daysInMonth = new Date(year, month + 1, 0).getDate();
+        const startOffset = (firstDay.getDay() + 6) % 7;
+        const isCurrentMonth =
+          year === todayStart.getFullYear() && month === todayStart.getMonth();
+
+        calendarMonth.textContent = `${t.monthNames[month]} ${year}`;
+        calendarPrev.disabled = isCurrentMonth;
+        calendarGrid.innerHTML = "";
+
+        t.weekdayNames.forEach((name) => {
+          const node = document.createElement("div");
+          node.className = "py-3 text-center text-[10px] uppercase tracking-[0.22em]";
+          node.textContent = name;
+          calendarGrid.appendChild(node);
+        });
+
+        for (let i = 0; i < startOffset; i += 1) {
+          const empty = document.createElement("div");
+          empty.className = "calendar-day empty";
+          calendarGrid.appendChild(empty);
+        }
+
+        for (let day = 1; day <= daysInMonth; day += 1) {
+          const dayDate = new Date(year, month, day);
+          const button = document.createElement("button");
+          button.type = "button";
+          button.className = "calendar-day";
+          button.textContent = String(day);
+          button.title = formatSelectedDate(dayDate, currentLang);
+
+          const isRangeStart =
+            selectedRangeStart &&
+            dayDate.getFullYear() === selectedRangeStart.getFullYear() &&
+            dayDate.getMonth() === selectedRangeStart.getMonth() &&
+            dayDate.getDate() === selectedRangeStart.getDate();
+
+          const isRangeEnd =
+            selectedRangeEnd &&
+            dayDate.getFullYear() === selectedRangeEnd.getFullYear() &&
+            dayDate.getMonth() === selectedRangeEnd.getMonth() &&
+            dayDate.getDate() === selectedRangeEnd.getDate();
+
+          const isInRange =
+            selectedRangeStart &&
+            selectedRangeEnd &&
+            dayDate > selectedRangeStart &&
+            dayDate < selectedRangeEnd;
+
+          button.addEventListener("click", () => {
+            if (!selectedRangeStart || selectedRangeEnd) {
+              selectedRangeStart = dayDate;
+              selectedRangeEnd = null;
+            } else if (dayDate < selectedRangeStart) {
+              selectedRangeStart = dayDate;
+            } else {
+              selectedRangeEnd = dayDate;
+            }
+            updateDateInput();
+            renderCalendar();
+          });
+
+          if (isInRange) {
+            button.classList.add("in-range");
+          }
+          if (isRangeStart) {
+            button.classList.add("range-start");
+          }
+          if (isRangeEnd) {
+            button.classList.add("range-end");
+          }
+          if (isRangeStart && !selectedRangeEnd) {
+            button.classList.add("selected");
+          }
+
+          calendarGrid.appendChild(button);
+        }
+      };
+
+      const applyLanguage = (lang) => {
+        currentLang = lang;
+        localStorage.setItem("site-lang", lang);
+        const t = translations[lang];
+        document.documentElement.lang = lang;
+        document.title = t.pageTitle;
+        metaDescriptionNode.setAttribute("content", t.metaDescription);
+
+        document.getElementById("navAboutLink").textContent = t.navAbout;
+        document.getElementById("navFilmLink").textContent = t.navFilm;
+        document.getElementById("navPortfolioLink").textContent = t.navPortfolio;
+        document.getElementById("navJournalLink").textContent = t.navJournal;
+        document.getElementById("navContactLink").textContent = t.navContact;
+        document.getElementById("navAcademyLink").textContent = t.navAcademy;
+        const footerContactI18n = document.querySelector('footer [data-i18n="nav.contact"]');
+        if (footerContactI18n) {
+          footerContactI18n.textContent = t.navContact;
+        }
+        document.getElementById("heroEyebrow").textContent = t.heroEyebrow;
+        document.getElementById("heroTitle").textContent = t.heroTitle;
+        document.getElementById("introTitle").textContent = lang === "en"
+          ? (siteSettings.contactIntroTitleEn || t.introTitle)
+          : (siteSettings.contactIntroTitleDe || t.introTitle);
+        document.getElementById("introMeta").textContent = lang === "en"
+          ? (siteSettings.contactIntroMetaEn || t.introMeta)
+          : (siteSettings.contactIntroMetaDe || t.introMeta);
+        document.getElementById("labelName").textContent = formatRequiredLabel(lang === "en"
+          ? (siteSettings.contactNameLabelEn || t.labelName)
+          : (siteSettings.contactNameLabelDe || t.labelName));
+        document.getElementById("placeholderName").placeholder = lang === "en"
+          ? (siteSettings.contactNamePlaceholderEn || t.placeholderName)
+          : (siteSettings.contactNamePlaceholderDe || t.placeholderName);
+        document.getElementById("labelEmail").textContent = formatRequiredLabel(lang === "en"
+          ? (siteSettings.contactEmailLabelEn || t.labelEmail)
+          : (siteSettings.contactEmailLabelDe || t.labelEmail));
+        document.getElementById("placeholderEmail").placeholder = lang === "en"
+          ? (siteSettings.contactEmailPlaceholderEn || t.placeholderEmail)
+          : (siteSettings.contactEmailPlaceholderDe || t.placeholderEmail);
+        document.getElementById("labelDate").textContent = formatRequiredLabel(lang === "en"
+          ? (siteSettings.contactDateLabelEn || t.labelDate)
+          : (siteSettings.contactDateLabelDe || t.labelDate));
+        document.getElementById("placeholderDate").placeholder = lang === "en"
+          ? (siteSettings.contactDatePlaceholderEn || t.placeholderDate)
+          : (siteSettings.contactDatePlaceholderDe || t.placeholderDate);
+        document.getElementById("labelLocation").textContent = lang === "en"
+          ? (siteSettings.contactLocationLabelEn || t.labelLocation)
+          : (siteSettings.contactLocationLabelDe || t.labelLocation);
+        document.getElementById("placeholderLocation").placeholder = lang === "en"
+          ? (siteSettings.contactLocationPlaceholderEn || t.placeholderLocation)
+          : (siteSettings.contactLocationPlaceholderDe || t.placeholderLocation);
+        document.getElementById("labelMessage").textContent = lang === "en"
+          ? (siteSettings.contactMessageLabelEn || t.labelMessage)
+          : (siteSettings.contactMessageLabelDe || t.labelMessage);
+        document.getElementById("placeholderMessage").placeholder = lang === "en"
+          ? (siteSettings.contactMessagePlaceholderEn || t.placeholderMessage)
+          : (siteSettings.contactMessagePlaceholderDe || t.placeholderMessage);
+        document.getElementById("labelReferral").textContent = t.labelReferral;
+        referralSelect.options[0].textContent = lang === "en"
+          ? (siteSettings.contactReferralPlaceholderEn || t.placeholderReferral)
+          : (siteSettings.contactReferralPlaceholderDe || t.placeholderReferral);
+        referralSelect.options[1].textContent = t.referralInstagram;
+        referralSelect.options[2].textContent = t.referralGoogle;
+        referralSelect.options[3].textContent = t.referralRecommendations;
+        document.getElementById("calendarLabel").textContent = t.calendarLabel;
+        document.getElementById("calendarTitle").textContent = t.calendarTitle;
+        document.getElementById("calendarPrev").textContent = t.calendarPrev;
+        document.getElementById("calendarNext").textContent = t.calendarNext;
+        document.getElementById("captchaLabel").textContent = formatRequiredLabel(t.captchaLabel);
+        document.getElementById("captchaInputLabel").textContent = formatRequiredLabel(t.captchaInputLabel);
+        document.getElementById("captchaAnswer").placeholder = t.captchaPlaceholder;
+        document.getElementById("captchaRefresh").textContent = t.captchaRefresh;
+        document.getElementById("submitButton").textContent = lang === "en"
+          ? (siteSettings.contactSubmitEn || t.submit)
+          : (siteSettings.contactSubmitDe || t.submit);
+        document.getElementById("reviewsEyebrow").textContent = t.reviewsEyebrow;
+        document.getElementById("reviewsTitle").textContent = t.reviewsTitle;
+        document.getElementById("reviewsStars").setAttribute("aria-label", t.reviewsStarsLabel);
+        renderGoogleReviews(lang);
+        document.getElementById("infoLocationLabel").textContent = t.infoLocationLabel;
+        const locationCopy = lang === "en"
+          ? (siteSettings.contactLocationEn || t.infoLocation)
+          : (siteSettings.contactLocationDe || t.infoLocation);
+        document.getElementById("infoLocation").innerHTML = String(locationCopy).replace(/\n/g, "<br>");
+        document.getElementById("infoMailLabel").textContent = t.infoMailLabel;
+        document.getElementById("infoMail").textContent = siteSettings.contactDirectMail || t.infoMail;
+        document.getElementById("infoMail").href = `mailto:${siteSettings.contactDirectMail || t.infoMail}`;
+        document.getElementById("infoPhoneLabel").textContent = t.infoPhoneLabel;
+        document.getElementById("infoPhone").textContent = siteSettings.contactPhone || t.infoPhone;
+        document.getElementById("infoPhone").href = `tel:${String(siteSettings.contactPhone || t.infoPhone).replace(/[^+\d]/g, "")}`;
+        document.getElementById("academyEyebrow").textContent = t.academyEyebrow;
+        document.getElementById("academyTitle").textContent = t.academyTitle;
+        document.getElementById("academyCopy").textContent = t.academyCopy;
+        document.getElementById("academyCta").textContent = t.academyCta;
+        document.getElementById("academyCta").href = lang === "en" ? "/academy/?lang=en" : "/academy/";
+        document.getElementById("heroImage").alt = t.heroAlt;
+        setFormStatus("", false);
+
+        updateDateInput();
+
+        document.getElementById("navHomeLink").href = lang === "en" ? "/index.html?lang=en" : "/index.html";
+        document.getElementById("navExperienceLink").href = lang === "en" ? "/experience/?lang=en" : "/experience/";
+        document.getElementById("navGuidesLink").href = lang === "en" ? "/guides/?lang=en" : "/guides/";
+        document.getElementById("navAboutLink").href = lang === "en" ? "/about/?lang=en" : "/about/";
+        document.getElementById("navFilmLink").href = lang === "en" ? "/film/?lang=en" : "/film/";
+        document.getElementById("navPortfolioLink").href = lang === "en" ? "/portfolio/?lang=en" : "/portfolio/";
+        document.getElementById("navJournalLink").href = lang === "en" ? "/journal/?lang=en" : "/journal/";
+        document.getElementById("navContactLink").href = lang === "en" ? "/contact/?lang=en" : "/contact/";
+
+        document.querySelectorAll("[data-lang-button]").forEach((button) => {
+          const active = button.dataset.langButton === lang;
+          button.setAttribute("aria-pressed", active ? "true" : "false");
+          button.style.backgroundColor = active ? "#1B1A18" : "transparent";
+          button.style.color = active ? "#F9F7F2" : "#1B1A18";
+          button.style.borderColor = active ? "#1B1A18" : "#E6DED4";
+        });
+
+        window.history.replaceState({}, "", lang === "en" ? "/contact/?lang=en" : "/contact/");
+        renderCalendar();
+      };
+
+      const applySettingsImage = async () => {
+        try {
+          const response = await fetch(`/content/settings/site.json?ts=${Date.now()}`, { cache: "no-store" });
+          if (!response.ok) return;
+          siteSettings = await response.json();
+          if (siteSettings?.contactHeroImage) {
+            document.getElementById("heroImage").src = siteSettings.contactHeroImage;
+          }
+          if (siteSettings?.contactHeroOverlayImage) {
+            const overlayImage = document.getElementById("heroOverlayImage");
+            if (overlayImage) overlayImage.src = siteSettings.contactHeroOverlayImage;
+          }
+          syncHeroReveal();
+          applyLanguage(currentLang);
+        } catch (error) {
+          // Keep the current contact hero image fallback if settings cannot be loaded.
+        }
+      };
+
+      document.querySelectorAll("[data-lang-button]").forEach((button) => {
+        button.addEventListener("click", () => applyLanguage(button.dataset.langButton));
+      });
+
+      calendarPrev.addEventListener("click", () => {
+        const previousMonth = new Date(visibleMonth.getFullYear(), visibleMonth.getMonth() - 1, 1);
+        if (previousMonth >= new Date(todayStart.getFullYear(), todayStart.getMonth(), 1)) {
+          visibleMonth = previousMonth;
+          renderCalendar();
+        }
+      });
+
+      calendarNext.addEventListener("click", () => {
+        visibleMonth = new Date(visibleMonth.getFullYear(), visibleMonth.getMonth() + 1, 1);
+        renderCalendar();
+      });
+
+      captchaRefresh.addEventListener("click", buildCaptcha);
+      submitButton.addEventListener("click", submitContactForm);
+
+      applyLanguage(currentLang);
+      syncHeroReveal();
+      applySettingsImage();
+      buildCaptcha();
+    });
+  </script>
+  <script src="/assets/footer-settings.js"></script>
+  <script src="/assets/pinterest-pin.js"></script>
+</body>
+</html>

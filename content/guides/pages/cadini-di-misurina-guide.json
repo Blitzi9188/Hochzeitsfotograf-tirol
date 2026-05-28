@@ -1,0 +1,896 @@
+{
+  "de": {
+    "slug": "cadini-di-misurina-guide",
+    "title": "Cadini di Misurina Guide | Filmische Höhepunkte, Zugang und Sicherheit",
+    "description": "Guide zu Cadini di Misurina mit ehrlichen Hinweisen zu Sonnenaufgang, Zugang, Wind, Sicherheit und der wilden, intensiven Stimmung dieses Ortes.",
+    "hero": {
+      "eyebrow": "Standort-Guide",
+      "title": "Cadini di Misurina Guide",
+      "copy": "Ein Guide für Paare, die an Cadini diese wilde, kinoreife Spannung lieben und zugleich wissen möchten, wann der Ort zugänglich, sicher und wirklich stimmig ist.",
+      "cta": "Planung starten",
+      "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-12.jpg",
+      "imageAlt": "Cadini di Misurina mit markanten Felsformen"
+    },
+    "utility": {
+      "reading": "Guide",
+      "focus": "Für dramatische Bergrückenlinien um Cadini di Misurina",
+      "navOverview": "Überblick",
+      "navSeasons": "Standorthinweise",
+      "navPhilosophy": "Einführung",
+      "navVisual": "Weitere Guides",
+      "navFaq": "FAQ"
+    },
+    "overview": {
+      "eyebrow": "Guide im Überblick",
+      "copy": "Cadini wirkt schmaler, schroffer und emotional aufgeladener als viele andere Orte in den Dolomiten. Der Weg ist kurz, aber nicht beiläufig. Das Licht zählt, der Wind zählt, und auch wie ihr euch auf ausgesetztem Gelände bewegt.",
+      "items": [
+        {
+          "icon": "calendar",
+          "label": "Beste Zeit",
+          "value": "Sommer bis Frühherbst"
+        },
+        {
+          "icon": "sunrise",
+          "label": "Bestes Licht",
+          "value": "Sonnenaufgang"
+        },
+        {
+          "icon": "path",
+          "label": "Zugang",
+          "value": "Wanderbasiert"
+        },
+        {
+          "icon": "crowd",
+          "label": "Crowd Level",
+          "value": "Mäßig am berühmten Aussichtspunkt"
+        },
+        {
+          "icon": "guests",
+          "label": "Ideal für",
+          "value": "Paare fühlen sich mit der Berglage wohl"
+        }
+      ]
+    },
+    "philosophy": {
+      "eyebrow": "Eine erste Orientierung",
+      "title": "Cadini trägt Spannung in sich, selbst wenn kaum etwas passiert.",
+      "copy": "Es ist einer dieser Orte, an denen Linien, Fels und Leere sofort eine Geschichte erzählen. Genau deshalb wirkt Cadini so stark für Paare, die etwas Rohes, Nahes und weniger Gefälliges suchen."
+    },
+    "sections": {
+      "seasonOrder": [
+        "special",
+        "time",
+        "access",
+        "sunrise",
+        "helicopter",
+        "weather",
+        "safety"
+      ],
+      "seasons": {
+        "special": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-19.jpg",
+          "imageAlt": "Platzhalterbild für Cadini-Gipfel",
+          "title": "Warum sich Cadini filmisch anfühlt",
+          "intro": "Cadini fühlt sich nicht sanft an, sondern intensiv.",
+          "copy": "Die Form der Felsen, der enge Blickkorridor und der spürbare Abgrund geben diesem Ort eine filmische, fast nervöse Energie. Wer es liebt, liebt meist genau diese Spannung.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "wind",
+              "label": "Stimmung",
+              "value": "Dramatisch und grafisch"
+            },
+            {
+              "icon": "guests",
+              "label": "Ideal für",
+              "value": "Redaktionelle, abenteuerlustige Paare"
+            },
+            {
+              "icon": "sun",
+              "label": "Visuelle Stärke",
+              "value": "Scharfe Formen und offene Tiefe"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "time": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Proposel-INSTA-3.jpg",
+          "imageAlt": "Platzhalterbild für die Tageszeit in Cadini",
+          "title": "Beste Zeit",
+          "intro": "Die beste Zeit ist früh, bevor Wege und Plattformen enger werden.",
+          "copy": "Cadini funktioniert am stärksten in den stilleren Morgenstunden. Dann ist das Licht weicher, der Andrang geringer und der Ort trägt noch diese konzentrierte Ruhe, die später oft verloren geht.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "sunrise",
+              "label": "Am besten",
+              "value": "Sonnenaufgang"
+            },
+            {
+              "icon": "sun",
+              "label": "Auch gut",
+              "value": "Am späten Abend sehr ruhig"
+            },
+            {
+              "icon": "crowd",
+              "label": "Vermeiden",
+              "value": "Überfüllte Fenster am späten Morgen"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "access": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-1.jpg",
+          "imageAlt": "Maut und Wanderzugang ",
+          "title": "Zugangs- und Wanderschwierigkeiten",
+          "intro": "Kurz heißt hier nicht automatisch einfach.",
+          "copy": "Der Weg ist für viele Paare gut machbar, verlangt aber Trittsicherheit, Aufmerksamkeit und gute Schuhe. Gerade wenn ihr Kleider, Anzüge oder zusätzliche Details dabeihabt, fühlt sich der Zugang anders an als auf einer normalen Wanderung.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "path",
+              "label": "Schwierigkeit",
+              "value": "Mäßig"
+            },
+            {
+              "icon": "guests",
+              "label": "Ideal für",
+              "value": "Bequeme Wanderer"
+            },
+            {
+              "icon": "key",
+              "label": "Bedürfnisse",
+              "value": "Gutes Schuhwerk und gleichmäßiges Tempo"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "sunrise": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-10.jpg",
+          "imageAlt": "Platzhalterbild für Sonnenaufgang in Cadini",
+          "title": "Sonnenaufgangsoption",
+          "intro": "Sonnenaufgang schenkt Cadini Weite und Luft.",
+          "copy": "Früh am Morgen ist der Ort meist leerer und der Fels wirkt offener. Diese Stunde gibt euch nicht nur besseres Licht, sondern oft auch mehr Nervenruhe.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "sunrise",
+              "label": "Warum Sonnenaufgang",
+              "value": "Sanftes Licht und weniger Menschen"
+            },
+            {
+              "icon": "calendar",
+              "label": "Wirklichkeit",
+              "value": "Braucht einen frühen, engagierten Start"
+            },
+            {
+              "icon": "sun",
+              "label": "Es lohnt sich",
+              "value": "Sehr oft"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "helicopter": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Proposal-Dolomites-177.jpg",
+          "imageAlt": "Platzhalterbild für Helikopterzugang und Fernansichten",
+          "title": "Helikopter-Option",
+          "intro": "Cadini kann aus der Luft noch abgelegener und klarer wirken.",
+          "copy": "Für manche Konzepte ist ein Helikopter sinnvoll, wenn ihr abgelegenere Perspektiven oder mehr Zeit in der Region verbinden möchtet. Wichtig ist, dass die Idee zum Charakter des Tages passt und nicht nur spektakulär aussieht.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "wind",
+              "label": "Ideal für",
+              "value": "Remote-Erweiterungen und privater Maßstab"
+            },
+            {
+              "icon": "cloud",
+              "label": "Bedürfnisse",
+              "value": "Wetter und lokale Partner"
+            },
+            {
+              "icon": "guests",
+              "label": "Ton",
+              "value": "Absichtlich, nicht theatralisch"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "weather": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Photo-9.jpg",
+          "imageAlt": "Platzhalterbild für Nebel und Wind in exponiertem Gelände",
+          "title": "Wetternotizen",
+          "intro": "Wolken, Wind und Kälte greifen hier schnell in den Ablauf ein.",
+          "copy": "Cadini ist einer der Orte, an denen Wetter nicht nur die Stimmung verändert, sondern auch eure Sicherheit und Bewegungsfreiheit. Gerade deshalb lohnt es sich, sehr bewusst mit Plan B und Kleidung umzugehen.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "wind",
+              "label": "Hauptfaktoren",
+              "value": "Wind und Sicht"
+            },
+            {
+              "icon": "cloud",
+              "label": "Beste Stimmung",
+              "value": "Weiche Wolke, frühes Licht"
+            },
+            {
+              "icon": "calendar",
+              "label": "Planungsstil",
+              "value": "Haltet den Zeitpunkt flexibel"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "safety": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Proposal-Dolomites-186.jpg",
+          "imageAlt": "Platzhalterbild für Sicherheitshinweise in den Bergen",
+          "title": "Sicherheitshinweise",
+          "intro": "Schönheit und Vorsicht gehören hier enger zusammen.",
+          "copy": "Auf schmaleren Passagen und an beliebten Aussichtspunkten braucht es Ruhe und klare Entscheidungen. Cadini wirkt am stärksten, wenn ihr nicht gegen den Ort arbeitet, sondern euch in seinem Tempo bewegt.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "path",
+              "label": "Am Wichtigsten",
+              "value": "Ruhiges Tempo"
+            },
+            {
+              "icon": "key",
+              "label": "Bringen",
+              "value": "Richtige Schuhe und Schichten"
+            },
+            {
+              "icon": "guests",
+              "label": "Best Practice",
+              "value": "Behandeln ihr das Gelände mit Respekt"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        }
+      }
+    },
+    "planning": {
+      "eyebrow": "Planungsnotizen",
+      "title": "Was Cadini meist fordert und was es dafür zurückgibt.",
+      "intro": "Cadini ist nicht kompliziert, aber es ist ein Ort, der Präsenz verlangt. Wer das mitbringt, bekommt eine der eindrücklichsten Kulissen der Dolomiten.",
+      "items": [
+        {
+          "label": "Sicherheit",
+          "title": "Gutes Timing ist hier auch eine Sicherheitsentscheidung.",
+          "copy": "Weniger Andrang am Morgen bedeutet oft mehr Ruhe beim Gehen und bei den Bildern.",
+          "meta": "Leere Wege nehmen Druck heraus."
+        },
+        {
+          "label": "Kleidung",
+          "title": "Schuhe und Schichten sollten hier ernst genommen werden.",
+          "copy": "Cadini sieht elegant aus, fühlt sich aber schnell kalt oder windig an.",
+          "meta": "Praktisch und schön gehören zusammen."
+        },
+        {
+          "label": "Wetter",
+          "title": "Plan B ist an Cadini kein Zeichen von Unsicherheit.",
+          "copy": "Wenn Wind oder Wolken den Ort schließen, ist Flexibilität oft die stärkere Entscheidung.",
+          "meta": "Nicht jeder Morgen gehört diesem Grat."
+        },
+        {
+          "label": "Gefühl",
+          "title": "Cadini passt nicht zu jeder Energie, und das ist gut so.",
+          "copy": "Wenn ihr etwas Wildes, Dramatisches und sehr unmittelbares sucht, kann der Ort unglaublich stark sein.",
+          "meta": "Stimmung ist hier wichtiger als Bequemlichkeit."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Fragen, die Paare oft zu Cadini stellen.",
+      "intro": "Cadini wirkt auf Bildern einfach. Vor Ort geht es dann meist um Sicherheit, Uhrzeit, Wind und die Frage, ob diese Intensität wirklich zu euch passt.",
+      "items": [
+        {
+          "q": "Ist Cadini schwer zu erreichen?",
+          "a": "Der Weg ist kurz, aber nicht beiläufig. Gute Schuhe, ein ruhiger Schritt und Aufmerksamkeit gehören dazu. Mit Kleid, Anzug oder zusätzlichem Gepäck fühlt sich der Zugang oft anspruchsvoller an als erwartet."
+        },
+        {
+          "q": "Lohnt sich hier der Sonnenaufgang?",
+          "a": "Fast immer. Früh am Morgen ist der Ort meist leerer, das Licht weicher und die ganze Spannung der Felsen viel konzentrierter. Später wird es oft enger und öffentlicher."
+        },
+        {
+          "q": "Ist Cadini für einen Hochzeitstag sicher?",
+          "a": "Ja, wenn ihr den Ort ernst nehmt. Cadini verlangt keine Panik, aber Ruhe, gutes Timing und klare Entscheidungen. Gerade an beliebten Aussichtspunkten sollte niemand gegen den Ort arbeiten."
+        },
+        {
+          "q": "Kann ein Helikopter Teil des Erlebnisses sein?",
+          "a": "Ja, wenn er zum Ablauf passt. Für manche Konzepte schafft er mehr Weite oder verbindet mehrere Orte sinnvoll. Er sollte aber den Tag erleichtern, nicht nur größer aussehen lassen."
+        }
+      ]
+    },
+    "related": {
+      "eyebrow": "Verwandte Leitfäden",
+      "hint": "Wischt nach links oder rechts, um weitere Guides zu sehen.",
+      "items": [
+        {
+          "label": "Dolomiten",
+          "title": "Elopement-Guide für die Dolomiten",
+          "copy": "Ein ruhiger Ausgangspunkt für Paare, die ein Dolomites Elopement oder eine intime Berghochzeit planen und verstehen möchten, wie Licht, Wege, Wetter und Menschenmengen den Tag wirklich prägen.",
+          "href": "/guides/dolomites-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-120.jpg",
+          "imageAlt": "Paar bei einem Dolomiten-Elopement im weichen Morgenlicht",
+          "alt": "Paar bei einem Dolomiten-Elopement im weichen Morgenlicht"
+        },
+        {
+          "label": "Standorte",
+          "title": "Die beliebtesten Elopement-Orte in den Dolomiten",
+          "copy": "Ein kuratierter Guide für Paare, die nicht einfach irgendeine schöne Aussicht suchen, sondern den Ort, dessen Stimmung wirklich zu ihrem Tag passt.",
+          "href": "/guides/best-dolomites-elopement-locations/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-191.jpg",
+          "imageAlt": "Elopement-Standorte in den Dolomiten",
+          "alt": "Elopement-Standorte in den Dolomiten"
+        },
+        {
+          "label": "Standorte",
+          "title": "Lago di Braies Guide",
+          "copy": "Ein ehrlicher Guide für Paare, die den Pragser Wildsee nicht nur als berühmtes Bild kennen, sondern verstehen möchten, wann er still, weich und tatsächlich erlebbar wird.",
+          "href": "/guides/lago-di-braies-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopemnt-Dolomites-Lago-di-Braies-19.jpg",
+          "imageAlt": "Lago di Braies mit ruhigem Wasser und frühem Licht",
+          "alt": "Lago di Braies mit ruhigem Wasser und frühem Licht"
+        },
+        {
+          "label": "Standorte",
+          "title": "Seceda Guide",
+          "copy": "Ein Guide für Paare, die an Seceda nicht nur die berühmte Kante suchen, sondern das Gefühl von Weite, Wind und offenem Berglicht, das diesen Ort so unverwechselbar macht.",
+          "href": "/guides/seceda-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Seceda-180.jpg",
+          "imageAlt": "Seceda bei klarem Berglicht",
+          "alt": "Seceda bei klarem Berglicht"
+        },
+        {
+          "label": "Standorte",
+          "title": "Drei Zinnen Guide",
+          "copy": "Ein ehrlicher Guide für Paare, die Drei Zinnen nicht nur wegen des berühmten Blicks wählen, sondern wegen dieser monumentalen, fast unwirklichen Präsenz, die der Ort im richtigen Moment entfaltet.",
+          "href": "/guides/tre-cime-wedding-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14.jpg",
+          "imageAlt": "Drei Zinnen bei klarem Berglicht",
+          "alt": "Drei Zinnen bei klarem Berglicht"
+        },
+        {
+          "label": "Planung",
+          "title": "Beste Jahreszeit für ein Dolomiten-Elopement",
+          "copy": "Ein ehrlicher Guide zu Licht, Temperaturen, Menschenmengen und der Frage, wann sich die Berge nicht nur schön, sondern wirklich stimmig für euch anfühlen.",
+          "href": "/guides/best-time-for-a-dolomites-elopement/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-16.jpg",
+          "imageAlt": "Vorhandenes Bild zur schönsten Zeit in den Dolomiten",
+          "alt": "Vorhandenes Bild zur schönsten Zeit in den Dolomiten"
+        },
+        {
+          "label": "Planung",
+          "title": "Sonnenaufgang vs. Sonnenuntergang in den Dolomiten",
+          "copy": "Ein ehrlicher Vergleich für Paare, die nicht nur schönes Licht suchen, sondern verstehen möchten, welche Tageszeit zu ihrem Energielevel, ihrem Ort und dem gewünschten Gefühl passt.",
+          "href": "/guides/sunrise-vs-sunset-dolomites/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Photo-368.jpg",
+          "imageAlt": "Lichtstimmung in den Bergen bei Sonnenaufgang oder Sonnenuntergang",
+          "alt": "Lichtstimmung in den Bergen bei Sonnenaufgang oder Sonnenuntergang"
+        },
+        {
+          "label": "Planung",
+          "title": "Guide zur Wetter- und Backup-Planung",
+          "copy": "Ein ruhiger Wetter-Guide für Paare, die in den Bergen nicht auf perfekte Bedingungen hoffen, sondern einen Tag planen möchten, der auch bei Nebel, Wind oder Regen stimmig bleibt.",
+          "href": "/guides/weather-and-backup-planning/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-161.jpg",
+          "imageAlt": "Wetterstimmung in den Dolomiten mit Wolken und Nebel",
+          "alt": "Wetterstimmung in den Dolomiten mit Wolken und Nebel"
+        },
+        {
+          "label": "Planung",
+          "title": "Was man in den Bergen anziehen sollte",
+          "copy": "Ein praktischer Guide für Paare, die in den Bergen nicht nur schön aussehen, sondern sich auch frei bewegen, warm bleiben und sich in ihrer Kleidung wirklich wiederfinden möchten.",
+          "href": "/guides/what-to-wear-in-the-mountains/",
+          "image": "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Hut-13.jpg",
+          "imageAlt": "Kleidung für ein Elopement in den Bergen",
+          "alt": "Kleidung für ein Elopement in den Bergen"
+        },
+        {
+          "label": "Planung",
+          "title": "Helikopter-Elopement-Guide",
+          "copy": "Ein Guide für Paare, die Weite, Abgeschiedenheit und einen klareren Tagesfluss suchen und verstehen möchten, wann ein Helikopter in den Bergen wirklich sinnvoll ist.",
+          "href": "/guides/helicopter-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-12.jpg",
+          "imageAlt": "Helikopterflug über den Bergen für ein Elopement",
+          "alt": "Helikopterflug über den Bergen für ein Elopement"
+        },
+        {
+          "label": "Planung",
+          "title": "Mehrtägiger Elopement-Guide",
+          "copy": "Ein Guide für Paare, die mehr wollen als ein paar schnelle Stunden in den Bergen und ihren Hochzeitstag lieber in Ruhe entfalten lassen möchten.",
+          "href": "/guides/multi-day-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Insta-11.jpg",
+          "imageAlt": "Mehrtägiges Elopement in den Dolomiten",
+          "alt": "Mehrtägiges Elopement in den Dolomiten"
+        }
+      ]
+    },
+    "final": {
+      "eyebrow": "Ruhig geplant",
+      "title": "Lasst uns etwas gestalten, das sich ruhig, persönlich und zutiefst wahr anfühlt.",
+      "copy": "Wenn sich dieser Guide bereits nah an dem anfühlt, was ihr euch wünscht, helfe ich euch gern dabei, dieses Gefühl in etwas Ruhiges, Filmisches und wirklich Eigenes in den Bergen zu verwandeln.",
+      "cta": "Termin anfragen",
+      "image": "/assets/uploads/Blitzkneisser-Photo-Drei-Zinnen-Italy-24.jpg",
+      "imageAlt": "Drei Zinnen in den Dolomiten bei ruhigem, klarem Licht"
+    }
+  },
+  "en": {
+    "slug": "cadini-di-misurina-guide",
+    "title": "Cadini di Misurina Guide | Cinematic Peaks, Access and Safety",
+    "description": "A guide to Cadini di Misurina with honest notes on sunrise, access, wind, safety and the wild intensity of the place.",
+    "hero": {
+      "eyebrow": "Location Guide",
+      "title": "Cadini di Misurina Guide",
+      "copy": "A guide for couples who love the wild, cinematic tension of Cadini and want to know when it is accessible, safe and genuinely worth choosing.",
+      "cta": "Start planning",
+      "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-12.jpg",
+      "imageAlt": "Cadini di Misurina with dramatic rock formations"
+    },
+    "utility": {
+      "reading": "Guide",
+      "focus": "For dramatic ridgelines around Cadini di Misurina",
+      "navOverview": "Overview",
+      "navSeasons": "Location Notes",
+      "navPhilosophy": "Intro",
+      "navVisual": "More guides",
+      "navFaq": "FAQ"
+    },
+    "overview": {
+      "eyebrow": "Guide Overview",
+      "copy": "Cadini feels sharper, narrower and more emotionally charged than many other Dolomite locations. The walk is short, but not casual. Light matters, wind matters and the way you move on exposed ground matters too.",
+      "items": [
+        {
+          "icon": "calendar",
+          "label": "Best Time",
+          "value": "Summer to early autumn"
+        },
+        {
+          "icon": "sunrise",
+          "label": "Best Light",
+          "value": "Sunrise"
+        },
+        {
+          "icon": "path",
+          "label": "Access",
+          "value": "Hike-based"
+        },
+        {
+          "icon": "crowd",
+          "label": "Crowd Level",
+          "value": "Moderate at the famous viewpoint"
+        },
+        {
+          "icon": "guests",
+          "label": "Best For",
+          "value": "Couples comfortable with mountain exposure"
+        }
+      ]
+    },
+    "philosophy": {
+      "eyebrow": "A first note",
+      "title": "Cadini carries tension even when almost nothing is happening.",
+      "copy": "It is one of those places where lines, rock and empty space tell a story instantly. That is why it works so well for couples drawn to something raw, close and less polished."
+    },
+    "sections": {
+      "seasonOrder": [
+        "special",
+        "time",
+        "access",
+        "sunrise",
+        "helicopter",
+        "weather",
+        "safety"
+      ],
+      "seasons": {
+        "special": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-19.jpg",
+          "imageAlt": "Placeholder image for Cadini peaks",
+          "title": "Why Cadini feels cinematic",
+          "intro": "Cadini does not feel soft. It feels intense.",
+          "copy": "The rock formations, compressed viewpoint and sense of drop give this place a cinematic, almost restless energy. Couples who love it are usually drawn to exactly that tension.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "wind",
+              "label": "Mood",
+              "value": "Dramatic and graphic"
+            },
+            {
+              "icon": "guests",
+              "label": "Best For",
+              "value": "Editorial, adventurous couples"
+            },
+            {
+              "icon": "sun",
+              "label": "Visual Strength",
+              "value": "Sharp forms and open depth"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "time": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Proposel-INSTA-3.jpg",
+          "imageAlt": "Placeholder image for time of day in Cadini",
+          "title": "Best time",
+          "intro": "The best time is early, before the path and viewpoints tighten up.",
+          "copy": "Cadini feels strongest in the quieter morning hours. The light is softer, the traffic is lower and the place still holds the focused calm that usually disappears later.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "sunrise",
+              "label": "Best",
+              "value": "Sunrise"
+            },
+            {
+              "icon": "sun",
+              "label": "Also Good",
+              "value": "Very calm late evening"
+            },
+            {
+              "icon": "crowd",
+              "label": "Avoid",
+              "value": "Crowded late morning windows"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "access": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-1.jpg",
+          "imageAlt": "Toll and hiking access",
+          "title": "Access and hiking difficulty",
+          "intro": "Short does not automatically mean easy here.",
+          "copy": "The trail is manageable for many couples, but it still asks for secure footing, attention and proper shoes. Dresses, suits and accessories all change how the walk feels in practice.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "path",
+              "label": "Difficulty",
+              "value": "Moderate"
+            },
+            {
+              "icon": "guests",
+              "label": "Best For",
+              "value": "Comfortable walkers"
+            },
+            {
+              "icon": "key",
+              "label": "Needs",
+              "value": "Good shoes and steady pacing"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "sunrise": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-10.jpg",
+          "imageAlt": "Placeholder image for sunrise in Cadini",
+          "title": "Sunrise option",
+          "intro": "Sunrise gives Cadini more air and more room to breathe.",
+          "copy": "Early morning usually means more space, softer rock tones and less pressure from other people. That alone often changes the whole experience.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "sunrise",
+              "label": "Why Sunrise",
+              "value": "Soft light and fewer people"
+            },
+            {
+              "icon": "calendar",
+              "label": "Reality",
+              "value": "Needs an early, committed start"
+            },
+            {
+              "icon": "sun",
+              "label": "Worth It",
+              "value": "Very often"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "helicopter": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Proposal-Dolomites-177.jpg",
+          "imageAlt": "Placeholder image for helicopter access and remote views",
+          "title": "Helicopter option",
+          "intro": "Cadini can feel even more remote and striking from the air.",
+          "copy": "For some plans, a helicopter makes sense when you want access to more isolated perspectives or a wider regional flow. What matters is that it supports the day rather than simply adding spectacle.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "wind",
+              "label": "Best For",
+              "value": "Remote extensions and private scale"
+            },
+            {
+              "icon": "cloud",
+              "label": "Needs",
+              "value": "Weather and local partners"
+            },
+            {
+              "icon": "guests",
+              "label": "Tone",
+              "value": "Intentional, not theatrical"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "weather": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Photo-9.jpg",
+          "imageAlt": "Placeholder image for fog and wind in exposed terrain",
+          "title": "Weather notes",
+          "intro": "Cloud, wind and cold affect the experience quickly here.",
+          "copy": "Cadini is one of those places where weather changes not only the mood, but also your safety and freedom of movement. That is exactly why backup thinking matters.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "wind",
+              "label": "Main Factors",
+              "value": "Wind and visibility"
+            },
+            {
+              "icon": "cloud",
+              "label": "Best Mood",
+              "value": "Soft cloud, early light"
+            },
+            {
+              "icon": "calendar",
+              "label": "Planning Style",
+              "value": "Keep the timing flexible"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "safety": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Proposal-Dolomites-186.jpg",
+          "imageAlt": "Placeholder image for mountain safety notes",
+          "title": "Safety notes",
+          "intro": "Beauty and caution sit very close together here.",
+          "copy": "On narrower sections and popular viewpoints, calm decisions matter. Cadini is at its best when you move with the place instead of trying to overpower it.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "path",
+              "label": "Most Important",
+              "value": "Calm pacing"
+            },
+            {
+              "icon": "key",
+              "label": "Bring",
+              "value": "Proper shoes and layers"
+            },
+            {
+              "icon": "guests",
+              "label": "Best Practice",
+              "value": "Treat the terrain with respect"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        }
+      }
+    },
+    "planning": {
+      "eyebrow": "Planning Notes",
+      "title": "What Cadini usually asks for, and what it gives back.",
+      "intro": "Cadini is not complicated, but it does ask for presence. Couples who bring that usually find one of the most unforgettable landscapes in the Dolomites.",
+      "items": [
+        {
+          "label": "Safety",
+          "title": "Good timing is a safety choice here as well.",
+          "copy": "Less traffic in the morning often means more calm both on the trail and in the photos.",
+          "meta": "Quieter paths lower the pressure."
+        },
+        {
+          "label": "Clothing",
+          "title": "Shoes and layers matter here more than people expect.",
+          "copy": "Cadini looks elegant in pictures, but it can feel cold and windy very quickly.",
+          "meta": "Practical and beautiful need to work together."
+        },
+        {
+          "label": "Weather",
+          "title": "A backup plan here is a sign of experience, not doubt.",
+          "copy": "If wind or cloud closes the place down, flexibility is often the stronger decision.",
+          "meta": "Not every morning belongs to this ridge."
+        },
+        {
+          "label": "Feeling",
+          "title": "Cadini does not fit every kind of day, and that is part of its strength.",
+          "copy": "If you want something wild, dramatic and immediate, it can be extraordinary.",
+          "meta": "Mood matters more than convenience."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Questions couples often ask about Cadini.",
+      "intro": "Cadini looks simple in photographs. On the ground, the real questions are usually about safety, timing, wind and whether this level of intensity actually fits you.",
+      "items": [
+        {
+          "q": "Is Cadini difficult to reach?",
+          "a": "The walk is short, but not casual. Good shoes, calm pacing and attention matter. With a dress, suit or extra gear, it often feels more demanding than people first expect."
+        },
+        {
+          "q": "Is sunrise worth it here?",
+          "a": "Almost always. Early morning usually means more space, softer light and a much more concentrated feeling in the rock formations. Later, the place often feels tighter and more public."
+        },
+        {
+          "q": "Is Cadini safe for a wedding day?",
+          "a": "Yes, if you take the place seriously. It does not ask for panic, but it does ask for calm, good timing and clear decisions. Especially at popular viewpoints, it helps to move with the location rather than against it."
+        },
+        {
+          "q": "Can a helicopter be part of the experience?",
+          "a": "Yes, when it supports the structure of the day. For some plans it opens more space or connects several places well. It should make the day easier, not simply look bigger."
+        }
+      ]
+    },
+    "related": {
+      "eyebrow": "Related Guides",
+      "hint": "Swipe left or right to explore more guides.",
+      "items": [
+        {
+          "label": "Dolomites",
+          "title": "Dolomites Elopement Guide",
+          "copy": "A calm starting point for couples planning a Dolomites Elopement or intimate mountain wedding and wanting to understand how light, access, weather and crowds truly shape the day.",
+          "href": "/guides/dolomites-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-120.jpg",
+          "imageAlt": "Couple during a Dolomites elopement in soft morning light",
+          "alt": "Couple during a Dolomites elopement in soft morning light"
+        },
+        {
+          "label": "Locations",
+          "title": "The most popular elopement locations in the Dolomites",
+          "copy": "A curated guide for couples who are not looking for just any beautiful view, but for the place whose atmosphere truly fits the day they want.",
+          "href": "/guides/best-dolomites-elopement-locations/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-191.jpg",
+          "imageAlt": "Elopement locations in the Dolomites",
+          "alt": "Elopement locations in the Dolomites"
+        },
+        {
+          "label": "Locations",
+          "title": "Lago di Braies Guide",
+          "copy": "An honest guide for couples who know Lago di Braies as more than a famous photograph and want to understand when it feels soft, quiet and truly worth experiencing.",
+          "href": "/guides/lago-di-braies-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopemnt-Dolomites-Lago-di-Braies-19.jpg",
+          "imageAlt": "Lago di Braies with still water and early light",
+          "alt": "Lago di Braies with still water and early light"
+        },
+        {
+          "label": "Locations",
+          "title": "Seceda Guide",
+          "copy": "A guide for couples drawn to Seceda not only for the famous ridge, but for the feeling of openness, wind and high alpine light that makes it so distinctive.",
+          "href": "/guides/seceda-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Seceda-180.jpg",
+          "imageAlt": "Seceda in clear mountain light",
+          "alt": "Seceda in clear mountain light"
+        },
+        {
+          "label": "Locations",
+          "title": "Tre Cime Wedding Guide",
+          "copy": "An honest guide for couples choosing Tre Cime not only for the famous view, but for the monumental, almost unreal presence the place carries when the timing is right.",
+          "href": "/guides/tre-cime-wedding-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14.jpg",
+          "imageAlt": "Tre Cime in clear mountain light",
+          "alt": "Tre Cime in clear mountain light"
+        },
+        {
+          "label": "Planning",
+          "title": "Best Time for a Dolomites Elopement",
+          "copy": "An honest guide to light, temperatures, crowds and the question of when the mountains will not only look beautiful, but genuinely feel right for you.",
+          "href": "/guides/best-time-for-a-dolomites-elopement/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-16.jpg",
+          "imageAlt": "Existing image for best time in the Dolomites",
+          "alt": "Existing image for best time in the Dolomites"
+        },
+        {
+          "label": "Planning",
+          "title": "Sunrise vs Sunset in the Dolomites",
+          "copy": "An honest comparison for couples who want more than beautiful light and are trying to understand which time of day fits their energy, their location and the feeling they want to remember.",
+          "href": "/guides/sunrise-vs-sunset-dolomites/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Photo-368.jpg",
+          "imageAlt": "Mountain light at sunrise or sunset",
+          "alt": "Mountain light at sunrise or sunset"
+        },
+        {
+          "label": "Planning",
+          "title": "Weather & Backup Planning Guide",
+          "copy": "A calm weather guide for couples who do not want to hope for perfect conditions in the mountains, but want to build a day that still feels right in fog, wind or rain.",
+          "href": "/guides/weather-and-backup-planning/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-161.jpg",
+          "imageAlt": "Weather in the Dolomites with clouds and fog",
+          "alt": "Weather in the Dolomites with clouds and fog"
+        },
+        {
+          "label": "Planning",
+          "title": "What to Wear in the Mountains",
+          "copy": "A practical guide for couples who want to look beautiful in the mountains, but also move freely, stay warm and still feel like themselves in what they wear.",
+          "href": "/guides/what-to-wear-in-the-mountains/",
+          "image": "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Hut-13.jpg",
+          "imageAlt": "Outfit ideas for a mountain elopement",
+          "alt": "Outfit ideas for a mountain elopement"
+        },
+        {
+          "label": "Planning",
+          "title": "Helicopter Elopement Guide",
+          "copy": "A guide for couples seeking more space, privacy and a clearer flow to the day, and wanting to understand when a helicopter in the mountains genuinely makes sense.",
+          "href": "/guides/helicopter-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-12.jpg",
+          "imageAlt": "Helicopter flight above the mountains for an elopement",
+          "alt": "Helicopter flight above the mountains for an elopement"
+        },
+        {
+          "label": "Planning",
+          "title": "Multi-Day Elopement Guide",
+          "copy": "A guide for couples who want more than a few rushed hours in the mountains and would rather let the day unfold with space around it.",
+          "href": "/guides/multi-day-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Insta-11.jpg",
+          "imageAlt": "Multi-day elopement in the Dolomites",
+          "alt": "Multi-day elopement in the Dolomites"
+        }
+      ]
+    },
+    "final": {
+      "eyebrow": "Planned with intention",
+      "title": "Let’s shape something that feels quiet, personal and deeply true to you.",
+      "copy": "If this guide already feels close to the way you want the day to move, I would love to help you turn that feeling into something calm, cinematic and genuinely your own in the mountains.",
+      "cta": "Inquire now",
+      "image": "/assets/uploads/Blitzkneisser-Photo-Drei-Zinnen-Italy-24.jpg",
+      "imageAlt": "Tre Cime in the Dolomites in calm, clear light"
+    }
+  }
+}

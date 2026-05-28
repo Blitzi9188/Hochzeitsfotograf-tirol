@@ -1,0 +1,910 @@
+{
+  "de": {
+    "slug": "multi-day-elopement-guide",
+    "title": "Mehrtägiger Elopement-Guide | Mehr Zeit, mehr Ruhe, mehr Geschichte",
+    "description": "Guide für mehrtägige Elopements in den Dolomiten mit Hütten, Sonnenaufgängen, langsamerem Tagesfluss und ehrlichen Hinweisen dazu, wann mehr Zeit wirklich sinnvoll ist.",
+    "hero": {
+      "eyebrow": "Planungs-Guide",
+      "title": "Mehrtägiger Elopement-Guide",
+      "copy": "Ein Guide für Paare, die mehr wollen als ein paar schnelle Stunden in den Bergen und ihren Hochzeitstag lieber in Ruhe entfalten lassen möchten.",
+      "cta": "Planung starten",
+      "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Insta-11.jpg",
+      "imageAlt": "Mehrtägiges Elopement in den Dolomiten"
+    },
+    "utility": {
+      "reading": "Guide",
+      "focus": "Für Paare, die mehr Zeit wünschen, als ein einziger Tag bietet",
+      "navOverview": "Überblick",
+      "navSeasons": "Ablauf",
+      "navPhilosophy": "Einführung",
+      "navVisual": "Weitere Guides",
+      "navFaq": "FAQ"
+    },
+    "overview": {
+      "eyebrow": "Guide im Überblick",
+      "copy": "Ein mehrtägiges Elopement nimmt Druck aus dem Tag. Wege müssen nicht gehetzt werden, Wetter bekommt mehr Spielraum und emotionale Momente verteilen sich natürlicher über mehrere Kapitel.",
+      "items": [
+        {
+          "icon": "guests",
+          "label": "Ideal für",
+          "value": "Paare, die Tiefe und Raum wünschen"
+        },
+        {
+          "icon": "sunrise",
+          "label": "Starkes Add-On",
+          "value": "Sonnenaufgangs- und Rifugio-Aufenthalte"
+        },
+        {
+          "icon": "cloud",
+          "label": "Wettervorteil",
+          "value": "Mehr Flexibilität"
+        },
+        {
+          "icon": "wind",
+          "label": "Stimmung",
+          "value": "Langsam, filmisch, zutiefst persönlich"
+        },
+        {
+          "icon": "path",
+          "label": "Kann einschließen",
+          "value": "Helikopter- oder Wanderelemente"
+        }
+      ]
+    },
+    "philosophy": {
+      "eyebrow": "Eine erste Orientierung",
+      "title": "Manche Geschichten brauchen nicht mehr Aufwand, sondern mehr Zeit.",
+      "copy": "Wenn ihr nicht alles in einen einzigen Morgen oder Abend pressen müsst, entsteht oft etwas viel Ehrlicheres: mehr Ankommen, mehr Atem und mehr Raum für das, was unterwegs tatsächlich passiert."
+    },
+    "sections": {
+      "seasonOrder": [
+        "why",
+        "dayone",
+        "daytwo",
+        "hiking",
+        "rifugio",
+        "helicopter",
+        "bestfor"
+      ],
+      "seasons": {
+        "why": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Photo-292.jpg",
+          "imageAlt": "Platzhalterbild für ein mehrtägiges Bergerlebnis",
+          "eyebrow": "",
+          "title": "Warum ein mehrtägiges Erlebnis wählen?",
+          "intro": "Manche Hochzeitsgeschichten brauchen einfach mehr als ein Wetterfenster und ein emotionales Tempo.",
+          "copy": "Ein mehrtägiges Dolomiten-Elopement gibt euch Raum für verschiedene Arten von Licht, langsamere Übergänge und mehr ehrliche Energie. Es kann eine ruhige Ankunft, einen warmen Abend, einen Sonnenaufgang, eine Wanderung und eine Zeremonie beinhalten, ohne sie in einen Atemzug zu zwingen.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "guests",
+              "label": "Ideal für",
+              "value": "Paare, die mehr Wert auf Platz als auf Komprimierung legen"
+            },
+            {
+              "icon": "wind",
+              "label": "Hauptvorteil",
+              "value": "Mehr Atmosphäre, weniger Hektik"
+            },
+            {
+              "icon": "calendar",
+              "label": "Oft inklusive",
+              "value": "Reisen, Übernachten, verschiedene Orte"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "dayone": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-232.jpg",
+          "imageAlt": "Platzhalterbild für den ersten Tag eines mehrtägigen Elopements",
+          "eyebrow": "",
+          "title": "Beispiel für Tag 1",
+          "intro": "Der erste Tag eignet sich oft besser als Ankunfts- und nicht als Höhepunkt.",
+          "copy": "Ein entspannter Reisetag, ein ruhiger Abendspaziergang, Zeit zum Entspannen und vielleicht ein Abendessen oder eine warme Porträtsitzung können das ganze Erlebnis abmildern. Der erste Tag muss nicht dramatisch sein, um von großer Bedeutung zu sein.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "sun",
+              "label": "Beste Stimmung",
+              "value": "Ankunft und sanfte Verbindung"
+            },
+            {
+              "icon": "calendar",
+              "label": "Nützlich für",
+              "value": "Reisen, Ruhe, Abendporträts"
+            },
+            {
+              "icon": "guests",
+              "label": "Warum",
+              "value": "Es nimmt den Druck vom Zeremonietag"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "daytwo": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Instagram-160.jpg",
+          "imageAlt": "Platzhalterbild für den Sonnenaufgang am zweiten Tag",
+          "eyebrow": "",
+          "title": "Beispiel für Tag 2",
+          "intro": "Der zweite Tag kann das stärkste Licht halten, weil der Körper bereits da ist.",
+          "copy": "Dies kann der zeremonielle Sonnenaufgang, ein privater Gelübdeaustausch, eine Wanderung oder die Hauptpaarsitzung sein. Da ihr nicht mehr zum ersten Mal ankommt, fühlt sich der ganze Tag meist geerdeter und weniger hektisch an.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "sunrise",
+              "label": "Beste Stimmung",
+              "value": "Absichtlich und geräumig"
+            },
+            {
+              "icon": "guests",
+              "label": "Nützlich für",
+              "value": "Sonnenaufgangszeremonie oder Hauptporträts"
+            },
+            {
+              "icon": "wind",
+              "label": "Warum",
+              "value": "sie sind bereits emotional beruhigt"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "hiking": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-15.jpg",
+          "imageAlt": "Platzhalterbild für eine Elopement-Wanderroute",
+          "eyebrow": "",
+          "title": "Elopement-Option zum Wandern",
+          "intro": "Durch eine mehrtägige Struktur fühlt sich das Wandern realistischer und weniger komprimiert an.",
+          "copy": "Wenn Wandern Teil der Geschichte ist, verändert mehr Zeit alles. Der Weg kann Teil der Atmosphäre werden, anstatt ein überstürzter Übergang zwischen Orten zu sein.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "path",
+              "label": "Ideal für",
+              "value": "Paare, die Bewegung lieben"
+            },
+            {
+              "icon": "guests",
+              "label": "Hauptvorteil",
+              "value": "Weniger Tempodruck"
+            },
+            {
+              "icon": "wind",
+              "label": "Stimmung",
+              "value": "Abenteuer ohne Eile"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "rifugio": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Hut-198.jpg",
+          "imageAlt": "Platzhalterbild für einen Rifugio-Aufenthalt",
+          "eyebrow": "",
+          "title": "Rifugio-Aufenthalt",
+          "intro": "Ein Aufenthalt in einer Berghütte kann das Erlebnis ruhiger und intensiver machen.",
+          "copy": "Näher an der Landschaft zu schlafen verändert den Beginn des nächsten Morgens. Anstatt von unten nach oben zu fahren, beginnt der Tag bereits in den Bergen, was den emotionalen Ton auf sehr schöne Weise verschieben kann.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "path",
+              "label": "Ideal für",
+              "value": "Fesselndes Berggefühl"
+            },
+            {
+              "icon": "wind",
+              "label": "Stimmung",
+              "value": "Ruhig, geschützt, stimmungsvoll"
+            },
+            {
+              "icon": "sunrise",
+              "label": "Nützlich für",
+              "value": "Sonnenaufgang ohne lange Transfers"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "helicopter": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Weihnachts-Shooting-278.jpg",
+          "imageAlt": "Platzhalterbild für Helikopter-Add-on",
+          "eyebrow": "",
+          "title": "Helikopter-Add-on",
+          "intro": "Wenn ein Helikopter natürlich irgendwohin gehört, dann oft innerhalb eines mehrtägigen Erlebnisses.",
+          "copy": "Mehr Zeit gibt dem Flug Raum, sich integriert und nicht abrupt zu fühlen. Es kann zu einem Kapitel in einer längeren Berggeschichte werden, anstatt zu versuchen, die ganze Last des Tages allein zu tragen.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "wind",
+              "label": "Ideal für",
+              "value": "Ein abgelegenes Kapitel einer umfassenderen Erfahrung"
+            },
+            {
+              "icon": "cloud",
+              "label": "Bedürfnisse",
+              "value": "Wetterflexibilität"
+            },
+            {
+              "icon": "calendar",
+              "label": "Ton",
+              "value": "Integriert, nicht isoliert"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "bestfor": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Photo-237.jpg",
+          "imageAlt": "Platzhalterbild für Paare, die mehr als nur ein Fotoshooting wünschen",
+          "eyebrow": "",
+          "title": "Ideal für Paare, die mehr als nur ein Fotoshooting wollen",
+          "intro": "Bei diesem Format geht es oft mehr um Tiefe als um Volumen.",
+          "copy": "Ein mehrtägiges Erlebnis ist am stärksten für Paare, die die Berge spüren und nicht nur sehen möchten. Es schafft Raum für Kontakte, Wetter, Reisen, Ruhe und die Art von Ruhe, die nicht in einem einzigen Tag zusammengefasst werden kann.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "guests",
+              "label": "Ideal für",
+              "value": "Tiefe und emotionaler Rhythmus"
+            },
+            {
+              "icon": "key",
+              "label": "Nicht ungefähr",
+              "value": "Mehr tun, um mehr zu erreichen"
+            },
+            {
+              "icon": "wind",
+              "label": "Am nützlichsten für",
+              "value": "Paare, die dem Tag Luft zum Atmen wünschen"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        }
+      }
+    },
+    "planning": {
+      "eyebrow": "Planungsnotizen",
+      "title": "Was bei einer mehrtägigen Struktur normalerweise am wichtigsten ist.",
+      "intro": "Mehr Zeit bedeutet nicht, alles hinzuzufügen. Es bedeutet, einen Rhythmus zu wählen, der tatsächlich das Wesentliche aufnehmen kann.",
+      "items": [
+        {
+          "label": "Tempo",
+          "title": "Behaltet jeden Tag ein langsames Kapitel.",
+          "copy": "Die Schönheit mehrtägiger Erlebnisse liegt im Raum und nicht allein in der Aktivität.",
+          "meta": "Raum ist Teil des Designs."
+        },
+        {
+          "label": "Wetter",
+          "title": "Nutzt die zusätzliche Zeit, um Flexibilität zu schaffen.",
+          "copy": "Ein breiterer Zeitplan sorgt für eine sanftere Reaktion, wenn sich die Bedingungen ändern.",
+          "meta": "Zeit ist eines der besten Backups."
+        },
+        {
+          "label": "Ausruhen",
+          "title": "Unterschätzen ihr nicht den Schlaf- und Reisekomfort.",
+          "copy": "Gute Erholung verändert die emotionale Textur jedes Sonnenaufgangs und jeder Wanderung.",
+          "meta": "Energie prägt Präsenz."
+        },
+        {
+          "label": "Geschichte",
+          "title": "Lasst jeden Tag eine andere Rolle spielen.",
+          "copy": "Ankunft, Zeremonie, Wanderung, Porträtzeit und private Ruhe müssen nicht alles auf einmal passieren.",
+          "meta": "Eine Geschichte, mehrere Kapitel."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Fragen, die Paare oft zu mehrtägigen Elopements stellen.",
+      "intro": "Mehrtägige Erlebnisse klingen aufwendig. In Wirklichkeit nehmen sie oft Druck heraus. Genau darum kreisen die meisten Fragen.",
+      "items": [
+        {
+          "q": "Warum mehr als einen Tag wählen?",
+          "a": "Weil nicht alles in einen einzigen Sonnenaufgang oder Abend gepresst werden muss. Mehr Zeit bedeutet oft mehr Luft für Wetter, mehr Ankommen und eine viel ruhigere emotionale Entwicklung."
+        },
+        {
+          "q": "Passt Wandern besser in ein mehrtägiges Format?",
+          "a": "Meist ja. Wenn ein Tag nur für Bewegung, Aussicht oder einen Rifugio-Weg da ist, fühlt sich das Ganze freier an als wenn alles gleichzeitig stattfinden soll."
+        },
+        {
+          "q": "Lohnt sich ein Rifugio-Aufenthalt?",
+          "a": "Sehr oft. Er verändert die Nacht, die Geräusche, das erste Licht und das gesamte Gefühl des Morgens. Für viele Paare entsteht genau dort die besondere Tiefe eines mehrtägigen Elopements."
+        },
+        {
+          "q": "Können wir einem mehrtägigen Erlebnis einen Helikopter hinzufügen?",
+          "a": "Ja, wenn er sinnvoll eingebettet ist. In einem mehrtägigen Ablauf wirkt ein Helikopter oft am stärksten, wenn er nur ein Kapitel ist und nicht die ganze Geschichte tragen muss."
+        }
+      ]
+    },
+    "related": {
+      "eyebrow": "Verwandte Leitfäden",
+      "hint": "Wischt nach links oder rechts, um weitere Guides zu sehen.",
+      "items": [
+        {
+          "label": "Dolomiten",
+          "title": "Elopement-Guide für die Dolomiten",
+          "copy": "Ein ruhiger Ausgangspunkt für Paare, die ein Dolomites Elopement oder eine intime Berghochzeit planen und verstehen möchten, wie Licht, Wege, Wetter und Menschenmengen den Tag wirklich prägen.",
+          "href": "/guides/dolomites-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-120.jpg",
+          "imageAlt": "Paar bei einem Dolomiten-Elopement im weichen Morgenlicht",
+          "alt": "Paar bei einem Dolomiten-Elopement im weichen Morgenlicht"
+        },
+        {
+          "label": "Standorte",
+          "title": "Die beliebtesten Elopement-Orte in den Dolomiten",
+          "copy": "Ein kuratierter Guide für Paare, die nicht einfach irgendeine schöne Aussicht suchen, sondern den Ort, dessen Stimmung wirklich zu ihrem Tag passt.",
+          "href": "/guides/best-dolomites-elopement-locations/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-191.jpg",
+          "imageAlt": "Elopement-Standorte in den Dolomiten",
+          "alt": "Elopement-Standorte in den Dolomiten"
+        },
+        {
+          "label": "Standorte",
+          "title": "Lago di Braies Guide",
+          "copy": "Ein ehrlicher Guide für Paare, die den Pragser Wildsee nicht nur als berühmtes Bild kennen, sondern verstehen möchten, wann er still, weich und tatsächlich erlebbar wird.",
+          "href": "/guides/lago-di-braies-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopemnt-Dolomites-Lago-di-Braies-19.jpg",
+          "imageAlt": "Lago di Braies mit ruhigem Wasser und frühem Licht",
+          "alt": "Lago di Braies mit ruhigem Wasser und frühem Licht"
+        },
+        {
+          "label": "Standorte",
+          "title": "Seceda Guide",
+          "copy": "Ein Guide für Paare, die an Seceda nicht nur die berühmte Kante suchen, sondern das Gefühl von Weite, Wind und offenem Berglicht, das diesen Ort so unverwechselbar macht.",
+          "href": "/guides/seceda-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Seceda-180.jpg",
+          "imageAlt": "Seceda bei klarem Berglicht",
+          "alt": "Seceda bei klarem Berglicht"
+        },
+        {
+          "label": "Standorte",
+          "title": "Cadini di Misurina Guide",
+          "copy": "Ein Guide für Paare, die an Cadini diese wilde, kinoreife Spannung lieben und zugleich wissen möchten, wann der Ort zugänglich, sicher und wirklich stimmig ist.",
+          "href": "/guides/cadini-di-misurina-guide/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-12.jpg",
+          "imageAlt": "Cadini di Misurina mit markanten Felsformen",
+          "alt": "Cadini di Misurina mit markanten Felsformen"
+        },
+        {
+          "label": "Standorte",
+          "title": "Drei Zinnen Guide",
+          "copy": "Ein ehrlicher Guide für Paare, die Drei Zinnen nicht nur wegen des berühmten Blicks wählen, sondern wegen dieser monumentalen, fast unwirklichen Präsenz, die der Ort im richtigen Moment entfaltet.",
+          "href": "/guides/tre-cime-wedding-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14.jpg",
+          "imageAlt": "Drei Zinnen bei klarem Berglicht",
+          "alt": "Drei Zinnen bei klarem Berglicht"
+        },
+        {
+          "label": "Planung",
+          "title": "Beste Jahreszeit für ein Dolomiten-Elopement",
+          "copy": "Ein ehrlicher Guide zu Licht, Temperaturen, Menschenmengen und der Frage, wann sich die Berge nicht nur schön, sondern wirklich stimmig für euch anfühlen.",
+          "href": "/guides/best-time-for-a-dolomites-elopement/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-16.jpg",
+          "imageAlt": "Vorhandenes Bild zur schönsten Zeit in den Dolomiten",
+          "alt": "Vorhandenes Bild zur schönsten Zeit in den Dolomiten"
+        },
+        {
+          "label": "Planung",
+          "title": "Sonnenaufgang vs. Sonnenuntergang in den Dolomiten",
+          "copy": "Ein ehrlicher Vergleich für Paare, die nicht nur schönes Licht suchen, sondern verstehen möchten, welche Tageszeit zu ihrem Energielevel, ihrem Ort und dem gewünschten Gefühl passt.",
+          "href": "/guides/sunrise-vs-sunset-dolomites/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Photo-368.jpg",
+          "imageAlt": "Lichtstimmung in den Bergen bei Sonnenaufgang oder Sonnenuntergang",
+          "alt": "Lichtstimmung in den Bergen bei Sonnenaufgang oder Sonnenuntergang"
+        },
+        {
+          "label": "Planung",
+          "title": "Guide zur Wetter- und Backup-Planung",
+          "copy": "Ein ruhiger Wetter-Guide für Paare, die in den Bergen nicht auf perfekte Bedingungen hoffen, sondern einen Tag planen möchten, der auch bei Nebel, Wind oder Regen stimmig bleibt.",
+          "href": "/guides/weather-and-backup-planning/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-161.jpg",
+          "imageAlt": "Wetterstimmung in den Dolomiten mit Wolken und Nebel",
+          "alt": "Wetterstimmung in den Dolomiten mit Wolken und Nebel"
+        },
+        {
+          "label": "Planung",
+          "title": "Was man in den Bergen anziehen sollte",
+          "copy": "Ein praktischer Guide für Paare, die in den Bergen nicht nur schön aussehen, sondern sich auch frei bewegen, warm bleiben und sich in ihrer Kleidung wirklich wiederfinden möchten.",
+          "href": "/guides/what-to-wear-in-the-mountains/",
+          "image": "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Hut-13.jpg",
+          "imageAlt": "Kleidung für ein Elopement in den Bergen",
+          "alt": "Kleidung für ein Elopement in den Bergen"
+        },
+        {
+          "label": "Planung",
+          "title": "Helikopter-Elopement-Guide",
+          "copy": "Ein Guide für Paare, die Weite, Abgeschiedenheit und einen klareren Tagesfluss suchen und verstehen möchten, wann ein Helikopter in den Bergen wirklich sinnvoll ist.",
+          "href": "/guides/helicopter-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-12.jpg",
+          "imageAlt": "Helikopterflug über den Bergen für ein Elopement",
+          "alt": "Helikopterflug über den Bergen für ein Elopement"
+        }
+      ]
+    },
+    "final": {
+      "eyebrow": "Ruhig geplant",
+      "title": "Lasst uns etwas gestalten, das sich ruhig, persönlich und zutiefst wahr anfühlt.",
+      "copy": "Wenn sich dieser Guide bereits nah an dem anfühlt, was ihr euch wünscht, helfe ich euch gern dabei, dieses Gefühl in etwas Ruhiges, Filmisches und wirklich Eigenes in den Bergen zu verwandeln.",
+      "cta": "Termin anfragen",
+      "image": "/assets/uploads/Blitzkneisser-Photo-Drei-Zinnen-Italy-24.jpg",
+      "imageAlt": "Drei Zinnen in den Dolomiten bei ruhigem, klarem Licht"
+    }
+  },
+  "en": {
+    "slug": "multi-day-elopement-guide",
+    "title": "Multi-Day Elopement Guide | More Time, More Quiet, More Story",
+    "description": "A guide to multi-day elopements in the Dolomites, with rifugios, sunrise moments, slower pacing and honest notes on when extra time truly matters.",
+    "hero": {
+      "eyebrow": "Planning Guide",
+      "title": "Multi-Day Elopement Guide",
+      "copy": "A guide for couples who want more than a few rushed hours in the mountains and would rather let the day unfold with space around it.",
+      "cta": "Start planning",
+      "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Insta-11.jpg",
+      "imageAlt": "Multi-day elopement in the Dolomites"
+    },
+    "utility": {
+      "reading": "Guide",
+      "focus": "For couples wanting more time than a single day can hold",
+      "navOverview": "Overview",
+      "navSeasons": "Flow",
+      "navPhilosophy": "Intro",
+      "navVisual": "More guides",
+      "navFaq": "FAQ"
+    },
+    "overview": {
+      "eyebrow": "Guide Overview",
+      "copy": "A multi-day elopement takes pressure out of the experience. There is more room for weather shifts, for slower movement and for emotional moments to unfold in separate chapters rather than all at once.",
+      "items": [
+        {
+          "icon": "guests",
+          "label": "Best For",
+          "value": "Couples wanting depth and space"
+        },
+        {
+          "icon": "sunrise",
+          "label": "Strong Add-On",
+          "value": "Sunrise and rifugio stays"
+        },
+        {
+          "icon": "cloud",
+          "label": "Weather Benefit",
+          "value": "More flexibility"
+        },
+        {
+          "icon": "wind",
+          "label": "Mood",
+          "value": "Slow, cinematic, deeply personal"
+        },
+        {
+          "icon": "path",
+          "label": "Can Include",
+          "value": "Helicopter or hike elements"
+        }
+      ]
+    },
+    "philosophy": {
+      "eyebrow": "A first note",
+      "title": "Some stories do not need more production. They simply need more time.",
+      "copy": "When everything does not have to fit into one sunrise or one evening, something usually becomes much more honest: more arrival, more breath and more space for what actually happens along the way."
+    },
+    "sections": {
+      "seasonOrder": [
+        "why",
+        "dayone",
+        "daytwo",
+        "hiking",
+        "rifugio",
+        "helicopter",
+        "bestfor"
+      ],
+      "seasons": {
+        "why": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Photo-292.jpg",
+          "imageAlt": "Placeholder image for a multi-day mountain experience",
+          "eyebrow": "",
+          "title": "Why choose a multi-day experience",
+          "intro": "Some wedding stories simply need more than one weather window and one emotional pace.",
+          "copy": "A multi-day Dolomites Elopement gives you room for different kinds of light, slower transitions and more honest energy. It can hold a quiet arrival, a warm evening, a sunrise, a hike and a ceremony without forcing them into the same breath.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "guests",
+              "label": "Best For",
+              "value": "Couples who value space over compression"
+            },
+            {
+              "icon": "wind",
+              "label": "Main Benefit",
+              "value": "More atmosphere, less rush"
+            },
+            {
+              "icon": "calendar",
+              "label": "Often Includes",
+              "value": "Travel, staying overnight, different locations"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "dayone": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-232.jpg",
+          "imageAlt": "Placeholder image for day one of a multi-day elopement",
+          "eyebrow": "",
+          "title": "Day 1 example",
+          "intro": "The first day often works best as arrival rather than peak moment.",
+          "copy": "A gentle travel day, a quiet evening walk, time to settle and perhaps a dinner or warm portrait session can soften the whole experience. Day one does not need to be the dramatic one to matter deeply.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "sun",
+              "label": "Best Mood",
+              "value": "Arrival and soft connection"
+            },
+            {
+              "icon": "calendar",
+              "label": "Useful For",
+              "value": "Travel, rest, evening portraits"
+            },
+            {
+              "icon": "guests",
+              "label": "Why",
+              "value": "It removes pressure from the ceremony day"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "daytwo": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Instagram-160.jpg",
+          "imageAlt": "Placeholder image for sunrise on day two",
+          "eyebrow": "",
+          "title": "Day 2 example",
+          "intro": "The second day can hold the strongest light because the body is already there.",
+          "copy": "This might be the ceremony sunrise, a private vow exchange, a hike or the main couple session. Because you are no longer arriving for the first time, the whole day usually feels more grounded and less hurried.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "sunrise",
+              "label": "Best Mood",
+              "value": "Intentional and spacious"
+            },
+            {
+              "icon": "guests",
+              "label": "Useful For",
+              "value": "Sunrise ceremony or main portraits"
+            },
+            {
+              "icon": "wind",
+              "label": "Why",
+              "value": "You are already emotionally settled"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "hiking": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-15.jpg",
+          "imageAlt": "Placeholder image for a hiking elopement route",
+          "eyebrow": "",
+          "title": "Hiking elopement option",
+          "intro": "A multi-day structure makes hiking feel more realistic and less compressed.",
+          "copy": "When hiking is part of the story, more time changes everything. The path can become part of the atmosphere instead of a rushed transition between locations.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "path",
+              "label": "Best For",
+              "value": "Couples who love movement"
+            },
+            {
+              "icon": "guests",
+              "label": "Main Benefit",
+              "value": "Less pressure on pace"
+            },
+            {
+              "icon": "wind",
+              "label": "Mood",
+              "value": "Adventure without hurry"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "rifugio": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Hut-198.jpg",
+          "imageAlt": "Placeholder image for a rifugio stay",
+          "eyebrow": "",
+          "title": "Rifugio stay",
+          "intro": "A mountain hut stay can make the experience feel quieter and more immersive.",
+          "copy": "Sleeping closer to the landscape changes how the next morning begins. Instead of driving up from below, the day starts already inside the mountains, which can shift the emotional tone in a very beautiful way.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "path",
+              "label": "Best For",
+              "value": "Immersive mountain feeling"
+            },
+            {
+              "icon": "wind",
+              "label": "Mood",
+              "value": "Quiet, sheltered, atmospheric"
+            },
+            {
+              "icon": "sunrise",
+              "label": "Useful For",
+              "value": "Sunrise without long transfers"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "helicopter": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Weihnachts-Shooting-278.jpg",
+          "imageAlt": "Placeholder image for helicopter add-on",
+          "eyebrow": "",
+          "title": "Helicopter add-on",
+          "intro": "If a helicopter belongs anywhere naturally, it is often inside a multi-day experience.",
+          "copy": "More time gives the flight space to feel integrated rather than abrupt. It can become one chapter in a longer mountain story instead of trying to carry the whole weight of the day by itself.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "wind",
+              "label": "Best For",
+              "value": "One remote chapter of a wider experience"
+            },
+            {
+              "icon": "cloud",
+              "label": "Needs",
+              "value": "Weather flexibility"
+            },
+            {
+              "icon": "calendar",
+              "label": "Tone",
+              "value": "Integrated, not isolated"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "bestfor": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Photo-237.jpg",
+          "imageAlt": "Placeholder image for couples wanting more than a photoshoot",
+          "eyebrow": "",
+          "title": "Best for couples who want more than a photoshoot",
+          "intro": "This format is often about depth more than about volume.",
+          "copy": "A multi-day experience is strongest for couples who want to feel the mountains, not only see them. It creates room for connection, weather, travel, rest and the kind of quiet that cannot be rushed into a single day.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "guests",
+              "label": "Best For",
+              "value": "Depth and emotional rhythm"
+            },
+            {
+              "icon": "key",
+              "label": "Not About",
+              "value": "Doing more for the sake of more"
+            },
+            {
+              "icon": "wind",
+              "label": "Most Useful For",
+              "value": "Couples who want the day to breathe"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        }
+      }
+    },
+    "planning": {
+      "eyebrow": "Planning Notes",
+      "title": "What usually matters most in a multi-day structure.",
+      "intro": "More time does not mean adding everything. It means choosing a rhythm that can actually hold what matters.",
+      "items": [
+        {
+          "label": "Pacing",
+          "title": "Protect one slow chapter in each day.",
+          "copy": "The beauty of multi-day experiences comes from room, not activity alone.",
+          "meta": "Space is part of the design."
+        },
+        {
+          "label": "Weather",
+          "title": "Use the extra time to create flexibility.",
+          "copy": "A wider schedule gives you a gentler response when conditions shift.",
+          "meta": "Time is one of the best backups."
+        },
+        {
+          "label": "Rest",
+          "title": "Do not underestimate sleep and travel ease.",
+          "copy": "Good rest changes the emotional texture of every sunrise and every hike.",
+          "meta": "Energy shapes presence."
+        },
+        {
+          "label": "Story",
+          "title": "Let each day have a different role.",
+          "copy": "Arrival, ceremony, hike, portrait time and private quiet do not all need to happen at once.",
+          "meta": "One story, several chapters."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Questions couples often ask about multi-day elopements.",
+      "intro": "Multi-day experiences can sound more complicated. In reality, they often remove pressure. That is what most of these questions are really about.",
+      "items": [
+        {
+          "q": "Why choose more than one day?",
+          "a": "Because everything does not have to be compressed into one sunrise or one evening. More time usually means more room for weather, more emotional arrival and a gentler pace overall."
+        },
+        {
+          "q": "Does hiking fit better into a multi-day format?",
+          "a": "Usually yes. When one day is allowed to hold movement, distance or a hut stay on its own, the whole experience feels much more open."
+        },
+        {
+          "q": "Is a rifugio stay worth it?",
+          "a": "Very often. It changes the night, the soundscape, the first light and the whole texture of the morning. For many couples, that is where the deeper feeling of a multi-day elopement begins."
+        },
+        {
+          "q": "Can we add a helicopter to a multi-day experience?",
+          "a": "Yes, if it belongs naturally in the flow. In a multi-day structure, a helicopter often works best as one chapter rather than carrying the whole story."
+        }
+      ]
+    },
+    "related": {
+      "eyebrow": "Related Guides",
+      "hint": "Swipe left or right to explore more guides.",
+      "items": [
+        {
+          "label": "Dolomites",
+          "title": "Dolomites Elopement Guide",
+          "copy": "A calm starting point for couples planning a Dolomites Elopement or intimate mountain wedding and wanting to understand how light, access, weather and crowds truly shape the day.",
+          "href": "/guides/dolomites-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-120.jpg",
+          "imageAlt": "Couple during a Dolomites elopement in soft morning light",
+          "alt": "Couple during a Dolomites elopement in soft morning light"
+        },
+        {
+          "label": "Locations",
+          "title": "The most popular elopement locations in the Dolomites",
+          "copy": "A curated guide for couples who are not looking for just any beautiful view, but for the place whose atmosphere truly fits the day they want.",
+          "href": "/guides/best-dolomites-elopement-locations/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-191.jpg",
+          "imageAlt": "Elopement locations in the Dolomites",
+          "alt": "Elopement locations in the Dolomites"
+        },
+        {
+          "label": "Locations",
+          "title": "Lago di Braies Guide",
+          "copy": "An honest guide for couples who know Lago di Braies as more than a famous photograph and want to understand when it feels soft, quiet and truly worth experiencing.",
+          "href": "/guides/lago-di-braies-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopemnt-Dolomites-Lago-di-Braies-19.jpg",
+          "imageAlt": "Lago di Braies with still water and early light",
+          "alt": "Lago di Braies with still water and early light"
+        },
+        {
+          "label": "Locations",
+          "title": "Seceda Guide",
+          "copy": "A guide for couples drawn to Seceda not only for the famous ridge, but for the feeling of openness, wind and high alpine light that makes it so distinctive.",
+          "href": "/guides/seceda-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Seceda-180.jpg",
+          "imageAlt": "Seceda in clear mountain light",
+          "alt": "Seceda in clear mountain light"
+        },
+        {
+          "label": "Locations",
+          "title": "Cadini di Misurina Guide",
+          "copy": "A guide for couples who love the wild, cinematic tension of Cadini and want to know when it is accessible, safe and genuinely worth choosing.",
+          "href": "/guides/cadini-di-misurina-guide/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-12.jpg",
+          "imageAlt": "Cadini di Misurina with dramatic rock formations",
+          "alt": "Cadini di Misurina with dramatic rock formations"
+        },
+        {
+          "label": "Locations",
+          "title": "Tre Cime Wedding Guide",
+          "copy": "An honest guide for couples choosing Tre Cime not only for the famous view, but for the monumental, almost unreal presence the place carries when the timing is right.",
+          "href": "/guides/tre-cime-wedding-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14.jpg",
+          "imageAlt": "Tre Cime in clear mountain light",
+          "alt": "Tre Cime in clear mountain light"
+        },
+        {
+          "label": "Planning",
+          "title": "Best Time for a Dolomites Elopement",
+          "copy": "An honest guide to light, temperatures, crowds and the question of when the mountains will not only look beautiful, but genuinely feel right for you.",
+          "href": "/guides/best-time-for-a-dolomites-elopement/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-16.jpg",
+          "imageAlt": "Existing image for best time in the Dolomites",
+          "alt": "Existing image for best time in the Dolomites"
+        },
+        {
+          "label": "Planning",
+          "title": "Sunrise vs Sunset in the Dolomites",
+          "copy": "An honest comparison for couples who want more than beautiful light and are trying to understand which time of day fits their energy, their location and the feeling they want to remember.",
+          "href": "/guides/sunrise-vs-sunset-dolomites/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Photo-368.jpg",
+          "imageAlt": "Mountain light at sunrise or sunset",
+          "alt": "Mountain light at sunrise or sunset"
+        },
+        {
+          "label": "Planning",
+          "title": "Weather & Backup Planning Guide",
+          "copy": "A calm weather guide for couples who do not want to hope for perfect conditions in the mountains, but want to build a day that still feels right in fog, wind or rain.",
+          "href": "/guides/weather-and-backup-planning/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-161.jpg",
+          "imageAlt": "Weather in the Dolomites with clouds and fog",
+          "alt": "Weather in the Dolomites with clouds and fog"
+        },
+        {
+          "label": "Planning",
+          "title": "What to Wear in the Mountains",
+          "copy": "A practical guide for couples who want to look beautiful in the mountains, but also move freely, stay warm and still feel like themselves in what they wear.",
+          "href": "/guides/what-to-wear-in-the-mountains/",
+          "image": "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Hut-13.jpg",
+          "imageAlt": "Outfit ideas for a mountain elopement",
+          "alt": "Outfit ideas for a mountain elopement"
+        },
+        {
+          "label": "Planning",
+          "title": "Helicopter Elopement Guide",
+          "copy": "A guide for couples seeking more space, privacy and a clearer flow to the day, and wanting to understand when a helicopter in the mountains genuinely makes sense.",
+          "href": "/guides/helicopter-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-12.jpg",
+          "imageAlt": "Helicopter flight above the mountains for an elopement",
+          "alt": "Helicopter flight above the mountains for an elopement"
+        }
+      ]
+    },
+    "final": {
+      "eyebrow": "Planned with intention",
+      "title": "Let’s shape something that feels quiet, personal and deeply true to you.",
+      "copy": "If this guide already feels close to the way you want the day to move, I would love to help you turn that feeling into something calm, cinematic and genuinely your own in the mountains.",
+      "cta": "Inquire now",
+      "image": "/assets/uploads/Blitzkneisser-Photo-Drei-Zinnen-Italy-24.jpg",
+      "imageAlt": "Tre Cime in the Dolomites in calm, clear light"
+    }
+  }
+}

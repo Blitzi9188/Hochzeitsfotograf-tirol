@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1600" height="960" viewBox="0 0 1600 960" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="960" fill="#F7F3ED"/>
+  <rect x="58" y="58" width="1484" height="844" rx="0" fill="url(#paint0_linear)"/>
+  <path d="M0 724C213 666 314 614 420 556C531 496 616 418 719 418C837 418 883 482 981 482C1094 482 1205 373 1361 373C1452 373 1517 396 1600 443V960H0V724Z" fill="#E9E0D5"/>
+  <path d="M0 804C192 754 319 706 454 625C565 559 657 531 755 531C847 531 936 568 1048 568C1168 568 1275 505 1386 505C1470 505 1547 530 1600 560V960H0V804Z" fill="#DDD2C4"/>
+  <path d="M0 848C171 788 311 748 436 690C575 626 658 596 781 596C887 596 980 622 1086 622C1202 622 1327 579 1449 579C1526 579 1572 588 1600 599V960H0V848Z" fill="#D2C5B4"/>
+  <circle cx="800" cy="480" r="232" fill="white" fill-opacity="0.35"/>
+  <path d="M142 798C282 730 355 660 481 560C553 503 637 452 741 452C839 452 923 497 1032 497C1142 497 1238 420 1358 420" stroke="#C8BAA6" stroke-opacity="0.5" stroke-width="1.5" stroke-dasharray="7 10"/>
+  <path d="M197 708C294 653 389 622 517 556C627 500 717 500 835 500C933 500 1047 527 1162 500C1261 477 1332 431 1423 397" stroke="#C8BAA6" stroke-opacity="0.45" stroke-width="1.5" stroke-dasharray="7 10"/>
+  <text x="92" y="116" fill="#8A837A" font-family="Inter, Arial, sans-serif" font-size="20" letter-spacing="6" text-transform="uppercase">Sunrise Elopement</text>
+  <text x="92" y="170" fill="#1B1A18" font-family="Georgia, 'Times New Roman', serif" font-size="68">Soft First Light</text>
+  <text x="92" y="860" fill="#8A837A" font-family="Inter, Arial, sans-serif" font-size="18" letter-spacing="5" text-transform="uppercase">Replace with your final image</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="800" y1="58" x2="800" y2="902" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FBF8F3"/>
+      <stop offset="1" stop-color="#EEE4D7"/>
+    </linearGradient>
+  </defs>
+</svg>

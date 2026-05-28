@@ -1,0 +1,1903 @@
+<!DOCTYPE html>
+<html lang="de" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mehrtägiger Elopement-Guide | Mehr Zeit, mehr Ruhe, mehr Geschichte</title>
+  <meta
+    name="description"
+    content="Guide für mehrtägige Elopements in den Dolomiten mit Hütten, Sonnenaufgängen, langsamerem Tagesfluss und ehrlichen Hinweisen dazu, wann mehr Zeit wirklich sinnvoll ist."
+  >
+  <link rel="icon" type="image/png" href="/Logo-Blitzkneisser-BERG.png">
+  <script defer src="/assets/seo.js"></script>
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ["Inter", "sans-serif"]
+          },
+          colors: {
+            brand: {
+              bg: "#FFFFFF",
+              text: "#1B1A18",
+              muted: "#8A837A",
+              border: "#E6DED4",
+              soft: "#F7F3ED"
+            }
+          }
+        }
+      }
+    };
+  </script>
+  <style>
+    body {
+      background: #FFFFFF;
+      color: #1B1A18;
+      font-family: "Inter", sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    .eyebrow,
+    .section-label,
+    .related-card-label,
+    .season-fact-label,
+    .planning-item-label,
+    .guide-reading-meta {
+      color: #8A837A;
+      font-size: 10px;
+      font-weight: 500;
+      letter-spacing: 0.28em;
+      text-transform: uppercase;
+    }
+
+    .section-label {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.8rem;
+    }
+
+    .section-label::before {
+      content: "";
+      width: 3rem;
+      height: 1px;
+      background: #E6DED4;
+    }
+
+    .section-label.no-line::before {
+      display: none;
+    }
+
+    .body-copy,
+    .hero-copy,
+    .faq-intro,
+    .planning-item-copy {
+      font-size: 1rem;
+      line-height: 1.8;
+      font-weight: 300;
+      color: rgba(27, 26, 24, 0.82);
+    }
+
+    .section-title {
+      font-size: clamp(2rem, 4vw, 3.5rem);
+      line-height: 0.98;
+      letter-spacing: -0.05em;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #1B1A18;
+    }
+
+    .hero-frame {
+      display: grid;
+      background: #F7F3ED;
+      overflow: hidden;
+    }
+
+    .hero-media {
+      min-height: 28rem;
+      background: #F7F3ED;
+    }
+
+    .hero-media img,
+    .image-shell img,
+    .related-card-image img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .hero-content {
+      display: flex;
+      align-items: center;
+      background: #FBF8F3;
+      padding: 2.9rem 1.75rem;
+    }
+
+    .hero-panel {
+      width: 100%;
+      max-width: 39rem;
+    }
+
+    .hero-title {
+      margin-top: 1.4rem;
+      font-size: clamp(2.1rem, 4.4vw, 4.35rem);
+      line-height: 1.02;
+      letter-spacing: -0.05em;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #1B1A18;
+      word-break: break-word;
+      overflow-wrap: anywhere;
+      text-wrap: balance;
+    }
+
+    .hero-copy {
+      margin-top: 1.7rem;
+      max-width: 34rem;
+    }
+
+    .hero-panel .button-solid,
+    .hero-panel .button-outline {
+      margin-top: 2.1rem;
+    }
+
+    .button-solid,
+    .button-outline {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 3rem;
+      padding: 0.95rem 1.5rem;
+      font-size: 10px;
+      font-weight: 500;
+      letter-spacing: 0.28em;
+      text-transform: uppercase;
+      transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease, opacity 0.25s ease;
+    }
+
+    .button-solid {
+      border: 1px solid #1B1A18;
+      background: #1B1A18;
+      color: #FFFFFF;
+    }
+
+    .button-solid:hover {
+      opacity: 0.85;
+    }
+
+    .button-light {
+      border-color: rgba(255, 255, 255, 0.9);
+      background: #FFFFFF;
+      color: #1B1A18;
+    }
+
+    .button-light:hover {
+      background: rgba(255, 255, 255, 0.93);
+      color: #1B1A18;
+      opacity: 1;
+    }
+
+    .text-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      padding-bottom: 0.35rem;
+      border-bottom: 1px solid currentColor;
+      font-size: 10px;
+      font-weight: 500;
+      letter-spacing: 0.28em;
+      text-transform: uppercase;
+      transition: opacity 0.2s ease;
+    }
+
+    .text-link:hover {
+      opacity: 0.65;
+    }
+
+    .guide-utility {
+      display: grid;
+      gap: 1rem;
+      border-top: 1px solid #E6DED4;
+      border-bottom: 1px solid #E6DED4;
+      padding: 1.35rem 0;
+    }
+
+    .guide-anchor-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.9rem 1.2rem;
+      font-size: 10px;
+      font-weight: 500;
+      letter-spacing: 0.24em;
+      text-transform: uppercase;
+      color: #8A837A;
+    }
+
+    .guide-anchor-nav a {
+      transition: opacity 0.2s ease;
+    }
+
+    .guide-anchor-nav a:hover {
+      opacity: 0.65;
+    }
+
+    .quick-facts {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1.4rem 1rem;
+    }
+
+    .fact-item {
+      text-align: center;
+    }
+
+    .fact-icon,
+    .season-fact-icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      color: rgba(27, 26, 24, 0.82);
+      margin-bottom: 0.85rem;
+    }
+
+    .fact-icon svg,
+    .season-fact-icon svg {
+      width: 1.5rem;
+      height: 1.5rem;
+      stroke: currentColor;
+      stroke-width: 1.85;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      fill: none;
+    }
+
+    .fact-value {
+      margin-top: 0.5rem;
+      font-size: 0.98rem;
+      line-height: 1.55;
+      font-weight: 300;
+      color: rgba(27, 26, 24, 0.82);
+    }
+
+    .guide-season-row {
+      display: grid;
+      gap: 1.5rem;
+      margin-bottom: 4rem;
+      align-items: start;
+    }
+
+    .guide-season-image {
+      aspect-ratio: 16 / 9;
+      overflow: hidden;
+      background: #F7F3ED;
+    }
+
+    .guide-season-copy {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 1.25rem;
+      min-width: 0;
+    }
+
+    .season-heading {
+      font-size: clamp(1.8rem, 3vw, 2.9rem);
+      line-height: 0.98;
+      letter-spacing: -0.05em;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #1B1A18;
+    }
+
+    .season-intro {
+      margin-top: 1rem;
+      font-size: 1.05rem;
+      line-height: 1.75;
+      font-weight: 400;
+      color: rgba(27, 26, 24, 0.88);
+    }
+
+    .season-points {
+      margin-top: 1rem;
+      display: grid;
+      gap: 0.55rem;
+      padding-left: 1.05rem;
+      font-size: 0.98rem;
+      line-height: 1.65;
+      font-weight: 300;
+      color: rgba(27, 26, 24, 0.8);
+      list-style: disc;
+    }
+
+    .season-facts {
+      display: grid;
+      gap: 0.9rem;
+      margin-top: 1.35rem;
+      padding-top: 1.35rem;
+      border-top: 1px solid #E6DED4;
+    }
+
+    .season-fact {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 0.9rem;
+      align-items: start;
+    }
+
+    .season-fact-value,
+    .planning-item-title,
+    .season-note,
+    .content-meta,
+    .planning-item-meta {
+      color: rgba(27, 26, 24, 0.8);
+    }
+
+    .season-fact-value {
+      font-size: 0.96rem;
+      line-height: 1.6;
+      font-weight: 300;
+      margin-top: 0.15rem;
+    }
+
+    .season-note {
+      margin-top: 1.15rem;
+      font-size: 0.95rem;
+      line-height: 1.7;
+      font-style: italic;
+      font-weight: 300;
+    }
+
+    .content-meta,
+    .planning-item-meta {
+      font-size: 10px;
+      letter-spacing: 0.24em;
+      text-transform: uppercase;
+      color: #8A837A;
+    }
+
+    .planning-list {
+      display: grid;
+      gap: 1rem;
+    }
+
+    .planning-item {
+      padding: 1.5rem 0;
+      border-top: 1px solid #E6DED4;
+    }
+
+    .planning-item:first-child {
+      padding-top: 0;
+      border-top: none;
+    }
+
+    .planning-item-title {
+      margin-top: 0.65rem;
+      font-size: 1.35rem;
+      line-height: 1.2;
+      letter-spacing: -0.03em;
+      font-weight: 400;
+      color: #1B1A18;
+    }
+
+    .planning-item-copy {
+      margin-top: 0.9rem;
+    }
+
+    .planning-item-meta {
+      margin-top: 1rem;
+    }
+
+    .related-rail {
+      display: grid;
+      grid-auto-flow: column;
+      grid-auto-columns: minmax(17rem, 22rem);
+      gap: 1.25rem;
+      overflow-x: auto;
+      overscroll-behavior-x: contain;
+      scroll-snap-type: x proximity;
+      padding-bottom: 0.25rem;
+      scrollbar-width: none;
+      -ms-overflow-style: none;
+    }
+
+    .related-rail::-webkit-scrollbar {
+      display: none;
+    }
+
+    .related-card {
+      border: 1px solid #E6DED4;
+      background: #FFFFFF;
+      scroll-snap-align: start;
+    }
+
+    .related-card-image {
+      aspect-ratio: 4 / 3;
+      overflow: hidden;
+      background: #F7F3ED;
+    }
+
+    .related-card-body {
+      padding: 1.2rem 1.1rem 1.35rem;
+    }
+
+    .faq-item summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .fade-in-up {
+      animation: fadeInUp 0.85s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+      opacity: 0;
+      transform: translateY(14px);
+    }
+
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .mobile-menu-toggle,
+    .floating-lang-toggle {
+      display: none;
+    }
+
+    @media (min-width: 768px) {
+      .guide-utility {
+        grid-template-columns: auto 1fr;
+        align-items: center;
+      }
+
+      .quick-facts {
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+      }
+
+      .hero-frame {
+        grid-template-columns: minmax(0, 1.28fr) minmax(22rem, 0.72fr);
+      }
+
+      .hero-media {
+        min-height: 42rem;
+      }
+
+      .hero-content {
+        padding: 3.25rem;
+      }
+
+      .guide-season-row {
+        grid-template-columns: minmax(0, 1.12fr) minmax(20rem, 0.88fr);
+        gap: 2rem;
+      }
+
+      .guide-season-row.is-image-right .guide-season-image {
+        order: 2;
+      }
+
+      .guide-season-row.is-image-right .guide-season-copy {
+        order: 1;
+      }
+    }
+
+    @media (max-width: 767px) {
+      .quick-facts {
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+        gap: 0.8rem 0.45rem;
+      }
+
+      .fact-item {
+        min-width: 0;
+      }
+
+      .fact-icon,
+      .season-fact-icon {
+        margin-bottom: 0.45rem;
+      }
+
+      .fact-icon svg,
+      .season-fact-icon svg {
+        width: 1rem;
+        height: 1rem;
+      }
+
+      .quick-facts .eyebrow {
+        font-size: 8px;
+        letter-spacing: 0.16em;
+        line-height: 1.35;
+      }
+
+      .fact-value {
+        margin-top: 0.28rem;
+        font-size: 0.72rem;
+        line-height: 1.35;
+      }
+
+      .mobile-menu-toggle {
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5px;
+        width: 44px;
+        height: 44px;
+        margin-left: auto;
+      }
+
+      .mobile-menu-toggle span {
+        width: 24px;
+        height: 2px;
+        margin-left: auto;
+        background: #1B1A18;
+        transition: transform 0.25s ease, opacity 0.25s ease;
+      }
+
+      #mainNav.is-open .mobile-menu-toggle span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+      #mainNav.is-open .mobile-menu-toggle span:nth-child(2) { opacity: 0; }
+      #mainNav.is-open .mobile-menu-toggle span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+      .nav-menu-panel {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem 1.5rem 1.25rem;
+        background: rgba(255,255,255,.94);
+        backdrop-filter: blur(14px);
+        border-bottom: 1px solid #E6DED4;
+        opacity: 0;
+        pointer-events: none;
+        transform: translateY(-8px);
+        transition: opacity 0.2s ease, transform 0.2s ease;
+      }
+
+      #mainNav.is-open .nav-menu-panel {
+        opacity: 1;
+        pointer-events: auto;
+        transform: translateY(0);
+      }
+
+      .nav-menu-panel > div:first-child,
+      .nav-menu-panel .nav-lang-toggle {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.9rem;
+      }
+
+      .floating-lang-toggle {
+        position: fixed;
+        right: 1rem;
+        bottom: 1rem;
+        z-index: 60;
+        display: flex;
+        align-items: center;
+        gap: 0.35rem;
+        padding: 0.4rem;
+        background: rgba(255,255,255,.94);
+        backdrop-filter: blur(14px);
+        border: 1px solid #E6DED4;
+        box-shadow: 0 12px 30px rgba(27, 26, 24, 0.08);
+      }
+
+      .floating-lang-toggle button {
+        border: 1px solid #E6DED4;
+        min-width: 2.8rem;
+        padding: 0.7rem 0.75rem;
+        font-size: 0.625rem;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        transition: all 0.2s ease;
+      }
+
+      .hero-media {
+        min-height: 21rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav class="fixed top-0 left-0 z-50 w-full bg-white/80 px-6 py-5 text-brand-text backdrop-blur-sm transition-all duration-500 md:px-12 md:py-8" id="mainNav">
+    <div class="mx-auto flex max-w-[120rem] items-center justify-between gap-6">
+      <a href="/index.html" id="navHomeLink" class="group flex items-center" aria-label="Blitzkneisser Photography">
+        <img src="/Logo-Blitzkneisser-BERG.png" alt="Blitzkneisser Photography" class="h-11 w-auto brightness-0 contrast-125 opacity-70 transition duration-500 ease-out group-hover:opacity-100 md:h-14">
+      </a>
+      <button type="button" class="mobile-menu-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenuPanel" aria-label="Menü öffnen"><span></span><span></span><span></span></button>
+      <div class="nav-menu-panel ml-auto flex items-center justify-end gap-4 text-right" id="navMenuPanel">
+        <div class="flex items-center gap-4 text-[10px] uppercase tracking-[0.2em] sm:gap-6 md:gap-8 md:text-xs">
+          <a href="/experience/" id="navExperienceLink" class="hover:opacity-60 transition-opacity duration-300">Experience</a>
+          <a href="/guides/" id="navGuidesLink" class="opacity-60 transition-opacity duration-300" aria-current="page">Guides</a>
+          <a href="/journal/" id="navJournalLink" class="hover:opacity-60 transition-opacity duration-300">Journal</a>
+          <a href="/about/" id="navAboutLink" class="hover:opacity-60 transition-opacity duration-300">About</a>
+          <a href="/contact/" id="navContactLink" class="hover:opacity-60 transition-opacity duration-300">Contact</a>
+        </div>
+        <div class="nav-lang-toggle flex items-center gap-2 text-[10px] uppercase tracking-[0.24em] md:text-xs">
+          <button type="button" class="border border-brand-border px-3 py-2 transition-colors" data-lang-button="de" aria-pressed="true">DE</button>
+          <button type="button" class="border border-brand-border px-3 py-2 transition-colors" data-lang-button="en" aria-pressed="false">EN</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="floating-lang-toggle" id="floatingLangToggle" aria-label="Sprache wechseln">
+    <button type="button" data-lang-button="de" aria-pressed="true">DE</button>
+    <button type="button" data-lang-button="en" aria-pressed="false">EN</button>
+  </div>
+
+  <main class="pt-32 md:pt-38 pb-20 md:pb-24">
+    <section class="px-6 md:px-12 max-w-[120rem] mx-auto fade-in-up">
+      <div class="hero-frame">
+        <div class="hero-media">
+          <img id="heroImage" src="/assets/uploads/Blitzkneisser-Elopement-Dolomites-Insta-11.jpg" alt="Mehrtägiges Elopement in den Dolomiten" loading="eager" fetchpriority="high">
+        </div>
+        <div class="hero-content">
+          <div class="hero-panel">
+            <span class="eyebrow" data-i18n="hero.eyebrow">Planning Guide</span>
+            <h1 class="hero-title" data-i18n="hero.title">Multi-Day Elopement Guide</h1>
+            <p class="hero-copy" data-i18n="hero.copy">For couples who want something slower than a single photoshoot and spacious enough to hold hiking, quiet mornings, rest and the feeling of staying in the mountains long enough to truly arrive.</p>
+            <a href="/contact/" id="heroCta" class="button-solid" data-i18n="hero.cta">Start Planning</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="px-6 md:px-12 max-w-[120rem] mx-auto mt-12 md:mt-14">
+      <div class="guide-utility">
+        <div class="guide-reading-meta">
+          <span data-i18n="utility.focus">Für Dolomites Elopements & intime Dolomites Weddings</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="overview" class="px-6 md:px-12 max-w-[120rem] mx-auto mt-14 md:mt-16">
+      <div id="philosophy" class="mx-auto max-w-4xl text-center mb-12 md:mb-14">
+        <h2 class="text-3xl md:text-5xl font-bold leading-[0.98] tracking-[-0.05em] text-brand-text uppercase" data-i18n="philosophy.title">Every season has its own feeling</h2>
+        <p class="body-copy mx-auto mt-5 max-w-3xl text-center" data-i18n="philosophy.copy">There is no perfect season for a Dolomites Elopement, only the one that feels most like you. Some couples want stillness and cold air, others long for movement, warmth and long evenings. The most beautiful choice is always the one that already feels honest before the day even begins.</p>
+      </div>
+      <div class="quick-facts pt-6" id="quickFacts"></div>
+    </section>
+
+    <section id="seasons" class="guide-seasons-layout px-6 md:px-12 max-w-[120rem] mx-auto mt-14 md:mt-16">
+      <div id="seasonRows"></div>
+    </section>
+
+    <section id="planning" class="px-6 md:px-12 max-w-[120rem] mx-auto mt-14 md:mt-16">
+      <div class="grid gap-9 lg:grid-cols-[0.76fr_1.24fr]">
+        <div>
+          <span class="section-label" data-i18n="planning.eyebrow">Planning Notes</span>
+          <h2 class="section-title mt-5" data-i18n="planning.title">What the season really changes on the day.</h2>
+          <p class="faq-intro" data-i18n="planning.intro">A few practical notes that matter once this stops being an idea and begins turning into an actual day in the mountains.</p>
+        </div>
+        <div class="planning-list" id="planningNotes"></div>
+      </div>
+    </section>
+
+    <section id="related" class="px-6 md:px-12 max-w-[120rem] mx-auto mt-14 md:mt-16">
+      <div class="border-t border-brand-border pt-6 md:flex md:items-end md:justify-between md:gap-8">
+        <span class="eyebrow" data-i18n="related.eyebrow">Related Guides</span>
+      </div>
+      <div class="mt-6 related-rail" id="relatedGuides"></div>
+    </section>
+
+    <section id="faq" class="px-6 md:px-12 max-w-[120rem] mx-auto mt-14 md:mt-16">
+      <div class="grid gap-9 lg:grid-cols-[0.76fr_1.24fr]">
+        <div>
+          <span class="section-label no-line">FAQ</span>
+          <h2 class="section-title mt-5 font-bold uppercase" data-i18n="faq.title">Questions that often come up long before the day arrives.</h2>
+          <p class="faq-intro" data-i18n="faq.intro">A few of the questions couples ask most often when they begin planning an elopement in the Dolomites — with answers that are meant to feel useful, honest and calm.</p>
+        </div>
+        <div class="divide-y divide-brand-border border-t border-brand-border" id="faqList"></div>
+      </div>
+    </section>
+
+    <section class="px-6 md:px-12 max-w-[120rem] mx-auto mt-14 md:mt-16">
+      <div class="relative min-h-[24rem] overflow-hidden bg-brand-text text-white">
+        <div class="image-shell absolute inset-0">
+          <img id="finalImage" src="/assets/uploads/Blitzkneisser-Photo-Drei-Zinnen-Italy-24.jpg" alt="Drei Zinnen in den Dolomiten bei ruhigem, klarem Licht" loading="lazy" decoding="async">
+        </div>
+        <div class="absolute inset-0" style="background: linear-gradient(90deg, rgba(98, 103, 108, 0.52) 0%, rgba(98, 103, 108, 0.38) 46%, rgba(98, 103, 108, 0.24) 100%);"></div>
+        <div class="relative z-10 flex min-h-[24rem] items-end justify-start px-6 pb-10 pt-16 text-left md:px-12 md:pb-14">
+          <div class="max-w-3xl">
+            <span class="eyebrow text-white/78" data-i18n="final.eyebrow">Planning with intention</span>
+            <h2 class="mt-5 text-4xl font-semibold leading-tight tracking-[-0.04em] md:text-5xl" data-i18n="final.title">Let's create a wedding experience that feels like you.</h2>
+            <p class="mt-6 max-w-3xl text-base font-normal leading-7 text-white/90 md:text-lg" data-i18n="final.copy">If this guide already feels close to what you are imagining, I would love to help you shape a day that feels natural, meaningful and entirely your own.</p>
+            <a href="/contact/" id="finalCta" class="button-solid button-light mt-8" data-i18n="final.cta">Inquire Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="py-16 px-6 md:px-12 border-t border-brand-border flex flex-col md:flex-row justify-between items-start md:items-center text-[10px] md:text-xs text-brand-muted tracking-[0.2em] uppercase font-medium bg-brand-bg">
+    <div class="mb-8 md:mb-0" id="footerBrandText">© 2026 Blitzkneisser Photography</div>
+    <div class="flex flex-col md:flex-row gap-6 md:gap-12">
+      <a id="footerInstagramLink" href="#" class="hover:text-brand-text transition-colors duration-300">Instagram</a>
+      <a id="footerContactLink" href="/contact/" class="hover:text-brand-text transition-colors duration-300" data-i18n="nav.contact">Contact</a>
+      <a id="footerJournalLink" href="/journal/" class="hover:text-brand-text transition-colors duration-300">Journal</a>
+    </div>
+    <div id="footerInstagramFeed" class="footer-instagram-feed"></div>
+  </footer>
+
+  <script type="application/ld+json" id="faqSchema"></script>
+  <script>
+    const nav = document.getElementById("mainNav");
+    const navToggle = document.getElementById("navToggle");
+    const navMenuPanel = document.getElementById("navMenuPanel");
+    const closeNavMenu = () => {
+      nav.classList.remove("is-open");
+      navToggle.setAttribute("aria-expanded", "false");
+    };
+    navToggle.addEventListener("click", () => {
+      const willOpen = !nav.classList.contains("is-open");
+      nav.classList.toggle("is-open", willOpen);
+      navToggle.setAttribute("aria-expanded", willOpen ? "true" : "false");
+    });
+    navMenuPanel.querySelectorAll("a, button[data-lang-button]").forEach((item) => {
+      item.addEventListener("click", () => {
+        if (window.innerWidth < 768) closeNavMenu();
+      });
+    });
+
+    const pageData = {
+      "de": {
+            "slug": "multi-day-elopement-guide",
+            "title": "Mehrtägiger Elopement-Guide | Mehr Zeit, mehr Ruhe, mehr Geschichte",
+            "description": "Guide für mehrtägige Elopements in den Dolomiten mit Hütten, Sonnenaufgängen, langsamerem Tagesfluss und ehrlichen Hinweisen dazu, wann mehr Zeit wirklich sinnvoll ist.",
+            "hero": {
+                  "eyebrow": "Planungs-Guide",
+                  "title": "Mehrtägiger Elopement-Guide",
+                  "copy": "Ein Guide für Paare, die mehr wollen als ein paar schnelle Stunden in den Bergen und ihren Hochzeitstag lieber in Ruhe entfalten lassen möchten.",
+                  "cta": "Planung starten",
+                  "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Insta-11.jpg",
+                  "imageAlt": "Mehrtägiges Elopement in den Dolomiten"
+            },
+            "utility": {
+                  "reading": "Guide",
+                  "focus": "Für Paare, die mehr Zeit wünschen, als ein einziger Tag bietet",
+                  "navOverview": "Überblick",
+                  "navSeasons": "Ablauf",
+                  "navPhilosophy": "Einführung",
+                  "navVisual": "Weitere Guides",
+                  "navFaq": "FAQ"
+            },
+            "overview": {
+                  "eyebrow": "Guide im Überblick",
+                  "copy": "Ein mehrtägiges Elopement nimmt Druck aus dem Tag. Wege müssen nicht gehetzt werden, Wetter bekommt mehr Spielraum und emotionale Momente verteilen sich natürlicher über mehrere Kapitel.",
+                  "items": [
+                        {
+                              "icon": "guests",
+                              "label": "Ideal für",
+                              "value": "Paare, die Tiefe und Raum wünschen"
+                        },
+                        {
+                              "icon": "sunrise",
+                              "label": "Starkes Add-On",
+                              "value": "Sonnenaufgangs- und Rifugio-Aufenthalte"
+                        },
+                        {
+                              "icon": "cloud",
+                              "label": "Wettervorteil",
+                              "value": "Mehr Flexibilität"
+                        },
+                        {
+                              "icon": "wind",
+                              "label": "Stimmung",
+                              "value": "Langsam, filmisch, zutiefst persönlich"
+                        },
+                        {
+                              "icon": "path",
+                              "label": "Kann einschließen",
+                              "value": "Helikopter- oder Wanderelemente"
+                        }
+                  ]
+            },
+            "philosophy": {
+                  "eyebrow": "Eine erste Orientierung",
+                  "title": "Manche Geschichten brauchen nicht mehr Aufwand, sondern mehr Zeit.",
+                  "copy": "Wenn ihr nicht alles in einen einzigen Morgen oder Abend pressen müsst, entsteht oft etwas viel Ehrlicheres: mehr Ankommen, mehr Atem und mehr Raum für das, was unterwegs tatsächlich passiert."
+            },
+            "sections": {
+                  "seasonOrder": [
+                        "why",
+                        "dayone",
+                        "daytwo",
+                        "hiking",
+                        "rifugio",
+                        "helicopter",
+                        "bestfor"
+                  ],
+                  "seasons": {
+                        "why": {
+                              "layout": "image-left",
+                              "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Photo-292.jpg",
+                              "imageAlt": "Platzhalterbild für ein mehrtägiges Bergerlebnis",
+                              "eyebrow": "",
+                              "title": "Warum ein mehrtägiges Erlebnis wählen?",
+                              "intro": "Manche Hochzeitsgeschichten brauchen einfach mehr als ein Wetterfenster und ein emotionales Tempo.",
+                              "copy": "Ein mehrtägiges Dolomiten-Elopement gibt euch Raum für verschiedene Arten von Licht, langsamere Übergänge und mehr ehrliche Energie. Es kann eine ruhige Ankunft, einen warmen Abend, einen Sonnenaufgang, eine Wanderung und eine Zeremonie beinhalten, ohne sie in einen Atemzug zu zwingen.",
+                              "points": [],
+                              "facts": [
+                                    {
+                                          "icon": "guests",
+                                          "label": "Ideal für",
+                                          "value": "Paare, die mehr Wert auf Platz als auf Komprimierung legen"
+                                    },
+                                    {
+                                          "icon": "wind",
+                                          "label": "Hauptvorteil",
+                                          "value": "Mehr Atmosphäre, weniger Hektik"
+                                    },
+                                    {
+                                          "icon": "calendar",
+                                          "label": "Oft inklusive",
+                                          "value": "Reisen, Übernachten, verschiedene Orte"
+                                    }
+                              ],
+                              "note": "",
+                              "meta": "",
+                              "linkLabel": "",
+                              "linkHref": ""
+                        },
+                        "dayone": {
+                              "layout": "image-right",
+                              "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-232.jpg",
+                              "imageAlt": "Platzhalterbild für den ersten Tag eines mehrtägigen Elopements",
+                              "eyebrow": "",
+                              "title": "Beispiel für Tag 1",
+                              "intro": "Der erste Tag eignet sich oft besser als Ankunfts- und nicht als Höhepunkt.",
+                              "copy": "Ein entspannter Reisetag, ein ruhiger Abendspaziergang, Zeit zum Entspannen und vielleicht ein Abendessen oder eine warme Porträtsitzung können das ganze Erlebnis abmildern. Der erste Tag muss nicht dramatisch sein, um von großer Bedeutung zu sein.",
+                              "points": [],
+                              "facts": [
+                                    {
+                                          "icon": "sun",
+                                          "label": "Beste Stimmung",
+                                          "value": "Ankunft und sanfte Verbindung"
+                                    },
+                                    {
+                                          "icon": "calendar",
+                                          "label": "Nützlich für",
+                                          "value": "Reisen, Ruhe, Abendporträts"
+                                    },
+                                    {
+                                          "icon": "guests",
+                                          "label": "Warum",
+                                          "value": "Es nimmt den Druck vom Zeremonietag"
+                                    }
+                              ],
+                              "note": "",
+                              "meta": "",
+                              "linkLabel": "",
+                              "linkHref": ""
+                        },
+                        "daytwo": {
+                              "layout": "image-left",
+                              "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Instagram-160.jpg",
+                              "imageAlt": "Platzhalterbild für den Sonnenaufgang am zweiten Tag",
+                              "eyebrow": "",
+                              "title": "Beispiel für Tag 2",
+                              "intro": "Der zweite Tag kann das stärkste Licht halten, weil der Körper bereits da ist.",
+                              "copy": "Dies kann der zeremonielle Sonnenaufgang, ein privater Gelübdeaustausch, eine Wanderung oder die Hauptpaarsitzung sein. Da ihr nicht mehr zum ersten Mal ankommt, fühlt sich der ganze Tag meist geerdeter und weniger hektisch an.",
+                              "points": [],
+                              "facts": [
+                                    {
+                                          "icon": "sunrise",
+                                          "label": "Beste Stimmung",
+                                          "value": "Absichtlich und geräumig"
+                                    },
+                                    {
+                                          "icon": "guests",
+                                          "label": "Nützlich für",
+                                          "value": "Sonnenaufgangszeremonie oder Hauptporträts"
+                                    },
+                                    {
+                                          "icon": "wind",
+                                          "label": "Warum",
+                                          "value": "sie sind bereits emotional beruhigt"
+                                    }
+                              ],
+                              "note": "",
+                              "meta": "",
+                              "linkLabel": "",
+                              "linkHref": ""
+                        },
+                        "hiking": {
+                              "layout": "image-right",
+                              "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-15.jpg",
+                              "imageAlt": "Platzhalterbild für eine Elopement-Wanderroute",
+                              "eyebrow": "",
+                              "title": "Elopement-Option zum Wandern",
+                              "intro": "Durch eine mehrtägige Struktur fühlt sich das Wandern realistischer und weniger komprimiert an.",
+                              "copy": "Wenn Wandern Teil der Geschichte ist, verändert mehr Zeit alles. Der Weg kann Teil der Atmosphäre werden, anstatt ein überstürzter Übergang zwischen Orten zu sein.",
+                              "points": [],
+                              "facts": [
+                                    {
+                                          "icon": "path",
+                                          "label": "Ideal für",
+                                          "value": "Paare, die Bewegung lieben"
+                                    },
+                                    {
+                                          "icon": "guests",
+                                          "label": "Hauptvorteil",
+                                          "value": "Weniger Tempodruck"
+                                    },
+                                    {
+                                          "icon": "wind",
+                                          "label": "Stimmung",
+                                          "value": "Abenteuer ohne Eile"
+                                    }
+                              ],
+                              "note": "",
+                              "meta": "",
+                              "linkLabel": "",
+                              "linkHref": ""
+                        },
+                        "rifugio": {
+                              "layout": "image-left",
+                              "image": "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Hut-198.jpg",
+                              "imageAlt": "Platzhalterbild für einen Rifugio-Aufenthalt",
+                              "eyebrow": "",
+                              "title": "Rifugio-Aufenthalt",
+                              "intro": "Ein Aufenthalt in einer Berghütte kann das Erlebnis ruhiger und intensiver machen.",
+                              "copy": "Näher an der Landschaft zu schlafen verändert den Beginn des nächsten Morgens. Anstatt von unten nach oben zu fahren, beginnt der Tag bereits in den Bergen, was den emotionalen Ton auf sehr schöne Weise verschieben kann.",
+                              "points": [],
+                              "facts": [
+                                    {
+                                          "icon": "path",
+                                          "label": "Ideal für",
+                                          "value": "Fesselndes Berggefühl"
+                                    },
+                                    {
+                                          "icon": "wind",
+                                          "label": "Stimmung",
+                                          "value": "Ruhig, geschützt, stimmungsvoll"
+                                    },
+                                    {
+                                          "icon": "sunrise",
+                                          "label": "Nützlich für",
+                                          "value": "Sonnenaufgang ohne lange Transfers"
+                                    }
+                              ],
+                              "note": "",
+                              "meta": "",
+                              "linkLabel": "",
+                              "linkHref": ""
+                        },
+                        "helicopter": {
+                              "layout": "image-left",
+                              "image": "/assets/uploads/Blitzkneisser-Weihnachts-Shooting-278.jpg",
+                              "imageAlt": "Platzhalterbild für Helikopter-Add-on",
+                              "eyebrow": "",
+                              "title": "Helikopter-Add-on",
+                              "intro": "Wenn ein Helikopter natürlich irgendwohin gehört, dann oft innerhalb eines mehrtägigen Erlebnisses.",
+                              "copy": "Mehr Zeit gibt dem Flug Raum, sich integriert und nicht abrupt zu fühlen. Es kann zu einem Kapitel in einer längeren Berggeschichte werden, anstatt zu versuchen, die ganze Last des Tages allein zu tragen.",
+                              "points": [],
+                              "facts": [
+                                    {
+                                          "icon": "wind",
+                                          "label": "Ideal für",
+                                          "value": "Ein abgelegenes Kapitel einer umfassenderen Erfahrung"
+                                    },
+                                    {
+                                          "icon": "cloud",
+                                          "label": "Bedürfnisse",
+                                          "value": "Wetterflexibilität"
+                                    },
+                                    {
+                                          "icon": "calendar",
+                                          "label": "Ton",
+                                          "value": "Integriert, nicht isoliert"
+                                    }
+                              ],
+                              "note": "",
+                              "meta": "",
+                              "linkLabel": "",
+                              "linkHref": ""
+                        },
+                        "bestfor": {
+                              "layout": "image-right",
+                              "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Photo-237.jpg",
+                              "imageAlt": "Platzhalterbild für Paare, die mehr als nur ein Fotoshooting wünschen",
+                              "eyebrow": "",
+                              "title": "Ideal für Paare, die mehr als nur ein Fotoshooting wollen",
+                              "intro": "Bei diesem Format geht es oft mehr um Tiefe als um Volumen.",
+                              "copy": "Ein mehrtägiges Erlebnis ist am stärksten für Paare, die die Berge spüren und nicht nur sehen möchten. Es schafft Raum für Kontakte, Wetter, Reisen, Ruhe und die Art von Ruhe, die nicht in einem einzigen Tag zusammengefasst werden kann.",
+                              "points": [],
+                              "facts": [
+                                    {
+                                          "icon": "guests",
+                                          "label": "Ideal für",
+                                          "value": "Tiefe und emotionaler Rhythmus"
+                                    },
+                                    {
+                                          "icon": "key",
+                                          "label": "Nicht ungefähr",
+                                          "value": "Mehr tun, um mehr zu erreichen"
+                                    },
+                                    {
+                                          "icon": "wind",
+                                          "label": "Am nützlichsten für",
+                                          "value": "Paare, die dem Tag Luft zum Atmen wünschen"
+                                    }
+                              ],
+                              "note": "",
+                              "meta": "",
+                              "linkLabel": "",
+                              "linkHref": ""
+                        }
+                  }
+            },
+            "planning": {
+                  "eyebrow": "Planungsnotizen",
+                  "title": "Was bei einer mehrtägigen Struktur normalerweise am wichtigsten ist.",
+                  "intro": "Mehr Zeit bedeutet nicht, alles hinzuzufügen. Es bedeutet, einen Rhythmus zu wählen, der tatsächlich das Wesentliche aufnehmen kann.",
+                  "items": [
+                        {
+                              "label": "Tempo",
+                              "title": "Behaltet jeden Tag ein langsames Kapitel.",
+                              "copy": "Die Schönheit mehrtägiger Erlebnisse liegt im Raum und nicht allein in der Aktivität.",
+                              "meta": "Raum ist Teil des Designs."
+                        },
+                        {
+                              "label": "Wetter",
+                              "title": "Nutzt die zusätzliche Zeit, um Flexibilität zu schaffen.",
+                              "copy": "Ein breiterer Zeitplan sorgt für eine sanftere Reaktion, wenn sich die Bedingungen ändern.",
+                              "meta": "Zeit ist eines der besten Backups."
+                        },
+                        {
+                              "label": "Ausruhen",
+                              "title": "Unterschätzen ihr nicht den Schlaf- und Reisekomfort.",
+                              "copy": "Gute Erholung verändert die emotionale Textur jedes Sonnenaufgangs und jeder Wanderung.",
+                              "meta": "Energie prägt Präsenz."
+                        },
+                        {
+                              "label": "Geschichte",
+                              "title": "Lasst jeden Tag eine andere Rolle spielen.",
+                              "copy": "Ankunft, Zeremonie, Wanderung, Porträtzeit und private Ruhe müssen nicht alles auf einmal passieren.",
+                              "meta": "Eine Geschichte, mehrere Kapitel."
+                        }
+                  ]
+            },
+            "faq": {
+                  "title": "Fragen, die Paare oft zu mehrtägigen Elopements stellen.",
+                  "intro": "Mehrtägige Erlebnisse klingen aufwendig. In Wirklichkeit nehmen sie oft Druck heraus. Genau darum kreisen die meisten Fragen.",
+                  "items": [
+                        {
+                              "q": "Warum mehr als einen Tag wählen?",
+                              "a": "Weil nicht alles in einen einzigen Sonnenaufgang oder Abend gepresst werden muss. Mehr Zeit bedeutet oft mehr Luft für Wetter, mehr Ankommen und eine viel ruhigere emotionale Entwicklung."
+                        },
+                        {
+                              "q": "Passt Wandern besser in ein mehrtägiges Format?",
+                              "a": "Meist ja. Wenn ein Tag nur für Bewegung, Aussicht oder einen Rifugio-Weg da ist, fühlt sich das Ganze freier an als wenn alles gleichzeitig stattfinden soll."
+                        },
+                        {
+                              "q": "Lohnt sich ein Rifugio-Aufenthalt?",
+                              "a": "Sehr oft. Er verändert die Nacht, die Geräusche, das erste Licht und das gesamte Gefühl des Morgens. Für viele Paare entsteht genau dort die besondere Tiefe eines mehrtägigen Elopements."
+                        },
+                        {
+                              "q": "Können wir einem mehrtägigen Erlebnis einen Helikopter hinzufügen?",
+                              "a": "Ja, wenn er sinnvoll eingebettet ist. In einem mehrtägigen Ablauf wirkt ein Helikopter oft am stärksten, wenn er nur ein Kapitel ist und nicht die ganze Geschichte tragen muss."
+                        }
+                  ]
+            },
+            "related": {
+                  "eyebrow": "Verwandte Leitfäden",
+                  "hint": "Wischt nach links oder rechts, um weitere Guides zu sehen.",
+                  "items": [
+                        {
+                              "label": "Dolomiten",
+                              "title": "Elopement-Guide für die Dolomiten",
+                              "copy": "Ein ruhiger Ausgangspunkt für Paare, die ein Dolomites Elopement oder eine intime Berghochzeit planen und verstehen möchten, wie Licht, Wege, Wetter und Menschenmengen den Tag wirklich prägen.",
+                              "href": "/guides/dolomites-elopement-guide/",
+                              "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-120.jpg",
+                              "imageAlt": "Paar bei einem Dolomiten-Elopement im weichen Morgenlicht",
+                              "alt": "Paar bei einem Dolomiten-Elopement im weichen Morgenlicht"
+                        },
+                        {
+                              "label": "Standorte",
+                              "title": "Die beliebtesten Elopement-Orte in den Dolomiten",
+                              "copy": "Ein kuratierter Guide für Paare, die nicht einfach irgendeine schöne Aussicht suchen, sondern den Ort, dessen Stimmung wirklich zu ihrem Tag passt.",
+                              "href": "/guides/best-dolomites-elopement-locations/",
+                              "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-191.jpg",
+                              "imageAlt": "Elopement-Standorte in den Dolomiten",
+                              "alt": "Elopement-Standorte in den Dolomiten"
+                        },
+                        {
+                              "label": "Standorte",
+                              "title": "Lago di Braies Guide",
+                              "copy": "Ein ehrlicher Guide für Paare, die den Pragser Wildsee nicht nur als berühmtes Bild kennen, sondern verstehen möchten, wann er still, weich und tatsächlich erlebbar wird.",
+                              "href": "/guides/lago-di-braies-guide/",
+                              "image": "/assets/uploads/Blitzkneisser-Elopemnt-Dolomites-Lago-di-Braies-19.jpg",
+                              "imageAlt": "Lago di Braies mit ruhigem Wasser und frühem Licht",
+                              "alt": "Lago di Braies mit ruhigem Wasser und frühem Licht"
+                        },
+                        {
+                              "label": "Standorte",
+                              "title": "Seceda Guide",
+                              "copy": "Ein Guide für Paare, die an Seceda nicht nur die berühmte Kante suchen, sondern das Gefühl von Weite, Wind und offenem Berglicht, das diesen Ort so unverwechselbar macht.",
+                              "href": "/guides/seceda-guide/",
+                              "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Seceda-180.jpg",
+                              "imageAlt": "Seceda bei klarem Berglicht",
+                              "alt": "Seceda bei klarem Berglicht"
+                        },
+                        {
+                              "label": "Standorte",
+                              "title": "Cadini di Misurina Guide",
+                              "copy": "Ein Guide für Paare, die an Cadini diese wilde, kinoreife Spannung lieben und zugleich wissen möchten, wann der Ort zugänglich, sicher und wirklich stimmig ist.",
+                              "href": "/guides/cadini-di-misurina-guide/",
+                              "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-12.jpg",
+                              "imageAlt": "Cadini di Misurina mit markanten Felsformen",
+                              "alt": "Cadini di Misurina mit markanten Felsformen"
+                        },
+                        {
+                              "label": "Standorte",
+                              "title": "Drei Zinnen Guide",
+                              "copy": "Ein ehrlicher Guide für Paare, die Drei Zinnen nicht nur wegen des berühmten Blicks wählen, sondern wegen dieser monumentalen, fast unwirklichen Präsenz, die der Ort im richtigen Moment entfaltet.",
+                              "href": "/guides/tre-cime-wedding-guide/",
+                              "image": "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14.jpg",
+                              "imageAlt": "Drei Zinnen bei klarem Berglicht",
+                              "alt": "Drei Zinnen bei klarem Berglicht"
+                        },
+                        {
+                              "label": "Planung",
+                              "title": "Beste Jahreszeit für ein Dolomiten-Elopement",
+                              "copy": "Ein ehrlicher Guide zu Licht, Temperaturen, Menschenmengen und der Frage, wann sich die Berge nicht nur schön, sondern wirklich stimmig für euch anfühlen.",
+                              "href": "/guides/best-time-for-a-dolomites-elopement/",
+                              "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-16.jpg",
+                              "imageAlt": "Vorhandenes Bild zur schönsten Zeit in den Dolomiten",
+                              "alt": "Vorhandenes Bild zur schönsten Zeit in den Dolomiten"
+                        },
+                        {
+                              "label": "Planung",
+                              "title": "Sonnenaufgang vs. Sonnenuntergang in den Dolomiten",
+                              "copy": "Ein ehrlicher Vergleich für Paare, die nicht nur schönes Licht suchen, sondern verstehen möchten, welche Tageszeit zu ihrem Energielevel, ihrem Ort und dem gewünschten Gefühl passt.",
+                              "href": "/guides/sunrise-vs-sunset-dolomites/",
+                              "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Photo-368.jpg",
+                              "imageAlt": "Lichtstimmung in den Bergen bei Sonnenaufgang oder Sonnenuntergang",
+                              "alt": "Lichtstimmung in den Bergen bei Sonnenaufgang oder Sonnenuntergang"
+                        },
+                        {
+                              "label": "Planung",
+                              "title": "Guide zur Wetter- und Backup-Planung",
+                              "copy": "Ein ruhiger Wetter-Guide für Paare, die in den Bergen nicht auf perfekte Bedingungen hoffen, sondern einen Tag planen möchten, der auch bei Nebel, Wind oder Regen stimmig bleibt.",
+                              "href": "/guides/weather-and-backup-planning/",
+                              "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-161.jpg",
+                              "imageAlt": "Wetterstimmung in den Dolomiten mit Wolken und Nebel",
+                              "alt": "Wetterstimmung in den Dolomiten mit Wolken und Nebel"
+                        },
+                        {
+                              "label": "Planung",
+                              "title": "Was man in den Bergen anziehen sollte",
+                              "copy": "Ein praktischer Guide für Paare, die in den Bergen nicht nur schön aussehen, sondern sich auch frei bewegen, warm bleiben und sich in ihrer Kleidung wirklich wiederfinden möchten.",
+                              "href": "/guides/what-to-wear-in-the-mountains/",
+                              "image": "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Hut-13.jpg",
+                              "imageAlt": "Kleidung für ein Elopement in den Bergen",
+                              "alt": "Kleidung für ein Elopement in den Bergen"
+                        },
+                        {
+                              "label": "Planung",
+                              "title": "Helikopter-Elopement-Guide",
+                              "copy": "Ein Guide für Paare, die Weite, Abgeschiedenheit und einen klareren Tagesfluss suchen und verstehen möchten, wann ein Helikopter in den Bergen wirklich sinnvoll ist.",
+                              "href": "/guides/helicopter-elopement-guide/",
+                              "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-12.jpg",
+                              "imageAlt": "Helikopterflug über den Bergen für ein Elopement",
+                              "alt": "Helikopterflug über den Bergen für ein Elopement"
+                        }
+                  ]
+            },
+            "final": {
+                  "eyebrow": "Ruhig geplant",
+                  "title": "Lasst uns etwas gestalten, das sich ruhig, persönlich und zutiefst wahr anfühlt.",
+                  "copy": "Wenn sich dieser Guide bereits nah an dem anfühlt, was ihr euch wünscht, helfe ich euch gern dabei, dieses Gefühl in etwas Ruhiges, Filmisches und wirklich Eigenes in den Bergen zu verwandeln.",
+                  "cta": "Termin anfragen",
+                  "image": "/assets/uploads/Blitzkneisser-Photo-Drei-Zinnen-Italy-24.jpg",
+                  "imageAlt": "Drei Zinnen in den Dolomiten bei ruhigem, klarem Licht"
+            }
+      },
+      "en": {
+            "slug": "multi-day-elopement-guide",
+            "title": "Multi-Day Elopement Guide | More Time, More Quiet, More Story",
+            "description": "A guide to multi-day elopements in the Dolomites, with rifugios, sunrise moments, slower pacing and honest notes on when extra time truly matters.",
+            "hero": {
+                  "eyebrow": "Planning Guide",
+                  "title": "Multi-Day Elopement Guide",
+                  "copy": "A guide for couples who want more than a few rushed hours in the mountains and would rather let the day unfold with space around it.",
+                  "cta": "Start planning",
+                  "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Insta-11.jpg",
+                  "imageAlt": "Multi-day elopement in the Dolomites"
+            },
+            "utility": {
+                  "reading": "Guide",
+                  "focus": "For couples wanting more time than a single day can hold",
+                  "navOverview": "Overview",
+                  "navSeasons": "Flow",
+                  "navPhilosophy": "Intro",
+                  "navVisual": "More guides",
+                  "navFaq": "FAQ"
+            },
+            "overview": {
+                  "eyebrow": "Guide Overview",
+                  "copy": "A multi-day elopement takes pressure out of the experience. There is more room for weather shifts, for slower movement and for emotional moments to unfold in separate chapters rather than all at once.",
+                  "items": [
+                        {
+                              "icon": "guests",
+                              "label": "Best For",
+                              "value": "Couples wanting depth and space"
+                        },
+                        {
+                              "icon": "sunrise",
+                              "label": "Strong Add-On",
+                              "value": "Sunrise and rifugio stays"
+                        },
+                        {
+                              "icon": "cloud",
+                              "label": "Weather Benefit",
+                              "value": "More flexibility"
+                        },
+                        {
+                              "icon": "wind",
+                              "label": "Mood",
+                              "value": "Slow, cinematic, deeply personal"
+                        },
+                        {
+                              "icon": "path",
+                              "label": "Can Include",
+                              "value": "Helicopter or hike elements"
+                        }
+                  ]
+            },
+            "philosophy": {
+                  "eyebrow": "A first note",
+                  "title": "Some stories do not need more production. They simply need more time.",
+                  "copy": "When everything does not have to fit into one sunrise or one evening, something usually becomes much more honest: more arrival, more breath and more space for what actually happens along the way."
+            },
+            "sections": {
+                  "seasonOrder": [
+                        "why",
+                        "dayone",
+                        "daytwo",
+                        "hiking",
+                        "rifugio",
+                        "helicopter",
+                        "bestfor"
+                  ],
+                  "seasons": {
+                        "why": {
+                              "layout": "image-left",
+                              "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Photo-292.jpg",
+                              "imageAlt": "Placeholder image for a multi-day mountain experience",
+                              "eyebrow": "",
+                              "title": "Why choose a multi-day experience",
+                              "intro": "Some wedding stories simply need more than one weather window and one emotional pace.",
+                              "copy": "A multi-day Dolomites Elopement gives you room for different kinds of light, slower transitions and more honest energy. It can hold a quiet arrival, a warm evening, a sunrise, a hike and a ceremony without forcing them into the same breath.",
+                              "points": [],
+                              "facts": [
+                                    {
+                                          "icon": "guests",
+                                          "label": "Best For",
+                                          "value": "Couples who value space over compression"
+                                    },
+                                    {
+                                          "icon": "wind",
+                                          "label": "Main Benefit",
+                                          "value": "More atmosphere, less rush"
+                                    },
+                                    {
+                                          "icon": "calendar",
+                                          "label": "Often Includes",
+                                          "value": "Travel, staying overnight, different locations"
+                                    }
+                              ],
+                              "note": "",
+                              "meta": "",
+                              "linkLabel": "",
+                              "linkHref": ""
+                        },
+                        "dayone": {
+                              "layout": "image-right",
+                              "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-232.jpg",
+                              "imageAlt": "Placeholder image for day one of a multi-day elopement",
+                              "eyebrow": "",
+                              "title": "Day 1 example",
+                              "intro": "The first day often works best as arrival rather than peak moment.",
+                              "copy": "A gentle travel day, a quiet evening walk, time to settle and perhaps a dinner or warm portrait session can soften the whole experience. Day one does not need to be the dramatic one to matter deeply.",
+                              "points": [],
+                              "facts": [
+                                    {
+                                          "icon": "sun",
+                                          "label": "Best Mood",
+                                          "value": "Arrival and soft connection"
+                                    },
+                                    {
+                                          "icon": "calendar",
+                                          "label": "Useful For",
+                                          "value": "Travel, rest, evening portraits"
+                                    },
+                                    {
+                                          "icon": "guests",
+                                          "label": "Why",
+                                          "value": "It removes pressure from the ceremony day"
+                                    }
+                              ],
+                              "note": "",
+                              "meta": "",
+                              "linkLabel": "",
+                              "linkHref": ""
+                        },
+                        "daytwo": {
+                              "layout": "image-left",
+                              "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Instagram-160.jpg",
+                              "imageAlt": "Placeholder image for sunrise on day two",
+                              "eyebrow": "",
+                              "title": "Day 2 example",
+                              "intro": "The second day can hold the strongest light because the body is already there.",
+                              "copy": "This might be the ceremony sunrise, a private vow exchange, a hike or the main couple session. Because you are no longer arriving for the first time, the whole day usually feels more grounded and less hurried.",
+                              "points": [],
+                              "facts": [
+                                    {
+                                          "icon": "sunrise",
+                                          "label": "Best Mood",
+                                          "value": "Intentional and spacious"
+                                    },
+                                    {
+                                          "icon": "guests",
+                                          "label": "Useful For",
+                                          "value": "Sunrise ceremony or main portraits"
+                                    },
+                                    {
+                                          "icon": "wind",
+                                          "label": "Why",
+                                          "value": "You are already emotionally settled"
+                                    }
+                              ],
+                              "note": "",
+                              "meta": "",
+                              "linkLabel": "",
+                              "linkHref": ""
+                        },
+                        "hiking": {
+                              "layout": "image-right",
+                              "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-15.jpg",
+                              "imageAlt": "Placeholder image for a hiking elopement route",
+                              "eyebrow": "",
+                              "title": "Hiking elopement option",
+                              "intro": "A multi-day structure makes hiking feel more realistic and less compressed.",
+                              "copy": "When hiking is part of the story, more time changes everything. The path can become part of the atmosphere instead of a rushed transition between locations.",
+                              "points": [],
+                              "facts": [
+                                    {
+                                          "icon": "path",
+                                          "label": "Best For",
+                                          "value": "Couples who love movement"
+                                    },
+                                    {
+                                          "icon": "guests",
+                                          "label": "Main Benefit",
+                                          "value": "Less pressure on pace"
+                                    },
+                                    {
+                                          "icon": "wind",
+                                          "label": "Mood",
+                                          "value": "Adventure without hurry"
+                                    }
+                              ],
+                              "note": "",
+                              "meta": "",
+                              "linkLabel": "",
+                              "linkHref": ""
+                        },
+                        "rifugio": {
+                              "layout": "image-left",
+                              "image": "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Hut-198.jpg",
+                              "imageAlt": "Placeholder image for a rifugio stay",
+                              "eyebrow": "",
+                              "title": "Rifugio stay",
+                              "intro": "A mountain hut stay can make the experience feel quieter and more immersive.",
+                              "copy": "Sleeping closer to the landscape changes how the next morning begins. Instead of driving up from below, the day starts already inside the mountains, which can shift the emotional tone in a very beautiful way.",
+                              "points": [],
+                              "facts": [
+                                    {
+                                          "icon": "path",
+                                          "label": "Best For",
+                                          "value": "Immersive mountain feeling"
+                                    },
+                                    {
+                                          "icon": "wind",
+                                          "label": "Mood",
+                                          "value": "Quiet, sheltered, atmospheric"
+                                    },
+                                    {
+                                          "icon": "sunrise",
+                                          "label": "Useful For",
+                                          "value": "Sunrise without long transfers"
+                                    }
+                              ],
+                              "note": "",
+                              "meta": "",
+                              "linkLabel": "",
+                              "linkHref": ""
+                        },
+                        "helicopter": {
+                              "layout": "image-left",
+                              "image": "/assets/uploads/Blitzkneisser-Weihnachts-Shooting-278.jpg",
+                              "imageAlt": "Placeholder image for helicopter add-on",
+                              "eyebrow": "",
+                              "title": "Helicopter add-on",
+                              "intro": "If a helicopter belongs anywhere naturally, it is often inside a multi-day experience.",
+                              "copy": "More time gives the flight space to feel integrated rather than abrupt. It can become one chapter in a longer mountain story instead of trying to carry the whole weight of the day by itself.",
+                              "points": [],
+                              "facts": [
+                                    {
+                                          "icon": "wind",
+                                          "label": "Best For",
+                                          "value": "One remote chapter of a wider experience"
+                                    },
+                                    {
+                                          "icon": "cloud",
+                                          "label": "Needs",
+                                          "value": "Weather flexibility"
+                                    },
+                                    {
+                                          "icon": "calendar",
+                                          "label": "Tone",
+                                          "value": "Integrated, not isolated"
+                                    }
+                              ],
+                              "note": "",
+                              "meta": "",
+                              "linkLabel": "",
+                              "linkHref": ""
+                        },
+                        "bestfor": {
+                              "layout": "image-right",
+                              "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Photo-237.jpg",
+                              "imageAlt": "Placeholder image for couples wanting more than a photoshoot",
+                              "eyebrow": "",
+                              "title": "Best for couples who want more than a photoshoot",
+                              "intro": "This format is often about depth more than about volume.",
+                              "copy": "A multi-day experience is strongest for couples who want to feel the mountains, not only see them. It creates room for connection, weather, travel, rest and the kind of quiet that cannot be rushed into a single day.",
+                              "points": [],
+                              "facts": [
+                                    {
+                                          "icon": "guests",
+                                          "label": "Best For",
+                                          "value": "Depth and emotional rhythm"
+                                    },
+                                    {
+                                          "icon": "key",
+                                          "label": "Not About",
+                                          "value": "Doing more for the sake of more"
+                                    },
+                                    {
+                                          "icon": "wind",
+                                          "label": "Most Useful For",
+                                          "value": "Couples who want the day to breathe"
+                                    }
+                              ],
+                              "note": "",
+                              "meta": "",
+                              "linkLabel": "",
+                              "linkHref": ""
+                        }
+                  }
+            },
+            "planning": {
+                  "eyebrow": "Planning Notes",
+                  "title": "What usually matters most in a multi-day structure.",
+                  "intro": "More time does not mean adding everything. It means choosing a rhythm that can actually hold what matters.",
+                  "items": [
+                        {
+                              "label": "Pacing",
+                              "title": "Protect one slow chapter in each day.",
+                              "copy": "The beauty of multi-day experiences comes from room, not activity alone.",
+                              "meta": "Space is part of the design."
+                        },
+                        {
+                              "label": "Weather",
+                              "title": "Use the extra time to create flexibility.",
+                              "copy": "A wider schedule gives you a gentler response when conditions shift.",
+                              "meta": "Time is one of the best backups."
+                        },
+                        {
+                              "label": "Rest",
+                              "title": "Do not underestimate sleep and travel ease.",
+                              "copy": "Good rest changes the emotional texture of every sunrise and every hike.",
+                              "meta": "Energy shapes presence."
+                        },
+                        {
+                              "label": "Story",
+                              "title": "Let each day have a different role.",
+                              "copy": "Arrival, ceremony, hike, portrait time and private quiet do not all need to happen at once.",
+                              "meta": "One story, several chapters."
+                        }
+                  ]
+            },
+            "faq": {
+                  "title": "Questions couples often ask about multi-day elopements.",
+                  "intro": "Multi-day experiences can sound more complicated. In reality, they often remove pressure. That is what most of these questions are really about.",
+                  "items": [
+                        {
+                              "q": "Why choose more than one day?",
+                              "a": "Because everything does not have to be compressed into one sunrise or one evening. More time usually means more room for weather, more emotional arrival and a gentler pace overall."
+                        },
+                        {
+                              "q": "Does hiking fit better into a multi-day format?",
+                              "a": "Usually yes. When one day is allowed to hold movement, distance or a hut stay on its own, the whole experience feels much more open."
+                        },
+                        {
+                              "q": "Is a rifugio stay worth it?",
+                              "a": "Very often. It changes the night, the soundscape, the first light and the whole texture of the morning. For many couples, that is where the deeper feeling of a multi-day elopement begins."
+                        },
+                        {
+                              "q": "Can we add a helicopter to a multi-day experience?",
+                              "a": "Yes, if it belongs naturally in the flow. In a multi-day structure, a helicopter often works best as one chapter rather than carrying the whole story."
+                        }
+                  ]
+            },
+            "related": {
+                  "eyebrow": "Related Guides",
+                  "hint": "Swipe left or right to explore more guides.",
+                  "items": [
+                        {
+                              "label": "Dolomites",
+                              "title": "Dolomites Elopement Guide",
+                              "copy": "A calm starting point for couples planning a Dolomites Elopement or intimate mountain wedding and wanting to understand how light, access, weather and crowds truly shape the day.",
+                              "href": "/guides/dolomites-elopement-guide/",
+                              "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-120.jpg",
+                              "imageAlt": "Couple during a Dolomites elopement in soft morning light",
+                              "alt": "Couple during a Dolomites elopement in soft morning light"
+                        },
+                        {
+                              "label": "Locations",
+                              "title": "The most popular elopement locations in the Dolomites",
+                              "copy": "A curated guide for couples who are not looking for just any beautiful view, but for the place whose atmosphere truly fits the day they want.",
+                              "href": "/guides/best-dolomites-elopement-locations/",
+                              "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-191.jpg",
+                              "imageAlt": "Elopement locations in the Dolomites",
+                              "alt": "Elopement locations in the Dolomites"
+                        },
+                        {
+                              "label": "Locations",
+                              "title": "Lago di Braies Guide",
+                              "copy": "An honest guide for couples who know Lago di Braies as more than a famous photograph and want to understand when it feels soft, quiet and truly worth experiencing.",
+                              "href": "/guides/lago-di-braies-guide/",
+                              "image": "/assets/uploads/Blitzkneisser-Elopemnt-Dolomites-Lago-di-Braies-19.jpg",
+                              "imageAlt": "Lago di Braies with still water and early light",
+                              "alt": "Lago di Braies with still water and early light"
+                        },
+                        {
+                              "label": "Locations",
+                              "title": "Seceda Guide",
+                              "copy": "A guide for couples drawn to Seceda not only for the famous ridge, but for the feeling of openness, wind and high alpine light that makes it so distinctive.",
+                              "href": "/guides/seceda-guide/",
+                              "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Seceda-180.jpg",
+                              "imageAlt": "Seceda in clear mountain light",
+                              "alt": "Seceda in clear mountain light"
+                        },
+                        {
+                              "label": "Locations",
+                              "title": "Cadini di Misurina Guide",
+                              "copy": "A guide for couples who love the wild, cinematic tension of Cadini and want to know when it is accessible, safe and genuinely worth choosing.",
+                              "href": "/guides/cadini-di-misurina-guide/",
+                              "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-12.jpg",
+                              "imageAlt": "Cadini di Misurina with dramatic rock formations",
+                              "alt": "Cadini di Misurina with dramatic rock formations"
+                        },
+                        {
+                              "label": "Locations",
+                              "title": "Tre Cime Wedding Guide",
+                              "copy": "An honest guide for couples choosing Tre Cime not only for the famous view, but for the monumental, almost unreal presence the place carries when the timing is right.",
+                              "href": "/guides/tre-cime-wedding-guide/",
+                              "image": "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14.jpg",
+                              "imageAlt": "Tre Cime in clear mountain light",
+                              "alt": "Tre Cime in clear mountain light"
+                        },
+                        {
+                              "label": "Planning",
+                              "title": "Best Time for a Dolomites Elopement",
+                              "copy": "An honest guide to light, temperatures, crowds and the question of when the mountains will not only look beautiful, but genuinely feel right for you.",
+                              "href": "/guides/best-time-for-a-dolomites-elopement/",
+                              "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-16.jpg",
+                              "imageAlt": "Existing image for best time in the Dolomites",
+                              "alt": "Existing image for best time in the Dolomites"
+                        },
+                        {
+                              "label": "Planning",
+                              "title": "Sunrise vs Sunset in the Dolomites",
+                              "copy": "An honest comparison for couples who want more than beautiful light and are trying to understand which time of day fits their energy, their location and the feeling they want to remember.",
+                              "href": "/guides/sunrise-vs-sunset-dolomites/",
+                              "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Photo-368.jpg",
+                              "imageAlt": "Mountain light at sunrise or sunset",
+                              "alt": "Mountain light at sunrise or sunset"
+                        },
+                        {
+                              "label": "Planning",
+                              "title": "Weather & Backup Planning Guide",
+                              "copy": "A calm weather guide for couples who do not want to hope for perfect conditions in the mountains, but want to build a day that still feels right in fog, wind or rain.",
+                              "href": "/guides/weather-and-backup-planning/",
+                              "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-161.jpg",
+                              "imageAlt": "Weather in the Dolomites with clouds and fog",
+                              "alt": "Weather in the Dolomites with clouds and fog"
+                        },
+                        {
+                              "label": "Planning",
+                              "title": "What to Wear in the Mountains",
+                              "copy": "A practical guide for couples who want to look beautiful in the mountains, but also move freely, stay warm and still feel like themselves in what they wear.",
+                              "href": "/guides/what-to-wear-in-the-mountains/",
+                              "image": "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Hut-13.jpg",
+                              "imageAlt": "Outfit ideas for a mountain elopement",
+                              "alt": "Outfit ideas for a mountain elopement"
+                        },
+                        {
+                              "label": "Planning",
+                              "title": "Helicopter Elopement Guide",
+                              "copy": "A guide for couples seeking more space, privacy and a clearer flow to the day, and wanting to understand when a helicopter in the mountains genuinely makes sense.",
+                              "href": "/guides/helicopter-elopement-guide/",
+                              "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-12.jpg",
+                              "imageAlt": "Helicopter flight above the mountains for an elopement",
+                              "alt": "Helicopter flight above the mountains for an elopement"
+                        }
+                  ]
+            },
+            "final": {
+                  "eyebrow": "Planned with intention",
+                  "title": "Let’s shape something that feels quiet, personal and deeply true to you.",
+                  "copy": "If this guide already feels close to the way you want the day to move, I would love to help you turn that feeling into something calm, cinematic and genuinely your own in the mountains.",
+                  "cta": "Inquire now",
+                  "image": "/assets/uploads/Blitzkneisser-Photo-Drei-Zinnen-Italy-24.jpg",
+                  "imageAlt": "Tre Cime in the Dolomites in calm, clear light"
+            }
+      }
+};
+
+    const params = new URLSearchParams(window.location.search);
+    const storedLang = localStorage.getItem("site-lang");
+    let activeLang = params.get("lang") === "en"
+      ? "en"
+      : (params.get("lang") === "de" ? "de" : (storedLang === "en" || storedLang === "de" ? storedLang : "de"));
+    const currentData = () => pageData[activeLang] || pageData.de;
+    const siteRootPath = (() => {
+      const markers = ["/guides/", "/journal/", "/experience/", "/about/", "/contact/", "/film/", "/portfolio/", "/admin/", "/index.html"];
+      for (const marker of markers) {
+        const index = window.location.pathname.indexOf(marker);
+        if (index !== -1) return window.location.pathname.slice(0, index);
+      }
+      return window.location.pathname.replace(/\/[^/]*$/, "");
+    })();
+    const normalizeHref = (href) => {
+      if (window.location.protocol !== "file:" || !href.startsWith("/")) return href;
+      const [pathPart, queryPart] = href.split("?");
+      const localPath = pathPart === "/index.html"
+        ? `${siteRootPath}/index.html`
+        : pathPart.endsWith("/")
+          ? `${siteRootPath}${pathPart}index.html`
+          : `${siteRootPath}${pathPart}`;
+      return queryPart ? `${localPath}?${queryPart}` : localPath;
+    };
+    const withLang = (href) => normalizeHref(activeLang === "en" && !href.includes("?lang=en")
+      ? `${href}${href.includes("?") ? "&" : "?"}lang=en`
+      : href);
+
+
+    const escapeHtml = (value = "") => String(value)
+      .replaceAll("&", "&amp;")
+      .replaceAll("<", "&lt;")
+      .replaceAll(">", "&gt;")
+      .replaceAll('"', "&quot;")
+      .replaceAll("'", "&#39;");
+
+    const iconMap = {
+      sunrise: '<svg viewBox="0 0 24 24"><path d="M4 16a8 8 0 0 1 16 0"/><path d="M12 4v4"/><path d="M5 9l2.2 1.8"/><path d="M19 9l-2.2 1.8"/><path d="M3 20h18"/></svg>',
+      sun: '<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v3"/><path d="M12 19v3"/><path d="M4.93 4.93l2.12 2.12"/><path d="M16.95 16.95l2.12 2.12"/><path d="M2 12h3"/><path d="M19 12h3"/><path d="M4.93 19.07l2.12-2.12"/><path d="M16.95 7.05l2.12-2.12"/></svg>',
+      cloud: '<svg viewBox="0 0 24 24"><path d="M7 18h10a4 4 0 0 0 .2-8A6 6 0 0 0 5 11.5 3.5 3.5 0 0 0 7 18Z"/></svg>',
+      crowd: '<svg viewBox="0 0 24 24"><path d="M16 19v-1a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v1"/><circle cx="10" cy="8" r="3"/><path d="M20 19v-1a4 4 0 0 0-3-3.87"/><path d="M14 4.13a3 3 0 0 1 0 5.74"/></svg>',
+      guests: '<svg viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4v2"/><circle cx="9.5" cy="7" r="3"/><path d="M20 21v-2a4 4 0 0 0-3-3.87"/><path d="M15 4.13a3 3 0 0 1 0 5.74"/></svg>',
+      calendar: '<svg viewBox="0 0 24 24"><path d="M8 2v4"/><path d="M16 2v4"/><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 10h18"/></svg>',
+      path: '<svg viewBox="0 0 24 24"><path d="M4 20c5-6 6-7 6-11a2.5 2.5 0 1 1 5 0c0 4 1 5 5 11"/><path d="M10 20h10"/></svg>',
+      wind: '<svg viewBox="0 0 24 24"><path d="M3 8h11a3 3 0 1 0-3-3"/><path d="M2 12h15a3 3 0 1 1-3 3"/><path d="M4 16h8"/></svg>',
+      key: '<svg viewBox="0 0 24 24"><circle cx="8" cy="15" r="4"/><path d="M12 15h9"/><path d="M18 12v6"/><path d="M21 13v4"/></svg>',
+      boots: '<svg viewBox="0 0 24 24"><path d="M4 17h9l2 3H4z"/><path d="M13 17v-7l4 2 1 5"/><path d="M18 17h2a2 2 0 0 1 2 2H15"/></svg>',
+      layers: '<svg viewBox="0 0 24 24"><path d="M12 3l8 4-8 4-8-4 8-4Z"/><path d="M4 11l8 4 8-4"/><path d="M4 15l8 4 8-4"/></svg>',
+      default: '<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/></svg>'
+    };
+
+    const iconMarkup = (icon, className = 'fact-icon') => 
+      '<span class="' + className + '" aria-hidden="true">' + (iconMap[icon] || iconMap.default) + '</span>';
+
+    const normalizePoints = (points) => {
+      if (!Array.isArray(points)) return [];
+      return points.flatMap((item) => String(item || '').split(/\n+/)).map((item) => item.trim()).filter(Boolean);
+    };
+
+    const renderQuickFacts = (data) => {
+      const root = document.getElementById('quickFacts');
+      if (!root) return;
+      const items = Array.isArray(data?.overview?.items) ? data.overview.items : [];
+      root.innerHTML = items.map((item) => 
+        '<div class="fact-item">' +
+          iconMarkup(item?.icon) +
+          '<div class="eyebrow">' + escapeHtml(item?.label || '') + '</div>' +
+          '<div class="fact-value">' + escapeHtml(item?.value || '') + '</div>' +
+        '</div>'
+      ).join('');
+    };
+
+    const renderSeasons = (data) => {
+      const root = document.getElementById('seasonRows');
+      if (!root) return;
+      const sections = data?.sections?.seasons || {};
+      const order = Array.isArray(data?.sections?.seasonOrder) ? data.sections.seasonOrder : Object.keys(sections);
+      root.innerHTML = order.map((key, index) => {
+        const item = sections[key] || {};
+        const points = normalizePoints(item.points);
+        const facts = Array.isArray(item.facts) ? item.facts : [];
+        const classes = 'guide-season-row ' + (((item.layout === 'image-right') || (item.layout !== 'image-left' && index % 2 === 1)) ? 'is-image-right' : '');
+        return '<article class="' + classes.trim() + '">' +
+          '<div class="guide-season-image">' +
+            '<img src="' + escapeHtml(item.image || '') + '" alt="' + escapeHtml(item.imageAlt || item.alt || item.title || '') + '" loading="lazy" decoding="async" class="w-full h-full object-cover">' +
+          '</div>' +
+          '<div class="guide-season-copy">' +
+            '<div>' +
+              (item.eyebrow ? '<div class="content-meta">' + escapeHtml(item.eyebrow) + '</div>' : '') +
+              '<h3 class="season-heading">' + escapeHtml(item.title || '') + '</h3>' +
+              (item.intro ? '<p class="season-intro">' + escapeHtml(item.intro) + '</p>' : '') +
+              (item.copy ? '<p class="body-copy">' + escapeHtml(item.copy) + '</p>' : '') +
+              (points.length ? '<ul class="season-points">' + points.map((point) => '<li>' + escapeHtml(point) + '</li>').join('') + '</ul>' : '') +
+              (facts.length ? '<div class="season-facts">' + facts.map((fact) =>
+                '<div class="season-fact">' +
+                  iconMarkup(fact?.icon, 'season-fact-icon') +
+                  '<div><div class="content-meta">' + escapeHtml(fact?.label || '') + '</div><div class="season-fact-value">' + escapeHtml(fact?.value || '') + '</div></div>' +
+                '</div>'
+              ).join('') + '</div>' : '') +
+              (item.note ? '<p class="season-note">' + escapeHtml(item.note) + '</p>' : '') +
+            '</div>' +
+            '<div>' +
+              (item.meta ? '<div class="content-meta">' + escapeHtml(item.meta) + '</div>' : '') +
+              (item.linkLabel && item.linkHref ? '<a class="button-outline mt-4 inline-flex" href="' + escapeHtml(withLang(item.linkHref)) + '">' + escapeHtml(item.linkLabel) + '</a>' : '') +
+            '</div>' +
+          '</div>' +
+        '</article>';
+      }).join('');
+    };
+
+    const renderPlanning = (data) => {
+      const root = document.getElementById('planningNotes');
+      if (!root) return;
+      const items = Array.isArray(data?.planning?.items) ? data.planning.items : [];
+      root.innerHTML = items.map((item) =>
+        '<article class="planning-item">' +
+          (item?.eyebrow ? '<div class="content-meta">' + escapeHtml(item.eyebrow) + '</div>' : '') +
+          '<h3 class="planning-item-title">' + escapeHtml(item?.title || '') + '</h3>' +
+          (item?.copy ? '<p class="body-copy planning-item-copy">' + escapeHtml(item.copy) + '</p>' : '') +
+          (item?.meta ? '<div class="planning-item-meta">' + escapeHtml(item.meta) + '</div>' : '') +
+        '</article>'
+      ).join('');
+    };
+
+    const renderFaq = (data) => {
+      const root = document.getElementById('faqList');
+      if (!root) return;
+      const items = Array.isArray(data?.faq?.items) ? data.faq.items : [];
+      root.innerHTML = items.map((item, index) =>
+        '<details class="faq-item"' + (index === 0 ? ' open' : '') + '>' +
+          '<summary class="flex cursor-pointer list-none items-start justify-between gap-6 py-5 text-left">' +
+            '<span class="text-[1.02rem] md:text-[1.1rem] leading-7 tracking-[-0.02em] text-brand-text">' + escapeHtml(item?.q ?? item?.question ?? item?.title ?? '') + '</span>' +
+            '<span class="text-brand-muted text-lg leading-none">+</span>' +
+          '</summary>' +
+          '<div class="pb-5 pr-8 body-copy">' + escapeHtml(item?.a ?? item?.answer ?? item?.copy ?? '') + '</div>' +
+        '</details>'
+      ).join('');
+    };
+
+    const renderRelated = (data) => {
+      const root = document.getElementById('relatedGuides');
+      if (!root) return;
+      const items = Array.isArray(data?.related?.items) ? data.related.items : [];
+      root.innerHTML = items.map((item) =>
+        '<a class="related-card" href="' + escapeHtml(withLang(item?.href || '/guides/')) + '">' +
+          '<div class="related-card-image">' +
+            '<img src="' + escapeHtml(item?.image || '') + '" alt="' + escapeHtml(item?.imageAlt || item?.alt || item?.title || '') + '" loading="lazy" decoding="async" class="w-full h-full object-cover">' +
+          '</div>' +
+          '<div class="related-card-body">' +
+            (item?.label ? '<div class="related-card-label content-meta">' + escapeHtml(item.label) + '</div>' : '') +
+            '<h3 class="mt-3 text-[1.85rem] leading-[1.02] tracking-[-0.05em] text-brand-text">' + escapeHtml(item?.title || '') + '</h3>' +
+            (item?.copy ? '<p class="body-copy mt-4">' + escapeHtml(item.copy) + '</p>' : '') +
+            '<span class="button-text mt-5 inline-flex">Mehr ansehen</span>' +
+          '</div>' +
+        '</a>'
+      ).join('');
+    };
+
+    const getNestedValue = (source, path) => path.split(".").reduce((value, segment) => {
+      if (value == null) return undefined;
+      return value[segment];
+    }, source);
+
+    const applyText = (data) => {
+      document.documentElement.lang = activeLang;
+      localStorage.setItem("site-lang", activeLang);
+      document.title = data.title;
+      document.querySelector('meta[name="description"]').setAttribute("content", data.description);
+
+      document.querySelectorAll("[data-i18n]").forEach((node) => {
+        const value = getNestedValue(data, node.dataset.i18n);
+        if (typeof value === "string") node.textContent = value;
+      });
+
+      document.getElementById("heroImage").src = data.hero.image;
+      document.getElementById("heroImage").alt = data.hero.imageAlt;
+      document.getElementById("heroCta").href = withLang("/contact/");
+      if (document.getElementById("finalImage")) { document.getElementById("finalImage").src = data.final?.image || document.getElementById("finalImage").src; document.getElementById("finalImage").alt = data.final?.imageAlt || document.getElementById("finalImage").alt; }
+      document.getElementById("finalCta").href = withLang("/contact/");
+      document.getElementById("navHomeLink").href = withLang("/index.html");
+      document.getElementById("navGuidesLink").href = withLang("/guides/");
+      document.getElementById("navExperienceLink").href = withLang("/experience/");
+      document.getElementById("navJournalLink").href = withLang("/journal/");
+      document.getElementById("navAboutLink").href = withLang("/about/");
+      document.getElementById("navContactLink").href = withLang("/contact/");
+
+      document.querySelectorAll("[data-lang-button]").forEach((button) => {
+        button.setAttribute("aria-pressed", button.dataset.langButton === activeLang ? "true" : "false");
+        button.classList.toggle("bg-brand-text", button.dataset.langButton === activeLang);
+        button.classList.toggle("text-white", button.dataset.langButton === activeLang);
+      });
+
+      const faqSchema = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": (Array.isArray(data?.faq?.items) ? data.faq.items : []).map((item) => ({
+          "@type": "Question",
+          "name": item?.q ?? item?.question ?? item?.title ?? "",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": item?.a ?? item?.answer ?? item?.copy ?? ""
+          }
+        }))
+      };
+      document.getElementById("faqSchema").textContent = JSON.stringify(faqSchema);
+    };
+
+    const renderPage = () => {
+      const data = currentData();
+      applyText(data);
+      renderQuickFacts(data);
+      renderSeasons(data);
+      renderPlanning(data);
+      renderFaq(data);
+      renderRelated(data);
+    };
+
+    renderPage();
+
+    document.querySelectorAll("[data-lang-button]").forEach((button) => {
+      button.addEventListener("click", () => {
+        const nextLang = button.dataset.langButton === "en" ? "en" : "de";
+        if (nextLang === activeLang) return;
+        activeLang = nextLang;
+        localStorage.setItem("site-lang", activeLang);
+        const nextUrl = activeLang === "en"
+          ? `${window.location.pathname}?lang=en`
+          : window.location.pathname;
+        window.history.replaceState({}, "", nextUrl);
+        renderPage();
+        if (window.innerWidth < 768) closeNavMenu();
+      });
+    });
+
+    document.addEventListener("toggle", (event) => {
+      if (!event.target.matches("#faqList details")) return;
+      if (!event.target.open) return;
+      document.querySelectorAll("#faqList details").forEach((item) => {
+        if (item !== event.target) item.open = false;
+      });
+    }, true);
+  </script>
+  <script src="/assets/footer-settings.js"></script>
+</body>
+</html>

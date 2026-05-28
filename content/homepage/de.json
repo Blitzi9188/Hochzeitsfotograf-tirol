@@ -1,0 +1,167 @@
+{
+  "metaTitle": "Hochzeitsfotograf Tirol & Dolomiten | Elopement Fotograf",
+  "metaDescription": "Hochzeitsfotograf und Elopement Fotograf für Tirol, Innsbruck und die Dolomiten. Ruhige, emotionale Hochzeitsreportagen in den Bergen.",
+  "featuredImage": "",
+  "featuredImageAlt": "",
+  "heroImages": [
+    {
+      "image": "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14.jpg",
+      "alt": "Winterhochzeit in den Alpen bei Schneefall, lachende Braut mit Regenschirm, dramatischer Wetterumschwung mit starkem Wind auf einer Alm",
+      "altEn": "Winter wedding in the Alps with snowfall, laughing bride with umbrella, dramatic change in weather with strong wind on an alpine pasture"
+    },
+    {
+      "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-7.jpg",
+      "alt": "Hochzeitspaar steigt gerade aus dem Hubschrauber aus. Traumhaft schönes Wetter mitten in den Dolomiten\n",
+      "altEn": "The wedding couple is getting out of the helicopter. Fantastically beautiful weather in the middle of the Dolomites"
+    },
+    {
+      "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-21.jpg",
+      "alt": "Brautpaar beim Skifahren bei sonnigem Wetter, lachend und voller Freude\n",
+      "altEn": "Newlyweds skiing in sunny weather, laughing and full of joy"
+    },
+    {
+      "image": "/assets/uploads/Blitzkneisser-Proposal-Dolomites-177.jpg",
+      "alt": "Küssendes Brautpaar in inniger, romantischer Stimmung",
+      "altEn": "Kissing bride and groom in an intimate, romantic mood"
+    },
+    {
+      "image": "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-2.jpg",
+      "alt": "Die Braut stand strahlend vor den imposanten Drei Zinnen, umgeben von ihrer fröhlichen Hochzeitsgesellschaft. Mit coolen Sonnenbrillen, guter Stimmung und dem Panorama der Berge entstand ein Moment voller Leichtigkeit, Stil und unvergesslicher Erinnerungen.",
+      "altEn": "The bride stood beaming in front of the impressive Three Peaks, surrounded by her happy wedding party. With cool sunglasses, a good atmosphere and the panorama of the mountains, a moment was created full of lightness, style and unforgettable memories."
+    },
+    {
+      "image": "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-360.jpg",
+      "alt": "Braut mit lässig verschränkten Beinen in einer coolen Pose, während die Sonne warm von hinten durch die Berge strahlte. Der Bräutigam saß entspannt mit seinem Snowboard am Boden und blickte sie liebevoll an – ein Moment voller Freiheit, Stil und echter Verbundenheit.",
+      "altEn": "Bride with casually crossed legs in a cool pose while the sun shone warmly through the mountains from behind. The groom sat relaxed on the ground with his snowboard and looked at her lovingly - a moment full of freedom, style and real connection."
+    }
+  ],
+  "hero": {
+    "eyebrow": "Blitzkneisser",
+    "title": "ECHTE MOMENTE IN DEN BERGEN",
+    "copy": "Hochzeitsfotograf und Elopement Fotograf für Tirol, Innsbruck und die Dolomiten mit ruhigen, emotionalen Reportagen in den Bergen",
+    "primaryCta": "Anfrage",
+    "secondaryCta": "Journal/Blog"
+  },
+  "about": {
+    "title": "MODERNE HOCHZEITSREPORTAGEN IN DEN ALPEN",
+    "metaLabelStudio": "Studio",
+    "metaStudio": "Blitzkneisser Fotografie",
+    "metaLabelName": "Name",
+    "metaName": "Andreas Kiss",
+    "metaLabelLocation": "Standort",
+    "metaLocation": "Innsbruck, Tirol",
+    "metaLabelEmail": "E-Mail",
+    "metaEmail": "foto@blitzkneisser.com",
+    "metaLabelPhone": "Telefon",
+    "metaPhone": "+43 664/3918228",
+    "copy1": "Zwischen Bergen, Licht und Weite entstehen in den Tiroler Alpen Hochzeitsbilder, die ruhig wirken, authentisch bleiben und eure Geschichte einfühlsam erzählen.\n",
+    "copy2": "Ich lebe und arbeite in Innsbruck und kenne viele besondere Orte in Tirol und den Alpen, an denen intime Hochzeiten, Elopements und ruhige Paarmomente eine ganz eigene Magie entfalten. Mein Fokus liegt darauf, die stille Kraft der Berge mit eurer Verbindung zu vereinen – für Bilder, die sich leicht anfühlen und zugleich tief berühren.\n",
+    "copy3": "Für mich geht es um jeden einzelnen Moment – und zugleich darum, euren Tag als stimmige, gefühlvolle Geschichte zu erzählen. Jede Reportage soll Nähe, Ruhe, Licht und Persönlichkeit tragen – modern, emotional und ganz ohne künstliche Inszenierung.\n",
+    "copy4": "Wenn ihr eure Hochzeit oder euer Elopement in Tirol plant, begleite ich euch vom ersten Gedanken bis hin zu den leisen und großen Momenten eures Tages. So entstehen Bilder, die nicht nur Erinnerungen bewahren, sondern eure Hochzeit in den Bergen auch Jahre später noch fühlbar machen.\n"
+  },
+  "journal": {
+    "eyebrow": "Journal",
+    "title": "Natürliche Geschichten",
+    "link": "Alle Beiträge ansehen"
+  },
+  "portfolio": {
+    "eyebrow": "Portfolio",
+    "title": "Echte Momente"
+  },
+  "portfolioGallery": [],
+  "services": {
+    "title": "Paarshooting, Hochzeiten und standesamtlichen Zeremonien mit Platz für echte unvergessliche Momente ",
+    "weddings": {
+      "title": "Ganztagesreportagen in Tirol und den Alpen",
+      "copy": "Blitzkneisser",
+      "highlights": [
+        "Getting Ready bis Abendstimmung",
+        "Guidance für Portraits mit Leichtigkeit",
+        "Online Galerie und Slideshow"
+      ]
+    },
+    "elopements": {
+      "title": "Intime Berghochzeiten und Elopements",
+      "copy": "Blitzkneisser\n",
+      "highlights": [
+        "Location Ideen in Tirol, Innsbruck und Dolomiten",
+        "Timeline Hilfe für Licht und Ablauf",
+        "Wetterfeste Planung und Reisebegleitung"
+      ]
+    }
+  },
+  "faq": [
+    {
+      "question": "Begleitest du Hochzeiten und Elopements in ganz Tirol?",
+      "answer": "Ja. Ich fotografiere Hochzeiten hauptsächlich in Nord und Süd-Tirol aber auch europaweit."
+    },
+    {
+      "question": "Wie früh sollten wir anfragen?",
+      "answer": "Für beliebte Sommer- und Herbsttermine idealerweise 9 bis 12 Monate im Voraus, aber wir finden auch einen Termin für schnell entschlossene."
+    },
+    {
+      "question": "Wie viele Stunden Begleitung sind möglich?",
+      "answer": "Ich begleite sowohl intime standesamtliche Hochzeiten mit kürzerem Rahmen als auch ganztägige Hochzeiten. Die genaue Dauer richtet sich nach eurem Ablauf, euren Plänen und dem, was sich für den Tag wirklich stimmig anfühlt."
+    },
+    {
+      "question": "Hilfst du uns bei der Wahl von Locations und dem Timing?",
+      "answer": "Ja, besonders bei Berghochzeiten unterstütze ich euch gern bei der Wahl passender Orte, beim Licht, bei der Tageszeit und bei einem Ablauf, der ruhig bleibt und trotzdem gut funktioniert."
+    },
+    {
+      "question": "Was passiert bei Regen oder schlechtem Wetter in den Bergen?",
+      "answer": "Gerade in Tirol und den Alpen plane ich immer mit Alternativen. Wetterwechsel gehören in den Bergen dazu, deshalb denke ich mögliche Ausweichorte, Zeitfenster und flexible Varianten von Anfang an mit."
+    },
+    {
+      "question": "Wie viele Bilder bekommen wir am Ende?",
+      "answer": "Das hängt von Dauer, Ablauf und Dynamik des Tages ab. Bei größeren Hochzeiten entsteht meist eine umfangreiche Reportage, bei Elopements eine kleinere, sehr dichte Auswahl. Wichtig ist für mich nicht eine fixe Zahl, sondern eine vollständige und stimmige Geschichte."
+    },
+    {
+      "question": "Wann bekommen wir unsere Bilder?",
+      "answer": "Eine erste Vorschau bekommt ihr zeitnah nach der Hochzeit. Die vollständige Galerie liefere ich sorgfältig bearbeitet innerhalb weniger Wochen, je nach Saison und Umfang der Begleitung."
+    },
+    {
+      "question": "Sind alle Bilder bearbeitet?",
+      "answer": "Ja. Alle Bilder, die ihr erhaltet, sind sorgfältig ausgewählt und in meinem Stil bearbeitet. Die Bildsprache bleibt dabei natürlich, ruhig und zeitlos, ohne übertriebene Effekte."
+    },
+    {
+      "question": "Bekommen wir eine Online-Galerie?",
+      "answer": "Ja. Ihr erhaltet eure Bilder in einer privaten Online-Galerie, die sich leicht mit Familie und Freunden teilen lässt. Dort könnt ihr die Bilder ansehen, herunterladen und in Ruhe wiedererleben."
+    },
+    {
+      "question": "Kann man bei dir auch Alben oder Fine-Art-Prints bestellen?",
+      "answer": "Ja, sehr gern. Hochwertige Alben und Prints sind für mich ein wichtiger Teil der Erinnerung, weil Bilder erst gedruckt ihre ganze Ruhe und Wirkung entfalten. Dazu berate ich euch gern nach der Hochzeit."
+    },
+    {
+      "question": "Können wir uns vor einer Buchung kennenlernen?",
+      "answer": "Unbedingt. Vor einer Buchung ist ein persönliches Kennenlernen per Video-Call oder, wenn es gut passt, auch vor Ort möglich. So können wir gemeinsam schauen, ob die Zusammenarbeit und das Gefühl wirklich stimmen."
+    },
+    {
+      "question": "Ist der Pragser Wildsee oder Lago di Braies für Elopements sehr überlaufen?",
+      "answer": "Ja, besonders in den Sommermonaten kann es dort sehr voll werden. Genau deshalb plane ich solche Elopements fast immer früh am Morgen, an Wochentagen oder in ruhigeren Reisezeiten. So bleibt mehr Privatsphäre und die Bilder wirken deutlich ruhiger."
+    },
+    {
+      "question": "Brauchen wir für ein Elopement in den Dolomiten eine Genehmigung?",
+      "answer": "Das hängt stark von der Location ab. Für manche Orte, Hütten, Bootsstege oder Naturschutzbereiche braucht es eine Genehmigung oder eine vorherige Reservierung, für andere nicht. Ich helfe euch gern dabei, frühzeitig zu prüfen, was an eurem Wunschort wirklich nötig ist."
+    },
+    {
+      "question": "Welcher Monat eignet sich am besten für ein Elopement in den Dolomiten?",
+      "answer": "Das kommt darauf an, welche Stimmung ihr euch wünscht. Juni bis Oktober ist meist am verlässlichsten für Wanderungen und freie Pässe. September und Anfang Oktober sind oft besonders schön, weil das Licht weicher ist und viele Orte ruhiger werden. Für Schnee, Stimmung und Kontraste können auch Wintermonate sehr reizvoll sein."
+    },
+    {
+      "question": "Kann man in Italien legal heiraten, wenn man aus dem Ausland kommt?",
+      "answer": "Ja, das ist grundsätzlich möglich, aber der bürokratische Aufwand ist je nach Herkunftsland deutlich höher. Viele Paare entscheiden sich deshalb für eine standesamtliche Trauung zu Hause und feiern ihr Elopement in Italien frei und ganz ohne Druck. Beides kann wunderschön funktionieren."
+    },
+    {
+      "question": "Lohnt sich ein Sonnenaufgangs-Elopement wirklich?",
+      "answer": "In den Bergen fast immer: Das Licht ist weicher, die Orte sind leerer und die Stimmung viel intimer. Gerade in den Dolomiten macht der Sonnenaufgang oft den Unterschied zwischen einer schönen und einer wirklich außergewöhnlichen Erfahrung."
+    },
+    {
+      "question": "Was passiert, wenn es am Elopement-Tag regnet?",
+      "answer": "Regen ist in den Bergen nichts Ungewöhnliches und oft sogar atmosphärisch sehr schön. Ich plane immer mit Ausweichideen, flexiblen Zeitfenstern und wetterfesten Alternativen. So bleibt euer Tag ruhig und stimmig, auch wenn das Wetter umschlägt."
+    },
+    {
+      "question": "Können ältere Familienmitglieder bei einem Elopement dabei sein?",
+      "answer": "Ja, natürlich. Dann wählen wir die Location einfach so, dass sie gut erreichbar bleibt und trotzdem besonders wirkt. Nicht jedes Elopement braucht eine lange Wanderung – es gibt viele wunderschöne Orte in Tirol und den Dolomiten, die auch mit Familie sehr gut funktionieren."
+    }
+  ]
+}

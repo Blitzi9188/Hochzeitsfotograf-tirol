@@ -1,0 +1,846 @@
+{
+  "de": {
+    "slug": "helicopter-elopement-guide",
+    "title": "Helikopter-Elopement-Guide | Fernansichten, Datenschutz und Planung",
+    "description": "Guide zur Planung eines Helikopter-Elopements in den Bergen mit ehrlichen Hinweisen zu Privatsphäre, Wetter, Zeitfluss und der Frage, wann es wirklich sinnvoll ist.",
+    "hero": {
+      "eyebrow": "Planungs-Guide",
+      "title": "Helikopter-Elopement-Guide",
+      "copy": "Ein Guide für Paare, die Weite, Abgeschiedenheit und einen klareren Tagesfluss suchen und verstehen möchten, wann ein Helikopter in den Bergen wirklich sinnvoll ist.",
+      "cta": "Planung starten",
+      "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-12.jpg",
+      "imageAlt": "Helikopterflug über den Bergen für ein Elopement"
+    },
+    "utility": {
+      "reading": "Guide",
+      "focus": "Für abgelegene Bergerlebnisse und Helikopter-Elopements",
+      "navOverview": "Überblick",
+      "navSeasons": "Planungsblöcke",
+      "navPhilosophy": "Einführung",
+      "navVisual": "Weitere Guides",
+      "navFaq": "FAQ"
+    },
+    "overview": {
+      "eyebrow": "Guide im Überblick",
+      "copy": "Ein Helikopter verändert nicht nur die Aussicht. Er verändert Wege, Zeitdruck, Geräusche, Begegnungen und oft das gesamte Gefühl des Tages. Für manche Paare ist genau das der Unterschied zwischen schön und wirklich frei.",
+      "items": [
+        {
+          "icon": "guests",
+          "label": "Ideal für",
+          "value": "Privatsphäre und Ferngefühl"
+        },
+        {
+          "icon": "cloud",
+          "label": "Bedürfnisse",
+          "value": "Wetterflexibilität"
+        },
+        {
+          "icon": "calendar",
+          "label": "Funktioniert am besten",
+          "value": "Mit bewusster Planung"
+        },
+        {
+          "icon": "path",
+          "label": "Zugangsvorteil",
+          "value": "Möglichkeiten ohne Menschenansammlungen"
+        },
+        {
+          "icon": "wind",
+          "label": "Ton",
+          "value": "Ruhig, nicht performativ"
+        }
+      ]
+    },
+    "philosophy": {
+      "eyebrow": "Eine erste Orientierung",
+      "title": "Ein Helikopter passt dann, wenn er Raum schafft und nicht nur Eindruck.",
+      "copy": "Die stärksten Tage aus der Luft fühlen sich selten laut an. Sie fühlen sich eher konzentriert an: weniger Wege, weniger Unterbrechungen, mehr Weite und eine Form von Ruhe, die am Boden nicht immer erreichbar ist."
+    },
+    "sections": {
+      "seasonOrder": [
+        "why",
+        "locations",
+        "flow",
+        "weather",
+        "privacy",
+        "bestfor"
+      ],
+      "seasons": {
+        "why": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-143.jpg",
+          "imageAlt": "Platzhalterbild für Helikopterroute über die Berge",
+          "eyebrow": "",
+          "title": "Warum ein Helikopter-Elopement wählen?",
+          "intro": "Manchmal geht es bei der Privatsphäre nicht darum, in jeder Hinsicht weit weg zu sein, sondern darum, die offensichtlichen Wege hinter sich zu lassen.",
+          "copy": "Ein Helikopter kann Landschaften erschließen, die man sonst zu lange erreichen würde, oder die sich bei der Ankunft zu exponiert anfühlen. Bei manchen Paaren schafft es ein stärkeres Gefühl der Freiheit, besonders wenn Zeit, Wetter oder ein Heiratsantrag eine Rolle spielen.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "wind",
+              "label": "Ideal für",
+              "value": "Ferne Momente und weniger Menschenmassen"
+            },
+            {
+              "icon": "guests",
+              "label": "Emotionale Stärke",
+              "value": "Skalieren ihr mit Privatsphäre"
+            },
+            {
+              "icon": "calendar",
+              "label": "Planungsbedarf",
+              "value": "Ein ruhiger, flexibler Zeitplan"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "locations": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-7.jpg",
+          "imageAlt": "Platzhalterbild für abgelegene alpine Aussichtspunkte",
+          "eyebrow": "",
+          "title": "Die schönsten Orte",
+          "intro": "Nicht jede Landschaft braucht einen Hubschrauber. Die besten sind die Orte, an denen der Zugang das Gefühl am meisten verändert.",
+          "copy": "Abgelegene Bergrücken, ruhigere Hochwiesen und Landschaften, die schwierig werden oder vom Land überfüllt sind, profitieren oft am meisten. In manchen Fällen wird der Flug selbst Teil der Atmosphäre und nicht nur der Weg zur Ankunft.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "path",
+              "label": "Starke Regionen",
+              "value": "Dolomiten, Südtirol, Nordtirol"
+            },
+            {
+              "icon": "wind",
+              "label": "Beste Stimmung",
+              "value": "Ruhig, wetterabhängig, geräumig"
+            },
+            {
+              "icon": "guests",
+              "label": "Ideal für",
+              "value": "Heiratsanträge, Elopements, private Gelübde"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "flow": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Hut-106.jpg",
+          "imageAlt": "Platzhalterbild für den Ablauf des Helikopter-Erlebnisses",
+          "eyebrow": "",
+          "title": "Wie das Erlebnis funktioniert",
+          "intro": "Der Tag wird normalerweise einfacher, wenn der Helikopterteil sanft eingearbeitet ist.",
+          "copy": "Die stärksten Helikopter-Elopements bauen nicht alles rund um den Flug auf. ihr fügen es sorgfältig in den größeren Rhythmus ein: vielleicht ein intimer Morgen, eine abgelegene Landung, private Gelübde, dann später am Tag eine sanftere Zeit am Boden.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "sun",
+              "label": "Bester Rhythmus",
+              "value": "Flug als ein Kapitel, nicht die ganze Geschichte"
+            },
+            {
+              "icon": "guests",
+              "label": "Nützlich für",
+              "value": "Private Gelübde oder Fernporträts"
+            },
+            {
+              "icon": "cloud",
+              "label": "Timing",
+              "value": "Hängt ganz vom Wetter ab"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "weather": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-206.jpg",
+          "imageAlt": "Platzhalterbild für wettergesteuerte Flugplanung",
+          "eyebrow": "",
+          "title": "Wetterflexibilität",
+          "intro": "Das Wetter entscheidet hier mehr als fast anderswo.",
+          "copy": "Ein Helikoptertag funktioniert nur, wenn der Zeitplan Spielraum für Bedingungen lässt. Bewölkung, Wind und Sicht sind alle wichtig. Das macht den Tag nicht brüchig. Es bedeutet lediglich, dass der Plan von Anfang an ehrlich und flexibel bleiben sollte.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "cloud",
+              "label": "Hauptfaktoren",
+              "value": "Wind, Sicht, Wolke"
+            },
+            {
+              "icon": "calendar",
+              "label": "Beste Planung",
+              "value": "Haltet um das Flugfenster Platz"
+            },
+            {
+              "icon": "path",
+              "label": "Sicherung",
+              "value": "Eine bodengestützte Alternative hilft immer"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "privacy": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-324.jpg",
+          "imageAlt": "Platzhalterbild für private, abgelegene Atmosphäre",
+          "eyebrow": "",
+          "title": "Privatsphäre und menschenleeres Erlebnis",
+          "intro": "Der stärkste Grund für einen Helikopter ist oft die Ruhe, die er erzeugt, und nicht das Spektakel.",
+          "copy": "Für Heiratsanträge, private Gelübde oder Paare, die sich ohne Publikum am wohlsten fühlen, kann der emotionale Wert der Privatsphäre weitaus wichtiger sein als die visuelle Neuheit des Fluges selbst.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "guests",
+              "label": "Ideal für",
+              "value": "Private, ungestörte Momente"
+            },
+            {
+              "icon": "crowd",
+              "label": "Hauptvorteil",
+              "value": "Abstand zu Menschenmassen"
+            },
+            {
+              "icon": "wind",
+              "label": "Ton",
+              "value": "Ruhig und absichtlich"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "bestfor": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Proposal-Dolomites-236.jpg",
+          "imageAlt": "Platzhalterbild für Heiratsantrag und Elopement-Nutzung",
+          "eyebrow": "",
+          "title": "Ideal für Heiratsanträge und Elopements geeignet",
+          "intro": "Je persönlicher und kompakter das Erlebnis, desto natürlicher passt ein Helikopter hinein.",
+          "copy": "Bei kleinen Elopements, Heiratsanträgen und mehrtägigen Bergerlebnissen ist die Helikopter-Option oft die eleganteste Variante. Es wird zu einem Kapitel in einer umfassenderen Geschichte, nicht zu ihrem eigentlichen Zweck.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "guests",
+              "label": "Die natürlichste Passform",
+              "value": "Heiratsanträge und intime Elopements"
+            },
+            {
+              "icon": "calendar",
+              "label": "Kann arbeiten",
+              "value": "Auch mehrtägige Erlebnisse"
+            },
+            {
+              "icon": "sun",
+              "label": "Am besten wann",
+              "value": "Der Flug vertieft die Stimmung, lenkt nicht von ihr ab"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        }
+      }
+    },
+    "planning": {
+      "eyebrow": "Planungsnotizen",
+      "title": "Was bei Hubschraubern normalerweise am wichtigsten ist.",
+      "intro": "Der Erfolg eines Helikopter-Tages beruht auf Zurückhaltung, Vertrauen und Flexibilität und nicht auf dem Versuch, jede Minute zu überdesignen.",
+      "items": [
+        {
+          "label": "Wetter",
+          "title": "Lasst rund um das Flugfenster ausreichend Platz.",
+          "copy": "Ein überstürzter Helikopterplan fühlt sich fast immer schlechter an als ein flexibler.",
+          "meta": "Flexibilität schützt Ruhe."
+        },
+        {
+          "label": "Bodensicherung",
+          "title": "Ich liebe auch immer die geerdete Version.",
+          "copy": "Auch wenn sich das Wetter ändert, möchten ihr, dass sich der Tag bewusst anfühlt und nicht wie ein Kompromiss.",
+          "meta": "Backup sollte sich auch schön anfühlen."
+        },
+        {
+          "label": "Zweck",
+          "title": "Erfahren ihr, warum der Helikopter dazugehört.",
+          "copy": "Privatsphäre, Fernzugriff und emotionale Ruhe sind stärkere Gründe als das Spektakel allein.",
+          "meta": "Der Zweck prägt den Ton."
+        },
+        {
+          "label": "Tempo",
+          "title": "Lasst nicht zu, dass der Flug den ganzen Tag verschlingt.",
+          "copy": "Die unvergesslichsten Helikopter-Erlebnisse fühlen sich in einen größeren Rhythmus integriert und nicht davon isoliert an.",
+          "meta": "Behaltet eine zusammenhängende Geschichte bei."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Fragen, die Paare oft zu Helikopter-Elopements stellen.",
+      "intro": "Die meisten Fragen drehen sich nicht um Luxus, sondern um Sinn: Wann macht ein Helikopter den Tag wirklich freier und wann wäre der Boden die stärkere Wahl?",
+      "items": [
+        {
+          "q": "Ist ein Helikopter-Elopement nur etwas für sehr große Budgets?",
+          "a": "Nicht automatisch, aber es ist natürlich ein zusätzlicher Baustein. Die wichtigere Frage ist meist, ob er euch wirklich mehr Ruhe, mehr Zeit oder Zugang zu einem Ort gibt, den ihr sonst nicht sinnvoll erleben könntet."
+        },
+        {
+          "q": "Was ist, wenn sich das Wetter ändert?",
+          "a": "Dann braucht es Spielraum. Helikopter-Tage hängen stärker am Wetter als viele klassische Elopements. Gute Planung bedeutet deshalb immer auch: Alternativen denken, Zeitfenster offen halten und nicht alles auf eine einzige Minute legen."
+        },
+        {
+          "q": "Fühlt es sich zu protzig an?",
+          "a": "Nur dann, wenn es nicht zu euch passt. Für manche Paare wirkt es überraschend still und konzentriert, weil lange Wege, Menschenmengen und ständige Wechsel wegfallen. Es muss sich nicht groß anfühlen, um besonders zu sein."
+        },
+        {
+          "q": "Ist es gut für Vorschläge?",
+          "a": "Ja, oft sogar sehr. Gerade für Proposals kann ein Helikopter viel Privatsphäre, Weite und einen klaren Ablauf schaffen, wenn ihr einen wirklich abgeschiedenen Moment sucht."
+        }
+      ]
+    },
+    "related": {
+      "eyebrow": "Verwandte Leitfäden",
+      "hint": "Wischt nach links oder rechts, um weitere Guides zu sehen.",
+      "items": [
+        {
+          "label": "Dolomiten",
+          "title": "Elopement-Guide für die Dolomiten",
+          "copy": "Ein ruhiger Ausgangspunkt für Paare, die ein Dolomites Elopement oder eine intime Berghochzeit planen und verstehen möchten, wie Licht, Wege, Wetter und Menschenmengen den Tag wirklich prägen.",
+          "href": "/guides/dolomites-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-120.jpg",
+          "imageAlt": "Paar bei einem Dolomiten-Elopement im weichen Morgenlicht",
+          "alt": "Paar bei einem Dolomiten-Elopement im weichen Morgenlicht"
+        },
+        {
+          "label": "Standorte",
+          "title": "Die beliebtesten Elopement-Orte in den Dolomiten",
+          "copy": "Ein kuratierter Guide für Paare, die nicht einfach irgendeine schöne Aussicht suchen, sondern den Ort, dessen Stimmung wirklich zu ihrem Tag passt.",
+          "href": "/guides/best-dolomites-elopement-locations/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-191.jpg",
+          "imageAlt": "Elopement-Standorte in den Dolomiten",
+          "alt": "Elopement-Standorte in den Dolomiten"
+        },
+        {
+          "label": "Standorte",
+          "title": "Lago di Braies Guide",
+          "copy": "Ein ehrlicher Guide für Paare, die den Pragser Wildsee nicht nur als berühmtes Bild kennen, sondern verstehen möchten, wann er still, weich und tatsächlich erlebbar wird.",
+          "href": "/guides/lago-di-braies-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopemnt-Dolomites-Lago-di-Braies-19.jpg",
+          "imageAlt": "Lago di Braies mit ruhigem Wasser und frühem Licht",
+          "alt": "Lago di Braies mit ruhigem Wasser und frühem Licht"
+        },
+        {
+          "label": "Standorte",
+          "title": "Seceda Guide",
+          "copy": "Ein Guide für Paare, die an Seceda nicht nur die berühmte Kante suchen, sondern das Gefühl von Weite, Wind und offenem Berglicht, das diesen Ort so unverwechselbar macht.",
+          "href": "/guides/seceda-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Seceda-180.jpg",
+          "imageAlt": "Seceda bei klarem Berglicht",
+          "alt": "Seceda bei klarem Berglicht"
+        },
+        {
+          "label": "Standorte",
+          "title": "Cadini di Misurina Guide",
+          "copy": "Ein Guide für Paare, die an Cadini diese wilde, kinoreife Spannung lieben und zugleich wissen möchten, wann der Ort zugänglich, sicher und wirklich stimmig ist.",
+          "href": "/guides/cadini-di-misurina-guide/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-12.jpg",
+          "imageAlt": "Cadini di Misurina mit markanten Felsformen",
+          "alt": "Cadini di Misurina mit markanten Felsformen"
+        },
+        {
+          "label": "Standorte",
+          "title": "Drei Zinnen Guide",
+          "copy": "Ein ehrlicher Guide für Paare, die Drei Zinnen nicht nur wegen des berühmten Blicks wählen, sondern wegen dieser monumentalen, fast unwirklichen Präsenz, die der Ort im richtigen Moment entfaltet.",
+          "href": "/guides/tre-cime-wedding-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14.jpg",
+          "imageAlt": "Drei Zinnen bei klarem Berglicht",
+          "alt": "Drei Zinnen bei klarem Berglicht"
+        },
+        {
+          "label": "Planung",
+          "title": "Beste Jahreszeit für ein Dolomiten-Elopement",
+          "copy": "Ein ehrlicher Guide zu Licht, Temperaturen, Menschenmengen und der Frage, wann sich die Berge nicht nur schön, sondern wirklich stimmig für euch anfühlen.",
+          "href": "/guides/best-time-for-a-dolomites-elopement/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-16.jpg",
+          "imageAlt": "Vorhandenes Bild zur schönsten Zeit in den Dolomiten",
+          "alt": "Vorhandenes Bild zur schönsten Zeit in den Dolomiten"
+        },
+        {
+          "label": "Planung",
+          "title": "Sonnenaufgang vs. Sonnenuntergang in den Dolomiten",
+          "copy": "Ein ehrlicher Vergleich für Paare, die nicht nur schönes Licht suchen, sondern verstehen möchten, welche Tageszeit zu ihrem Energielevel, ihrem Ort und dem gewünschten Gefühl passt.",
+          "href": "/guides/sunrise-vs-sunset-dolomites/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Photo-368.jpg",
+          "imageAlt": "Lichtstimmung in den Bergen bei Sonnenaufgang oder Sonnenuntergang",
+          "alt": "Lichtstimmung in den Bergen bei Sonnenaufgang oder Sonnenuntergang"
+        },
+        {
+          "label": "Planung",
+          "title": "Guide zur Wetter- und Backup-Planung",
+          "copy": "Ein ruhiger Wetter-Guide für Paare, die in den Bergen nicht auf perfekte Bedingungen hoffen, sondern einen Tag planen möchten, der auch bei Nebel, Wind oder Regen stimmig bleibt.",
+          "href": "/guides/weather-and-backup-planning/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-161.jpg",
+          "imageAlt": "Wetterstimmung in den Dolomiten mit Wolken und Nebel",
+          "alt": "Wetterstimmung in den Dolomiten mit Wolken und Nebel"
+        },
+        {
+          "label": "Planung",
+          "title": "Was man in den Bergen anziehen sollte",
+          "copy": "Ein praktischer Guide für Paare, die in den Bergen nicht nur schön aussehen, sondern sich auch frei bewegen, warm bleiben und sich in ihrer Kleidung wirklich wiederfinden möchten.",
+          "href": "/guides/what-to-wear-in-the-mountains/",
+          "image": "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Hut-13.jpg",
+          "imageAlt": "Kleidung für ein Elopement in den Bergen",
+          "alt": "Kleidung für ein Elopement in den Bergen"
+        },
+        {
+          "label": "Planung",
+          "title": "Mehrtägiger Elopement-Guide",
+          "copy": "Ein Guide für Paare, die mehr wollen als ein paar schnelle Stunden in den Bergen und ihren Hochzeitstag lieber in Ruhe entfalten lassen möchten.",
+          "href": "/guides/multi-day-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Insta-11.jpg",
+          "imageAlt": "Mehrtägiges Elopement in den Dolomiten",
+          "alt": "Mehrtägiges Elopement in den Dolomiten"
+        }
+      ]
+    },
+    "final": {
+      "eyebrow": "Ruhig geplant",
+      "title": "Lasst uns etwas gestalten, das sich ruhig, persönlich und zutiefst wahr anfühlt.",
+      "copy": "Wenn sich dieser Guide bereits nah an dem anfühlt, was ihr euch wünscht, helfe ich euch gern dabei, dieses Gefühl in etwas Ruhiges, Filmisches und wirklich Eigenes in den Bergen zu verwandeln.",
+      "cta": "Termin anfragen",
+      "image": "/assets/uploads/Blitzkneisser-Photo-Drei-Zinnen-Italy-24.jpg",
+      "imageAlt": "Drei Zinnen in den Dolomiten bei ruhigem, klarem Licht"
+    }
+  },
+  "en": {
+    "slug": "helicopter-elopement-guide",
+    "title": "Helicopter Elopement Guide | Remote Views, Privacy and Planning",
+    "description": "A guide to planning a helicopter elopement in the mountains, with honest notes on privacy, weather, timing and when it truly makes sense.",
+    "hero": {
+      "eyebrow": "Planning Guide",
+      "title": "Helicopter Elopement Guide",
+      "copy": "A guide for couples seeking more space, privacy and a clearer flow to the day, and wanting to understand when a helicopter in the mountains genuinely makes sense.",
+      "cta": "Start planning",
+      "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-12.jpg",
+      "imageAlt": "Helicopter flight above the mountains for an elopement"
+    },
+    "utility": {
+      "reading": "Guide",
+      "focus": "For remote mountain experiences and helicopter elopements",
+      "navOverview": "Overview",
+      "navSeasons": "Planning Blocks",
+      "navPhilosophy": "Intro",
+      "navVisual": "More guides",
+      "navFaq": "FAQ"
+    },
+    "overview": {
+      "eyebrow": "Guide Overview",
+      "copy": "A helicopter changes more than the view. It changes travel time, physical effort, noise, encounters and often the entire emotional rhythm of the day. For some couples, that is the difference between beautiful and truly free.",
+      "items": [
+        {
+          "icon": "guests",
+          "label": "Best For",
+          "value": "Privacy and remote feeling"
+        },
+        {
+          "icon": "cloud",
+          "label": "Needs",
+          "value": "Weather flexibility"
+        },
+        {
+          "icon": "calendar",
+          "label": "Works Best",
+          "value": "With intentional planning"
+        },
+        {
+          "icon": "path",
+          "label": "Access Benefit",
+          "value": "Crowd-free possibilities"
+        },
+        {
+          "icon": "wind",
+          "label": "Tone",
+          "value": "Quiet, not performative"
+        }
+      ]
+    },
+    "philosophy": {
+      "eyebrow": "A first note",
+      "title": "A helicopter works best when it creates space, not when it simply adds impact.",
+      "copy": "The strongest days in the air rarely feel loud. They feel concentrated: fewer transitions, fewer interruptions, more distance and a kind of calm that is not always available from the ground."
+    },
+    "sections": {
+      "seasonOrder": [
+        "why",
+        "locations",
+        "flow",
+        "weather",
+        "privacy",
+        "bestfor"
+      ],
+      "seasons": {
+        "why": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-143.jpg",
+          "imageAlt": "Placeholder image for helicopter route over the mountains",
+          "eyebrow": "",
+          "title": "Why choose a helicopter elopement",
+          "intro": "Sometimes privacy is not about being far away in every sense, but about leaving the obvious routes behind.",
+          "copy": "A helicopter can open landscapes that would otherwise take too long to reach, or feel too exposed once you arrive. For some couples it creates a stronger sense of freedom, especially when time, weather or a proposal element matters.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "wind",
+              "label": "Best For",
+              "value": "Remote moments and fewer crowds"
+            },
+            {
+              "icon": "guests",
+              "label": "Emotional Strength",
+              "value": "Scale with privacy"
+            },
+            {
+              "icon": "calendar",
+              "label": "Planning Need",
+              "value": "A calm, flexible schedule"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "locations": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-7.jpg",
+          "imageAlt": "Placeholder image for remote alpine viewpoints",
+          "eyebrow": "",
+          "title": "Best locations",
+          "intro": "Not every landscape needs a helicopter. The best ones are the places where access changes the feeling most.",
+          "copy": "Remote ridges, quieter high meadows and landscapes that become difficult or crowded by land often benefit most. In some cases the flight itself becomes part of the atmosphere, not only the way to arrive.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "path",
+              "label": "Strong Regions",
+              "value": "Dolomites, South Tyrol, North Tyrol"
+            },
+            {
+              "icon": "wind",
+              "label": "Best Mood",
+              "value": "Quiet, weather-led, spacious"
+            },
+            {
+              "icon": "guests",
+              "label": "Ideal For",
+              "value": "Proposals, elopements, private vows"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "flow": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Hut-106.jpg",
+          "imageAlt": "Placeholder image for how the helicopter experience flows",
+          "eyebrow": "",
+          "title": "How the experience works",
+          "intro": "The day usually becomes simpler once the helicopter part is woven in gently.",
+          "copy": "The strongest helicopter elopements do not build everything around the flight. They place it carefully inside the wider rhythm: perhaps an intimate morning, a remote landing, private vows, then softer time later in the day on the ground.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "sun",
+              "label": "Best Rhythm",
+              "value": "Flight as one chapter, not the whole story"
+            },
+            {
+              "icon": "guests",
+              "label": "Useful For",
+              "value": "Private vows or remote portraits"
+            },
+            {
+              "icon": "cloud",
+              "label": "Timing",
+              "value": "Depends entirely on weather"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "weather": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-206.jpg",
+          "imageAlt": "Placeholder image for weather-led flight planning",
+          "eyebrow": "",
+          "title": "Weather flexibility",
+          "intro": "Weather decides more here than almost anywhere else.",
+          "copy": "A helicopter day only works when the timeline leaves room for conditions. Cloud, wind and visibility all matter. That does not make the day fragile. It simply means the plan should stay honest and flexible from the beginning.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "cloud",
+              "label": "Main Factors",
+              "value": "Wind, visibility, cloud"
+            },
+            {
+              "icon": "calendar",
+              "label": "Best Planning",
+              "value": "Hold space around the flight window"
+            },
+            {
+              "icon": "path",
+              "label": "Backup",
+              "value": "Ground-based alternative always helps"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "privacy": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-324.jpg",
+          "imageAlt": "Placeholder image for private remote atmosphere",
+          "eyebrow": "",
+          "title": "Privacy and crowd-free experience",
+          "intro": "The strongest reason for a helicopter is often the quiet it creates, not the spectacle.",
+          "copy": "For proposals, private vows or couples who feel most themselves without an audience, the emotional value of privacy can be far more important than the visual novelty of the flight itself.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "guests",
+              "label": "Best For",
+              "value": "Private, uninterrupted moments"
+            },
+            {
+              "icon": "crowd",
+              "label": "Main Benefit",
+              "value": "Distance from crowds"
+            },
+            {
+              "icon": "wind",
+              "label": "Tone",
+              "value": "Quiet and intentional"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "bestfor": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Proposal-Dolomites-236.jpg",
+          "imageAlt": "Placeholder image for proposal and elopement use",
+          "eyebrow": "",
+          "title": "Best for proposals and elopements",
+          "intro": "The more personal and compact the experience, the more naturally a helicopter can fit.",
+          "copy": "Small elopements, proposals and multi-day mountain experiences often hold the helicopter option most gracefully. It becomes one chapter in a wider story, not the whole purpose of it.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "guests",
+              "label": "Most Natural Fit",
+              "value": "Proposals and intimate elopements"
+            },
+            {
+              "icon": "calendar",
+              "label": "Can Work For",
+              "value": "Multi-day experiences too"
+            },
+            {
+              "icon": "sun",
+              "label": "Best When",
+              "value": "The flight deepens the mood, not distracts from it"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        }
+      }
+    },
+    "planning": {
+      "eyebrow": "Planning Notes",
+      "title": "What usually matters most with helicopters.",
+      "intro": "The success of a helicopter day lives in restraint, trust and flexibility rather than in trying to over-design every minute.",
+      "items": [
+        {
+          "label": "Weather",
+          "title": "Leave real space around the flight window.",
+          "copy": "A rushed helicopter plan almost always feels worse than a flexible one.",
+          "meta": "Flexibility protects calm."
+        },
+        {
+          "label": "Ground backup",
+          "title": "Always love the grounded version too.",
+          "copy": "If the weather shifts, you still want the day to feel intentional, not like a compromise.",
+          "meta": "Backup should feel beautiful too."
+        },
+        {
+          "label": "Purpose",
+          "title": "Know why the helicopter belongs.",
+          "copy": "Privacy, remote access and emotional quiet are stronger reasons than spectacle alone.",
+          "meta": "Purpose shapes the tone."
+        },
+        {
+          "label": "Pacing",
+          "title": "Do not let the flight swallow the whole day.",
+          "copy": "The most memorable helicopter experiences feel integrated into a wider rhythm, not isolated from it.",
+          "meta": "Keep one coherent story."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Questions couples often ask about helicopter elopements.",
+      "intro": "Most of them are not really about luxury. They are about whether a helicopter genuinely creates more freedom, privacy and flow for the day.",
+      "items": [
+        {
+          "q": "Is a helicopter elopement only for very large budgets?",
+          "a": "Not automatically, but it is of course an added layer. The more useful question is whether it gives you more calm, more time or access to a place that would otherwise not make sense for your day."
+        },
+        {
+          "q": "What if the weather changes?",
+          "a": "Then flexibility matters. Helicopter days depend on weather more directly than many ground-based elopements. Good planning always means leaving room, thinking in alternatives and not attaching the whole day to one exact minute."
+        },
+        {
+          "q": "Can it feel too showy?",
+          "a": "Only if it does not fit you. For some couples, it feels surprisingly quiet and focused because long approaches, crowds and constant transitions fall away. It does not have to feel loud to feel special."
+        },
+        {
+          "q": "Is it good for proposals?",
+          "a": "Yes, very often. For proposals especially, a helicopter can create privacy, scale and a very clean emotional flow if you want the moment to feel truly secluded."
+        }
+      ]
+    },
+    "related": {
+      "eyebrow": "Related Guides",
+      "hint": "Swipe left or right to explore more guides.",
+      "items": [
+        {
+          "label": "Dolomites",
+          "title": "Dolomites Elopement Guide",
+          "copy": "A calm starting point for couples planning a Dolomites Elopement or intimate mountain wedding and wanting to understand how light, access, weather and crowds truly shape the day.",
+          "href": "/guides/dolomites-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-120.jpg",
+          "imageAlt": "Couple during a Dolomites elopement in soft morning light",
+          "alt": "Couple during a Dolomites elopement in soft morning light"
+        },
+        {
+          "label": "Locations",
+          "title": "The most popular elopement locations in the Dolomites",
+          "copy": "A curated guide for couples who are not looking for just any beautiful view, but for the place whose atmosphere truly fits the day they want.",
+          "href": "/guides/best-dolomites-elopement-locations/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-191.jpg",
+          "imageAlt": "Elopement locations in the Dolomites",
+          "alt": "Elopement locations in the Dolomites"
+        },
+        {
+          "label": "Locations",
+          "title": "Lago di Braies Guide",
+          "copy": "An honest guide for couples who know Lago di Braies as more than a famous photograph and want to understand when it feels soft, quiet and truly worth experiencing.",
+          "href": "/guides/lago-di-braies-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopemnt-Dolomites-Lago-di-Braies-19.jpg",
+          "imageAlt": "Lago di Braies with still water and early light",
+          "alt": "Lago di Braies with still water and early light"
+        },
+        {
+          "label": "Locations",
+          "title": "Seceda Guide",
+          "copy": "A guide for couples drawn to Seceda not only for the famous ridge, but for the feeling of openness, wind and high alpine light that makes it so distinctive.",
+          "href": "/guides/seceda-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Seceda-180.jpg",
+          "imageAlt": "Seceda in clear mountain light",
+          "alt": "Seceda in clear mountain light"
+        },
+        {
+          "label": "Locations",
+          "title": "Cadini di Misurina Guide",
+          "copy": "A guide for couples who love the wild, cinematic tension of Cadini and want to know when it is accessible, safe and genuinely worth choosing.",
+          "href": "/guides/cadini-di-misurina-guide/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-12.jpg",
+          "imageAlt": "Cadini di Misurina with dramatic rock formations",
+          "alt": "Cadini di Misurina with dramatic rock formations"
+        },
+        {
+          "label": "Locations",
+          "title": "Tre Cime Wedding Guide",
+          "copy": "An honest guide for couples choosing Tre Cime not only for the famous view, but for the monumental, almost unreal presence the place carries when the timing is right.",
+          "href": "/guides/tre-cime-wedding-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14.jpg",
+          "imageAlt": "Tre Cime in clear mountain light",
+          "alt": "Tre Cime in clear mountain light"
+        },
+        {
+          "label": "Planning",
+          "title": "Best Time for a Dolomites Elopement",
+          "copy": "An honest guide to light, temperatures, crowds and the question of when the mountains will not only look beautiful, but genuinely feel right for you.",
+          "href": "/guides/best-time-for-a-dolomites-elopement/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-16.jpg",
+          "imageAlt": "Existing image for best time in the Dolomites",
+          "alt": "Existing image for best time in the Dolomites"
+        },
+        {
+          "label": "Planning",
+          "title": "Sunrise vs Sunset in the Dolomites",
+          "copy": "An honest comparison for couples who want more than beautiful light and are trying to understand which time of day fits their energy, their location and the feeling they want to remember.",
+          "href": "/guides/sunrise-vs-sunset-dolomites/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Photo-368.jpg",
+          "imageAlt": "Mountain light at sunrise or sunset",
+          "alt": "Mountain light at sunrise or sunset"
+        },
+        {
+          "label": "Planning",
+          "title": "Weather & Backup Planning Guide",
+          "copy": "A calm weather guide for couples who do not want to hope for perfect conditions in the mountains, but want to build a day that still feels right in fog, wind or rain.",
+          "href": "/guides/weather-and-backup-planning/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-161.jpg",
+          "imageAlt": "Weather in the Dolomites with clouds and fog",
+          "alt": "Weather in the Dolomites with clouds and fog"
+        },
+        {
+          "label": "Planning",
+          "title": "What to Wear in the Mountains",
+          "copy": "A practical guide for couples who want to look beautiful in the mountains, but also move freely, stay warm and still feel like themselves in what they wear.",
+          "href": "/guides/what-to-wear-in-the-mountains/",
+          "image": "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Hut-13.jpg",
+          "imageAlt": "Outfit ideas for a mountain elopement",
+          "alt": "Outfit ideas for a mountain elopement"
+        },
+        {
+          "label": "Planning",
+          "title": "Multi-Day Elopement Guide",
+          "copy": "A guide for couples who want more than a few rushed hours in the mountains and would rather let the day unfold with space around it.",
+          "href": "/guides/multi-day-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Insta-11.jpg",
+          "imageAlt": "Multi-day elopement in the Dolomites",
+          "alt": "Multi-day elopement in the Dolomites"
+        }
+      ]
+    },
+    "final": {
+      "eyebrow": "Planned with intention",
+      "title": "Let’s shape something that feels quiet, personal and deeply true to you.",
+      "copy": "If this guide already feels close to the way you want the day to move, I would love to help you turn that feeling into something calm, cinematic and genuinely your own in the mountains.",
+      "cta": "Inquire now",
+      "image": "/assets/uploads/Blitzkneisser-Photo-Drei-Zinnen-Italy-24.jpg",
+      "imageAlt": "Tre Cime in the Dolomites in calm, clear light"
+    }
+  }
+}

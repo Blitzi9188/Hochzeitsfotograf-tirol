@@ -1,0 +1,130 @@
+{
+  "pages": [
+    {
+      "slug": "best-dolomites-elopement-locations",
+      "titleDe": "Die beliebtesten Elopement-Orte in den Dolomiten",
+      "titleEn": "The most popular elopement locations in the Dolomites",
+      "file": "content/guides/pages/best-dolomites-elopement-locations.json",
+      "html": "guides/best-dolomites-elopement-locations/index.html"
+    },
+    {
+      "slug": "best-time-for-a-dolomites-elopement",
+      "titleDe": "Besten Jahreszeiten für ein Dolomiten-Elopement",
+      "titleEn": "Best Time for a Dolomites Elopement",
+      "file": "content/guides/pages/best-time-for-a-dolomites-elopement.json",
+      "html": "guides/best-time-for-a-dolomites-elopement/index.html"
+    },
+    {
+      "slug": "cadini-di-misurina-guide",
+      "titleDe": "Cadini di Misurina Guide",
+      "titleEn": "Cadini di Misurina Guide",
+      "file": "content/guides/pages/cadini-di-misurina-guide.json",
+      "html": "guides/cadini-di-misurina-guide/index.html"
+    },
+    {
+      "slug": "civil-wedding-austria-foreign-couples",
+      "titleDe": "Standesamtliche Hochzeit in Österreich ",
+      "titleEn": "Civil Wedding in Austria",
+      "file": "content/guides/pages/civil-wedding-austria-foreign-couples.json",
+      "html": "guides/civil-wedding-austria-foreign-couples/index.html"
+    },
+    {
+      "slug": "dolomites-elopement-guide",
+      "titleDe": "Elopement-Guide für die Dolomiten",
+      "titleEn": "Dolomites Elopement Guide",
+      "file": "content/guides/pages/dolomites-elopement-guide.json",
+      "html": "guides/dolomites-elopement-guide/index.html"
+    },
+    {
+      "slug": "elopement-vs-traditional-wedding-alps",
+      "titleDe": "Elopement oder klassische Hochzeit in den Alpen",
+      "titleEn": "Elopement vs Traditional Wedding in the Alps",
+      "file": "content/guides/pages/elopement-vs-traditional-wedding-alps.json",
+      "html": "guides/elopement-vs-traditional-wedding-alps/index.html"
+    },
+    {
+      "slug": "helicopter-elopement-guide",
+      "titleDe": "Helikopter-Elopement-Guide",
+      "titleEn": "Helicopter Elopement Guide",
+      "file": "content/guides/pages/helicopter-elopement-guide.json",
+      "html": "guides/helicopter-elopement-guide/index.html"
+    },
+    {
+      "slug": "lago-di-braies-guide",
+      "titleDe": "Lago di Braies Guide",
+      "titleEn": "Lago di Braies Guide",
+      "file": "content/guides/pages/lago-di-braies-guide.json",
+      "html": "guides/lago-di-braies-guide/index.html"
+    },
+    {
+      "slug": "multi-day-elopement-guide",
+      "titleDe": "Mehrtägiger Elopement-Guide",
+      "titleEn": "Multi-Day Elopement Guide",
+      "file": "content/guides/pages/multi-day-elopement-guide.json",
+      "html": "guides/multi-day-elopement-guide/index.html"
+    },
+    {
+      "slug": "best-places-officially-elope-tyrol",
+      "titleDe": "Die schönsten Orte für eine offizielle Trauung in Tirol",
+      "titleEn": "Best Places to Officially Elope in Tyrol",
+      "file": "content/guides/pages/best-places-officially-elope-tyrol.json",
+      "html": "guides/best-places-officially-elope-tyrol/index.html"
+    },
+    {
+      "slug": "seceda-guide",
+      "titleDe": "Seceda Guide",
+      "titleEn": "Seceda Guide",
+      "file": "content/guides/pages/seceda-guide.json",
+      "html": "guides/seceda-guide/index.html"
+    },
+    {
+      "slug": "sunrise-vs-sunset-dolomites",
+      "titleDe": "Sonnenaufgang vs. Sonnenuntergang in den Dolomiten",
+      "titleEn": "Sunrise vs Sunset in the Dolomites",
+      "file": "content/guides/pages/sunrise-vs-sunset-dolomites.json",
+      "html": "guides/sunrise-vs-sunset-dolomites/index.html"
+    },
+    {
+      "slug": "tre-cime-wedding-guide",
+      "titleDe": "Drei Zinnen Guide",
+      "titleEn": "Tre Cime Wedding Guide",
+      "file": "content/guides/pages/tre-cime-wedding-guide.json",
+      "html": "guides/tre-cime-wedding-guide/index.html"
+    },
+    {
+      "slug": "weather-and-backup-planning",
+      "titleDe": "Guide zur Wetter- und Backup-Planung",
+      "titleEn": "Weather & Backup Planning Guide",
+      "file": "content/guides/pages/weather-and-backup-planning.json",
+      "html": "guides/weather-and-backup-planning/index.html"
+    },
+    {
+      "slug": "what-to-wear-in-the-mountains",
+      "titleDe": "Was man in den Bergen anziehen sollte",
+      "titleEn": "What to Wear in the Mountains",
+      "file": "content/guides/pages/what-to-wear-in-the-mountains.json",
+      "html": "guides/what-to-wear-in-the-mountains/index.html"
+    },
+    {
+      "slug": "dolomites-proposal-guide",
+      "titleDe": "Verlobung in den Dolomiten planen",
+      "titleEn": "Planning a Proposal in the Dolomites",
+      "file": "content/guides/pages/dolomites-proposal-guide.json",
+      "html": "guides/dolomites-proposal-guide/index.html"
+    },
+    {
+      "slug": "cortina-dampezzo-guide",
+      "titleDe": "Cortina d’Ampezzo Guide",
+      "titleEn": "Cortina d’Ampezzo Guide",
+      "file": "content/guides/pages/cortina-dampezzo-guide.json",
+      "html": "guides/cortina-dampezzo-guide/index.html"
+    },
+    {
+      "slug": "val-di-funes-guide",
+      "titleDe": "Val di Funes Guide",
+      "titleEn": "Val di Funes Guide",
+      "file": "content/guides/pages/val-di-funes-guide.json",
+      "html": "guides/val-di-funes-guide/index.html"
+    }
+  ]
+}

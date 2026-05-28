@@ -1,0 +1,740 @@
+{
+  "de": {
+    "slug": "cortina-dampezzo-guide",
+    "title": "Cortina d’Ampezzo Guide | Eleganz, Zugang und Dolomitenatmosphäre",
+    "description": "Guide zu Cortina d’Ampezzo für Paare, die Dolomitengefühl mit etwas mehr Komfort, Beweglichkeit und eleganter Bergatmosphäre verbinden möchten.",
+    "hero": {
+      "eyebrow": "Standort-Guide",
+      "title": "Cortina d’Ampezzo Guide",
+      "copy": "Ein Guide für Paare, die Dolomitengefühl mit etwas mehr Komfort, Beweglichkeit und der Eleganz eines alpinen Orts verbinden möchten.",
+      "cta": "Planung starten",
+      "image": "/assets/guide-placeholders/IMAGE_PLACEHOLDER_CORTINA.svg",
+      "imageAlt": "Cortina d’Ampezzo mit Blick in die Dolomiten"
+    },
+    "utility": {
+      "reading": "Guide",
+      "focus": "Für Bergatmosphäre mit einer weicheren Komfortbasis",
+      "navOverview": "Überblick",
+      "navSeasons": "Standorthinweise",
+      "navPhilosophy": "Einführung",
+      "navVisual": "Weitere Guides",
+      "navFaq": "FAQ"
+    },
+    "overview": {
+      "eyebrow": "Guide im Überblick",
+      "copy": "Cortina ist anders als viele klassische Elopement-Orte. Die Berge sind nah, aber auch Hotels, gutes Essen, Straßen und ein Tagesablauf, der nicht nur aus Anstrengung besteht. Genau das macht die Region für manche Paare sehr stimmig.",
+      "items": [
+        {
+          "label": "Beste Zeit",
+          "value": "Ganzjährig, je nach Stil",
+          "icon": "calendar"
+        },
+        {
+          "label": "Bestes Licht",
+          "value": "Morgens und später Nachmittag",
+          "icon": "sun"
+        },
+        {
+          "label": "Crowd Level",
+          "value": "Variable",
+          "icon": "crowd"
+        },
+        {
+          "label": "Zugang",
+          "value": "Leicht bis mittelschwer",
+          "icon": "path"
+        },
+        {
+          "label": "Ideal für",
+          "value": "Paare, die Komfort mit Bergatmosphäre suchen",
+          "icon": "guests"
+        }
+      ]
+    },
+    "philosophy": {
+      "eyebrow": "Eine erste Orientierung",
+      "title": "Cortina verbindet Berggröße mit einer spürbaren Leichtigkeit im Ablauf.",
+      "copy": "Nicht jeder Hochzeitstag muss sich abgelegen anfühlen, um schön zu sein. Cortina kann cineastisch wirken und zugleich mehr Komfort, mehr Optionen und mehr Sanftheit in die Logistik bringen."
+    },
+    "sections": {
+      "seasonOrder": [
+        "special",
+        "time",
+        "access",
+        "crowds",
+        "weather"
+      ],
+      "seasons": {
+        "special": {
+          "layout": "image-left",
+          "image": "/assets/guide-placeholders/IMAGE_PLACEHOLDER_CORTINA.svg",
+          "imageAlt": "Cortina d’Ampezzo mit umliegenden Gipfeln",
+          "title": "Warum sich Cortina besonders anfühlt",
+          "intro": "Er verfügt über mehr Eleganz und Infrastruktur als viele andere Stützpunkte in den Dolomiten.",
+          "copy": "Cortina kann eine Hochzeit in den Bergen unterstützen, die sich dennoch elegant und einfach anfühlt, insbesondere wenn Paare in der Nähe einer schönen Unterkunft, gutem Essen und flexiblerer Bewegung bleiben möchten.",
+          "facts": [
+            {
+              "label": "Stimmung",
+              "value": "Elegant und stimmungsvoll",
+              "icon": "sun"
+            },
+            {
+              "label": "Ideal für",
+              "value": "Komfort plus Bergfeeling",
+              "icon": "guests"
+            },
+            {
+              "label": "Visuelle Stärke",
+              "value": "Stadtbasis mit starken nahegelegenen Landschaften",
+              "icon": "path"
+            }
+          ]
+        },
+        "time": {
+          "layout": "image-right",
+          "image": "/assets/guide-placeholders/IMAGE_PLACEHOLDER_CORTINA.svg",
+          "imageAlt": "Lichtstimmung rund um Cortina d’Ampezzo",
+          "title": "Beste Zeit",
+          "intro": "Cortina ist hinsichtlich Ton und Timing eine der flexibleren Regionen.",
+          "copy": "Verschiedene Orte in der Nähe verhalten sich unterschiedlich, was mehr Spielraum für die Gestaltung des Tages bietet. Je nach gewählter Landschaft fühlen sich der Vormittag und der spätere Nachmittag oft besonders gut an.",
+          "facts": [
+            {
+              "label": "Am flexibelsten",
+              "value": "Morgens bis spätnachmittags",
+              "icon": "calendar"
+            },
+            {
+              "label": "Warum",
+              "value": "Abwechslungsreiche umliegende Standorte",
+              "icon": "path"
+            },
+            {
+              "label": "Ideal für",
+              "value": "Paare, die Optionen suchen",
+              "icon": "guests"
+            }
+          ]
+        },
+        "access": {
+          "layout": "image-left",
+          "image": "/assets/guide-placeholders/IMAGE_PLACEHOLDER_CORTINA.svg",
+          "imageAlt": "Zugang und Unterkünfte rund um Cortina d’Ampezzo",
+          "title": "Zugang und Komfort",
+          "intro": "Hier ist Cortina oft sehr nützlich.",
+          "copy": "Mit einer stärkeren Infrastruktur und einem einfacheren Zugang zu den Annehmlichkeiten der Stadt kann Cortina die Unterbringung, die Abendessenplanung und die Gästelogistik vereinfachen und gleichzeitig die Berge in der Nähe halten.",
+          "facts": [
+            {
+              "label": "Schwierigkeit",
+              "value": "Leicht bis mittelschwer",
+              "icon": "path"
+            },
+            {
+              "label": "Gästefreundlich",
+              "value": "Oft ja",
+              "icon": "guests"
+            },
+            {
+              "label": "Nützlich für",
+              "value": "Paare, die eine reibungslosere Logistik wünschen",
+              "icon": "calendar"
+            }
+          ]
+        },
+        "crowds": {
+          "layout": "image-right",
+          "image": "/assets/guide-placeholders/IMAGE_PLACEHOLDER_CORTINA.svg",
+          "imageAlt": "Besucherrhythmus in Cortina d’Ampezzo",
+          "title": "Crowd Reality",
+          "intro": "Einige Teile fühlen sich öffentlich an, andere sind viel persönlicher, je nachdem, wohin ihr geht.",
+          "copy": "Da es sich bei Cortina um eine größere Region und nicht um einen einzelnen Aussichtspunkt handelt, kann das Erlebnis bewusster gestaltet werden. Die Wahl des richtigen Ortes ist wichtiger als die Behandlung des gesamten Bereichs als eine einzige Stimmung.",
+          "facts": [
+            {
+              "label": "Variable",
+              "value": "Hängt vom genauen Standort ab",
+              "icon": "crowd"
+            },
+            {
+              "label": "Beste Strategie",
+              "value": "Bleibt konkret, nicht allgemein",
+              "icon": "path"
+            },
+            {
+              "label": "Am leisesten",
+              "value": "Weniger offensichtliche Orte in der Umgebung",
+              "icon": "calendar"
+            }
+          ]
+        },
+        "weather": {
+          "layout": "image-left",
+          "image": "/assets/guide-placeholders/IMAGE_PLACEHOLDER_WEATHER.svg",
+          "imageAlt": "Wechselhaftes Wetter in den Bergen bei Cortina",
+          "title": "Wetternotizen",
+          "intro": "Die Mischung aus Stadtbasis und Bergzugang kann dazu beitragen, dass sich das Wetter weniger einschränkend anfühlt.",
+          "copy": "Mehr geschützte Optionen, nähere Annehmlichkeiten und mehrere nahegelegene Landschaften können die Wetterplanung einfacher und belastbarer machen als in einer vollständig abgelegenen Struktur.",
+          "facts": [
+            {
+              "label": "Bester Nutzen",
+              "value": "Mehr Flexibilität bei wechselndem Wetter",
+              "icon": "cloud"
+            },
+            {
+              "label": "Nützlich für",
+              "value": "Paare, die mehr Backup-Optionen wünschen",
+              "icon": "calendar"
+            },
+            {
+              "label": "Stimmung",
+              "value": "Immer noch filmisch, aber weniger exponiert",
+              "icon": "wind"
+            }
+          ]
+        }
+      }
+    },
+    "planning": {
+      "eyebrow": "Planungsnotizen",
+      "title": "Was in Cortina normalerweise am wichtigsten ist.",
+      "intro": "Diese Region funktioniert am besten, wenn ihr ihre Flexibilität bewusst nutzen, anstatt sie wie einen einzigen ikonischen Aussichtspunkt zu behandeln.",
+      "items": [
+        {
+          "label": "Platzwahl",
+          "title": "Bleibt genau, welche Landschaft ihr meint.",
+          "copy": "Die Gegend um Cortina kann je nach Reiseziel sehr unterschiedliche Stimmungen hervorrufen.",
+          "meta": "Eine Region, viele Atmosphären."
+        },
+        {
+          "label": "Gäste",
+          "title": "Eine starke Option, wenn es auf Komfort ankommt.",
+          "copy": "Die Unterbringung und der Zugang zur Stadt können einer größeren Gruppe den ganzen Tag erleichtern.",
+          "meta": "Leichtigkeit unterstützt Ruhe."
+        },
+        {
+          "label": "Wetter",
+          "title": "Nutzt das Angebot der nahegelegenen Möglichkeiten.",
+          "copy": "Diese Vielfalt wird oft zur größten Planungsstärke des Gebiets.",
+          "meta": "Flexibilität, ohne an Schönheit zu verlieren."
+        },
+        {
+          "label": "Stimmung",
+          "title": "Lasst es elegant sein, wenn sich das wahr anfühlt.",
+          "copy": "Cortina muss nicht zu rauen Abenteuern gezwungen werden, um sich sinnvoll zu fühlen.",
+          "meta": "Auch hier gehört ruhige Eleganz dazu."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Fragen, die Paare oft über Cortina stellen.",
+      "intro": "Dies sind einige der Fragen, die Paare oft stellen, wenn sich der Traum realer anfühlt und die Berge nicht mehr nur eine Idee sind.",
+      "items": [
+        {
+          "q": "Eignet sich Cortina für eine Hochzeit mit Gästen?",
+          "a": "Oftmals ja, denn Komfort, Unterbringung und Logistik sind einfacher zu bewältigen."
+        },
+        {
+          "q": "Fühlt sich Cortina immer noch filmisch genug für ein Elopement an?",
+          "a": "Absolut. Die nahegelegenen Landschaften wirken immer noch zutiefst atmosphärisch und schön."
+        },
+        {
+          "q": "Ist es weniger abgelegen als Seceda oder Cadini?",
+          "a": "Ja, und für viele Paare ist das tatsächlich ein Teil des Reizes."
+        },
+        {
+          "q": "Kann die Wetterplanung hier einfacher sein?",
+          "a": "Das ist oft der Fall, denn die Region bietet euch mehr Möglichkeiten in der Nähe."
+        }
+      ]
+    },
+    "related": {
+      "eyebrow": "Verwandte Leitfäden",
+      "hint": "Wischt nach links oder rechts, um weitere Guides zu sehen.",
+      "items": [
+        {
+          "label": "Dolomiten",
+          "title": "Elopement-Guide für die Dolomiten",
+          "copy": "Ein ruhiger Ausgangspunkt für Paare, die ein Dolomites Elopement oder eine intime Berghochzeit planen und verstehen möchten, wie Licht, Wege, Wetter und Menschenmengen den Tag wirklich prägen.",
+          "href": "/guides/dolomites-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-120.jpg",
+          "imageAlt": "Paar bei einem Dolomiten-Elopement im weichen Morgenlicht",
+          "alt": "Paar bei einem Dolomiten-Elopement im weichen Morgenlicht"
+        },
+        {
+          "label": "Standorte",
+          "title": "Die beliebtesten Elopement-Orte in den Dolomiten",
+          "copy": "Ein kuratierter Guide für Paare, die nicht einfach irgendeine schöne Aussicht suchen, sondern den Ort, dessen Stimmung wirklich zu ihrem Tag passt.",
+          "href": "/guides/best-dolomites-elopement-locations/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-191.jpg",
+          "imageAlt": "Elopement-Standorte in den Dolomiten",
+          "alt": "Elopement-Standorte in den Dolomiten"
+        },
+        {
+          "label": "Standorte",
+          "title": "Lago di Braies Guide",
+          "copy": "Ein ehrlicher Guide für Paare, die den Pragser Wildsee nicht nur als berühmtes Bild kennen, sondern verstehen möchten, wann er still, weich und tatsächlich erlebbar wird.",
+          "href": "/guides/lago-di-braies-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopemnt-Dolomites-Lago-di-Braies-19.jpg",
+          "imageAlt": "Lago di Braies mit ruhigem Wasser und frühem Licht",
+          "alt": "Lago di Braies mit ruhigem Wasser und frühem Licht"
+        },
+        {
+          "label": "Standorte",
+          "title": "Seceda Guide",
+          "copy": "Ein Guide für Paare, die an Seceda nicht nur die berühmte Kante suchen, sondern das Gefühl von Weite, Wind und offenem Berglicht, das diesen Ort so unverwechselbar macht.",
+          "href": "/guides/seceda-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Seceda-180.jpg",
+          "imageAlt": "Seceda bei klarem Berglicht",
+          "alt": "Seceda bei klarem Berglicht"
+        },
+        {
+          "label": "Standorte",
+          "title": "Cadini di Misurina Guide",
+          "copy": "Ein Guide für Paare, die an Cadini diese wilde, kinoreife Spannung lieben und zugleich wissen möchten, wann der Ort zugänglich, sicher und wirklich stimmig ist.",
+          "href": "/guides/cadini-di-misurina-guide/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-12.jpg",
+          "imageAlt": "Cadini di Misurina mit markanten Felsformen",
+          "alt": "Cadini di Misurina mit markanten Felsformen"
+        },
+        {
+          "label": "Standorte",
+          "title": "Drei Zinnen Guide",
+          "copy": "Ein ehrlicher Guide für Paare, die Drei Zinnen nicht nur wegen des berühmten Blicks wählen, sondern wegen dieser monumentalen, fast unwirklichen Präsenz, die der Ort im richtigen Moment entfaltet.",
+          "href": "/guides/tre-cime-wedding-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14.jpg",
+          "imageAlt": "Drei Zinnen bei klarem Berglicht",
+          "alt": "Drei Zinnen bei klarem Berglicht"
+        },
+        {
+          "label": "Planung",
+          "title": "Beste Jahreszeit für ein Dolomiten-Elopement",
+          "copy": "Ein ehrlicher Guide zu Licht, Temperaturen, Menschenmengen und der Frage, wann sich die Berge nicht nur schön, sondern wirklich stimmig für euch anfühlen.",
+          "href": "/guides/best-time-for-a-dolomites-elopement/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-16.jpg",
+          "imageAlt": "Vorhandenes Bild zur schönsten Zeit in den Dolomiten",
+          "alt": "Vorhandenes Bild zur schönsten Zeit in den Dolomiten"
+        },
+        {
+          "label": "Planung",
+          "title": "Sonnenaufgang vs. Sonnenuntergang in den Dolomiten",
+          "copy": "Ein ehrlicher Vergleich für Paare, die nicht nur schönes Licht suchen, sondern verstehen möchten, welche Tageszeit zu ihrem Energielevel, ihrem Ort und dem gewünschten Gefühl passt.",
+          "href": "/guides/sunrise-vs-sunset-dolomites/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Photo-368.jpg",
+          "imageAlt": "Lichtstimmung in den Bergen bei Sonnenaufgang oder Sonnenuntergang",
+          "alt": "Lichtstimmung in den Bergen bei Sonnenaufgang oder Sonnenuntergang"
+        },
+        {
+          "label": "Planung",
+          "title": "Guide zur Wetter- und Backup-Planung",
+          "copy": "Ein ruhiger Wetter-Guide für Paare, die in den Bergen nicht auf perfekte Bedingungen hoffen, sondern einen Tag planen möchten, der auch bei Nebel, Wind oder Regen stimmig bleibt.",
+          "href": "/guides/weather-and-backup-planning/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-161.jpg",
+          "imageAlt": "Wetterstimmung in den Dolomiten mit Wolken und Nebel",
+          "alt": "Wetterstimmung in den Dolomiten mit Wolken und Nebel"
+        },
+        {
+          "label": "Planung",
+          "title": "Was man in den Bergen anziehen sollte",
+          "copy": "Ein praktischer Guide für Paare, die in den Bergen nicht nur schön aussehen, sondern sich auch frei bewegen, warm bleiben und sich in ihrer Kleidung wirklich wiederfinden möchten.",
+          "href": "/guides/what-to-wear-in-the-mountains/",
+          "image": "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Hut-13.jpg",
+          "imageAlt": "Kleidung für ein Elopement in den Bergen",
+          "alt": "Kleidung für ein Elopement in den Bergen"
+        },
+        {
+          "label": "Planung",
+          "title": "Helikopter-Elopement-Guide",
+          "copy": "Ein Guide für Paare, die Weite, Abgeschiedenheit und einen klareren Tagesfluss suchen und verstehen möchten, wann ein Helikopter in den Bergen wirklich sinnvoll ist.",
+          "href": "/guides/helicopter-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-12.jpg",
+          "imageAlt": "Helikopterflug über den Bergen für ein Elopement",
+          "alt": "Helikopterflug über den Bergen für ein Elopement"
+        },
+        {
+          "label": "Planung",
+          "title": "Mehrtägiger Elopement-Guide",
+          "copy": "Ein Guide für Paare, die mehr wollen als ein paar schnelle Stunden in den Bergen und ihren Hochzeitstag lieber in Ruhe entfalten lassen möchten.",
+          "href": "/guides/multi-day-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Insta-11.jpg",
+          "imageAlt": "Mehrtägiges Elopement in den Dolomiten",
+          "alt": "Mehrtägiges Elopement in den Dolomiten"
+        }
+      ]
+    },
+    "final": {
+      "eyebrow": "Ruhig geplant",
+      "title": "Lasst uns etwas gestalten, das sich ruhig, persönlich und zutiefst wahr anfühlt.",
+      "copy": "Wenn sich dieser Guide bereits nah an dem anfühlt, was ihr euch wünscht, helfe ich euch gern dabei, dieses Gefühl in etwas Ruhiges, Filmisches und wirklich Eigenes in den Bergen zu verwandeln.",
+      "cta": "Termin anfragen",
+      "image": "/assets/uploads/Blitzkneisser-Photo-Drei-Zinnen-Italy-24.jpg",
+      "imageAlt": "Drei Zinnen in den Dolomiten bei ruhigem, klarem Licht"
+    }
+  },
+  "en": {
+    "slug": "cortina-dampezzo-guide",
+    "title": "Cortina d’Ampezzo Guide | Elegance, Access and Dolomite Atmosphere",
+    "description": "A guide to Cortina d’Ampezzo for couples who want Dolomite atmosphere with a little more comfort, flexibility and alpine elegance.",
+    "hero": {
+      "eyebrow": "Location Guide",
+      "title": "Cortina d’Ampezzo Guide",
+      "copy": "A guide for couples who want Dolomites atmosphere with a little more comfort, movement and the elegance of an alpine town.",
+      "cta": "Start planning",
+      "image": "/assets/guide-placeholders/IMAGE_PLACEHOLDER_CORTINA.svg",
+      "imageAlt": "Cortina d’Ampezzo with views into the Dolomites"
+    },
+    "utility": {
+      "reading": "Guide",
+      "focus": "For mountain atmosphere with a softer comfort base",
+      "navOverview": "Overview",
+      "navSeasons": "Location Notes",
+      "navPhilosophy": "Intro",
+      "navVisual": "More guides",
+      "navFaq": "FAQ"
+    },
+    "overview": {
+      "eyebrow": "Guide Overview",
+      "copy": "Cortina is different from many classic elopement locations. The mountains are close, but so are hotels, good food, roads and a day that does not need to be built entirely around physical effort. For some couples, that balance feels exactly right.",
+      "items": [
+        {
+          "label": "Best Time",
+          "value": "Year-round depending on style",
+          "icon": "calendar"
+        },
+        {
+          "label": "Best Light",
+          "value": "Morning and late afternoon",
+          "icon": "sun"
+        },
+        {
+          "label": "Crowd Level",
+          "value": "Variable",
+          "icon": "crowd"
+        },
+        {
+          "label": "Access",
+          "value": "Easy to moderate",
+          "icon": "path"
+        },
+        {
+          "label": "Best For",
+          "value": "Couples wanting comfort with mountain atmosphere",
+          "icon": "guests"
+        }
+      ]
+    },
+    "philosophy": {
+      "eyebrow": "A first note",
+      "title": "Cortina brings mountain scale together with a lighter overall rhythm.",
+      "copy": "A wedding day does not have to feel remote to feel beautiful. Cortina can still feel cinematic while offering more comfort, more options and more softness in the logistics."
+    },
+    "sections": {
+      "seasonOrder": [
+        "special",
+        "time",
+        "access",
+        "crowds",
+        "weather"
+      ],
+      "seasons": {
+        "special": {
+          "layout": "image-left",
+          "image": "/assets/guide-placeholders/IMAGE_PLACEHOLDER_CORTINA.svg",
+          "imageAlt": "Cortina d’Ampezzo with surrounding peaks",
+          "title": "Why Cortina feels special",
+          "intro": "It carries more elegance and infrastructure than many other Dolomites bases.",
+          "copy": "Cortina can support a mountain wedding that still feels polished and easy, especially when couples want to stay close to beautiful accommodation, good food and more flexible movement.",
+          "facts": [
+            {
+              "label": "Mood",
+              "value": "Elegant and atmospheric",
+              "icon": "sun"
+            },
+            {
+              "label": "Best For",
+              "value": "Comfort plus mountain feeling",
+              "icon": "guests"
+            },
+            {
+              "label": "Visual Strength",
+              "value": "Town base with strong nearby landscapes",
+              "icon": "path"
+            }
+          ]
+        },
+        "time": {
+          "layout": "image-right",
+          "image": "/assets/guide-placeholders/IMAGE_PLACEHOLDER_CORTINA.svg",
+          "imageAlt": "Light around Cortina d’Ampezzo",
+          "title": "Best time",
+          "intro": "Cortina is one of the more flexible regions in terms of tone and timing.",
+          "copy": "Different nearby spots behave differently, which gives more range in how the day can be built. Morning and later afternoon often feel especially good depending on the exact landscape chosen.",
+          "facts": [
+            {
+              "label": "Most Flexible",
+              "value": "Morning to late afternoon",
+              "icon": "calendar"
+            },
+            {
+              "label": "Why",
+              "value": "Varied surrounding locations",
+              "icon": "path"
+            },
+            {
+              "label": "Best For",
+              "value": "Couples wanting options",
+              "icon": "guests"
+            }
+          ]
+        },
+        "access": {
+          "layout": "image-left",
+          "image": "/assets/guide-placeholders/IMAGE_PLACEHOLDER_CORTINA.svg",
+          "imageAlt": "Access and accommodation around Cortina d’Ampezzo",
+          "title": "Access and comfort",
+          "intro": "This is often where Cortina becomes very useful.",
+          "copy": "With stronger infrastructure and easier access to town comforts, Cortina can simplify accommodation, dinner plans and guest logistics while still keeping the mountains close.",
+          "facts": [
+            {
+              "label": "Difficulty",
+              "value": "Easy to moderate",
+              "icon": "path"
+            },
+            {
+              "label": "Guest Friendly",
+              "value": "Often yes",
+              "icon": "guests"
+            },
+            {
+              "label": "Useful For",
+              "value": "Couples wanting smoother logistics",
+              "icon": "calendar"
+            }
+          ]
+        },
+        "crowds": {
+          "layout": "image-right",
+          "image": "/assets/guide-placeholders/IMAGE_PLACEHOLDER_CORTINA.svg",
+          "imageAlt": "Visitor rhythm in Cortina d’Ampezzo",
+          "title": "Crowd reality",
+          "intro": "Some parts feel public, others much more personal depending on where you go.",
+          "copy": "Because Cortina is a broader region rather than one single viewpoint, the experience can be shaped more intentionally. Choosing the right place matters more than treating the whole area as one mood.",
+          "facts": [
+            {
+              "label": "Variable",
+              "value": "Depends on exact location",
+              "icon": "crowd"
+            },
+            {
+              "label": "Best Strategy",
+              "value": "Stay specific, not generic",
+              "icon": "path"
+            },
+            {
+              "label": "Quietest",
+              "value": "Less obvious surrounding locations",
+              "icon": "calendar"
+            }
+          ]
+        },
+        "weather": {
+          "layout": "image-left",
+          "image": "/assets/guide-placeholders/IMAGE_PLACEHOLDER_WEATHER.svg",
+          "imageAlt": "Changing mountain weather near Cortina",
+          "title": "Weather notes",
+          "intro": "The mix of town base and mountain access can help weather feel less limiting.",
+          "copy": "Having more sheltered options, closer comforts and multiple nearby landscapes can make weather planning softer and more resilient than in a fully remote structure.",
+          "facts": [
+            {
+              "label": "Best Benefit",
+              "value": "More flexibility in shifting weather",
+              "icon": "cloud"
+            },
+            {
+              "label": "Useful For",
+              "value": "Couples wanting more backup choices",
+              "icon": "calendar"
+            },
+            {
+              "label": "Mood",
+              "value": "Still cinematic, but less exposed",
+              "icon": "wind"
+            }
+          ]
+        }
+      }
+    },
+    "planning": {
+      "eyebrow": "Planning Notes",
+      "title": "What usually matters most around Cortina.",
+      "intro": "This region works best when you use its flexibility intentionally rather than treating it like one single iconic viewpoint.",
+      "items": [
+        {
+          "label": "Place Choice",
+          "title": "Stay specific about which landscape you mean.",
+          "copy": "The Cortina area can hold very different moods depending on where you go.",
+          "meta": "One region, many atmospheres."
+        },
+        {
+          "label": "Guests",
+          "title": "A strong option if comfort matters.",
+          "copy": "Accommodation and town access can make the whole day easier for a wider group.",
+          "meta": "Ease supports calm."
+        },
+        {
+          "label": "Weather",
+          "title": "Use the range of nearby options.",
+          "copy": "That variety often becomes the biggest planning strength of the area.",
+          "meta": "Flexibility without losing beauty."
+        },
+        {
+          "label": "Mood",
+          "title": "Let it be elegant if that is what feels true.",
+          "copy": "Cortina does not need to be forced into rugged adventure to feel meaningful.",
+          "meta": "Quiet elegance belongs here too."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Questions couples often ask about Cortina.",
+      "intro": "A few of the questions couples often ask once the dream begins feeling more real, and the mountains stop being only an idea.",
+      "items": [
+        {
+          "q": "Is Cortina good for a wedding with guests?",
+          "a": "Often yes, because comfort, accommodation and logistics are easier to manage."
+        },
+        {
+          "q": "Does Cortina still feel cinematic enough for an elopement?",
+          "a": "Absolutely. The nearby landscapes can still feel deeply atmospheric and beautiful."
+        },
+        {
+          "q": "Is it less remote than Seceda or Cadini?",
+          "a": "Yes, and for many couples that is actually part of the appeal."
+        },
+        {
+          "q": "Can weather planning be easier here?",
+          "a": "It often can be, because the region gives you more nearby options."
+        }
+      ]
+    },
+    "related": {
+      "eyebrow": "Related Guides",
+      "hint": "Swipe left or right to explore more guides.",
+      "items": [
+        {
+          "label": "Dolomites",
+          "title": "Dolomites Elopement Guide",
+          "copy": "A calm starting point for couples planning a Dolomites Elopement or intimate mountain wedding and wanting to understand how light, access, weather and crowds truly shape the day.",
+          "href": "/guides/dolomites-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-120.jpg",
+          "imageAlt": "Couple during a Dolomites elopement in soft morning light",
+          "alt": "Couple during a Dolomites elopement in soft morning light"
+        },
+        {
+          "label": "Locations",
+          "title": "The most popular elopement locations in the Dolomites",
+          "copy": "A curated guide for couples who are not looking for just any beautiful view, but for the place whose atmosphere truly fits the day they want.",
+          "href": "/guides/best-dolomites-elopement-locations/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-191.jpg",
+          "imageAlt": "Elopement locations in the Dolomites",
+          "alt": "Elopement locations in the Dolomites"
+        },
+        {
+          "label": "Locations",
+          "title": "Lago di Braies Guide",
+          "copy": "An honest guide for couples who know Lago di Braies as more than a famous photograph and want to understand when it feels soft, quiet and truly worth experiencing.",
+          "href": "/guides/lago-di-braies-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopemnt-Dolomites-Lago-di-Braies-19.jpg",
+          "imageAlt": "Lago di Braies with still water and early light",
+          "alt": "Lago di Braies with still water and early light"
+        },
+        {
+          "label": "Locations",
+          "title": "Seceda Guide",
+          "copy": "A guide for couples drawn to Seceda not only for the famous ridge, but for the feeling of openness, wind and high alpine light that makes it so distinctive.",
+          "href": "/guides/seceda-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Seceda-180.jpg",
+          "imageAlt": "Seceda in clear mountain light",
+          "alt": "Seceda in clear mountain light"
+        },
+        {
+          "label": "Locations",
+          "title": "Cadini di Misurina Guide",
+          "copy": "A guide for couples who love the wild, cinematic tension of Cadini and want to know when it is accessible, safe and genuinely worth choosing.",
+          "href": "/guides/cadini-di-misurina-guide/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-12.jpg",
+          "imageAlt": "Cadini di Misurina with dramatic rock formations",
+          "alt": "Cadini di Misurina with dramatic rock formations"
+        },
+        {
+          "label": "Locations",
+          "title": "Tre Cime Wedding Guide",
+          "copy": "An honest guide for couples choosing Tre Cime not only for the famous view, but for the monumental, almost unreal presence the place carries when the timing is right.",
+          "href": "/guides/tre-cime-wedding-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14.jpg",
+          "imageAlt": "Tre Cime in clear mountain light",
+          "alt": "Tre Cime in clear mountain light"
+        },
+        {
+          "label": "Planning",
+          "title": "Best Time for a Dolomites Elopement",
+          "copy": "An honest guide to light, temperatures, crowds and the question of when the mountains will not only look beautiful, but genuinely feel right for you.",
+          "href": "/guides/best-time-for-a-dolomites-elopement/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-16.jpg",
+          "imageAlt": "Existing image for best time in the Dolomites",
+          "alt": "Existing image for best time in the Dolomites"
+        },
+        {
+          "label": "Planning",
+          "title": "Sunrise vs Sunset in the Dolomites",
+          "copy": "An honest comparison for couples who want more than beautiful light and are trying to understand which time of day fits their energy, their location and the feeling they want to remember.",
+          "href": "/guides/sunrise-vs-sunset-dolomites/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Photo-368.jpg",
+          "imageAlt": "Mountain light at sunrise or sunset",
+          "alt": "Mountain light at sunrise or sunset"
+        },
+        {
+          "label": "Planning",
+          "title": "Weather & Backup Planning Guide",
+          "copy": "A calm weather guide for couples who do not want to hope for perfect conditions in the mountains, but want to build a day that still feels right in fog, wind or rain.",
+          "href": "/guides/weather-and-backup-planning/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-161.jpg",
+          "imageAlt": "Weather in the Dolomites with clouds and fog",
+          "alt": "Weather in the Dolomites with clouds and fog"
+        },
+        {
+          "label": "Planning",
+          "title": "What to Wear in the Mountains",
+          "copy": "A practical guide for couples who want to look beautiful in the mountains, but also move freely, stay warm and still feel like themselves in what they wear.",
+          "href": "/guides/what-to-wear-in-the-mountains/",
+          "image": "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Hut-13.jpg",
+          "imageAlt": "Outfit ideas for a mountain elopement",
+          "alt": "Outfit ideas for a mountain elopement"
+        },
+        {
+          "label": "Planning",
+          "title": "Helicopter Elopement Guide",
+          "copy": "A guide for couples seeking more space, privacy and a clearer flow to the day, and wanting to understand when a helicopter in the mountains genuinely makes sense.",
+          "href": "/guides/helicopter-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-12.jpg",
+          "imageAlt": "Helicopter flight above the mountains for an elopement",
+          "alt": "Helicopter flight above the mountains for an elopement"
+        },
+        {
+          "label": "Planning",
+          "title": "Multi-Day Elopement Guide",
+          "copy": "A guide for couples who want more than a few rushed hours in the mountains and would rather let the day unfold with space around it.",
+          "href": "/guides/multi-day-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Insta-11.jpg",
+          "imageAlt": "Multi-day elopement in the Dolomites",
+          "alt": "Multi-day elopement in the Dolomites"
+        }
+      ]
+    },
+    "final": {
+      "eyebrow": "Planned with intention",
+      "title": "Let’s shape something that feels quiet, personal and deeply true to you.",
+      "copy": "If this guide already feels close to the way you want the day to move, I would love to help you turn that feeling into something calm, cinematic and genuinely your own in the mountains.",
+      "cta": "Inquire now",
+      "image": "/assets/uploads/Blitzkneisser-Photo-Drei-Zinnen-Italy-24.jpg",
+      "imageAlt": "Tre Cime in the Dolomites in calm, clear light"
+    }
+  }
+}

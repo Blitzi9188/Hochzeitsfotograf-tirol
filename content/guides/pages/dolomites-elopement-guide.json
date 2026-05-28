@@ -1,0 +1,966 @@
+{
+  "de": {
+    "slug": "dolomites-elopement-guide",
+    "title": "Elopement-Guide für die Dolomiten | Plant eine absichtliche Berghochzeit",
+    "description": "Elopement-Guide für die Dolomiten mit ehrlichen Hinweisen zu Orten, Licht, Wetter, Zugang und dem tatsächlichen Rhythmus eines Hochzeitstags in den Bergen.",
+    "hero": {
+      "eyebrow": "Planungs-Guide",
+      "title": "Elopement-Guide für die Dolomiten",
+      "copy": "Ein ehrlicher Einstieg für Paare, die ein Dolomiten-Elopement oder eine intime Berghochzeit planen und besser verstehen möchten, wie Licht, Wetter, Wege und Besucherströme das Erlebnis vor Ort tatsächlich prägen.\n",
+      "cta": "Planung starten",
+      "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-120.jpg",
+      "imageAlt": "Helden des Dolomiten-Elopement Guide"
+    },
+    "utility": {
+      "reading": "Guide",
+      "focus": "Für Paare, die ein Dolomiten-Elopement oder eine intime Berghochzeit planen",
+      "navOverview": "Überblick",
+      "navSeasons": "Planungsblöcke",
+      "navPhilosophy": "Einführung",
+      "navVisual": "Weitere Guides",
+      "navFaq": "FAQ"
+    },
+    "overview": {
+      "eyebrow": "Guide im Überblick",
+      "copy": "In den Dolomiten geht es selten nur um die Aussicht. Es sind die frühen Morgenstunden, kalte Hände beim ersten Licht, Wind auf den Graten und die Frage, wie sich ein Ort anfühlt, bevor Parkplätze voll werden und die Wege lebendiger werden.\n",
+      "items": [
+        {
+          "icon": "calendar",
+          "label": "Bestes Saisonfenster",
+          "value": "Juni bis Anfang Oktober"
+        },
+        {
+          "icon": "sun",
+          "label": "Nützlichstes Licht",
+          "value": "Sonnenauf- und Sonnenuntergang"
+        },
+        {
+          "icon": "cloud",
+          "label": "Wetterstimmung",
+          "value": "Schnell wechselnd, oft stimmungsvoll"
+        },
+        {
+          "icon": "crowd",
+          "label": "Crowd Reality",
+          "value": "Der frühe Zeitpunkt ist wichtig"
+        },
+        {
+          "icon": "guests",
+          "label": "Ideal für",
+          "value": "Paare, die sich nach Ruhe und Weite sehnen"
+        }
+      ]
+    },
+    "philosophy": {
+      "eyebrow": "Eine erste Orientierung",
+      "title": "Die Berge sind zu jeder Tageszeit eindrucksvoll — aber ihre stillsten und ehrlichsten Momente zeigen sie oft nur für kurze Zeit.",
+      "copy": "Ein guter Tag in den Dolomiten entsteht selten zufällig. Er entsteht dann, wenn Ort, Licht und Tagesrhythmus zusammenpassen und ihr nicht gegen den Berg plant, sondern mit ihm.\n"
+    },
+    "sections": {
+      "seasonOrder": [
+        "intro",
+        "locations",
+        "best-time",
+        "weather",
+        "permits",
+        "ceremony",
+        "helicopter",
+        "steps"
+      ],
+      "seasons": {
+        "intro": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-155.jpg",
+          "imageAlt": "Platzhalterbild für ein Paar bei Sonnenaufgang in den Dolomiten",
+          "eyebrow": "",
+          "title": "Warum sich die Dolomiten so anders anfühlen",
+          "intro": "Die Größe sieht man sofort. Die stillen Momente erlebt man meist nur früh.",
+          "copy": "Ein Elopement in den Dolomiten lebt nicht nur von dramatischen Gipfeln, sondern von den Stunden, in denen ein Ort leer, kühl und weit wirkt. Wenn der Wind noch weich ist, auf den Wegen kaum jemand unterwegs ist und das Licht langsam über die Kanten zieht, fühlt sich selbst ein bekannter Ort plötzlich sehr persönlich an.",
+          "points": [
+            "Die Dolomiten fühlen sich anders an, weil monumentale Berge, frühes Licht und viel Weite einen Tag oft direkter, intensiver und persönlicher wirken lassen."
+          ],
+          "facts": [
+            {
+              "icon": "guests",
+              "label": "Ideal für",
+              "value": "Elopements, intime Hochzeiten, mehrtägige Erlebnisse"
+            },
+            {
+              "icon": "path",
+              "label": "Hauptregionen",
+              "value": "Südtirol, Cortina, Prags, Val Gardena"
+            },
+            {
+              "icon": "wind",
+              "label": "Ton",
+              "value": "Weit, emotional, eindrucksvoll"
+            }
+          ],
+          "note": "Die stärksten Tage in den Dolomiten fühlen sich selten gehetzt an. Sie entwickeln ihren eigenen Rhythmus.",
+          "meta": "Weite • Rhythmus • Berglicht",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "locations": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Photo-Drei-Zinnen-Italy-5.jpg",
+          "imageAlt": "Platzhalterbild für ikonische Dolomitenkämme",
+          "eyebrow": "",
+          "title": "Die schönsten Orte",
+          "intro": "Nicht jeder ikonische Ort passt zu jedem Paar.",
+          "copy": "Lago di Braies, Seceda, Cadini oder Drei Zinnen sehen auf Bildern eindrucksvoll aus, tragen aber jeweils eine ganz andere Stimmung in sich. Manche Orte wirken weich und still, andere roher, weiter oder dramatischer. Die richtige Wahl ist deshalb selten der bekannteste Ort, sondern der, der wirklich zu eurem Tempo und eurer Geschichte passt.",
+          "points": [
+            "Die schönsten Orte in den Dolomiten verbinden Bergpanoramen, Licht und Weite zu Kulissen, die sich nicht nur beeindruckend zeigen, sondern sich auch wirklich erleben lassen."
+          ],
+          "facts": [
+            {
+              "icon": "crowd",
+              "label": "Crowd Reality",
+              "value": "Beliebte Orte benötigen oft ein frühes Timing"
+            },
+            {
+              "icon": "path",
+              "label": "Zugang",
+              "value": "Variiert von einfach bis wanderungsbasiert"
+            },
+            {
+              "icon": "sunrise",
+              "label": "Bestes Licht",
+              "value": "Normalerweise Sonnenaufgang, manchmal später Abend"
+            }
+          ],
+          "note": "",
+          "meta": "Ort • Timing • Stimmung",
+          "linkLabel": "Entdeckt die schönsten Orte",
+          "linkHref": "/guides/best-dolomites-elopement-locations/"
+        },
+        "best-time": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-3.jpg",
+          "imageAlt": "Vorhandenes Bild, das ein Bergpaar im Licht der Dolomiten zeigt",
+          "eyebrow": "",
+          "title": "Beste Reisezeit",
+          "intro": "Jede Jahreszeit verändert mehr als nur die Farbe der Wiesen.",
+          "copy": "Frühsommer bringt offene Wege, frisches Licht und oft schon mehr Betrieb an bekannten Orten. Der Hochsommer schenkt lange Tage, verlangt aber meist sehr frühe Starts und etwas Geduld. Im Herbst werden die Berge leerer, die Luft klarer und die Farben wärmer. Winter kann wunderschön sein, ist aber bei Zugang, Wetter und Tageslicht die anspruchsvollste Jahreszeit.",
+          "points": [
+            "Die beste Reisezeit für die Dolomiten hängt stark davon ab, wie ihr euch euren Tag wünscht — von offenen Almwiesen im Frühsommer bis zu klarer Herbstluft und stilleren Wegen später im Jahr."
+          ],
+          "facts": [
+            {
+              "icon": "calendar",
+              "label": "Am ausgewogensten",
+              "value": "September"
+            },
+            {
+              "icon": "wind",
+              "label": "Am stimmungsvollsten",
+              "value": "Spätherbst und Frühwinter"
+            },
+            {
+              "icon": "path",
+              "label": "Am zugänglichsten",
+              "value": "Hochsommer"
+            }
+          ],
+          "note": "",
+          "meta": "Die Jahreszeit prägt die Stimmung",
+          "linkLabel": "Hier geht es zum Saison-Guide",
+          "linkHref": "/guides/best-time-for-a-dolomites-elopement/"
+        },
+        "weather": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-Instagram-3.jpg",
+          "imageAlt": "Platzhalterbild für die Wetter- und Gebirgsnebelplanung",
+          "eyebrow": "",
+          "title": "Wetter",
+          "intro": "Bergwetter ist kein Nebengedanke, sondern Teil der Geschichte.",
+          "copy": "Nebel kann einen Ort dichter und intimer wirken lassen. Wind kann einen Grat unruhig machen. Ein plötzlicher Wetterwechsel verändert in den Dolomiten oft innerhalb einer Stunde Sicht, Temperatur und die Stimmung auf den Wegen. Wer das mitdenkt, plant nicht vorsichtiger, sondern freier.",
+          "points": [
+            "Das Wetter in den Dolomiten verändert sich schnell und gibt den Bergen oft erst ihre besondere Stimmung — von dichtem Nebel bis zu klaren Morgenstunden und offenem Abendlicht."
+          ],
+          "facts": [
+            {
+              "icon": "cloud",
+              "label": "Sommermuster",
+              "value": "Morgens klarer, später Sturmgefahr"
+            },
+            {
+              "icon": "wind",
+              "label": "Herbstmuster",
+              "value": "Kältere Luft, Nebel, klarere Struktur"
+            },
+            {
+              "icon": "path",
+              "label": "Planungsstil",
+              "value": "Weiche Route, Backup-Optionen, offene Zeitleiste"
+            }
+          ],
+          "note": "",
+          "meta": "Wetter als Atmosphäre",
+          "linkLabel": "Wetter- und Backup-Planung lesen",
+          "linkHref": "/guides/weather-and-backup-planning/"
+        },
+        "permits": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Lago-di-Braies-11.jpg",
+          "imageAlt": "Platzhalterbild für Zugangs- und Genehmigungshinweise rund um einen See",
+          "eyebrow": "",
+          "title": "Genehmigungen und Zugang",
+          "intro": "Nicht jeder Ort ist frei zugänglich, auch wenn er offen aussieht.",
+          "copy": "In den Dolomiten entscheiden oft Mautstraßen, Liftzeiten, Parkplätze oder lokale Regeln darüber, wie entspannt euer Morgen tatsächlich beginnt. Gute Planung startet deshalb nicht erst bei der Route, sondern oft bei einfachen Fragen: Wann öffnet der Parkplatz, wie weit ist der Weg und an welcher Stelle wird es erfahrungsgemäß schnell voll?",
+          "points": [
+            "Genehmigungen und Zugang spielen in den Dolomiten oft eine wichtige Rolle, da viele Orte saisonale Zufahrten, Parkregelungen oder geschützte Naturbereiche haben, die den Tagesablauf beeinflussen können."
+          ],
+          "facts": [
+            {
+              "icon": "key",
+              "label": "Prüft immer",
+              "value": "Straßenanbindung, Liftzeiten, örtliche Vorschriften"
+            },
+            {
+              "icon": "crowd",
+              "label": "Beliebte Orte",
+              "value": "An Sommerwochenenden oft strenger"
+            },
+            {
+              "icon": "calendar",
+              "label": "Bester Ansatz",
+              "value": "Prüft die Regeln zeitnah"
+            }
+          ],
+          "note": "Die Logistik muss den Tag nicht dominieren, aber sie sollte ihn auch nie überraschen.",
+          "meta": "Erlaubt • Timing • Zugang",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "ceremony": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Seceda-133.jpg",
+          "imageAlt": "Platzhalterbild für symbolische Bergzeremonie",
+          "eyebrow": "",
+          "title": "Symbolische vs. rechtliche Zeremonie",
+          "intro": "Rechtlicher Teil und emotionaler Teil müssen nicht am selben Ort stattfinden.",
+          "copy": "Viele Paare verbinden eine standesamtliche Hochzeit in Italien oder Österreich mit einer freien oder symbolischen Zeremonie in den Bergen. Das nimmt Druck aus dem Tagesablauf und erlaubt euch, den persönlicheren Teil dort zu erleben, wo Licht, Aussicht und Timing wirklich zusammenpassen.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "guests",
+              "label": "Am häufigsten",
+              "value": "Zu Hause legal, in den Bergen symbolisch"
+            },
+            {
+              "icon": "sunrise",
+              "label": "Warum",
+              "value": "Mehr Freiheit bei Ort und Zeitpunkt"
+            },
+            {
+              "icon": "key",
+              "label": "Ideal für",
+              "value": "Paare, die Intimität statt Verwaltung wünschen"
+            }
+          ],
+          "note": "",
+          "meta": "Rechtlich vs. persönlich",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "helicopter": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-332.jpg",
+          "imageAlt": "Platzhalterbild für die Helikopter-Elopement-Planung",
+          "eyebrow": "",
+          "title": "Helikopter-Option",
+          "intro": "Ein Helikopter ist nicht größer, nur anders.",
+          "copy": "Für manche Paare öffnet ein Helikopter Orte, die zu Fuß zu lang, mit Gästen zu aufwendig oder im engen Zeitfenster kaum realistisch wären. Entscheidend ist nicht der Effekt, sondern ob diese Art von Weite und Abgeschiedenheit tatsächlich zu euch passt.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "wind",
+              "label": "Ideal für",
+              "value": "Abgeschiedenheit, Privatsphäre, besondere Wege"
+            },
+            {
+              "icon": "cloud",
+              "label": "Bedürfnisse",
+              "value": "Wetterflexibilität und vertrauenswürdige lokale Partner"
+            },
+            {
+              "icon": "sun",
+              "label": "Funktioniert am besten",
+              "value": "Als natürliche Erweiterung des Erlebnisses"
+            }
+          ],
+          "note": "",
+          "meta": "Weit • ruhig • wetterabhängig",
+          "linkLabel": "Hier geht es zum Helikopter-Guide",
+          "linkHref": "/guides/helicopter-elopement-guide/"
+        },
+        "steps": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-171.jpg",
+          "imageAlt": "Platzhalterbild für die mehrstufige Elopement-Planung",
+          "eyebrow": "",
+          "title": "Planungsschritte",
+          "intro": "Die besten Tage wirken leicht, weil sie vorher klar gedacht wurden.",
+          "copy": "Meist beginnt alles mit der Jahreszeit, dann mit dem richtigen Ort und danach mit Licht, Zugang und einem guten Plan B. Wenn diese Entscheidungen früh und klar getroffen sind, fühlt sich der Tag selbst später nicht nach Organisation an, sondern nach Raum und Zeit.",
+          "points": [
+            "Wählt zuerst die Stimmung\\nWählt dann die Jahreszeit\\nDann bauen ihr Ort, Timing und Logistik darauf auf"
+          ],
+          "facts": [
+            {
+              "icon": "guests",
+              "label": "Erster Schritt",
+              "value": "Stimmung und Gefühl"
+            },
+            {
+              "icon": "calendar",
+              "label": "Zweiter Schritt",
+              "value": "Jahreszeit und Licht"
+            },
+            {
+              "icon": "path",
+              "label": "Dritter Schritt",
+              "value": "Zugang, Route, Kleidung und Ablauf"
+            }
+          ],
+          "note": "",
+          "meta": "Stimmung → Jahreszeit → Ort → Ablauf",
+          "linkLabel": "",
+          "linkHref": ""
+        }
+      }
+    },
+    "planning": {
+      "eyebrow": "Planungsnotizen",
+      "title": "Was einen Tag in den Dolomiten wirklich trägt.",
+      "intro": "Die wichtigsten Entscheidungen wirken oft unspektakulär: früher starten, einen weniger vollen Zugang wählen, Puffer einbauen und einen Ort so lesen, wie er sich vor Ort wirklich zeigt.",
+      "items": [
+        {
+          "label": "Timing",
+          "title": "Ein Ort ist um sechs Uhr oft ein anderer als um zehn.",
+          "copy": "Gerade bei einer Hochzeit in den Dolomiten entscheidet die Uhrzeit darüber, ob ihr Weite oder Verkehr, leere Wege oder viele Stimmen erlebt.",
+          "meta": "Frühe Stunden verändern fast alles."
+        },
+        {
+          "label": "Zugang",
+          "title": "Parkplätze, Liftzeiten und Gehwege gehören zur Planung dazu.",
+          "copy": "Viele stressige Tage entstehen nicht wegen des Wetters, sondern weil die Logistik unterschätzt wurde.",
+          "meta": "Entspannung beginnt oft schon beim Zugang."
+        },
+        {
+          "label": "Wetter",
+          "title": "Flexibilität macht einen Bergtag stärker, nicht unsicherer.",
+          "copy": "Wenn Nebel aufzieht oder Wind zunimmt, ist es oft hilfreicher, den Ablauf weich zu halten als an einer einzigen Idee festzuhalten.",
+          "meta": "Ein guter Plan kann sich bewegen."
+        },
+        {
+          "label": "Gefühl",
+          "title": "Wählt nicht nur die Aussicht, sondern den Charakter des Ortes.",
+          "copy": "Manche Berge wirken monumental, andere weiter, stiller oder persönlicher. Genau darin liegt meist die richtige Entscheidung.",
+          "meta": "Nicht jeder ikonische Ort erzählt dieselbe Geschichte."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Fragen, die vor einem Dolomiten-Elopement fast immer kommen.",
+      "intro": "Die meisten Unsicherheiten haben weniger mit Bildern zu tun als mit Wegen, Uhrzeiten, Wetter und der Frage, wie sich der Tag tatsächlich anfühlen soll.",
+      "items": [
+        {
+          "q": "Brauchen wir Genehmigungen für ein Dolomiten-Elopement?",
+          "a": "Manchmal ja. Es hängt stark vom Ort ab: Schutzgebiet, Mautstraße, Lift, Sonnenaufgangsregelung oder die Frage, ob ihr an einem sehr bekannten Spot unterwegs seid. Gerade bei einer Hochzeit in den Dolomiten lohnt es sich, diese Punkte früh zu prüfen, damit der Tag später nicht an Logistik hängen bleibt."
+        },
+        {
+          "q": "Ist eine symbolische Zeremonie praktischer als eine legale?",
+          "a": "Für die meisten Paare ganz klar ja. Der rechtliche Teil lässt sich separat und meist deutlich stressfreier lösen, während ihr euch in den Bergen nach Licht, Wetter und Stimmung richten könnt. Das nimmt Druck aus der Elopement Planung und macht den Tag oft persönlicher und freier."
+        },
+        {
+          "q": "Können wir Gäste mitbringen und den Tag trotzdem intim gestalten?",
+          "a": "Ja, wenn Ort und Ablauf dazu passen. Mit Gästen werden Zufahrt, Gehzeit, Temperatur und auch die Länge des Morgens viel wichtiger als bei einem reinen Couple-Elopement. Intim bleibt der Tag dann, wenn die Logistik die Gruppe nicht überfordert und trotzdem genug Raum für echte Momente lässt."
+        },
+        {
+          "q": "Wie früh müssen wir wirklich beginnen?",
+          "a": "An bekannten Orten meist früher, als man zuerst denkt. Ein Sonnenaufgang in den Dolomiten verändert Licht, Geräusche, Parkdruck und die Zahl der Menschen oft komplett. An weniger bekannten Orten oder in der Nebensaison gibt es etwas mehr Spielraum, aber auch dort tragen frühe Stunden meist sehr viel zur Stimmung bei."
+        },
+        {
+          "q": "Ist ein Helikopter-Erlebnis für die Privatsphäre notwendig?",
+          "a": "Nein. Viele der stärksten Momente entstehen ganz ohne Helikopter, gerade wenn Licht, Ort und Timing gut gewählt sind. Sinnvoll wird er eher dann, wenn ihr sehr viel Weite, Abgeschiedenheit oder einen flüssigeren Ablauf ohne lange Wege sucht."
+        },
+        {
+          "q": "Wie weit im Voraus sollten wir mit der Planung beginnen?",
+          "a": "Je früher, desto entspannter. Gute Unterkünfte, die passende Saison, weniger Kompromisse beim Ort und genug Puffer für Reise, Wetter in den Dolomiten und mögliche Alternativen machen die gesamte Planung leichter. Besonders beliebte Monate und Sonnenaufgangs-Locations sind oft deutlich früher ausgebucht, als viele erwarten."
+        }
+      ]
+    },
+    "related": {
+      "eyebrow": "Verwandte Leitfäden",
+      "hint": "Wischt nach links oder rechts, um weitere Guides zu sehen.",
+      "items": [
+        {
+          "label": "Standorte",
+          "title": "Die besten Elopement-Standorte in den Dolomiten",
+          "copy": "Eine persönliche Übersicht über Orte wie Lago di Braies, Seceda, Drei Zinnen und Cadini di Misurina.",
+          "href": "/guides/best-dolomites-elopement-locations/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-191.jpg"
+        },
+        {
+          "label": "Standorte",
+          "title": "Lago di Braies Guide",
+          "copy": "Stilles Wasser, erstes Licht und ehrliche Notizen darüber, wann sich dieser ikonische See wirklich persönlich anfühlt.",
+          "href": "/guides/lago-di-braies-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Lago-di-Braies-Dolomites-11.jpg"
+        },
+        {
+          "label": "Standorte",
+          "title": "Seceda Guide",
+          "copy": "Offene Bergrücken, Wind, Liftzugang und die frühen Stunden machen Seceda zu einem sehr persönlichen Erlebnis.",
+          "href": "/guides/seceda-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Seceda-180.jpg"
+        },
+        {
+          "label": "Standorte",
+          "title": "Cadini di Misurina Guide",
+          "copy": "Kinoartige Gipfel, Zugang zum Sonnenaufgang und praktische Hinweise für einen der dramatischsten Schauplätze.",
+          "href": "/guides/cadini-di-misurina-guide/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-12.jpg"
+        },
+        {
+          "label": "Standorte",
+          "title": "Drei Zinnen Guide",
+          "copy": "Ein Guide zu Timing, Zugang und Massenrhythmus in einer der symbolträchtigsten Dolomitenlandschaften.",
+          "href": "/guides/tre-cime-wedding-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Photo-Drei-Zinnen-Italy-24.jpg"
+        },
+        {
+          "label": "Planung",
+          "title": "Beste Zeit für ein Dolomiten-Elopement",
+          "copy": "Ein ehrlicher Guide zu Jahreszeiten, Wetter, Licht und wann sich die Berge vielleicht am meisten nach euch anfühlen.",
+          "href": "/guides/best-time-for-a-dolomites-elopement/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-16.jpg"
+        },
+        {
+          "label": "Planung",
+          "title": "Sonnenaufgang vs. Sonnenuntergang in den Bergen",
+          "copy": "Ein durchdachter Vergleich von frühem Licht, späteren Abenden, Massenrhythmus und echtem Berg-Timing.",
+          "href": "/guides/sunrise-vs-sunset-dolomites/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Photo-368.jpg"
+        },
+        {
+          "label": "Planung",
+          "title": "Wetter- und Backup-Planung",
+          "copy": "Ehrliche Hinweise zu Nebel, Regen, Wind, Sturm und was flexible Planung in den Bergen wirklich bedeutet.",
+          "href": "/guides/weather-and-backup-planning/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-161.jpg"
+        },
+        {
+          "label": "Planung",
+          "title": "Was man in den Bergen anziehen sollte",
+          "copy": "Schichten, Styling, Bewegung und praktische Hinweise für Wind, Kälte und Höhe.",
+          "href": "/guides/what-to-wear-in-the-mountains/",
+          "image": "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Hut-13.jpg"
+        },
+        {
+          "label": "Planung",
+          "title": "Helikopter-Elopement-Guide",
+          "copy": "Fernzugriff, Privatsphäre, Wetterflexibilität und wie ein Helikopter-Erlebnis wirklich funktioniert.",
+          "href": "/guides/helicopter-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-12.jpg"
+        },
+        {
+          "label": "Planung",
+          "title": "Mehrtägiger Elopement-Guide",
+          "copy": "Zweitägige Rhythmen, Rifugio-Aufenthalte und ein langsameres Erlebnis für Paare, die mehr Zeit wünschen.",
+          "href": "/guides/multi-day-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Insta-11.jpg"
+        }
+      ]
+    },
+    "final": {
+      "eyebrow": "Mit Gefühl geplant",
+      "title": "Lasst uns etwas gestalten, das sich persönlich, weit und wirklich nach euch anfühlt.",
+      "copy": "Wenn sich dieser Guide bereits nah an dem anfühlt, was ihr euch wünscht, helfe ich euch gern dabei, daraus einen Tag zu machen, der sich in den Bergen natürlich, atmosphärisch und wirklich nach euch anfühlt.",
+      "cta": "Termin anfragen"
+    }
+  },
+  "en": {
+    "slug": "dolomites-elopement-guide",
+    "title": "Dolomites Elopement Guide | Planning an Intentional Mountain Wedding",
+    "description": "A Dolomites Elopement guide with honest notes on locations, light, weather, access and the real rhythm of a mountain wedding day.",
+    "hero": {
+      "eyebrow": "Planning Guide",
+      "title": "Dolomites Elopement Guide",
+      "copy": "A quiet introduction for couples who are planning a Dolomites elopement or an intimate wedding in the mountains and want to better understand how light, weather, paths and visitor flows really influence the on-site experience.",
+      "cta": "Start planning",
+      "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-120.jpg",
+      "imageAlt": "Heroes of the Dolomites Elopement Guide"
+    },
+    "utility": {
+      "reading": "Guide",
+      "focus": "For couples planning a Dolomites Elopement or intimate mountain wedding",
+      "navOverview": "Overview",
+      "navSeasons": "Planning Blocks",
+      "navPhilosophy": "Intro",
+      "navVisual": "More guides",
+      "navFaq": "FAQ"
+    },
+    "overview": {
+      "eyebrow": "Guide Overview",
+      "copy": "In the Dolomites it's rarely \"just\" about the view. It's the early morning hours, cold hands at first light, the wind on the ridges and wondering what a place feels like before the day slowly gets louder.",
+      "items": [
+        {
+          "icon": "calendar",
+          "label": "Best Season Window",
+          "value": "June to early October"
+        },
+        {
+          "icon": "sun",
+          "label": "Most Useful Light",
+          "value": "Sunrise and sunset"
+        },
+        {
+          "icon": "cloud",
+          "label": "Weather Mood",
+          "value": "Fast-changing, often cinematic"
+        },
+        {
+          "icon": "crowd",
+          "label": "Crowd Reality",
+          "value": "Early timing matters"
+        },
+        {
+          "icon": "guests",
+          "label": "Ideal For",
+          "value": "Couples drawn to quiet scale"
+        }
+      ]
+    },
+    "philosophy": {
+      "eyebrow": "A first note",
+      "title": "The mountains are beautiful at any hour — but their quietest and most honest moments often only exist for a short window of time.",
+      "copy": "A beautiful day in the Dolomites rarely happens by accident. It happens when location, light and the rhythm of the mountains align — when you stop planning against the landscape and start moving with it.\n"
+    },
+    "sections": {
+      "seasonOrder": [
+        "intro",
+        "locations",
+        "best-time",
+        "weather",
+        "permits",
+        "ceremony",
+        "helicopter",
+        "steps"
+      ],
+      "seasons": {
+        "intro": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-155.jpg",
+          "imageAlt": "Placeholder image for a couple at sunrise in the Dolomites",
+          "eyebrow": "",
+          "title": "Why the Dolomites feel so different",
+          "intro": "The scale is immediate. The quiet usually has to be earned early.",
+          "copy": "A Dolomites Elopement is not only about dramatic peaks. It is about the hour when a place feels empty, cool and wide. When the wind is still gentle, the trail is almost silent and light starts to move across the ridges, even a famous location can feel deeply personal.",
+          "points": [
+            "The Dolomites feel different because dramatic mountain landscapes, quiet morning light and the feeling of freedom make every moment seem more intense and emotional."
+          ],
+          "facts": [
+            {
+              "icon": "guests",
+              "label": "Best For",
+              "value": "Elopements, intimate weddings, multi-day experiences"
+            },
+            {
+              "icon": "path",
+              "label": "Main Regions",
+              "value": "South Tyrol, Cortina, Braies, Val Gardena"
+            },
+            {
+              "icon": "wind",
+              "label": "Tone",
+              "value": "Cinematic, spacious, emotional"
+            }
+          ],
+          "note": "The best Dolomites wedding days rarely feel rushed. They unfold.",
+          "meta": "Scale • rhythm • mountain light",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "locations": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Photo-Drei-Zinnen-Italy-5.jpg",
+          "imageAlt": "Placeholder image for iconic Dolomites ridges",
+          "eyebrow": "",
+          "title": "Best locations",
+          "intro": "Not every iconic place fits every couple.",
+          "copy": "Lago di Braies, Seceda, Cadini and Tre Cime are all beautiful, but they carry very different energy. Some feel still and reflective, others raw, airy or cinematic. The best choice is rarely the most famous one. It is the place that gives your day the right pace.",
+          "points": [
+            "The most beautiful places in the Dolomites combine impressive mountain panoramas, quiet nature and unique light to create backdrops that feel almost unreal."
+          ],
+          "facts": [
+            {
+              "icon": "crowd",
+              "label": "Crowd Reality",
+              "value": "Iconic spots need early timing"
+            },
+            {
+              "icon": "path",
+              "label": "Access",
+              "value": "Varies from easy to hike-based"
+            },
+            {
+              "icon": "sunrise",
+              "label": "Best Light",
+              "value": "Usually sunrise, sometimes late evening"
+            }
+          ],
+          "note": "",
+          "meta": "Location first • timing second • story always",
+          "linkLabel": "Explore the best locations",
+          "linkHref": "/guides/best-dolomites-elopement-locations/"
+        },
+        "best-time": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-3.jpg",
+          "imageAlt": "Existing image showing mountain couple light in the Dolomites",
+          "eyebrow": "",
+          "title": "Best time to visit",
+          "intro": "Each season changes more than the color of the grass.",
+          "copy": "Early summer brings long approaches, open light and more movement. High summer gives access to almost everything, but asks for early starts and patience. Autumn tends to feel quieter and clearer. Winter can be extraordinary, but it is also the most demanding season logistically.",
+          "points": [
+            "The best time to travel to the Dolomites depends on the experience you want - from blooming alpine meadows in early summer to golden sunsets and quiet mountain moments in autumn."
+          ],
+          "facts": [
+            {
+              "icon": "calendar",
+              "label": "Most Balanced",
+              "value": "September"
+            },
+            {
+              "icon": "wind",
+              "label": "Most Cinematic",
+              "value": "Late autumn & early winter"
+            },
+            {
+              "icon": "path",
+              "label": "Most Accessible",
+              "value": "High summer"
+            }
+          ],
+          "note": "",
+          "meta": "Season shapes mood",
+          "linkLabel": "Read the season guide",
+          "linkHref": "/guides/best-time-for-a-dolomites-elopement/"
+        },
+        "weather": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-Instagram-3.jpg",
+          "imageAlt": "Placeholder image for weather and mountain fog planning",
+          "eyebrow": "",
+          "title": "Weather",
+          "intro": "Mountain weather is part of the experience, not a side note.",
+          "copy": "Fog can make a place feel softer and more intimate. Wind can turn a beautiful ridge unsettled. A quick weather shift can change access, temperature and mood within an hour. Planning for that does not make the day more cautious. It usually makes it calmer.",
+          "points": [
+            "The weather in the Dolomites changes quickly, making every day unique - from dramatic clouds to calm morning light and clear sunsets."
+          ],
+          "facts": [
+            {
+              "icon": "cloud",
+              "label": "Summer Pattern",
+              "value": "Clearer mornings, risk of storms later"
+            },
+            {
+              "icon": "wind",
+              "label": "Autumn Pattern",
+              "value": "Colder air, mist, clearer structure"
+            },
+            {
+              "icon": "path",
+              "label": "Planning Style",
+              "value": "Soft route, backup options, open timeline"
+            }
+          ],
+          "note": "",
+          "meta": "Weather as atmosphere",
+          "linkLabel": "See weather & backup planning",
+          "linkHref": "/guides/weather-and-backup-planning/"
+        },
+        "permits": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Lago-di-Braies-11.jpg",
+          "imageAlt": "Placeholder image for access and permit notes around a lake",
+          "eyebrow": "",
+          "title": "Permits and access",
+          "intro": "Not every place is as simple as it first looks.",
+          "copy": "In the Dolomites, toll roads, lift schedules, parking systems and local rules often shape how relaxed the morning feels. Good planning starts with simple questions: when does the road open, how far is the walk, and where does pressure usually build?",
+          "points": [
+            "Permits and access often play an important role in the Dolomites, as many places have seasonal access, parking regulations or protected natural areas that can influence daily routine."
+          ],
+          "facts": [
+            {
+              "icon": "key",
+              "label": "Always Check",
+              "value": "Road access, lift times, local regulations"
+            },
+            {
+              "icon": "crowd",
+              "label": "Popular Spots",
+              "value": "Often stricter around summer weekends"
+            },
+            {
+              "icon": "calendar",
+              "label": "Best Approach",
+              "value": "Verify rules close to the date"
+            }
+          ],
+          "note": "The logistics do not need to dominate the day, but they should never surprise it.",
+          "meta": "Permits • timing • access",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "ceremony": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Seceda-133.jpg",
+          "imageAlt": "Placeholder image for symbolic mountain ceremony",
+          "eyebrow": "",
+          "title": "Symbolic vs legal ceremony",
+          "intro": "The legal part and the emotional part do not need to happen in the same place.",
+          "copy": "Many couples pair a civil wedding in Italy or Austria with a symbolic ceremony in the mountains. That takes pressure off the schedule and allows the quieter part of the day to happen where light, landscape and timing really work together.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "guests",
+              "label": "Most Common",
+              "value": "Legal at home, symbolic in the mountains"
+            },
+            {
+              "icon": "sunrise",
+              "label": "Why",
+              "value": "More freedom in place and timing"
+            },
+            {
+              "icon": "key",
+              "label": "Best For",
+              "value": "Couples wanting intimacy over administration"
+            }
+          ],
+          "note": "",
+          "meta": "Officiality vs emotional freedom",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "helicopter": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-332.jpg",
+          "imageAlt": "Placeholder image for helicopter elopement planning",
+          "eyebrow": "",
+          "title": "Helicopter option",
+          "intro": "A helicopter is not bigger by default, only different.",
+          "copy": "For some couples, it opens places that would otherwise feel too far, too exposed for guests or too tight in timing. What matters is not the spectacle, but whether that kind of space and privacy genuinely fits the day you want.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "wind",
+              "label": "Best For",
+              "value": "Remote moments, proposals, privacy"
+            },
+            {
+              "icon": "cloud",
+              "label": "Needs",
+              "value": "Weather flexibility and trusted local partners"
+            },
+            {
+              "icon": "sun",
+              "label": "Works Best",
+              "value": "As a natural extension of the experience"
+            }
+          ],
+          "note": "",
+          "meta": "Remote • quiet • weather-led",
+          "linkLabel": "Read the helicopter guide",
+          "linkHref": "/guides/helicopter-elopement-guide/"
+        },
+        "steps": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-171.jpg",
+          "imageAlt": "Placeholder image for multi-step elopement planning",
+          "eyebrow": "",
+          "title": "Planning steps",
+          "intro": "The best days feel effortless because the structure was thought through early.",
+          "copy": "It usually starts with season, then place, then light, access and a meaningful backup plan. When those decisions are made clearly, the day itself stops feeling like logistics and starts feeling like space.",
+          "points": [
+            "Choose the mood first\\nChoose the season second\\nThen build place, timing and logistics around that"
+          ],
+          "facts": [
+            {
+              "icon": "guests",
+              "label": "First Step",
+              "value": "Feeling and atmosphere"
+            },
+            {
+              "icon": "calendar",
+              "label": "Second Step",
+              "value": "Season and light"
+            },
+            {
+              "icon": "path",
+              "label": "Third Step",
+              "value": "Access, route, clothing, backup"
+            }
+          ],
+          "note": "",
+          "meta": "Feeling → season → location → day",
+          "linkLabel": "",
+          "linkHref": ""
+        }
+      }
+    },
+    "planning": {
+      "eyebrow": "Planning Notes",
+      "title": "What usually holds the day together in the Dolomites.",
+      "intro": "The strongest decisions are often simple ones: starting early, choosing the quieter approach, building in margin and reading a place as it actually behaves on the day.",
+      "items": [
+        {
+          "label": "Timing",
+          "title": "A place at six in the morning is often a different place than it is at ten.",
+          "copy": "In the Dolomites, the hour shapes whether you experience quiet, traffic, warmth, shadow or wind.",
+          "meta": "Early hours change almost everything."
+        },
+        {
+          "label": "Access",
+          "title": "Parking, lift schedules and walking distances belong to the plan.",
+          "copy": "Many stressful mornings are not caused by weather, but by underestimating the practical side of the location.",
+          "meta": "Calm often starts with access."
+        },
+        {
+          "label": "Weather",
+          "title": "Flexibility usually strengthens a mountain day.",
+          "copy": "If fog rolls in or wind builds, it is often more helpful to soften the timeline than to hold tightly to one fixed idea.",
+          "meta": "The best plans can move."
+        },
+        {
+          "label": "Feeling",
+          "title": "Choose the character of a place, not only the postcard.",
+          "copy": "Some mountain settings feel monumental, others softer, wilder or more private. That difference matters more than popularity.",
+          "meta": "Iconic does not always mean right."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Questions couples almost always ask before a Dolomites Elopement.",
+      "intro": "Most uncertainties have less to do with the photographs than with timing, access, weather and how the day will actually feel once you are there.",
+      "items": [
+        {
+          "q": "Do we need permits for a Dolomites Elopement?",
+          "a": "Sometimes. It depends heavily on the exact place: protected areas, toll roads, lift systems, sunrise restrictions and how busy the location tends to be. That is why it is worth checking early instead of assuming it will be simple."
+        },
+        {
+          "q": "Is a symbolic ceremony more practical than a legal one?",
+          "a": "For most couples, yes. The legal part can happen separately, while the mountain day stays free to follow light, weather and mood. That usually makes the experience feel much more personal."
+        },
+        {
+          "q": "Can we bring guests and still keep the day intimate?",
+          "a": "Yes, if the place and structure support it. With guests, access, walking time, temperature and the length of the morning matter much more. The day stays intimate when the logistics do not overwhelm the group."
+        },
+        {
+          "q": "How early do we really need to start?",
+          "a": "At iconic places, usually earlier than couples first expect. Sunrise in the Dolomites changes light, sound, parking pressure and crowd levels dramatically. Quieter locations give you more flexibility."
+        },
+        {
+          "q": "Is a helicopter necessary for privacy?",
+          "a": "No. Many of the strongest moments happen without one. It becomes useful when you want more distance, more seclusion or a smoother flow without long approaches."
+        },
+        {
+          "q": "How far in advance should we start planning?",
+          "a": "Earlier almost always feels calmer. It gives you better choice on season, lodging, location and travel, and more space to build the day well."
+        }
+      ]
+    },
+    "related": {
+      "eyebrow": "Related Guides",
+      "hint": "Swipe left or right to explore more guides.",
+      "items": [
+        {
+          "label": "Locations",
+          "title": "Best Dolomites Elopement Locations",
+          "copy": "A quieter overview of places like Lago di Braies, Seceda, Tre Cime and Cadini di Misurina.",
+          "href": "/guides/best-dolomites-elopement-locations/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-191.jpg"
+        },
+        {
+          "label": "Locations",
+          "title": "Lago di Braies Guide",
+          "copy": "Still water, first light and honest notes on when this iconic lake truly feels quiet.",
+          "href": "/guides/lago-di-braies-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Lago-di-Braies-Dolomites-11.jpg"
+        },
+        {
+          "label": "Locations",
+          "title": "Seceda Guide",
+          "copy": "Open ridgelines, wind, lift access and the calmer hours that make Seceda feel personal.",
+          "href": "/guides/seceda-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Seceda-180.jpg"
+        },
+        {
+          "label": "Locations",
+          "title": "Cadini di Misurina Guide",
+          "copy": "Cinematic peaks, sunrise access and practical notes for one of the most dramatic settings.",
+          "href": "/guides/cadini-di-misurina-guide/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-12.jpg"
+        },
+        {
+          "label": "Locations",
+          "title": "Tre Cime Wedding Guide",
+          "copy": "A guide to timing, access and crowd rhythm around one of the most iconic Dolomites landscapes.",
+          "href": "/guides/tre-cime-wedding-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Photo-Drei-Zinnen-Italy-24.jpg"
+        },
+        {
+          "label": "Planning",
+          "title": "Best Time for a Dolomites Elopement",
+          "copy": "A calm guide to seasons, weather, light and when the mountains may feel most like you.",
+          "href": "/guides/best-time-for-a-dolomites-elopement/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-16.jpg"
+        },
+        {
+          "label": "Planning",
+          "title": "Sunrise vs Sunset in the Mountains",
+          "copy": "A thoughtful comparison of first light, later evenings, crowd rhythm and real mountain timing.",
+          "href": "/guides/sunrise-vs-sunset-dolomites/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Photo-368.jpg"
+        },
+        {
+          "label": "Planning",
+          "title": "Weather & Backup Planning",
+          "copy": "Honest notes on fog, rain, wind, storms and what flexible planning really means in the mountains.",
+          "href": "/guides/weather-and-backup-planning/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-161.jpg"
+        },
+        {
+          "label": "Planning",
+          "title": "What to Wear in the Mountains",
+          "copy": "Layers, styling, movement and practical notes for wind, cold and height.",
+          "href": "/guides/what-to-wear-in-the-mountains/",
+          "image": "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Hut-13.jpg"
+        },
+        {
+          "label": "Planning",
+          "title": "Helicopter Elopement Guide",
+          "copy": "Remote access, privacy, weather flexibility and how a helicopter experience really works.",
+          "href": "/guides/helicopter-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-12.jpg"
+        },
+        {
+          "label": "Planning",
+          "title": "Multi-Day Elopement Guide",
+          "copy": "Two-day rhythms, rifugio stays and a slower experience for couples who want more time.",
+          "href": "/guides/multi-day-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Insta-11.jpg"
+        }
+      ]
+    },
+    "final": {
+      "eyebrow": "Planned with intention",
+      "title": "Let’s shape something that feels quiet, personal and deeply true to you.",
+      "copy": "If this guide already feels close to the way you want the day to move, I would love to help you turn that feeling into something calm, cinematic and genuinely your own in the mountains.",
+      "cta": "Inquire now"
+    }
+  }
+}

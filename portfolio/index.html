@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="de" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Hochzeitsfotograf Tirol & Dolomiten</title>
+  <meta
+    name="description"
+    content="Portfolio mit Hochzeiten, Elopements und Paarreportagen aus Tirol, Innsbruck und den Dolomiten. Editorial, ruhig und zeitlos fotografiert."
+  >
+  <link rel="canonical" href="https://www.hochzeitsfotograf.tirol/portfolio/">
+  <link rel="icon" type="image/png" href="/Logo-Blitzkneisser-BERG.png">
+  <script defer src="/assets/seo.js"></script>
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ["Inter", "sans-serif"]
+          },
+          colors: {
+            brand: {
+              bg: "#FFFFFF",
+              text: "#1B1A18",
+              muted: "#8A837A",
+              border: "#E6DED4"
+            }
+          },
+          letterSpacing: {
+            tightest: "-0.06em"
+          }
+        }
+      }
+    };
+  </script>
+  <style>
+    body {
+      background-color: #FFFFFF;
+      color: #1B1A18;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    .headline {
+      font-weight: 700;
+      letter-spacing: -0.05em;
+      line-height: 0.9;
+      text-transform: uppercase;
+    }
+
+    .eyebrow {
+      letter-spacing: 0.28em;
+      text-transform: uppercase;
+      font-size: 10px;
+      font-weight: 500;
+      color: #8A837A;
+    }
+
+    .section-rule {
+      border-top: 1px solid #E6DED4;
+      width: 100%;
+    }
+
+    .editorial-image {
+      overflow: hidden;
+      display: block;
+      background: #F4F0EA;
+    }
+
+    .editorial-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      display: block;
+      transition: transform 0.9s cubic-bezier(0.16, 1, 0.3, 1), filter 0.35s ease;
+    }
+
+    .editorial-image:hover img {
+      transform: scale(1.02);
+      filter: contrast(1.02);
+    }
+
+    .portfolio-gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      grid-auto-rows: 86px;
+      gap: 0.8rem;
+      align-items: start;
+      background: #FFFFFF;
+    }
+
+    .portfolio-gallery-item {
+      margin: 0;
+      background: #FFFFFF;
+      align-self: start;
+      min-height: 0;
+    }
+
+    .portfolio-gallery-item.editorial-image {
+      height: 100%;
+    }
+
+    .portfolio-gallery-item.is-tall {
+      grid-row: span 5;
+    }
+
+    .portfolio-gallery-item.is-short {
+      grid-row: span 3;
+    }
+
+    .portfolio-gallery-item.is-offset,
+    .portfolio-gallery-item:not(.is-tall):not(.is-short) {
+      grid-row: span 4;
+    }
+
+    @media (min-width: 1200px) {
+      .portfolio-gallery-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        grid-auto-rows: 112px;
+        gap: 1rem;
+      }
+    }
+
+    .fade-in-up {
+      animation: fadeInUp 1.05s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+      opacity: 0;
+      transform: translateY(24px);
+    }
+
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .mobile-menu-toggle { display: none; }
+    .floating-lang-toggle { display: none; }
+
+    @media (max-width: 767px) {
+      .mobile-menu-toggle {
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5px;
+        width: 44px;
+        height: 44px;
+        margin-left: auto;
+      }
+      .mobile-menu-toggle span {
+        width: 24px;
+        height: 2px;
+        margin-left: auto;
+        background: #1B1A18;
+        transition: transform 0.25s ease, opacity 0.25s ease;
+      }
+      #mainNav.is-open .mobile-menu-toggle span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+      #mainNav.is-open .mobile-menu-toggle span:nth-child(2) { opacity: 0; }
+      #mainNav.is-open .mobile-menu-toggle span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+      .nav-menu-panel {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem 1.5rem 1.25rem;
+        background: rgba(255,255,255,.94);
+        backdrop-filter: blur(14px);
+        border-bottom: 1px solid #E6DED4;
+        opacity: 0;
+        pointer-events: none;
+        transform: translateY(-8px);
+        transition: opacity .25s ease, transform .25s ease;
+      }
+      #mainNav.is-open .nav-menu-panel {
+        opacity: 1;
+        pointer-events: auto;
+        transform: translateY(0);
+      }
+      .nav-menu-panel > div:first-child {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+      }
+      .nav-menu-panel a {
+        font-size: 1rem;
+        font-weight: 700;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+      }
+      .nav-menu-panel .nav-lang-toggle { display: none; }
+      .floating-lang-toggle {
+        position: fixed;
+        right: 1rem;
+        bottom: 1rem;
+        z-index: 60;
+        display: flex;
+        align-items: center;
+        gap: 0.35rem;
+        padding: 0.4rem;
+        background: rgba(255,255,255,.94);
+        backdrop-filter: blur(14px);
+        border: 1px solid #E6DED4;
+        box-shadow: 0 12px 30px rgba(27, 26, 24, 0.08);
+      }
+      .floating-lang-toggle button {
+        border: 1px solid #E6DED4;
+        min-width: 2.8rem;
+        padding: 0.7rem 0.75rem;
+        font-size: 0.625rem;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        transition: all 0.2s ease;
+      }
+    }
+  </style>
+</head>
+<body class="overflow-x-hidden selection:bg-stone-300 selection:text-black">
+  <nav class="fixed top-0 left-0 z-50 w-full bg-white/80 px-6 py-5 text-brand-text backdrop-blur-sm transition-all duration-500 md:px-12 md:py-8" id="mainNav">
+    <div class="mx-auto flex max-w-[120rem] items-center justify-between gap-6">
+      <a href="/index.html" id="navHomeLink" class="group flex items-center" aria-label="Blitzkneisser Photography">
+        <img src="/Logo-Blitzkneisser-BERG.png" alt="Blitzkneisser Photography" class="h-11 w-auto brightness-0 contrast-125 opacity-70 transition duration-500 ease-out group-hover:opacity-100 md:h-14">
+      </a>
+      <button type="button" class="mobile-menu-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenuPanel" aria-label="Menü öffnen"><span></span><span></span><span></span></button>
+      <div class="nav-menu-panel ml-auto flex items-center justify-end gap-4 text-right" id="navMenuPanel">
+        <div class="flex items-center gap-4 text-[10px] uppercase tracking-[0.2em] sm:gap-6 md:gap-8 md:text-xs">
+          <a href="/index.html" class="hover:opacity-60 transition-opacity duration-300" id="navHomeMenuLink" data-i18n="nav.home">Home</a>
+          <a href="/experience/" class="hover:opacity-60 transition-opacity duration-300" id="navExperienceLink">Experience</a>
+          <a href="/guides/" class="hover:opacity-60 transition-opacity duration-300" id="navGuidesLink">Guides</a>
+          <a href="/journal/" class="hover:opacity-60 transition-opacity duration-300" id="navJournalLink">Journal</a>
+          <a href="/about/" class="hover:opacity-60 transition-opacity duration-300" id="navAboutLink" data-i18n="nav.about">About</a>
+          <a href="/contact/" class="hover:opacity-60 transition-opacity duration-300" id="navContactLink" data-i18n="nav.contact">Contact</a>
+          <a href="/film/" class="hidden hover:opacity-60 transition-opacity duration-300" id="navFilmLink" data-i18n="nav.film">Film</a>
+          <a href="/portfolio/" class="hidden opacity-60 transition-opacity duration-300" id="navPortfolioLink" data-i18n="nav.portfolio" aria-current="page">Portfolio</a>
+          <a href="/academy/" class="hidden hover:opacity-60 transition-opacity duration-300" id="navAcademyLink" data-i18n="nav.academy">Academy</a>
+        </div>
+        <div class="nav-lang-toggle flex items-center gap-2 text-[10px] uppercase tracking-[0.24em] md:text-xs">
+          <button type="button" class="border border-brand-border px-3 py-2 transition-colors" data-lang-button="de" aria-pressed="true">DE</button>
+          <button type="button" class="border border-brand-border px-3 py-2 transition-colors" data-lang-button="en" aria-pressed="false">EN</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="floating-lang-toggle" id="floatingLangToggle" aria-label="Sprache wechseln">
+    <button type="button" data-lang-button="de" aria-pressed="true">DE</button>
+    <button type="button" data-lang-button="en" aria-pressed="false">EN</button>
+  </div>
+
+  <main class="pt-32 md:pt-48 pb-24">
+    <header class="px-6 md:px-12 max-w-[120rem] mx-auto mb-24 md:mb-32 fade-in-up" style="animation-delay: 0.08s;">
+      <div class="grid gap-12 lg:grid-cols-[1.1fr_0.9fr] lg:items-end">
+        <div class="-mt-4 md:-mt-8 lg:-mt-10 space-y-7">
+          <h1 class="headline text-[3.3rem] md:text-[6.4rem] lg:text-[8.7rem]" data-i18n="hero.title">
+            Portfolio
+          </h1>
+        </div>
+        <div class="space-y-8 max-w-xl">
+          <p class="text-base md:text-lg leading-relaxed font-light text-brand-text/80" data-i18n="hero.copy">
+            Ein kuratierter Überblick aus Reportagen in Tirol, Innsbruck, den Dolomiten und den Alpen - ruhig erzählt, modern fotografiert und auf echte Momente fokussiert.
+          </p>
+        </div>
+      </div>
+      <div class="mt-12 section-rule"></div>
+    </header>
+
+    <section class="px-6 md:px-12 max-w-[120rem] mx-auto">
+      <div class="portfolio-gallery-grid" id="portfolioGalleryGrid"></div>
+    </section>
+
+    <section class="px-6 md:px-12 max-w-[120rem] mx-auto mt-24 md:mt-32 fade-in-up" style="animation-delay: 0.52s;">
+      <div class="section-rule mb-10 md:mb-14"></div>
+      <div class="grid gap-10 md:gap-12 lg:grid-cols-[1fr_auto] lg:items-end">
+        <div class="max-w-3xl">
+          <p class="text-sm uppercase tracking-[0.22em] text-brand-muted mb-6" data-i18n="closing.eyebrow">Nächster Schritt</p>
+          <p class="text-xl md:text-3xl leading-[1.35] font-light" data-i18n="closing.copy">
+            Wenn euch diese Bildsprache anspricht, erzählt mir von euren Plänen. Gemeinsam gestalten wir eine Begleitung, die ruhig, klar und persönlich zu euch passt.
+          </p>
+        </div>
+        <a id="closingCtaLink" href="/contact/" class="inline-flex items-center gap-4 border border-brand-text px-9 py-4 text-[10px] uppercase tracking-[0.3em] font-medium transition-colors hover:bg-brand-text hover:text-white">
+          <span data-i18n="closing.cta">Zur Anfrage</span>
+          <span aria-hidden="true">→</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="py-16 px-6 md:px-12 border-t border-brand-border flex flex-col md:flex-row justify-between items-start md:items-center text-[10px] md:text-xs text-brand-muted tracking-[0.2em] uppercase font-medium bg-brand-bg">
+    <div class="mb-8 md:mb-0" id="footerBrandText">© 2026 Blitzkneisser Photography</div>
+    <div class="flex flex-col md:flex-row gap-6 md:gap-12">
+      <a id="footerInstagramLink" href="#" class="hover:text-brand-text transition-colors duration-300">Instagram</a>
+      <a href="/contact/" class="hover:text-brand-text transition-colors duration-300" id="footerContactLink" data-i18n="footer.contact">Kontakt</a>
+      <a href="/journal/" class="hover:text-brand-text transition-colors duration-300" id="footerJournalLink">Journal</a>
+    </div>
+    <div id="footerInstagramFeed" class="footer-instagram-feed"></div>
+  </footer>
+
+  <script>
+    const nav = document.getElementById("mainNav");
+    const navToggle = document.getElementById("navToggle");
+    const navMenuPanel = document.getElementById("navMenuPanel");
+
+    const closeNavMenu = () => {
+      nav.classList.remove("is-open");
+      navToggle.setAttribute("aria-expanded", "false");
+    };
+
+    navToggle.addEventListener("click", () => {
+      const willOpen = !nav.classList.contains("is-open");
+      nav.classList.toggle("is-open", willOpen);
+      navToggle.setAttribute("aria-expanded", willOpen ? "true" : "false");
+    });
+
+    navMenuPanel.querySelectorAll("a, button[data-lang-button]").forEach((item) => {
+      item.addEventListener("click", () => {
+        if (window.innerWidth < 768) closeNavMenu();
+      });
+    });
+
+    window.addEventListener("resize", () => {
+      if (window.innerWidth >= 768) closeNavMenu();
+    });
+
+    window.addEventListener("scroll", () => {
+      if (window.innerWidth < 768 && nav.classList.contains("is-open")) {
+        closeNavMenu();
+      }
+    }, { passive: true });
+
+    const uiTranslations = {
+      de: {
+        pageTitle: "Portfolio | Blitzkneisser Photography",
+        metaDescription: "Kuratierte Hochzeits- und Elopement-Reportagen aus Tirol, Innsbruck, den Dolomiten und den Alpen. Editorial, ruhig und zeitlos.",
+        "nav.home": "Home",
+        "nav.about": "Über mich",
+        "nav.film": "Film",
+        "nav.portfolio": "Portfolio",
+        "nav.contact": "Kontakt",
+        "hero.eyebrow": "Portfolio",
+        "hero.title": "Portfolio",
+        "hero.copy": "Ein kuratierter Überblick aus Reportagen in Tirol, Innsbruck, den Dolomiten und den Alpen - ruhig erzählt, modern fotografiert und auf echte Momente fokussiert.",
+        "hero.cta": "Termin anfragen",
+        "closing.eyebrow": "Nächster Schritt",
+        "closing.copy": "Wenn euch diese Bildsprache anspricht, erzählt mir von euren Plänen. Gemeinsam gestalten wir eine Begleitung, die ruhig, klar und persönlich zu euch passt.",
+        "closing.cta": "Zur Anfrage",
+        "footer.contact": "Kontakt"
+      },
+      en: {
+        pageTitle: "Portfolio | Blitzkneisser Photography",
+        metaDescription: "Curated wedding and elopement stories from Tyrol, Innsbruck, the Dolomites and the Alps. Editorial, calm and timeless.",
+        "nav.home": "Home",
+        "nav.about": "About",
+        "nav.film": "Film",
+        "nav.portfolio": "Portfolio",
+        "nav.contact": "Contact",
+        "hero.eyebrow": "Portfolio",
+        "hero.title": "Portfolio",
+        "hero.copy": "A curated overview of stories from Tyrol, Innsbruck, the Dolomites and the Alps - quietly told, modernly photographed and focused on real moments.",
+        "hero.cta": "Inquire now",
+        "closing.eyebrow": "Next Step",
+        "closing.copy": "If this visual language resonates with you, tell me about your plans. Together we shape a coverage that feels calm, clear and personal.",
+        "closing.cta": "Go to inquiry",
+        "footer.contact": "Contact"
+      }
+    };
+
+    let portfolioContent = {};
+    const portfolioGalleryPattern = [
+      "is-tall",
+      "is-offset",
+      "is-tall",
+      "is-short",
+      "",
+      "is-offset",
+      "is-tall",
+      "",
+      "is-short"
+    ];
+
+    const loadPortfolioContent = async () => {
+      if (Object.keys(portfolioContent).length) return portfolioContent;
+      try {
+        const response = await fetch(`/content/portfolio/page.json?ts=${Date.now()}`, { cache: "no-store" });
+        if (!response.ok) throw new Error("Portfolio content unavailable");
+        portfolioContent = await response.json();
+      } catch {
+        portfolioContent = {};
+      }
+      return portfolioContent;
+    };
+
+    const renderPortfolioGallery = (activeLang, gallery) => {
+      const grid = document.getElementById("portfolioGalleryGrid");
+      if (!grid) return;
+
+      const items = Array.isArray(gallery) && gallery.length
+        ? gallery.filter((item) => item && item.image)
+        : [];
+
+      const fallbackItems = [
+        {
+          image: "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Wedding-159.jpg",
+          alt: "Brautpaar in den Dolomiten beim Sonnenaufgang",
+          altEn: "Couple in the Dolomites at sunrise"
+        }
+      ];
+
+      const source = items.length ? items : fallbackItems;
+      grid.innerHTML = source.map((item, index) => {
+        const patternClass = portfolioGalleryPattern[index % portfolioGalleryPattern.length];
+        const className = ["portfolio-gallery-item", patternClass, "editorial-image", "fade-in-up"].filter(Boolean).join(" ");
+        const alt = activeLang === "en"
+          ? (item.altEn || item.alt || `Portfolio image ${index + 1}`)
+          : (item.alt || item.altEn || `Portfolio Bild ${index + 1}`);
+        const delay = (0.16 + (index * 0.04)).toFixed(2);
+        return `
+          <figure class="${className}" style="animation-delay: ${delay}s;">
+            <img src="${item.image}" alt="${alt}" loading="${index === 0 ? "eager" : "lazy"}" decoding="async">
+          </figure>
+        `;
+      }).join("");
+    };
+
+    const applyPortfolioContent = (activeLang, content, fallbackTranslations) => {
+      const heroEyebrowNode = document.querySelector('[data-i18n="hero.eyebrow"]');
+      const heroTitleNode = document.querySelector('[data-i18n="hero.title"]');
+      const heroCopyNode = document.querySelector('[data-i18n="hero.copy"]');
+      const closingEyebrowNode = document.querySelector('[data-i18n="closing.eyebrow"]');
+      const closingCopyNode = document.querySelector('[data-i18n="closing.copy"]');
+      const closingCtaNode = document.querySelector('[data-i18n="closing.cta"]');
+
+      const localized = {
+        pageTitle: activeLang === "en" ? (content.metaTitleEn || content.metaTitle || fallbackTranslations.pageTitle) : (content.metaTitle || fallbackTranslations.pageTitle),
+        metaDescription: activeLang === "en" ? (content.metaDescriptionEn || content.metaDescription || fallbackTranslations.metaDescription) : (content.metaDescription || fallbackTranslations.metaDescription),
+        heroEyebrow: activeLang === "en" ? (content.heroEyebrowEn || content.heroEyebrow || fallbackTranslations["hero.eyebrow"]) : (content.heroEyebrow || fallbackTranslations["hero.eyebrow"]),
+        heroTitle: activeLang === "en" ? (content.heroTitleEn || content.heroTitle || fallbackTranslations["hero.title"]) : (content.heroTitle || fallbackTranslations["hero.title"]),
+        heroCopy: activeLang === "en" ? (content.heroCopyEn || content.heroCopy || fallbackTranslations["hero.copy"]) : (content.heroCopy || fallbackTranslations["hero.copy"]),
+        closingEyebrow: activeLang === "en" ? (content.closingEyebrowEn || content.closingEyebrow || fallbackTranslations["closing.eyebrow"]) : (content.closingEyebrow || fallbackTranslations["closing.eyebrow"]),
+        closingCopy: activeLang === "en" ? (content.closingCopyEn || content.closingCopy || fallbackTranslations["closing.copy"]) : (content.closingCopy || fallbackTranslations["closing.copy"]),
+        closingCta: activeLang === "en" ? (content.closingCtaEn || content.closingCta || fallbackTranslations["closing.cta"]) : (content.closingCta || fallbackTranslations["closing.cta"])
+      };
+
+      document.title = localized.pageTitle;
+      document.querySelector('meta[name="description"]').setAttribute("content", localized.metaDescription);
+      if (heroEyebrowNode) heroEyebrowNode.textContent = localized.heroEyebrow;
+      if (heroTitleNode) heroTitleNode.textContent = localized.heroTitle;
+      if (heroCopyNode) heroCopyNode.textContent = localized.heroCopy;
+      if (closingEyebrowNode) closingEyebrowNode.textContent = localized.closingEyebrow;
+      if (closingCopyNode) closingCopyNode.textContent = localized.closingCopy;
+      if (closingCtaNode) closingCtaNode.textContent = localized.closingCta;
+
+      renderPortfolioGallery(activeLang, Array.isArray(content.gallery) ? content.gallery : []);
+    };
+
+    const applyLanguage = async (lang) => {
+      const activeLang = lang === "en" ? "en" : "de";
+      const t = uiTranslations[activeLang];
+      localStorage.setItem("site-lang", activeLang);
+      document.documentElement.lang = activeLang;
+
+      document.querySelectorAll("[data-i18n]").forEach((node) => {
+        const key = node.dataset.i18n;
+        if (t[key]) node.textContent = t[key];
+      });
+
+      document.querySelectorAll("[data-lang-button]").forEach((button) => {
+        const isActive = button.dataset.langButton === activeLang;
+        button.setAttribute("aria-pressed", isActive ? "true" : "false");
+        button.style.backgroundColor = isActive ? "#1B1A18" : "transparent";
+        button.style.color = isActive ? "#F9F7F2" : "#1B1A18";
+        button.style.borderColor = isActive ? "#1B1A18" : "#E6DED4";
+      });
+
+      const homeHref = activeLang === "en" ? "/index.html?lang=en" : "/index.html";
+      document.getElementById("navHomeLink").href = homeHref;
+      document.getElementById("navHomeMenuLink").href = homeHref;
+      document.getElementById("navExperienceLink").href = activeLang === "en" ? "/experience/?lang=en" : "/experience/";
+      document.getElementById("navGuidesLink").href = activeLang === "en" ? "/guides/?lang=en" : "/guides/";
+      document.getElementById("navAboutLink").href = activeLang === "en" ? "/about/?lang=en" : "/about/";
+      document.getElementById("navFilmLink").href = activeLang === "en" ? "/film/?lang=en" : "/film/";
+      document.getElementById("navPortfolioLink").href = activeLang === "en" ? "/portfolio/?lang=en" : "/portfolio/";
+      document.getElementById("navJournalLink").href = activeLang === "en" ? "/journal/?lang=en" : "/journal/";
+      document.getElementById("navContactLink").href = activeLang === "en" ? "/contact/?lang=en" : "/contact/";
+      document.getElementById("closingCtaLink").href = activeLang === "en" ? "/contact/?lang=en" : "/contact/";
+      document.getElementById("footerContactLink").href = activeLang === "en" ? "/contact/?lang=en" : "/contact/";
+
+      const content = await loadPortfolioContent();
+      applyPortfolioContent(activeLang, content, t);
+
+      window.history.replaceState({}, "", activeLang === "en" ? "/portfolio/?lang=en" : "/portfolio/");
+    };
+
+    document.addEventListener("DOMContentLoaded", () => {
+      const detectAutoLanguage = () => {
+        const browserLanguages = [
+          ...(navigator.languages || []),
+          navigator.language,
+          navigator.userLanguage
+        ]
+          .filter(Boolean)
+          .map((value) => String(value).toLowerCase());
+        return browserLanguages.some((value) => value.startsWith("de")) ? "de" : "en";
+      };
+
+      const params = new URLSearchParams(window.location.search);
+      const initialLang = params.get("lang") === "en"
+        ? "en"
+        : (params.get("lang") === "de" ? "de" : (localStorage.getItem("site-lang") || detectAutoLanguage()));
+
+      document.querySelectorAll("[data-lang-button]").forEach((button) => {
+        button.addEventListener("click", () => {
+          applyLanguage(button.dataset.langButton);
+        });
+      });
+
+      applyLanguage(initialLang);
+    });
+  </script>
+  <script src="/assets/footer-settings.js"></script>
+  <script src="/assets/pinterest-pin.js"></script>
+</body>
+</html>

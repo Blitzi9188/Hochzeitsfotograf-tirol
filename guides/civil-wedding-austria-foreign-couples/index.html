@@ -1,0 +1,1695 @@
+<!DOCTYPE html>
+<html lang="de" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Standesamtliche Hochzeit in Österreich | Guide für internationale Paare</title>
+  <meta
+    name="description"
+    content="Guide für internationale Paare, die in Österreich standesamtlich heiraten und den offiziellen Teil mit Bergen, Ruhe und einem persönlichen Hochzeitstag verbinden möchten."
+  >
+  <link rel="icon" type="image/png" href="/Logo-Blitzkneisser-BERG.png">
+  <script defer src="/assets/seo.js"></script>
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ["Inter", "sans-serif"]
+          },
+          colors: {
+            brand: {
+              bg: "#FFFFFF",
+              text: "#1B1A18",
+              muted: "#8A837A",
+              border: "#E6DED4",
+              soft: "#F7F3ED"
+            }
+          }
+        }
+      }
+    };
+  </script>
+  <style>
+    body {
+      background: #FFFFFF;
+      color: #1B1A18;
+      font-family: "Inter", sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    .eyebrow,
+    .section-label,
+    .related-card-label,
+    .season-fact-label,
+    .planning-item-label,
+    .guide-reading-meta {
+      color: #8A837A;
+      font-size: 10px;
+      font-weight: 500;
+      letter-spacing: 0.28em;
+      text-transform: uppercase;
+    }
+
+    .section-label {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.8rem;
+    }
+
+    .section-label::before {
+      content: "";
+      width: 3rem;
+      height: 1px;
+      background: #E6DED4;
+    }
+
+    .section-label.no-line::before {
+      display: none;
+    }
+
+    .body-copy,
+    .hero-copy,
+    .faq-intro,
+    .planning-item-copy {
+      font-size: 1rem;
+      line-height: 1.8;
+      font-weight: 300;
+      color: rgba(27, 26, 24, 0.82);
+    }
+
+    .section-title {
+      font-size: clamp(2rem, 4vw, 3.5rem);
+      line-height: 0.98;
+      letter-spacing: -0.05em;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #1B1A18;
+    }
+
+    .hero-frame {
+      display: grid;
+      background: #F7F3ED;
+      overflow: hidden;
+    }
+
+    .hero-media {
+      min-height: 28rem;
+      background: #F7F3ED;
+    }
+
+    .hero-media img,
+    .image-shell img,
+    .related-card-image img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .hero-content {
+      display: flex;
+      align-items: center;
+      background: #FBF8F3;
+      padding: 2.9rem 1.75rem;
+    }
+
+    .hero-panel {
+      width: 100%;
+      max-width: 39rem;
+    }
+
+    .hero-title {
+      margin-top: 1.4rem;
+      font-size: clamp(2.1rem, 4.4vw, 4.35rem);
+      line-height: 1.02;
+      letter-spacing: -0.05em;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #1B1A18;
+      word-break: break-word;
+      overflow-wrap: anywhere;
+      text-wrap: balance;
+    }
+
+    .hero-copy {
+      margin-top: 1.7rem;
+      max-width: 34rem;
+    }
+
+    .hero-panel .button-solid,
+    .hero-panel .button-outline {
+      margin-top: 2.1rem;
+    }
+
+    .button-solid,
+    .button-outline {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 3rem;
+      padding: 0.95rem 1.5rem;
+      font-size: 10px;
+      font-weight: 500;
+      letter-spacing: 0.28em;
+      text-transform: uppercase;
+      transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease, opacity 0.25s ease;
+    }
+
+    .button-solid {
+      border: 1px solid #1B1A18;
+      background: #1B1A18;
+      color: #FFFFFF;
+    }
+
+    .button-solid:hover {
+      opacity: 0.85;
+    }
+
+    .button-light {
+      border-color: rgba(255, 255, 255, 0.9);
+      background: #FFFFFF;
+      color: #1B1A18;
+    }
+
+    .button-light:hover {
+      background: rgba(255, 255, 255, 0.93);
+      color: #1B1A18;
+      opacity: 1;
+    }
+
+    .text-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      padding-bottom: 0.35rem;
+      border-bottom: 1px solid currentColor;
+      font-size: 10px;
+      font-weight: 500;
+      letter-spacing: 0.28em;
+      text-transform: uppercase;
+      transition: opacity 0.2s ease;
+    }
+
+    .text-link:hover {
+      opacity: 0.65;
+    }
+
+    .guide-utility {
+      display: grid;
+      gap: 1rem;
+      border-top: 1px solid #E6DED4;
+      border-bottom: 1px solid #E6DED4;
+      padding: 1.35rem 0;
+    }
+
+    .guide-anchor-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.9rem 1.2rem;
+      font-size: 10px;
+      font-weight: 500;
+      letter-spacing: 0.24em;
+      text-transform: uppercase;
+      color: #8A837A;
+    }
+
+    .guide-anchor-nav a {
+      transition: opacity 0.2s ease;
+    }
+
+    .guide-anchor-nav a:hover {
+      opacity: 0.65;
+    }
+
+    .quick-facts {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1.4rem 1rem;
+    }
+
+    .fact-item {
+      text-align: center;
+    }
+
+    .fact-icon,
+    .season-fact-icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      color: rgba(27, 26, 24, 0.82);
+      margin-bottom: 0.85rem;
+    }
+
+    .fact-icon svg,
+    .season-fact-icon svg {
+      width: 1.5rem;
+      height: 1.5rem;
+      stroke: currentColor;
+      stroke-width: 1.85;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      fill: none;
+    }
+
+    .fact-value {
+      margin-top: 0.5rem;
+      font-size: 0.98rem;
+      line-height: 1.55;
+      font-weight: 300;
+      color: rgba(27, 26, 24, 0.82);
+    }
+
+    .guide-season-row {
+      display: grid;
+      gap: 1.5rem;
+      margin-bottom: 4rem;
+      align-items: start;
+    }
+
+    .guide-season-image {
+      aspect-ratio: 16 / 9;
+      overflow: hidden;
+      background: #F7F3ED;
+    }
+
+    .guide-season-copy {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 1.25rem;
+      min-width: 0;
+    }
+
+    .season-heading {
+      font-size: clamp(1.8rem, 3vw, 2.9rem);
+      line-height: 0.98;
+      letter-spacing: -0.05em;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #1B1A18;
+    }
+
+    .season-intro {
+      margin-top: 1rem;
+      font-size: 1.05rem;
+      line-height: 1.75;
+      font-weight: 400;
+      color: rgba(27, 26, 24, 0.88);
+    }
+
+    .season-points {
+      margin-top: 1rem;
+      display: grid;
+      gap: 0.55rem;
+      padding-left: 1.05rem;
+      font-size: 0.98rem;
+      line-height: 1.65;
+      font-weight: 300;
+      color: rgba(27, 26, 24, 0.8);
+      list-style: disc;
+    }
+
+    .season-facts {
+      display: grid;
+      gap: 0.9rem;
+      margin-top: 1.35rem;
+      padding-top: 1.35rem;
+      border-top: 1px solid #E6DED4;
+    }
+
+    .season-fact {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 0.9rem;
+      align-items: start;
+    }
+
+    .season-fact-value,
+    .planning-item-title,
+    .season-note,
+    .content-meta,
+    .planning-item-meta {
+      color: rgba(27, 26, 24, 0.8);
+    }
+
+    .season-fact-value {
+      font-size: 0.96rem;
+      line-height: 1.6;
+      font-weight: 300;
+      margin-top: 0.15rem;
+    }
+
+    .season-note {
+      margin-top: 1.15rem;
+      font-size: 0.95rem;
+      line-height: 1.7;
+      font-style: italic;
+      font-weight: 300;
+    }
+
+    .content-meta,
+    .planning-item-meta {
+      font-size: 10px;
+      letter-spacing: 0.24em;
+      text-transform: uppercase;
+      color: #8A837A;
+    }
+
+    .planning-list {
+      display: grid;
+      gap: 1rem;
+    }
+
+    .planning-item {
+      padding: 1.5rem 0;
+      border-top: 1px solid #E6DED4;
+    }
+
+    .planning-item:first-child {
+      padding-top: 0;
+      border-top: none;
+    }
+
+    .planning-item-title {
+      margin-top: 0.65rem;
+      font-size: 1.35rem;
+      line-height: 1.2;
+      letter-spacing: -0.03em;
+      font-weight: 400;
+      color: #1B1A18;
+    }
+
+    .planning-item-copy {
+      margin-top: 0.9rem;
+    }
+
+    .planning-item-meta {
+      margin-top: 1rem;
+    }
+
+    .related-rail {
+      display: grid;
+      grid-auto-flow: column;
+      grid-auto-columns: minmax(17rem, 22rem);
+      gap: 1.25rem;
+      overflow-x: auto;
+      overscroll-behavior-x: contain;
+      scroll-snap-type: x proximity;
+      padding-bottom: 0.25rem;
+      scrollbar-width: none;
+      -ms-overflow-style: none;
+    }
+
+    .related-rail::-webkit-scrollbar {
+      display: none;
+    }
+
+    .related-card {
+      border: 1px solid #E6DED4;
+      background: #FFFFFF;
+      scroll-snap-align: start;
+    }
+
+    .related-card-image {
+      aspect-ratio: 4 / 3;
+      overflow: hidden;
+      background: #F7F3ED;
+    }
+
+    .related-card-body {
+      padding: 1.2rem 1.1rem 1.35rem;
+    }
+
+    .faq-item summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .fade-in-up {
+      animation: fadeInUp 0.85s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+      opacity: 0;
+      transform: translateY(14px);
+    }
+
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .mobile-menu-toggle,
+    .floating-lang-toggle {
+      display: none;
+    }
+
+    @media (min-width: 768px) {
+      .guide-utility {
+        grid-template-columns: auto 1fr;
+        align-items: center;
+      }
+
+      .quick-facts {
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+      }
+
+      .hero-frame {
+        grid-template-columns: minmax(0, 1.28fr) minmax(22rem, 0.72fr);
+      }
+
+      .hero-media {
+        min-height: 42rem;
+      }
+
+      .hero-content {
+        padding: 3.25rem;
+      }
+
+      .guide-season-row {
+        grid-template-columns: minmax(0, 1.12fr) minmax(20rem, 0.88fr);
+        gap: 2rem;
+      }
+
+      .guide-season-row.is-image-right .guide-season-image {
+        order: 2;
+      }
+
+      .guide-season-row.is-image-right .guide-season-copy {
+        order: 1;
+      }
+    }
+
+    @media (max-width: 767px) {
+      .quick-facts {
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+        gap: 0.8rem 0.45rem;
+      }
+
+      .fact-item {
+        min-width: 0;
+      }
+
+      .fact-icon,
+      .season-fact-icon {
+        margin-bottom: 0.45rem;
+      }
+
+      .fact-icon svg,
+      .season-fact-icon svg {
+        width: 1rem;
+        height: 1rem;
+      }
+
+      .quick-facts .eyebrow {
+        font-size: 8px;
+        letter-spacing: 0.16em;
+        line-height: 1.35;
+      }
+
+      .fact-value {
+        margin-top: 0.28rem;
+        font-size: 0.72rem;
+        line-height: 1.35;
+      }
+
+      .mobile-menu-toggle {
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5px;
+        width: 44px;
+        height: 44px;
+        margin-left: auto;
+      }
+
+      .mobile-menu-toggle span {
+        width: 24px;
+        height: 2px;
+        margin-left: auto;
+        background: #1B1A18;
+        transition: transform 0.25s ease, opacity 0.25s ease;
+      }
+
+      #mainNav.is-open .mobile-menu-toggle span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+      #mainNav.is-open .mobile-menu-toggle span:nth-child(2) { opacity: 0; }
+      #mainNav.is-open .mobile-menu-toggle span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+      .nav-menu-panel {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem 1.5rem 1.25rem;
+        background: rgba(255,255,255,.94);
+        backdrop-filter: blur(14px);
+        border-bottom: 1px solid #E6DED4;
+        opacity: 0;
+        pointer-events: none;
+        transform: translateY(-8px);
+        transition: opacity 0.2s ease, transform 0.2s ease;
+      }
+
+      #mainNav.is-open .nav-menu-panel {
+        opacity: 1;
+        pointer-events: auto;
+        transform: translateY(0);
+      }
+
+      .nav-menu-panel > div:first-child,
+      .nav-menu-panel .nav-lang-toggle {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.9rem;
+      }
+
+      .floating-lang-toggle {
+        position: fixed;
+        right: 1rem;
+        bottom: 1rem;
+        z-index: 60;
+        display: flex;
+        align-items: center;
+        gap: 0.35rem;
+        padding: 0.4rem;
+        background: rgba(255,255,255,.94);
+        backdrop-filter: blur(14px);
+        border: 1px solid #E6DED4;
+        box-shadow: 0 12px 30px rgba(27, 26, 24, 0.08);
+      }
+
+      .floating-lang-toggle button {
+        border: 1px solid #E6DED4;
+        min-width: 2.8rem;
+        padding: 0.7rem 0.75rem;
+        font-size: 0.625rem;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        transition: all 0.2s ease;
+      }
+
+      .hero-media {
+        min-height: 21rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav class="fixed top-0 left-0 z-50 w-full bg-white/80 px-6 py-5 text-brand-text backdrop-blur-sm transition-all duration-500 md:px-12 md:py-8" id="mainNav">
+    <div class="mx-auto flex max-w-[120rem] items-center justify-between gap-6">
+      <a href="/index.html" id="navHomeLink" class="group flex items-center" aria-label="Blitzkneisser Photography">
+        <img src="/Logo-Blitzkneisser-BERG.png" alt="Blitzkneisser Photography" class="h-11 w-auto brightness-0 contrast-125 opacity-70 transition duration-500 ease-out group-hover:opacity-100 md:h-14">
+      </a>
+      <button type="button" class="mobile-menu-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenuPanel" aria-label="Menü öffnen"><span></span><span></span><span></span></button>
+      <div class="nav-menu-panel ml-auto flex items-center justify-end gap-4 text-right" id="navMenuPanel">
+        <div class="flex items-center gap-4 text-[10px] uppercase tracking-[0.2em] sm:gap-6 md:gap-8 md:text-xs">
+          <a href="/experience/" id="navExperienceLink" class="hover:opacity-60 transition-opacity duration-300">Experience</a>
+          <a href="/guides/" id="navGuidesLink" class="opacity-60 transition-opacity duration-300" aria-current="page">Guides</a>
+          <a href="/journal/" id="navJournalLink" class="hover:opacity-60 transition-opacity duration-300">Journal</a>
+          <a href="/about/" id="navAboutLink" class="hover:opacity-60 transition-opacity duration-300">About</a>
+          <a href="/contact/" id="navContactLink" class="hover:opacity-60 transition-opacity duration-300">Contact</a>
+        </div>
+        <div class="nav-lang-toggle flex items-center gap-2 text-[10px] uppercase tracking-[0.24em] md:text-xs">
+          <button type="button" class="border border-brand-border px-3 py-2 transition-colors" data-lang-button="de" aria-pressed="true">DE</button>
+          <button type="button" class="border border-brand-border px-3 py-2 transition-colors" data-lang-button="en" aria-pressed="false">EN</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="floating-lang-toggle" id="floatingLangToggle" aria-label="Sprache wechseln">
+    <button type="button" data-lang-button="de" aria-pressed="true">DE</button>
+    <button type="button" data-lang-button="en" aria-pressed="false">EN</button>
+  </div>
+
+  <main class="pt-32 md:pt-38 pb-20 md:pb-24">
+    <section class="px-6 md:px-12 max-w-[120rem] mx-auto fade-in-up">
+      <div class="hero-frame">
+        <div class="hero-media">
+          <img id="heroImage" src="/assets/uploads/Blitzkneisser-Mountain-Elopement-Kemater-Alm-12.jpg" alt="Internationales Paar bei einer zivilen Hochzeit in Österreich" loading="eager" fetchpriority="high">
+        </div>
+        <div class="hero-content">
+          <div class="hero-panel">
+            <span class="eyebrow" data-i18n="hero.eyebrow">Planning Guide</span>
+            <h1 class="hero-title" data-i18n="hero.title">Best Time for a Dolomites Elopement</h1>
+            <p class="hero-copy" data-i18n="hero.copy">The Dolomites change with the seasons in a way that shapes not only the view, but the whole emotional pace of the day. This guide helps you understand which light, temperature and rhythm may feel most like you.</p>
+            <a href="/contact/" id="heroCta" class="button-solid" data-i18n="hero.cta">Start Planning</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="px-6 md:px-12 max-w-[120rem] mx-auto mt-12 md:mt-14">
+      <div class="guide-utility">
+        <div class="guide-reading-meta">
+          <span data-i18n="utility.focus">Für Dolomites Elopements & intime Dolomites Weddings</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="overview" class="px-6 md:px-12 max-w-[120rem] mx-auto mt-14 md:mt-16">
+      <div id="philosophy" class="mx-auto max-w-4xl text-center mb-12 md:mb-14">
+        <h2 class="text-3xl md:text-5xl font-bold leading-[0.98] tracking-[-0.05em] text-brand-text uppercase" data-i18n="philosophy.title">Every season has its own feeling</h2>
+        <p class="body-copy mx-auto mt-5 max-w-3xl text-center" data-i18n="philosophy.copy">There is no perfect season for a Dolomites Elopement, only the one that feels most like you. Some couples want stillness and cold air, others long for movement, warmth and long evenings. The most beautiful choice is always the one that already feels honest before the day even begins.</p>
+      </div>
+      <div class="quick-facts pt-6" id="quickFacts"></div>
+    </section>
+
+    <section id="seasons" class="guide-seasons-layout px-6 md:px-12 max-w-[120rem] mx-auto mt-14 md:mt-16">
+      <div id="seasonRows"></div>
+    </section>
+
+    <section id="planning" class="px-6 md:px-12 max-w-[120rem] mx-auto mt-14 md:mt-16">
+      <div class="grid gap-9 lg:grid-cols-[0.76fr_1.24fr]">
+        <div>
+          <span class="section-label" data-i18n="planning.eyebrow">Planning Notes</span>
+          <h2 class="section-title mt-5" data-i18n="planning.title">What the season really changes on the day.</h2>
+          <p class="faq-intro" data-i18n="planning.intro">A few practical notes that matter once this stops being an idea and begins turning into an actual day in the mountains.</p>
+        </div>
+        <div class="planning-list" id="planningNotes"></div>
+      </div>
+    </section>
+
+    <section id="related" class="px-6 md:px-12 max-w-[120rem] mx-auto mt-14 md:mt-16">
+      <div class="border-t border-brand-border pt-6 md:flex md:items-end md:justify-between md:gap-8">
+        <span class="eyebrow" data-i18n="related.eyebrow">Related Guides</span>
+      </div>
+      <div class="mt-6 related-rail" id="relatedGuides"></div>
+    </section>
+
+    <section id="faq" class="px-6 md:px-12 max-w-[120rem] mx-auto mt-14 md:mt-16">
+      <div class="grid gap-9 lg:grid-cols-[0.76fr_1.24fr]">
+        <div>
+          <span class="section-label no-line">FAQ</span>
+          <h2 class="section-title mt-5 font-bold uppercase" data-i18n="faq.title">Questions that often come up long before the day arrives.</h2>
+          <p class="faq-intro" data-i18n="faq.intro">A few of the questions couples ask most often when they begin planning an elopement in the Dolomites — with answers that are meant to feel useful, honest and calm.</p>
+        </div>
+        <div class="divide-y divide-brand-border border-t border-brand-border" id="faqList"></div>
+      </div>
+    </section>
+
+    <section class="px-6 md:px-12 max-w-[120rem] mx-auto mt-14 md:mt-16">
+      <div class="relative min-h-[24rem] overflow-hidden bg-brand-text text-white">
+        <div class="image-shell absolute inset-0">
+          <img id="finalImage" src="/assets/uploads/Blitzkneisser-Photo-Drei-Zinnen-Italy-24.jpg" alt="Drei Zinnen in den Dolomiten bei ruhigem, klarem Licht" loading="lazy" decoding="async">
+        </div>
+        <div class="absolute inset-0" style="background: linear-gradient(90deg, rgba(98, 103, 108, 0.52) 0%, rgba(98, 103, 108, 0.38) 46%, rgba(98, 103, 108, 0.24) 100%);"></div>
+        <div class="relative z-10 flex min-h-[24rem] items-end justify-start px-6 pb-10 pt-16 text-left md:px-12 md:pb-14">
+          <div class="max-w-3xl">
+            <span class="eyebrow text-white/78" data-i18n="final.eyebrow">Planning with intention</span>
+            <h2 class="mt-5 text-4xl font-semibold leading-tight tracking-[-0.04em] md:text-5xl" data-i18n="final.title">Let's create a wedding experience that feels like you.</h2>
+            <p class="mt-6 max-w-3xl text-base font-normal leading-7 text-white/90 md:text-lg" data-i18n="final.copy">If this guide already feels close to what you are imagining, I would love to help you shape a day that feels natural, meaningful and entirely your own.</p>
+            <a href="/contact/" id="finalCta" class="button-solid button-light mt-8" data-i18n="final.cta">Inquire Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="py-16 px-6 md:px-12 border-t border-brand-border flex flex-col md:flex-row justify-between items-start md:items-center text-[10px] md:text-xs text-brand-muted tracking-[0.2em] uppercase font-medium bg-brand-bg">
+    <div class="mb-8 md:mb-0" id="footerBrandText">© 2026 Blitzkneisser Photography</div>
+    <div class="flex flex-col md:flex-row gap-6 md:gap-12">
+      <a id="footerInstagramLink" href="#" class="hover:text-brand-text transition-colors duration-300">Instagram</a>
+      <a id="footerContactLink" href="/contact/" class="hover:text-brand-text transition-colors duration-300" data-i18n="nav.contact">Contact</a>
+      <a id="footerJournalLink" href="/journal/" class="hover:text-brand-text transition-colors duration-300">Journal</a>
+    </div>
+    <div id="footerInstagramFeed" class="footer-instagram-feed"></div>
+  </footer>
+
+  <script type="application/ld+json" id="faqSchema"></script>
+  <script>
+    const nav = document.getElementById("mainNav");
+    const navToggle = document.getElementById("navToggle");
+    const navMenuPanel = document.getElementById("navMenuPanel");
+    const closeNavMenu = () => {
+      nav.classList.remove("is-open");
+      navToggle.setAttribute("aria-expanded", "false");
+    };
+    navToggle.addEventListener("click", () => {
+      const willOpen = !nav.classList.contains("is-open");
+      nav.classList.toggle("is-open", willOpen);
+      navToggle.setAttribute("aria-expanded", willOpen ? "true" : "false");
+    });
+    navMenuPanel.querySelectorAll("a, button[data-lang-button]").forEach((item) => {
+      item.addEventListener("click", () => {
+        if (window.innerWidth < 768) closeNavMenu();
+      });
+    });
+
+    const pageData = {
+      "de": {
+            "slug": "civil-wedding-austria-foreign-couples",
+            "title": "Standesamtliche Hochzeit in Österreich | Guide für internationale Paare",
+            "description": "Guide für internationale Paare, die in Österreich standesamtlich heiraten und den offiziellen Teil mit Bergen, Ruhe und einem persönlichen Hochzeitstag verbinden möchten.",
+            "hero": {
+                  "eyebrow": "Standesamt-Guide",
+                  "title": "Standesamtliche Hochzeit in Österreich",
+                  "copy": "Ein klarer Guide für internationale Paare, die in Österreich legal heiraten und den offiziellen Teil mit Bergen, Ruhe und einem persönlichen Hochzeitstag verbinden möchten.",
+                  "cta": "Planung starten",
+                  "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Kemater-Alm-12.jpg",
+                  "imageAlt": "Internationales Paar bei einer zivilen Hochzeit in Österreich"
+            },
+            "utility": {
+                  "reading": "Guide",
+                  "focus": "Für internationale Paare, die eine legale Hochzeit in Österreich mit einem Bergtag verbinden möchten",
+                  "navOverview": "Überblick",
+                  "navSeasons": "Ablauf",
+                  "navPhilosophy": "Einführung",
+                  "navVisual": "Weitere Guides",
+                  "navFaq": "FAQ"
+            },
+            "overview": {
+                  "eyebrow": "Guide im Überblick",
+                  "copy": "Für Paare aus dem Ausland fühlt sich eine zivile Hochzeit in Österreich oft einfacher an als befürchtet und zugleich formeller, als Bilder vermuten lassen. Dokumente, Fristen und Zuständigkeiten sind wichtig, aber mit genügend Vorlauf gut zu ordnen.",
+                  "items": [
+                        {
+                              "icon": "calendar",
+                              "label": "Früh starten",
+                              "value": "Oft 4 bis 8 Monate vorher"
+                        },
+                        {
+                              "icon": "path",
+                              "label": "Am hilfreichsten",
+                              "value": "Standesamt und Bergtag getrennt denken"
+                        },
+                        {
+                              "icon": "cloud",
+                              "label": "Wichtigste Stärke",
+                              "value": "Mehr Ruhe durch klare Vorbereitung"
+                        },
+                        {
+                              "icon": "guests",
+                              "label": "Ideal für",
+                              "value": "Internationale Paare mit bewusstem Ablauf"
+                        },
+                        {
+                              "icon": "sunrise",
+                              "label": "Am schönsten",
+                              "value": "Wenn legaler Teil und emotionaler Tag zusammenpassen"
+                        }
+                  ]
+            },
+            "philosophy": {
+                  "eyebrow": "Eine erste Orientierung",
+                  "title": "Der rechtliche Teil darf schlicht sein und trotzdem Raum für Schönheit lassen.",
+                  "copy": "Viele Paare entscheiden sich für einen klaren standesamtlichen Termin und legen den emotionalen Schwerpunkt auf einen zweiten Teil in den Bergen. Genau diese Trennung kann viel Ruhe in die Planung bringen."
+            },
+            "sections": {
+                  "seasonOrder": [
+                        "basics",
+                        "documents",
+                        "timing",
+                        "combine",
+                        "symbolic"
+                  ],
+                  "seasons": {
+                        "basics": {
+                              "layout": "image-left",
+                              "image": "/assets/uploads/Blitzkneisser-Wedding-Innsbruck-172.jpg",
+                              "imageAlt": "Paar nach einer standesamtlichen Hochzeit in Österreich",
+                              "eyebrow": "Grundidee",
+                              "title": "Wie Standesamtliche Hochzeiten in Österreich meist funktionieren",
+                              "intro": "",
+                              "copy": "In Österreich wird die rechtlich bindende Trauung standesamtlich geschlossen. Für internationale Paare bedeutet das meist: früh Kontakt mit dem zuständigen Standesamt aufnehmen, Dokumente abstimmen und genügend Zeit für Rückfragen lassen. Der Ablauf ist meist klarer als viele zuerst denken, aber selten so spontan, wie die Berge später wirken.",
+                              "points": [],
+                              "facts": [
+                                    {
+                                          "icon": "calendar",
+                                          "label": "Rechtsform",
+                                          "value": "Standesamtliche Trauung"
+                                    },
+                                    {
+                                          "icon": "guests",
+                                          "label": "Wichtig",
+                                          "value": "Frühe Abstimmung mit dem Amt"
+                                    },
+                                    {
+                                          "icon": "path",
+                                          "label": "Ziel",
+                                          "value": "Klarheit vor Romantikdruck"
+                                    }
+                              ],
+                              "note": "",
+                              "meta": "Ablauf • Klarheit • Vorbereitung",
+                              "linkLabel": "",
+                              "linkHref": ""
+                        },
+                        "documents": {
+                              "layout": "image-right",
+                              "image": "/assets/uploads/Blitzkneisser-Hochzeit-Seefeld-8.jpg",
+                              "imageAlt": "Paar vor einem offiziellen Hochzeitstermin in Österreich",
+                              "eyebrow": "Vorbereitung",
+                              "title": "Was internationale Paare meist vorbereiten sollten",
+                              "intro": "",
+                              "copy": "Je nach Nationalität, Wohnsitz und Familienstand können Dokumente unterschiedlich ausfallen. Genau deshalb ist frühe Kommunikation so wertvoll. Es geht weniger darum, jedes Papier sofort zu kennen, sondern rechtzeitig zu wissen, was euer konkreter Fall verlangt und welche Fristen realistisch sind.",
+                              "points": [
+                                    "Dokumente und Übersetzungen sollten frühzeitig mit dem Standesamt abgestimmt werden, da Rückfragen, Beglaubigungen oder Apostillen oft mehr Zeit benötigen als erwartet — eine entspannte Planung funktioniert hier deutlich besser als Last-Minute-Organisation."
+                              ],
+                              "facts": [
+                                    {
+                                          "icon": "path",
+                                          "label": "Meist nötig",
+                                          "value": "Klare Dokumentenliste"
+                                    },
+                                    {
+                                          "icon": "wind",
+                                          "label": "Wichtig",
+                                          "value": "Zeitpuffer"
+                                    },
+                                    {
+                                          "icon": "cloud",
+                                          "label": "Am ruhigsten",
+                                          "value": "Ein Fall nach dem anderen klären"
+                                    }
+                              ],
+                              "note": "",
+                              "meta": "Dokumente • Fristen • Puffer",
+                              "linkLabel": "",
+                              "linkHref": ""
+                        },
+                        "timing": {
+                              "layout": "image-left",
+                              "image": "/assets/uploads/Blitzkneisser-Hochtennboden-Standesamt-41.jpg",
+                              "imageAlt": "Ruhe rund um eine geplante standesamtliche Hochzeit in Österreich",
+                              "eyebrow": "Timing",
+                              "title": "Warum frühe Planung so viel Ruhe schafft",
+                              "intro": "",
+                              "copy": "Sobald mehrere Länder, Dokumente, Reisepläne und ein Bergtag zusammenkommen, wird Zeit zum größten Beruhigungsfaktor. Früh zu planen bedeutet nicht, alles sofort entscheiden zu müssen. Es bedeutet nur, die wichtigen Stellen in Ruhe zu öffnen, bevor sich der Tag emotional auflädt.",
+                              "points": [
+                                    "In Nordtirol ist es sogar möglich, eine offizielle standesamtliche Trauung direkt in den Bergen zu vollziehen — eine besondere Möglichkeit für Paare, die ihre Hochzeit mitten in der alpinen Landschaft erleben möchten."
+                              ],
+                              "facts": [
+                                    {
+                                          "icon": "calendar",
+                                          "label": "Frühester Vorteil",
+                                          "value": "Mehr Terminspielraum"
+                                    },
+                                    {
+                                          "icon": "crowd",
+                                          "label": "Emotionaler Gewinn",
+                                          "value": "Weniger Druck kurz davor"
+                                    },
+                                    {
+                                          "icon": "sunrise",
+                                          "label": "Bestes Gefühl",
+                                          "value": "Wenn der Ablauf schon innerlich ruhig ist"
+                                    }
+                              ],
+                              "note": "",
+                              "meta": "Früh starten • Räume offen halten • Druck reduzieren",
+                              "linkLabel": "",
+                              "linkHref": ""
+                        },
+                        "combine": {
+                              "layout": "image-right",
+                              "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Kemater-Alm-73.jpg",
+                              "imageAlt": "Paar in alpiner Landschaft nach dem offiziellen Teil der Hochzeit",
+                              "eyebrow": "Verbindung",
+                              "title": "Wie sich Standesamt und Bergtag gut verbinden lassen",
+                              "intro": "",
+                              "copy": "Viele Paare trennen den offiziellen Teil bewusst von ihrem eigentlichen Elopement- oder Hochzeitstag. Das kann am selben Wochenende geschehen oder mit ein paar Tagen Abstand. Genau diese Trennung schafft oft mehr Weite: Das Standesamt bekommt Klarheit, der Bergtag bekommt Gefühl, Licht und Zeit.",
+                              "points": [
+                                    "Das Standesamt kann ein ruhiger offizieller Teil des Tages sein, während der emotionale Höhepunkt oft in einem persönlichen Moment in den Bergen entsteht — dadurch gewinnen Paare mehr Freiheit bei Zeit, Ort und Atmosphäre, und der gesamte Tag fühlt sich deutlich entspannter und natürlicher an."
+                              ],
+                              "facts": [
+                                    {
+                                          "icon": "guests",
+                                          "label": "Hilfreich für",
+                                          "value": "Paare mit legalem und emotionalem Doppelfokus"
+                                    },
+                                    {
+                                          "icon": "sun",
+                                          "label": "Stärkste Variante",
+                                          "value": "Offizieller Teil + eigener Bergtag"
+                                    },
+                                    {
+                                          "icon": "path",
+                                          "label": "Ergebnis",
+                                          "value": "Mehr Freiheit am eigentlichen Hochzeitstag"
+                                    }
+                              ],
+                              "note": "",
+                              "meta": "Legalität • Freiheit • Gefühl",
+                              "linkLabel": "Dolomiten-Elopement-Guide lesen",
+                              "linkHref": "/guides/dolomites-elopement-guide/"
+                        },
+                        "symbolic": {
+                              "layout": "image-left",
+                              "image": "/assets/uploads/Blitzkneisser-Wedding-Dolomites-889.jpg",
+                              "imageAlt": "Intimer symbolischer Moment in den Bergen nach einer zivilen Hochzeit",
+                              "eyebrow": "Atmosphäre",
+                              "title": "Warum eine symbolische Zeremonie trotzdem stark bleiben kann",
+                              "intro": "",
+                              "copy": "Eine symbolische Zeremonie ist nicht die „zweite Wahl“. Für viele Paare ist sie der Moment, der sich wirklich nach ihnen anfühlt, weil dort Licht, Worte, Ruhe und Landschaft zusammenfinden. Rechtlich bindend wird die Ehe im Standesamt. Emotional bindend wird sie oft erst dort, wo ihr wirklich atmen könnt.",
+                              "points": [],
+                              "facts": [
+                                    {
+                                          "icon": "sunrise",
+                                          "label": "Stärkster Effekt",
+                                          "value": "Mehr Präsenz am eigentlichen Moment"
+                                    },
+                                    {
+                                          "icon": "guests",
+                                          "label": "Besonders gut für",
+                                          "value": "Paare mit persönlichem Fokus"
+                                    },
+                                    {
+                                          "icon": "path",
+                                          "label": "Nicht weniger echt",
+                                          "value": "Nur anders getragen"
+                                    }
+                              ],
+                              "note": "",
+                              "meta": "Symbolisch • Persönlich • Filmisch",
+                              "linkLabel": "",
+                              "linkHref": ""
+                        }
+                  }
+            },
+            "planning": {
+                  "eyebrow": "Planungsnotizen",
+                  "title": "Was internationale Paare meist am meisten entlastet.",
+                  "intro": "Die ruhigsten legalen Hochzeiten entstehen selten durch Perfektion, sondern durch einen klaren nächsten Schritt nach dem anderen.",
+                  "items": [
+                        {
+                              "label": "Standesamt zuerst",
+                              "title": "Früh Kontakt aufnehmen statt später improvisieren.",
+                              "copy": "Die erste Antwort des Standesamts schafft fast immer mehr Ruhe als jede Suche in Foren oder verstreuten Quellen.",
+                              "meta": "Klarheit beginnt mit dem richtigen Ansprechpartner."
+                        },
+                        {
+                              "label": "Dokumente",
+                              "title": "Mit realistischen Fristen planen.",
+                              "copy": "Übersetzungen, Beglaubigungen und internationale Nachweise brauchen oft mehr Zeit als man denkt.",
+                              "meta": "Früh anfangen ist hier kein Luxus."
+                        },
+                        {
+                              "label": "Bergtag",
+                              "title": "Den emotionalen Tag nicht zu eng an den Amtstermin pressen.",
+                              "copy": "Oft fühlt sich alles besser an, wenn zwischen offiziellem Teil und Bergmoment genug Luft bleibt.",
+                              "meta": "Raum macht Tage weicher."
+                        },
+                        {
+                              "label": "Unterkünfte",
+                              "title": "Nähe und Ruhe wichtiger nehmen als nur Optik.",
+                              "copy": "Wenn Standesamt, Hotel und Landschaft sinnvoll verbunden sind, beginnt der Tag meist deutlich gelassener.",
+                              "meta": "Logistik formt Atmosphäre."
+                        }
+                  ]
+            },
+            "faq": {
+                  "title": "Fragen, die internationale Paare fast immer zuerst stellen.",
+                  "intro": "Bei einer standesamtlichen Hochzeit im Ausland geht es meist zuerst um Klarheit: Was ist wirklich nötig, wie früh müssen wir anfangen und wie verbinden wir das Formelle mit etwas Persönlichem?",
+                  "items": [
+                        {
+                              "q": "Können wir als ausländisches Paar legal in Österreich heiraten?",
+                              "a": "Ja, grundsätzlich schon. Welche Unterlagen genau nötig sind, hängt von eurer Staatsangehörigkeit, eurem Wohnsitz und manchmal auch vom konkreten Standesamt ab. Genau deshalb lohnt sich der frühe Kontakt mit der zuständigen Stelle."
+                        },
+                        {
+                              "q": "Wie früh sollten wir mit der Planung beginnen?",
+                              "a": "Lieber früher als später. Gerade bei internationalen Paaren kosten Dokumente, Beglaubigungen, Übersetzungen und Terminabstimmungen oft mehr Zeit, als man anfangs erwartet."
+                        },
+                        {
+                              "q": "Brauchen wir immer Übersetzungen oder beglaubigte Unterlagen?",
+                              "a": "Oft ja, zumindest für einen Teil der Dokumente. Welche Form akzeptiert wird, kann sich je nach Herkunftsland und Standesamt unterscheiden. Man sollte das nie einfach annehmen, sondern konkret abklären."
+                        },
+                        {
+                              "q": "Können wir das Standesamt mit einem Elopement verbinden?",
+                              "a": "Ja, und genau das machen viele Paare. Der offizielle Termin kann bewusst schlicht bleiben, während ihr den emotionalen Teil des Tages in die Berge, an einen See oder an einen für euch passenderen Ort legt."
+                        },
+                        {
+                              "q": "Ist eine symbolische Zeremonie dann überhaupt noch wichtig?",
+                              "a": "Für viele Paare ja. Nicht weil sie den rechtlichen Teil ersetzt, sondern weil sie den Moment persönlicher macht und euch erlaubt, Worte und Stimmung an dem Ort zu erleben, der sich wirklich nach euch anfühlt."
+                        },
+                        {
+                              "q": "Müssen wir alles in einem einzigen Tag unterbringen?",
+                              "a": "Nein, und oft ist genau das die bessere Lösung. Wenn ihr den rechtlichen und den emotionalen Teil trennt, wird der gesamte Ablauf meist ruhiger und viel freier."
+                        }
+                  ]
+            },
+            "related": {
+                  "eyebrow": "Verwandte Leitfäden",
+                  "items": [
+                        {
+                              "label": "Planung",
+                              "title": "Elopement-Guide für die Dolomiten",
+                              "copy": "Ein ruhiger Ausgangspunkt für Paare, die ein Dolomites Elopement oder eine intime Berghochzeit planen und verstehen möchten, wie Licht, Wege, Wetter und Menschenmengen den Tag wirklich prägen.",
+                              "href": "/guides/dolomites-elopement-guide/",
+                              "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-120.jpg",
+                              "imageAlt": "Paar bei einem Dolomiten-Elopement im weichen Morgenlicht",
+                              "alt": "Paar bei einem Dolomiten-Elopement im weichen Morgenlicht"
+                        },
+                        {
+                              "label": "Planung",
+                              "title": "Elopement oder klassische Hochzeit in den Alpen",
+                              "copy": "Ein ehrlicher Vergleich für Paare, die zwischen Intimität, Gästen, Budget und Tagesrhythmus abwägen und herausfinden möchten, welche Form wirklich zu ihnen passt.",
+                              "href": "/guides/elopement-vs-traditional-wedding-alps/",
+                              "image": "/assets/uploads/Blitzkneisser-Elopement_lago-di-Braies-9.jpg",
+                              "imageAlt": "Paar in alpiner Landschaft zwischen intimer und größerer Hochzeitsstimmung",
+                              "alt": "Paar in alpiner Landschaft zwischen intimer und größerer Hochzeitsstimmung"
+                        },
+                        {
+                              "label": "Tirol",
+                              "title": "Die schönsten Orte für eine offizielle Trauung in Tirol",
+                              "copy": "Ein Guide für Paare, die eine offizielle Trauung in Tirol mit Bergen, Seen und einem klaren, persönlichen Tagesgefühl verbinden möchten.",
+                              "href": "/guides/best-places-officially-elope-tyrol/",
+                              "image": "/assets/uploads/Blitzkneisser-Mountain-Winter-Wedding-Shooting-58.jpg",
+                              "imageAlt": "Offizielle Hochzeit in Tirol mit Bergen im Hintergrund",
+                              "alt": "Offizielle Hochzeit in Tirol mit Bergen im Hintergrund"
+                        },
+                        {
+                              "label": "Planung",
+                              "title": "Guide zur Wetter- und Backup-Planung",
+                              "copy": "Ein ruhiger Wetter-Guide für Paare, die in den Bergen nicht auf perfekte Bedingungen hoffen, sondern einen Tag planen möchten, der auch bei Nebel, Wind oder Regen stimmig bleibt.",
+                              "href": "/guides/weather-and-backup-planning/",
+                              "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-161.jpg",
+                              "imageAlt": "Wetterstimmung in den Dolomiten mit Wolken und Nebel",
+                              "alt": "Wetterstimmung in den Dolomiten mit Wolken und Nebel"
+                        },
+                        {
+                              "label": "Planung",
+                              "title": "Was man in den Bergen anziehen sollte",
+                              "copy": "Ein praktischer Guide für Paare, die in den Bergen nicht nur schön aussehen, sondern sich auch frei bewegen, warm bleiben und sich in ihrer Kleidung wirklich wiederfinden möchten.",
+                              "href": "/guides/what-to-wear-in-the-mountains/",
+                              "image": "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Hut-13.jpg",
+                              "imageAlt": "Kleidung für ein Elopement in den Bergen",
+                              "alt": "Kleidung für ein Elopement in den Bergen"
+                        }
+                  ],
+                  "hint": "Wischt nach links oder rechts, um weitere Guides zu sehen."
+            },
+            "final": {
+                  "image": "/assets/uploads/Blitzkneisser-Photo-Drei-Zinnen-Italy-24.jpg",
+                  "imageAlt": "Drei Zinnen in den Dolomiten bei ruhigem, klarem Licht",
+                  "eyebrow": "Ruhig geplant",
+                  "title": "Lasst uns etwas gestalten, das sich ruhig, persönlich und zutiefst wahr anfühlt.",
+                  "copy": "Wenn ihr euch einen Hochzeitstag oder ein Elopement wünscht, das nicht nur schön aussieht, sondern sich auch ehrlich und leicht anfühlt, begleite ich euch gern bei der Planung.",
+                  "cta": "Termin anfragen"
+            }
+      },
+      "en": {
+            "slug": "civil-wedding-austria-foreign-couples",
+            "title": "Civil Wedding in Austria for Foreign Couples | Legal Planning and Mountain Wedding Flow",
+            "description": "A guide for international couples planning a legal wedding in Austria and wanting to connect the official part with mountains and a personal wedding day.",
+            "hero": {
+                  "eyebrow": "Civil Wedding Guide",
+                  "title": "Civil Wedding in Austria",
+                  "copy": "A clear guide for international couples who want to marry legally in Austria and connect the official part with mountains, quiet and a personal wedding day.",
+                  "cta": "Plan your civil wedding",
+                  "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Kemater-Alm-12.jpg",
+                  "imageAlt": "International couple during a civil wedding in Austria"
+            },
+            "utility": {
+                  "reading": "Guide",
+                  "focus": "For international couples combining a legal ceremony in Austria with a mountain wedding day",
+                  "navOverview": "Overview",
+                  "navSeasons": "Process",
+                  "navPhilosophy": "Intro",
+                  "navVisual": "More guides",
+                  "navFaq": "FAQ"
+            },
+            "overview": {
+                  "eyebrow": "Guide Overview",
+                  "copy": "For couples coming from abroad, a civil wedding in Austria often feels simpler than expected and more formal than the images suggest. Documents, deadlines and local offices matter, but with enough lead time they are usually very manageable.",
+                  "items": [
+                        {
+                              "icon": "calendar",
+                              "label": "Best timing",
+                              "value": "Often 4 to 8 months ahead"
+                        },
+                        {
+                              "icon": "path",
+                              "label": "Strongest structure",
+                              "value": "Think legal ceremony and mountain day separately"
+                        },
+                        {
+                              "icon": "cloud",
+                              "label": "Biggest strength",
+                              "value": "Clarity creates calm"
+                        },
+                        {
+                              "icon": "guests",
+                              "label": "Ideal for",
+                              "value": "International couples with a thoughtful timeline"
+                        },
+                        {
+                              "icon": "sunrise",
+                              "label": "Most meaningful",
+                              "value": "When legal and emotional parts support each other"
+                        }
+                  ]
+            },
+            "philosophy": {
+                  "eyebrow": "A first note",
+                  "title": "The legal part can stay simple and still leave room for beauty.",
+                  "copy": "Many couples choose a clear civil appointment and place the emotional heart of the experience in a second chapter in the mountains. That separation often creates much more calm in planning."
+            },
+            "sections": {
+                  "seasonOrder": [
+                        "basics",
+                        "documents",
+                        "timing",
+                        "combine",
+                        "symbolic"
+                  ],
+                  "seasons": {
+                        "basics": {
+                              "layout": "image-left",
+                              "image": "/assets/uploads/Blitzkneisser-Wedding-Innsbruck-172.jpg",
+                              "imageAlt": "Couple after a civil wedding in Austria",
+                              "eyebrow": "The basics",
+                              "title": "How civil weddings in Austria usually work",
+                              "intro": "",
+                              "copy": "In Austria, the legally binding marriage is concluded through a civil ceremony. For foreign couples, that usually means contacting the relevant registry office early, aligning documents and leaving space for follow-up questions. The structure is often clearer than people expect, but rarely as spontaneous as the mountains later feel.",
+                              "points": [],
+                              "facts": [
+                                    {
+                                          "icon": "calendar",
+                                          "label": "Legal form",
+                                          "value": "Civil ceremony"
+                                    },
+                                    {
+                                          "icon": "guests",
+                                          "label": "Most helpful",
+                                          "value": "Early contact with the registry office"
+                                    },
+                                    {
+                                          "icon": "path",
+                                          "label": "Main goal",
+                                          "value": "Clarity before romance pressure"
+                                    }
+                              ],
+                              "note": "",
+                              "meta": "Process • Clarity • Preparation",
+                              "linkLabel": "",
+                              "linkHref": ""
+                        },
+                        "documents": {
+                              "layout": "image-right",
+                              "image": "/assets/uploads/Blitzkneisser-Hochzeit-Seefeld-8.jpg",
+                              "imageAlt": "Couple before an official civil wedding appointment in Austria",
+                              "eyebrow": "Preparation",
+                              "title": "What foreign couples usually need to prepare",
+                              "intro": "",
+                              "copy": "Depending on nationality, residence and marital status, document requirements can vary. That is exactly why early communication matters. The goal is not to know every paper immediately, but to understand early what your specific case requires and which timelines are realistic.",
+                              "points": [
+                                    "Documents and translations should be coordinated with the registry office at an early stage, as queries, certifications or apostilles often take more time than expected - relaxed planning works much better than last-minute organization."
+                              ],
+                              "facts": [
+                                    {
+                                          "icon": "path",
+                                          "label": "Usually needed",
+                                          "value": "A clear document list"
+                                    },
+                                    {
+                                          "icon": "wind",
+                                          "label": "Most important",
+                                          "value": "Time buffer"
+                                    },
+                                    {
+                                          "icon": "cloud",
+                                          "label": "Calmest approach",
+                                          "value": "Clarify one step at a time"
+                                    }
+                              ],
+                              "note": "",
+                              "meta": "Documents • Timelines • Buffer",
+                              "linkLabel": "",
+                              "linkHref": ""
+                        },
+                        "timing": {
+                              "layout": "image-left",
+                              "image": "/assets/uploads/Blitzkneisser-Hochtennboden-Standesamt-41.jpg",
+                              "imageAlt": "Calm around a planned civil wedding in Austria",
+                              "eyebrow": "Timing",
+                              "title": "Why early planning creates so much calm",
+                              "intro": "",
+                              "copy": "Once several countries, documents, travel plans and a mountain day come together, time becomes the biggest source of calm. Planning early does not mean forcing every decision immediately. It simply means opening the important questions before the day becomes emotionally charged.",
+                              "points": [
+                                    "In North Tyrol it is even possible to have an official civil wedding directly in the mountains - a special opportunity for couples who want to experience their wedding in the middle of the Alpine landscape."
+                              ],
+                              "facts": [
+                                    {
+                                          "icon": "calendar",
+                                          "label": "Earliest benefit",
+                                          "value": "More appointment flexibility"
+                                    },
+                                    {
+                                          "icon": "crowd",
+                                          "label": "Emotional gain",
+                                          "value": "Less pressure shortly before the day"
+                                    },
+                                    {
+                                          "icon": "sunrise",
+                                          "label": "Best feeling",
+                                          "value": "When the structure already feels calm"
+                                    }
+                              ],
+                              "note": "",
+                              "meta": "Start early • Keep space open • Reduce pressure",
+                              "linkLabel": "",
+                              "linkHref": ""
+                        },
+                        "combine": {
+                              "layout": "image-right",
+                              "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Kemater-Alm-73.jpg",
+                              "imageAlt": "Couple in alpine landscape after the official part of their wedding",
+                              "eyebrow": "Combining both",
+                              "title": "How to combine a civil ceremony with a mountain wedding day",
+                              "intro": "",
+                              "copy": "Many couples intentionally separate the official ceremony from their actual elopement or wedding day. That can happen on the same weekend or a few days apart. That separation often creates more spaciousness: the registry office holds legal clarity, the mountain day holds light, feeling and time.",
+                              "points": [
+                                    "The registry office can be a calm foundation, not the only emotional peak.\\nA symbolic moment in the mountains gives much more freedom for timing and location.\\nThat often makes the entire experience feel lighter and less compressed."
+                              ],
+                              "facts": [
+                                    {
+                                          "icon": "guests",
+                                          "label": "Especially helpful for",
+                                          "value": "Couples balancing legal and emotional priorities"
+                                    },
+                                    {
+                                          "icon": "sun",
+                                          "label": "Strongest version",
+                                          "value": "Official part plus a separate mountain day"
+                                    },
+                                    {
+                                          "icon": "path",
+                                          "label": "Result",
+                                          "value": "More freedom on the real wedding day"
+                                    }
+                              ],
+                              "note": "",
+                              "meta": "Legality • Freedom • Feeling",
+                              "linkLabel": "Read the Dolomites Elopement Guide",
+                              "linkHref": "/guides/dolomites-elopement-guide/"
+                        },
+                        "symbolic": {
+                              "layout": "image-left",
+                              "image": "/assets/uploads/Blitzkneisser-Wedding-Dolomites-889.jpg",
+                              "imageAlt": "Intimate symbolic moment in the mountains after a civil wedding",
+                              "eyebrow": "Atmosphere",
+                              "title": "Why a symbolic ceremony can still be the strongest part",
+                              "intro": "",
+                              "copy": "A symbolic ceremony is not a second-best option. For many couples, it becomes the part that truly feels like them, because light, words, stillness and landscape finally come together there. The marriage becomes legal at the registry office. It often becomes emotionally real where you can actually breathe.",
+                              "points": [],
+                              "facts": [
+                                    {
+                                          "icon": "sunrise",
+                                          "label": "Biggest effect",
+                                          "value": "More presence during the actual moment"
+                                    },
+                                    {
+                                          "icon": "guests",
+                                          "label": "Especially good for",
+                                          "value": "Couples with a deeply personal focus"
+                                    },
+                                    {
+                                          "icon": "path",
+                                          "label": "Not less real",
+                                          "value": "Simply carried differently"
+                                    }
+                              ],
+                              "note": "",
+                              "meta": "Symbolic • Personal • Cinematic",
+                              "linkLabel": "",
+                              "linkHref": ""
+                        }
+                  }
+            },
+            "planning": {
+                  "eyebrow": "Planning Notes",
+                  "title": "What usually gives international couples the most relief.",
+                  "intro": "The calmest legal weddings rarely come from perfection. They come from taking the next clear step at the right time.",
+                  "items": [
+                        {
+                              "label": "Registry office",
+                              "title": "Contact the right office early instead of improvising later.",
+                              "copy": "The first real answer from the registry office almost always brings more calm than forum threads or scattered assumptions.",
+                              "meta": "Clarity begins with the right contact."
+                        },
+                        {
+                              "label": "Documents",
+                              "title": "Plan with realistic timelines.",
+                              "copy": "Translations, certifications and international documents usually need more time than expected.",
+                              "meta": "Starting early is not a luxury here."
+                        },
+                        {
+                              "label": "Mountain day",
+                              "title": "Do not press the emotional day too tightly against the official appointment.",
+                              "copy": "The whole experience often feels stronger when the legal part and the mountain part do not rush each other.",
+                              "meta": "Space makes days softer."
+                        },
+                        {
+                              "label": "Accommodation",
+                              "title": "Value proximity and calm over looks alone.",
+                              "copy": "When the registry office, hotel and landscape are connected sensibly, the day begins much more gently.",
+                              "meta": "Logistics shape atmosphere."
+                        }
+                  ]
+            },
+            "faq": {
+                  "title": "Questions international couples usually ask first.",
+                  "intro": "With a civil wedding abroad, the first need is usually clarity: what is truly required, how early do we need to begin, and how do we connect the official part with something personal?",
+                  "items": [
+                        {
+                              "q": "Can we legally marry in Austria as a foreign couple?",
+                              "a": "Yes, in principle. The exact documents depend on your nationality, residency and sometimes the specific registry office. That is why early contact with the responsible office is so helpful."
+                        },
+                        {
+                              "q": "How early should we start planning?",
+                              "a": "Earlier than you think is comfortable. Documents, certified copies, translations and appointment timing often take more time than international couples expect at first."
+                        },
+                        {
+                              "q": "Do we always need translations or certified documents?",
+                              "a": "Often yes, at least for part of the paperwork. What is accepted can vary depending on your country and the registry office, so it is worth checking directly rather than assuming."
+                        },
+                        {
+                              "q": "Can we combine the civil ceremony with an elopement?",
+                              "a": "Yes, and many couples do exactly that. The official appointment can stay simple while the emotional part of the day happens in the mountains, by a lake or somewhere that feels more like you."
+                        },
+                        {
+                              "q": "Is a symbolic ceremony still meaningful then?",
+                              "a": "For many couples, very much so. Not because it replaces the legal part, but because it makes the moment more personal and allows you to say your words in the place that actually feels right."
+                        },
+                        {
+                              "q": "Do we need to fit everything into a single day?",
+                              "a": "No, and often that is the calmer choice. Separating the legal and emotional parts usually makes the whole experience feel much more spacious."
+                        }
+                  ]
+            },
+            "related": {
+                  "eyebrow": "Related Guides",
+                  "items": [
+                        {
+                              "label": "Planning",
+                              "title": "Dolomites Elopement Guide",
+                              "copy": "A calm starting point for couples planning a Dolomites Elopement or intimate mountain wedding and wanting to understand how light, access, weather and crowds truly shape the day.",
+                              "href": "/guides/dolomites-elopement-guide/",
+                              "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-120.jpg",
+                              "imageAlt": "Couple during a Dolomites elopement in soft morning light",
+                              "alt": "Couple during a Dolomites elopement in soft morning light"
+                        },
+                        {
+                              "label": "Planning",
+                              "title": "Elopement vs Traditional Wedding in the Alps",
+                              "copy": "An honest comparison for couples weighing intimacy, guests, budget and pace, and trying to understand which kind of wedding day genuinely fits them.",
+                              "href": "/guides/elopement-vs-traditional-wedding-alps/",
+                              "image": "/assets/uploads/Blitzkneisser-Elopement_lago-di-Braies-9.jpg",
+                              "imageAlt": "Couple in the Alps between intimate and larger wedding atmosphere",
+                              "alt": "Couple in the Alps between intimate and larger wedding atmosphere"
+                        },
+                        {
+                              "label": "Tyrol",
+                              "title": "Best Places to Officially Elope in Tyrol",
+                              "copy": "A guide for couples who want to combine an official ceremony in Tyrol with mountains, lakes and a wedding day that still feels clear and personal.",
+                              "href": "/guides/best-places-officially-elope-tyrol/",
+                              "image": "/assets/uploads/Blitzkneisser-Mountain-Winter-Wedding-Shooting-58.jpg",
+                              "imageAlt": "Official wedding in Tyrol with mountains in the background",
+                              "alt": "Official wedding in Tyrol with mountains in the background"
+                        },
+                        {
+                              "label": "Planning",
+                              "title": "Weather & Backup Planning Guide",
+                              "copy": "A calm weather guide for couples who do not want to hope for perfect conditions in the mountains, but want to build a day that still feels right in fog, wind or rain.",
+                              "href": "/guides/weather-and-backup-planning/",
+                              "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-161.jpg",
+                              "imageAlt": "Weather in the Dolomites with clouds and fog",
+                              "alt": "Weather in the Dolomites with clouds and fog"
+                        },
+                        {
+                              "label": "Planning",
+                              "title": "What to Wear in the Mountains",
+                              "copy": "A practical guide for couples who want to look beautiful in the mountains, but also move freely, stay warm and still feel like themselves in what they wear.",
+                              "href": "/guides/what-to-wear-in-the-mountains/",
+                              "image": "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Hut-13.jpg",
+                              "imageAlt": "Outfit ideas for a mountain elopement",
+                              "alt": "Outfit ideas for a mountain elopement"
+                        }
+                  ],
+                  "hint": "Swipe left or right to explore more guides."
+            },
+            "final": {
+                  "image": "/assets/uploads/Blitzkneisser-Photo-Drei-Zinnen-Italy-24.jpg",
+                  "imageAlt": "Tre Cime in the Dolomites in calm, clear light",
+                  "eyebrow": "Planned with intention",
+                  "title": "Let’s create something that feels calm, personal and deeply true.",
+                  "copy": "If you are looking for a wedding day or elopement that feels honest, spacious and beautifully considered, I would love to help you shape it.",
+                  "cta": "Inquire now"
+            }
+      }
+};
+
+    const params = new URLSearchParams(window.location.search);
+    const storedLang = localStorage.getItem("site-lang");
+    let activeLang = params.get("lang") === "en"
+      ? "en"
+      : (params.get("lang") === "de" ? "de" : (storedLang === "en" || storedLang === "de" ? storedLang : "de"));
+    const currentData = () => pageData[activeLang] || pageData.de;
+    const siteRootPath = (() => {
+      const markers = ["/guides/", "/journal/", "/experience/", "/about/", "/contact/", "/film/", "/portfolio/", "/admin/", "/index.html"];
+      for (const marker of markers) {
+        const index = window.location.pathname.indexOf(marker);
+        if (index !== -1) return window.location.pathname.slice(0, index);
+      }
+      return window.location.pathname.replace(/\/[^/]*$/, "");
+    })();
+    const normalizeHref = (href) => {
+      if (window.location.protocol !== "file:" || !href.startsWith("/")) return href;
+      const [pathPart, queryPart] = href.split("?");
+      const localPath = pathPart === "/index.html"
+        ? `${siteRootPath}/index.html`
+        : pathPart.endsWith("/")
+          ? `${siteRootPath}${pathPart}index.html`
+          : `${siteRootPath}${pathPart}`;
+      return queryPart ? `${localPath}?${queryPart}` : localPath;
+    };
+    const withLang = (href) => normalizeHref(activeLang === "en" && !href.includes("?lang=en")
+      ? `${href}${href.includes("?") ? "&" : "?"}lang=en`
+      : href);
+
+
+    const escapeHtml = (value = "") => String(value)
+      .replaceAll("&", "&amp;")
+      .replaceAll("<", "&lt;")
+      .replaceAll(">", "&gt;")
+      .replaceAll('"', "&quot;")
+      .replaceAll("'", "&#39;");
+
+    const iconMap = {
+      sunrise: '<svg viewBox="0 0 24 24"><path d="M4 16a8 8 0 0 1 16 0"/><path d="M12 4v4"/><path d="M5 9l2.2 1.8"/><path d="M19 9l-2.2 1.8"/><path d="M3 20h18"/></svg>',
+      sun: '<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v3"/><path d="M12 19v3"/><path d="M4.93 4.93l2.12 2.12"/><path d="M16.95 16.95l2.12 2.12"/><path d="M2 12h3"/><path d="M19 12h3"/><path d="M4.93 19.07l2.12-2.12"/><path d="M16.95 7.05l2.12-2.12"/></svg>',
+      cloud: '<svg viewBox="0 0 24 24"><path d="M7 18h10a4 4 0 0 0 .2-8A6 6 0 0 0 5 11.5 3.5 3.5 0 0 0 7 18Z"/></svg>',
+      crowd: '<svg viewBox="0 0 24 24"><path d="M16 19v-1a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v1"/><circle cx="10" cy="8" r="3"/><path d="M20 19v-1a4 4 0 0 0-3-3.87"/><path d="M14 4.13a3 3 0 0 1 0 5.74"/></svg>',
+      guests: '<svg viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4v2"/><circle cx="9.5" cy="7" r="3"/><path d="M20 21v-2a4 4 0 0 0-3-3.87"/><path d="M15 4.13a3 3 0 0 1 0 5.74"/></svg>',
+      calendar: '<svg viewBox="0 0 24 24"><path d="M8 2v4"/><path d="M16 2v4"/><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 10h18"/></svg>',
+      path: '<svg viewBox="0 0 24 24"><path d="M4 20c5-6 6-7 6-11a2.5 2.5 0 1 1 5 0c0 4 1 5 5 11"/><path d="M10 20h10"/></svg>',
+      wind: '<svg viewBox="0 0 24 24"><path d="M3 8h11a3 3 0 1 0-3-3"/><path d="M2 12h15a3 3 0 1 1-3 3"/><path d="M4 16h8"/></svg>',
+      key: '<svg viewBox="0 0 24 24"><circle cx="8" cy="15" r="4"/><path d="M12 15h9"/><path d="M18 12v6"/><path d="M21 13v4"/></svg>',
+      boots: '<svg viewBox="0 0 24 24"><path d="M4 17h9l2 3H4z"/><path d="M13 17v-7l4 2 1 5"/><path d="M18 17h2a2 2 0 0 1 2 2H15"/></svg>',
+      layers: '<svg viewBox="0 0 24 24"><path d="M12 3l8 4-8 4-8-4 8-4Z"/><path d="M4 11l8 4 8-4"/><path d="M4 15l8 4 8-4"/></svg>',
+      default: '<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/></svg>'
+    };
+
+    const iconMarkup = (icon, className = 'fact-icon') => 
+      '<span class="' + className + '" aria-hidden="true">' + (iconMap[icon] || iconMap.default) + '</span>';
+
+    const normalizePoints = (points) => {
+      if (!Array.isArray(points)) return [];
+      return points.flatMap((item) => String(item || '').split(/\n+/)).map((item) => item.trim()).filter(Boolean);
+    };
+
+    const renderQuickFacts = (data) => {
+      const root = document.getElementById('quickFacts');
+      if (!root) return;
+      const items = Array.isArray(data?.overview?.items) ? data.overview.items : [];
+      root.innerHTML = items.map((item) => 
+        '<div class="fact-item">' +
+          iconMarkup(item?.icon) +
+          '<div class="eyebrow">' + escapeHtml(item?.label || '') + '</div>' +
+          '<div class="fact-value">' + escapeHtml(item?.value || '') + '</div>' +
+        '</div>'
+      ).join('');
+    };
+
+    const renderSeasons = (data) => {
+      const root = document.getElementById('seasonRows');
+      if (!root) return;
+      const sections = data?.sections?.seasons || {};
+      const order = Array.isArray(data?.sections?.seasonOrder) ? data.sections.seasonOrder : Object.keys(sections);
+      root.innerHTML = order.map((key, index) => {
+        const item = sections[key] || {};
+        const points = normalizePoints(item.points);
+        const facts = Array.isArray(item.facts) ? item.facts : [];
+        const classes = 'guide-season-row ' + (((item.layout === 'image-right') || (item.layout !== 'image-left' && index % 2 === 1)) ? 'is-image-right' : '');
+        return '<article class="' + classes.trim() + '">' +
+          '<div class="guide-season-image">' +
+            '<img src="' + escapeHtml(item.image || '') + '" alt="' + escapeHtml(item.imageAlt || item.alt || item.title || '') + '" loading="lazy" decoding="async" class="w-full h-full object-cover">' +
+          '</div>' +
+          '<div class="guide-season-copy">' +
+            '<div>' +
+              (item.eyebrow ? '<div class="content-meta">' + escapeHtml(item.eyebrow) + '</div>' : '') +
+              '<h3 class="season-heading">' + escapeHtml(item.title || '') + '</h3>' +
+              (item.intro ? '<p class="season-intro">' + escapeHtml(item.intro) + '</p>' : '') +
+              (item.copy ? '<p class="body-copy">' + escapeHtml(item.copy) + '</p>' : '') +
+              (points.length ? '<ul class="season-points">' + points.map((point) => '<li>' + escapeHtml(point) + '</li>').join('') + '</ul>' : '') +
+              (facts.length ? '<div class="season-facts">' + facts.map((fact) =>
+                '<div class="season-fact">' +
+                  iconMarkup(fact?.icon, 'season-fact-icon') +
+                  '<div><div class="content-meta">' + escapeHtml(fact?.label || '') + '</div><div class="season-fact-value">' + escapeHtml(fact?.value || '') + '</div></div>' +
+                '</div>'
+              ).join('') + '</div>' : '') +
+              (item.note ? '<p class="season-note">' + escapeHtml(item.note) + '</p>' : '') +
+            '</div>' +
+            '<div>' +
+              (item.meta ? '<div class="content-meta">' + escapeHtml(item.meta) + '</div>' : '') +
+              (item.linkLabel && item.linkHref ? '<a class="button-outline mt-4 inline-flex" href="' + escapeHtml(withLang(item.linkHref)) + '">' + escapeHtml(item.linkLabel) + '</a>' : '') +
+            '</div>' +
+          '</div>' +
+        '</article>';
+      }).join('');
+    };
+
+    const renderPlanning = (data) => {
+      const root = document.getElementById('planningNotes');
+      if (!root) return;
+      const items = Array.isArray(data?.planning?.items) ? data.planning.items : [];
+      root.innerHTML = items.map((item) =>
+        '<article class="planning-item">' +
+          (item?.eyebrow ? '<div class="content-meta">' + escapeHtml(item.eyebrow) + '</div>' : '') +
+          '<h3 class="planning-item-title">' + escapeHtml(item?.title || '') + '</h3>' +
+          (item?.copy ? '<p class="body-copy planning-item-copy">' + escapeHtml(item.copy) + '</p>' : '') +
+          (item?.meta ? '<div class="planning-item-meta">' + escapeHtml(item.meta) + '</div>' : '') +
+        '</article>'
+      ).join('');
+    };
+
+    const renderFaq = (data) => {
+      const root = document.getElementById('faqList');
+      if (!root) return;
+      const items = Array.isArray(data?.faq?.items) ? data.faq.items : [];
+      root.innerHTML = items.map((item, index) =>
+        '<details class="faq-item"' + (index === 0 ? ' open' : '') + '>' +
+          '<summary class="flex cursor-pointer list-none items-start justify-between gap-6 py-5 text-left">' +
+            '<span class="text-[1.02rem] md:text-[1.1rem] leading-7 tracking-[-0.02em] text-brand-text">' + escapeHtml(item?.q ?? item?.question ?? item?.title ?? '') + '</span>' +
+            '<span class="text-brand-muted text-lg leading-none">+</span>' +
+          '</summary>' +
+          '<div class="pb-5 pr-8 body-copy">' + escapeHtml(item?.a ?? item?.answer ?? item?.copy ?? '') + '</div>' +
+        '</details>'
+      ).join('');
+    };
+
+    const renderRelated = (data) => {
+      const root = document.getElementById('relatedGuides');
+      if (!root) return;
+      const items = Array.isArray(data?.related?.items) ? data.related.items : [];
+      root.innerHTML = items.map((item) =>
+        '<a class="related-card" href="' + escapeHtml(withLang(item?.href || '/guides/')) + '">' +
+          '<div class="related-card-image">' +
+            '<img src="' + escapeHtml(item?.image || '') + '" alt="' + escapeHtml(item?.imageAlt || item?.alt || item?.title || '') + '" loading="lazy" decoding="async" class="w-full h-full object-cover">' +
+          '</div>' +
+          '<div class="related-card-body">' +
+            (item?.label ? '<div class="related-card-label content-meta">' + escapeHtml(item.label) + '</div>' : '') +
+            '<h3 class="mt-3 text-[1.85rem] leading-[1.02] tracking-[-0.05em] text-brand-text">' + escapeHtml(item?.title || '') + '</h3>' +
+            (item?.copy ? '<p class="body-copy mt-4">' + escapeHtml(item.copy) + '</p>' : '') +
+            '<span class="button-text mt-5 inline-flex">Mehr ansehen</span>' +
+          '</div>' +
+        '</a>'
+      ).join('');
+    };
+
+    const getNestedValue = (source, path) => path.split(".").reduce((value, segment) => {
+      if (value == null) return undefined;
+      return value[segment];
+    }, source);
+
+    const applyText = (data) => {
+      document.documentElement.lang = activeLang;
+      localStorage.setItem("site-lang", activeLang);
+      document.title = data.title;
+      document.querySelector('meta[name="description"]').setAttribute("content", data.description);
+
+      document.querySelectorAll("[data-i18n]").forEach((node) => {
+        const value = getNestedValue(data, node.dataset.i18n);
+        if (typeof value === "string") node.textContent = value;
+      });
+
+      document.getElementById("heroImage").src = data.hero.image;
+      document.getElementById("heroImage").alt = data.hero.imageAlt;
+      document.getElementById("heroCta").href = withLang("/contact/");
+      if (document.getElementById("finalImage")) { document.getElementById("finalImage").src = data.final?.image || document.getElementById("finalImage").src; document.getElementById("finalImage").alt = data.final?.imageAlt || document.getElementById("finalImage").alt; }
+      document.getElementById("finalCta").href = withLang("/contact/");
+      document.getElementById("navHomeLink").href = withLang("/index.html");
+      document.getElementById("navGuidesLink").href = withLang("/guides/");
+      document.getElementById("navExperienceLink").href = withLang("/experience/");
+      document.getElementById("navJournalLink").href = withLang("/journal/");
+      document.getElementById("navAboutLink").href = withLang("/about/");
+      document.getElementById("navContactLink").href = withLang("/contact/");
+
+      document.querySelectorAll("[data-lang-button]").forEach((button) => {
+        button.setAttribute("aria-pressed", button.dataset.langButton === activeLang ? "true" : "false");
+        button.classList.toggle("bg-brand-text", button.dataset.langButton === activeLang);
+        button.classList.toggle("text-white", button.dataset.langButton === activeLang);
+      });
+
+      const faqSchema = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": (Array.isArray(data?.faq?.items) ? data.faq.items : []).map((item) => ({
+          "@type": "Question",
+          "name": item?.q ?? item?.question ?? item?.title ?? "",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": item?.a ?? item?.answer ?? item?.copy ?? ""
+          }
+        }))
+      };
+      document.getElementById("faqSchema").textContent = JSON.stringify(faqSchema);
+    };
+
+    const renderPage = () => {
+      const data = currentData();
+      applyText(data);
+      renderQuickFacts(data);
+      renderSeasons(data);
+      renderPlanning(data);
+      renderFaq(data);
+      renderRelated(data);
+    };
+
+    renderPage();
+
+    document.querySelectorAll("[data-lang-button]").forEach((button) => {
+      button.addEventListener("click", () => {
+        const nextLang = button.dataset.langButton === "en" ? "en" : "de";
+        if (nextLang === activeLang) return;
+        activeLang = nextLang;
+        localStorage.setItem("site-lang", activeLang);
+        const nextUrl = activeLang === "en"
+          ? `${window.location.pathname}?lang=en`
+          : window.location.pathname;
+        window.history.replaceState({}, "", nextUrl);
+        renderPage();
+        if (window.innerWidth < 768) closeNavMenu();
+      });
+    });
+
+    document.addEventListener("toggle", (event) => {
+      if (!event.target.matches("#faqList details")) return;
+      if (!event.target.open) return;
+      document.querySelectorAll("#faqList details").forEach((item) => {
+        if (item !== event.target) item.open = false;
+      });
+    }, true);
+  </script>
+  <script src="/assets/footer-settings.js"></script>
+</body>
+</html>

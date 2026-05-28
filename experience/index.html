@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="de" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Experience | Hochzeitsfotograf Tirol & Europa</title>
+  <meta
+    name="description"
+    content="Ein bewusst geführtes Hochzeitserlebnis für Paare, die sich in Tirol, den Dolomiten und den Alpen eine persönliche, stimmige Begleitung wünschen."
+  >
+  <link rel="canonical" href="https://www.hochzeitsfotograf.tirol/experience/">
+  <link rel="icon" type="image/png" href="/Logo-Blitzkneisser-BERG.png">
+  <script defer src="/assets/seo.js"></script>
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ["Inter", "sans-serif"]
+          },
+          colors: {
+            brand: {
+              bg: "#FFFFFF",
+              text: "#1B1A18",
+              muted: "#8A837A",
+              border: "#E6DED4",
+              soft: "#F7F3ED"
+            }
+          }
+        }
+      }
+    };
+  </script>
+  <style>
+    body {
+      background: #FFFFFF;
+      color: #1B1A18;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    .headline {
+      font-family: "Inter", sans-serif;
+      font-weight: 700;
+      letter-spacing: -0.05em;
+      line-height: 0.9;
+      text-transform: uppercase;
+    }
+
+    .intro-copy {
+      max-width: 52ch;
+      font-size: 1rem;
+      line-height: 1.65;
+      font-weight: 300;
+      color: rgba(27, 26, 24, 0.8);
+    }
+
+    .editorial-section {
+      padding: 5rem 1.5rem;
+    }
+
+    .editorial-inner {
+      width: min(100%, 120rem);
+      margin-inline: auto;
+    }
+
+    .section-copy {
+      color: rgba(27, 26, 24, 0.78);
+      font-size: 1rem;
+      font-weight: 300;
+      line-height: 1.85;
+    }
+
+    .eyebrow {
+      color: #8A837A;
+      font-size: 10px;
+      font-weight: 500;
+      letter-spacing: 0.28em;
+      text-transform: uppercase;
+    }
+
+    .experience-image {
+      overflow: hidden;
+      background: #F7F3ED;
+    }
+
+    .experience-image img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+
+    .editorial-link {
+      border-bottom: 1px solid currentColor;
+      color: inherit;
+      display: inline-flex;
+      font-size: 10px;
+      font-weight: 500;
+      letter-spacing: 0.26em;
+      padding-bottom: 0.45rem;
+      text-transform: uppercase;
+      transition: opacity 0.25s ease;
+    }
+
+    .editorial-link:hover {
+      opacity: 0.65;
+    }
+
+    .editorial-button {
+      border: 1px solid currentColor;
+      display: inline-flex;
+      justify-content: center;
+      padding: 1rem 1.8rem;
+      font-size: 10px;
+      font-weight: 500;
+      letter-spacing: 0.26em;
+      text-transform: uppercase;
+      transition: background-color 0.25s ease, color 0.25s ease, opacity 0.25s ease;
+    }
+
+    .editorial-button:hover {
+      background: #1B1A18;
+      color: #FFFFFF;
+    }
+
+    .experience-icon {
+      align-items: center;
+      color: rgba(27, 26, 24, 0.82);
+      display: inline-flex;
+      height: auto;
+      justify-content: center;
+      width: auto;
+    }
+
+    .experience-icon svg {
+      height: 1.55rem;
+      stroke: currentColor;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-width: 1.9;
+      width: 1.55rem;
+    }
+
+    .special-card {
+      border: 1px solid transparent;
+      border-top-color: #E6DED4;
+      padding: 1.5rem 1rem 1.1rem;
+      transition: transform 0.28s ease, border-color 0.28s ease, box-shadow 0.28s ease, background-color 0.28s ease;
+    }
+
+    .special-card:hover,
+    .special-card:focus-within {
+      background: rgba(247, 243, 237, 0.32);
+      border-color: rgba(230, 222, 212, 0.88);
+      box-shadow: 0 10px 30px rgba(27, 26, 24, 0.05);
+      transform: translateY(-2px);
+    }
+
+    .planning-editorial {
+      padding: 2rem 1.5rem;
+    }
+
+    .planning-editorial-title {
+      font-size: clamp(2.2rem, 5vw, 4rem);
+      font-weight: 700;
+      letter-spacing: -0.05em;
+      line-height: 0.95;
+      text-transform: uppercase;
+    }
+
+    .planning-editorial-list {
+      display: grid;
+      gap: 0.9rem;
+      margin-top: 1.85rem;
+    }
+
+    .planning-editorial-item {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 0.9rem;
+      align-items: start;
+      color: rgba(27, 26, 24, 0.84);
+      font-size: 1rem;
+      font-weight: 300;
+      line-height: 1.75;
+    }
+
+    .planning-editorial-item::before {
+      content: "";
+      width: 0.35rem;
+      height: 0.35rem;
+      margin-top: 0.7rem;
+      border-radius: 999px;
+      background: rgba(27, 26, 24, 0.42);
+    }
+
+    .testimonial-block {
+      padding-top: 1rem;
+      align-self: flex-start;
+    }
+
+    .testimonial-meta {
+      letter-spacing: 0.42em;
+    }
+
+    .fade-in-up {
+      animation: fadeInUp 0.85s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+      opacity: 0;
+      transform: translateY(14px);
+    }
+
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .mobile-menu-toggle,
+    .floating-lang-toggle {
+      display: none;
+    }
+
+    .faq-item summary::-webkit-details-marker {
+      display: none;
+    }
+
+    @media (min-width: 768px) {
+      .editorial-section {
+        padding: 7rem 3rem;
+      }
+
+      .section-copy {
+        font-size: 1.08rem;
+      }
+
+      .intro-copy {
+        font-size: 1.125rem;
+      }
+    }
+
+    @media (max-width: 767px) {
+      .mobile-menu-toggle {
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5px;
+        width: 44px;
+        height: 44px;
+        margin-left: auto;
+      }
+
+      .mobile-menu-toggle span {
+        width: 24px;
+        height: 2px;
+        margin-left: auto;
+        background: #1B1A18;
+        transition: transform 0.25s ease, opacity 0.25s ease;
+      }
+
+      #mainNav.is-open .mobile-menu-toggle span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+      #mainNav.is-open .mobile-menu-toggle span:nth-child(2) { opacity: 0; }
+      #mainNav.is-open .mobile-menu-toggle span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+      .nav-menu-panel {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem 1.5rem 1.25rem;
+        background: rgba(255,255,255,.94);
+        backdrop-filter: blur(14px);
+        border-bottom: 1px solid #E6DED4;
+        opacity: 0;
+        pointer-events: none;
+        transform: translateY(-8px);
+        transition: opacity .25s ease, transform .25s ease;
+      }
+
+      #mainNav.is-open .nav-menu-panel {
+        opacity: 1;
+        pointer-events: auto;
+        transform: translateY(0);
+      }
+
+      .nav-menu-panel > div:first-child {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+      }
+
+      .nav-menu-panel a {
+        font-size: 1rem;
+        font-weight: 700;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+      }
+
+      .nav-menu-panel .nav-lang-toggle {
+        display: none;
+      }
+
+    }
+  </style>
+</head>
+<body class="overflow-x-hidden selection:bg-stone-300 selection:text-black">
+  <nav class="fixed top-0 left-0 z-50 w-full bg-white/80 px-6 py-5 text-brand-text backdrop-blur-sm transition-all duration-500 md:px-12 md:py-8" id="mainNav">
+    <div class="mx-auto flex max-w-[120rem] items-center justify-between gap-6">
+      <a href="/index.html" id="navHomeLink" class="group flex items-center" aria-label="Blitzkneisser Photography">
+        <img src="/Logo-Blitzkneisser-BERG.png" alt="Blitzkneisser Photography" class="h-11 w-auto brightness-0 contrast-125 opacity-70 transition duration-500 ease-out group-hover:opacity-100 md:h-14">
+      </a>
+      <button type="button" class="mobile-menu-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenuPanel" aria-label="Menü öffnen"><span></span><span></span><span></span></button>
+      <div class="nav-menu-panel ml-auto flex items-center justify-end gap-4 text-right" id="navMenuPanel">
+        <div class="flex items-center gap-4 text-[10px] uppercase tracking-[0.2em] sm:gap-6 md:gap-8 md:text-xs">
+          <a href="/experience/" id="navExperienceLink" class="opacity-60 transition-opacity duration-300" aria-current="page">Experience</a>
+          <a href="/guides/" id="navGuidesLink" class="hover:opacity-60 transition-opacity duration-300">Guides</a>
+          <a href="/journal/" id="navJournalLink" class="hover:opacity-60 transition-opacity duration-300">Journal</a>
+          <a href="/about/" id="navAboutLink" class="hover:opacity-60 transition-opacity duration-300" data-i18n="nav.about">About</a>
+          <a href="/contact/" id="navContactLink" class="hover:opacity-60 transition-opacity duration-300" data-i18n="nav.contact">Contact</a>
+        </div>
+        <div class="nav-lang-toggle flex items-center gap-2 text-[10px] uppercase tracking-[0.24em] md:text-xs">
+          <button type="button" class="border border-brand-border px-3 py-2 transition-colors" data-lang-button="de" aria-pressed="true">DE</button>
+          <button type="button" class="border border-brand-border px-3 py-2 transition-colors" data-lang-button="en" aria-pressed="false">EN</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main class="pt-32 md:pt-48 pb-24">
+    <header class="px-6 md:px-12 max-w-[120rem] mx-auto mb-16 md:mb-20 fade-in-up" aria-labelledby="pageTitle">
+      <div class="grid gap-12 lg:grid-cols-[1.1fr_0.9fr] lg:items-end">
+        <div>
+          <span id="heroEyebrow" class="sr-only">Experience</span>
+          <h1 id="pageTitle" class="headline text-[3.3rem] md:text-[6.4rem] lg:text-[8.7rem]">More than beautiful photos</h1>
+          <img id="heroImage" src="/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-304.jpg" alt="Luxury mountain wedding couple in the Dolomites" loading="eager" fetchpriority="high" class="sr-only">
+          <a href="/contact/" class="sr-only" data-i18n="hero.cta" id="heroCta">Let's plan your day</a>
+        </div>
+        <div>
+          <p id="heroCopy" class="intro-copy">I create intentional, intimate and deeply personal wedding experiences in the most breathtaking places across Europe.</p>
+        </div>
+      </div>
+      <div class="mt-12 border-t border-brand-border"></div>
+    </header>
+
+    <section class="editorial-section pt-0 md:pt-0" aria-labelledby="philosophyTitle">
+      <div class="editorial-inner grid gap-10 lg:grid-cols-2 lg:items-center">
+        <figure class="experience-image aspect-[4/5] fade-in-up">
+          <img id="philosophyImage" src="/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14.jpg" alt="Editorial mountain elopement detail in the Dolomites" loading="lazy" decoding="async">
+        </figure>
+        <div class="fade-in-up" style="animation-delay: 0.12s;">
+          <span id="philosophyEyebrow" class="eyebrow">My Philosophy</span>
+          <h2 id="philosophyTitle" class="headline mt-5 text-5xl md:text-7xl">Intentional. Authentic. Timeless.</h2>
+          <p id="philosophyCopy" class="section-copy mt-7 max-w-2xl">A calm, documentary and editorial way of telling your story - guided enough to feel easy, quiet enough to let real moments unfold.</p>
+          <a href="/about/" class="editorial-link mt-8" id="aboutCta" data-i18n="philosophy.cta">Read more about me</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="editorial-section border-y border-brand-border bg-brand-soft text-center" aria-labelledby="processTitle">
+      <div class="editorial-inner">
+        <span id="processEyebrow" class="eyebrow">The Process</span>
+        <h2 id="processTitle" class="headline mx-auto mt-5 max-w-4xl text-5xl md:text-7xl">A seamless journey</h2>
+        <p id="processSubline" class="mt-5 text-[10px] uppercase tracking-[0.32em] text-brand-muted">From start to finish</p>
+        <div class="mt-14 grid gap-x-8 gap-y-8 md:grid-cols-4" id="processGrid"></div>
+      </div>
+    </section>
+
+    <section class="editorial-section" aria-labelledby="specialTitle">
+      <div class="editorial-inner">
+        <div class="mb-16 max-w-4xl">
+          <span id="specialEyebrow" class="eyebrow">What Makes It Special</span>
+          <h2 id="specialTitle" class="headline mt-5 text-5xl md:text-7xl">Quiet expertise for meaningful days.</h2>
+        </div>
+        <div class="grid gap-x-10 gap-y-10 sm:grid-cols-2 lg:grid-cols-3" id="specialGrid"></div>
+      </div>
+    </section>
+
+    <section class="relative min-h-[72vh] overflow-hidden bg-brand-text" aria-labelledby="testimonialTitle">
+      <div class="absolute inset-0 experience-image">
+        <img id="testimonialImage" src="/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-19.jpg" alt="Cinematic elopement moment in the Alps" loading="lazy" decoding="async">
+      </div>
+      <div class="absolute inset-0 bg-black/62"></div>
+      <div class="relative z-10 flex min-h-[64vh] items-start px-6 py-12 md:px-12 md:py-16">
+        <div class="editorial-inner text-white">
+          <div class="max-w-5xl testimonial-block">
+            <span id="testimonialEyebrow" class="eyebrow testimonial-meta text-white/65">Words From Couples</span>
+            <h2 id="testimonialTitle" class="sr-only">Testimonial</h2>
+            <blockquote class="mt-6">
+              <p id="testimonialQuote" class="headline max-w-5xl text-4xl md:text-6xl">Working with us felt calm, personal and effortless. Every image brought us right back to how the day felt.</p>
+              <footer id="testimonialName" class="testimonial-meta mt-8 text-[10px] uppercase text-white/70">Kellie + Krake</footer>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="editorial-section bg-white" aria-labelledby="bottomGridTitle">
+      <div class="editorial-inner">
+        <h2 id="bottomGridTitle" class="sr-only">Planning and FAQ</h2>
+        <div class="grid gap-10 lg:grid-cols-2">
+          <article class="planning-editorial">
+            <span id="planningEyebrow" class="eyebrow">Planning Support</span>
+            <h3 id="planningTitle" class="planning-editorial-title mt-5">I'll help you plan an experience that feels effortless</h3>
+            <ul class="planning-editorial-list" id="planningList"></ul>
+            <a href="/guides/" class="editorial-button mt-8" id="planningCta" data-i18n="planning.cta">View Planning Guide</a>
+          </article>
+
+          <article class="border-t border-brand-border pt-8">
+            <span class="eyebrow">FAQ</span>
+            <div class="mt-6" id="faqList"></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="relative min-h-[78vh] overflow-hidden bg-brand-text text-center" aria-labelledby="finalTitle">
+      <div class="absolute inset-0 experience-image">
+        <img id="finalImage" src="/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-20.jpg" alt="Soft mountain landscape for an elopement in Europe" loading="lazy" decoding="async">
+      </div>
+      <div class="absolute inset-0 bg-black/45"></div>
+      <div class="relative z-10 flex min-h-[68vh] items-end px-6 pb-12 pt-24 md:px-12 md:pb-16 md:pt-24">
+        <div class="editorial-inner flex justify-center text-white">
+          <div class="max-w-4xl">
+            <span id="finalEyebrow" class="eyebrow text-white/70">Let's create something unforgettable</span>
+            <h2 id="finalTitle" class="headline mt-6 text-5xl md:text-7xl">Ready to start your adventure?</h2>
+            <a href="/contact/" class="editorial-button mt-8 text-white" data-i18n="final.cta" id="finalCta">I'd love to hear your story</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="py-16 px-6 md:px-12 border-t border-brand-border flex flex-col md:flex-row justify-between items-start md:items-center text-[10px] md:text-xs text-brand-muted tracking-[0.2em] uppercase font-medium bg-brand-bg">
+    <div class="mb-8 md:mb-0" id="footerBrandText">© 2026 Blitzkneisser Photography</div>
+    <div class="flex flex-col md:flex-row gap-6 md:gap-12">
+      <a id="footerInstagramLink" href="#" class="hover:text-brand-text transition-colors duration-300">Instagram</a>
+      <a id="footerContactLink" href="/contact/" class="hover:text-brand-text transition-colors duration-300" data-i18n="nav.contact">Contact</a>
+      <a id="footerJournalLink" href="/journal/" class="hover:text-brand-text transition-colors duration-300">Journal</a>
+    </div>
+    <div id="footerInstagramFeed" class="footer-instagram-feed"></div>
+  </footer>
+
+  <script>
+    const nav = document.getElementById("mainNav");
+    const navToggle = document.getElementById("navToggle");
+    const navMenuPanel = document.getElementById("navMenuPanel");
+    const closeNavMenu = () => {
+      nav.classList.remove("is-open");
+      navToggle.setAttribute("aria-expanded", "false");
+    };
+    navToggle.addEventListener("click", () => {
+      const willOpen = !nav.classList.contains("is-open");
+      nav.classList.toggle("is-open", willOpen);
+      navToggle.setAttribute("aria-expanded", willOpen ? "true" : "false");
+    });
+    navMenuPanel.querySelectorAll("a, button[data-lang-button]").forEach((item) => {
+      item.addEventListener("click", () => {
+        if (window.innerWidth < 768) closeNavMenu();
+      });
+    });
+    window.addEventListener("resize", () => {
+      if (window.innerWidth >= 768) closeNavMenu();
+    });
+
+    const fallbackExperienceData = {
+      metaTitle: "Experience | Hochzeitsfotograf Tirol & Europa",
+      metaTitleEn: "The Experience | Luxury Wedding Photography in Europe",
+      metaDescription: "Ein ruhiges, emotionales und bewusst geführtes Hochzeitserlebnis für Paare, die in den Dolomiten, Tirol und Europa intim heiraten möchten.",
+      metaDescriptionEn: "An intentional, emotional and refined wedding experience for couples planning unforgettable celebrations in the Dolomites and across Europe.",
+      heroEyebrow: "Experience",
+      heroEyebrowEn: "Experience",
+      heroTitle: "Mehr als schöne Bilder",
+      heroTitleEn: "More than beautiful photos",
+      heroCopy: "Es geht um das Gefühl, angekommen zu sein. Um Licht auf den Bergen, tiefe Ruhe und einen Tag, der sich echt, leicht und ganz nach euch anfühlt.",
+      heroCopyEn: "It is about the feeling of arriving. About mountain light, deep calm and a day that feels true, effortless and entirely your own.",
+      heroCta: "Lasst uns euren Tag planen",
+      heroCtaEn: "Let's plan your day",
+      heroImage: "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-304.jpg",
+      heroAlt: "Intimer Hochzeitsmoment in den Dolomiten mit ruhigem Abendlicht",
+      heroAltEn: "Intimate wedding moment in the Dolomites with calm evening light",
+      philosophyEyebrow: "Philosophie",
+      philosophyEyebrowEn: "Philosophy",
+      philosophyTitle: "Bewusst. Echt. Zeitlos.",
+      philosophyTitleEn: "Intentional. Authentic. Timeless.",
+      philosophyCopy: "Euer Hochzeitstag soll sich nicht wie ein Shooting anfühlen. Sondern wie ein Tag voller Nähe, Weite und ehrlicher Momente. Ich begleite mit Ruhe, Gespür und genau so viel Führung, wie euch gut tut.",
+      philosophyCopyEn: "Your wedding day should never feel like a photoshoot. It should feel like a day filled with closeness, space and honest moments. I guide with calm, intuition and only as much direction as truly helps.",
+      philosophyCta: "Mehr über mich",
+      philosophyCtaEn: "Read more about me",
+      philosophyImage: "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14.jpg",
+      philosophyAlt: "Editorial Elopement in den Bergen mit weichem Licht",
+      philosophyAltEn: "Editorial elopement in the mountains with soft light",
+      processEyebrow: "Der Weg",
+      processEyebrowEn: "The Process",
+      processTitle: "Ein Tag, der sich leicht anfühlt",
+      processTitleEn: "A journey that feels seamless",
+      processSubline: "Vom ersten Gespräch bis zur fertigen Galerie",
+      processSublineEn: "From the first conversation to the final gallery",
+      process: [
+        { number: "01", title: "Anfrage", titleEn: "Inquiry", copy: "Ihr erzählt mir von euch, euren Plänen und der Stimmung, die euer Tag tragen soll.", copyEn: "You tell me about the two of you, your plans and the feeling you want your day to hold." },
+        { number: "02", title: "Planung", titleEn: "Planning", copy: "Gemeinsam formen wir Licht, Ablauf und Orte so, dass alles ruhig und stimmig ineinander fließt.", copyEn: "Together we shape light, timing and places so everything flows with calm and intention." },
+        { number: "03", title: "Euer Tag", titleEn: "Your Day", copy: "Ich bin präsent, ohne zu stören. Nah genug, um alles zu spüren. Zurückhaltend genug, damit echte Momente bleiben.", copyEn: "I stay present without interrupting. Close enough to feel everything. Quiet enough to let real moments remain untouched." },
+        { number: "04", title: "Eure Galerie", titleEn: "Your Gallery", copy: "Ihr erhaltet eine Galerie, die euch nicht nur zeigt, wie es aussah, sondern wieder fühlen lässt, wie es war.", copyEn: "You receive a gallery that does not only show how it looked, but brings back how it truly felt." }
+      ],
+      specialEyebrow: "Was bleibt",
+      specialEyebrowEn: "What shapes it",
+      specialTitle: "Für Tage mit Tiefe, Weite und Gefühl.",
+      specialTitleEn: "For days filled with depth, stillness and feeling.",
+      specialItems: [
+        { title: "Orte mit Seele", titleEn: "Places with soul", copy: "Nicht nur schön, sondern stimmig für eure Geschichte.", copyEn: "Not only beautiful, but deeply aligned with your story." },
+        { title: "Licht mit Gefühl", titleEn: "Light with feeling", copy: "Wir folgen dem Rhythmus des Tages und dem Licht, das Atmosphäre schafft.", copyEn: "We follow the rhythm of the day and the light that creates atmosphere." },
+        { title: "Raum für Echtheit", titleEn: "Space for honesty", copy: "Keine Hektik. Kein Druck. Nur Raum, um wirklich bei euch zu sein.", copyEn: "No rush. No pressure. Just space to truly be with each other." },
+        { title: "Wetter als Stimmung", titleEn: "Weather as mood", copy: "Sonne, Nebel oder Schnee dürfen Teil eurer Geschichte werden.", copyEn: "Sun, mist or snow can become part of the story itself." },
+        { title: "Unaufgeregte Führung", titleEn: "Quiet guidance", copy: "Ich halte euch nicht auf, sondern begleite euch durch den Tag.", copyEn: "I do not interrupt the day. I move with you through it." },
+        { title: "Empfehlungen vor Ort", titleEn: "Local insight", copy: "Von der Unterkunft bis zum Dinner: kleine Hinweise, die vieles leichter machen.", copyEn: "From where to stay to where to celebrate: thoughtful details that make everything easier." }
+      ],
+      testimonialEyebrow: "Worte von Paaren",
+      testimonialEyebrowEn: "Words from couples",
+      testimonialQuote: "Es hat sich nie wie ein Fotoshooting angefühlt. Eher wie ein ruhiger, wunderschöner Tag, an dem wir ganz bei uns sein konnten.",
+      testimonialQuoteEn: "It never felt like a photoshoot. It felt like a calm, beautiful day where we could simply be with each other.",
+      testimonialName: "Kellie & Krake",
+      testimonialNameEn: "Kellie & Krake",
+      testimonialImage: "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-19.jpg",
+      testimonialAlt: "Cinematischer Elopement-Moment in den Alpen",
+      testimonialAltEn: "Cinematic elopement moment in the Alps",
+      planningEyebrow: "Planung",
+      planningEyebrowEn: "Planning Support",
+      planningTitle: "Ich helfe euch, ein Erlebnis zu gestalten, das sich mühelos anfühlt",
+      planningTitleEn: "I'll help you shape an experience that feels effortless",
+      planningCta: "Planning Guide ansehen",
+      planningCtaEn: "View Planning Guide",
+      planningItems: [
+        { label: "Location Scouting & Empfehlungen", labelEn: "Location scouting & recommendations" },
+        { label: "Tagesablauf & Lichtplanung", labelEn: "Timeline & light planning" },
+        { label: "Schlechtwetter-Ideen mit Atmosphäre", labelEn: "Weather backup ideas with atmosphere" },
+        { label: "Unterkünfte, Reise & lokale Hinweise", labelEn: "Accommodation, travel and local tips" },
+        { label: "Empfehlungen für passende Dienstleister", labelEn: "Recommendations for trusted vendors" }
+      ],
+      faq: [
+        { question: "Wann ist die beste Zeit für ein Elopement in den Dolomiten?", questionEn: "When is the best time for a Dolomites elopement?", answer: "Das hängt stark davon ab, was ihr euch wünscht. Von Juni bis Anfang Oktober sind viele Orte gut zugänglich, die Tage länger und Sonnenaufgänge besonders schön. Wenn ihr es stiller mögt, sind die frühen Morgenstunden fast immer die stärkste Wahl.", answerEn: "That depends on the kind of day you want. From June to early October, many locations are accessible, the days are longer and sunrise can be especially beautiful. If you are hoping for more stillness, early morning is often the strongest choice." },
+        { question: "Reist du international?", questionEn: "Do you travel internationally?", answer: "Ja. Ich begleite Hochzeiten und Elopements in Tirol, den Dolomiten und an ausgewählten Orten in ganz Europa.", answerEn: "Yes. I document weddings and elopements in Tyrol, the Dolomites and selected destinations across Europe." },
+        { question: "Können wir auch mit Familie oder Gästen elopen?", questionEn: "Can we still elope with family or guests?", answer: "Ja, auf jeden Fall. Ein Elopement muss nicht bedeuten, dass ihr ganz allein seid. Viele Paare teilen einzelne Teile des Tages mit den engsten Menschen und nehmen sich den stilleren Teil nur für sich.", answerEn: "Yes, absolutely. An elopement does not have to mean being completely alone. Many couples share parts of the day with their closest people and keep the quieter part just for themselves." },
+        { question: "Wie früh sollten wir anfragen?", questionEn: "How far in advance should we book?", answer: "Für beliebte Termine lohnt sich eine Anfrage neun bis zwölf Monate im Voraus. Für intime Elopements ist manchmal auch kurzfristiger noch etwas möglich.", answerEn: "For sought-after dates, reaching out nine to twelve months ahead is ideal. Intimate elopements can sometimes still work on shorter notice." },
+        { question: "Müssen wir sportlich sein?", questionEn: "Do we need to be very sporty?", answer: "Nein. Nicht jeder Ort in den Bergen verlangt eine lange Wanderung. Es gibt stille, eindrucksvolle Plätze mit leichtem Zugang und andere, die etwas mehr Bewegung brauchen. Wir finden gemeinsam heraus, was wirklich zu euch passt.", answerEn: "No. Not every mountain location requires a long hike. Some places are quiet and impressive with very easy access, while others ask for a bit more movement. We find what genuinely fits you." },
+        { question: "Hilfst du uns bei der Planung?", questionEn: "Will you help us plan our day?", answer: "Ja. Ich unterstütze euch bei Licht, Ablauf, Orten und all den kleinen Entscheidungen, die am Ende für Ruhe sorgen.", answerEn: "Yes. I support you with light, timing, locations and all the small decisions that create calm in the end." },
+        { question: "Was passiert bei schlechtem Wetter?", questionEn: "What if the weather is bad?", answer: "Gerade in den Bergen darf Wetter Teil der Geschichte sein. Wir planen bewusst mit Alternativen, damit der Tag schön bleibt, egal was kommt.", answerEn: "In the mountains, weather can become part of the story. We plan with thoughtful alternatives so the day still feels beautiful, whatever arrives." },
+        { question: "Wie früh sollten wir für Sonnenaufgang starten?", questionEn: "How early do we need to start for sunrise?", answer: "Früher, als viele zuerst denken. Je nach Jahreszeit, Fahrzeit und kurzem Zustieg beginnt der Tag oft deutlich vor Sonnenaufgang. Genau darin liegt aber oft der Zauber: leere Wege, kalte Luft und dieses erste ruhige Licht in den Bergen.", answerEn: "Earlier than most people expect at first. Depending on the season, driving time and a short walk in, the day often begins well before sunrise. But that is also where much of the magic lives: empty paths, cold air and that first quiet light in the mountains." },
+        { question: "Wie viele Bilder bekommen wir?", questionEn: "How many photos will we receive?", answer: "Jede Geschichte ist anders. Ihr erhaltet eine sorgfältig kuratierte Galerie mit allen Bildern, die euren Tag vollständig und stimmungsvoll erzählen.", answerEn: "Every story is different. You receive a carefully curated gallery with the images that tell your day fully and with atmosphere." },
+        { question: "Können Gäste dabei sein?", questionEn: "Can we have guests with us?", answer: "Natürlich. Ob ganz intim oder mit euren engsten Menschen: der Tag darf sich nach euch anfühlen.", answerEn: "Absolutely. Whether it is just the two of you or shared with your closest people, the day should feel like you." }
+      ],
+      finalEyebrow: "Lasst uns etwas Unvergessliches schaffen",
+      finalEyebrowEn: "Let's create something unforgettable",
+      finalTitle: "Bereit für euer Abenteuer?",
+      finalTitleEn: "Ready to start your adventure?",
+      finalCta: "Ich möchte eure Geschichte hören",
+      finalCtaEn: "I'd love to hear your story",
+      finalImage: "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-20.jpg",
+      finalAlt: "Weiche Berglandschaft für ein Elopement in Europa",
+      finalAltEn: "Soft mountain landscape for an elopement in Europe"
+    };
+
+    let experienceData = fallbackExperienceData;
+
+    const getLang = () => {
+      const params = new URLSearchParams(window.location.search);
+      const storedLang = localStorage.getItem("site-lang");
+      if (params.get("lang") === "en") return "en";
+      if (params.get("lang") === "de") return "de";
+      if (storedLang === "en" || storedLang === "de") return storedLang;
+      return "de";
+    };
+    const getValue = (source, deKey, enKey, lang, fallback = "") =>
+      lang === "en"
+        ? (source?.[enKey] || source?.[deKey] || fallback)
+        : (source?.[deKey] || source?.[enKey] || fallback);
+
+    const setImage = (nodeId, source, altSource, fallbackAlt) => {
+      const node = document.getElementById(nodeId);
+      if (!node) return;
+      if (source) node.src = source;
+      if (altSource) node.alt = altSource;
+      else if (fallbackAlt) node.alt = fallbackAlt;
+    };
+
+    const setHrefLang = (nodeId, path, activeLang) => {
+      const node = document.getElementById(nodeId);
+      if (node) node.href = activeLang === "en" ? `${path}?lang=en` : path;
+    };
+
+    const renderProcess = (activeLang, source) => {
+      const items = Array.isArray(source?.process) ? source.process : [];
+      document.getElementById("processGrid").innerHTML = items.map((item) => `
+        <article class="border-t border-brand-border pt-8 text-center">
+          <span class="headline block text-5xl text-brand-text/85 md:text-6xl">${item.number || ""}</span>
+          <h3 class="mt-6 text-base font-bold uppercase tracking-[0.18em]">${getValue(item, "title", "titleEn", activeLang, "")}</h3>
+          <p class="mx-auto mt-4 max-w-xs text-sm font-light leading-7 text-brand-text/72">${getValue(item, "copy", "copyEn", activeLang, "")}</p>
+        </article>
+      `).join("");
+    };
+
+    const renderSpecial = (activeLang, source) => {
+      const icons = [
+        '<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 21s6-5.7 6-11a6 6 0 0 0-12 0c0 5.3 6 11 6 11Z"/><path d="M12 12.2a2.2 2.2 0 1 0 0-4.4 2.2 2.2 0 0 0 0 4.4Z"/></svg>',
+        '<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 5h14"/><path d="M5 12h14"/><path d="M5 19h14"/><path d="M8 3v4"/><path d="M16 10v4"/><path d="M11 17v4"/></svg>',
+        '<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 16.5A4.5 4.5 0 0 1 8.4 8a5.8 5.8 0 0 1 11 2.5A3.2 3.2 0 0 1 18.8 17H8"/><path d="M9 20h.01"/><path d="M13 20h.01"/><path d="M17 20h.01"/></svg>',
+        '<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.7A4 4 0 0 1 19 10c0 5.6-7 10-7 10Z"/></svg>',
+        '<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3v18"/><path d="M7 8c3 0 5-2 5-5"/><path d="M17 8c-3 0-5-2-5-5"/><path d="M7 16c3 0 5 2 5 5"/><path d="M17 16c-3 0-5 2-5 5"/></svg>',
+        '<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 18c4-8 8-12 16-12"/><path d="M7 18h13"/><path d="M10 14h8"/><path d="M13 10h5"/></svg>'
+      ];
+      const items = Array.isArray(source?.specialItems) ? source.specialItems : [];
+      document.getElementById("specialGrid").innerHTML = items.map((item, index) => `
+        <article class="special-card text-center">
+          <div class="experience-icon mb-6 justify-center text-brand-text/70">${icons[index % icons.length]}</div>
+          <h3 class="text-sm font-bold uppercase tracking-[0.2em]">${getValue(item, "title", "titleEn", activeLang, "")}</h3>
+          <p class="mx-auto mt-4 max-w-sm text-sm font-light leading-7 text-brand-text/72">${getValue(item, "copy", "copyEn", activeLang, "")}</p>
+        </article>
+      `).join("");
+    };
+
+    const renderPlanning = (activeLang, source) => {
+      const items = Array.isArray(source?.planningItems) ? source.planningItems : [];
+      document.getElementById("planningList").innerHTML = items.map((item) => `
+        <li class="planning-editorial-item">${getValue(item, "label", "labelEn", activeLang, "")}</li>
+      `).join("");
+    };
+
+    const renderFaq = (activeLang, source) => {
+      const list = document.getElementById("faqList");
+      const items = Array.isArray(source?.faq) ? source.faq : [];
+      list.innerHTML = items.map((item, index) => `
+        <details class="faq-item border-b border-brand-border py-5" ${index === 0 ? "open" : ""}>
+          <summary class="flex cursor-pointer list-none items-start justify-between gap-6 text-base font-light leading-7">
+            <span>${getValue(item, "question", "questionEn", activeLang, "")}</span>
+            <span class="text-sm text-brand-muted">+</span>
+          </summary>
+          <p class="mt-4 max-w-3xl text-sm font-light leading-7 text-brand-text/78">${getValue(item, "answer", "answerEn", activeLang, "")}</p>
+        </details>
+      `).join("");
+
+      const detailNodes = Array.from(list.querySelectorAll("details"));
+      detailNodes.forEach((item) => {
+        item.addEventListener("toggle", () => {
+          if (!item.open) return;
+          detailNodes.forEach((other) => {
+            if (other !== item) other.open = false;
+          });
+        });
+      });
+
+      const schema = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": items.map((item) => ({
+          "@type": "Question",
+          "name": getValue(item, "question", "questionEn", activeLang, ""),
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": getValue(item, "answer", "answerEn", activeLang, "")
+          }
+        }))
+      };
+      let schemaNode = document.getElementById("faqSchema");
+      if (!schemaNode) {
+        schemaNode = document.createElement("script");
+        schemaNode.type = "application/ld+json";
+        schemaNode.id = "faqSchema";
+        document.head.appendChild(schemaNode);
+      }
+      schemaNode.textContent = JSON.stringify(schema);
+    };
+
+    const applyExperienceContent = (activeLang, source) => {
+      localStorage.setItem("site-lang", activeLang);
+      document.documentElement.lang = activeLang;
+      document.title = getValue(source, "metaTitle", "metaTitleEn", activeLang, fallbackExperienceData.metaTitleEn);
+      document.querySelector('meta[name="description"]').setAttribute("content", getValue(source, "metaDescription", "metaDescriptionEn", activeLang, fallbackExperienceData.metaDescriptionEn));
+
+      document.getElementById("heroEyebrow").textContent = getValue(source, "heroEyebrow", "heroEyebrowEn", activeLang, fallbackExperienceData.heroEyebrowEn);
+      document.getElementById("pageTitle").textContent = getValue(source, "heroTitle", "heroTitleEn", activeLang, fallbackExperienceData.heroTitleEn);
+      document.getElementById("heroCopy").textContent = getValue(source, "heroCopy", "heroCopyEn", activeLang, fallbackExperienceData.heroCopyEn);
+      document.getElementById("heroCta").textContent = getValue(source, "heroCta", "heroCtaEn", activeLang, fallbackExperienceData.heroCtaEn);
+      setImage("heroImage", source.heroImage, getValue(source, "heroAlt", "heroAltEn", activeLang, fallbackExperienceData.heroAltEn), fallbackExperienceData.heroAltEn);
+
+      document.getElementById("philosophyEyebrow").textContent = getValue(source, "philosophyEyebrow", "philosophyEyebrowEn", activeLang, fallbackExperienceData.philosophyEyebrowEn);
+      document.getElementById("philosophyTitle").textContent = getValue(source, "philosophyTitle", "philosophyTitleEn", activeLang, fallbackExperienceData.philosophyTitleEn);
+      document.getElementById("philosophyCopy").textContent = getValue(source, "philosophyCopy", "philosophyCopyEn", activeLang, fallbackExperienceData.philosophyCopyEn);
+      document.getElementById("aboutCta").textContent = getValue(source, "philosophyCta", "philosophyCtaEn", activeLang, fallbackExperienceData.philosophyCtaEn);
+      setImage("philosophyImage", source.philosophyImage, getValue(source, "philosophyAlt", "philosophyAltEn", activeLang, fallbackExperienceData.philosophyAltEn), fallbackExperienceData.philosophyAltEn);
+
+      document.getElementById("processEyebrow").textContent = getValue(source, "processEyebrow", "processEyebrowEn", activeLang, fallbackExperienceData.processEyebrowEn);
+      document.getElementById("processTitle").textContent = getValue(source, "processTitle", "processTitleEn", activeLang, fallbackExperienceData.processTitleEn);
+      document.getElementById("processSubline").textContent = getValue(source, "processSubline", "processSublineEn", activeLang, fallbackExperienceData.processSublineEn);
+
+      document.getElementById("specialEyebrow").textContent = getValue(source, "specialEyebrow", "specialEyebrowEn", activeLang, fallbackExperienceData.specialEyebrowEn);
+      document.getElementById("specialTitle").textContent = getValue(source, "specialTitle", "specialTitleEn", activeLang, fallbackExperienceData.specialTitleEn);
+
+      document.getElementById("testimonialEyebrow").textContent = getValue(source, "testimonialEyebrow", "testimonialEyebrowEn", activeLang, fallbackExperienceData.testimonialEyebrowEn);
+      document.getElementById("testimonialQuote").textContent = getValue(source, "testimonialQuote", "testimonialQuoteEn", activeLang, fallbackExperienceData.testimonialQuoteEn);
+      document.getElementById("testimonialName").textContent = getValue(source, "testimonialName", "testimonialNameEn", activeLang, fallbackExperienceData.testimonialNameEn);
+      setImage("testimonialImage", source.testimonialImage, getValue(source, "testimonialAlt", "testimonialAltEn", activeLang, fallbackExperienceData.testimonialAltEn), fallbackExperienceData.testimonialAltEn);
+
+      document.getElementById("planningEyebrow").textContent = getValue(source, "planningEyebrow", "planningEyebrowEn", activeLang, fallbackExperienceData.planningEyebrowEn);
+      document.getElementById("planningTitle").textContent = getValue(source, "planningTitle", "planningTitleEn", activeLang, fallbackExperienceData.planningTitleEn);
+      document.getElementById("planningCta").textContent = getValue(source, "planningCta", "planningCtaEn", activeLang, fallbackExperienceData.planningCtaEn);
+
+      document.getElementById("finalEyebrow").textContent = getValue(source, "finalEyebrow", "finalEyebrowEn", activeLang, fallbackExperienceData.finalEyebrowEn);
+      document.getElementById("finalTitle").textContent = getValue(source, "finalTitle", "finalTitleEn", activeLang, fallbackExperienceData.finalTitleEn);
+      document.getElementById("finalCta").textContent = getValue(source, "finalCta", "finalCtaEn", activeLang, fallbackExperienceData.finalCtaEn);
+      setImage("finalImage", source.finalImage, getValue(source, "finalAlt", "finalAltEn", activeLang, fallbackExperienceData.finalAltEn), fallbackExperienceData.finalAltEn);
+
+      document.querySelectorAll("[data-lang-button]").forEach((button) => {
+        button.setAttribute("aria-pressed", button.dataset.langButton === activeLang ? "true" : "false");
+        button.classList.toggle("bg-brand-text", button.dataset.langButton === activeLang);
+        button.classList.toggle("text-white", button.dataset.langButton === activeLang);
+      });
+
+      setHrefLang("heroCta", "/contact/", activeLang);
+      setHrefLang("aboutCta", "/about/", activeLang);
+      setHrefLang("planningCta", "/guides/", activeLang);
+      setHrefLang("finalCta", "/contact/", activeLang);
+
+      renderProcess(activeLang, source);
+      renderSpecial(activeLang, source);
+      renderPlanning(activeLang, source);
+      renderFaq(activeLang, source);
+    };
+
+    const initExperiencePage = async () => {
+      const activeLang = getLang();
+      try {
+        const response = await fetch(`/content/experience/page.json?ts=${Date.now()}`, { cache: "no-store" });
+        if (!response.ok) throw new Error("Experience content unavailable");
+        experienceData = await response.json();
+      } catch {
+        experienceData = fallbackExperienceData;
+      }
+
+      applyExperienceContent(activeLang, experienceData);
+
+      document.querySelectorAll("[data-lang-button]").forEach((button) => {
+        button.addEventListener("click", () => {
+          const nextLang = button.dataset.langButton;
+          localStorage.setItem("site-lang", nextLang);
+          window.location.href = nextLang === "en" ? "/experience/?lang=en" : "/experience/";
+        });
+      });
+    };
+
+    initExperiencePage();
+  </script>
+  <script src="/assets/footer-settings.js"></script>
+</body>
+</html>

@@ -1,0 +1,754 @@
+{
+  "de": {
+    "slug": "best-dolomites-elopement-locations",
+    "title": "Die beliebtesten Elopement-Standorte in den Dolomiten | Orte, Zugang und Stimmung",
+    "description": "Die schönsten Orte für ein Dolomiten-Elopement mit ehrlichen Hinweisen uns Geheimtips, Menschenmengen, Zugang und dem jeweiligen Charakter der Landschaft die in den Dolomiten sehr wichtig sein können.",
+    "hero": {
+      "eyebrow": "Standort-Guide",
+      "title": "Die beliebtesten Elopement-Orte in den Dolomiten",
+      "copy": "Ein kuratierter Guide für Paare, die nicht einfach irgendeine schöne Aussicht suchen, sondern den Ort, dessen Stimmung wirklich zu ihrem Tag passt.",
+      "cta": "Planung starten",
+      "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-191.jpg",
+      "imageAlt": "Elopement-Standorte in den Dolomiten"
+    },
+    "utility": {
+      "reading": "Guide",
+      "focus": "Für Paare, die zwischen den schönsten Bergorten wählen möchten",
+      "navOverview": "Guide-Fakten",
+      "navSeasons": "Standorte",
+      "navPhilosophy": "Einführung",
+      "navVisual": "Weitere Guides",
+      "navFaq": "FAQ"
+    },
+    "overview": {
+      "eyebrow": "Guide-Fakten",
+      "copy": "Nicht jeder berühmte Ort erzählt dieselbe Geschichte. Manche Landschaften wirken still und spiegelnd, andere weit, schroff oder fast unwirklich. Die richtige Wahl beginnt oft damit, den Charakter eines Ortes ehrlich zu lesen.",
+      "items": [
+        {
+          "icon": "guests",
+          "label": "Ideal für",
+          "value": "Stimmung und Zugang vergleichen"
+        },
+        {
+          "icon": "wind",
+          "label": "Hauptwahl",
+          "value": "Ruhig vs. ikonisch"
+        },
+        {
+          "icon": "crowd",
+          "label": "Crowd Reality",
+          "value": "Das Timing verändert alles"
+        },
+        {
+          "icon": "path",
+          "label": "Zugang",
+          "value": "Von einfach bis wanderungsbasiert"
+        },
+        {
+          "icon": "sunrise",
+          "label": "Bestes Licht",
+          "value": "Normalerweise Sonnenaufgang"
+        }
+      ]
+    },
+    "philosophy": {
+      "eyebrow": "Eine ruhige Einführung",
+      "title": "Die stärksten Orte passen nicht nur ins Bild, sondern in euer Gefühl.",
+      "copy": "Ein perfekter Ort für ein Dolomiten Elopement entsteht nicht automatisch durch Bekanntheit. Wirklich besonders wird eine Location erst dann, wenn Licht, Ruhe, Landschaft und Timing so zusammenkommen, dass ihr euch dort nicht verloren fühlt — sondern angekommen, präsent und ganz bei euch selbst.\n"
+    },
+    "sections": {
+      "seasonOrder": [
+        "braies",
+        "seceda",
+        "cadini",
+        "trecime"
+      ],
+      "seasons": {
+        "braies": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Insta-13.jpg",
+          "imageAlt": "Platzhalterbild für Lago di Braies",
+          "eyebrow": "",
+          "title": "Lago di Braies",
+          "intro": "Still, spiegelnd und fast geschlossen in seiner Wirkung.",
+          "copy": "Lago di Braies fühlt sich besonders in den frühen Morgenstunden magisch an — wenn der See vollkommen ruhig wird, sich die umliegenden Berge im Wasser spiegeln und der Ort noch diese seltene Stille trägt, bevor die ersten Besucher langsam ankommen.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "calendar",
+              "label": "Beste Zeit",
+              "value": "Spätfrühling bis Herbst"
+            },
+            {
+              "icon": "crowd",
+              "label": "Crowd Level",
+              "value": "Hoch später am Tag"
+            },
+            {
+              "icon": "path",
+              "label": "Zugang",
+              "value": "Einfach"
+            },
+            {
+              "icon": "guests",
+              "label": "Ideal für",
+              "value": "Nachdenkliche Morgen, Gäste, Stille"
+            },
+            {
+              "icon": "sunrise",
+              "label": "Licht",
+              "value": "Sonnenaufgang"
+            }
+          ],
+          "note": "Meine Empfehlung für Lago di Braies: möglichst früh am Morgen starten — idealerweise noch vor Sonnenaufgang oder kurz danach. Gerade in den ersten Stunden wirkt der See deutlich ruhiger, das Wasser ist oft spiegelglatt und der Ort fühlt sich noch still und persönlich an, bevor der Tagesbetrieb langsam beginnt.",
+          "meta": "",
+          "linkLabel": "Lest den Lago di Braies-Guide",
+          "linkHref": "/guides/lago-di-braies-guide/"
+        },
+        "seceda": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Seceda-176.jpg",
+          "imageAlt": "Seceda bei klarem Berglicht",
+          "eyebrow": "",
+          "title": "Seceda",
+          "intro": "Ein Ort, der sich groß, frei und fast grenzenlos anfühlt.",
+          "copy": "Seceda fühlt sich freier und heller an als viele andere Orte in den Dolomiten. Die offenen Bergrücken, weiten Horizonte und das Gefühl von Bewegung verleihen diesem Ort eine besondere Leichtigkeit zwischen Himmel und Bergen.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "calendar",
+              "label": "Beste Zeit",
+              "value": "Sommer bis Frühherbst"
+            },
+            {
+              "icon": "crowd",
+              "label": "Crowd Level",
+              "value": "Später am Tag mittel bis hoch"
+            },
+            {
+              "icon": "path",
+              "label": "Zugang",
+              "value": "Lift und kurzer Fußweg"
+            },
+            {
+              "icon": "guests",
+              "label": "Ideal für",
+              "value": "Weites, offenes Berggefühl"
+            },
+            {
+              "icon": "sun",
+              "label": "Licht",
+              "value": "Sonnenaufgang oder Sonnenuntergang"
+            }
+          ],
+          "note": "Meine Empfehlung: möglichst vor oder nach den Hauptzeiten der Seilbahn starten. So erlebt ihr Seceda deutlich ruhiger, vermeidet die meisten Besucher und habt oft auch die besseren Bedingungen bei Wind und Wetter.",
+          "meta": "",
+          "linkLabel": "Lest den Guide Seceda",
+          "linkHref": "/guides/seceda-guide/"
+        },
+        "cadini": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-21.jpg",
+          "imageAlt": "Cadini di Misurina mit markanten Felsformen",
+          "eyebrow": "",
+          "title": "Cadini di Misurina",
+          "intro": "Schroff, schmal und voller Spannung.",
+          "copy": "Cadini passt besonders zu Paaren, die sich eine wildere und dramatischere Berglandschaft wünschen. Die markanten Felsen wirken näher, die Linien der Berge intensiver und der gesamte Ort fühlt sich rauer, emotionaler und deutlich kraftvoller an als viele andere Plätze in den Dolomiten.\n",
+          "points": [],
+          "facts": [
+            {
+              "icon": "calendar",
+              "label": "Beste Zeit",
+              "value": "Sommer bis Frühherbst"
+            },
+            {
+              "icon": "crowd",
+              "label": "Crowd Level",
+              "value": "Mäßig am berühmten Aussichtspunkt"
+            },
+            {
+              "icon": "path",
+              "label": "Zugang",
+              "value": "Mäßige Wanderung"
+            },
+            {
+              "icon": "guests",
+              "label": "Ideal für",
+              "value": "Abenteuerliche Redaktionspaare"
+            },
+            {
+              "icon": "sunrise",
+              "label": "Licht",
+              "value": "Sonnenaufgang und Sonnenuntergang"
+            }
+          ],
+          "note": "Meine Empfehlung: versucht den bekannten Instagram-Spots und den Hauptzeiten auszuweichen. Gerade rund um Cadini entstehen die ruhigsten und persönlichsten Momente oft etwas abseits der bekannten Aussichtspunkte, dort wo die Berge wieder natürlicher und stiller wirken.",
+          "meta": "",
+          "linkLabel": "Lest den Cadini-Guide",
+          "linkHref": "/guides/cadini-di-misurina-guide/"
+        },
+        "trecime": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Proposel-INSTA-4.jpg",
+          "imageAlt": "Drei Zinnen bei klarem Berglicht",
+          "eyebrow": "",
+          "title": "Drei Zinnen",
+          "intro": "Monumental, ikonisch und sofort wiedererkennbar.",
+          "copy": "Drei Zinnen eignet sich besonders für Paare, die sich ganz bewusst eine der ikonischsten und kraftvollsten Kulissen der Dolomiten wünschen. Die markanten Gipfel, die offene Landschaft und die Größe dieses Ortes wirken unmittelbar und eindrucksvoll — gerade in den ruhigen Morgenstunden, bevor der Tagesbetrieb beginnt.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "calendar",
+              "label": "Beste Zeit",
+              "value": "Sommer bis Herbst"
+            },
+            {
+              "icon": "crowd",
+              "label": "Crowd Level",
+              "value": "Hoch an wichtigen Aussichtspunkten"
+            },
+            {
+              "icon": "path",
+              "label": "Zugang",
+              "value": "Mautstrasse & Fußweg oder Helicopter"
+            },
+            {
+              "icon": "guests",
+              "label": "Ideal für",
+              "value": "Klassische Dolomiten-Atmosphäre"
+            },
+            {
+              "icon": "sunrise",
+              "label": "Licht",
+              "value": "Sonnenaufgang und Sonnenuntergang"
+            }
+          ],
+          "note": "Nicht nur für Elopements oder Paarshootings eignet sich drei Zinnen perfekt, sondern auch für emotionale Verlobungsmomente inmitten einer der beeindruckendsten Berglandschaften der Alpen.",
+          "meta": "",
+          "linkLabel": "Lest den Guide Drei Zinnen",
+          "linkHref": "/guides/tre-cime-wedding-guide/"
+        }
+      }
+    },
+    "planning": {
+      "eyebrow": "Planungshinweise",
+      "title": "Worauf es bei der Standortwahl wirklich ankommt.",
+      "intro": "Die schönste Kulisse hilft wenig, wenn sie nicht zu eurem Rhythmus, eurem Zugang oder eurer gewünschten Nähe passt.",
+      "items": [
+        {
+          "label": "Wasser vs. Kammlinie",
+          "title": "Entscheiden ihr, wie sich der Tag anfühlen soll, bevor ihr entscheiden, wie er aussehen soll.",
+          "copy": "Seen verlangsamen den Tag. Durch Grate fühlt es sich normalerweise größer und exponierter an. Täler wirken oft sanfter und ländlicher.",
+          "meta": "Stimmung vor der Postkarte."
+        },
+        {
+          "label": "Gäste",
+          "title": "Der Zugang ist weitaus wichtiger, wenn die Familie involviert ist.",
+          "copy": "Ein dramatischer Ort verliert schnell seine Ruhe, wenn die Logistik für die Menschen, die ihr am meisten lieben, zu schwierig erscheint.",
+          "meta": "Leichtigkeit schützt die Intimität."
+        },
+        {
+          "label": "Wetter",
+          "title": "Manche Orte bleiben im Nebel besser schön als andere.",
+          "copy": "In Seen und Tälern herrscht oft wunderschöner Nebel, während exponierte Bergrücken wetterempfindlicher sein können.",
+          "meta": "Das Wetter verändert den Ort, nicht nur die Stimmung."
+        },
+        {
+          "label": "Massen",
+          "title": "Ikonisch bedeutet normalerweise sichtbar.",
+          "copy": "Wenn Privatsphäre am wichtigsten ist, wählen ihr einen ruhigeren Zeitpunkt oder einen weniger offensichtlichen Ort, anstatt die Intimität in einem überfüllten Fenster zu erzwingen.",
+          "meta": "Ruhe wird oft gestaltet, nicht gefunden."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Fragen, die Paare oft bei der Wahl eines Ortes stellen.",
+      "intro": "Dies sind einige der Fragen, die viele Paare stellen, sobald aus einer ersten Idee langsam ein echter Plan für die Berge wird.",
+      "items": [
+        {
+          "q": "Welcher Standort in den Dolomiten eignet sich am besten für Gäste?",
+          "a": "Normalerweise die besser zugänglichen Orte wie Lago di Braies, Grödner Joch oder einige Gebiete rund um Corvara."
+        },
+        {
+          "q": "Welcher Ort fühlt sich am ikonischsten an?",
+          "a": "Drei Zinnen, Cadini die Misurina und Seceda gehören zu den bekanntesten. "
+        },
+        {
+          "q": "Welcher Ort fühlt sich am ruhigsten an?",
+          "a": "Das hängt stark von Tageszeit und Saison ab, aber besonders in ruhigeren Tälern und weniger bekannten Berglandschaften lässt sich oft noch viel Ruhe und Privatsphäre finden."
+        },
+        {
+          "q": "Brauchen wir für jeden Standort eine unterschiedliche Planung?",
+          "a": "Ja. Zugang, Parkplatzsituation, Gehzeiten, Wetterbedingungen und Besucheraufkommen unterscheiden sich in den Bergen oft deutlich von Ort zu Ort.\n"
+        }
+      ]
+    },
+    "related": {
+      "eyebrow": "Verwandte Leitfäden",
+      "hint": "Wischen ihr nach links oder rechts, um weitere Anleitungen zu entdecken.",
+      "items": [
+        {
+          "label": "Dolomiten",
+          "title": "Elopement-Guide für die Dolomiten",
+          "copy": "Ein ruhiger Ausgangspunkt für Paare, die ein Dolomites Elopement oder eine intime Berghochzeit planen und verstehen möchten, wie Licht, Wege, Wetter und Menschenmengen den Tag wirklich prägen.",
+          "href": "/guides/dolomites-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-120.jpg"
+        },
+        {
+          "label": "Standorte",
+          "title": "Lago di Braies Guide",
+          "copy": "Ein ehrlicher Guide für Paare, die den Pragser Wildsee nicht nur als berühmtes Bild kennen, sondern verstehen möchten, wann er still, weich und tatsächlich erlebbar wird.",
+          "href": "/guides/lago-di-braies-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopemnt-Dolomites-Lago-di-Braies-19.jpg"
+        },
+        {
+          "label": "Standorte",
+          "title": "Seceda Guide",
+          "copy": "Ein Guide für Paare, die an Seceda nicht nur die berühmte Kante suchen, sondern das Gefühl von Weite, Wind und offenem Berglicht, das diesen Ort so unverwechselbar macht.",
+          "href": "/guides/seceda-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Seceda-180.jpg"
+        },
+        {
+          "label": "Standorte",
+          "title": "Cadini di Misurina Guide",
+          "copy": "Ein Guide für Paare, die an Cadini diese wilde, kinoreife Spannung lieben und zugleich wissen möchten, wann der Ort zugänglich, sicher und wirklich stimmig ist.",
+          "href": "/guides/cadini-di-misurina-guide/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-12.jpg"
+        },
+        {
+          "label": "Standorte",
+          "title": "Drei Zinnen Guide",
+          "copy": "Ein ehrlicher Guide für Paare, die Drei Zinnen nicht nur wegen des berühmten Blicks wählen, sondern wegen dieser monumentalen, fast unwirklichen Präsenz, die der Ort im richtigen Moment entfaltet.",
+          "href": "/guides/tre-cime-wedding-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14.jpg"
+        },
+        {
+          "label": "Planung",
+          "title": "Beste Jahreszeit für ein Dolomiten-Elopement",
+          "copy": "Ein ehrlicher Guide zu Licht, Temperaturen, Menschenmengen und der Frage, wann sich die Berge nicht nur schön, sondern wirklich stimmig für euch anfühlen.",
+          "href": "/guides/best-time-for-a-dolomites-elopement/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-16.jpg"
+        },
+        {
+          "label": "Planung",
+          "title": "Sonnenaufgang vs. Sonnenuntergang in den Dolomiten",
+          "copy": "Ein ehrlicher Vergleich für Paare, die nicht nur schönes Licht suchen, sondern verstehen möchten, welche Tageszeit zu ihrem Energielevel, ihrem Ort und dem gewünschten Gefühl passt.",
+          "href": "/guides/sunrise-vs-sunset-dolomites/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Photo-368.jpg"
+        },
+        {
+          "label": "Planung",
+          "title": "Guide zur Wetter- und Backup-Planung",
+          "copy": "Ein ruhiger Wetter-Guide für Paare, die in den Bergen nicht auf perfekte Bedingungen hoffen, sondern einen Tag planen möchten, der auch bei Nebel, Wind oder Regen stimmig bleibt.",
+          "href": "/guides/weather-and-backup-planning/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-161.jpg"
+        },
+        {
+          "label": "Planung",
+          "title": "Was man in den Bergen anziehen sollte",
+          "copy": "Ein praktischer Guide für Paare, die in den Bergen nicht nur schön aussehen, sondern sich auch frei bewegen, warm bleiben und sich in ihrer Kleidung wirklich wiederfinden möchten.",
+          "href": "/guides/what-to-wear-in-the-mountains/",
+          "image": "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Hut-13.jpg"
+        },
+        {
+          "label": "Planung",
+          "title": "Helikopter-Elopement-Guide",
+          "copy": "Ein Guide für Paare, die Weite, Abgeschiedenheit und einen klareren Tagesfluss suchen und verstehen möchten, wann ein Helikopter in den Bergen wirklich sinnvoll ist.",
+          "href": "/guides/helicopter-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-12.jpg"
+        },
+        {
+          "label": "Planung",
+          "title": "Mehrtägiger Elopement-Guide",
+          "copy": "Ein Guide für Paare, die mehr wollen als ein paar schnelle Stunden in den Bergen und ihren Hochzeitstag lieber in Ruhe entfalten lassen möchten.",
+          "href": "/guides/multi-day-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Insta-11.jpg"
+        }
+      ]
+    },
+    "final": {
+      "eyebrow": "Planen mit Absicht",
+      "title": "Lasst uns etwas gestalten, das sich ruhig, persönlich und zutiefst wahr anfühlt.",
+      "copy": "Wenn sich dieser Guide bereits nah an dem anfühlt, was ihr euch wünscht, helfe ich euch gern dabei, dieses Gefühl in etwas Ruhiges, Filmisches und wirklich Eigenes in den Bergen zu verwandeln.",
+      "cta": "Termin anfragen",
+      "image": "/assets/uploads/Blitzkneisser-Photo-Drei-Zinnen-Italy-24.jpg",
+      "imageAlt": "Drei Zinnen in den Dolomiten bei ruhigem, klarem Licht"
+    }
+  },
+  "en": {
+    "slug": "best-dolomites-elopement-locations",
+    "title": "The most popular elopement locations in the Dolomites | Locations, access and mood",
+    "description": "The most beautiful places for a Dolomites elopement with honest tips and insider tips, crowds, access and the character of the landscape, which can be very important in the Dolomites.",
+    "hero": {
+      "eyebrow": "Location Guide",
+      "title": "The most popular elopement locations in the Dolomites",
+      "copy": "A curated guide for couples who are not looking for just any beautiful view, but for the place whose atmosphere truly fits the day they want.",
+      "cta": "Start Planning",
+      "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-191.jpg",
+      "imageAlt": "Elopement locations in the Dolomites"
+    },
+    "utility": {
+      "reading": "Guide",
+      "focus": "For couples choosing between the most meaningful mountain locations",
+      "navOverview": "Guide Facts",
+      "navSeasons": "Locations",
+      "navPhilosophy": "Intro",
+      "navVisual": "More Guides",
+      "navFaq": "FAQ"
+    },
+    "overview": {
+      "eyebrow": "Guide Facts",
+      "copy": "Not every famous place tells the same story. Some landscapes feel still and reflective, others wide, severe or almost surreal. The right choice usually begins with reading the emotional character of a place honestly.",
+      "items": [
+        {
+          "icon": "guests",
+          "label": "Best For",
+          "value": "Comparing mood and access"
+        },
+        {
+          "icon": "wind",
+          "label": "Main Choice",
+          "value": "Quiet vs iconic"
+        },
+        {
+          "icon": "crowd",
+          "label": "Crowd Reality",
+          "value": "Timing changes everything"
+        },
+        {
+          "icon": "path",
+          "label": "Access",
+          "value": "From easy to hike-based"
+        },
+        {
+          "icon": "sunrise",
+          "label": "Best Light",
+          "value": "Usually sunrise"
+        }
+      ]
+    },
+    "philosophy": {
+      "eyebrow": "A calm introduction",
+      "title": "The strongest location is not only the one that photographs well, but the one that feels right.",
+      "copy": "A perfect location for a Dolomites elopement does not automatically arise from popularity. A location only becomes truly special when light, peace, landscape and timing come together in such a way that you don't feel lost there - but rather arrived, present and completely with yourself."
+    },
+    "sections": {
+      "seasonOrder": [
+        "braies",
+        "seceda",
+        "cadini",
+        "trecime"
+      ],
+      "seasons": {
+        "braies": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Insta-13.jpg",
+          "imageAlt": "Placeholder image for Lago di Braies",
+          "eyebrow": "",
+          "title": "Lago di Braies",
+          "intro": "Still, reflective and almost enclosed in feeling.",
+          "copy": "Lago di Braies feels particularly magical in the early hours of the morning - when the lake becomes completely calm, the surrounding mountains are reflected in the water and the place still has that rare stillness before the first visitors slowly arrive.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "calendar",
+              "label": "Best Time",
+              "value": "Late spring through autumn"
+            },
+            {
+              "icon": "crowd",
+              "label": "Crowd Level",
+              "value": "High later in the day"
+            },
+            {
+              "icon": "path",
+              "label": "Access Difficulty",
+              "value": "Easy"
+            },
+            {
+              "icon": "guests",
+              "label": "Best For",
+              "value": "Reflective mornings, guests, stillness"
+            },
+            {
+              "icon": "sunrise",
+              "label": "Light",
+              "value": "Sunrise"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "Read the Lago di Braies guide",
+          "linkHref": "/guides/lago-di-braies-guide/"
+        },
+        "seceda": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Seceda-176.jpg",
+          "imageAlt": "Seceda in clear mountain light",
+          "eyebrow": "",
+          "title": "Seceda",
+          "intro": "A place that feels big, free and almost limitless.",
+          "copy": "Seceda feels freer and brighter than many other places in the Dolomites. The open mountain ridges, wide horizons and the feeling of movement give this place a special lightness between sky and mountains.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "calendar",
+              "label": "Best Time",
+              "value": "Summer to early autumn"
+            },
+            {
+              "icon": "crowd",
+              "label": "Crowd Level",
+              "value": "Medium to high later in the day"
+            },
+            {
+              "icon": "path",
+              "label": "Access Difficulty",
+              "value": "Lift plus walking"
+            },
+            {
+              "icon": "guests",
+              "label": "Best For",
+              "value": "Wide, open mountain feeling"
+            },
+            {
+              "icon": "sun",
+              "label": "Light",
+              "value": "Sunrise or sunset"
+            }
+          ],
+          "note": "My recommendation: if possible, start before or after the main cable car times. This way you will experience Seceda much more quietly, avoid most of the visitors and often have better conditions in wind and weather.",
+          "meta": "",
+          "linkLabel": "Read the Seceda guide",
+          "linkHref": "/guides/seceda-guide/"
+        },
+        "cadini": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-21.jpg",
+          "imageAlt": "Cadini di Misurina with dramatic rock formations",
+          "eyebrow": "",
+          "title": "Cadini di Misurina",
+          "intro": "Sharp, narrow and full of tension.",
+          "copy": "Cadini is particularly suitable for couples who want a wilder and more dramatic mountain landscape. The striking rocks appear closer, the lines of the mountains more intense and the entire place feels rougher, more emotional and significantly more powerful than many other places in the Dolomites.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "calendar",
+              "label": "Best Time",
+              "value": "Summer to early autumn"
+            },
+            {
+              "icon": "crowd",
+              "label": "Crowd Level",
+              "value": "Moderate at the famous viewpoint"
+            },
+            {
+              "icon": "path",
+              "label": "Access Difficulty",
+              "value": "Moderate hike"
+            },
+            {
+              "icon": "guests",
+              "label": "Best For",
+              "value": "Adventurous editorial couples"
+            },
+            {
+              "icon": "sunrise",
+              "label": "Light",
+              "value": "Sunrise and sunset"
+            }
+          ],
+          "note": "My recommendation: try to avoid the well-known Instagram spots and peak times. Especially around Cadini, the quietest and most personal moments often arise a little away from the well-known viewpoints, where the mountains appear more natural and quiet again.",
+          "meta": "",
+          "linkLabel": "Read the Cadini guide",
+          "linkHref": "/guides/cadini-di-misurina-guide/"
+        },
+        "trecime": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Proposel-INSTA-4.jpg",
+          "imageAlt": "Tre Cime in clear mountain light",
+          "eyebrow": "",
+          "title": "Tre Cime",
+          "intro": "Monumental, iconic and instantly recognisable.",
+          "copy": "Tre Cime is particularly suitable for couples who consciously want one of the most iconic and powerful backdrops in the Dolomites. The striking peaks, the open landscape and the size of this place have an immediate and impressive effect - especially in the quiet morning hours before the day's activities begin.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "calendar",
+              "label": "Best Time",
+              "value": "Summer into autumn"
+            },
+            {
+              "icon": "crowd",
+              "label": "Crowd Level",
+              "value": "High at key viewpoints"
+            },
+            {
+              "icon": "path",
+              "label": "Access Difficulty",
+              "value": "Toll road & footpath or helicopter"
+            },
+            {
+              "icon": "guests",
+              "label": "Best For",
+              "value": "Classic Dolomites atmosphere"
+            },
+            {
+              "icon": "sunrise",
+              "label": "Light",
+              "value": "Sunrise and sunset"
+            }
+          ],
+          "note": "Tre Cime is not only perfect for elopements or couple shoots, but also for emotional engagement moments in the middle of one of the most impressive mountain landscapes in the Alps.",
+          "meta": "",
+          "linkLabel": "Read the Tre Cime guide",
+          "linkHref": "/guides/tre-cime-wedding-guide/"
+        }
+      }
+    },
+    "planning": {
+      "eyebrow": "Planning Notes",
+      "title": "What really matters when choosing a location.",
+      "intro": "The most beautiful backdrop means little if it does not fit your pace, access needs or the kind of intimacy you want to feel.",
+      "items": [
+        {
+          "label": "Water vs ridgeline",
+          "title": "Choose what the day should feel like before choosing what it should look like.",
+          "copy": "Lakes slow the day down. Ridges usually make it feel larger and more exposed. Valleys often feel softer and more pastoral.",
+          "meta": "Mood before postcard."
+        },
+        {
+          "label": "Guests",
+          "title": "Access matters far more once family is involved.",
+          "copy": "A dramatic place loses its calm quickly if the logistics feel too hard for the people you love most.",
+          "meta": "Ease protects intimacy."
+        },
+        {
+          "label": "Weather",
+          "title": "Some locations stay beautiful in fog better than others.",
+          "copy": "Lakes and valleys often hold mist beautifully, while exposed ridges can become more weather-sensitive.",
+          "meta": "Weather changes place, not only mood."
+        },
+        {
+          "label": "Crowds",
+          "title": "Iconic usually means visible.",
+          "copy": "If privacy matters most, choose quieter timing or a less obvious place rather than forcing intimacy into a crowded window.",
+          "meta": "Quiet is often designed, not found."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Questions couples often ask while choosing a location.",
+      "intro": "These are some of the questions that many couples ask when an initial idea slowly turns into a real plan for the mountains.",
+      "items": [
+        {
+          "q": "Which Dolomites location is best for guests?",
+          "a": "Usually the more accessible places like Lago di Braies, Gardena Pass or some areas around Corvara."
+        },
+        {
+          "q": "Which location feels most iconic?",
+          "a": "Tre Cime, Cadini the Misurina and Seceda are among the most famous."
+        },
+        {
+          "q": "Which location feels quietest?",
+          "a": "This depends heavily on the time of day and season, but you can often still find a lot of peace and privacy, especially in quieter valleys and lesser-known mountain landscapes."
+        },
+        {
+          "q": "Do we need different planning for each location?",
+          "a": "Yes. Access, parking, walking time, weather exposure and crowd rhythm all change from place to place."
+        }
+      ]
+    },
+    "related": {
+      "eyebrow": "Related Guides",
+      "hint": "Swipe left or right to explore more guides.",
+      "items": [
+        {
+          "label": "Dolomites",
+          "title": "Dolomites Elopement Guide",
+          "copy": "A calm starting point for couples planning a Dolomites Elopement or intimate mountain wedding and wanting to understand how light, access, weather and crowds truly shape the day.",
+          "href": "/guides/dolomites-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-120.jpg"
+        },
+        {
+          "label": "Locations",
+          "title": "Lago di Braies Guide",
+          "copy": "An honest guide for couples who know Lago di Braies as more than a famous photograph and want to understand when it feels soft, quiet and truly worth experiencing.",
+          "href": "/guides/lago-di-braies-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopemnt-Dolomites-Lago-di-Braies-19.jpg"
+        },
+        {
+          "label": "Locations",
+          "title": "Seceda Guide",
+          "copy": "A guide for couples drawn to Seceda not only for the famous ridge, but for the feeling of openness, wind and high alpine light that makes it so distinctive.",
+          "href": "/guides/seceda-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Seceda-180.jpg"
+        },
+        {
+          "label": "Locations",
+          "title": "Cadini di Misurina Guide",
+          "copy": "A guide for couples who love the wild, cinematic tension of Cadini and want to know when it is accessible, safe and genuinely worth choosing.",
+          "href": "/guides/cadini-di-misurina-guide/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-12.jpg"
+        },
+        {
+          "label": "Locations",
+          "title": "Tre Cime Wedding Guide",
+          "copy": "An honest guide for couples choosing Tre Cime not only for the famous view, but for the monumental, almost unreal presence the place carries when the timing is right.",
+          "href": "/guides/tre-cime-wedding-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14.jpg"
+        },
+        {
+          "label": "Planning",
+          "title": "Best Time for a Dolomites Elopement",
+          "copy": "An honest guide to light, temperatures, crowds and the question of when the mountains will not only look beautiful, but genuinely feel right for you.",
+          "href": "/guides/best-time-for-a-dolomites-elopement/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-16.jpg"
+        },
+        {
+          "label": "Planning",
+          "title": "Sunrise vs Sunset in the Dolomites",
+          "copy": "An honest comparison for couples who want more than beautiful light and are trying to understand which time of day fits their energy, their location and the feeling they want to remember.",
+          "href": "/guides/sunrise-vs-sunset-dolomites/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Photo-368.jpg"
+        },
+        {
+          "label": "Planning",
+          "title": "Weather & Backup Planning Guide",
+          "copy": "A calm weather guide for couples who do not want to hope for perfect conditions in the mountains, but want to build a day that still feels right in fog, wind or rain.",
+          "href": "/guides/weather-and-backup-planning/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-161.jpg"
+        },
+        {
+          "label": "Planning",
+          "title": "What to Wear in the Mountains",
+          "copy": "A practical guide for couples who want to look beautiful in the mountains, but also move freely, stay warm and still feel like themselves in what they wear.",
+          "href": "/guides/what-to-wear-in-the-mountains/",
+          "image": "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Hut-13.jpg"
+        },
+        {
+          "label": "Planning",
+          "title": "Helicopter Elopement Guide",
+          "copy": "A guide for couples seeking more space, privacy and a clearer flow to the day, and wanting to understand when a helicopter in the mountains genuinely makes sense.",
+          "href": "/guides/helicopter-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-12.jpg"
+        },
+        {
+          "label": "Planning",
+          "title": "Multi-Day Elopement Guide",
+          "copy": "A guide for couples who want more than a few rushed hours in the mountains and would rather let the day unfold with space around it.",
+          "href": "/guides/multi-day-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Insta-11.jpg"
+        }
+      ]
+    },
+    "final": {
+      "eyebrow": "Planning with intention",
+      "title": "Let’s shape something that feels quiet, personal and deeply true to you.",
+      "copy": "If this guide already feels close to the way you want the day to move, I would love to help you turn that feeling into something calm, cinematic and genuinely your own in the mountains.",
+      "cta": "Inquire Now",
+      "image": "/assets/uploads/Blitzkneisser-Photo-Drei-Zinnen-Italy-24.jpg",
+      "imageAlt": "Tre Cime in the Dolomites in calm, clear light"
+    }
+  }
+}

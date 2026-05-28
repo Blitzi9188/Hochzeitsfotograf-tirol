@@ -1,0 +1,740 @@
+{
+  "de": {
+    "slug": "alpe-di-siusi-guide",
+    "title": "Alpe di Siusi Guide | Wiesen, Licht und offene Ruhe",
+    "description": "Guide zu Alpe di Siusi für Paare, die weiche Wiesen, ruhiges Licht, leichten Zugang und eine sanftere Bergstimmung für ihr Elopement suchen.",
+    "hero": {
+      "eyebrow": "Standort-Guide",
+      "title": "Alpe di Siusi Guide",
+      "copy": "Ein Guide für Paare, die in den Dolomiten nicht nur Dramatik suchen, sondern Wiesen, weiches Licht und eine Landschaft, die atmen lässt.",
+      "cta": "Planung starten",
+      "image": "/assets/guide-placeholders/IMAGE_PLACEHOLDER_ALPE_DI_SIUSI.svg",
+      "imageAlt": "Alpe di Siusi mit weiten Wiesen und Bergblick"
+    },
+    "utility": {
+      "reading": "Guide",
+      "focus": "Für weite Wiesen und sanftere Bergatmosphäre",
+      "navOverview": "Überblick",
+      "navSeasons": "Standorthinweise",
+      "navPhilosophy": "Einführung",
+      "navVisual": "Weitere Guides",
+      "navFaq": "FAQ"
+    },
+    "overview": {
+      "eyebrow": "Guide im Überblick",
+      "copy": "Alpe di Siusi ist ideal für Paare, die die Schönheit der Berge mit einem sanfteren Tempo, mehr Platz und gastfreundlicheren Möglichkeiten wünschen.",
+      "items": [
+        {
+          "label": "Beste Zeit",
+          "value": "Spätfrühling bis Herbst",
+          "icon": "calendar"
+        },
+        {
+          "label": "Bestes Licht",
+          "value": "Sonnenaufgang oder später Abend",
+          "icon": "sun"
+        },
+        {
+          "label": "Crowd Level",
+          "value": "Medium",
+          "icon": "crowd"
+        },
+        {
+          "label": "Zugang",
+          "value": "Mäßig",
+          "icon": "path"
+        },
+        {
+          "label": "Ideal für",
+          "value": "Offene, wiesengeführte Atmosphäre",
+          "icon": "guests"
+        }
+      ]
+    },
+    "philosophy": {
+      "eyebrow": "Eine erste Orientierung",
+      "title": "Alpe di Siusi wirkt nicht laut, sondern weit und sanft zugleich.",
+      "copy": "Seine Stärke liegt in der Weitläufigkeit, dem Wiesenlicht und einem sanfteren Gefühlsrhythmus. Es funktioniert oft wunderbar für Paare, die die Berge genießen möchten, ohne sich den ganzen Tag ausgesetzt oder extrem zu fühlen."
+    },
+    "sections": {
+      "seasonOrder": [
+        "special",
+        "time",
+        "access",
+        "crowds",
+        "weather"
+      ],
+      "seasons": {
+        "special": {
+          "layout": "image-left",
+          "image": "/assets/guide-placeholders/IMAGE_PLACEHOLDER_ALPE_DI_SIUSI.svg",
+          "imageAlt": "Alpe di Siusi mit weiten Wiesen und Bergblick Wiesen",
+          "title": "Warum sich Alpe di Siusi besonders anfühlt",
+          "intro": "Dies ist einer der Orte, an denen sich die Berge eher offen als scharf anfühlen.",
+          "copy": "Die Wiesen, Hütten und weiten Ausblicke erzeugen eine großzügigere emotionale Atmosphäre als viele Bergrückenstandorte. Es fühlt sich oft ruhig, atmungsaktiv und leise filmisch an.",
+          "facts": [
+            {
+              "label": "Stimmung",
+              "value": "Offen und ruhig",
+              "icon": "wind"
+            },
+            {
+              "label": "Ideal für",
+              "value": "Gäste, Bewegung, sanftere Tage",
+              "icon": "guests"
+            },
+            {
+              "label": "Visuelle Stärke",
+              "value": "Wiesen mit Bergkulisse",
+              "icon": "sun"
+            }
+          ]
+        },
+        "time": {
+          "layout": "image-right",
+          "image": "/assets/guide-placeholders/IMAGE_PLACEHOLDER_ALPE_DI_SIUSI.svg",
+          "imageAlt": "Weiches Licht über den Wiesen der Alpe di Siusi",
+          "title": "Beste Zeit",
+          "intro": "Die weichere Natur dieses Ortes macht ihn flexibler als einige ikonische Aussichtspunkte.",
+          "copy": "Der Sonnenaufgang ist wunderschön, aber der späte Abend kann sich hier auch sehr stark anfühlen, wenn die Atmosphäre ruhig bleibt. Die Wiesen halten warmes Licht besonders gut.",
+          "facts": [
+            {
+              "label": "Am besten",
+              "value": "Sonnenaufgang oder ruhiger Abend",
+              "icon": "sun"
+            },
+            {
+              "label": "Warum",
+              "value": "Flexible Stimmung und größerer Raum",
+              "icon": "wind"
+            },
+            {
+              "label": "Crowd Reality",
+              "value": "Profitiert immer noch von durchdachtem Timing",
+              "icon": "crowd"
+            }
+          ]
+        },
+        "access": {
+          "layout": "image-left",
+          "image": "/assets/guide-placeholders/IMAGE_PLACEHOLDER_ALPE_DI_SIUSI.svg",
+          "imageAlt": "Zufahrt und Wege auf der Alpe di Siusi",
+          "title": "Zugriffsnotizen",
+          "intro": "Einer der flexibleren Bergstandorte, wenn ihr Schönheit ohne allzu viel Reibung wünschen.",
+          "copy": "Der Zugang ist hier oft einfacher als an wanderungsintensiven oder exponierteren Stellen, was ihn für Gäste und Paare, die sich Bewegung ohne Druck wünschen, nützlich macht.",
+          "facts": [
+            {
+              "label": "Schwierigkeit",
+              "value": "Mäßig bis einfacher",
+              "icon": "path"
+            },
+            {
+              "label": "Gästefreundlich",
+              "value": "Ja, oft mehr als Grate",
+              "icon": "guests"
+            },
+            {
+              "label": "Beste Verwendung",
+              "value": "Entspannte redaktionelle Bergtage",
+              "icon": "calendar"
+            }
+          ]
+        },
+        "crowds": {
+          "layout": "image-right",
+          "image": "/assets/guide-placeholders/IMAGE_PLACEHOLDER_ALPE_DI_SIUSI.svg",
+          "imageAlt": "Weite Wiesen und Besucherrhythmus auf der Alpe di Siusi",
+          "title": "Crowd Reality",
+          "intro": "Es kann immer noch viel los sein, aber selten fühlt es sich so konzentriert an wie an den berühmtesten Orten.",
+          "copy": "Die offene Beschaffenheit des Gebiets trägt dazu bei, dass sich die Menschen besser verteilen können, was oft das Raumgefühl bewahrt, selbst wenn andere in der Nähe sind.",
+          "facts": [
+            {
+              "label": "Fühlen",
+              "value": "Eher verstreut als konzentriert",
+              "icon": "crowd"
+            },
+            {
+              "label": "Am leisesten",
+              "value": "Frühe Morgenstunden",
+              "icon": "calendar"
+            },
+            {
+              "label": "Beste Strategie",
+              "value": "Wählt Kanten und ruhigere Wege",
+              "icon": "path"
+            }
+          ]
+        },
+        "weather": {
+          "layout": "image-left",
+          "image": "/assets/guide-placeholders/IMAGE_PLACEHOLDER_WEATHER.svg",
+          "imageAlt": "Wetterstimmung auf der Alpe di Siusi",
+          "title": "Wetternotizen",
+          "intro": "Das Wetter fühlt sich hier oft milder an, auch wenn es noch wechselt.",
+          "copy": "Nebel, niedrige Wolken und milderes Abendwetter können wunderbar mit den Wiesen harmonieren. Der Wind spielt eine Rolle, fühlt sich aber normalerweise weniger stark an als auf hohen Bergrücken.",
+          "facts": [
+            {
+              "label": "Beste Stimmung",
+              "value": "Weiche Wolke oder warmes Abendlicht",
+              "icon": "cloud"
+            },
+            {
+              "label": "Wind",
+              "value": "Vorhanden, aber sanfter als freiliegende Grate",
+              "icon": "wind"
+            },
+            {
+              "label": "Gut für",
+              "value": "Wettertolerante Planung",
+              "icon": "calendar"
+            }
+          ]
+        }
+      }
+    },
+    "planning": {
+      "eyebrow": "Planungsnotizen",
+      "title": "Was bei Alpe di Siusi normalerweise am wichtigsten ist.",
+      "intro": "Dieser Ort funktioniert oft am besten, wenn man seine Offenheit und Sanftheit den Tag bestimmen lässt, anstatt zu versuchen, ihn in etwas Dramatischeres zu verwandeln, als er sein möchte.",
+      "items": [
+        {
+          "label": "Gäste",
+          "title": "Eine gute Wahl, wenn die Familie mitkommt.",
+          "copy": "Der breitere Zugang und das sanftere Gelände tragen oft dazu bei, dass sich der ganze Tag angenehmer anfühlt.",
+          "meta": "Schönheit ohne großen Aufwand."
+        },
+        {
+          "label": "Licht",
+          "title": "Vergesst hier nicht den späten Abend.",
+          "copy": "Die Wiesen können wunderbar warmes Licht halten, besonders wenn der Ort ruhig wirkt.",
+          "meta": "Der Abend kann gut funktionieren."
+        },
+        {
+          "label": "Wetter",
+          "title": "Nebel und weichere Wolken können viel hinzufügen.",
+          "copy": "Diese Landschaft braucht keinen perfekt blauen Himmel, um sich bedeutungsvoll zu fühlen.",
+          "meta": "Weiches Wetter passt dazu."
+        },
+        {
+          "label": "Tempo",
+          "title": "Nutzt den Raum.",
+          "copy": "Dies ist ein Ort, an dem Wandern und sanfte Bewegung mehr belohnt werden als das Hetzen von einem Punkt zum nächsten.",
+          "meta": "Lass es atmen."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Fragen, die Paare oft zu Alpe di Siusi stellen.",
+      "intro": "Dies sind einige der Fragen, die Paare oft stellen, wenn sich der Traum realer anfühlt und die Berge nicht mehr nur eine Idee sind.",
+      "items": [
+        {
+          "q": "Ist Alpe di Siusi gut für Gäste?",
+          "a": "Oft ja. Es handelt sich um eine der sanfteren Berglandschaften in Bezug auf Zugang und Atmosphäre."
+        },
+        {
+          "q": "Braucht es einen Sonnenaufgang?",
+          "a": "Der Sonnenaufgang ist wunderschön, aber ein ruhiger später Abend kann auch sehr gut funktionieren."
+        },
+        {
+          "q": "Ist es weniger dramatisch als Seceda oder Cadini?",
+          "a": "Ja, aber genau das lieben viele Paare daran."
+        },
+        {
+          "q": "Kann Nebel hier noch funktionieren?",
+          "a": "Sehr oft. Nebel kann die Wiesen besonders stimmungsvoll wirken lassen."
+        }
+      ]
+    },
+    "related": {
+      "eyebrow": "Verwandte Leitfäden",
+      "hint": "Wischt nach links oder rechts, um weitere Guides zu sehen.",
+      "items": [
+        {
+          "label": "Dolomiten",
+          "title": "Elopement-Guide für die Dolomiten",
+          "copy": "Ein ruhiger Ausgangspunkt für Paare, die ein Dolomites Elopement oder eine intime Berghochzeit planen und verstehen möchten, wie Licht, Wege, Wetter und Menschenmengen den Tag wirklich prägen.",
+          "href": "/guides/dolomites-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-120.jpg",
+          "imageAlt": "Paar bei einem Dolomiten-Elopement im weichen Morgenlicht",
+          "alt": "Paar bei einem Dolomiten-Elopement im weichen Morgenlicht"
+        },
+        {
+          "label": "Standorte",
+          "title": "Die beliebtesten Elopement-Orte in den Dolomiten",
+          "copy": "Ein kuratierter Guide für Paare, die nicht einfach irgendeine schöne Aussicht suchen, sondern den Ort, dessen Stimmung wirklich zu ihrem Tag passt.",
+          "href": "/guides/best-dolomites-elopement-locations/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-191.jpg",
+          "imageAlt": "Elopement-Standorte in den Dolomiten",
+          "alt": "Elopement-Standorte in den Dolomiten"
+        },
+        {
+          "label": "Standorte",
+          "title": "Lago di Braies Guide",
+          "copy": "Ein ehrlicher Guide für Paare, die den Pragser Wildsee nicht nur als berühmtes Bild kennen, sondern verstehen möchten, wann er still, weich und tatsächlich erlebbar wird.",
+          "href": "/guides/lago-di-braies-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopemnt-Dolomites-Lago-di-Braies-19.jpg",
+          "imageAlt": "Lago di Braies mit ruhigem Wasser und frühem Licht",
+          "alt": "Lago di Braies mit ruhigem Wasser und frühem Licht"
+        },
+        {
+          "label": "Standorte",
+          "title": "Seceda Guide",
+          "copy": "Ein Guide für Paare, die an Seceda nicht nur die berühmte Kante suchen, sondern das Gefühl von Weite, Wind und offenem Berglicht, das diesen Ort so unverwechselbar macht.",
+          "href": "/guides/seceda-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Seceda-180.jpg",
+          "imageAlt": "Seceda bei klarem Berglicht",
+          "alt": "Seceda bei klarem Berglicht"
+        },
+        {
+          "label": "Standorte",
+          "title": "Cadini di Misurina Guide",
+          "copy": "Ein Guide für Paare, die an Cadini diese wilde, kinoreife Spannung lieben und zugleich wissen möchten, wann der Ort zugänglich, sicher und wirklich stimmig ist.",
+          "href": "/guides/cadini-di-misurina-guide/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-12.jpg",
+          "imageAlt": "Cadini di Misurina mit markanten Felsformen",
+          "alt": "Cadini di Misurina mit markanten Felsformen"
+        },
+        {
+          "label": "Standorte",
+          "title": "Drei Zinnen Guide",
+          "copy": "Ein ehrlicher Guide für Paare, die Drei Zinnen nicht nur wegen des berühmten Blicks wählen, sondern wegen dieser monumentalen, fast unwirklichen Präsenz, die der Ort im richtigen Moment entfaltet.",
+          "href": "/guides/tre-cime-wedding-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14.jpg",
+          "imageAlt": "Drei Zinnen bei klarem Berglicht",
+          "alt": "Drei Zinnen bei klarem Berglicht"
+        },
+        {
+          "label": "Planung",
+          "title": "Beste Jahreszeit für ein Dolomiten-Elopement",
+          "copy": "Ein ehrlicher Guide zu Licht, Temperaturen, Menschenmengen und der Frage, wann sich die Berge nicht nur schön, sondern wirklich stimmig für euch anfühlen.",
+          "href": "/guides/best-time-for-a-dolomites-elopement/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-16.jpg",
+          "imageAlt": "Vorhandenes Bild zur schönsten Zeit in den Dolomiten",
+          "alt": "Vorhandenes Bild zur schönsten Zeit in den Dolomiten"
+        },
+        {
+          "label": "Planung",
+          "title": "Sonnenaufgang vs. Sonnenuntergang in den Dolomiten",
+          "copy": "Ein ehrlicher Vergleich für Paare, die nicht nur schönes Licht suchen, sondern verstehen möchten, welche Tageszeit zu ihrem Energielevel, ihrem Ort und dem gewünschten Gefühl passt.",
+          "href": "/guides/sunrise-vs-sunset-dolomites/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Photo-368.jpg",
+          "imageAlt": "Lichtstimmung in den Bergen bei Sonnenaufgang oder Sonnenuntergang",
+          "alt": "Lichtstimmung in den Bergen bei Sonnenaufgang oder Sonnenuntergang"
+        },
+        {
+          "label": "Planung",
+          "title": "Guide zur Wetter- und Backup-Planung",
+          "copy": "Ein ruhiger Wetter-Guide für Paare, die in den Bergen nicht auf perfekte Bedingungen hoffen, sondern einen Tag planen möchten, der auch bei Nebel, Wind oder Regen stimmig bleibt.",
+          "href": "/guides/weather-and-backup-planning/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-161.jpg",
+          "imageAlt": "Wetterstimmung in den Dolomiten mit Wolken und Nebel",
+          "alt": "Wetterstimmung in den Dolomiten mit Wolken und Nebel"
+        },
+        {
+          "label": "Planung",
+          "title": "Was man in den Bergen anziehen sollte",
+          "copy": "Ein praktischer Guide für Paare, die in den Bergen nicht nur schön aussehen, sondern sich auch frei bewegen, warm bleiben und sich in ihrer Kleidung wirklich wiederfinden möchten.",
+          "href": "/guides/what-to-wear-in-the-mountains/",
+          "image": "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Hut-13.jpg",
+          "imageAlt": "Kleidung für ein Elopement in den Bergen",
+          "alt": "Kleidung für ein Elopement in den Bergen"
+        },
+        {
+          "label": "Planung",
+          "title": "Helikopter-Elopement-Guide",
+          "copy": "Ein Guide für Paare, die Weite, Abgeschiedenheit und einen klareren Tagesfluss suchen und verstehen möchten, wann ein Helikopter in den Bergen wirklich sinnvoll ist.",
+          "href": "/guides/helicopter-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-12.jpg",
+          "imageAlt": "Helikopterflug über den Bergen für ein Elopement",
+          "alt": "Helikopterflug über den Bergen für ein Elopement"
+        },
+        {
+          "label": "Planung",
+          "title": "Mehrtägiger Elopement-Guide",
+          "copy": "Ein Guide für Paare, die mehr wollen als ein paar schnelle Stunden in den Bergen und ihren Hochzeitstag lieber in Ruhe entfalten lassen möchten.",
+          "href": "/guides/multi-day-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Insta-11.jpg",
+          "imageAlt": "Mehrtägiges Elopement in den Dolomiten",
+          "alt": "Mehrtägiges Elopement in den Dolomiten"
+        }
+      ]
+    },
+    "final": {
+      "eyebrow": "Ruhig geplant",
+      "title": "Lasst uns etwas gestalten, das sich ruhig, persönlich und zutiefst wahr anfühlt.",
+      "copy": "Wenn sich dieser Guide bereits nah an dem anfühlt, was ihr euch wünscht, helfe ich euch gern dabei, dieses Gefühl in etwas Ruhiges, Filmisches und wirklich Eigenes in den Bergen zu verwandeln.",
+      "cta": "Termin anfragen",
+      "image": "/assets/uploads/Blitzkneisser-Photo-Drei-Zinnen-Italy-24.jpg",
+      "imageAlt": "Drei Zinnen in den Dolomiten bei ruhigem, klarem Licht"
+    }
+  },
+  "en": {
+    "slug": "alpe-di-siusi-guide",
+    "title": "Alpe di Siusi Guide | Meadows, Light and Open Calm",
+    "description": "A guide to Alpe di Siusi for couples drawn to soft meadows, gentle light, easier access and a quieter mountain feeling.",
+    "hero": {
+      "eyebrow": "Location Guide",
+      "title": "Alpe di Siusi Guide",
+      "copy": "A guide for couples who are not only looking for drama in the Dolomites, but for meadows, soft light and a landscape that gives the day room to breathe.",
+      "cta": "Start planning",
+      "image": "/assets/guide-placeholders/IMAGE_PLACEHOLDER_ALPE_DI_SIUSI.svg",
+      "imageAlt": "Alpe di Siusi with open meadows and mountain views"
+    },
+    "utility": {
+      "reading": "Guide",
+      "focus": "For wide meadows and softer mountain atmosphere",
+      "navOverview": "Overview",
+      "navSeasons": "Location Notes",
+      "navPhilosophy": "Intro",
+      "navVisual": "More guides",
+      "navFaq": "FAQ"
+    },
+    "overview": {
+      "eyebrow": "Guide Overview",
+      "copy": "Alpe di Siusi is ideal for couples wanting mountain beauty with a gentler pace, broader space and more guest-friendly possibilities.",
+      "items": [
+        {
+          "label": "Best Time",
+          "value": "Late spring to autumn",
+          "icon": "calendar"
+        },
+        {
+          "label": "Best Light",
+          "value": "Sunrise or late evening",
+          "icon": "sun"
+        },
+        {
+          "label": "Crowd Level",
+          "value": "Medium",
+          "icon": "crowd"
+        },
+        {
+          "label": "Access",
+          "value": "Moderate",
+          "icon": "path"
+        },
+        {
+          "label": "Best For",
+          "value": "Open, meadow-led atmosphere",
+          "icon": "guests"
+        }
+      ]
+    },
+    "philosophy": {
+      "eyebrow": "A first note",
+      "title": "Alpe di Siusi does not feel loud. It feels wide and gentle at the same time.",
+      "copy": "Its strength lies in spaciousness, meadow light and a softer emotional rhythm. It often works beautifully for couples who want the mountains without needing the day to feel exposed or extreme."
+    },
+    "sections": {
+      "seasonOrder": [
+        "special",
+        "time",
+        "access",
+        "crowds",
+        "weather"
+      ],
+      "seasons": {
+        "special": {
+          "layout": "image-left",
+          "image": "/assets/guide-placeholders/IMAGE_PLACEHOLDER_ALPE_DI_SIUSI.svg",
+          "imageAlt": "Alpe di Siusi with open meadows and mountain views meadows",
+          "title": "Why Alpe di Siusi feels special",
+          "intro": "This is one of the places where the mountains feel open rather than sharp.",
+          "copy": "The meadows, huts and long views create a more generous emotional tone than many ridge locations. It often feels calm, breathable and quietly cinematic.",
+          "facts": [
+            {
+              "label": "Mood",
+              "value": "Open and calm",
+              "icon": "wind"
+            },
+            {
+              "label": "Best For",
+              "value": "Guests, movement, gentler days",
+              "icon": "guests"
+            },
+            {
+              "label": "Visual Strength",
+              "value": "Meadows with mountain backdrop",
+              "icon": "sun"
+            }
+          ]
+        },
+        "time": {
+          "layout": "image-right",
+          "image": "/assets/guide-placeholders/IMAGE_PLACEHOLDER_ALPE_DI_SIUSI.svg",
+          "imageAlt": "Soft light across the meadows of Alpe di Siusi",
+          "title": "Best time",
+          "intro": "The softer nature of this place makes it more flexible than some iconic viewpoints.",
+          "copy": "Sunrise is beautiful, but late evening can also feel very strong here if the atmosphere stays quiet. The meadows hold warm light especially well.",
+          "facts": [
+            {
+              "label": "Best",
+              "value": "Sunrise or quiet evening",
+              "icon": "sun"
+            },
+            {
+              "label": "Why",
+              "value": "Flexible mood and broader space",
+              "icon": "wind"
+            },
+            {
+              "label": "Crowd Reality",
+              "value": "Still benefits from thoughtful timing",
+              "icon": "crowd"
+            }
+          ]
+        },
+        "access": {
+          "layout": "image-left",
+          "image": "/assets/guide-placeholders/IMAGE_PLACEHOLDER_ALPE_DI_SIUSI.svg",
+          "imageAlt": "Access and paths across Alpe di Siusi",
+          "title": "Access notes",
+          "intro": "One of the more flexible mountain locations if you want beauty without too much friction.",
+          "copy": "Access is often easier here than at hike-heavy or more exposed spots, which makes it useful for guests and for couples who want movement without pressure.",
+          "facts": [
+            {
+              "label": "Difficulty",
+              "value": "Moderate to easier",
+              "icon": "path"
+            },
+            {
+              "label": "Guest Friendly",
+              "value": "Yes, often more than ridges",
+              "icon": "guests"
+            },
+            {
+              "label": "Best Use",
+              "value": "Relaxed editorial mountain days",
+              "icon": "calendar"
+            }
+          ]
+        },
+        "crowds": {
+          "layout": "image-right",
+          "image": "/assets/guide-placeholders/IMAGE_PLACEHOLDER_ALPE_DI_SIUSI.svg",
+          "imageAlt": "Open meadows and visitor rhythm on Alpe di Siusi",
+          "title": "Crowd reality",
+          "intro": "It can still be busy, but it rarely feels as concentrated as the most iconic spots.",
+          "copy": "The open nature of the area helps spread people out, which often protects the feeling of space even when others are nearby.",
+          "facts": [
+            {
+              "label": "Feel",
+              "value": "More dispersed than concentrated",
+              "icon": "crowd"
+            },
+            {
+              "label": "Quietest",
+              "value": "Early hours",
+              "icon": "calendar"
+            },
+            {
+              "label": "Best Strategy",
+              "value": "Choose edges and quieter paths",
+              "icon": "path"
+            }
+          ]
+        },
+        "weather": {
+          "layout": "image-left",
+          "image": "/assets/guide-placeholders/IMAGE_PLACEHOLDER_WEATHER.svg",
+          "imageAlt": "Weather mood on Alpe di Siusi",
+          "title": "Weather notes",
+          "intro": "Weather often feels softer here, even when it is still shifting.",
+          "copy": "Mist, low cloud and softer evening weather can work beautifully with the meadows. Wind matters, but usually feels less severe than on high ridges.",
+          "facts": [
+            {
+              "label": "Best Mood",
+              "value": "Soft cloud or warm evening light",
+              "icon": "cloud"
+            },
+            {
+              "label": "Wind",
+              "value": "Present, but gentler than exposed ridges",
+              "icon": "wind"
+            },
+            {
+              "label": "Good For",
+              "value": "Weather-tolerant planning",
+              "icon": "calendar"
+            }
+          ]
+        }
+      }
+    },
+    "planning": {
+      "eyebrow": "Planning Notes",
+      "title": "What usually matters most at Alpe di Siusi.",
+      "intro": "This location often works best when you let its openness and softness lead the day instead of trying to turn it into something more dramatic than it wants to be.",
+      "items": [
+        {
+          "label": "Guests",
+          "title": "A good choice if family is joining.",
+          "copy": "The broader access and gentler terrain often help the whole day feel easier.",
+          "meta": "Beauty without as much strain."
+        },
+        {
+          "label": "Light",
+          "title": "Do not overlook late evening here.",
+          "copy": "The meadows can hold warm light beautifully, especially when the place feels calm.",
+          "meta": "Evening can work well."
+        },
+        {
+          "label": "Weather",
+          "title": "Mist and softer cloud can add a lot.",
+          "copy": "This landscape does not need perfect blue skies to feel meaningful.",
+          "meta": "Soft weather suits it."
+        },
+        {
+          "label": "Pacing",
+          "title": "Use the space.",
+          "copy": "This is a location that rewards wandering and gentle movement more than rushing from one point to the next.",
+          "meta": "Let it breathe."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Questions couples often ask about Alpe di Siusi.",
+      "intro": "A few of the questions couples often ask once the dream begins feeling more real, and the mountains stop being only an idea.",
+      "items": [
+        {
+          "q": "Is Alpe di Siusi good for guests?",
+          "a": "Often yes. It is one of the gentler mountain settings in terms of access and atmosphere."
+        },
+        {
+          "q": "Does it need sunrise?",
+          "a": "Sunrise is beautiful, but quiet late evening can work very well too."
+        },
+        {
+          "q": "Is it less dramatic than Seceda or Cadini?",
+          "a": "Yes, but that is exactly what many couples love about it."
+        },
+        {
+          "q": "Can mist still work here?",
+          "a": "Very often. Mist can make the meadows feel especially atmospheric."
+        }
+      ]
+    },
+    "related": {
+      "eyebrow": "Related Guides",
+      "hint": "Swipe left or right to explore more guides.",
+      "items": [
+        {
+          "label": "Dolomites",
+          "title": "Dolomites Elopement Guide",
+          "copy": "A calm starting point for couples planning a Dolomites Elopement or intimate mountain wedding and wanting to understand how light, access, weather and crowds truly shape the day.",
+          "href": "/guides/dolomites-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-120.jpg",
+          "imageAlt": "Couple during a Dolomites elopement in soft morning light",
+          "alt": "Couple during a Dolomites elopement in soft morning light"
+        },
+        {
+          "label": "Locations",
+          "title": "The most popular elopement locations in the Dolomites",
+          "copy": "A curated guide for couples who are not looking for just any beautiful view, but for the place whose atmosphere truly fits the day they want.",
+          "href": "/guides/best-dolomites-elopement-locations/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-191.jpg",
+          "imageAlt": "Elopement locations in the Dolomites",
+          "alt": "Elopement locations in the Dolomites"
+        },
+        {
+          "label": "Locations",
+          "title": "Lago di Braies Guide",
+          "copy": "An honest guide for couples who know Lago di Braies as more than a famous photograph and want to understand when it feels soft, quiet and truly worth experiencing.",
+          "href": "/guides/lago-di-braies-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopemnt-Dolomites-Lago-di-Braies-19.jpg",
+          "imageAlt": "Lago di Braies with still water and early light",
+          "alt": "Lago di Braies with still water and early light"
+        },
+        {
+          "label": "Locations",
+          "title": "Seceda Guide",
+          "copy": "A guide for couples drawn to Seceda not only for the famous ridge, but for the feeling of openness, wind and high alpine light that makes it so distinctive.",
+          "href": "/guides/seceda-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Seceda-180.jpg",
+          "imageAlt": "Seceda in clear mountain light",
+          "alt": "Seceda in clear mountain light"
+        },
+        {
+          "label": "Locations",
+          "title": "Cadini di Misurina Guide",
+          "copy": "A guide for couples who love the wild, cinematic tension of Cadini and want to know when it is accessible, safe and genuinely worth choosing.",
+          "href": "/guides/cadini-di-misurina-guide/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-12.jpg",
+          "imageAlt": "Cadini di Misurina with dramatic rock formations",
+          "alt": "Cadini di Misurina with dramatic rock formations"
+        },
+        {
+          "label": "Locations",
+          "title": "Tre Cime Wedding Guide",
+          "copy": "An honest guide for couples choosing Tre Cime not only for the famous view, but for the monumental, almost unreal presence the place carries when the timing is right.",
+          "href": "/guides/tre-cime-wedding-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14.jpg",
+          "imageAlt": "Tre Cime in clear mountain light",
+          "alt": "Tre Cime in clear mountain light"
+        },
+        {
+          "label": "Planning",
+          "title": "Best Time for a Dolomites Elopement",
+          "copy": "An honest guide to light, temperatures, crowds and the question of when the mountains will not only look beautiful, but genuinely feel right for you.",
+          "href": "/guides/best-time-for-a-dolomites-elopement/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-16.jpg",
+          "imageAlt": "Existing image for best time in the Dolomites",
+          "alt": "Existing image for best time in the Dolomites"
+        },
+        {
+          "label": "Planning",
+          "title": "Sunrise vs Sunset in the Dolomites",
+          "copy": "An honest comparison for couples who want more than beautiful light and are trying to understand which time of day fits their energy, their location and the feeling they want to remember.",
+          "href": "/guides/sunrise-vs-sunset-dolomites/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Photo-368.jpg",
+          "imageAlt": "Mountain light at sunrise or sunset",
+          "alt": "Mountain light at sunrise or sunset"
+        },
+        {
+          "label": "Planning",
+          "title": "Weather & Backup Planning Guide",
+          "copy": "A calm weather guide for couples who do not want to hope for perfect conditions in the mountains, but want to build a day that still feels right in fog, wind or rain.",
+          "href": "/guides/weather-and-backup-planning/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-161.jpg",
+          "imageAlt": "Weather in the Dolomites with clouds and fog",
+          "alt": "Weather in the Dolomites with clouds and fog"
+        },
+        {
+          "label": "Planning",
+          "title": "What to Wear in the Mountains",
+          "copy": "A practical guide for couples who want to look beautiful in the mountains, but also move freely, stay warm and still feel like themselves in what they wear.",
+          "href": "/guides/what-to-wear-in-the-mountains/",
+          "image": "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Hut-13.jpg",
+          "imageAlt": "Outfit ideas for a mountain elopement",
+          "alt": "Outfit ideas for a mountain elopement"
+        },
+        {
+          "label": "Planning",
+          "title": "Helicopter Elopement Guide",
+          "copy": "A guide for couples seeking more space, privacy and a clearer flow to the day, and wanting to understand when a helicopter in the mountains genuinely makes sense.",
+          "href": "/guides/helicopter-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-12.jpg",
+          "imageAlt": "Helicopter flight above the mountains for an elopement",
+          "alt": "Helicopter flight above the mountains for an elopement"
+        },
+        {
+          "label": "Planning",
+          "title": "Multi-Day Elopement Guide",
+          "copy": "A guide for couples who want more than a few rushed hours in the mountains and would rather let the day unfold with space around it.",
+          "href": "/guides/multi-day-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Insta-11.jpg",
+          "imageAlt": "Multi-day elopement in the Dolomites",
+          "alt": "Multi-day elopement in the Dolomites"
+        }
+      ]
+    },
+    "final": {
+      "eyebrow": "Planned with intention",
+      "title": "Let’s shape something that feels quiet, personal and deeply true to you.",
+      "copy": "If this guide already feels close to the way you want the day to move, I would love to help you turn that feeling into something calm, cinematic and genuinely your own in the mountains.",
+      "cta": "Inquire now",
+      "image": "/assets/uploads/Blitzkneisser-Photo-Drei-Zinnen-Italy-24.jpg",
+      "imageAlt": "Tre Cime in the Dolomites in calm, clear light"
+    }
+  }
+}

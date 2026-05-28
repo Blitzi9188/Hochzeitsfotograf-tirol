@@ -1,0 +1,16 @@
+{
+  "name": "anna-moser-local-cms",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "build:github-preview": "node scripts/build-github-preview.js"
+  },
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "nodemailer": "^8.0.7",
+    "resend": "^6.12.2",
+    "stripe": "^22.1.0"
+  }
+}

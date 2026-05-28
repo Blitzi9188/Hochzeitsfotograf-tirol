@@ -1,0 +1,1780 @@
+{
+  "background_color": "#1D1D1D",
+  "body_color": "#e4e4e4",
+  "accent_color": "#aa8759",
+  "link_color": "#AA8759",
+  "menu_color": "#ffffff",
+  "menu_color_mobile": "#ebebeb",
+  "logo": {
+    "url": "",
+    "width": "auto",
+    "height": "auto"
+  },
+  "logo_mobile": {
+    "url": "https://www.hochzeitsfotograf.tirol/wp-content/plugins/flo-pricing-tool//assets/theme/img/gray.jpg",
+    "width": 109,
+    "height": 52
+  },
+  "header_type": "logo-center",
+  "privacy": "public",
+  "content_width": "1200px",
+  "currency": "€",
+  "currency_position": "right",
+  "currency_delimiter": false,
+  "pricing_tax": 0,
+  "show_inquiry": true,
+  "show_calculator": true,
+  "show_terms": true,
+  "show_menu": false,
+  "show_dynamic_url": false,
+  "msg_inquiry": "Hey {visitor_fullname},\n\nWe look forward to hearing from you and will get back to you as soon as possible with suggested dates for our meeting",
+  "msg_added": "Hi {user_firstname},\r\n\r\nYou have been added to <a href=\"{pricing_url}\">\"{pricing_title}\"</a> pricelist.",
+  "msg_pwd_restored": "Hi there,\r\n\r\nSeems like you're trying to get back in!\r\n\r\nTo reset your password, go to: {reset_url}\r\n\r\nIf you received this email by accident, please ignore this message.",
+  "admin_email": "foto@blitzkneisser.com",
+  "stylekit": {
+    "colors": [
+      "#ffffff",
+      "#998693",
+      "#b3a595",
+      "#c2ac79",
+      "#a6a47f",
+      "#9ba4a9",
+      "#ada3a4",
+      "#c6b9ab",
+      "#d5c28a",
+      "#bbbc91",
+      "#b2bbc3",
+      "#d1c4be",
+      "#d8d0b9",
+      "#e8dda9",
+      "#cecbac",
+      "#000000"
+    ]
+  },
+  "fonts": {
+    "h1": {
+      "name": "MarkPro medium",
+      "size": 72,
+      "size_mobile": 33,
+      "kerning": 14,
+      "style": "normal",
+      "line_height": 0
+    },
+    "h2": {
+      "name": "MarkPro medium",
+      "size": 36,
+      "size_mobile": 30,
+      "kerning": 13,
+      "style": "normal",
+      "line_height": 0
+    },
+    "h3": {
+      "name": "Courier, monospace",
+      "size": 20,
+      "size_mobile": 13,
+      "kerning": 13,
+      "style": "normal",
+      "line_height": 0
+    },
+    "h4": {
+      "name": "MarkPro medium",
+      "size": 12,
+      "size_mobile": 16,
+      "kerning": 8,
+      "style": "normal",
+      "line_height": 0
+    },
+    "h5": {
+      "name": "MarkPro medium",
+      "size": 10,
+      "size_mobile": 10,
+      "kerning": 0,
+      "style": "normal",
+      "line_height": 0
+    },
+    "p": {
+      "name": "Courier, monospace",
+      "size": 14,
+      "size_mobile": 12,
+      "kerning": 1,
+      "style": "normal",
+      "line_height": 0
+    },
+    "menu": {
+      "name": "MarkPro medium",
+      "size": 9,
+      "size_mobile": 10,
+      "kerning": 7,
+      "style": "normal",
+      "line_height": 0
+    }
+  },
+  "title": "Price list 26/27",
+  "slug": "26-27",
+  "blocks": [
+    {
+      "background": {
+        "image": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2025/12/Blitzkneisser-Dolomites-Elopement-INSTA-6-scaled.jpeg",
+        "scale": "cover",
+        "scale_mobile": "cover",
+        "position": "50% 56.99999999999999%",
+        "position_mobile": "50% 100%",
+        "overlay": {
+          "color": "#000000",
+          "opacity": 0
+        },
+        "mask_details": {
+          "x": 0,
+          "y": 0.148,
+          "width": 1,
+          "height": 0.844
+        },
+        "mask_details_mobile": {
+          "x": "",
+          "y": "",
+          "width": "",
+          "height": ""
+        },
+        "use_positioning": "no",
+        "limit_width": "no",
+        "color": "transparent"
+      },
+      "padding_top": 50,
+      "padding_bottom": 50,
+      "padding_top_mobile": 25,
+      "padding_bottom_mobile": 25,
+      "visibility": "yes",
+      "visibility_mobile": "yes",
+      "margin": 50,
+      "margin_mobile": 0,
+      "block_id": 212138385,
+      "height": "screen",
+      "height_fixed": "70",
+      "height_screen": 100,
+      "height_mobile": "screen",
+      "height_fixed_mobile": "500",
+      "height_screen_mobile": 83,
+      "alignment_v": "flex-start",
+      "alignment_h": "center",
+      "alignment_v_mobile": "",
+      "alignment_h_mobile": "",
+      "block_color": "#ffffff",
+      "block_accent_color": "#ffffff",
+      "type": "text-centered",
+      "template": "text-centered",
+      "in_menu": false,
+      "layout": "",
+      "name": "INTRO",
+      "text": "<p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><img src=\"https://www.hochzeitsfotograf.tirol/wp-content/uploads/2016/04/Logo-Blitzkneisser-2017-HG- Dunkel.png\" style=\"width: 210px;\" class=\"fr-fic fr-dib\"></p><h1 style=\"text-align: center; margin-left: 20px;\"><span style=\"color: rgb(255, 255, 255);\">PRICE LIST</span></h1><p style=\"text-align: center;\"><span style=\"font-size: 48px;\"><span style=\"color: rgb(255, 255, 255);\">↓</span></span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><h1 style=\"text-align: center; margin-left: 20px;\"><br></h1><hr><p style=\"text-align: center;\"><br></p>",
+      "slug": "intro",
+      "random_id": "250924intro",
+      "extras": []
+    },
+    {
+      "background": {
+        "image": "",
+        "scale": "auto",
+        "scale_mobile": "auto",
+        "position": "50% 0%",
+        "position_mobile": "0% 0%",
+        "overlay": {
+          "color": "#1D1D1D",
+          "opacity": 100
+        },
+        "mask_details": {
+          "x": "",
+          "y": "",
+          "width": "",
+          "height": ""
+        },
+        "mask_details_mobile": {
+          "x": "",
+          "y": "",
+          "width": "",
+          "height": ""
+        },
+        "use_positioning": "no",
+        "limit_width": "no",
+        "color": "transparent"
+      },
+      "padding_top": 100,
+      "padding_bottom": 0,
+      "padding_top_mobile": 25,
+      "padding_bottom_mobile": 25,
+      "visibility": "yes",
+      "visibility_mobile": "yes",
+      "margin": 0,
+      "margin_mobile": 0,
+      "block_id": 662480388,
+      "height": "fixed",
+      "height_fixed": "200",
+      "height_screen": "80",
+      "height_mobile": "auto",
+      "height_fixed_mobile": "500",
+      "height_screen_mobile": "80",
+      "alignment_v": "center",
+      "alignment_h": "center",
+      "alignment_v_mobile": "",
+      "alignment_h_mobile": "",
+      "block_color": "#e4e4e4",
+      "block_accent_color": "#aa8759",
+      "type": "text-centered",
+      "template": "text-centered",
+      "in_menu": false,
+      "layout": "",
+      "random_id": "3909605e088ee",
+      "text": "<h1 style=\"text-align: center;\">PHOTO PACKAGES</h1><p style=\"margin-left: 20px;\"><br></p><p style=\"margin-left: 20px;\">Of course, it is important to us to capture every important moment of your big day. From the Getting Ready preparations to the emotional wedding ceremony to the rousing bridal dance and the exuberant celebration - we are there for you to capture all of these precious moments.<br><br>Our packages only serve as a rough guide on how you can plan your day. During our personal conversation, we are happy to take the time to discuss your individual wishes and ideas in detail and to create a tailor-made plan.<br><br>Especially for events with more than 100 guests, we recommend booking a second photographer. This allows us to ensure that no moment goes unnoticed and that at the end you receive comprehensive documentation of your special day.</p><p style=\"margin-left: 20px;\"><br></p>",
+      "extras": [],
+      "slug": "5e088ee"
+    },
+    {
+      "background": {
+        "image": "",
+        "scale": "auto",
+        "scale_mobile": "auto",
+        "position": "0% 0%",
+        "position_mobile": "0% 0%",
+        "overlay": {
+          "color": "#000000",
+          "opacity": 0
+        },
+        "mask_details": {
+          "x": "",
+          "y": "",
+          "width": "",
+          "height": ""
+        },
+        "mask_details_mobile": {
+          "x": "",
+          "y": "",
+          "width": "",
+          "height": ""
+        },
+        "use_positioning": "no",
+        "limit_width": "no",
+        "color": "transparent"
+      },
+      "padding_top": 10,
+      "padding_bottom": 50,
+      "padding_top_mobile": 25,
+      "padding_bottom_mobile": 25,
+      "visibility": "yes",
+      "visibility_mobile": "yes",
+      "margin": 0,
+      "margin_mobile": 0,
+      "block_id": 181175287,
+      "height": "screen",
+      "height_fixed": "500",
+      "height_screen": 35,
+      "height_mobile": "auto",
+      "height_fixed_mobile": "500",
+      "height_screen_mobile": "80",
+      "alignment_v": "",
+      "alignment_h": "",
+      "alignment_v_mobile": "",
+      "alignment_h_mobile": "",
+      "block_color": "#F2F2F2",
+      "block_accent_color": "#ffffff",
+      "type": "package-2",
+      "template": "packages",
+      "in_menu": true,
+      "layout": "layout-1",
+      "columns": [
+        {
+          "title": "<h2><span style=\"color: rgb(255, 255, 255);\">PACKAGE №1</span></h2>",
+          "text": "",
+          "includes": "<h4><span style=\"color: rgb(170, 135, 89);\">INCLUDES:</span></h4><ul><li><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">up to 8 hours of continuous photography</span></li><li><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">a photographer</span></li><li><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">e.g. Getting Ready</span></li><li><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">Photo accompaniment</span></li><li><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">Wedding ceremony</span></li><li><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">Photo shoot (sunset)</span></li><li><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">e.g. Bridal Dance</span></li><li><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">e.g. Cake cutting</span></li><li><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">Data storage medium with at least 500 edited images</span></li></ul>",
+          "price": "<h2><span style=\"color: rgb(170, 135, 89);\">4200€</span></h2>",
+          "image": {
+            "url": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2025/12/Blitzkneisser-Wedding-Dolomites-17-scaled.jpg",
+            "width": 2560,
+            "height": 1707
+          },
+          "extras": [],
+          "id": "aada8d48-a4bd-18a1-e5d5-851072080430",
+          "name": "PACKAGE №1",
+          "slug": "69e7681c9891b-package-%e2%84%961",
+          "price_clean": 4200,
+          "price_currency": "4200€"
+        },
+        {
+          "title": "<h2><span style=\"color: rgb(255, 255, 255);\">PACKAGE №2</span></h2>",
+          "text": "",
+          "includes": "<h4><span style=\"color: rgb(170, 135, 89);\">INCLUDES:</span></h4><ul><li><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">up to 6 hours of continuous photography</span></li><li><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">a photographer</span></li><li><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\"><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">e.g. </span>Getting Ready</span></li><li><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\"><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">e.g. </span>Wedding ceremony </span></li><li><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">Photo shoot</span><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\"> <span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">(Sunset)</span></span></li><li><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">Photo accompaniment</span></li><li><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">Data carrier with at least 400* </span><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">edited images</span></li></ul><p><br></p>",
+          "price": "<h2><span style=\"color: rgb(170, 135, 89);\">3700€</span></h2>",
+          "image": {
+            "url": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2022/12/Blitzkneisser-Elopement-Dolomites-120-scaled.jpg",
+            "width": 2048,
+            "height": 1365
+          },
+          "id": "2b6ee387-2dbd-fb34-0001-98f65cb59577",
+          "name": "PACKAGE №2",
+          "slug": "69e7681c9895b-package-%e2%84%962",
+          "price_clean": 3700,
+          "price_currency": "3700€"
+        }
+      ],
+      "name": "PACKAGES2",
+      "slug": "packages2",
+      "random_id": "969474packages2"
+    },
+    {
+      "background": {
+        "image": "",
+        "scale": "cover",
+        "scale_mobile": "auto",
+        "position": "0% 0%",
+        "position_mobile": "0% 0%",
+        "overlay": {
+          "color": "#1D1D1D",
+          "opacity": 100
+        },
+        "mask_details": {
+          "x": "",
+          "y": "",
+          "width": "",
+          "height": ""
+        },
+        "mask_details_mobile": {
+          "x": "",
+          "y": "",
+          "width": "",
+          "height": ""
+        },
+        "use_positioning": "no",
+        "limit_width": "no",
+        "color": "transparent"
+      },
+      "padding_top": 100,
+      "padding_bottom": 10,
+      "padding_top_mobile": 25,
+      "padding_bottom_mobile": 25,
+      "visibility": "yes",
+      "visibility_mobile": "yes",
+      "margin": 0,
+      "margin_mobile": 0,
+      "block_id": 821971976,
+      "height": "screen",
+      "height_fixed": "100",
+      "height_screen": 17,
+      "height_mobile": "auto",
+      "height_fixed_mobile": "500",
+      "height_screen_mobile": "80",
+      "alignment_v": "center",
+      "alignment_h": "center",
+      "alignment_v_mobile": "",
+      "alignment_h_mobile": "",
+      "block_color": "#e4e4e4",
+      "block_accent_color": "#aa8759",
+      "type": "collection-text-left-extra-right",
+      "template": "packages",
+      "in_menu": false,
+      "layout": "onecolumn"
+    },
+    {
+      "background": {
+        "image": "",
+        "scale": "auto",
+        "scale_mobile": "auto",
+        "position": "50% 0%",
+        "position_mobile": "0% 0%",
+        "overlay": {
+          "color": "#1D1D1D",
+          "opacity": 100
+        },
+        "mask_details": {
+          "x": "",
+          "y": "",
+          "width": "",
+          "height": ""
+        },
+        "mask_details_mobile": {
+          "x": "",
+          "y": "",
+          "width": "",
+          "height": ""
+        },
+        "use_positioning": "no",
+        "limit_width": "no",
+        "color": "transparent"
+      },
+      "padding_top": 10,
+      "padding_bottom": 50,
+      "padding_top_mobile": 25,
+      "padding_bottom_mobile": 25,
+      "visibility": "yes",
+      "visibility_mobile": "yes",
+      "margin": 50,
+      "margin_mobile": 0,
+      "block_id": 662480388,
+      "height": "fixed",
+      "height_fixed": "200",
+      "height_screen": "80",
+      "height_mobile": "auto",
+      "height_fixed_mobile": "500",
+      "height_screen_mobile": "80",
+      "alignment_v": "center",
+      "alignment_h": "center",
+      "alignment_v_mobile": "",
+      "alignment_h_mobile": "",
+      "block_color": "#e4e4e4",
+      "block_accent_color": "#aa8759",
+      "type": "collection-text-left-extra-right",
+      "template": "packages",
+      "in_menu": false,
+      "layout": "onecolumn",
+      "random_id": "318674zusatz-stunden",
+      "columns": [
+        {
+          "title": "<h4><span style=\"font-size: 18px;\"><strong>ADDITIONAL HOUR</strong></span></h4>",
+          "text": "<p><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">If 6 or 8 hours are not enough to capture all the emotions and great moments of your wedding, we are of course happy to stay longer.</span></p><p><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">You can also spontaneously book additional hours on the day of your wedding book!</span></p>",
+          "includes": "<h4>Included:</h4><ul><li><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">per photographer </span></li><li><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">max. 12 hours total</span></li></ul><h4><br></h4>",
+          "add_extras_text": "<h4>ADD EXTRAS</h4>",
+          "price": "<h2>300€</h2>",
+          "image": {
+            "url": "https://www.hochzeitsfotograf.tirol/wp-content/plugins/flo-pricing-tool/assets/admin/img/noimage-landscape-grey.png",
+            "width": "1024",
+            "height": "768"
+          },
+          "extras": [],
+          "id": "d2592b5f-d9d9-9f39-b0ed-00d36393099f",
+          "name": "EXTRA HOUR",
+          "slug": "69e7681c9896f-zusatz-stunde",
+          "price_clean": 300,
+          "price_currency": "300€"
+        }
+      ],
+      "slug": "zusatz-stunden",
+      "name": "Additional hours"
+    },
+    {
+      "background": {
+        "image": "",
+        "scale": "auto",
+        "scale_mobile": "auto",
+        "position": "0% 0%",
+        "position_mobile": "0% 0%",
+        "overlay": {
+          "color": "#1D1D1D",
+          "opacity": 100
+        },
+        "mask_details": {
+          "x": "",
+          "y": "",
+          "width": "",
+          "height": ""
+        },
+        "mask_details_mobile": {
+          "x": "",
+          "y": "",
+          "width": "",
+          "height": ""
+        },
+        "use_positioning": "no",
+        "limit_width": "no",
+        "color": "transparent"
+      },
+      "padding_top": 10,
+      "padding_bottom": 50,
+      "padding_top_mobile": 25,
+      "padding_bottom_mobile": 25,
+      "visibility": "yes",
+      "visibility_mobile": "yes",
+      "margin": 50,
+      "margin_mobile": 0,
+      "block_id": 985051644,
+      "height": "fixed",
+      "height_fixed": "500",
+      "height_screen": 0,
+      "height_mobile": "auto",
+      "height_fixed_mobile": "500",
+      "height_screen_mobile": "80",
+      "alignment_v": "",
+      "alignment_h": "",
+      "alignment_v_mobile": "",
+      "alignment_h_mobile": "",
+      "block_color": "#e9e9e9",
+      "block_accent_color": "#aa8759",
+      "type": "includes-left-slider-right",
+      "template": "packages",
+      "in_menu": false,
+      "layout": "onecolumn",
+      "random_id": "760034standesamt",
+      "columns": [
+        {
+          "title": "<h4 style=\"color: rgb(0, 0, 0);\"><span style=\"color: rgb(170, 135, 89); font-size: 18px;\"><strong>CLASS OFFICE</strong></span></h4>",
+          "text": "<p><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">We are also happy to capture the “yes” before the law for you in unique pictures. Civil weddings in small groups in particular are often very emotional and offer so many wonderful memories! </span></p><p><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">We only accompany these weddings on weekdays and always alone - i.e. there is only one photographer.</span></p><h4><strong><span style=\"font-size: 14px; font-family: Helvetica, Arial, sans-serif;\">Of course also bookable with a shoot on the mountain +200€ (on the same day of the wedding)</span></strong></h4>",
+          "includes": "<h4>Includes:</h4><ul><li><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">2 hours of continuous photography </span></li><li><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">a photographer</span></li><li><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">approx. 100 edited images</span></li><li><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">only on weekdays (Monday-Friday)</span></li></ul>",
+          "add_extras_text": "<h4>ADD EXTRAS</h4>",
+          "price": "<h2><span style=\"color: rgb(170, 135, 89);\">1200€</span></h2>",
+          "image": {
+            "url": "https://www.hochzeitsfotograf.tirol/wp-content/plugins/flo-pricing-tool/assets/admin/img/noimage-landscape-grey.png",
+            "width": "1024",
+            "height": "768"
+          },
+          "id": "861c67d2-6281-359e-f4d1-ad5c1f88fc1b",
+          "name": "CITY OFFICE",
+          "slug": "69e7681c9897a-standesamt",
+          "price_clean": 1200,
+          "price_currency": "1200€"
+        }
+      ],
+      "name": "registry office",
+      "gallery": [
+        {
+          "url": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2019/01/Blitzkneisser-Foto-Hochzeit-Meran-Südtirol-122.jpg",
+          "id": 3595,
+          "width": 5040,
+          "height": 3360,
+          "preview": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2019/01/Blitzkneisser-Foto-Hochzeit-Meran-Südtirol-122-1024x683.jpg",
+          "text": "",
+          "text_position": "",
+          "text_background": ""
+        }
+      ],
+      "slug": "standesamt"
+    },
+    {
+      "background": {
+        "image": "",
+        "scale": "auto",
+        "scale_mobile": "auto",
+        "position": "0% 0%",
+        "position_mobile": "0% 0%",
+        "overlay": {
+          "color": "#1D1D1D",
+          "opacity": 100
+        },
+        "mask_details": {
+          "x": "",
+          "y": "",
+          "width": "",
+          "height": ""
+        },
+        "mask_details_mobile": {
+          "x": "",
+          "y": "",
+          "width": "",
+          "height": ""
+        },
+        "use_positioning": "no",
+        "limit_width": "no",
+        "color": "transparent"
+      },
+      "padding_top": 0,
+      "padding_bottom": 0,
+      "padding_top_mobile": 25,
+      "padding_bottom_mobile": 25,
+      "visibility": "yes",
+      "visibility_mobile": "yes",
+      "margin": 0,
+      "margin_mobile": 0,
+      "block_id": 114150652,
+      "height": "screen",
+      "height_fixed": "500",
+      "height_screen": 50,
+      "height_mobile": "auto",
+      "height_fixed_mobile": "500",
+      "height_screen_mobile": "80",
+      "alignment_v": "",
+      "alignment_h": "center",
+      "alignment_v_mobile": "",
+      "alignment_h_mobile": "",
+      "block_color": "#e4e4e4",
+      "block_accent_color": "#aa8759",
+      "type": "video-centered",
+      "template": "video-centered",
+      "in_menu": false,
+      "layout": "",
+      "random_id": "19154film",
+      "name": "film",
+      "video": {
+        "url": "https://vimeo.com/798320135?fl=pl&fe=vl",
+        "cover": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2025/12/Blitzkneisser-Pre-Wedding-Dolomites-45-scaled.jpg",
+        "type": "vimeo"
+      },
+      "slug": "film"
+    },
+    {
+      "background": {
+        "image": "",
+        "scale": "auto",
+        "scale_mobile": "auto",
+        "position": "0% 0%",
+        "position_mobile": "0% 0%",
+        "overlay": {
+          "color": "#1D1D1D",
+          "opacity": 100
+        },
+        "mask_details": {
+          "x": "",
+          "y": "",
+          "width": "",
+          "height": ""
+        },
+        "mask_details_mobile": {
+          "x": "",
+          "y": "",
+          "width": "",
+          "height": ""
+        },
+        "use_positioning": "no",
+        "limit_width": "no",
+        "color": "transparent"
+      },
+      "padding_top": 30,
+      "padding_bottom": 100,
+      "padding_top_mobile": 25,
+      "padding_bottom_mobile": 25,
+      "visibility": "yes",
+      "visibility_mobile": "yes",
+      "margin": 0,
+      "margin_mobile": 0,
+      "block_id": 135522941,
+      "height": "screen",
+      "height_fixed": "500",
+      "height_screen": 30,
+      "height_mobile": "auto",
+      "height_fixed_mobile": "500",
+      "height_screen_mobile": "80",
+      "alignment_v": "flex-start",
+      "alignment_h": "center",
+      "alignment_v_mobile": "",
+      "alignment_h_mobile": "",
+      "block_color": "#e4e4e4",
+      "block_accent_color": "#aa8759",
+      "type": "collection-text-left-extra-right",
+      "template": "packages",
+      "in_menu": false,
+      "layout": "onecolumn",
+      "random_id": "350874film",
+      "columns": [
+        {
+          "title": "<h4><span style=\"font-size: 18px;\"><strong>FILM</strong></span></h4>",
+          "text": "<h4>Included:</h4><ul><li><span style='font-family: \"MS Serif\", \"New York\", sans-serif;'>Short film / wedding film</span></li><li><span style=\"font-family: MS Serif, New York, sans-serif;\">matched to the images</span></li><li><span style=\"font-family: MS Serif, New York, sans-serif;\">Extra Filmer</span></li><li><span style=\"font-family: MS Serif, New York, sans-serif;\"><span style=\"color: rgb(255, 255, 255); font-size: 14px;\">incl. one </span><span style=\"font-size: 14px;\"><span style=\"caret-color: rgb(255, 255, 255);\">change</span></span></span></li><li><span style='font-family: \"MS Serif\", \"New York\", sans-serif;'>6 hours of accompaniment</span></li></ul>",
+          "includes": "<p><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">We bring movement to your wedding memories!</span></p><p><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">We would be happy to accompany your wedding with our film camera and capture the big moments in a highlight of 2-3 minutes or a wedding film of 15 minutes </span><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">to be captured - in the same style and look as our pictures, of course!</span><br><br><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">Of course, I need the support of an experienced film partner who would be happy to accompany me to your wedding depending on the number of hours required.</span><br><br><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">If you are interested, I would be happy to give you more information about it.</span></p><h4><br></h4>",
+          "add_extras_text": "<h4>ADD EXTRAS</h4>",
+          "price": "<h2>ab 3800€</h2>",
+          "image": {
+            "url": "https://www.hochzeitsfotograf.tirol/wp-content/plugins/flo-pricing-tool/assets/admin/img/noimage-landscape-grey.png",
+            "width": "1024",
+            "height": "768"
+          },
+          "id": "974b073b-a01e-b120-595b-d267a357c21b",
+          "name": "FILM",
+          "slug": "69e7681c98984-film",
+          "price_clean": 3800,
+          "price_currency": "3800€"
+        }
+      ],
+      "name": "film",
+      "slug": "film"
+    },
+    {
+      "background": {
+        "image": "",
+        "scale": "cover",
+        "scale_mobile": "cover",
+        "position": "50% 61.150000000000006%",
+        "position_mobile": "50% 50%",
+        "overlay": {
+          "color": "#1D1D1D",
+          "opacity": 0
+        },
+        "mask_details": {
+          "x": 0.099,
+          "y": 0.273,
+          "width": 0.802,
+          "height": 0.677
+        },
+        "mask_details_mobile": {
+          "x": "",
+          "y": "",
+          "width": "",
+          "height": ""
+        },
+        "use_positioning": "no",
+        "limit_width": "no",
+        "color": "transparent"
+      },
+      "padding_top": 50,
+      "padding_bottom": 50,
+      "padding_top_mobile": 25,
+      "padding_bottom_mobile": 25,
+      "visibility": "yes",
+      "visibility_mobile": "yes",
+      "margin": 0,
+      "margin_mobile": 0,
+      "block_id": 394803201,
+      "height": "auto",
+      "height_fixed": "500",
+      "height_screen": "80",
+      "height_mobile": "auto",
+      "height_fixed_mobile": "500",
+      "height_screen_mobile": "80",
+      "alignment_v": "",
+      "alignment_h": "",
+      "alignment_v_mobile": "",
+      "alignment_h_mobile": "",
+      "block_color": "#e4e4e4",
+      "block_accent_color": "#aa8759",
+      "type": "package-1",
+      "template": "packages",
+      "in_menu": false,
+      "content_width": "",
+      "content_width_mobile": "",
+      "layout": "layout-1",
+      "random_id": "344304elopement",
+      "columns": [
+        {
+          "id": "1595950139920_0.7391044069330512",
+          "title": "",
+          "text": "",
+          "includes": "<h2><span style=\"color: rgb(170, 135, 89);\">ELOPEMENT</span></h2><p><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">As we think - the best definition of love between two people.<br>What could be nicer than confessing your love to each other at the top of a mountain or on a dreamy lake shore? We photograph this unforgettable moment for you.</span></p><p><br></p><h4><span style=\"color: rgb(170, 135, 89); font-size: 14px;\">INCLUDES:</span></h4><ul><li>Time is usually 3-4 hours of photography</li><li><span style='font-family: \"Trebuchet MS\", Helvetica, sans-serif;'>Location planning</span></li><li><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">Data storage medium with at least 200 edited images</span></li></ul><p><br></p><p>Do you need help with the organization?</p><p><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">With our The team from <a href=\"//www.mountain-elopemet.com\">www.mountain-elopemet.com</a> will be happy to help you!</span></p>",
+          "add_extras_text": "<h4>ADD EXTRAS</h4>",
+          "price": "<h2>3500€</h2>",
+          "image": {
+            "url": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2025/12/Blitzkneisser-Dolomites-Elopement-INSTA-28-scaled.jpg",
+            "width": 2560,
+            "height": 1707
+          },
+          "repeater": [],
+          "repeater_config": [],
+          "name": "ELOPEMENT",
+          "slug": "69e7681c989ab-elopement",
+          "price_clean": 3500,
+          "price_currency": "3500€"
+        }
+      ],
+      "name": "Elopement",
+      "slug": "elopement"
+    },
+    {
+      "background": {
+        "image": "",
+        "scale": "auto",
+        "scale_mobile": "auto",
+        "position": "0% 0%",
+        "position_mobile": "0% 0%",
+        "overlay": {
+          "color": "#1D1D1D",
+          "opacity": 100
+        },
+        "mask_details": {
+          "x": "",
+          "y": "",
+          "width": "",
+          "height": ""
+        },
+        "mask_details_mobile": {
+          "x": "",
+          "y": "",
+          "width": "",
+          "height": ""
+        },
+        "use_positioning": "no",
+        "limit_width": "no",
+        "color": "transparent"
+      },
+      "padding_top": 50,
+      "padding_bottom": 50,
+      "padding_top_mobile": 25,
+      "padding_bottom_mobile": 25,
+      "visibility": "yes",
+      "visibility_mobile": "yes",
+      "margin": 50,
+      "margin_mobile": 0,
+      "block_id": 474517089,
+      "height": "auto",
+      "height_fixed": "500",
+      "height_screen": "80",
+      "height_mobile": "auto",
+      "height_fixed_mobile": "500",
+      "height_screen_mobile": "80",
+      "alignment_v": "",
+      "alignment_h": "",
+      "alignment_v_mobile": "",
+      "alignment_h_mobile": "",
+      "block_color": "#e4e4e4",
+      "block_accent_color": "#aa8759",
+      "type": "slider-full-price-below",
+      "template": "packages",
+      "in_menu": false,
+      "layout": "onecolumn",
+      "random_id": "773466after-wedding",
+      "columns": [
+        {
+          "title": "<h2 >COLLECTION X</h2>",
+          "text": "",
+          "includes": "<h4><span style=\"font-size: 18px;\"><strong>Pre & AFTER WEDDING</strong></span></h4><p><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">If you want to enjoy your wedding day without stress or if you simply don't have time for a couple photo shoot on your big day, we recommend an after wedding shoot. We take spectacular pictures of you in a relaxed manner and without any time pressure, and the best thing is: we take the pictures wherever you want! At sunrise on an Alpine peak or at sunset on a mountain lake? Everything is possible! </span></p><p><br><br></p>",
+          "add_extras_text": "<h4>ADD EXTRAS</h4>",
+          "price": "<h2>1500€</h2>",
+          "image": {
+            "url": "https://www.hochzeitsfotograf.tirol/wp-content/plugins/flo-pricing-tool/assets/admin/img/noimage-landscape-grey.png",
+            "width": "1024",
+            "height": "768"
+          },
+          "id": "83c7a105-115f-f07a-5446-60361c674d1e",
+          "name": "COLLECTION X",
+          "slug": "69e7681c989b5-collection-x",
+          "price_clean": 1500,
+          "price_currency": "1500€"
+        }
+      ],
+      "name": "AFTER WEDDING",
+      "gallery": [
+        {
+          "url": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2018/09/Blitzkneisser-Foto-Hinterglemm-Hochzeit-715.jpg",
+          "id": 3789,
+          "width": 2048,
+          "height": 1365,
+          "preview": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2018/09/Blitzkneisser-Foto-Hinterglemm-Hochzeit-715-1024x683.jpg",
+          "text": "",
+          "text_position": "",
+          "text_background": ""
+        },
+        {
+          "url": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2018/12/Blitzkneisser-Photo-Mountain-Wedding-Tyrol-174.jpg",
+          "id": 3526,
+          "width": 2048,
+          "height": 1365,
+          "preview": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2018/12/Blitzkneisser-Photo-Mountain-Wedding-Tyrol-174-1024x683.jpg",
+          "text": "",
+          "text_position": "",
+          "text_background": ""
+        },
+        {
+          "url": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2017/12/Blitzkneisser-Wedding-Dress-Pragser-Wildsee-Italien-Hochzeit-Fotograf-Trento-Tirol-6.jpg",
+          "id": 859,
+          "width": 2000,
+          "height": 1333,
+          "preview": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2017/12/Blitzkneisser-Wedding-Dress-Pragser-Wildsee-Italien-Hochzeit-Fotograf-Trento-Tirol-6-1024x682.jpg",
+          "text": "",
+          "text_position": "",
+          "text_background": ""
+        },
+        {
+          "url": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2024/03/Blitzkneisser-Elopement-Dolomites-167-scaled.jpg",
+          "id": 27004,
+          "width": 2048,
+          "height": 1365,
+          "preview": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2024/03/Blitzkneisser-Elopement-Dolomites-167-1024x683.jpg",
+          "text": "",
+          "text_position": "",
+          "text_background": ""
+        },
+        {
+          "url": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2025/12/Blitzkneisser-Wedding-Dolomites-17-scaled.jpg",
+          "id": 27117,
+          "width": 2560,
+          "height": 1707,
+          "preview": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2025/12/Blitzkneisser-Wedding-Dolomites-17-1024x683.jpg",
+          "text": "",
+          "text_position": "",
+          "text_background": ""
+        },
+        {
+          "url": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2025/12/Blitzkneisser-Pre-Wedding-Dolomites-45-scaled.jpg",
+          "id": 27119,
+          "width": 2560,
+          "height": 1707,
+          "preview": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2025/12/Blitzkneisser-Pre-Wedding-Dolomites-45-1024x683.jpg",
+          "text": "",
+          "text_position": "",
+          "text_background": ""
+        },
+        {
+          "url": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2025/12/Blitzkneisser-Dolomites-Elopement-INSTA-28-scaled.jpg",
+          "id": 27121,
+          "width": 2560,
+          "height": 1707,
+          "preview": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2025/12/Blitzkneisser-Dolomites-Elopement-INSTA-28-1024x683.jpg",
+          "text": "",
+          "text_position": "",
+          "text_background": ""
+        },
+        {
+          "url": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2022/10/the-complete-guide-to-a-great-austrian-ski-resort-wedding-blitzkneisser-5.jpg",
+          "id": 26693,
+          "width": 1000,
+          "height": 666,
+          "preview": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2022/10/the-complete-guide-to-a-great-austrian-ski-resort-wedding-blitzkneisser-5.jpg",
+          "text": "",
+          "text_position": "",
+          "text_background": ""
+        },
+        {
+          "url": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2022/08/dolomites-elopement-guide-dos-and-donts-blitzkneisser-20.jpg",
+          "id": 26582,
+          "width": 1600,
+          "height": 1067,
+          "preview": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2022/08/dolomites-elopement-guide-dos-and-donts-blitzkneisser-20-1024x683.jpg",
+          "text": "",
+          "text_position": "",
+          "text_background": ""
+        }
+      ],
+      "slug": "after-wedding"
+    },
+    {
+      "background": {
+        "image": "",
+        "scale": "auto",
+        "scale_mobile": "auto",
+        "position": "0% 0%",
+        "position_mobile": "0% 0%",
+        "overlay": {
+          "color": "#1D1D1D",
+          "opacity": 100
+        },
+        "mask_details": {
+          "x": "",
+          "y": "",
+          "width": "",
+          "height": ""
+        },
+        "mask_details_mobile": {
+          "x": "",
+          "y": "",
+          "width": "",
+          "height": ""
+        },
+        "use_positioning": "no",
+        "limit_width": "no",
+        "color": "transparent"
+      },
+      "padding_top": 100,
+      "padding_bottom": 50,
+      "padding_top_mobile": 25,
+      "padding_bottom_mobile": 25,
+      "visibility": "yes",
+      "visibility_mobile": "yes",
+      "margin": 50,
+      "margin_mobile": 0,
+      "block_id": 202613232,
+      "height": "screen",
+      "height_fixed": "500",
+      "height_screen": 30,
+      "height_mobile": "auto",
+      "height_fixed_mobile": "500",
+      "height_screen_mobile": "80",
+      "alignment_v": "flex-start",
+      "alignment_h": "",
+      "alignment_v_mobile": "",
+      "alignment_h_mobile": "",
+      "block_color": "#e4e4e4",
+      "block_accent_color": "#aa8759",
+      "type": "includes-left-slider-right",
+      "template": "packages",
+      "in_menu": false,
+      "layout": "onecolumn",
+      "random_id": "217758fotobox",
+      "columns": [
+        {
+          "title": "<h4><span style=\"font-size: 18px;\"><strong>PHOTOBOX</strong></span></h4>",
+          "text": "<p><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">Of course, a funny souvenir for your guests should not be missing. This is exactly why we are happy to bring our photo box with us if you wish. In the cool strip format of 5x15cm, your guests' selfies are printed out immediately on site and can also be designed with a wedding date, name, logo and the desired colors.</span></p>",
+          "includes": "<h4>Included:</h4><ul><li><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">Panels</span></li><li><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">All printouts</span></li><li><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">Layout</span></li></ul>",
+          "add_extras_text": "<h4>ADD EXTRAS</h4>",
+          "price": "<h2><span style=\"color: rgb(170, 135, 89);\">800€</span></h2>",
+          "image": {
+            "url": "https://www.hochzeitsfotograf.tirol/wp-content/plugins/flo-pricing-tool/assets/admin/img/noimage-landscape-grey.png",
+            "width": "1024",
+            "height": "768"
+          },
+          "id": "4b3a3106-713c-8b65-6920-ebe72bc5a238",
+          "name": "PHOTO BOX",
+          "slug": "69e7681c989be-fotobox",
+          "price_clean": 800,
+          "price_currency": "800€"
+        }
+      ],
+      "name": "PHOTO BOX",
+      "gallery": [
+        {
+          "url": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2019/03/Homepage-Selfie.png",
+          "id": 3935,
+          "width": 1943,
+          "height": 2047,
+          "preview": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2019/03/Homepage-Selfie-972x1024.png",
+          "text": "",
+          "text_position": "",
+          "text_background": ""
+        }
+      ],
+      "slug": "fotobox"
+    },
+    {
+      "background": {
+        "image": "",
+        "scale": "auto",
+        "scale_mobile": "auto",
+        "position": "0% 0%",
+        "position_mobile": "0% 0%",
+        "overlay": {
+          "color": "#1D1D1D",
+          "opacity": 100
+        },
+        "mask_details": {
+          "x": "",
+          "y": "",
+          "width": "",
+          "height": ""
+        },
+        "mask_details_mobile": {
+          "x": "",
+          "y": "",
+          "width": "",
+          "height": ""
+        },
+        "use_positioning": "no",
+        "limit_width": "no",
+        "color": "transparent"
+      },
+      "padding_top": 50,
+      "padding_bottom": 0,
+      "padding_top_mobile": 25,
+      "padding_bottom_mobile": 25,
+      "visibility": "yes",
+      "visibility_mobile": "yes",
+      "margin": 0,
+      "margin_mobile": 0,
+      "block_id": 780256365,
+      "height": "auto",
+      "height_fixed": "500",
+      "height_screen": "80",
+      "height_mobile": "auto",
+      "height_fixed_mobile": "500",
+      "height_screen_mobile": "80",
+      "alignment_v": "",
+      "alignment_h": "",
+      "alignment_v_mobile": "",
+      "alignment_h_mobile": "",
+      "block_color": "#e4e4e4",
+      "block_accent_color": "#aa8759",
+      "type": "text-centered",
+      "template": "text-centered",
+      "in_menu": false,
+      "layout": "",
+      "random_id": "100707meist-gestellte-fragen",
+      "name": "Most frequently asked questions",
+      "text": "<h2 style=\"text-align: center;\">Most frequently asked questions</h2>",
+      "slug": "meist-gestellte-fragen"
+    },
+    {
+      "background": {
+        "image": "",
+        "scale": "auto",
+        "scale_mobile": "auto",
+        "position": "0% 0%",
+        "position_mobile": "0% 0%",
+        "overlay": {
+          "color": "#1D1D1D",
+          "opacity": 100
+        },
+        "mask_details": {
+          "x": "",
+          "y": "",
+          "width": "",
+          "height": ""
+        },
+        "mask_details_mobile": {
+          "x": "",
+          "y": "",
+          "width": "",
+          "height": ""
+        },
+        "use_positioning": "no",
+        "limit_width": "no",
+        "color": "transparent"
+      },
+      "padding_top": 0,
+      "padding_bottom": 10,
+      "padding_top_mobile": 25,
+      "padding_bottom_mobile": 25,
+      "visibility": "yes",
+      "visibility_mobile": "yes",
+      "margin": 0,
+      "margin_mobile": 0,
+      "block_id": 720406998,
+      "height": "screen",
+      "height_fixed": "500",
+      "height_screen": 30,
+      "height_mobile": "auto",
+      "height_fixed_mobile": "500",
+      "height_screen_mobile": "80",
+      "alignment_v": "",
+      "alignment_h": "",
+      "alignment_v_mobile": "",
+      "alignment_h_mobile": "",
+      "block_color": "#e4e4e4",
+      "block_accent_color": "#aa8759",
+      "type": "text-2columns",
+      "template": "text-columns",
+      "in_menu": false,
+      "layout": "",
+      "random_id": "78652413ad272",
+      "columns": [
+        {
+          "title": "<h2 >COLLECTION X</h2>",
+          "text": "<h4><span style=\"font-size: 18px;\">Bridal series</span></h4><p><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">In addition to the wedding reportage, we attach particular importance to the pictures with just the two of you.<br>The most beautiful light for this is in the evening, shortly before and after sunset. Of course, we don't want to leave your guests alone for an unnecessarily long time, the best time is between the first and second courses at dinner.</span></p><h4><span style=\"font-size: 18px; color: rgb(170, 135, 89);\">What do we do if it rains?</span></h4><p><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">We I don't want you to worry about the weather because you can't change it anyway :) We don't necessarily need nice weather or sunshine for our pictures. If it rains all day and we are not able to take pictures because of this, we can always do an after wedding shoot a few days after the wedding.</span></p><h4><span style=\"font-size: 18px; color: rgb(170, 135, 89); font-family: MarkPro-Medium;\">How do we get the pictures?</span></h4><p><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">Of course you get the best selection of images digitally and edited! We do not pass on any RAWs, only the highest quality images will be given to you. </font><br><br></p><h4><span style=\"font-size: 18px;\">Catering</span></h4><p>If you accompany me for at least 6 hours a day, I am of course very happy to receive lunch/dinner and drinks from you. It doesn't have to be the wedding menu, but you can provide a little refreshment.</p>",
+          "includes": "<h4>Includes:</h4>\n\t\t\t\n\t\t\t<ul>\n\t\t\t\t<li>Nulla porttitor accumsan</li>\n\t\t\t\t<li>Ipsum ulla porttitor accumsan</li>\n\t\t\t\t<li>Alteca dui posuere blandi</li>\n\t\t\t</ul>",
+          "add_extras_text": "<h4>ADD EXTRAS</h4>",
+          "price": "<h2 >5500</h2>",
+          "image": {
+            "url": "https://www.hochzeitsfotograf.tirol/wp-content/plugins/flo-pricing-tool/assets/admin/img/noimage-landscape-grey.png",
+            "width": "1024",
+            "height": "768"
+          },
+          "id": "af58be40-7a07-2590-7786-ed11c61aafb3"
+        },
+        {
+          "title": "<h2 >COLLECTION X</h2>",
+          "text": "<h4><span style=\"font-size: 18px; color: rgb(170, 135, 89);\">How do we pay you?</span></h4><p><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">You will receive an invoice, completely relaxed, after your wedding!</span></p><p><br></p><h4><span style=\"font-size: 18px;\">When do we get the pictures?</span></h4><p><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">We don't want to keep you waiting for months, so you will usually receive a link to your private online gallery within 3-4 weeks. (Available online for a maximum of 1 year!) However, we ask you to understand that it can sometimes take a little longer over the course of the season. We want to give your pictures the time they deserve!</span></p><h4><br></h4><h4><span style=\"font-size: 18px;\">Do you always come in pairs?</span></h4><p><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">Since we became parents, you can also book us alone - if you still want to book us as a double pack, that is Of course this is still possible. <br>Our employees can also be booked individually or with us.</span></p><p><br></p><h4><span style=\"font-size: 18px;\">*Number of photos?</span></h4><p>How many pictures you end up with depends on what is happening on site - a 3-hour meal cannot take as many pictures as the ceremony.<br>If possible, I always try to achieve the minimum - more pictures should be taken These are of course included free of charge!</p>",
+          "includes": "<h4>Includes:</h4>\n\t\t\t\n\t\t\t<ul>\n\t\t\t\t<li>Nulla porttitor accumsan</li>\n\t\t\t\t<li>Ipsum ulla porttitor accumsan</li>\n\t\t\t\t<li>Alteca dui posuere blandi</li>\n\t\t\t</ul>",
+          "add_extras_text": "<h4>ADD EXTRAS</h4>",
+          "price": "<h2 >5500</h2>",
+          "image": {
+            "url": "https://www.hochzeitsfotograf.tirol/wp-content/plugins/flo-pricing-tool/assets/admin/img/noimage-landscape-grey.png",
+            "width": "1024",
+            "height": "768"
+          },
+          "extras": [
+            {
+              "name": "<p>Extra options</p>",
+              "price": 0,
+              "id": "f18f78d0-7f12-c989-b029-6db3a7033338",
+              "name_clean": "Extra option",
+              "number": 1,
+              "min": 1,
+              "price_clean": 0,
+              "price_currency": "0€"
+            }
+          ],
+          "id": "a5374aeb-1dad-2b1c-38aa-c69a7893368e"
+        }
+      ],
+      "slug": "13ad272"
+    }
+  ],
+  "users": [],
+  "screenshot": "",
+  "feat": {
+    "url": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2022/12/Blitzkneisser-Wedding-Photo-Nordkette-125-scaled.jpg",
+    "width": "auto",
+    "height": "auto"
+  },
+  "header_placement": "above",
+  "stats": {
+    "2025": {
+      "12": {
+        "1": {
+          "desktop": 2,
+          "mobile": 4
+        },
+        "2": {
+          "desktop": 0,
+          "mobile": 9
+        },
+        "3": {
+          "desktop": 1,
+          "mobile": 3
+        },
+        "4": {
+          "desktop": 1,
+          "mobile": 2
+        },
+        "6": {
+          "desktop": 0,
+          "mobile": 1
+        },
+        "8": {
+          "desktop": 1,
+          "mobile": 0
+        },
+        "9": {
+          "desktop": 1,
+          "mobile": 2
+        },
+        "10": {
+          "desktop": 1,
+          "mobile": 0
+        },
+        "11": {
+          "desktop": 3,
+          "mobile": 1
+        },
+        "14": {
+          "desktop": 1,
+          "mobile": 0
+        },
+        "15": {
+          "desktop": 1,
+          "mobile": 0
+        }
+      }
+    },
+    "2026": {
+      "1": {
+        "1": {
+          "desktop": 1,
+          "mobile": 0
+        },
+        "2": {
+          "desktop": 0,
+          "mobile": 1
+        },
+        "7": {
+          "desktop": 0,
+          "mobile": 1
+        },
+        "20": {
+          "desktop": 2,
+          "mobile": 1
+        },
+        "21": {
+          "desktop": 0,
+          "mobile": 1
+        },
+        "28": {
+          "desktop": 0,
+          "mobile": 1
+        }
+      },
+      "2": {
+        "4": {
+          "desktop": 1,
+          "mobile": 2
+        },
+        "6": {
+          "desktop": 1,
+          "mobile": 1
+        },
+        "9": {
+          "desktop": 0,
+          "mobile": 1
+        },
+        "11": {
+          "desktop": 1,
+          "mobile": 0
+        },
+        "16": {
+          "desktop": 1,
+          "mobile": 2
+        },
+        "17": {
+          "desktop": 0,
+          "mobile": 1
+        },
+        "21": {
+          "desktop": 0,
+          "mobile": 1
+        },
+        "23": {
+          "desktop": 1,
+          "mobile": 0
+        }
+      },
+      "3": {
+        "1": {
+          "desktop": 1,
+          "mobile": 0
+        },
+        "3": {
+          "desktop": 4,
+          "mobile": 0
+        },
+        "5": {
+          "desktop": 1,
+          "mobile": 0
+        },
+        "6": {
+          "desktop": 1,
+          "mobile": 0
+        },
+        "8": {
+          "desktop": 1,
+          "mobile": 0
+        },
+        "9": {
+          "desktop": 1,
+          "mobile": 2
+        },
+        "11": {
+          "desktop": 1,
+          "mobile": 0
+        },
+        "17": {
+          "desktop": 1,
+          "mobile": 0
+        },
+        "23": {
+          "desktop": 2,
+          "mobile": 2
+        },
+        "24": {
+          "desktop": 0,
+          "mobile": 1
+        },
+        "25": {
+          "desktop": 0,
+          "mobile": 1
+        },
+        "26": {
+          "desktop": 1,
+          "mobile": 1
+        }
+      },
+      "4": {
+        "4": {
+          "desktop": 0,
+          "mobile": 1
+        },
+        "12": {
+          "desktop": 0,
+          "mobile": 1
+        },
+        "13": {
+          "desktop": 0,
+          "mobile": 1
+        },
+        "18": {
+          "desktop": 1,
+          "mobile": 0
+        },
+        "21": {
+          "desktop": 9,
+          "mobile": 0
+        }
+      }
+    }
+  },
+  "portfolio": "https://www.hochzeitsfotograf.tirol/portfolio/",
+  "facebook": "https://www.facebook.com/blitzkneisser.foto/",
+  "twitter": "https://twitter.com/blitzkneisser_",
+  "pinterest": "https://www.pinterest.de/blitz_kneisser/",
+  "instagram": "https://www.instagram.com/blitzkneisser_foto/",
+  "terms": "<h2 style=\"text-align: center;\"><span style=\"font-size: 48px;\">AGB&acute;s</span><strong>&nbsp;</strong></h2><p><strong>Vereinbarungen</strong></p><ol><li>Lieferung der Bilder in einer online Galerie in JPEG Format in hoher Aufl&ouml;sung, nachbearbeitet und optimiert, innerhalb von 4 Wochen nach dem Hochzeitstermin.</li><li><span style=\"font-family: Tahoma,Geneva,sans-serif;\">Der Auftragnehmer darf alle Bilder die w&auml;hrend der Hochzeit vom Auftragnehmer gemacht worden sind, und an den Auftraggeber &uuml;bergeben<br>worden sind, f&uuml;r Eigenwerbung verwenden (Schaufenster, Werbung, Website oder andere Publikationen). Selbstverst&auml;ndlich im Einklang mit dem h&ouml;chsten Standard und Einf&uuml;hlungsverm&ouml;gen. Die Bilder k&ouml;nnen ohne jegliche Verg&uuml;tungen an den Auftraggeber verwendet werden.</span></li><li><span style=\"font-family: Tahoma,Geneva,sans-serif;\">Abtretung der Nutzungsrechte an den Bildern f&uuml;r nichtkommerzielle Nutzung an den Auftraggeber. F&uuml;r kommerzielle Verwendung der fertigen Bildwerke (z.B. Werbung) wird das schriftliche Einverst&auml;ndnis des Auftragnehmers ben&ouml;tigt.</span></li><li><span style=\"font-family: Tahoma,Geneva,sans-serif;\">Mit der Unterzeichnung dieses Vertrages wird eine Vorauszahlung von 20 % des unten angegebenen Gesamtbetrags f&auml;llig, zahlbar innerhalb von 7 Tagen. <br>Erst mit Eingang dieser Vorauszahlung gilt der Termin f&uuml;r den Auftragnehmer als verbindlich. Der Restbetrag ist auf gleichen Wegen zahlbar, sp&auml;testens innerhalb 7 Tagen nach Erhalt der Rechnung.</span></li><li><span style=\"font-family: Tahoma,Geneva,sans-serif;\">Der Auftragnehmer erbringt alle Lieferungen und Leistungen ausschlie&szlig;lich auf der Grundlage dieser Allgemeinen Gesch&auml;ftsbedingungen. Diese sind Bestandteil der jeweils mit dem Kunden abgeschlossenen Vertr&auml;ge f&uuml;r Dienstleistungen.</span></li><li><span style=\"font-family: Tahoma,Geneva,sans-serif;\">Der Auftraggeber wird darauf hin gewiesen, dass Bilder stets dem k&uuml;nstlerischen Gestaltungsspielraum des Auftragnehmers unterliegen. Reklamationen und / oder M&auml;ngelr&uuml;gen hinsichtlich des vom Auftragnehmer ausge&uuml;bten k&uuml;nstlerischen Gestaltungsspielraums, des Aufnahmeortes und der verwendeten optischen und technischen Mittel der Fotografie sind ausgeschlossen. Nachtr&auml;gliche &Auml;nderungsw&uuml;nsche des Auftraggebers bed&uuml;rfen einer gesonderten Vereinbarung und Beauftragung und sind gesondert zu verg&uuml;ten.</span></li><li><span style=\"font-family: Tahoma,Geneva,sans-serif;\">Es kann nicht garantiert werden, dass alle bei einer Feier anwesenden Personen fotografiert werden. Der Auftragnehmer ist aber stets bem&uuml;ht dies zu erreichen, falls dies von Auftraggeber gew&uuml;nscht ist. Der Auftragnehmer wird sein bestes geben, alle Grundelemente der Vorbereitung, Trauung, Empfang, Hochzeitsfeier und den Paar- und Gruppenfotos zu fotografieren. Dies kann jedoch nicht als Garantie gelten, das spezifische Bilder oder Szenen aufgenommen werden.</span></li><li><span style=\"font-family: Tahoma,Geneva,sans-serif;\">W&auml;hrenddes Paar-und Gruppenfoto shootings sollten G&auml;ste des Auftraggebers nicht gleichzeitig fotografieren. Die fotografierten Personen werden dadurch abgelenkt und der Auftragnehmer kann keine sch&ouml;nen Paar- und Gruppenfotos machen. Der Auftragnehmer gibt den G&auml;sten des Auftraggebers M&ouml;glichkeit selber Fotos zu machen wenn er fertig ist.</span></li><li><span style=\"font-family: Tahoma,Geneva,sans-serif;\">Dem Auftragnehmer und seinen Erf&uuml;llungsgehilfen sind angemessene Pausen inkl. Verpflegung zu gew&auml;hren.</span></li><li><span style=\"font-family: Tahoma,Geneva,sans-serif;\">Der Auftragnehmer verpflichtet sich nicht zur dauerhaften Archivierung des Bildmaterials, sofern nicht ausdr&uuml;cklich abweichende Regelungen schriftlich vereinbart werden. Originaldateien, wie RAW-Dateien verbleiben beim Auftragnehmer.</span><br><br></li></ol><p><strong>Urheberrechte, Nutzungsrechte, Eigenwerbung</strong></p><p><span style=\"font-family: Tahoma,Geneva,sans-serif;\"><br></span></p><ol><li><span style=\"font-family: Tahoma,Geneva,sans-serif;\">Dem Auftragnehmer steht das Urheberrecht an den Bildern nach Ma&szlig;gabe des Urheberrechts zu.</span></li><li><span style=\"font-family: Tahoma,Geneva,sans-serif;\">Der Auftraggeber erwirbt an den Bildern Nutzungsrechte f&uuml;r den nichtkommerziellen Gebrauch. Das Recht der Vervielf&auml;ltigung und der Weitergabe an Dritte wird f&uuml;r nichtkommerzielle Zwecke einger&auml;umt. Eine kommerzielle Nutzung ist nicht gestattet und erfordert eine schriftliche Zustimmung des Auftragnehmers. Eigentumsrechte werden nicht &uuml;bertragen. Die Nutzungsrechte gehen erst nach vollst&auml;ndiger Bezahlung des Honorars an den Auftraggeber &uuml;ber.</span></li><li><span style=\"font-family: Tahoma,Geneva,sans-serif;\">Der Auftragnehmer darf die Bilder im Rahmen seiner Eigenwerbung und publizistisch zur Illustration verwenden (z.B. f&uuml;r Ausstellungen, Messen, Homepage, Blog, Fachmagazine f&uuml;r Fotografie oder Hochzeiten etc.).</span></li></ol><p><br></p><p><strong>Honorare</strong></p><p><span style=\"font-family: Tahoma,Geneva,sans-serif;\"><br></span></p><ol><li><span style=\"font-family: Tahoma,Geneva,sans-serif;\">Das Honorar f&uuml;r den Auftrag entspricht der im Gesamtbetrag aufgef&uuml;hrten Summe. Mit der Unterzeichnung dieses Vertrages wird die Reservierungsgeb&uuml;hr innerhalb von 7 Tagen in bar oder per &Uuml;berweisung f&auml;llig. <br>Das vereinbarte Honorar des Auftragnehmers ist nach Beendigung des Auftrages, sp&auml;testens 2 Wochen danach in bar oder per &Uuml;berweisung f&auml;llig.</span></li><li><span style=\"font-family: Tahoma,Geneva,sans-serif;\">Nach einer Mahnung kommt der Auftraggeber in Verzug. Nach Eintritt des Verzugs ist das Honorar mit 10% p.a. zu verzinsen. Eine Aufrechnung oder die Aus&uuml;bung des Zur&uuml;ckbehaltungsrechts ist nur gegen&uuml;ber unbestrittenen oder rechtskr&auml;ftig festgestellten Forderungen des Auftraggebers zul&auml;ssig. Mahnspesen und die Kosten (auch au&szlig;ergerichtlicher) anwaltlicher Interventionen gehen zu Lasten des Auftraggebers.</span></li><li><span style=\"font-family: Tahoma,Geneva,sans-serif;\">Bis zur vollst&auml;ndig en Bezahlung des Honorars bleiben Nutzungsrechte f&uuml;r die gelieferten Bilder und Eigentumsrechte f&uuml;r sonstige Waren (z.B. Fotobuch, etc.) beim Auftragnehmer.</span></li><li><span style=\"font-family: Tahoma,Geneva,sans-serif;\">Rabatte jeglicher Form sind nicht &uuml;bertragbar, auszahlbar oder kombinierbar.</span></li><li><span style=\"font-family: Tahoma,Geneva,sans-serif;\">W&uuml;nscht der Auftraggeber w&auml;hrend oder nach der Aufnahmeproduktion &Auml;nderungen, so hat er die Mehrkosten zu tragen. Der Auftragnehmer beh&auml;lt den Verg&uuml;tungs- Anspruch f&uuml;r bereits begonnene Arbeiten.</span></li><li><span style=\"font-family: Tahoma,Geneva,sans-serif;\">F&uuml;r eine spontane Verl&auml;ngerung der Aufnahmeproduktionen auf ausdr&uuml;cklichen Wunsch den Auftraggebers, wird ein Honorar von &euro; 200.- pro Fotograf f&uuml;r jede angefangene Verl&auml;ngerungsstunde berechnet, insofern hierzu keine andere schriftliche Vereinbarung vor Auftragsbeginn getroffen wurde.</span></li><li><span style=\"font-family: Tahoma,Geneva,sans-serif;\">Verz&ouml;gert sich die Durchf&uuml;hrung des Auftrags aus Gr&uuml;nden, die der Auftraggeber zu vertreten hat oder infolge h&ouml;herer Gewalt wie z.B. Witterungseinfl&uuml;ssen, so kann der Auftragnehmer eine angemessene Erh&ouml;hung des Honorars zu 1/12 des Reportagesatzes f&uuml;r jede angefangene Verl&auml;ngerungsstunde verlangen. Bei Vorsatz oder grober Fahrl&auml;ssigkeit des Auftraggebers kann er auch Schadenersatzanspr&uuml;che geltend machen.</span></li><li><span style=\"font-family: Tahoma,Geneva,sans-serif;\">Tritt der Auftraggeber vor dem vereinbarten Termin vom Vertrag zur&uuml;ck, so sind 50% des vereinbarten Honorars als Ausfallhonorar an den Auftragnehmer zu zahlen. Gesetzliche R&uuml;cktrittsrechte bleiben von dieser Regelung unber&uuml;hrt. Bereits gezahlte Anzahlungen werden bei Vetragsr&uuml;cktritt oder Nichteinhaltung des Termins (z.B abgesagte Hochzeit) nicht erstattet.</span></li></ol><p><br></p><p><strong>Reisekosten, sonstige Kosten</strong></p><p><span style=\"font-family: Tahoma,Geneva,sans-serif;\"><br></span></p><ol><li><span style=\"font-family: Tahoma,Geneva,sans-serif;\">&Uuml;ber steigt die An-undAbreise des Auftragnehmers den zuvor vereinbarten Umfang (Reisepauschale) oder wurde keine anders lautende schriftliche Vereinbarung getroffen, werden folgende Reisekosten berechnet: je gefahrenem Kilometer &euro; 0,50, zzgl. je Stunde Fahrtzeit &euro; 40,-. Bei Anreise mit der Bahn oder dem Flugzeug, sowie bei erforderlicher &Uuml;bernachtung werden die tats&auml;chlich entstandenen Kosten oder Spesen (gegen Beleg) in Rechnung gestellt. Der Auftraggeber hat keinen Anspruch auf die Wahl eines bestimmten Verkehrsmittels f&uuml;r die An- und Abreise oder Wahl eines bestimmten Hotels f&uuml;r die &Uuml;bernachtung.</span></li></ol><p><br></p><p><strong>Haftung</strong></p><p><span style=\"font-family: Tahoma,Geneva,sans-serif;\"><br></span></p><ol><li><span style=\"font-family: Tahoma,Geneva,sans-serif;\">Gegen den Auftragnehmer gerichtete Schadenersatz Anspr&uuml;che aus Verzug, Unm&ouml;glichkeit der Leistung, Verletzung von gesetzlichen und / oder vertraglichen Neben- und Schutzpflichten bei Vertragsabschluss sind ausgeschlossen, soweit der Schaden nicht durch vors&auml;tzliches Verhalten des Auftragnehmers oder seiner Erf&uuml;llungsgehilfen verursacht worden ist. Die Organisation, Vergabe und Ausf&uuml;hrung von Auftr&auml;gen geschieht mit sorgf&auml;ltiger Planung. Sollte jedoch aufgrund besonderer Umst&auml;nde, wie z.B. pl&ouml;tzlicher Krankheit (auch von Familienangeh&ouml;rigen des Auftragnehmers), Verkehrsunfall, Umwelteinfl&uuml;sse, Verkehrsst&ouml;rungen etc. der Auftragnehmer zu dem vereinbarten Fototermin nicht erscheinen k&ouml;nnen, wird keine Haftung f&uuml;r jegliche daraus resultierenden Sch&auml;den, Verluste oder Folgen &uuml;bernommen. Sollte es aufgrund h&ouml;herer Gewalt zum Ausfall des Auftragnehmers kommen, bem&uuml;ht sich dieser (soweit erw&uuml;nscht) um einen Ersatzfotografen, der auf eigene Rechnung Leistungen erbringt. Eventuelle Mehrkosten des beauftragten Ersatzfotografen gehen nicht zu Lasten des Auftragnehmers.</span></li><li><span style=\"font-family: Tahoma,Geneva,sans-serif;\">Der Auftragnehmer haftet nicht f&uuml;r den Verlust von gespeicherten Daten und digitalen Daten. Der Auftragnehmer ist berechtigt, f&uuml;r die gew&uuml;nschte Erstellung von Material wie Fotob&uuml;chern etc. Fremdlabore, Fotobuchhersteller etc. zu beauftragen. &Uuml;ber den Materialwert hinausgehender Schadensersatz ist ausgeschlossen.</span></li><li><span style=\"font-family: Tahoma,Geneva,sans-serif;\">Beanstandungen, gleich welcher Art, sind innerhalb von 14 Tagen nach &Uuml;bergabe der Bilder bzw. des Werkes schriftlich beim Auftragnehmer einzureichen. Danach gelten die Bilder oder Werke als vertragsgem&auml;&szlig; und m&auml;ngelfrei abgenommen.</span></li><li><span style=\"font-family: Tahoma,Geneva,sans-serif;\">Bei Reproduktionen, Nachbestellungen und Vergr&ouml;&szlig;erungen k&ouml;nnen sich Farbdifferenzen gegen&uuml;ber der Vorlage oder den Erstbildern ergeben. Farbdifferenzen k&ouml;nnen auch bei Bildabz&uuml;gen und Drucken jeder Art auftreten, die aus einer digitalen Datei erstellt wurden. Dies ist kein Fehler des Werkes und eine Reklamation ist hierdurch nicht berechtigt.</span></li><li><span style=\"font-family: Tahoma,Geneva,sans-serif;\">Liefertermine f&uuml;r Bilder sind nur dann verbindlich, wenn sie schriftlich vom Auftragnehmer best&auml;tigt worden sind.</span></li></ol><p><br></p><p><br><strong>Datenschutz DSGVO</strong></p><p><span style=\"font-family: Tahoma,Geneva,sans-serif;\"><br></span></p><ol><li><span style=\"font-family: Tahoma,Geneva,sans-serif;\">Zum Gesch&auml;ftsverkehr erforderliche personenbezogene Daten des Auftraggebers k&ouml;nnen gespeichert werden. Der Auftragnehmer verpflichtet sich, alle ihm im Rahmen des Auftrages bekannt gewordenen Informationen und Daten vertraulich zu behandeln.</span></li></ol><p><br></p><p><br><strong>Schlussbestimmungen</strong></p><p><span style=\"font-family: Tahoma,Geneva,sans-serif;\"><br></span></p><ol><li><span style=\"font-family: Tahoma,Geneva,sans-serif;\">Es gilt das Recht der Bundesrepublik &Ouml;sterreich, auch bei Lieferungen und Ver&ouml;ffentlichungen im Ausland. F&uuml;r alle nicht in diesen AGB geregelten Punkten, tritt die gesetzliche Regelung in Kraft. der Gerichtsstand ist der Sitz des Auftragnehmers.</span></li><li><span style=\"font-family: Tahoma,Geneva,sans-serif;\">Nebenarbeiten zum Vertrag oder zu diesen AGB bed&uuml;rfen zu ihrer Wirksamkeitder Schriftform.</span></li><li><span style=\"font-family: Tahoma,Geneva,sans-serif;\">Die etwaige Nichtigkeit bzw. Unwirksamkeit einer oder mehrerer Bestimmungen dieser AGB ber&uuml;hrt nicht die Wirksamkeit der &uuml;brigen Bestimmungen.</span><br><br><br></li></ol><p style=\"text-align: justify;\"><strong>Alle Preise sind ab erhalten des Angebotes 14 Tage g&uuml;ltig</strong></p>",
+  "footer": {
+    "background": {
+      "image": "",
+      "scale": "contain",
+      "scale_mobile": "auto",
+      "position": "50% 0%",
+      "position_mobile": "0% 0%",
+      "overlay": {
+        "color": "#ffffff",
+        "opacity": 100
+      },
+      "mask_details": {
+        "x": "",
+        "y": "",
+        "width": "",
+        "height": ""
+      },
+      "mask_details_mobile": {
+        "x": "",
+        "y": "",
+        "width": "",
+        "height": ""
+      },
+      "use_positioning": "no",
+      "limit_width": "no",
+      "color": "transparent"
+    },
+    "padding_top": "50",
+    "padding_bottom": "50",
+    "padding_top_mobile": 40,
+    "padding_bottom_mobile": 40,
+    "visibility": "yes",
+    "visibility_mobile": "yes",
+    "margin": 0,
+    "margin_mobile": 0,
+    "block_id": "c0791f7",
+    "height": "fixed",
+    "height_fixed": "50",
+    "height_screen": 44,
+    "height_mobile": "auto",
+    "height_fixed_mobile": "500",
+    "height_screen_mobile": "80",
+    "alignment_v": "",
+    "alignment_h": "",
+    "alignment_v_mobile": "",
+    "alignment_h_mobile": "",
+    "block_color": "",
+    "block_accent_color": "",
+    "type": "footer",
+    "template": "footer",
+    "logo": {
+      "url": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2017/09/Logo-Blitzkneisser-2017-HG-dunkel.png",
+      "width": 159,
+      "height": 81
+    },
+    "text": "<p style=\"text-align: center;\"><span style=\"color: rgb(0, 0, 0);\">Copyright ©2018  ×  Photos by Blitzkneisser</span></p>",
+    "$$hashKey": "footer_hash"
+  },
+  "password": "",
+  "custom_css": "h1 span, h2 span, h3 span {\n    display: inline-block;\n}",
+  "menu": {
+    "all": [
+      {
+        "name": "About Us",
+        "slug": "about-us",
+        "url": "#about-us"
+      },
+      {
+        "name": "Destination wedding",
+        "slug": "destination-wedding",
+        "url": "#destination-wedding"
+      },
+      {
+        "name": "PACKAGES2",
+        "slug": "packages2",
+        "url": "#packages2"
+      },
+      {
+        "name": "ADDITIONAL HOURS",
+        "slug": "zusatz-stunden",
+        "url": "#zusatz-stunden"
+      },
+      {
+        "name": "Film",
+        "slug": "fim",
+        "url": "#fim"
+      },
+      {
+        "name": "PHOTO BOX",
+        "slug": "fotobox",
+        "url": "#fotobox"
+      },
+      {
+        "slug": "inquiry",
+        "url": "#inquiry",
+        "name": "Inquiry"
+      }
+    ],
+    "left": [
+      {
+        "name": "About Us",
+        "slug": "about-us",
+        "url": "#about-us"
+      },
+      {
+        "name": "Destination wedding",
+        "slug": "destination-wedding",
+        "url": "#destination-wedding"
+      },
+      {
+        "name": "PACKAGES2",
+        "slug": "packages2",
+        "url": "#packages2"
+      }
+    ],
+    "right": [
+      {
+        "name": "ADDITIONAL HOURS",
+        "slug": "zusatz-stunden",
+        "url": "#zusatz-stunden"
+      },
+      {
+        "name": "Film",
+        "slug": "fim",
+        "url": "#fim"
+      },
+      {
+        "name": "PHOTO BOX",
+        "slug": "fotobox",
+        "url": "#fotobox"
+      },
+      {
+        "slug": "inquiry",
+        "url": "#inquiry",
+        "name": "Inquiry"
+      }
+    ]
+  },
+  "inquiry_form": {
+    "types": [
+      {
+        "id": "text",
+        "name": "Text Field"
+      },
+      {
+        "id": "textarea",
+        "name": "Text Area"
+      },
+      {
+        "id": "email",
+        "name": "E-mail"
+      },
+      {
+        "id": "checkbox",
+        "name": "Checkbox"
+      },
+      {
+        "id": "select",
+        "name": "Select"
+      },
+      {
+        "id": "radiobutton",
+        "name": "radio"
+      },
+      {
+        "id": "date",
+        "name": "Date"
+      },
+      {
+        "id": "location",
+        "name": "Location"
+      },
+      {
+        "id": "hidden",
+        "name": "Hidden"
+      }
+    ],
+    "inputs": [
+      {
+        "label": "",
+        "type": "text",
+        "required": "yes",
+        "id": "name",
+        "name": "Bride's name *",
+        "options": [],
+        "placeholder": "Bride's name*",
+        "icon": "https://www.hochzeitsfotograf.tirol/wp-content/plugins/flo-pricing-tool/assets/admin/img/icon-blank.png",
+        "unique_key": 100000000010,
+        "row": "1",
+        "css_class": "",
+        "paragraph": "",
+        "width": "100"
+      },
+      {
+        "label": "",
+        "type": "text",
+        "required": "yes",
+        "id": "text_24161",
+        "placeholder": "Groom's name*",
+        "name": "Groom's name*",
+        "options": [],
+        "icon": "https://www.hochzeitsfotograf.tirol/wp-content/plugins/flo-pricing-tool/assets/admin/img/icon-blank.png",
+        "unique_key": 261317054,
+        "row": "2",
+        "css_class": "",
+        "paragraph": "",
+        "width": "100"
+      },
+      {
+        "label": "",
+        "type": "email",
+        "required": "yes",
+        "id": "email",
+        "name": "E-mail",
+        "options": [],
+        "icon": "https://www.hochzeitsfotograf.tirol/wp-content/plugins/flo-pricing-tool/assets/admin/img/icon-envelope.png",
+        "placeholder": "Email *",
+        "unique_key": 100000000011,
+        "row": "3",
+        "css_class": "",
+        "paragraph": "",
+        "width": "100"
+      },
+      {
+        "label": "",
+        "type": "date",
+        "required": "no",
+        "id": "date",
+        "name": "Date",
+        "options": [],
+        "icon": "https://www.hochzeitsfotograf.tirol/wp-content/plugins/flo-pricing-tool/assets/admin/img/icon-event-date.png",
+        "placeholder": "Date",
+        "unique_key": 100000000012,
+        "row": "4",
+        "css_class": "",
+        "paragraph": "",
+        "width": "50"
+      },
+      {
+        "label": "",
+        "type": "location",
+        "required": "no",
+        "id": "location",
+        "name": "Location",
+        "options": [],
+        "icon": "https://www.hochzeitsfotograf.tirol/wp-content/plugins/flo-pricing-tool/assets/admin/img/icon-location.png",
+        "placeholder": "Location",
+        "unique_key": 100000000013,
+        "row": "4",
+        "css_class": "",
+        "paragraph": "",
+        "width": "50"
+      },
+      {
+        "label": "",
+        "type": "text",
+        "required": "no",
+        "id": "text_87661",
+        "placeholder": "Number of guests",
+        "name": "Number of guests",
+        "options": [],
+        "icon": "https://www.hochzeitsfotograf.tirol/wp-content/plugins/flo-pricing-tool/assets/admin/img/icon-blank.png",
+        "unique_key": 541253122,
+        "row": "5",
+        "css_class": "",
+        "paragraph": "",
+        "width": ""
+      },
+      {
+        "label": "",
+        "type": "select",
+        "required": "no",
+        "id": "select_14901",
+        "placeholder": "Type of wedding",
+        "name": "Type of wedding",
+        "options": [
+          "registry office",
+          "Church wedding",
+          "Free wedding ceremony",
+          "Destination wedding"
+        ],
+        "icon": "https://www.hochzeitsfotograf.tirol/wp-content/plugins/flo-pricing-tool/assets/admin/img/icon-blank.png",
+        "unique_key": 185982001,
+        "row": "6",
+        "css_class": "",
+        "paragraph": "",
+        "width": ""
+      },
+      {
+        "label": "",
+        "type": "textarea",
+        "required": "no",
+        "id": "textarea_41921",
+        "placeholder": "Your story",
+        "name": "Your story",
+        "options": [],
+        "icon": "https://www.hochzeitsfotograf.tirol/wp-content/plugins/flo-pricing-tool/assets/admin/img/icon-message.png",
+        "unique_key": 642080288,
+        "row": "7",
+        "css_class": "",
+        "paragraph": "",
+        "width": ""
+      },
+      {
+        "label": "",
+        "type": "text",
+        "required": "no",
+        "id": "text_81",
+        "placeholder": "How can we find you on Facebook or Instagram?",
+        "name": "Can we also follow you on social networks?",
+        "options": [],
+        "icon": "https://www.hochzeitsfotograf.tirol/wp-content/plugins/flo-pricing-tool/assets/admin/img/icon-blank.png",
+        "unique_key": 418930949,
+        "row": "8",
+        "css_class": "",
+        "paragraph": "",
+        "width": ""
+      }
+    ],
+    "settings": {
+      "background": {
+        "color": "transparent",
+        "image": "",
+        "overlay": {
+          "opacity": 100,
+          "color": "#1D1D1D"
+        },
+        "position": "0% 0%",
+        "position_mobile": "0% 0%",
+        "scale": "auto",
+        "scale_mobile": "auto"
+      },
+      "in_menu": true,
+      "margin": 0,
+      "name": "contact",
+      "padding_bottom": 50,
+      "padding_top": 50,
+      "padding_bottom_mobile": 50,
+      "padding_top_mobile": 50,
+      "slug": "",
+      "template": "",
+      "show_icons": "no",
+      "show_labels": "yes",
+      "show_terms": "yes",
+      "label_color": "#ffffff",
+      "heading_color": "#948168",
+      "placeholder_color": "#949494",
+      "input_color": "#ffffff",
+      "field_border_color": "#FFFFFF",
+      "field_style": "rounded",
+      "layout": "layout_4",
+      "button_shape": "pill",
+      "button_style": "outline",
+      "button_bgr": "#AA8759",
+      "button_text_color": "#ffffff",
+      "thanks_checkbox": "no",
+      "thanks_headline": "THANKS",
+      "thanks_msg": "We are already looking forward to getting to know you in person or on Skype",
+      "thanks_download_ops": "no",
+      "thanks_socials": "yes",
+      "i_agree_text": "We agree to the <a ng-click=\"openTerms()\">Terms and Conditions</a>.",
+      "terms_text": "Terms and Conditions",
+      "submit_text": "SEND",
+      "title": "<h2 style=\"text-align:center; margin: 0px;\">May we accompany you?</h2><p style=\"text-align:center;\">We would be very happy to be a part of your big day.<br>Please let us be involved as much as possible - so that we can capture all the special moments...</p><p style=\"text-align:center;\"><br></p>"
+    },
+    "input_defaults": {
+      "label": "",
+      "type": "text",
+      "required": "no",
+      "id": "text_52461",
+      "placeholder": "Some text in here",
+      "name": "Proper name for the text",
+      "options": [],
+      "icon": "https://www.hochzeitsfotograf.tirol/wp-content/plugins/flo-pricing-tool/assets/admin/img/icon-blank.png",
+      "unique_key": 815066916,
+      "row": "",
+      "css_class": "",
+      "paragraph": ""
+    }
+  },
+  "integrations": {
+    "tave": [],
+    "shootq": [],
+    "pixifi": []
+  },
+  "language": "en_US",
+  "subtitle": "Preisliste 26/27",
+  "palette": [
+    "#1ABC9C",
+    "#54ACD2",
+    "#2C82C9",
+    "#9365B8",
+    "#475577",
+    "#CCCCCC",
+    "#41A85F",
+    "#00A885",
+    "#3D8EB9",
+    "#2969B0",
+    "#553982",
+    "#28324E",
+    "#000000",
+    "#F7DA64",
+    "#FBA026",
+    "#EB6B56",
+    "#E25041",
+    "#A38F84",
+    "#EFEFEF",
+    "#FFFFFF",
+    "#FAC51C",
+    "#F37934",
+    "#D14841",
+    "#B8312F",
+    "#7C706B",
+    "#D1D5D8",
+    "#AA8759",
+    "#1D1D1D",
+    "REMOVE"
+  ],
+  "post_type": "flopricing",
+  "status": "publish",
+  "id": 27112,
+  "featured_image": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2022/12/Blitzkneisser-Wedding-Photo-Nordkette-125-scaled.jpg",
+  "has_access": true
+}

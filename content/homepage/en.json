@@ -1,0 +1,167 @@
+{
+  "metaTitle": "Wedding Photographer Tyrol & Dolomites | Elopement Photographer",
+  "metaDescription": "Wedding photographer and elopement photographer for Tyrol, Innsbruck and the Dolomites. Calm, emotional mountain wedding stories.",
+  "featuredImage": "",
+  "featuredImageAlt": "",
+  "heroImages": [
+    {
+      "image": "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14.jpg",
+      "alt": "Winterhochzeit in den Alpen bei Schneefall, lachende Braut mit Regenschirm, dramatischer Wetterumschwung mit starkem Wind auf einer Alm",
+      "altEn": "Winter wedding in the Alps with snowfall, laughing bride with umbrella, dramatic change in weather with strong wind on an alpine pasture"
+    },
+    {
+      "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-7.jpg",
+      "alt": "Hochzeitspaar steigt gerade aus dem Hubschrauber aus. Traumhaft schönes Wetter mitten in den Dolomiten\n",
+      "altEn": "The wedding couple is getting out of the helicopter. Fantastically beautiful weather in the middle of the Dolomites"
+    },
+    {
+      "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-21.jpg",
+      "alt": "Brautpaar beim Skifahren bei sonnigem Wetter, lachend und voller Freude\n",
+      "altEn": "Newlyweds skiing in sunny weather, laughing and full of joy"
+    },
+    {
+      "image": "/assets/uploads/Blitzkneisser-Proposal-Dolomites-177.jpg",
+      "alt": "Küssendes Brautpaar in inniger, romantischer Stimmung",
+      "altEn": "Kissing bride and groom in an intimate, romantic mood"
+    },
+    {
+      "image": "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-2.jpg",
+      "alt": "Die Braut stand strahlend vor den imposanten Drei Zinnen, umgeben von ihrer fröhlichen Hochzeitsgesellschaft. Mit coolen Sonnenbrillen, guter Stimmung und dem Panorama der Berge entstand ein Moment voller Leichtigkeit, Stil und unvergesslicher Erinnerungen.",
+      "altEn": "The bride stood beaming in front of the impressive Three Peaks, surrounded by her happy wedding party. With cool sunglasses, a good atmosphere and the panorama of the mountains, a moment was created full of lightness, style and unforgettable memories."
+    },
+    {
+      "image": "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-360.jpg",
+      "alt": "Braut mit lässig verschränkten Beinen in einer coolen Pose, während die Sonne warm von hinten durch die Berge strahlte. Der Bräutigam saß entspannt mit seinem Snowboard am Boden und blickte sie liebevoll an – ein Moment voller Freiheit, Stil und echter Verbundenheit.",
+      "altEn": "Bride with casually crossed legs in a cool pose while the sun shone warmly through the mountains from behind. The groom sat relaxed on the ground with his snowboard and looked at her lovingly - a moment full of freedom, style and real connection."
+    }
+  ],
+  "hero": {
+    "eyebrow": "Blitzkneisser",
+    "title": "REAL MOMENTS IN THE MOUNTAINS",
+    "copy": "Elegant, calm and emotional reports for weddings in North and South Tyrol",
+    "primaryCta": "Inquiry",
+    "secondaryCta": "Journal/Blog"
+  },
+  "about": {
+    "title": "MODERN WEDDING REPORTS IN THE ALPS",
+    "metaLabelStudio": "Studio",
+    "metaStudio": "Blitzkneisser Photography",
+    "metaLabelName": "Name",
+    "metaName": "Andreas Kiss",
+    "metaLabelLocation": "Based in",
+    "metaLocation": "Innsbruck, Tyrol",
+    "metaLabelEmail": "Email",
+    "metaEmail": "foto@blitzkneisser.com",
+    "metaLabelPhone": "Phone",
+    "metaPhone": "+43 664/3918228",
+    "copy1": "Between mountains, light and space, wedding pictures are created in the Tyrolean Alps that appear calm, remain authentic and tell your story sensitively.",
+    "copy2": "I live and work in Innsbruck and know many special places in Tyrol and the Alps where intimate weddings, elopements and quiet couple moments unfold their own magic. My focus is on uniting the quiet power of the mountains with your connection - for images that feel light and deeply touching at the same time.",
+    "copy3": "For me it's about every single moment - and at the same time about telling your day as a coherent, emotional story. Every report should have closeness, calm, light and personality - modern, emotional and without any artificial staging.",
+    "copy4": "If you are planning your wedding or elopement in Tyrol, I will accompany you from the first thought to the quiet and big moments of your day. This creates images that not only preserve memories, but also make your wedding in the mountains tangible years later."
+  },
+  "journal": {
+    "eyebrow": "Journal",
+    "title": "Natural stories",
+    "link": "View all posts"
+  },
+  "portfolio": {
+    "eyebrow": "Portfolio",
+    "title": "Real moments"
+  },
+  "portfolioGallery": [],
+  "services": {
+    "title": "Couple shoots, weddings and civil ceremonies with space for truly unforgettable moments",
+    "weddings": {
+      "title": "Ganztagesreportagen in Tirol und den Alpen",
+      "copy": "Blitzkneisser",
+      "highlights": [
+        "Getting Ready bis Abendstimmung",
+        "Guidance fuer Portraits mit Leichtigkeit",
+        "Online Galerie und Slideshow"
+      ]
+    },
+    "elopements": {
+      "title": "Intime Berghochzeiten und Elopements",
+      "copy": "Blitzkneisser\n",
+      "highlights": [
+        "Location Ideen in Tirol, Innsbruck und Dolomiten",
+        "Timeline Hilfe fuer Licht und Ablauf",
+        "Wetterfeste Planung und Reisebegleitung"
+      ]
+    }
+  },
+  "faq": [
+    {
+      "question": "Do you photograph weddings and elopements throughout Tyrol?",
+      "answer": "Yes. I photograph weddings mainly in North and South Tyrol but also throughout Europe."
+    },
+    {
+      "question": "How early should we reach out?",
+      "answer": "For popular summer and fall dates, ideally 9 to 12 months in advance, but we can also find a date for those who decide quickly."
+    },
+    {
+      "question": "How many hours of coverage are possible?",
+      "answer": "I accompany both intimate civil weddings with a shorter framework and all-day weddings. The exact duration depends on your routine, your plans and what really feels right for the day."
+    },
+    {
+      "question": "Do you help with locations and timing?",
+      "answer": "Yes. Especially for elopements and mountain weddings, I am happy to help with locations, light, timing and a timeline that feels calm while still working smoothly."
+    },
+    {
+      "question": "What happens if the weather changes in the mountains?",
+      "answer": "In Tyrol and across the Alps, I always plan with alternatives in mind. Mountain weather can shift quickly, so I think through backup locations, flexible timing and quieter options from the start."
+    },
+    {
+      "question": "How many images will we receive?",
+      "answer": "That depends on the length and rhythm of the day. Larger weddings usually result in a more extensive gallery, while elopements are often smaller but very focused. What matters most to me is delivering a complete and coherent story."
+    },
+    {
+      "question": "When will we receive our photographs?",
+      "answer": "You will receive a preview shortly after the wedding. The full gallery is delivered carefully edited within a few weeks, depending on the season and the scope of coverage."
+    },
+    {
+      "question": "Are all images edited?",
+      "answer": "Yes. Every image you receive is carefully selected and edited in my style. The result stays natural, calm and timeless, without heavy or artificial effects."
+    },
+    {
+      "question": "Do we receive an online gallery?",
+      "answer": "Yes. You will receive your photographs in a private online gallery that is easy to share with family and friends. It allows you to view, download and revisit the images with ease."
+    },
+    {
+      "question": "Can we order albums or fine art prints through you?",
+      "answer": "Yes, absolutely. Beautiful albums and prints are an important part of how memories stay present, and I am happy to guide you through the options after the wedding."
+    },
+    {
+      "question": "Can we meet before booking?",
+      "answer": "Absolutely. Before booking, we can arrange a video call or, if it suits, meet in person. That way we can see whether the connection and the collaboration feel right for both sides."
+    },
+    {
+      "question": "Is Lago di Braies crowded for an elopement?",
+      "answer": "Yes, especially during the summer season it can get very busy. That is exactly why I usually plan elopements there for sunrise, weekdays or quieter travel periods. It creates more privacy and a much calmer visual atmosphere."
+    },
+    {
+      "question": "Do we need a permit for an elopement in the Dolomites?",
+      "answer": "That depends on the exact location. Some mountain huts, boat docks, protected areas or private venues require a permit or a reservation, while others do not. I am happy to help you check early on what is truly needed for your chosen place."
+    },
+    {
+      "question": "What is the best month for an elopement in the Dolomites?",
+      "answer": "It depends on the experience you want. June to October is usually the most reliable period for open roads and hiking access. September and early October are often especially beautiful because the light feels softer and many places become quieter. Winter can be stunning as well if you want snow and mood."
+    },
+    {
+      "question": "Can you elope legally in Italy as an international couple?",
+      "answer": "Yes, in principle you can, but the paperwork can be more involved depending on your country of residence. That is why many couples choose to complete the legal ceremony at home and celebrate their elopement in Italy in a more relaxed and personal way. Both approaches can work beautifully."
+    },
+    {
+      "question": "Is sunrise really worth it for a Dolomites elopement?",
+      "answer": "In the mountains, almost always yes. The light is softer, the locations are quieter and the atmosphere feels far more intimate. In the Dolomites especially, sunrise often makes the difference between a beautiful experience and a truly unforgettable one."
+    },
+    {
+      "question": "What happens if it rains on the elopement day?",
+      "answer": "Rain is part of the mountains and often adds a lot of atmosphere. I always plan with flexible timing, backup ideas and weather-friendly alternatives, so the day still feels calm, intentional and beautiful even if conditions change."
+    },
+    {
+      "question": "Can older family members join an elopement?",
+      "answer": "Yes, absolutely. We simply choose a location that feels special while still being accessible. Not every elopement requires a long hike. There are many beautiful places in Tyrol and the Dolomites that work very well for couples who want to include family."
+    }
+  ]
+}

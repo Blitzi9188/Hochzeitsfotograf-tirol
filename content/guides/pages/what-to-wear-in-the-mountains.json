@@ -1,0 +1,846 @@
+{
+  "de": {
+    "slug": "what-to-wear-in-the-mountains",
+    "title": "Was man in den Bergen anziehen sollte | Styling für Wind, Licht und Bewegung",
+    "description": "Guide dazu, was man in den Bergen für ein Elopement trägt, von Kleidern und Schuhen bis zu Schichten, Kälte, Wind und dem echten Gefühl vor Ort.",
+    "hero": {
+      "eyebrow": "Planungs-Guide",
+      "title": "Was man in den Bergen anziehen sollte",
+      "copy": "Ein praktischer Guide für Paare, die in den Bergen nicht nur schön aussehen, sondern sich auch frei bewegen, warm bleiben und sich in ihrer Kleidung wirklich wiederfinden möchten.",
+      "cta": "Planung starten",
+      "image": "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Hut-13.jpg",
+      "imageAlt": "Kleidung für ein Elopement in den Bergen"
+    },
+    "utility": {
+      "reading": "Guide",
+      "focus": "Für Bewegung, Wetter und ruhiges Berg-Styling",
+      "navOverview": "Überblick",
+      "navSeasons": "Stylingblöcke",
+      "navPhilosophy": "Einführung",
+      "navVisual": "Weitere Guides",
+      "navFaq": "FAQ"
+    },
+    "overview": {
+      "eyebrow": "Guide im Überblick",
+      "copy": "Kleidung sieht in den Bergen anders aus als auf einem flachen Hochzeitstag. Wind zieht stärker durch Stoffe, Temperaturen kippen schneller und Wege, Steine oder nasse Wiesen verändern sofort, was sich wirklich gut anfühlt.",
+      "items": [
+        {
+          "icon": "wind",
+          "label": "Am Wichtigsten",
+          "value": "Schichten und Bewegung"
+        },
+        {
+          "icon": "path",
+          "label": "Fußbekleidung",
+          "value": "Schuhe, die man tatsächlich tragen kann"
+        },
+        {
+          "icon": "cloud",
+          "label": "Hauptherausforderung",
+          "value": "Kalte Morgen und Wind"
+        },
+        {
+          "icon": "guests",
+          "label": "Ideal für",
+          "value": "Redaktioneller, aber ehrlicher Stil"
+        },
+        {
+          "icon": "sun",
+          "label": "Gute Einstellung",
+          "value": "Wenn ihr euch wohlfühlt, bleibt ihr bei euch."
+        }
+      ]
+    },
+    "philosophy": {
+      "eyebrow": "Eine erste Orientierung",
+      "title": "Das beste Outfit wirkt nicht „perfekt“, sondern selbstverständlich am richtigen Ort.",
+      "copy": "Wenn Kleidung, Bewegung und Landschaft zusammenpassen, entsteht diese Ruhe, die auf Bildern so stark wirkt. Nicht, weil alles geschniegelt aussieht, sondern weil nichts gegen den Tag arbeitet."
+    },
+    "sections": {
+      "seasonOrder": [
+        "dress",
+        "shoes",
+        "layers",
+        "winter",
+        "wind",
+        "hiking"
+      ],
+      "seasons": {
+        "dress": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Prags-Zinnen-242.jpg",
+          "imageAlt": "Platzhalterbild für das Hochzeitskleid-Styling",
+          "eyebrow": "",
+          "title": "Tipps für Hochzeitskleider",
+          "intro": "Die Berge belohnen Stoffe, die sich bewegen, statt zu gefrieren.",
+          "copy": "Leichtere, fließendere Materialien fühlen sich im Freien oft besonders schön an. Das richtige Kleid sieht nicht nur gut aus. Darin könnt ihr geht, sitzen, atmen und sich bei wechselndem Wetter immer noch wie ihr selbst fühlen.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "wind",
+              "label": "Beste Stoffe",
+              "value": "Bewegungsfreundlich und weich"
+            },
+            {
+              "icon": "guests",
+              "label": "Ideal für",
+              "value": "Leichtigkeit und natürliche Form"
+            },
+            {
+              "icon": "key",
+              "label": "Vermeiden",
+              "value": "Sehr starres Styling, wenn es auf Bewegung ankommt"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "shoes": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Wedding-43.jpg",
+          "imageAlt": "Platzhalterbild für Bergschuhe",
+          "eyebrow": "",
+          "title": "Schuhe",
+          "intro": "Gute Schuhe schützen die gesamte emotionale Qualität des Tages.",
+          "copy": "Schuhwerk sollte in den Bergen niemals zweitrangig sein. Schon ein kleiner Weg, nasses Gras oder ein windiger Bergrücken verändern das Körpergefühl. Bequeme Schuhe schaffen fast immer mehr Eleganz als Schuhe, die ständig gepflegt werden müssen.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "path",
+              "label": "Beste Wahl",
+              "value": "Schuhe, denen ihr vertraut"
+            },
+            {
+              "icon": "guests",
+              "label": "Hauptziel",
+              "value": "Stabilität und Komfort"
+            },
+            {
+              "icon": "wind",
+              "label": "Warum",
+              "value": "Komfort verändert Haltung und Leichtigkeit"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "layers": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Wedding-120.jpg",
+          "imageAlt": "Platzhalterbild zum Layern in den Bergen",
+          "eyebrow": "",
+          "title": "Schichten",
+          "intro": "Schichten machen oft den Unterschied zwischen dem Aushalten und Genießen eines Tages aus.",
+          "copy": "Kalte Morgen, wechselndes Wetter und Pausen zwischen den Standorten machen das Tragen mehrerer Schichten unerlässlich. Ein schöner Schal, eine schöne Jacke oder ein schöner Strick kann die Atmosphäre des Tages schützen, anstatt sie zu unterbrechen.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "key",
+              "label": "Immer nützlich",
+              "value": "Eine warme Schicht zwischen den Momenten"
+            },
+            {
+              "icon": "cloud",
+              "label": "Ideal für",
+              "value": "Morgenanfang und Zwischensaison"
+            },
+            {
+              "icon": "sun",
+              "label": "Visueller Vorteil",
+              "value": "Fügt Weichheit und Tiefe hinzu"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "winter": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Foto-Ski-Hochzeit-Dolomiten-4.jpg",
+          "imageAlt": "Platzhalterbild für winterliche Bergoutfits",
+          "eyebrow": "",
+          "title": "Winteroutfits",
+          "intro": "Winter-Styling funktioniert am besten, wenn von Anfang an Wärme in die Schönheit eingebaut wird.",
+          "copy": "Der Versuch, den Winter wie den Sommer zu stylen, verursacht normalerweise Unbehagen. Starke Winteroutfits nutzen Struktur, Textur und bewusste Schichten, damit der Tag auch bei Schnee oder kälterer Luft ruhig und anmutig bleibt.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "cloud",
+              "label": "Hauptbedürfnis",
+              "value": "Wärme ohne Steifheit"
+            },
+            {
+              "icon": "wind",
+              "label": "Bester Look",
+              "value": "Strukturell, vielschichtig, ruhig"
+            },
+            {
+              "icon": "key",
+              "label": "Immer mitbringen",
+              "value": "Handwärmer und robuste Außenschichten"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "wind": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Winter-Wedding-Jufenalm-11.jpg",
+          "imageAlt": "Platzhalterbild für Wind- und Kälte-Styling",
+          "eyebrow": "",
+          "title": "Wind und Kälte",
+          "intro": "Der Wind ändert sich stärker als die Temperatur. Es verändert die Art und Weise, wie alles sitzt und sich bewegt.",
+          "copy": "Was sich bei ruhiger Luft wunderbar fotografieren lässt, kann bei exponiertem Wetter frustrierend wirken. Stoffe, Haarwahl, Jacken und die Bereitschaft, sich anzupassen, sind viel wichtiger, als Paare oft erwarten.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "wind",
+              "label": "Am meisten betroffen",
+              "value": "Haare, Stoffbewegung, Komfort"
+            },
+            {
+              "icon": "key",
+              "label": "Beste Antwort",
+              "value": "Plant dafür, statt dagegen anzukämpfen"
+            },
+            {
+              "icon": "guests",
+              "label": "Nützliche Wahl",
+              "value": "Weicheres Styling mit Flexibilität"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "hiking": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-167.jpg",
+          "imageAlt": "Platzhalterbild für wanderfreundliches Berg-Styling",
+          "eyebrow": "",
+          "title": "Wanderfreundliches Styling",
+          "intro": "Ein Bergtag kann sich immer noch redaktionell anfühlen, ohne so zu tun, als wäre der Berg nicht da.",
+          "copy": "Bei Wanderungen sollte die Kleidung euch die Bewegung ohne ständige Anpassung ermöglichen. Das bedeutet oft, Form und Funktion in Einklang zu bringen und dann Details nur dann zu ändern, wenn es sich natürlich anfühlt.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "path",
+              "label": "Ideal für",
+              "value": "Fern- und Wandertage"
+            },
+            {
+              "icon": "guests",
+              "label": "Hauptziel",
+              "value": "Bewegungsfreiheit"
+            },
+            {
+              "icon": "sun",
+              "label": "Suchen",
+              "value": "Ruhig redaktionell, nicht übermäßig wertvoll"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        }
+      }
+    },
+    "planning": {
+      "eyebrow": "Planungsnotizen",
+      "title": "Welches Styling in den Bergen normalerweise am meisten braucht.",
+      "intro": "Das stärkste Berg-Styling unterstützt zunächst die Präsenz. Wenn das stimmt, sieht es fast immer auch besser aus.",
+      "items": [
+        {
+          "label": "Bewegung",
+          "title": "Wählt, was ihr tatsächlich tragen und darin auch gehen könnt.",
+          "copy": "Die Leichtigkeit des Körpers ist in jedem Bild sichtbar.",
+          "meta": "Komfort ist visuell."
+        },
+        {
+          "label": "Wärme",
+          "title": "Baut Wärme auf, bevor ihr sie brauchen.",
+          "copy": "Kälte beeinflusst den Ausdruck, das Tempo und wie sehr man die Landschaft genießen kann.",
+          "meta": "Planungswärme schützt Freude."
+        },
+        {
+          "label": "Wind",
+          "title": "Behandeln ihr den Wind als Teil des Designs.",
+          "copy": "Die besten Outfits fallen nicht in sich zusammen, wenn die Luft erst einmal in Bewegung kommt.",
+          "meta": "Arbeitet mit Bewegung."
+        },
+        {
+          "label": "Gäste",
+          "title": "Helfen ihr auch anderen, sich vorzubereiten.",
+          "copy": "Eine einfache Anmerkung zu Schuhen und Schichten macht den ganzen Tag für alle einfacher.",
+          "meta": "Geteilter Komfort verändert die Atmosphäre."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Fragen, die Paare oft zum Styling in den Bergen stellen.",
+      "intro": "Die schönste Kleidung hilft wenig, wenn sie euch frieren lässt, am Weg stört oder sich nicht mehr nach euch anfühlt. Genau darum gehen diese Fragen meistens.",
+      "items": [
+        {
+          "q": "Können wir in den Bergen trotzdem formelle Kleidung tragen?",
+          "a": "Ja, auf jeden Fall. Es hilft nur, Stoffe, Länge und Beweglichkeit bewusst zu wählen. Ein Outfit darf elegant sein und sich trotzdem so anfühlen, als könnte es Wind, Stein und Kälte mittragen."
+        },
+        {
+          "q": "Brauchen wir wirklich richtige Schuhe?",
+          "a": "In vielen Fällen ja. Selbst wenn ihr für einen Teil des Tages wechselt, sorgen gute Schuhe am Anfang und auf Wegen oft dafür, dass ihr entspannter, sicherer und viel mehr bei euch bleibt."
+        },
+        {
+          "q": "Was sollten wir für kalte Morgen mitbringen?",
+          "a": "Zusätzliche Schichten, Jacken, Tücher, trockene Socken und manchmal auch etwas Warmes für die Hände. Gerade vor Sonnenaufgang fühlt sich die Temperatur oft strenger an, als Bilder später vermuten lassen."
+        },
+        {
+          "q": "Sollten auch Gäste eine Outfit-Beratung erhalten?",
+          "a": "Wenn Gäste dabei sind, ist das sehr sinnvoll. Schon ein kurzer Hinweis zu Schuhen, Temperatur und Gelände hilft, damit sich der Tag für alle leichter und stimmiger anfühlt."
+        }
+      ]
+    },
+    "related": {
+      "eyebrow": "Verwandte Leitfäden",
+      "hint": "Wischt nach links oder rechts, um weitere Guides zu sehen.",
+      "items": [
+        {
+          "label": "Dolomiten",
+          "title": "Elopement-Guide für die Dolomiten",
+          "copy": "Ein ruhiger Ausgangspunkt für Paare, die ein Dolomites Elopement oder eine intime Berghochzeit planen und verstehen möchten, wie Licht, Wege, Wetter und Menschenmengen den Tag wirklich prägen.",
+          "href": "/guides/dolomites-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-120.jpg",
+          "alt": "Paar bei einem Dolomiten-Elopement im weichen Morgenlicht",
+          "imageAlt": "Paar bei einem Dolomiten-Elopement im weichen Morgenlicht"
+        },
+        {
+          "label": "Standorte",
+          "title": "Die beliebtesten Elopement-Orte in den Dolomiten",
+          "copy": "Ein kuratierter Guide für Paare, die nicht einfach irgendeine schöne Aussicht suchen, sondern den Ort, dessen Stimmung wirklich zu ihrem Tag passt.",
+          "href": "/guides/best-dolomites-elopement-locations/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-191.jpg",
+          "alt": "Elopement-Standorte in den Dolomiten",
+          "imageAlt": "Elopement-Standorte in den Dolomiten"
+        },
+        {
+          "label": "Standorte",
+          "title": "Lago di Braies Guide",
+          "copy": "Ein ehrlicher Guide für Paare, die den Pragser Wildsee nicht nur als berühmtes Bild kennen, sondern verstehen möchten, wann er still, weich und tatsächlich erlebbar wird.",
+          "href": "/guides/lago-di-braies-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopemnt-Dolomites-Lago-di-Braies-19.jpg",
+          "alt": "Lago di Braies mit ruhigem Wasser und frühem Licht",
+          "imageAlt": "Lago di Braies mit ruhigem Wasser und frühem Licht"
+        },
+        {
+          "label": "Standorte",
+          "title": "Seceda Guide",
+          "copy": "Ein Guide für Paare, die an Seceda nicht nur die berühmte Kante suchen, sondern das Gefühl von Weite, Wind und offenem Berglicht, das diesen Ort so unverwechselbar macht.",
+          "href": "/guides/seceda-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Seceda-180.jpg",
+          "alt": "Seceda bei klarem Berglicht",
+          "imageAlt": "Seceda bei klarem Berglicht"
+        },
+        {
+          "label": "Standorte",
+          "title": "Cadini di Misurina Guide",
+          "copy": "Ein Guide für Paare, die an Cadini diese wilde, kinoreife Spannung lieben und zugleich wissen möchten, wann der Ort zugänglich, sicher und wirklich stimmig ist.",
+          "href": "/guides/cadini-di-misurina-guide/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-12.jpg",
+          "alt": "Cadini di Misurina mit markanten Felsformen",
+          "imageAlt": "Cadini di Misurina mit markanten Felsformen"
+        },
+        {
+          "label": "Standorte",
+          "title": "Drei Zinnen Guide",
+          "copy": "Ein ehrlicher Guide für Paare, die Drei Zinnen nicht nur wegen des berühmten Blicks wählen, sondern wegen dieser monumentalen, fast unwirklichen Präsenz, die der Ort im richtigen Moment entfaltet.",
+          "href": "/guides/tre-cime-wedding-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14.jpg",
+          "alt": "Drei Zinnen bei klarem Berglicht",
+          "imageAlt": "Drei Zinnen bei klarem Berglicht"
+        },
+        {
+          "label": "Planung",
+          "title": "Beste Jahreszeit für ein Dolomiten-Elopement",
+          "copy": "Ein ehrlicher Guide zu Licht, Temperaturen, Menschenmengen und der Frage, wann sich die Berge nicht nur schön, sondern wirklich stimmig für euch anfühlen.",
+          "href": "/guides/best-time-for-a-dolomites-elopement/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-16.jpg",
+          "alt": "Vorhandenes Bild zur schönsten Zeit in den Dolomiten",
+          "imageAlt": "Vorhandenes Bild zur schönsten Zeit in den Dolomiten"
+        },
+        {
+          "label": "Planung",
+          "title": "Sonnenaufgang vs. Sonnenuntergang in den Dolomiten",
+          "copy": "Ein ehrlicher Vergleich für Paare, die nicht nur schönes Licht suchen, sondern verstehen möchten, welche Tageszeit zu ihrem Energielevel, ihrem Ort und dem gewünschten Gefühl passt.",
+          "href": "/guides/sunrise-vs-sunset-dolomites/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Photo-368.jpg",
+          "alt": "Lichtstimmung in den Bergen bei Sonnenaufgang oder Sonnenuntergang",
+          "imageAlt": "Lichtstimmung in den Bergen bei Sonnenaufgang oder Sonnenuntergang"
+        },
+        {
+          "label": "Planung",
+          "title": "Guide zur Wetter- und Backup-Planung",
+          "copy": "Ein ruhiger Wetter-Guide für Paare, die in den Bergen nicht auf perfekte Bedingungen hoffen, sondern einen Tag planen möchten, der auch bei Nebel, Wind oder Regen stimmig bleibt.",
+          "href": "/guides/weather-and-backup-planning/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-161.jpg",
+          "alt": "Wetterstimmung in den Dolomiten mit Wolken und Nebel",
+          "imageAlt": "Wetterstimmung in den Dolomiten mit Wolken und Nebel"
+        },
+        {
+          "label": "Planung",
+          "title": "Helikopter-Elopement-Guide",
+          "copy": "Ein Guide für Paare, die Weite, Abgeschiedenheit und einen klareren Tagesfluss suchen und verstehen möchten, wann ein Helikopter in den Bergen wirklich sinnvoll ist.",
+          "href": "/guides/helicopter-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-12.jpg",
+          "alt": "Helikopterflug über den Bergen für ein Elopement",
+          "imageAlt": "Helikopterflug über den Bergen für ein Elopement"
+        },
+        {
+          "label": "Planung",
+          "title": "Mehrtägiger Elopement-Guide",
+          "copy": "Ein Guide für Paare, die mehr wollen als ein paar schnelle Stunden in den Bergen und ihren Hochzeitstag lieber in Ruhe entfalten lassen möchten.",
+          "href": "/guides/multi-day-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Insta-11.jpg",
+          "alt": "Mehrtägiges Elopement in den Dolomiten",
+          "imageAlt": "Mehrtägiges Elopement in den Dolomiten"
+        }
+      ]
+    },
+    "final": {
+      "eyebrow": "Ruhig geplant",
+      "title": "Lasst uns etwas gestalten, das sich ruhig, persönlich und zutiefst wahr anfühlt.",
+      "copy": "Wenn sich dieser Guide bereits nah an dem anfühlt, was ihr euch wünscht, helfe ich euch gern dabei, dieses Gefühl in etwas Ruhiges, Filmisches und wirklich Eigenes in den Bergen zu verwandeln.",
+      "cta": "Termin anfragen",
+      "image": "/assets/uploads/Blitzkneisser-Photo-Drei-Zinnen-Italy-24.jpg",
+      "imageAlt": "Drei Zinnen in den Dolomiten bei ruhigem, klarem Licht"
+    }
+  },
+  "en": {
+    "slug": "what-to-wear-in-the-mountains",
+    "title": "What to Wear in the Mountains | Styling for Wind, Light and Movement",
+    "description": "A guide to what to wear in the mountains for an elopement, from dresses and shoes to layers, cold, wind and how it all feels on location.",
+    "hero": {
+      "eyebrow": "Planning Guide",
+      "title": "What to Wear in the Mountains",
+      "copy": "A practical guide for couples who want to look beautiful in the mountains, but also move freely, stay warm and still feel like themselves in what they wear.",
+      "cta": "Start planning",
+      "image": "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Hut-13.jpg",
+      "imageAlt": "Outfit ideas for a mountain elopement"
+    },
+    "utility": {
+      "reading": "Guide",
+      "focus": "For movement, weather and quiet mountain styling",
+      "navOverview": "Overview",
+      "navSeasons": "Styling Notes",
+      "navPhilosophy": "Intro",
+      "navVisual": "More guides",
+      "navFaq": "FAQ"
+    },
+    "overview": {
+      "eyebrow": "Guide Overview",
+      "copy": "Clothing behaves differently in the mountains than it does on a flat wedding day. Wind moves through fabric, temperatures swing faster and trails, rock or wet grass immediately change what actually feels good.",
+      "items": [
+        {
+          "icon": "wind",
+          "label": "Most Important",
+          "value": "Layers and movement"
+        },
+        {
+          "icon": "path",
+          "label": "Footwear",
+          "value": "Shoes you can actually use"
+        },
+        {
+          "icon": "cloud",
+          "label": "Main Challenge",
+          "value": "Cold mornings and wind"
+        },
+        {
+          "icon": "guests",
+          "label": "Best For",
+          "value": "Editorial but honest styling"
+        },
+        {
+          "icon": "sun",
+          "label": "Good Mindset",
+          "value": "Comfort supports presence"
+        }
+      ]
+    },
+    "philosophy": {
+      "eyebrow": "A first note",
+      "title": "The best outfit does not feel perfect. It feels natural in the right place.",
+      "copy": "When clothing, movement and landscape work together, the images gain a quiet strength. Not because everything looks polished, but because nothing is fighting the day."
+    },
+    "sections": {
+      "seasonOrder": [
+        "dress",
+        "shoes",
+        "layers",
+        "winter",
+        "wind",
+        "hiking"
+      ],
+      "seasons": {
+        "dress": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Prags-Zinnen-242.jpg",
+          "imageAlt": "Placeholder image for wedding dress styling",
+          "eyebrow": "",
+          "title": "Wedding dress tips",
+          "intro": "The mountains reward fabrics that move rather than freeze.",
+          "copy": "Lighter, more fluid materials often feel especially beautiful outdoors. The right dress does not only photograph well. It lets you walk, sit, breathe and still feel like yourself in changing weather.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "wind",
+              "label": "Best Fabrics",
+              "value": "Movement-friendly and soft"
+            },
+            {
+              "icon": "guests",
+              "label": "Best For",
+              "value": "Ease and natural shape"
+            },
+            {
+              "icon": "key",
+              "label": "Avoid",
+              "value": "Very rigid styling if movement matters"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "shoes": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Wedding-43.jpg",
+          "imageAlt": "Placeholder image for mountain footwear",
+          "eyebrow": "",
+          "title": "Shoes",
+          "intro": "Good shoes protect the whole emotional quality of the day.",
+          "copy": "Footwear should never be treated as an afterthought in the mountains. Even a small path, wet grass or a windy ridge changes how the body feels. Comfortable shoes almost always create more elegance than shoes that need constant managing.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "path",
+              "label": "Best Choice",
+              "value": "Shoes you trust"
+            },
+            {
+              "icon": "guests",
+              "label": "Main Goal",
+              "value": "Stability and comfort"
+            },
+            {
+              "icon": "wind",
+              "label": "Why",
+              "value": "Comfort changes posture and ease"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "layers": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Wedding-120.jpg",
+          "imageAlt": "Placeholder image for layering in the mountains",
+          "eyebrow": "",
+          "title": "Layers",
+          "intro": "Layers are often the difference between enduring a day and enjoying it.",
+          "copy": "Cold mornings, changing weather and pauses between locations make layering essential. A beautiful shawl, jacket or knit can protect the atmosphere of the day rather than interrupt it.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "key",
+              "label": "Always Useful",
+              "value": "A warm layer between moments"
+            },
+            {
+              "icon": "cloud",
+              "label": "Best For",
+              "value": "Morning starts and shoulder seasons"
+            },
+            {
+              "icon": "sun",
+              "label": "Visual Benefit",
+              "value": "Adds softness and depth"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "winter": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Foto-Ski-Hochzeit-Dolomiten-4.jpg",
+          "imageAlt": "Placeholder image for winter mountain outfits",
+          "eyebrow": "",
+          "title": "Winter outfits",
+          "intro": "Winter styling works best when warmth is built into the beauty from the beginning.",
+          "copy": "Trying to style winter like summer usually creates discomfort. Strong winter outfits use structure, texture and intentional layering so the day can stay still and graceful even in snow or colder air.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "cloud",
+              "label": "Main Need",
+              "value": "Warmth without stiffness"
+            },
+            {
+              "icon": "wind",
+              "label": "Best Look",
+              "value": "Textural, layered, calm"
+            },
+            {
+              "icon": "key",
+              "label": "Always Bring",
+              "value": "Hand warmers and serious outer layers"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "wind": {
+          "layout": "image-left",
+          "image": "/assets/uploads/Blitzkneisser-Winter-Wedding-Jufenalm-11.jpg",
+          "imageAlt": "Placeholder image for wind and cold styling",
+          "eyebrow": "",
+          "title": "Wind and cold",
+          "intro": "Wind changes more than the temperature. It changes how everything sits and moves.",
+          "copy": "What photographs beautifully in still air may feel frustrating in exposed weather. Fabrics, hair choices, jackets and the willingness to adapt all matter much more than couples often expect.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "wind",
+              "label": "Most Affected",
+              "value": "Hair, fabric movement, comfort"
+            },
+            {
+              "icon": "key",
+              "label": "Best Response",
+              "value": "Plan for it, do not fight it"
+            },
+            {
+              "icon": "guests",
+              "label": "Useful Choice",
+              "value": "Softer styling with flexibility"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        },
+        "hiking": {
+          "layout": "image-right",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-167.jpg",
+          "imageAlt": "Placeholder image for hiking-friendly mountain styling",
+          "eyebrow": "",
+          "title": "Hiking-friendly styling",
+          "intro": "A mountain day can still feel editorial without pretending the mountain is not there.",
+          "copy": "For hike-based locations, clothing should let you move without constant correction. That often means balancing form and function, then changing details only when it feels natural to do so.",
+          "points": [],
+          "facts": [
+            {
+              "icon": "path",
+              "label": "Best For",
+              "value": "Remote and walking-based days"
+            },
+            {
+              "icon": "guests",
+              "label": "Main Goal",
+              "value": "Freedom of movement"
+            },
+            {
+              "icon": "sun",
+              "label": "Look",
+              "value": "Quietly editorial, not overly precious"
+            }
+          ],
+          "note": "",
+          "meta": "",
+          "linkLabel": "",
+          "linkHref": ""
+        }
+      }
+    },
+    "planning": {
+      "eyebrow": "Planning Notes",
+      "title": "What styling usually needs most in the mountains.",
+      "intro": "The strongest mountain styling supports presence first. Once that is true, it almost always looks better too.",
+      "items": [
+        {
+          "label": "Movement",
+          "title": "Choose what you can actually walk in.",
+          "copy": "Ease in the body is visible in every frame.",
+          "meta": "Comfort is visual."
+        },
+        {
+          "label": "Warmth",
+          "title": "Build warmth in before you need it.",
+          "copy": "Cold affects expression, pace and how much you can enjoy the landscape.",
+          "meta": "Planning warmth protects joy."
+        },
+        {
+          "label": "Wind",
+          "title": "Treat wind like part of the design.",
+          "copy": "The best outfits do not collapse once the air begins to move.",
+          "meta": "Work with movement."
+        },
+        {
+          "label": "Guests",
+          "title": "Help others prepare too.",
+          "copy": "A simple note about shoes and layers makes the whole day feel easier for everyone.",
+          "meta": "Shared comfort changes the atmosphere."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Questions couples often ask about mountain styling.",
+      "intro": "Beautiful clothing means very little if it leaves you cold, slows you down on the path or stops feeling like you. That is what these questions usually come back to.",
+      "items": [
+        {
+          "q": "Can we still wear formal clothing in the mountains?",
+          "a": "Absolutely. It simply helps to choose fabric, length and movement more consciously. An outfit can feel elegant and still work with wind, rock and temperature changes."
+        },
+        {
+          "q": "Do we really need proper shoes?",
+          "a": "In many cases, yes. Even if you change later, good shoes at the start and on the path often make you feel calmer, safer and much more present."
+        },
+        {
+          "q": "What should we bring for cold mornings?",
+          "a": "Extra layers, jackets, wraps, dry socks and sometimes something warm for your hands. Before sunrise, the cold often feels sharper than pictures make it look later."
+        },
+        {
+          "q": "Should guests get outfit guidance too?",
+          "a": "If guests are involved, it helps a lot. Even a short note about shoes, temperature and terrain can make the day feel much easier for everyone."
+        }
+      ]
+    },
+    "related": {
+      "eyebrow": "Related Guides",
+      "hint": "Swipe left or right to explore more guides.",
+      "items": [
+        {
+          "label": "Dolomites",
+          "title": "Dolomites Elopement Guide",
+          "copy": "A calm starting point for couples planning a Dolomites Elopement or intimate mountain wedding and wanting to understand how light, access, weather and crowds truly shape the day.",
+          "href": "/guides/dolomites-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-120.jpg",
+          "alt": "Couple during a Dolomites elopement in soft morning light",
+          "imageAlt": "Couple during a Dolomites elopement in soft morning light"
+        },
+        {
+          "label": "Locations",
+          "title": "The most popular elopement locations in the Dolomites",
+          "copy": "A curated guide for couples who are not looking for just any beautiful view, but for the place whose atmosphere truly fits the day they want.",
+          "href": "/guides/best-dolomites-elopement-locations/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-191.jpg",
+          "alt": "Elopement locations in the Dolomites",
+          "imageAlt": "Elopement locations in the Dolomites"
+        },
+        {
+          "label": "Locations",
+          "title": "Lago di Braies Guide",
+          "copy": "An honest guide for couples who know Lago di Braies as more than a famous photograph and want to understand when it feels soft, quiet and truly worth experiencing.",
+          "href": "/guides/lago-di-braies-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopemnt-Dolomites-Lago-di-Braies-19.jpg",
+          "alt": "Lago di Braies with still water and early light",
+          "imageAlt": "Lago di Braies with still water and early light"
+        },
+        {
+          "label": "Locations",
+          "title": "Seceda Guide",
+          "copy": "A guide for couples drawn to Seceda not only for the famous ridge, but for the feeling of openness, wind and high alpine light that makes it so distinctive.",
+          "href": "/guides/seceda-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Seceda-180.jpg",
+          "alt": "Seceda in clear mountain light",
+          "imageAlt": "Seceda in clear mountain light"
+        },
+        {
+          "label": "Locations",
+          "title": "Cadini di Misurina Guide",
+          "copy": "A guide for couples who love the wild, cinematic tension of Cadini and want to know when it is accessible, safe and genuinely worth choosing.",
+          "href": "/guides/cadini-di-misurina-guide/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-12.jpg",
+          "alt": "Cadini di Misurina with dramatic rock formations",
+          "imageAlt": "Cadini di Misurina with dramatic rock formations"
+        },
+        {
+          "label": "Locations",
+          "title": "Tre Cime Wedding Guide",
+          "copy": "An honest guide for couples choosing Tre Cime not only for the famous view, but for the monumental, almost unreal presence the place carries when the timing is right.",
+          "href": "/guides/tre-cime-wedding-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14.jpg",
+          "alt": "Tre Cime in clear mountain light",
+          "imageAlt": "Tre Cime in clear mountain light"
+        },
+        {
+          "label": "Planning",
+          "title": "Best Time for a Dolomites Elopement",
+          "copy": "An honest guide to light, temperatures, crowds and the question of when the mountains will not only look beautiful, but genuinely feel right for you.",
+          "href": "/guides/best-time-for-a-dolomites-elopement/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-16.jpg",
+          "alt": "Existing image for best time in the Dolomites",
+          "imageAlt": "Existing image for best time in the Dolomites"
+        },
+        {
+          "label": "Planning",
+          "title": "Sunrise vs Sunset in the Dolomites",
+          "copy": "An honest comparison for couples who want more than beautiful light and are trying to understand which time of day fits their energy, their location and the feeling they want to remember.",
+          "href": "/guides/sunrise-vs-sunset-dolomites/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Photo-368.jpg",
+          "alt": "Mountain light at sunrise or sunset",
+          "imageAlt": "Mountain light at sunrise or sunset"
+        },
+        {
+          "label": "Planning",
+          "title": "Weather & Backup Planning Guide",
+          "copy": "A calm weather guide for couples who do not want to hope for perfect conditions in the mountains, but want to build a day that still feels right in fog, wind or rain.",
+          "href": "/guides/weather-and-backup-planning/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-161.jpg",
+          "alt": "Weather in the Dolomites with clouds and fog",
+          "imageAlt": "Weather in the Dolomites with clouds and fog"
+        },
+        {
+          "label": "Planning",
+          "title": "Helicopter Elopement Guide",
+          "copy": "A guide for couples seeking more space, privacy and a clearer flow to the day, and wanting to understand when a helicopter in the mountains genuinely makes sense.",
+          "href": "/guides/helicopter-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-12.jpg",
+          "alt": "Helicopter flight above the mountains for an elopement",
+          "imageAlt": "Helicopter flight above the mountains for an elopement"
+        },
+        {
+          "label": "Planning",
+          "title": "Multi-Day Elopement Guide",
+          "copy": "A guide for couples who want more than a few rushed hours in the mountains and would rather let the day unfold with space around it.",
+          "href": "/guides/multi-day-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Insta-11.jpg",
+          "alt": "Multi-day elopement in the Dolomites",
+          "imageAlt": "Multi-day elopement in the Dolomites"
+        }
+      ]
+    },
+    "final": {
+      "eyebrow": "Planned with intention",
+      "title": "Let’s shape something that feels quiet, personal and deeply true to you.",
+      "copy": "If this guide already feels close to the way you want the day to move, I would love to help you turn that feeling into something calm, cinematic and genuinely your own in the mountains.",
+      "cta": "Inquire now",
+      "image": "/assets/uploads/Blitzkneisser-Photo-Drei-Zinnen-Italy-24.jpg",
+      "imageAlt": "Tre Cime in the Dolomites in calm, clear light"
+    }
+  }
+}

@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="de" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Academy Detail | Blitzkneisser Photography</title>
+  <meta name="description" content="Workshop- und Preset-Details von Blitzkneisser Photography.">
+  <link rel="icon" type="image/png" href="/Logo-Blitzkneisser-BERG.png">
+  <script defer src="/assets/seo.js"></script>
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ["Inter", "sans-serif"]
+          },
+          colors: {
+            brand: {
+              bg: "#FFFFFF",
+              text: "#1B1A18",
+              muted: "#8A837A",
+              border: "#E6DED4",
+              wash: "#F2ECE3"
+            }
+          }
+        }
+      }
+    };
+  </script>
+  <style>
+    body {
+      background-color: #FFFFFF;
+      color: #1B1A18;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      overflow-x: hidden;
+    }
+
+    .headline {
+      font-weight: 700;
+      letter-spacing: -0.055em;
+      line-height: 0.88;
+      text-transform: uppercase;
+    }
+
+    .section-rule {
+      border-top: 1px solid #E6DED4;
+      width: 100%;
+    }
+
+    .detail-media {
+      position: relative;
+      overflow: hidden;
+      background: transparent;
+      border: 0;
+    }
+
+    .detail-media img,
+    .detail-media iframe,
+    .detail-media video {
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: cover;
+      border: 0;
+    }
+
+    .detail-media.is-preset {
+      background: transparent;
+      border: 0;
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-start;
+    }
+
+    .detail-media.is-preset img {
+      width: 100%;
+      height: auto;
+      max-height: 34rem;
+      object-fit: contain;
+      background: transparent;
+    }
+
+    .detail-play {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      pointer-events: none;
+    }
+
+    .detail-play-badge {
+      width: 4.2rem;
+      height: 4.2rem;
+      border-radius: 9999px;
+      background: rgba(255,255,255,0.94);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 18px 36px rgba(27, 26, 24, 0.14);
+    }
+
+    .detail-soon {
+      position: absolute;
+      left: 1rem;
+      top: 1rem;
+      z-index: 3;
+      border: 1px solid rgba(255,255,255,0.78);
+      background: rgba(255,255,255,0.88);
+      padding: 0.62rem 0.88rem;
+      font-size: 0.58rem;
+      letter-spacing: 0.24em;
+      text-transform: uppercase;
+      color: #1B1A18;
+      backdrop-filter: blur(10px);
+    }
+
+    .detail-panel {
+      border: 1px solid #E6DED4;
+      background: #FFFFFF;
+      padding: 2rem;
+    }
+
+    .fade-in-up {
+      animation: fadeInUp 1.05s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+      opacity: 0;
+      transform: translateY(24px);
+    }
+
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .mobile-menu-toggle { display: none; }
+    .floating-lang-toggle { display: none; }
+
+    @media (max-width: 767px) {
+      .mobile-menu-toggle {
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5px;
+        width: 44px;
+        height: 44px;
+        margin-left: auto;
+      }
+
+      .mobile-menu-toggle span {
+        width: 24px;
+        height: 2px;
+        margin-left: auto;
+        background: #1B1A18;
+        transition: transform 0.25s ease, opacity 0.25s ease;
+      }
+
+      #mainNav.is-open .mobile-menu-toggle span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+      #mainNav.is-open .mobile-menu-toggle span:nth-child(2) { opacity: 0; }
+      #mainNav.is-open .mobile-menu-toggle span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+      .nav-menu-panel {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem 1.5rem 1.25rem;
+        background: rgba(255,255,255,.94);
+        backdrop-filter: blur(14px);
+        border-bottom: 1px solid #E6DED4;
+        opacity: 0;
+        pointer-events: none;
+        transform: translateY(-8px);
+        transition: opacity .25s ease, transform .25s ease;
+      }
+
+      #mainNav.is-open .nav-menu-panel {
+        opacity: 1;
+        pointer-events: auto;
+        transform: translateY(0);
+      }
+
+      .nav-menu-panel > div:first-child {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+      }
+
+      .nav-menu-panel a {
+        font-size: 1rem;
+        font-weight: 700;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+      }
+
+      .nav-menu-panel .nav-lang-toggle { display: none; }
+
+      .floating-lang-toggle {
+        position: fixed;
+        right: 1rem;
+        bottom: 1rem;
+        z-index: 60;
+        display: flex;
+        align-items: center;
+        gap: 0.35rem;
+        padding: 0.4rem;
+        background: rgba(255,255,255,.94);
+        backdrop-filter: blur(14px);
+        border: 1px solid #E6DED4;
+        box-shadow: 0 12px 30px rgba(27, 26, 24, 0.08);
+      }
+
+      .floating-lang-toggle button {
+        border: 1px solid #E6DED4;
+        min-width: 2.8rem;
+        padding: 0.7rem 0.75rem;
+        font-size: 0.625rem;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        transition: all 0.2s ease;
+      }
+    }
+  </style>
+</head>
+<body class="selection:bg-stone-300 selection:text-black">
+  <nav class="fixed top-0 left-0 z-50 w-full bg-white/80 px-6 py-5 text-brand-text backdrop-blur-sm transition-all duration-500 md:px-12 md:py-8" id="mainNav">
+    <div class="mx-auto flex max-w-[120rem] items-center justify-between gap-6">
+      <a href="/index.html" id="navHomeLink" class="group flex items-center" aria-label="Blitzkneisser Photography">
+        <img src="/Logo-Blitzkneisser-BERG.png" alt="Blitzkneisser Photography" class="h-11 w-auto brightness-0 contrast-125 opacity-70 transition duration-500 ease-out group-hover:opacity-100 md:h-14">
+      </a>
+      <button type="button" class="mobile-menu-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenuPanel" aria-label="Menü öffnen"><span></span><span></span><span></span></button>
+      <div class="nav-menu-panel ml-auto flex items-center justify-end gap-4 text-right" id="navMenuPanel">
+        <div class="flex items-center gap-4 text-[10px] uppercase tracking-[0.2em] sm:gap-6 md:gap-8 md:text-xs">
+          <a href="/index.html" class="hover:opacity-60 transition-opacity duration-300" id="navHomeMenuLink" data-i18n="nav.home">Home</a>
+          <a href="/experience/" class="hover:opacity-60 transition-opacity duration-300" id="navExperienceLink">Experience</a>
+          <a href="/guides/" class="hover:opacity-60 transition-opacity duration-300" id="navGuidesLink">Guides</a>
+          <a href="/journal/" class="hover:opacity-60 transition-opacity duration-300" id="navJournalLink">Journal</a>
+          <a href="/about/" class="hover:opacity-60 transition-opacity duration-300" id="navAboutLink" data-i18n="nav.about">About</a>
+          <a href="/contact/" class="hover:opacity-60 transition-opacity duration-300" id="navContactLink" data-i18n="nav.contact">Contact</a>
+          <a href="/film/" class="hidden hover:opacity-60 transition-opacity duration-300" id="navFilmLink" data-i18n="nav.film">Film</a>
+          <a href="/portfolio/" class="hidden hover:opacity-60 transition-opacity duration-300" id="navPortfolioLink" data-i18n="nav.portfolio">Portfolio</a>
+          <a href="/academy/" class="hidden opacity-60 transition-opacity duration-300" id="navAcademyLink" data-i18n="nav.academy" aria-current="page">Academy</a>
+        </div>
+        <div class="nav-lang-toggle flex items-center gap-2 text-[10px] uppercase tracking-[0.24em] md:text-xs">
+          <button type="button" class="border border-brand-border px-3 py-2 transition-colors" data-lang-button="de" aria-pressed="true">DE</button>
+          <button type="button" class="border border-brand-border px-3 py-2 transition-colors" data-lang-button="en" aria-pressed="false">EN</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="floating-lang-toggle" id="floatingLangToggle" aria-label="Sprache wechseln">
+    <button type="button" data-lang-button="de" aria-pressed="true">DE</button>
+    <button type="button" data-lang-button="en" aria-pressed="false">EN</button>
+  </div>
+
+  <main class="pt-32 md:pt-48 pb-24">
+    <header class="px-6 md:px-12 max-w-[120rem] mx-auto mb-14 md:mb-16 fade-in-up" style="animation-delay: 0.06s;">
+      <div class="grid gap-12 lg:grid-cols-[1.1fr_0.9fr] lg:items-end">
+        <div class="-mt-4 md:-mt-8 lg:-mt-10 space-y-7">
+          <p class="text-[10px] uppercase tracking-[0.28em] text-brand-muted" id="detailEyebrow">Academy</p>
+          <h1 class="headline text-[3.3rem] md:text-[6.4rem] lg:text-[8.7rem] text-brand-text" id="detailTitle">Detail</h1>
+        </div>
+        <div class="space-y-5">
+          <p class="text-[10px] uppercase tracking-[0.28em] text-brand-muted" id="detailMetaLabel">Offer</p>
+          <div class="text-base md:text-lg leading-relaxed text-brand-text/78" id="detailSummary"></div>
+        </div>
+      </div>
+      <div class="mt-12 section-rule"></div>
+    </header>
+
+    <section class="px-6 md:px-12 max-w-[120rem] mx-auto fade-in-up" style="animation-delay: 0.18s;">
+      <div class="grid gap-8 lg:grid-cols-[0.72fr_1.28fr] xl:gap-12" id="detailLayoutGrid">
+        <div class="detail-media aspect-[16/9]" id="detailMedia"></div>
+        <div class="grid gap-8 lg:grid-cols-[1.1fr_0.9fr]" id="detailContentGrid">
+          <div class="detail-panel">
+          <p class="text-[10px] uppercase tracking-[0.28em] text-brand-muted mb-5" id="detailCopyLabel">Beschreibung</p>
+          <div class="text-base md:text-lg leading-[1.9] font-light text-brand-text/82" id="detailText"></div>
+          </div>
+          <aside class="detail-panel">
+            <p class="text-[10px] uppercase tracking-[0.28em] text-brand-muted mb-6" id="detailOfferLabel">Angebot</p>
+            <div class="space-y-5">
+              <div class="text-3xl md:text-5xl font-bold tracking-[-0.05em]" id="detailPrice"></div>
+              <p class="text-sm leading-relaxed text-brand-text/72" id="detailDescription"></p>
+              <div class="section-rule"></div>
+              <div class="flex flex-wrap gap-3">
+                <a id="detailCtaLink" href="/contact/" class="inline-flex items-center gap-4 border border-brand-text px-8 py-4 text-[10px] uppercase tracking-[0.3em] font-medium transition-colors hover:bg-brand-text hover:text-white">
+                  <span id="detailCtaText">Kontakt aufnehmen</span>
+                  <span aria-hidden="true">→</span>
+                </a>
+                <a id="detailResourceLink" href="#" target="_blank" rel="noreferrer noopener" class="hidden inline-flex items-center gap-4 border border-brand-border px-8 py-4 text-[10px] uppercase tracking-[0.3em] font-medium text-brand-text/76 transition-colors hover:border-brand-text hover:text-brand-text">
+                  <span id="detailResourceText">Dateien öffnen</span>
+                  <span aria-hidden="true">↗</span>
+                </a>
+              </div>
+              <div>
+                <a id="detailBackLink" href="/academy/" class="inline-flex items-center gap-3 text-[10px] uppercase tracking-[0.28em] text-brand-muted hover:text-brand-text transition-colors">
+                  <span aria-hidden="true">←</span>
+                  <span id="detailBackText">Zur Academy zurück</span>
+                </a>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="py-16 px-6 md:px-12 border-t border-brand-border flex flex-col md:flex-row justify-between items-start md:items-center text-[10px] md:text-xs text-brand-muted tracking-[0.2em] uppercase font-medium bg-brand-bg">
+    <div class="mb-8 md:mb-0" id="footerBrandText">© 2026 Blitzkneisser Photography</div>
+    <div class="flex flex-col md:flex-row gap-6 md:gap-12">
+      <a id="footerInstagramLink" href="#" class="hover:text-brand-text transition-colors duration-300">Instagram</a>
+      <a href="/contact/" class="hover:text-brand-text transition-colors duration-300" id="footerContactLink" data-i18n="nav.contact">Contact</a>
+      <a href="/journal/" class="hover:text-brand-text transition-colors duration-300" id="footerJournalLink">Journal</a>
+    </div>
+    <div id="footerInstagramFeed" class="footer-instagram-feed"></div>
+  </footer>
+
+  <script src="../data.js"></script>
+  <script>
+    const fallbackAcademyData = window.ACADEMY_DATA || {};
+    const nav = document.getElementById("mainNav");
+    const navToggle = document.getElementById("navToggle");
+    const navMenuPanel = document.getElementById("navMenuPanel");
+    const metaDescriptionNode = document.querySelector('meta[name="description"]');
+    let academyData = {
+      entries: [],
+      uiTranslations: {},
+      stripeStoreUrl: "",
+      stripeNotice: { de: "", en: "" }
+    };
+
+    const normalizeEntry = (entry, kind) => {
+      const titleDe = entry?.title?.de ?? entry?.title ?? "";
+      const titleEn = entry?.title?.en ?? entry?.titleEn ?? titleDe;
+      const labelDe = entry?.label?.de ?? entry?.label ?? (kind === "preset" ? "Preset Collection" : "Field Workshop");
+      const labelEn = entry?.label?.en ?? entry?.labelEn ?? labelDe;
+      const descriptionDe = entry?.description?.de ?? entry?.description ?? "";
+      const descriptionEn = entry?.description?.en ?? entry?.descriptionEn ?? descriptionDe;
+      const detailTextDe = entry?.detailText?.de ?? entry?.detailText ?? descriptionDe;
+      const detailTextEn = entry?.detailText?.en ?? entry?.detailTextEn ?? descriptionEn;
+      const priceDe = entry?.price?.de ?? entry?.price ?? "";
+      const priceEn = entry?.price?.en ?? entry?.priceEn ?? priceDe;
+      const ctaDe = entry?.cta?.de ?? entry?.cta ?? (kind === "preset" ? "Preset kaufen" : "Workshop anfragen");
+      const ctaEn = entry?.cta?.en ?? entry?.ctaEn ?? (kind === "preset" ? "Buy preset" : "Inquire about workshop");
+      const altDe = entry?.alt?.de ?? entry?.alt ?? titleDe;
+      const altEn = entry?.alt?.en ?? entry?.altEn ?? titleEn;
+      return {
+        slug: entry?.slug || "",
+        title: { de: titleDe, en: titleEn },
+        label: { de: labelDe, en: labelEn },
+        description: { de: descriptionDe, en: descriptionEn },
+        detailText: { de: detailTextDe, en: detailTextEn },
+        price: { de: priceDe, en: priceEn },
+        cta: { de: ctaDe, en: ctaEn },
+        alt: { de: altDe, en: altEn },
+        image: entry?.image || "",
+        aspectClass: entry?.aspectClass || (kind === "preset" ? "aspect-square" : "aspect-video"),
+        grayscale: Boolean(entry?.grayscale),
+        videoEmbed: entry?.videoEmbed || "",
+        paymentType: entry?.paymentType || (kind === "preset" ? "stripe" : "contact"),
+        stripeUrl: entry?.stripeUrl || "",
+        stripePriceId: entry?.stripePriceId || "",
+        bundleId: entry?.bundleId || "",
+        resourceUrl: entry?.resourceUrl || "",
+        resourceLabel: {
+          de: entry?.resourceLabel?.de ?? entry?.resourceLabel ?? "Dateien öffnen",
+          en: entry?.resourceLabel?.en ?? entry?.resourceLabelEn ?? entry?.resourceLabel ?? "Open files"
+        },
+        kind
+      };
+    };
+
+    const normalizeAcademyData = (raw) => {
+      const source = raw || {};
+      const translations = source.uiTranslations || {
+        de: {
+          pageTitle: source.metaTitle || "Academy | Blitzkneisser Photography",
+          metaDescription: source.metaDescription || "",
+          "nav.home": "Home",
+          "nav.about": "Über mich",
+          "nav.film": "Film",
+          "nav.portfolio": "Portfolio",
+          "nav.journal": "Journal",
+          "nav.contact": "Kontakt",
+          "nav.academy": "Academy",
+          "detail.back": source.detailBack || "Zur Academy zurück",
+          "detail.preview": source.detailPreview || "Preview",
+          "detail.offer": source.detailOffer || "Angebot",
+          "detail.copyTitle": source.detailCopyTitle || "Beschreibung",
+          "detail.ctaWorkshop": source.detailCtaWorkshop || "Workshop anfragen",
+          "detail.ctaPreset": source.detailCtaPreset || "Preset kaufen"
+        },
+        en: {
+          pageTitle: source.metaTitleEn || source.metaTitle || "Academy | Blitzkneisser Photography",
+          metaDescription: source.metaDescriptionEn || source.metaDescription || "",
+          "nav.home": "Home",
+          "nav.about": "About",
+          "nav.film": "Film",
+          "nav.portfolio": "Portfolio",
+          "nav.journal": "Journal",
+          "nav.contact": "Contact",
+          "nav.academy": "Academy",
+          "detail.back": source.detailBackEn || source.detailBack || "Back to Academy",
+          "detail.preview": source.detailPreviewEn || source.detailPreview || "Preview",
+          "detail.offer": source.detailOfferEn || source.detailOffer || "Offer",
+          "detail.copyTitle": source.detailCopyTitleEn || source.detailCopyTitle || "Description",
+          "detail.ctaWorkshop": source.detailCtaWorkshopEn || source.detailCtaWorkshop || "Inquire about workshop",
+          "detail.ctaPreset": source.detailCtaPresetEn || source.detailCtaPreset || "Buy preset"
+        }
+      };
+
+      return {
+        entries: [
+          ...(Array.isArray(source.workshops) ? source.workshops : []).map((entry) => normalizeEntry(entry, "workshop")),
+          ...(Array.isArray(source.presets) ? source.presets : []).map((entry) => normalizeEntry(entry, "preset"))
+        ],
+        uiTranslations: translations,
+        stripeStoreUrl: source.stripeStoreUrl || "",
+        stripeNotice: {
+          de: source.stripeNotice || "",
+          en: source.stripeNoticeEn || source.stripeNotice || ""
+        }
+      };
+    };
+
+    const loadAcademyData = async () => {
+      try {
+        const response = await fetch(`/content/academy/page.json?preview=${Date.now()}`);
+        if (!response.ok) throw new Error(`Academy JSON ${response.status}`);
+        return normalizeAcademyData(await response.json());
+      } catch {
+        return normalizeAcademyData(fallbackAcademyData);
+      }
+    };
+
+    const buildDetailUrl = (lang, entrySlug, entryType) => {
+      const params = new URLSearchParams(window.location.search);
+      if (entrySlug) params.set("entry", entrySlug);
+      if (entryType) params.set("type", entryType);
+      if (lang === "en") {
+        params.set("lang", "en");
+      } else {
+        params.delete("lang");
+      }
+      const query = params.toString();
+      return query ? `/academy/item/?${query}` : "/academy/item/";
+    };
+
+    const closeNavMenu = () => {
+      nav.classList.remove("is-open");
+      navToggle.setAttribute("aria-expanded", "false");
+    };
+
+    navToggle.addEventListener("click", () => {
+      const willOpen = !nav.classList.contains("is-open");
+      nav.classList.toggle("is-open", willOpen);
+      navToggle.setAttribute("aria-expanded", willOpen ? "true" : "false");
+    });
+
+    navMenuPanel.querySelectorAll("a, button[data-lang-button]").forEach((item) => {
+      item.addEventListener("click", () => {
+        if (window.innerWidth < 768) closeNavMenu();
+      });
+    });
+
+    window.addEventListener("resize", () => {
+      if (window.innerWidth >= 768) closeNavMenu();
+    });
+
+    window.addEventListener("scroll", () => {
+      if (window.innerWidth < 768 && nav.classList.contains("is-open")) {
+        closeNavMenu();
+      }
+    }, { passive: true });
+
+    const mediaMarkup = (entry, lang) => {
+      if (entry.videoEmbed) {
+        return `
+          <iframe src="${entry.videoEmbed}" title="${entry.title[lang]}" loading="lazy" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+          ${entry.kind === "workshop" ? `<div class="detail-soon">${lang === "en" ? "Coming soon" : "Coming soon"}</div>` : ""}
+        `;
+      }
+
+      return `
+        <img src="${entry.image}" alt="${entry.alt[lang]}">
+        ${entry.kind === "workshop" ? `<div class="detail-soon">${lang === "en" ? "Coming soon" : "Coming soon"}</div>` : ""}
+        ${entry.kind === "workshop" ? `
+        <div class="detail-play">
+          <div class="detail-play-badge">
+            <svg class="h-5 w-5 translate-x-[1px]" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M8 5v14l11-7z"></path>
+            </svg>
+          </div>
+        </div>` : ""}
+      `;
+    };
+
+    const applyLanguage = (lang) => {
+      const activeLang = lang === "en" ? "en" : "de";
+      const t = academyData.uiTranslations[activeLang] || academyData.uiTranslations.de || {};
+      const params = new URLSearchParams(window.location.search);
+      const slug = params.get("entry") || "";
+      const type = params.get("type") || "";
+      const entry = academyData.entries.find((item) => item.slug === slug && item.kind === type) || academyData.entries[0];
+
+      if (!entry) return;
+
+      localStorage.setItem("site-lang", activeLang);
+      document.documentElement.lang = activeLang;
+      document.title = `${entry.title[activeLang]} | Academy | Blitzkneisser Photography`;
+      metaDescriptionNode.setAttribute("content", `${entry.title[activeLang]} · ${entry.description[activeLang]}`);
+
+      document.querySelectorAll("[data-i18n]").forEach((node) => {
+        const key = node.dataset.i18n;
+        if (t[key]) node.textContent = t[key];
+      });
+
+      document.querySelectorAll("[data-lang-button]").forEach((button) => {
+        const active = button.dataset.langButton === activeLang;
+        button.setAttribute("aria-pressed", active ? "true" : "false");
+        button.style.backgroundColor = active ? "#1B1A18" : "transparent";
+        button.style.color = active ? "#F9F7F2" : "#1B1A18";
+        button.style.borderColor = active ? "#1B1A18" : "#E6DED4";
+      });
+
+      const homeHref = activeLang === "en" ? "/index.html?lang=en" : "/index.html";
+      document.getElementById("navHomeLink").href = homeHref;
+      document.getElementById("navHomeMenuLink").href = homeHref;
+      document.getElementById("navExperienceLink").href = activeLang === "en" ? "/experience/?lang=en" : "/experience/";
+      document.getElementById("navGuidesLink").href = activeLang === "en" ? "/guides/?lang=en" : "/guides/";
+      document.getElementById("navAboutLink").href = activeLang === "en" ? "/about/?lang=en" : "/about/";
+      document.getElementById("navFilmLink").href = activeLang === "en" ? "/film/?lang=en" : "/film/";
+      document.getElementById("navPortfolioLink").href = activeLang === "en" ? "/portfolio/?lang=en" : "/portfolio/";
+      document.getElementById("navJournalLink").href = activeLang === "en" ? "/journal/?lang=en" : "/journal/";
+      document.getElementById("navContactLink").href = activeLang === "en" ? "/contact/?lang=en" : "/contact/";
+      document.getElementById("navAcademyLink").href = activeLang === "en" ? "/academy/?lang=en" : "/academy/";
+      document.getElementById("footerContactLink").href = activeLang === "en" ? "/contact/?lang=en" : "/contact/";
+      document.getElementById("footerJournalLink").href = activeLang === "en" ? "/journal/?lang=en" : "/journal/";
+
+      document.getElementById("detailEyebrow").textContent = t["detail.preview"] || "Preview";
+      document.getElementById("detailTitle").textContent = entry.title[activeLang];
+      document.getElementById("detailMetaLabel").textContent = entry.label?.[activeLang] || (t["detail.offer"] || "Offer");
+      document.getElementById("detailSummary").textContent = entry.description[activeLang];
+      const detailMedia = document.getElementById("detailMedia");
+      const detailLayoutGrid = document.getElementById("detailLayoutGrid");
+      const detailContentGrid = document.getElementById("detailContentGrid");
+      detailMedia.classList.toggle("is-preset", entry.kind === "preset");
+      detailMedia.className = entry.kind === "preset"
+        ? "detail-media is-preset"
+        : "detail-media aspect-[16/9]";
+      detailLayoutGrid.className = entry.kind === "preset"
+        ? "grid gap-8 lg:grid-cols-[0.52fr_1.48fr] xl:gap-12"
+        : "grid gap-8 lg:grid-cols-[0.72fr_1.28fr] xl:gap-12";
+      detailContentGrid.className = entry.kind === "preset"
+        ? "grid gap-8 lg:grid-cols-[1.05fr_0.95fr]"
+        : "grid gap-8 lg:grid-cols-[1.1fr_0.9fr]";
+      detailMedia.innerHTML = mediaMarkup(entry, activeLang);
+      document.getElementById("detailCopyLabel").textContent = t["detail.copyTitle"] || "Description";
+      document.getElementById("detailText").textContent = entry.detailText?.[activeLang] || entry.description[activeLang];
+      document.getElementById("detailOfferLabel").textContent = t["detail.offer"] || "Offer";
+      document.getElementById("detailPrice").textContent = entry.price[activeLang];
+      document.getElementById("detailDescription").textContent = entry.description[activeLang];
+      document.getElementById("detailCtaText").textContent = entry.kind === "workshop"
+        ? (activeLang === "en" ? "Contact instead →" : "Zu Kontakt →")
+        : (entry.cta?.[activeLang] || t["detail.ctaPreset"]);
+      const fallbackContactHref = activeLang === "en" ? "/contact/?lang=en" : "/contact/";
+      const ctaHref = entry.kind === "workshop"
+        ? fallbackContactHref
+        : (entry.stripeUrl || academyData.stripeStoreUrl || fallbackContactHref);
+      document.getElementById("detailCtaLink").href = ctaHref;
+      const opensExternally = entry.kind !== "workshop" && entry.paymentType === "stripe" && ctaHref !== fallbackContactHref;
+      document.getElementById("detailCtaLink").target = opensExternally ? "_blank" : "_self";
+      document.getElementById("detailCtaLink").rel = opensExternally ? "noreferrer noopener" : "";
+      document.getElementById("detailDescription").textContent = entry.kind === "workshop"
+        ? (activeLang === "en"
+            ? "This workshop will be released soon. If you want to be the first to hear about it, use the contact page."
+            : "Dieser Workshop erscheint in Kürze. Wenn du dazu zuerst informiert werden möchtest, nutze bitte die Kontaktseite.")
+        : entry.paymentType === "stripe" && academyData.stripeNotice[activeLang]
+        ? academyData.stripeNotice[activeLang]
+        : entry.description[activeLang];
+      const resourceLink = document.getElementById("detailResourceLink");
+      const resourceText = document.getElementById("detailResourceText");
+      if (entry.resourceUrl && entry.paymentType !== "stripe") {
+        resourceLink.href = entry.resourceUrl;
+        resourceText.textContent = entry.resourceLabel?.[activeLang] || (activeLang === "en" ? "Open files" : "Dateien öffnen");
+        resourceLink.classList.remove("hidden");
+      } else {
+        resourceLink.href = "#";
+        resourceText.textContent = activeLang === "en" ? "Open files" : "Dateien öffnen";
+        resourceLink.classList.add("hidden");
+      }
+      document.getElementById("detailBackText").textContent = t["detail.back"] || "Back to Academy";
+      document.getElementById("detailBackLink").href = activeLang === "en" ? "/academy/?lang=en" : "/academy/";
+      const ctaLink = document.getElementById("detailCtaLink");
+      ctaLink.dataset.paymentType = entry.paymentType;
+      ctaLink.dataset.slug = entry.slug;
+      ctaLink.dataset.entryType = entry.kind;
+      ctaLink.dataset.lang = activeLang;
+      ctaLink.dataset.stripePriceId = entry.stripePriceId || "";
+      ctaLink.dataset.bundleId = entry.bundleId || "";
+      ctaLink.dataset.stripeUrl = entry.stripeUrl || "";
+
+      const nextParams = new URLSearchParams();
+      nextParams.set("entry", entry.slug);
+      nextParams.set("type", entry.kind);
+      if (activeLang === "en") nextParams.set("lang", "en");
+      window.history.replaceState({}, "", buildDetailUrl(activeLang, entry.slug, entry.kind));
+    };
+
+    document.addEventListener("DOMContentLoaded", async () => {
+      const detectAutoLanguage = () => {
+        const browserLanguages = [
+          ...(navigator.languages || []),
+          navigator.language,
+          navigator.userLanguage
+        ]
+          .filter(Boolean)
+          .map((value) => String(value).toLowerCase());
+        return browserLanguages.some((value) => value.startsWith("de")) ? "de" : "en";
+      };
+
+      const params = new URLSearchParams(window.location.search);
+      const initialLang = params.get("lang") === "en"
+        ? "en"
+        : (params.get("lang") === "de" ? "de" : (localStorage.getItem("site-lang") || detectAutoLanguage()));
+
+      document.querySelectorAll("[data-lang-button]").forEach((button) => {
+        button.addEventListener("click", () => {
+          const params = new URLSearchParams(window.location.search);
+          const slug = params.get("entry") || academyData.entries[0]?.slug || "";
+          const type = params.get("type") || academyData.entries[0]?.kind || "";
+          const nextLang = button.dataset.langButton === "en" ? "en" : "de";
+          localStorage.setItem("site-lang", nextLang);
+          window.location.href = buildDetailUrl(nextLang, slug, type);
+        });
+      });
+
+      document.getElementById("detailCtaLink").addEventListener("click", async (event) => {
+        const link = event.currentTarget;
+        if (link.dataset.paymentType !== "stripe" || !link.dataset.stripePriceId || !link.dataset.bundleId) {
+          return;
+        }
+
+        event.preventDefault();
+        const originalLabel = document.getElementById("detailCtaText").textContent;
+        document.getElementById("detailCtaText").textContent = link.dataset.lang === "en" ? "Redirecting…" : "Weiterleitung…";
+
+        try {
+          const response = await fetch("/api/stripe/create-checkout-session", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+              slug: link.dataset.slug,
+              type: link.dataset.entryType,
+              lang: link.dataset.lang
+            })
+          });
+
+          if (!response.ok) {
+            throw new Error(await response.text());
+          }
+
+          const payload = await response.json();
+          if (!payload.url) {
+            throw new Error("Missing Stripe Checkout URL");
+          }
+
+          window.location.href = payload.url;
+        } catch (error) {
+          console.error(error);
+          if (link.dataset.stripeUrl) {
+            window.location.href = link.dataset.stripeUrl;
+            return;
+          }
+          document.getElementById("detailCtaText").textContent = originalLabel;
+          alert(link.dataset.lang === "en"
+            ? "Checkout could not be started. Please try again."
+            : "Checkout konnte nicht gestartet werden. Bitte versuche es erneut.");
+        }
+      });
+
+      academyData = await loadAcademyData();
+      applyLanguage(initialLang);
+    });
+  </script>
+  <script src="/assets/footer-settings.js"></script>
+</body>
+</html>

@@ -1,0 +1,754 @@
+{
+  "de": {
+    "title": "Guides | Dolomites Elopement Guide & Wedding Planning",
+    "description": "Hochwertige Editorial Guides für Dolomites Elopements, Hochzeiten in Nord- und Südtirol und bewusste Bergtage mit klarer Planung, echten Orten und stiller Inspiration.",
+    "hero": {
+      "eyebrow": "Wedding & Elopement Guides",
+      "title": "Guides",
+      "copy": "Für Paare, die von einem bewussten Elopement oder einer intimen Hochzeit in den Dolomiten, Südtirol und den stillen Berglandschaften Tirols träumen. Besondere Orte und entspannte Planungsguides.\n",
+      "images": [
+        "/assets/uploads/Blitzkneisser-Mountain-Elopement-Seceda-180.jpg",
+        "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-7.jpg",
+        "/assets/uploads/Blitzkneisser-After-Wedding-Lago-di-Braies-9.jpg"
+      ],
+      "image": "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-256.jpg",
+      "imageAlt": "Panoramabild aus den Dolomiten",
+      "primaryCta": "Guides entdecken",
+      "secondaryCta": "Experience planen"
+    },
+    "intro": {
+      "eyebrow": "Start Here",
+      "copy": "Ein persönlicher Einstieg für Paare, die ein Dolomiten-Elopement, eine intime Berghochzeit oder eine bewusste Hochzeit in Nord- und Südtirol planen und sich zunächst einen klaren Überblick über Locations, Jahreszeiten, Licht, Wetter und den echten Rhythmus eines Tages in den Bergen wünschen."
+    },
+    "moreGuides": {
+      "open": "Mehr Guides anzeigen",
+      "close": "Weniger anzeigen"
+    },
+    "startHere": {
+      "items": [
+        {
+          "title": "Elopement-Guide für die Dolomiten",
+          "copy": "Ein klarer Einstieg für Paare, die ihr Dolomiten-Elopement nicht nur schön, sondern von Anfang an stimmig planen möchten.",
+          "cta": "Zum Elopement Guide",
+          "href": "/guides/dolomites-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-120.jpg",
+          "alt": "Platzhalterbild für den Helden des Dolomiten-Elopement Guide"
+        },
+        {
+          "title": "Die besten Elopement-Standorte in den Dolomiten",
+          "copy": "Ein persönlicher Überblick über Orte, die sich ganz unterschiedlich anfühlen: spiegelnd, weit, wild oder monumental.",
+          "cta": "Destinationen ansehen",
+          "href": "/guides/best-dolomites-elopement-locations/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-191.jpg",
+          "alt": "Elopement-Standorte in den Dolomiten"
+        },
+        {
+          "title": "Planung rund ums Wetter?",
+          "copy": "Wie Nebel, Wind, Regen und Plan B den Tag nicht ruinieren, sondern oft erst glaubwürdig machen.",
+          "cta": "Wetter-Guide ansehen",
+          "href": "/guides/weather-and-backup-planning/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-161.jpg",
+          "alt": "Platzhalterbild für Bergwetter und Nebel"
+        },
+        {
+          "title": "Sonnenaufgang oder Sonnenuntergang?",
+          "copy": "Welche Tageszeit euch mehr Leere, weicheres Licht und das passendere Gefühl in den Bergen schenkt.",
+          "cta": "Lichtmomente ansehen",
+          "href": "/guides/sunrise-vs-sunset-dolomites/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Photo-368.jpg",
+          "alt": "Platzhalterbild für Sonnenaufgang und Sonnenuntergang in den Bergen"
+        },
+        {
+          "title": "Was trägt man in den Bergen?",
+          "copy": "Was in den Bergen wirklich funktioniert: schöne Kleidung, die auch Wind, Kälte und Bewegung mitträgt.",
+          "cta": "Styling Guide lesen",
+          "href": "/guides/what-to-wear-in-the-mountains/",
+          "image": "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Hut-13.jpg",
+          "alt": "Platzhalterbild für Bergsteigerbekleidung"
+        }
+      ]
+    },
+    "helpful": {
+      "eyebrow": "Most helpful planning guides",
+      "title": "Die hilfreichsten Planungs-Guides",
+      "copy": "Praktische Orientierung für Licht, Wetter, Kleidung, Tagesrhythmus und echte Entscheidungen in den Bergen.",
+      "guides": [
+        {
+          "title": "Elopement-Guide für die Dolomiten",
+          "copy": "Ein klarer Einstieg für Paare, die ihr Dolomiten-Elopement nicht nur schön, sondern von Anfang an stimmig planen möchten.",
+          "cta": "Hauptguide lesen",
+          "href": "/guides/dolomites-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-120.jpg",
+          "alt": "Platzhalterbild für den Helden des Dolomiten-Elopement Guide",
+          "tags": [
+            "Dolomiten",
+            "Planning"
+          ]
+        },
+        {
+          "title": "Die beliebtesten Elopement-Orte in den Dolomiten",
+          "copy": "Ein kuratierter Guide für Paare, die nicht einfach irgendeine schöne Aussicht suchen, sondern den Ort, dessen Stimmung wirklich zu ihrem Tag passt.",
+          "cta": "Locations ansehen",
+          "href": "/guides/best-dolomites-elopement-locations/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-191.jpg",
+          "alt": "Elopement-Standorte in den Dolomiten",
+          "tags": [
+            "Dolomiten",
+            "Locations"
+          ]
+        },
+        {
+          "title": "Beste Jahreszeit für ein Dolomiten-Elopement",
+          "copy": "Welche Jahreszeit am besten zu eurem Tempo und eurer Vorstellung passt.",
+          "cta": "Jahreszeiten lesen",
+          "href": "/guides/best-time-for-a-dolomites-elopement/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-16.jpg",
+          "alt": "Vorhandenes Bild zur schönsten Zeit in den Dolomiten",
+          "tags": [
+            "Jahreszeiten",
+            "Planning",
+            "Dolomiten"
+          ]
+        },
+        {
+          "title": "Sonnenaufgang oder Sonnenuntergang?",
+          "copy": "Welche Tageszeit besser zu eurem Tempo und der Stimmung in den Bergen passt.",
+          "cta": "Licht vergleichen",
+          "href": "/guides/sunrise-vs-sunset-dolomites/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Photo-368.jpg",
+          "alt": "Platzhalterbild für Sonnenaufgang und Sonnenuntergang in den Bergen",
+          "tags": [
+            "Planning"
+          ]
+        },
+        {
+          "title": "Planung rund ums Wetter?",
+          "copy": "Wie Nebel, Wind, Regen und ein guter Plan B den Bergen oft erst ihre besondere Stimmung geben.",
+          "cta": "Wetter mitdenken",
+          "href": "/guides/weather-and-backup-planning/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-161.jpg",
+          "alt": "Platzhalterbild für Bergwetter und Nebel",
+          "tags": [
+            "Planning"
+          ]
+        },
+        {
+          "title": "Helikopter-Elopement-Guide",
+          "copy": "Wann ein Helikopter mehr Raum, mehr Privatsphäre und einen entspannteren Tagesfluss schaffen kann.",
+          "cta": "Mehr im Helikopter Guide",
+          "href": "/guides/helicopter-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-12.jpg",
+          "alt": "Platzhalterbild für ein Helikopter-Elopement",
+          "tags": [
+            "Helicopter",
+            "Planning"
+          ]
+        },
+        {
+          "title": "Verlobung in den Dolomiten planen",
+          "copy": "Ein Guide für Paare, die einen Heiratsantrag in den Dolomiten so planen möchten, dass er nicht groß inszeniert, sondern persönlich, klar und unvergesslich wirkt.",
+          "cta": "Verlobungs Guide öffnen",
+          "href": "/guides/dolomites-proposal-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Proposel-INSTA-1.jpg",
+          "alt": "Paar in den Dolomiten kurz nach einem stillen Heiratsantrag",
+          "tags": [
+            "Dolomiten",
+            "Proposal",
+            "Planning"
+          ]
+        },
+        {
+          "title": "Was trägt man in den Bergen?",
+          "copy": "Was in den Bergen wirklich funktioniert: schöne Kleidung, die auch Wind, Kälte und Bewegung mitträgt.",
+          "cta": "Styling Guide lesen",
+          "href": "/guides/what-to-wear-in-the-mountains/",
+          "image": "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Hut-13.jpg",
+          "alt": "Platzhalterbild für Bergsteigerbekleidung",
+          "tags": [
+            "Planning"
+          ]
+        },
+        {
+          "title": "Lago di Braies Guide",
+          "copy": "Ein ehrlicher Guide für Paare, die den Pragser Wildsee nicht nur als berühmtes Bild kennen, sondern verstehen möchten, wann er still, weich und tatsächlich erlebbar wird.",
+          "cta": "Pragser Wildsee Guide lesen",
+          "href": "/guides/lago-di-braies-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopemnt-Dolomites-Lago-di-Braies-19.jpg",
+          "alt": "Lago di Braies mit stillem Wasser und frühem Licht",
+          "tags": [
+            "Locations",
+            "Dolomiten",
+            "Proposal"
+          ]
+        },
+        {
+          "title": "Seceda Guide",
+          "copy": "Warum Seceda sich weiter, luftiger und freier anfühlt als viele andere Orte in den Dolomiten.",
+          "cta": "Seceda Guide lesen",
+          "href": "/guides/seceda-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Seceda-180.jpg",
+          "alt": "Platzhalterbild für Seceda",
+          "tags": [
+            "Locations",
+            "Dolomiten",
+            "Proposal",
+            "Helicopter"
+          ]
+        },
+        {
+          "title": "Cadini di Misurina Guide",
+          "copy": "Ein Guide zu einem der wildesten Orte der Dolomiten, mit ehrlichen Hinweisen zu Licht, Wind und Zugang.",
+          "cta": "Cadini Guide lesen",
+          "href": "/guides/cadini-di-misurina-guide/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-12.jpg",
+          "alt": "Platzhalterbild für Cadini di Misurina",
+          "tags": [
+            "Locations",
+            "Dolomiten",
+            "Proposal",
+            "Helicopter"
+          ]
+        },
+        {
+          "title": "Drei Zinnen Guide",
+          "copy": "Ein ehrlicher Guide für Paare, die Drei Zinnen nicht nur wegen des berühmten Blicks wählen, sondern wegen dieser monumentalen, fast unwirklichen Präsenz, die der Ort im richtigen Moment entfaltet.",
+          "cta": "Mehr ansehen",
+          "href": "/guides/tre-cime-wedding-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14.jpg",
+          "alt": "Drei Zinnen Cadini di Misurina",
+          "tags": [
+            "Dolomiten",
+            "Locations"
+          ]
+        },
+        {
+          "title": "Mehrtägiger Elopement-Guide",
+          "copy": "Warum mehr Zeit oft für weniger Druck und natürlichere Momente sorgt.",
+          "cta": "Mehrtagigen Guide lesen",
+          "href": "/guides/multi-day-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Insta-11.jpg",
+          "alt": "Platzhalterbild für ein mehrtägiges Elopement-Erlebnis",
+          "tags": [
+            "Planning",
+            "Helicopter"
+          ]
+        },
+        {
+          "title": "Standesamtliche Hochzeit in Österreich",
+          "copy": "Was internationale Paare für eine standesamtliche Hochzeit in Österreich wirklich früh wissen sollten.",
+          "cta": "Offizieller Hochzeits Guide öffnen",
+          "href": "/guides/civil-wedding-austria-foreign-couples/",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Kemater-Alm-12.jpg",
+          "alt": "Internationales Paar bei einer zivilen Hochzeit in Österreich",
+          "tags": [
+            "Österreich",
+            "Standesamt",
+            "Planning"
+          ]
+        },
+        {
+          "title": "Elopement oder klassische Hochzeit in den Alpen",
+          "copy": "Ein ehrlicher Blick darauf, welche Hochzeitsform sich nach euch und nicht nur nach Erwartungen anfühlt.",
+          "cta": "Guide öffnen",
+          "href": "/guides/elopement-vs-traditional-wedding-alps/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement_lago-di-Braies-9.jpg",
+          "alt": "Paar in alpiner Landschaft zwischen intimer und größerer Hochzeitsstimmung",
+          "tags": [
+            "Tirol",
+            "Planning"
+          ]
+        },
+        {
+          "title": "Die schönsten Orte für eine offizielle Trauung in Tirol",
+          "copy": "Orte in Tirol, an denen sich standesamtliche Klarheit und Berggefühl besonders stimmig verbinden lassen.",
+          "cta": "Guide öffnen",
+          "href": "/guides/best-places-officially-elope-tyrol/",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Winter-Wedding-Shooting-58.jpg",
+          "alt": "Offizielle Hochzeit in Tirol mit Bergen im Hintergrund",
+          "tags": [
+            "Tirol",
+            "Österreich",
+            "Standesamt",
+            "Locations",
+            "Jahreszeiten"
+          ]
+        }
+      ]
+    },
+    "stories": {
+      "eyebrow": "Real Stories",
+      "title": "Echte Tage, echtes Licht, echte Verbindung.",
+      "copy": "Nicht nur Journal-Beiträge, sondern gelebte Momente. Wetter, Nähe, Berglicht und diese kleinen Augenblicke, die ein Dolomites Elopement oder eine Hochzeit in den Bergen wirklich besonders machen.",
+      "hint": "Nach links oder rechts wischen, um mehr Beiträge zu entdecken.",
+      "cta": "Zum Journal",
+      "items": [
+        {
+          "title": "Die besten Elopement-Orte in den Dolomiten zum Heiraten",
+          "location": "Dolomiten",
+          "feeling": "Weite & Berglicht",
+          "href": "/journal/the-best-elopement-locations/",
+          "image": "https://blitzkneisser.com/wp-content/uploads/2025/03/Blitzkneisser-Dolomits-Cadini-Proposal-148-scaled.jpg",
+          "alt": "Panorama aus den Dolomiten für den Journalbeitrag über Elopement-Orte"
+        },
+        {
+          "title": "Mystisches Elopement am Pragser Wildsee",
+          "location": "Lago di Braies",
+          "feeling": "Still & spiegelnd",
+          "href": "/journal/lago-di-braies-wedding-dream-destination-in-the-dolomites/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Lago-di-Braies-7.jpg",
+          "alt": "Paar auf einem Holzboot am Pragser Wildsee"
+        },
+        {
+          "title": "Standesamtliche Hochzeit in Brixen",
+          "location": "Südtirol",
+          "feeling": "Stadt & Berge",
+          "href": "/journal/standesamtliche-hochzeit-i-brixen/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Wedding-167.jpg",
+          "alt": "Standesamtliche Hochzeit in Brixen mit Bergkulisse"
+        },
+        {
+          "title": "Sonnenaufgangs-Elopement bei Innsbruck",
+          "location": "Nordtirol",
+          "feeling": "Früh & klar",
+          "href": "/journal/sonnenaufgang-elopement-innsbruck/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Ski-Wedding-44.jpg",
+          "alt": "Paar im frühen Licht in den Bergen bei Innsbruck"
+        },
+        {
+          "title": "Ein Traum-Engagement in den Alpen",
+          "location": "Alpen",
+          "feeling": "Leise & nah",
+          "href": "/journal/a-dream-engagement-in-the-alps-2/",
+          "image": "https://blitzkneisser.com/wp-content/uploads/2025/05/Blitzkneisser-Proposal-Dolomites-36-scaled.jpg",
+          "alt": "Verlobung in den Alpen mit weitem Bergblick"
+        },
+        {
+          "title": "Winterhochzeit in den Alpen",
+          "location": "Alpen im Winter",
+          "feeling": "Schnee & Ruhe",
+          "href": "/journal/winter-wedding-in-the-alps/",
+          "image": "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Winter-Wedding-Tirol-570-scaled.jpg",
+          "alt": "Winterhochzeit in verschneiter Berglandschaft"
+        }
+      ]
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Fragen, die oft lange vor dem eigentlichen Tag auftauchen.",
+      "items": [
+        {
+          "q": "Wann ist die beste Zeit für ein Dolomiten-Elopement?",
+          "a": "Für viele Paare fühlt sich die Zeit von Juni bis Anfang Oktober am ausgewogensten an, weil Zugänge, Licht und Temperaturen oft stimmig zusammenfinden. Besonders die frühen Morgenstunden wirken in dieser Zeit in den Bergen meist still, weich und deutlich entspannter als mitten am Tag.\n"
+        },
+        {
+          "q": "Ist Lago di Braies zu voll für ein Elopement?",
+          "a": "Der Pragser Wildsee kann besonders im Sommer tagsüber sehr voll werden. Früh am Morgen, unter der Woche oder außerhalb der Hauptsaison fühlt sich der Ort jedoch deutlich stiller und persönlicher an. Viele Paare erleben genau diese frühen Stunden als den schönsten Teil des Tages."
+        },
+        {
+          "q": "Kann man die Planung flexibel um das Wetter herum aufbauen?",
+          "a": "Ja. Gerade in den Bergen lohnt sich ein Ablauf, der Licht, Wetter und kleine Backup-Optionen mitdenkt, statt sich zu starr an einen einzigen Plan zu klammern. Oft entstehen die stillsten und schönsten Momente genau dann, wenn genug Flexibilität im Tag bleibt.\n"
+        },
+        {
+          "q": "Helft ihr bei der Suche nach dem richtigen Ort?",
+          "a": "Ja. Ein guter Ort passt nicht nur optisch, sondern auch zu Licht, Zugang, Stimmung und der Art, wie ihr euren Tag wirklich erleben möchtet. Oft machen kleine Unterschiede bei Ruhe, Tageszeit oder Bewegung am Ende das gesamte Erlebnis aus.\n"
+        },
+        {
+          "q": "Lohnt sich der Sonnenaufgang in den Dolomiten wirklich?",
+          "a": "Oft ja. Viele ikonische Orte fühlen sich am frühen Morgen deutlich stiller, weiter und persönlicher an als später am Tag. Gerade in den Dolomiten verändert die erste Stunde des Tages oft die gesamte Stimmung eines Ortes.\n"
+        },
+        {
+          "q": "Was sollte man für ein Elopement in den Bergen anziehen?",
+          "a": "Am besten funktioniert Kleidung, die sich gut bewegen lässt und sowohl mit Wind, Temperaturwechseln als auch kurzen Wegen in den Bergen angenehm bleibt. Gerade in den Dolomiten fühlen sich natürliche Stoffe, Schichten und etwas wärmere Optionen oft deutlich entspannter an als rein perfekte Outfits.\n"
+        },
+        {
+          "q": "Kann man auch im Winter in den Dolomiten elopen?",
+          "a": "Ja, besonders wenn ihr euch eine stillere und reduzierte Atmosphäre in den Bergen wünscht. Winter-Elopements fühlen sich oft persönlicher, intimer und deutlich langsamer an — verlangen aber auch mehr Flexibilität bei Kälte, Tageslicht und Zugängen.\n"
+        }
+      ]
+    },
+    "final": {
+      "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Prags-Zinnen-283.jpg",
+      "imageAlt": "Berglandschaft mit sanftem Abendlicht",
+      "eyebrow": "Planung mit Gefühl",
+      "title": "Lasst uns einen Tag schaffen, der euch noch lange genauso in Erinnerung bleibt wie an diesem Tag.",
+      "copy": "Ob Dolomiten-Elopement oder Hochzeit in den Alpen — ich begleite euch gern an Orte, die sich natürlich, persönlich und wirklich nach euch anfühlen.",
+      "cta": "Planung starten"
+    }
+  },
+  "en": {
+    "title": "Guides | Dolomites Elopement Guide & Wedding Planning",
+    "description": "A curated editorial guide library for Dolomites elopements, weddings in North and South Tyrol, and intentional days in the mountains.",
+    "hero": {
+      "eyebrow": "Wedding & Elopement Guides",
+      "title": "Guides",
+      "copy": "For couples who dream of a conscious elopement or an intimate wedding in the Dolomites, South Tyrol and the quiet mountain landscapes of Tyrol. Special places and quiet planning guides.",
+      "images": [
+        "/assets/uploads/Blitzkneisser-Mountain-Elopement-Seceda-180.jpg",
+        "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-7.jpg",
+        "/assets/uploads/Blitzkneisser-After-Wedding-Lago-di-Braies-9.jpg"
+      ],
+      "image": "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-256.jpg",
+      "imageAlt": "Panoramic image from the Dolomites",
+      "primaryCta": "Explore the Guides",
+      "secondaryCta": "Start Planning Your Experience"
+    },
+    "intro": {
+      "eyebrow": "Start Here",
+      "copy": "A calm starting point for couples planning a Dolomites Elopement, an intimate mountain wedding or an intentional celebration in North and South Tyrol, and looking for a clearer sense of locations, seasons, weather, light and the real rhythm of a day in the mountains."
+    },
+    "moreGuides": {
+      "open": "Read More",
+      "close": "Read Less"
+    },
+    "startHere": {
+      "items": [
+        {
+          "title": "Dolomites Elopement Guide",
+          "copy": "A clear starting point for couples who want to plan their Dolomites Elopement with more than just beautiful views in mind.",
+          "cta": "Start with the Guide",
+          "href": "/guides/dolomites-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-120.jpg",
+          "alt": "Placeholder image for Dolomites Elopement Guide hero"
+        },
+        {
+          "title": "Best Dolomites Elopement Locations",
+          "copy": "A calm overview of locations that feel very different from one another: reflective, expansive, wild or monumental.",
+          "cta": "See Destinations",
+          "href": "/guides/best-dolomites-elopement-locations/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-191.jpg",
+          "alt": "Elopement locations in the Dolomites"
+        },
+        {
+          "title": "Planning around weather?",
+          "copy": "How fog, wind, rain and a thoughtful backup plan can strengthen the day instead of undoing it.",
+          "cta": "See weather planning",
+          "href": "/guides/weather-and-backup-planning/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-161.jpg",
+          "alt": "Placeholder image for mountain weather and fog"
+        },
+        {
+          "title": "Sunrise vs Sunset?",
+          "copy": "Which time of day gives you more quiet, softer light and the feeling that fits you best in the mountains.",
+          "cta": "Compare the light",
+          "href": "/guides/sunrise-vs-sunset-dolomites/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Photo-368.jpg",
+          "alt": "Placeholder image for sunrise versus sunset in the mountains"
+        },
+        {
+          "title": "What to wear in the mountains?",
+          "copy": "What actually works in the mountains: clothing that looks beautiful and still moves well through wind, cold and uneven ground.",
+          "cta": "Read the styling guide",
+          "href": "/guides/what-to-wear-in-the-mountains/",
+          "image": "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Hut-13.jpg",
+          "alt": "Placeholder image for mountain elopement clothing"
+        }
+      ]
+    },
+    "helpful": {
+      "eyebrow": "Most helpful planning guides",
+      "title": "Most helpful planning guides",
+      "copy": "Practical orientation for light, weather, clothing, rhythm and real decisions in the mountains.",
+      "guides": [
+        {
+          "title": "Dolomites Elopement Guide",
+          "copy": "A clear starting point for couples who want to plan their Dolomites Elopement with more than just beautiful views in mind.",
+          "cta": "Read the main guide",
+          "href": "/guides/dolomites-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-120.jpg",
+          "alt": "Placeholder image for Dolomites Elopement Guide hero",
+          "tags": [
+            "Dolomites",
+            "Planning"
+          ]
+        },
+        {
+          "title": "The most popular elopement locations in the Dolomites",
+          "copy": "A curated guide for couples who are not looking for just any beautiful view, but for the place whose atmosphere truly fits the day they want.",
+          "cta": "Explore the locations",
+          "href": "/guides/best-dolomites-elopement-locations/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-191.jpg",
+          "alt": "Elopement locations in the Dolomites",
+          "tags": [
+            "Dolomites",
+            "Locations"
+          ]
+        },
+        {
+          "title": "Best Time for a Dolomites Elopement",
+          "copy": "When the Dolomites offer the right balance of light, access, quiet and seasonal feeling for your day.",
+          "cta": "Read the season guide",
+          "href": "/guides/best-time-for-a-dolomites-elopement/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-16.jpg",
+          "alt": "Existing image for best time in the Dolomites",
+          "tags": [
+            "Seasons",
+            "Planning",
+            "Dolomites"
+          ]
+        },
+        {
+          "title": "Sunrise vs Sunset?",
+          "copy": "Which time of day gives you more quiet, softer light and the feeling that fits you best in the mountains.",
+          "cta": "Compare the light",
+          "href": "/guides/sunrise-vs-sunset-dolomites/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Photo-368.jpg",
+          "alt": "Placeholder image for sunrise versus sunset in the mountains",
+          "tags": [
+            "Planning"
+          ]
+        },
+        {
+          "title": "Planning around weather?",
+          "copy": "How fog, wind, rain and a thoughtful backup plan can strengthen the day instead of undoing it.",
+          "cta": "Plan weather calmly",
+          "href": "/guides/weather-and-backup-planning/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Picnic-161.jpg",
+          "alt": "Placeholder image for mountain weather and fog",
+          "tags": [
+            "Planning"
+          ]
+        },
+        {
+          "title": "Helicopter Elopement Guide",
+          "copy": "When a helicopter creates more space, more privacy and a calmer flow to the day.",
+          "cta": "Read the helicopter guide",
+          "href": "/guides/helicopter-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-12.jpg",
+          "alt": "Placeholder image for a helicopter elopement",
+          "tags": [
+            "Helicopter",
+            "Planning"
+          ]
+        },
+        {
+          "title": "Planning a Proposal in the Dolomites",
+          "copy": "A guide for couples who want to plan a proposal in the Dolomites in a way that feels personal, clear and unforgettable rather than over-produced.",
+          "cta": "Open Proposal Guide",
+          "href": "/guides/dolomites-proposal-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Proposel-INSTA-1.jpg",
+          "alt": "Couple in the Dolomites just after a quiet proposal",
+          "tags": [
+            "Dolomites",
+            "Proposal",
+            "Planning"
+          ]
+        },
+        {
+          "title": "What to wear in the mountains?",
+          "copy": "What actually works in the mountains: clothing that looks beautiful and still moves well through wind, cold and uneven ground.",
+          "cta": "Read the styling guide",
+          "href": "/guides/what-to-wear-in-the-mountains/",
+          "image": "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Hut-13.jpg",
+          "alt": "Placeholder image for mountain elopement clothing",
+          "tags": [
+            "Planning"
+          ]
+        },
+        {
+          "title": "Lago di Braies Guide",
+          "copy": "An honest guide for couples who know Lago di Braies as more than a famous photograph and want to understand when it feels soft, quiet and truly worth experiencing.",
+          "cta": "Read the lake bries guide",
+          "href": "/guides/lago-di-braies-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopemnt-Dolomites-Lago-di-Braies-19.jpg",
+          "alt": "Lago di Braies with still water and early light",
+          "tags": [
+            "Locations",
+            "Dolomites",
+            "Proposal"
+          ]
+        },
+        {
+          "title": "Seceda Guide",
+          "copy": "Why Seceda feels wider, airier and freer than many other locations in the Dolomites.",
+          "cta": "Read the Seceda guide",
+          "href": "/guides/seceda-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Seceda-180.jpg",
+          "alt": "Placeholder image for Seceda",
+          "tags": [
+            "Locations",
+            "Dolomites",
+            "Proposal",
+            "Helicopter"
+          ]
+        },
+        {
+          "title": "Cadini di Misurina Guide",
+          "copy": "A guide to one of the wildest places in the Dolomites, with honest notes on light, wind and access.",
+          "cta": "Read the Cadini guide",
+          "href": "/guides/cadini-di-misurina-guide/",
+          "image": "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-12.jpg",
+          "alt": "Placeholder image for Cadini di Misurina",
+          "tags": [
+            "Locations",
+            "Dolomites",
+            "Proposal",
+            "Helicopter"
+          ]
+        },
+        {
+          "title": "Tre Cime Wedding Guide",
+          "copy": "An honest guide for couples choosing Tre Cime not only for the famous view, but for the monumental, almost unreal presence the place carries when the timing is right.",
+          "cta": "Explore more",
+          "href": "/guides/tre-cime-wedding-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14.jpg",
+          "alt": "Three Peaks Cadini di Misurina",
+          "tags": [
+            "Dolomites",
+            "Locations"
+          ]
+        },
+        {
+          "title": "Multi-Day Elopement Guide",
+          "copy": "More time, more room and less pressure: why some stories only fully unfold across several days.",
+          "cta": "Read the multi-day guide",
+          "href": "/guides/multi-day-elopement-guide/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Insta-11.jpg",
+          "alt": "Placeholder image for a multi-day elopement experience",
+          "tags": [
+            "Planning",
+            "Helicopter"
+          ]
+        },
+        {
+          "title": "Civil Wedding in Austria",
+          "copy": "What international couples usually need to understand early when planning a civil wedding in Austria.",
+          "cta": "Open Guide",
+          "href": "/guides/civil-wedding-austria-foreign-couples/",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Kemater-Alm-12.jpg",
+          "alt": "International couple during a civil wedding in Austria",
+          "tags": [
+            "Austria",
+            "Civil Wedding",
+            "Planning"
+          ]
+        },
+        {
+          "title": "Elopement vs Traditional Wedding in the Alps",
+          "copy": "An honest look at which wedding format feels more like you, not just more expected.",
+          "cta": "Open Guide",
+          "href": "/guides/elopement-vs-traditional-wedding-alps/",
+          "image": "/assets/uploads/Blitzkneisser-Elopement_lago-di-Braies-9.jpg",
+          "alt": "Couple in the Alps between intimate and larger wedding atmosphere",
+          "tags": [
+            "Tyrol",
+            "Planning"
+          ]
+        },
+        {
+          "title": "Best Places to Officially Elope in Tyrol",
+          "copy": "Places in Tyrol where legal clarity and mountain atmosphere come together especially well.",
+          "cta": "Open Guide",
+          "href": "/guides/best-places-officially-elope-tyrol/",
+          "image": "/assets/uploads/Blitzkneisser-Mountain-Winter-Wedding-Shooting-58.jpg",
+          "alt": "Official wedding in Tyrol with mountains in the background",
+          "tags": [
+            "Tyrol",
+            "Austria",
+            "Civil Wedding",
+            "Locations",
+            "Seasons"
+          ]
+        }
+      ]
+    },
+    "stories": {
+      "eyebrow": "Real Stories",
+      "title": "Real weather. Real light. Real connection.",
+      "copy": "Not just journal articles, but lived moments. Weather, proximity, mountain light and those little moments that make a Dolomites elopement or a wedding in the mountains really special.",
+      "hint": "Swipe left or right to explore more stories.",
+      "cta": "View the Journal",
+      "items": [
+        {
+          "title": "The best elopement locations in the Dolomites",
+          "location": "Dolomites",
+          "feeling": "Open & cinematic",
+          "href": "/journal/the-best-elopement-locations/",
+          "image": "https://blitzkneisser.com/wp-content/uploads/2025/03/Blitzkneisser-Dolomits-Cadini-Proposal-148-scaled.jpg",
+          "alt": "Dolomites panorama for the journal story about elopement locations"
+        },
+        {
+          "title": "A misty elopement at Lago di Braies",
+          "location": "Lago di Braies",
+          "feeling": "Still & reflective",
+          "href": "/journal/lago-di-braies-wedding-dream-destination-in-the-dolomites/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Lago-di-Braies-7.jpg",
+          "alt": "Couple on a wooden boat at Lago di Braies"
+        },
+        {
+          "title": "A civil wedding in Brixen",
+          "location": "South Tyrol",
+          "feeling": "Town & mountains",
+          "href": "/journal/standesamtliche-hochzeit-i-brixen/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Wedding-167.jpg",
+          "alt": "Civil wedding in Brixen with mountains in the background"
+        },
+        {
+          "title": "A sunrise elopement near Innsbruck",
+          "location": "North Tyrol",
+          "feeling": "Early & clear",
+          "href": "/journal/sonnenaufgang-elopement-innsbruck/",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Ski-Wedding-44.jpg",
+          "alt": "Couple in early mountain light near Innsbruck"
+        },
+        {
+          "title": "A dream engagement in the Alps",
+          "location": "Alps",
+          "feeling": "Quiet & close",
+          "href": "/journal/a-dream-engagement-in-the-alps-2/",
+          "image": "https://blitzkneisser.com/wp-content/uploads/2025/05/Blitzkneisser-Proposal-Dolomites-36-scaled.jpg",
+          "alt": "Mountain proposal in the Alps with wide views"
+        },
+        {
+          "title": "A winter wedding in the Alps",
+          "location": "Winter Alps",
+          "feeling": "Snow & calm",
+          "href": "/journal/winter-wedding-in-the-alps/",
+          "image": "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Winter-Wedding-Tirol-570-scaled.jpg",
+          "alt": "Winter wedding in a snowy alpine landscape"
+        }
+      ]
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Questions couples often ask before the mountains ever appear.",
+      "items": [
+        {
+          "q": "When is the best time for a Dolomites Elopement?",
+          "a": "For many couples, June through early October feels the most balanced, because access, light and temperature tend to work together more gently."
+        },
+        {
+          "q": "Is Lago di Braies too crowded for an elopement?",
+          "a": "It can be, but early light, weekdays and honest expectations about timing usually change the experience dramatically."
+        },
+        {
+          "q": "Can we build the plan around weather flexibility?",
+          "a": "Yes. In the mountains especially, it helps to shape a day that leaves space for movement, light and small backup options instead of clinging to one rigid plan."
+        },
+        {
+          "q": "Do you help with finding the right location?",
+          "a": "Yes. The right place is not only about looks, but also about access, light, atmosphere and how you actually want to feel on the day."
+        },
+        {
+          "q": "Is sunrise really worth it in the Dolomites?",
+          "a": "Very often, yes. Many iconic places feel quieter, wider and more personal in the morning than they do later in the day."
+        },
+        {
+          "q": "What should we wear for a mountain elopement?",
+          "a": "The best choices are clothes that still move well and feel natural with wind, changing temperatures and short walks, not only in photographs."
+        },
+        {
+          "q": "Can we elope in the Dolomites during winter?",
+          "a": "Yes, if you are drawn to a quieter, more reduced atmosphere and are willing to plan around access, cold and shorter daylight."
+        }
+      ]
+    },
+    "final": {
+      "image": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Prags-Zinnen-283.jpg",
+      "imageAlt": "Mountain landscape with calm evening light",
+      "eyebrow": "Planning with feeling",
+      "title": "Let’s create a day that feels as quiet and true as the landscape itself.",
+      "copy": "Whether you are dreaming of a Dolomites Elopement, a Dolomites wedding or a quiet Lake Como wedding, I would love to help you shape something personal, cinematic and deeply your own.",
+      "cta": "Start Planning"
+    }
+  }
+}
