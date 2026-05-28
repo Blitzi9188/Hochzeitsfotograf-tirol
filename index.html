@@ -23,7 +23,7 @@
     property="og:description"
     content="Hochzeitsfotograf und Elopement Fotograf für Tirol, Innsbruck und die Dolomiten. Ruhige, emotionale Hochzeitsreportagen in den Bergen."
   >
-  <meta property="og:image" content="/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-8.jpg" id="metaOgImage">
+  <meta property="og:image" content="/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14.jpg" id="metaOgImage">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -556,7 +556,7 @@
           "@type": "ProfessionalService",
           "@id": "https://www.hochzeitsfotograf.tirol/#business",
           "name": "Blitzkneisser Photography",
-          "image": "https://www.hochzeitsfotograf.tirol/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-8.jpg",
+          "image": "https://www.hochzeitsfotograf.tirol/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14.jpg",
           "description": "Hochzeitsfotograf und Elopement Fotograf für Tirol, Innsbruck und die Dolomiten.",
           "areaServed": ["Tirol", "Innsbruck", "Austria", "Dolomites", "Alps"],
           "url": "https://www.hochzeitsfotograf.tirol/",
@@ -651,7 +651,7 @@
     <section class="relative flex min-h-screen items-end px-6 pb-14 pt-28 md:px-12 md:pb-20" data-no-pin>
       <div class="absolute inset-0" data-no-pin>
         <img
-          src="/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-8.jpg"
+          src="/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14.jpg"
           alt="Brautpaar bei einem Mountain Elopement in den Dolomiten mit weitem Blick über die Berge"
           class="h-full w-full object-cover object-center"
           fetchpriority="high"
@@ -829,7 +829,7 @@
             <img data-mosaic-image src="/assets/uploads/Blitzkneisser-Dolomites-Ski-Wedding-44.jpg" alt="Portfolio Bild 5" loading="lazy" decoding="async">
           </a>
           <a class="portfolio-mosaic-item is-landscape" data-mosaic-slot data-portfolio-link href="/portfolio/" aria-label="Portfolio öffnen">
-            <img data-mosaic-image src="/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-8.jpg" alt="Portfolio Bild 6" loading="lazy" decoding="async">
+            <img data-mosaic-image src="/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14.jpg" alt="Portfolio Bild 6" loading="lazy" decoding="async">
           </a>
           <a class="portfolio-mosaic-item is-medium" data-mosaic-slot data-portfolio-link href="/portfolio/" aria-label="Portfolio öffnen">
             <img data-mosaic-image src="/assets/uploads/Blitzkneisser-Dolomites-Wedding-16.jpg" alt="Portfolio Bild 7" loading="lazy" decoding="async">
@@ -1330,7 +1330,7 @@
       { image: "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-360.jpg", alt: "Portfolio Bild 3", altEn: "Portfolio image 3" },
       { image: "/assets/uploads/Blitzkneisser-Hochzeit-Seefeld-9.jpg", alt: "Portfolio Bild 4", altEn: "Portfolio image 4" },
       { image: "/assets/uploads/Blitzkneisser-Dolomites-Ski-Wedding-44.jpg", alt: "Portfolio Bild 5", altEn: "Portfolio image 5" },
-      { image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-8.jpg", alt: "Portfolio Bild 6", altEn: "Portfolio image 6" }
+      { image: "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14.jpg", alt: "Portfolio Bild 6", altEn: "Portfolio image 6" }
     ];
 
     const portfolioMosaicLayoutsByCount = {
@@ -1595,7 +1595,7 @@
         const { data, body } = parseJournalFrontmatter(payload.content || "");
         const slug = getJournalSlugFromPath(path);
         const title = data.title || (lang === "en" ? "Journal Story" : "Journal-Beitrag");
-        const image = data.featuredImage || "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-8.jpg";
+        const image = data.featuredImage || "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14.jpg";
         const alt = data.featuredImageAlt || title;
         const excerpt = (lang === "en"
           ? (data.teaserDescriptionEn || data.teaserDescription || "")
@@ -1709,7 +1709,7 @@
       const chosenHeroImage = currentHeroImage || (heroImages.length
         ? heroImages[Math.floor(Math.random() * heroImages.length)]
         : null);
-      const heroImage = chosenHeroImage?.image || content.featuredImage || "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-8.jpg";
+      const heroImage = chosenHeroImage?.image || content.featuredImage || "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14.jpg";
       const heroAlt = lang === "en"
         ? (chosenHeroImage?.altEn || chosenHeroImage?.alt || content.featuredImageAlt || content.hero?.title || heroMainImage?.alt || "Homepage hero image")
         : (chosenHeroImage?.alt || chosenHeroImage?.altEn || content.featuredImageAlt || content.hero?.title || heroMainImage?.alt || "Hero Bild");
