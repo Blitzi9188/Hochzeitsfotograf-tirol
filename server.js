@@ -113,6 +113,33 @@ const pathExists = async (targetPath) => {
   }
 };
 
+const syncSeededPath = async (sourcePath, targetPath) => {
+  const sourceStat = await fsp.stat(sourcePath);
+
+  if (sourceStat.isDirectory()) {
+    await fsp.mkdir(targetPath, { recursive: true });
+    const entries = await fsp.readdir(sourcePath, { withFileTypes: true });
+    for (const entry of entries) {
+      await syncSeededPath(path.join(sourcePath, entry.name), path.join(targetPath, entry.name));
+    }
+    return;
+  }
+
+  await fsp.mkdir(path.dirname(targetPath), { recursive: true });
+
+  try {
+    const targetStat = await fsp.stat(targetPath);
+    if (targetStat.isFile() && targetStat.mtimeMs >= sourceStat.mtimeMs) {
+      return;
+    }
+  } catch {
+    // Target does not exist yet, so we copy it below.
+  }
+
+  await fsp.copyFile(sourcePath, targetPath);
+  await fsp.utimes(targetPath, sourceStat.atime, sourceStat.mtime);
+};
+
 const ensurePersistentDataRoot = async () => {
   if (dataRoot === rootDir) return;
 
@@ -122,9 +149,7 @@ const ensurePersistentDataRoot = async () => {
     const sourcePath = path.join(rootDir, relativePath);
     const targetPath = path.join(dataRoot, relativePath);
     if (!(await pathExists(sourcePath))) continue;
-    if (await pathExists(targetPath)) continue;
-    await fsp.mkdir(path.dirname(targetPath), { recursive: true });
-    await fsp.cp(sourcePath, targetPath, { recursive: true });
+    await syncSeededPath(sourcePath, targetPath);
   }
 };
 
