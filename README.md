@@ -28,6 +28,7 @@ The project is now prepared to run on Railway.
 
 - `npm start` runs the production server
 - `server.js` respects `process.env.PORT`
+- `server.js` can persist CMS content, uploads and runtime files via `DATA_ROOT`
 - `railway.json` starts the app with `npm run start`
 - `.gitignore` already excludes `.env` and private runtime files
 
@@ -55,8 +56,14 @@ git push -u origin main
 - Choose `Deploy from GitHub repo`
 - Select this repository
 - Railway will detect the Node app and use `railway.json`
+- Add a Railway Volume and mount it, for example at `/data`
+- Set `DATA_ROOT=/data` so CMS content, uploads and runtime files are stored persistently
 
 ### Railway environment variables
+
+Required for persistent CMS storage on Railway:
+
+- `DATA_ROOT` for example `/data`
 
 Set these in Railway if you use the related features:
 

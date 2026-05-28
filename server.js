@@ -32,16 +32,18 @@ const {
 
 const rootDir = __dirname;
 loadEnvFile(path.join(rootDir, ".env"));
+const configuredDataRoot = String(process.env.DATA_ROOT || process.env.RAILWAY_VOLUME_MOUNT_PATH || "").trim();
+const dataRoot = configuredDataRoot ? path.resolve(configuredDataRoot) : rootDir;
 const host = "0.0.0.0";
 const port = Number(process.env.PORT) || 8001;
 const editableRoots = [
-  path.join(rootDir, "content"),
-  path.join(rootDir, "admin"),
-  path.join(rootDir, "guides"),
-  path.join(rootDir, "README.md")
+  path.join(dataRoot, "content"),
+  path.join(dataRoot, "admin"),
+  path.join(dataRoot, "guides"),
+  path.join(dataRoot, "README.md")
 ];
-const uploadsDir = path.join(rootDir, "assets", "uploads");
-const journalDir = path.join(rootDir, "content", "journal");
+const uploadsDir = path.join(dataRoot, "assets", "uploads");
+const journalDir = path.join(dataRoot, "content", "journal");
 const blockedStaticRoots = [
   path.join(rootDir, "private"),
   path.join(rootDir, "node_modules")
@@ -54,6 +56,15 @@ const blockedStaticFiles = new Set([
   path.join(rootDir, ".env.local"),
   path.join(rootDir, ".env.production")
 ]);
+const seededPaths = [
+  "content",
+  "guides",
+  "admin",
+  path.join("assets", "uploads"),
+  path.join("private", "downloads"),
+  path.join("private", "runtime"),
+  "README.md"
+];
 
 const mimeTypes = {
   ".html": "text/html; charset=utf-8",
@@ -91,6 +102,30 @@ const sendText = (res, statusCode, message) => {
     "Access-Control-Allow-Origin": "*"
   });
   res.end(message);
+};
+
+const pathExists = async (targetPath) => {
+  try {
+    await fsp.access(targetPath);
+    return true;
+  } catch {
+    return false;
+  }
+};
+
+const ensurePersistentDataRoot = async () => {
+  if (dataRoot === rootDir) return;
+
+  await fsp.mkdir(dataRoot, { recursive: true });
+
+  for (const relativePath of seededPaths) {
+    const sourcePath = path.join(rootDir, relativePath);
+    const targetPath = path.join(dataRoot, relativePath);
+    if (!(await pathExists(sourcePath))) continue;
+    if (await pathExists(targetPath)) continue;
+    await fsp.mkdir(path.dirname(targetPath), { recursive: true });
+    await fsp.cp(sourcePath, targetPath, { recursive: true });
+  }
 };
 
 const readBody = async (req) => {
@@ -186,24 +221,30 @@ const fetchInstagramPosts = async (username, count = 3) => {
 };
 
 const isSafeEditablePath = (relativePath) => {
-  const absolutePath = path.resolve(rootDir, relativePath);
+  const absolutePath = path.resolve(dataRoot, relativePath);
   const allowed = editableRoots.some((base) => absolutePath === base || absolutePath.startsWith(`${base}${path.sep}`));
   return allowed ? absolutePath : null;
 };
 
-const getStaticPath = (pathname) => {
+const isBlockedStaticPath = (absolutePath) => {
+  if (blockedStaticFiles.has(absolutePath)) return true;
+  const privateRoots = [
+    path.join(rootDir, "private"),
+    path.join(dataRoot, "private"),
+    path.join(rootDir, "node_modules"),
+    path.join(dataRoot, "node_modules")
+  ];
+  return privateRoots.some((blockedRoot) => absolutePath === blockedRoot || absolutePath.startsWith(`${blockedRoot}${path.sep}`));
+};
+
+const getStaticCandidates = (pathname) => {
   const cleanPath = pathname === "/" ? "/index.html" : pathname;
-  const absolutePath = path.resolve(rootDir, `.${cleanPath}`);
-  if (!absolutePath.startsWith(rootDir)) {
-    return null;
-  }
-  if (blockedStaticFiles.has(absolutePath)) {
-    return null;
-  }
-  if (blockedStaticRoots.some((blockedRoot) => absolutePath === blockedRoot || absolutePath.startsWith(`${blockedRoot}${path.sep}`))) {
-    return null;
-  }
-  return absolutePath;
+  const candidates = [dataRoot, rootDir].map((baseDir) => ({ baseDir, absolutePath: path.resolve(baseDir, `.${cleanPath}`) }));
+
+  return candidates
+    .filter(({ baseDir, absolutePath }) => absolutePath.startsWith(baseDir))
+    .map(({ absolutePath }) => absolutePath)
+    .filter((absolutePath) => !isBlockedStaticPath(absolutePath));
 };
 
 const listFilesRecursive = async (dir) => {
@@ -219,10 +260,10 @@ const listFilesRecursive = async (dir) => {
 };
 
 const listEditableFiles = async () => {
-  const contentFiles = await listFilesRecursive(path.join(rootDir, "content"));
+  const contentFiles = await listFilesRecursive(path.join(dataRoot, "content"));
   return contentFiles
     .filter((file) => [".json", ".md", ".yml", ".yaml"].includes(path.extname(file)))
-    .map((file) => path.relative(rootDir, file))
+    .map((file) => path.relative(dataRoot, file))
     .sort();
 };
 
@@ -351,25 +392,30 @@ const parseFrontmatterData = (frontmatter) => {
 };
 
 const serveStatic = async (req, res, pathname) => {
-  const filePath = getStaticPath(pathname);
-  if (!filePath) {
+  const candidatePaths = getStaticCandidates(pathname);
+  if (!candidatePaths.length) {
     sendText(res, 403, "Forbidden");
     return;
   }
 
-  try {
-    const stat = await fsp.stat(filePath);
-    const targetFile = stat.isDirectory() ? path.join(filePath, "index.html") : filePath;
-    const ext = path.extname(targetFile).toLowerCase();
-    const content = await fsp.readFile(targetFile);
-    res.writeHead(200, {
-      "Content-Type": mimeTypes[ext] || "application/octet-stream",
-      "Cache-Control": "no-store"
-    });
-    res.end(content);
-  } catch {
-    sendText(res, 404, "Not Found");
+  for (const filePath of candidatePaths) {
+    try {
+      const stat = await fsp.stat(filePath);
+      const targetFile = stat.isDirectory() ? path.join(filePath, "index.html") : filePath;
+      const ext = path.extname(targetFile).toLowerCase();
+      const content = await fsp.readFile(targetFile);
+      res.writeHead(200, {
+        "Content-Type": mimeTypes[ext] || "application/octet-stream",
+        "Cache-Control": "no-store"
+      });
+      res.end(content);
+      return;
+    } catch {
+      continue;
+    }
   }
+
+  sendText(res, 404, "Not Found");
 };
 
 const server = http.createServer(async (req, res) => {
@@ -410,7 +456,7 @@ const server = http.createServer(async (req, res) => {
       const type = String(body.type || "preset");
       const lang = String(body.lang || "de");
       const { session } = await createCheckoutSession({
-        rootDir,
+        rootDir: dataRoot,
         req,
         slug,
         type,
@@ -424,7 +470,7 @@ const server = http.createServer(async (req, res) => {
       const rawBodyBuffer = await readBodyBuffer(req);
       const signature = String(req.headers["stripe-signature"] || "");
       const result = await handleStripeWebhook({
-        rootDir,
+        rootDir: dataRoot,
         req,
         rawBodyBuffer,
         signature
@@ -446,7 +492,7 @@ const server = http.createServer(async (req, res) => {
       const type = String(parsed.query.type || "");
       const lang = String(parsed.query.lang || "");
       const result = await createSessionDownloadLink({
-        rootDir,
+        rootDir: dataRoot,
         req,
         sessionId,
         slug,
@@ -464,7 +510,7 @@ const server = http.createServer(async (req, res) => {
         return;
       }
       await streamBundleDownload({
-        rootDir,
+        rootDir: dataRoot,
         res,
         token
       });
@@ -499,7 +545,7 @@ const server = http.createServer(async (req, res) => {
         sendText(res, 404, "Journal entry not found");
         return;
       }
-      const relativePath = path.relative(rootDir, file);
+      const relativePath = path.relative(dataRoot, file);
       const content = await fsp.readFile(file, "utf8");
       const { frontmatter, body } = splitFrontmatter(content);
       sendJson(res, 200, { slug, path: relativePath, content, data: parseFrontmatterData(frontmatter), body });
@@ -623,7 +669,7 @@ const server = http.createServer(async (req, res) => {
 
     await serveStatic(req, res, pathname);
   } catch (error) {
-    await appendLog(rootDir, "error", error.message || "Internal Server Error", {
+    await appendLog(dataRoot, "error", error.message || "Internal Server Error", {
       path: pathname,
       method: req.method
     }).catch(() => {});
@@ -631,6 +677,16 @@ const server = http.createServer(async (req, res) => {
   }
 });
 
-server.listen(port, host, () => {
-  console.log(`Local CMS server running at http://${host}:${port}`);
-});
+ensurePersistentDataRoot()
+  .then(() => {
+    server.listen(port, host, () => {
+      console.log(`Local CMS server running at http://${host}:${port}`);
+      if (dataRoot !== rootDir) {
+        console.log(`Persistent data root: ${dataRoot}`);
+      }
+    });
+  })
+  .catch((error) => {
+    console.error("Failed to prepare persistent data root:", error);
+    process.exit(1);
+  });
