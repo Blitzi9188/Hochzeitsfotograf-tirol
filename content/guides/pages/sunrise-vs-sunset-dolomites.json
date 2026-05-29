@@ -127,7 +127,7 @@
           "linkHref": ""
         },
         "light": {
-          "layout": "image-right",
+          "layout": "image-left",
           "image": "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-8.jpg",
           "imageAlt": "Platzhalterbild für Berglichtqualität",
           "eyebrow": "",
@@ -485,7 +485,7 @@
           "linkHref": ""
         },
         "light": {
-          "layout": "image-right",
+          "layout": "image-left",
           "image": "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-8.jpg",
           "imageAlt": "Placeholder image for mountain light quality",
           "eyebrow": "",
