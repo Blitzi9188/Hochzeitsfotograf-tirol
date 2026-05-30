@@ -223,7 +223,7 @@
           "linkHref": ""
         },
         "helicopter": {
-          "layout": "image-left",
+          "layout": "image-right",
           "image": "/assets/uploads/Blitzkneisser-Weihnachts-Shooting-278.jpg",
           "imageAlt": "Platzhalterbild für Helikopter-Add-on",
           "eyebrow": "",
@@ -254,7 +254,7 @@
           "linkHref": ""
         },
         "bestfor": {
-          "layout": "image-right",
+          "layout": "image-left",
           "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Photo-237.jpg",
           "imageAlt": "Platzhalterbild für Paare, die mehr als nur ein Fotoshooting wünschen",
           "eyebrow": "",
@@ -677,7 +677,7 @@
           "linkHref": ""
         },
         "helicopter": {
-          "layout": "image-left",
+          "layout": "image-right",
           "image": "/assets/uploads/Blitzkneisser-Weihnachts-Shooting-278.jpg",
           "imageAlt": "Placeholder image for helicopter add-on",
           "eyebrow": "",
@@ -708,7 +708,7 @@
           "linkHref": ""
         },
         "bestfor": {
-          "layout": "image-right",
+          "layout": "image-left",
           "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Photo-237.jpg",
           "imageAlt": "Placeholder image for couples wanting more than a photoshoot",
           "eyebrow": "",

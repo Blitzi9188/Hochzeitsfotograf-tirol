@@ -128,7 +128,7 @@
           "linkHref": ""
         },
         "timelines": {
-          "layout": "image-right",
+          "layout": "image-left",
           "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Instagram-27.jpg",
           "imageAlt": "Platzhalterbild für flexible Zeitleisten",
           "eyebrow": "",
@@ -159,7 +159,7 @@
           "linkHref": ""
         },
         "bring": {
-          "layout": "image-left",
+          "layout": "image-right",
           "image": "/assets/uploads/Blitzkneisser-Dolomites-Mountain-Elopement-17.jpg",
           "imageAlt": "Platzhalterbild für Ebenen und mitzubringende Dinge",
           "eyebrow": "",
@@ -190,7 +190,7 @@
           "linkHref": ""
         },
         "experience": {
-          "layout": "image-right",
+          "layout": "image-left",
           "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Lago-di-Braies-10.jpg",
           "imageAlt": "Platzhalterbild für lokale Erfahrungen unter sich ändernden Bedingungen",
           "eyebrow": "",
@@ -518,7 +518,7 @@
           "linkHref": ""
         },
         "timelines": {
-          "layout": "image-right",
+          "layout": "image-left",
           "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Instagram-27.jpg",
           "imageAlt": "Placeholder image for flexible timelines",
           "eyebrow": "",
@@ -549,7 +549,7 @@
           "linkHref": ""
         },
         "bring": {
-          "layout": "image-left",
+          "layout": "image-right",
           "image": "/assets/uploads/Blitzkneisser-Dolomites-Mountain-Elopement-17.jpg",
           "imageAlt": "Placeholder image for layers and things to bring",
           "eyebrow": "",
@@ -580,7 +580,7 @@
           "linkHref": ""
         },
         "experience": {
-          "layout": "image-right",
+          "layout": "image-left",
           "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Lago-di-Braies-10.jpg",
           "imageAlt": "Placeholder image for local experience in changing conditions",
           "eyebrow": "",

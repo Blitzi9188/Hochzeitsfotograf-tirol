@@ -1840,7 +1840,7 @@
       const footerJournalLink = document.getElementById("footerJournalLink");
       const portfolioMosaicLinks = document.querySelectorAll("[data-portfolio-link]");
 
-      if (brandHomeLink) brandHomeLink.href = lang === "en" ? "/index.html?lang=en#top" : "#top";
+      if (brandHomeLink) brandHomeLink.href = lang === "en" ? "/?lang=en#top" : "/#top";
       if (experiencePageLink) experiencePageLink.href = `/experience/${langSuffix}`;
       if (guidesPageLink) guidesPageLink.href = `/guides/${langSuffix}`;
       if (aboutPageLink) aboutPageLink.href = `/about/${langSuffix}`;
@@ -1853,7 +1853,7 @@
       });
       if (journalOverviewLink) journalOverviewLink.href = `/journal/${langSuffix}`;
       if (footerJournalLink) footerJournalLink.href = `/journal/${langSuffix}`;
-      window.history.replaceState({}, "", lang === "en" ? "/index.html?lang=en" : "/index.html");
+      window.history.replaceState({}, "", lang === "en" ? "/?lang=en" : "/");
       applyStaticTranslations(lang);
       applyHomeInquirySecurityLanguage();
 

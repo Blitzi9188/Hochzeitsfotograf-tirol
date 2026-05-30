@@ -251,7 +251,7 @@
   };
 
   const menuHrefMap = {
-    home: (lang) => lang === "en" ? "/index.html?lang=en" : "/index.html",
+    home: (lang) => lang === "en" ? "/?lang=en" : "/",
     experience: (lang) => lang === "en" ? "/experience/?lang=en" : "/experience/",
     guides: (lang) => lang === "en" ? "/guides/?lang=en" : "/guides/",
     about: (lang) => lang === "en" ? "/about/?lang=en" : "/about/",
@@ -831,7 +831,7 @@
       filmLink.textContent = t.film;
     }
     if (homeLink) {
-      homeLink.href = lang === "en" ? "/index.html?lang=en" : "/index.html";
+      homeLink.href = lang === "en" ? "/?lang=en" : "/";
       homeLink.textContent = t.home;
     }
     if (emailLink) {

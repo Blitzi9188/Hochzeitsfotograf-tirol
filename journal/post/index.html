@@ -323,7 +323,7 @@
   <header class="fixed top-0 left-0 w-full z-[60] bg-white/80 backdrop-blur-sm">
     <nav class="w-full px-6 py-5 text-brand-text md:px-12 md:py-8" id="mainNav">
       <div class="relative mx-auto flex max-w-[120rem] items-center justify-between gap-6">
-        <a href="/index.html" id="navHomeLink" class="group flex items-center no-underline text-current" aria-label="Blitzkneisser Photography">
+        <a href="/" id="navHomeLink" class="group flex items-center no-underline text-current" aria-label="Blitzkneisser Photography">
           <img src="/Logo-Blitzkneisser-BERG.png" alt="Blitzkneisser Photography" class="h-11 w-auto brightness-0 contrast-125 opacity-70 md:h-14">
         </a>
         <div class="pointer-events-none absolute left-1/2 hidden -translate-x-1/2 md:block text-[10px] uppercase tracking-[0.2em] font-medium whitespace-nowrap text-brand-text" id="readLabelCentered">0% Read</div>
@@ -967,7 +967,7 @@
         if (key === "nav.contact") node.textContent = t["nav.contact"];
       });
       document.getElementById("finalImage").alt = t.finalAlt;
-      document.getElementById("navHomeLink").href = lang === "en" ? "/index.html?lang=en" : "/index.html";
+      document.getElementById("navHomeLink").href = lang === "en" ? "/?lang=en" : "/";
       document.getElementById("navExperienceLink").href = lang === "en" ? "/experience/?lang=en" : "/experience/";
       document.getElementById("navGuidesLink").href = lang === "en" ? "/guides/?lang=en" : "/guides/";
       document.getElementById("navAboutLink").href = lang === "en" ? "/about/?lang=en" : "/about/";

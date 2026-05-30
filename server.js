@@ -470,6 +470,13 @@ const server = http.createServer(async (req, res) => {
   }
 
   try {
+    if ((req.method === "GET" || req.method === "HEAD") && pathname === "/index.html") {
+      const query = parsed.search || "";
+      res.writeHead(308, { Location: query ? `/${query}` : "/" });
+      res.end();
+      return;
+    }
+
     const journalMatch = pathname.match(/^\/journal\/([^/]+)\/$/);
     if ((req.method === "GET" || req.method === "HEAD") && journalMatch) {
       const templatePath = path.join(rootDir, "journal", "post", "index.html");

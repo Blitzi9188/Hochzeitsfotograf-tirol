@@ -606,7 +606,7 @@
 <body>
   <nav class="fixed top-0 left-0 z-50 w-full bg-white/80 px-6 py-5 text-brand-text backdrop-blur-sm md:px-12 md:py-8" id="mainNav">
     <div class="mx-auto flex max-w-[120rem] items-center justify-between gap-6">
-      <a href="/index.html" id="navHomeLink" class="group flex items-center" aria-label="Blitzkneisser Photography">
+      <a href="/" id="navHomeLink" class="group flex items-center" aria-label="Blitzkneisser Photography">
         <img src="/Logo-Blitzkneisser-BERG.png" alt="Blitzkneisser Photography" class="h-11 w-auto brightness-0 contrast-125 opacity-70 md:h-14">
       </a>
       <button type="button" class="mobile-menu-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenuPanel" aria-label="Menü öffnen"><span></span><span></span><span></span></button>
@@ -1891,7 +1891,7 @@
       document.getElementById("heroCta").href = withLang("/contact/");
       if (document.getElementById("finalImage")) { document.getElementById("finalImage").src = data.final?.image || document.getElementById("finalImage").src; document.getElementById("finalImage").alt = data.final?.imageAlt || document.getElementById("finalImage").alt; }
       document.getElementById("finalCta").href = withLang("/contact/");
-      document.getElementById("navHomeLink").href = withLang("/index.html");
+      document.getElementById("navHomeLink").href = withLang("/");
       document.getElementById("navGuidesLink").href = withLang("/guides/");
       document.getElementById("navExperienceLink").href = withLang("/experience/");
       document.getElementById("navJournalLink").href = withLang("/journal/");
