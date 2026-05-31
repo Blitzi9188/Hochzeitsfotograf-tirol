@@ -481,14 +481,14 @@
                 <div class="space-y-10">
                   <div class="flex flex-col gap-2">
                     <label class="text-[10px] uppercase tracking-widest text-brand-muted" id="labelName">Name *</label>
-                    <input type="text" class="py-3 text-lg font-light" id="placeholderName" placeholder="Your name">
+                    <input type="text" class="py-3 text-lg font-light" id="placeholderName" placeholder="Your name" required aria-required="true">
                   </div>
                   <div class="flex flex-col gap-2">
                     <label class="text-[10px] uppercase tracking-widest text-brand-muted" id="labelEmail">Email *</label>
-                    <input type="email" class="py-3 text-lg font-light" id="placeholderEmail" placeholder="hello@example.com">
+                    <input type="email" class="py-3 text-lg font-light" id="placeholderEmail" placeholder="hello@example.com" required aria-required="true">
                   </div>
                   <div class="flex flex-col gap-2">
-                    <label class="text-[10px] uppercase tracking-widest text-brand-muted" id="labelDate">Wedding Date *</label>
+                    <label class="text-[10px] uppercase tracking-widest text-brand-muted" id="labelDate">Wedding Date</label>
                     <input type="text" class="py-3 text-lg font-light" id="placeholderDate" placeholder="Preferred date">
                   </div>
                   <div class="flex flex-col gap-2">
@@ -739,7 +739,7 @@
           captchaRefresh: "Neu laden",
           captchaQuestionPrefix: "Bitte löse",
           captchaError: "Bitte die Sicherheitsabfrage korrekt lösen.",
-          validationError: "Bitte schreibt eine Nachricht, bevor ihr die Anfrage sendet.",
+          validationError: "Bitte füllt Name, E-Mail und Nachricht aus, bevor ihr die Anfrage sendet.",
           submitSending: "Anfrage wird gesendet.",
           submitSuccess: "Danke. Eure Anfrage ist unterwegs.",
           submitError: "Die Anfrage konnte gerade nicht gesendet werden. Bitte versucht es gleich noch einmal.",
@@ -800,7 +800,7 @@
           captchaRefresh: "Refresh",
           captchaQuestionPrefix: "Please solve",
           captchaError: "Please solve the security check correctly.",
-          validationError: "Please write a message before sending your inquiry.",
+          validationError: "Please fill in name, email and message before sending your inquiry.",
           submitSending: "Sending your inquiry.",
           submitSuccess: "Thank you. Your inquiry is on its way.",
           submitError: "Your inquiry could not be sent right now. Please try again in a moment.",
@@ -975,7 +975,7 @@
           return;
         }
 
-        if (!message) {
+        if (!name || !email || !message) {
           setFormStatus(t.validationError, true);
           return;
         }
@@ -1168,7 +1168,7 @@
           : (siteSettings.contactEmailPlaceholderDe || t.placeholderEmail);
         document.getElementById("labelDate").textContent = `${lang === "en"
           ? (siteSettings.contactDateLabelEn || t.labelDate)
-          : (siteSettings.contactDateLabelDe || t.labelDate)} *`;
+          : (siteSettings.contactDateLabelDe || t.labelDate)}`;
         document.getElementById("placeholderDate").placeholder = lang === "en"
           ? (siteSettings.contactDatePlaceholderEn || t.placeholderDate)
           : (siteSettings.contactDatePlaceholderDe || t.placeholderDate);
