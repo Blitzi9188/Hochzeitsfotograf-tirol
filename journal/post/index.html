@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de" class="scroll-smooth">
+<html lang="de" class="scroll-smooth cms-pending">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -50,6 +50,10 @@
       letter-spacing: -0.05em;
       line-height: 0.9;
       text-transform: uppercase;
+    }
+
+    .cms-pending [data-dynamic-shell] {
+      visibility: hidden;
     }
 
     .image-hover-container {
@@ -360,16 +364,16 @@
     <button type="button" data-lang-button="en" aria-pressed="false">EN</button>
   </div>
 
-  <main class="pt-48">
+  <main class="pt-48" data-dynamic-shell>
     <section class="max-w-4xl mx-auto px-6 mb-32 text-center">
       <span class="text-[10px] uppercase tracking-[0.4em] text-brand-muted mb-4 block" id="entryEyebrow">Journal Entry</span>
-      <h1 class="headline text-5xl md:text-7xl lg:text-8xl mb-12" id="entryTitle">Loading Entry</h1>
-      <p class="text-xs uppercase tracking-[0.3em] text-brand-muted" id="entryMeta">By Blitzkneisser</p>
+      <h1 class="headline text-5xl md:text-7xl lg:text-8xl mb-12" id="entryTitle"></h1>
+      <p class="text-xs uppercase tracking-[0.3em] text-brand-muted" id="entryMeta"></p>
     </section>
 
     <section class="mb-32" data-no-pin>
       <div class="full-bleed-container aspect-[21/9] image-hover-container" data-no-pin>
-        <img id="heroImage" src="/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-8.jpg" alt="Journal image" class="w-full h-full object-cover">
+        <img id="heroImage" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" alt="" class="w-full h-full object-cover">
       </div>
       <div class="max-w-4xl mx-auto px-6 mt-6" hidden aria-hidden="true">
         <p class="text-[10px] uppercase tracking-widest text-brand-muted text-center" id="heroCaption">Featured visual</p>
@@ -916,13 +920,13 @@
       });
       ensureHeadMeta('meta[property="og:image"]', {
         property: "og:image",
-        content: entry.featuredImage || "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-8.jpg"
+        content: entry.featuredImage || "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw=="
       });
 
       document.getElementById("entryEyebrow").textContent = t.featurePrefix;
       document.getElementById("entryTitle").innerHTML = (entryTitle || "Journal Entry").replace(/ \| /g, "<br>");
       document.getElementById("entryMeta").textContent = `${t.metaBy} ${entry.author || "Blitzkneisser"}`;
-      document.getElementById("heroImage").src = entry.featuredImage || "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-8.jpg";
+      document.getElementById("heroImage").src = entry.featuredImage || "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==";
       document.getElementById("heroImage").alt = featuredImageAlt || t.imageAlt;
       document.getElementById("heroCaption").textContent = featuredImageAlt || t.heroCaption;
       document.getElementById("introSection").innerHTML = introParagraphs.map((paragraph, index) => `
@@ -1057,9 +1061,11 @@
         currentEntryData = { ...payload.data, body: payload.body };
         renderEntry(currentEntryData);
         await applyAdjacentFinalImage();
+        document.documentElement.classList.remove("cms-pending");
       } catch (error) {
         document.getElementById("entryTitle").textContent = uiTranslations[currentLang].entryNotFound;
         document.getElementById("entryMeta").textContent = uiTranslations[currentLang].returnText;
+        document.documentElement.classList.remove("cms-pending");
       }
 
       updateReadingProgress();

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de" class="scroll-smooth">
+<html lang="de" class="scroll-smooth cms-pending">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -66,6 +66,10 @@
 
     img {
       image-rendering: auto;
+    }
+
+    .cms-pending [data-dynamic-shell] {
+      visibility: hidden;
     }
 
     .headline {
@@ -647,12 +651,12 @@
     <button type="button" data-lang-button="en" aria-pressed="false">EN</button>
   </div>
 
-  <main id="top">
+  <main id="top" data-dynamic-shell>
     <section class="relative flex min-h-screen items-end px-6 pb-14 pt-28 md:px-12 md:pb-20" data-no-pin>
       <div class="absolute inset-0" data-no-pin>
         <img
-          src="/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14.jpg"
-          alt="Brautpaar bei einem Mountain Elopement in den Dolomiten mit weitem Blick über die Berge"
+          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw=="
+          alt=""
           class="h-full w-full object-cover object-center"
           fetchpriority="high"
           id="heroMainImage"
@@ -858,11 +862,11 @@
           <form class="grid gap-6 md:grid-cols-2" action="#" method="post">
             <label class="block">
               <span class="mb-3 block text-[10px] uppercase tracking-[0.22em] text-brand-muted" data-i18n="contact.form.name">Name</span>
-              <input type="text" name="name" class="w-full border-b border-brand-text bg-transparent px-0 py-3 outline-none" required>
+              <input type="text" name="name" class="w-full border-b border-brand-text bg-transparent px-0 py-3 outline-none">
             </label>
             <label class="block">
               <span class="mb-3 block text-[10px] uppercase tracking-[0.22em] text-brand-muted" data-i18n="contact.form.email">E-Mail</span>
-              <input type="email" name="email" class="w-full border-b border-brand-text bg-transparent px-0 py-3 outline-none" required>
+              <input type="email" name="email" class="w-full border-b border-brand-text bg-transparent px-0 py-3 outline-none">
             </label>
             <label class="block">
               <span class="mb-3 block text-[10px] uppercase tracking-[0.22em] text-brand-muted" data-i18n="contact.form.date">Datum</span>
@@ -873,7 +877,7 @@
               <input type="text" name="location" class="w-full border-b border-brand-text bg-transparent px-0 py-3 outline-none">
             </label>
             <label class="block md:col-span-2">
-              <span class="mb-3 block text-[10px] uppercase tracking-[0.22em] text-brand-muted" data-i18n="contact.form.details">Erzählt mir mehr</span>
+              <span class="mb-3 block text-[10px] uppercase tracking-[0.22em] text-brand-muted" data-i18n="contact.form.details">Erzählt mir mehr *</span>
               <textarea name="message" rows="5" class="w-full border-b border-brand-text bg-transparent px-0 py-3 outline-none" required></textarea>
             </label>
             <div class="md:col-span-2 pt-2">
@@ -1057,9 +1061,9 @@
         "contact.form.email": "E-Mail",
         "contact.form.date": "Datum",
         "contact.form.location": "Ort",
-        "contact.form.details": "Erzählt mir mehr",
+        "contact.form.details": "Erzählt mir mehr *",
         "contact.privacy": "Mit dem Absenden stimmt ihr der Verarbeitung eurer Daten für die Kontaktaufnahme zu.",
-        "contact.validationError": "Bitte Name, E-Mail und Nachricht ausfüllen.",
+        "contact.validationError": "Bitte schreibt eine Nachricht, bevor ihr die Anfrage sendet.",
         "contact.submitSending": "Anfrage wird gesendet.",
         "contact.submitSuccess": "Danke. Eure Anfrage ist unterwegs.",
         "contact.submitError": "Die Anfrage konnte gerade nicht gesendet werden. Bitte versucht es gleich noch einmal.",
@@ -1136,9 +1140,9 @@
         "contact.form.email": "Email",
         "contact.form.date": "Date",
         "contact.form.location": "Location",
-        "contact.form.details": "Tell me more",
+        "contact.form.details": "Tell me more *",
         "contact.privacy": "By submitting this form, you agree that your data may be processed for the purpose of responding to your inquiry.",
-        "contact.validationError": "Please complete name, email and message.",
+        "contact.validationError": "Please write a message before sending your inquiry.",
         "contact.submitSending": "Sending your inquiry.",
         "contact.submitSuccess": "Thank you. Your inquiry is on its way.",
         "contact.submitError": "Your inquiry could not be sent right now. Please try again in a moment.",
@@ -1718,7 +1722,7 @@
       const chosenHeroImage = currentHeroImage || (heroImages.length
         ? heroImages[Math.floor(Math.random() * heroImages.length)]
         : null);
-      const heroImage = chosenHeroImage?.image || content.featuredImage || "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14.jpg";
+      const heroImage = chosenHeroImage?.image || content.featuredImage || "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==";
       const heroAlt = lang === "en"
         ? (chosenHeroImage?.altEn || chosenHeroImage?.alt || content.featuredImageAlt || content.hero?.title || heroMainImage?.alt || "Homepage hero image")
         : (chosenHeroImage?.alt || chosenHeroImage?.altEn || content.featuredImageAlt || content.hero?.title || heroMainImage?.alt || "Hero Bild");
@@ -1870,6 +1874,7 @@
         .then((content) => {
           if (requestId !== latestLanguageRequestId) return;
           applyHomepageContent(lang, content);
+          document.documentElement.classList.remove("cms-pending");
         })
         .catch(() => {
           if (requestId !== latestLanguageRequestId) return;
@@ -1879,6 +1884,7 @@
           document.querySelector('meta[name="description"]').setAttribute("content", metaByLang[lang].description);
           document.querySelector('meta[property="og:title"]').setAttribute("content", metaByLang[lang].title);
           document.querySelector('meta[property="og:description"]').setAttribute("content", metaByLang[lang].description);
+          document.documentElement.classList.remove("cms-pending");
         });
     };
 
@@ -2029,12 +2035,14 @@
         homeInquiryStatus.style.color = isError ? "#9B3D2F" : "rgba(27, 26, 24, 0.7)";
       };
 
-      const redirectHomeInquiryThankYou = ({ lang, name, date, location }) => {
+      const redirectHomeInquiryThankYou = ({ lang, name, email, date, location, message }) => {
         const params = new URLSearchParams();
         params.set("lang", lang);
         params.set("name", name || "");
+        params.set("email", email || "");
         params.set("date", date || "");
         params.set("location", location || "");
+        params.set("message", message || "");
         params.set("source", "home");
         window.location.href = `/contact/thank-you/?${params.toString()}`;
       };
@@ -2058,7 +2066,7 @@
         const message = String(formData.get("message") || "").trim();
         const value = Number.parseInt((homeInquirySecurityInput?.value || "").trim(), 10);
 
-        if (!name || !email || !message) {
+        if (!message) {
           setHomeInquiryStatus(t["contact.validationError"], true);
           return;
         }
@@ -2099,7 +2107,7 @@
           buildHomeInquirySecurityChallenge();
           if (homeInquirySecurityError) homeInquirySecurityError.textContent = "";
           setHomeInquiryStatus(t["contact.submitSuccess"], false);
-          redirectHomeInquiryThankYou({ lang, name, date, location });
+          redirectHomeInquiryThankYou({ lang, name, email, date, location, message });
         } catch (error) {
           console.error(error);
           setHomeInquiryStatus(t["contact.submitError"], true);

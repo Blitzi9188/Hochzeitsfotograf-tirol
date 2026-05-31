@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de" class="scroll-smooth">
+<html lang="de" class="scroll-smooth cms-pending">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -57,6 +57,10 @@
       line-height: 1.65;
       font-weight: 300;
       color: rgba(27, 26, 24, 0.8);
+    }
+
+    .cms-pending [data-dynamic-shell] {
+      visibility: hidden;
     }
 
     .editorial-section {
@@ -336,17 +340,17 @@
     </div>
   </nav>
 
-  <main class="pt-32 md:pt-48 pb-24">
+  <main class="pt-32 md:pt-48 pb-24" data-dynamic-shell>
     <header class="px-6 md:px-12 max-w-[120rem] mx-auto mb-16 md:mb-20 fade-in-up" aria-labelledby="pageTitle">
       <div class="grid gap-12 lg:grid-cols-[1.1fr_0.9fr] lg:items-end">
         <div>
-          <span id="heroEyebrow" class="sr-only">Experience</span>
-          <h1 id="pageTitle" class="headline text-[3.3rem] md:text-[6.4rem] lg:text-[8.7rem]">More than beautiful photos</h1>
-          <img id="heroImage" src="/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-304.jpg" alt="Luxury mountain wedding couple in the Dolomites" loading="eager" fetchpriority="high" class="sr-only">
+          <span id="heroEyebrow" class="sr-only"></span>
+          <h1 id="pageTitle" class="headline text-[3.3rem] md:text-[6.4rem] lg:text-[8.7rem]"></h1>
+          <img id="heroImage" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" alt="" loading="eager" fetchpriority="high" class="sr-only">
           <a href="/contact/" class="sr-only" data-i18n="hero.cta" id="heroCta">Let's plan your day</a>
         </div>
         <div>
-          <p id="heroCopy" class="intro-copy">I create intentional, intimate and deeply personal wedding experiences in the most breathtaking places across Europe.</p>
+          <p id="heroCopy" class="intro-copy"></p>
         </div>
       </div>
       <div class="mt-12 border-t border-brand-border"></div>
@@ -355,7 +359,7 @@
     <section class="editorial-section pt-0 md:pt-0" aria-labelledby="philosophyTitle">
       <div class="editorial-inner grid gap-10 lg:grid-cols-2 lg:items-center">
         <figure class="experience-image aspect-[4/5] fade-in-up">
-          <img id="philosophyImage" src="/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14.jpg" alt="Editorial mountain elopement detail in the Dolomites" loading="lazy" decoding="async">
+          <img id="philosophyImage" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" alt="" loading="lazy" decoding="async">
         </figure>
         <div class="fade-in-up" style="animation-delay: 0.12s;">
           <span id="philosophyEyebrow" class="eyebrow">My Philosophy</span>
@@ -387,7 +391,7 @@
 
     <section class="relative min-h-[72vh] overflow-hidden bg-brand-text" aria-labelledby="testimonialTitle">
       <div class="absolute inset-0 experience-image">
-        <img id="testimonialImage" src="/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-19.jpg" alt="Cinematic elopement moment in the Alps" loading="lazy" decoding="async">
+        <img id="testimonialImage" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" alt="" loading="lazy" decoding="async">
       </div>
       <div class="absolute inset-0 bg-black/62"></div>
       <div class="relative z-10 flex min-h-[64vh] items-start px-6 py-12 md:px-12 md:py-16">
@@ -425,7 +429,7 @@
 
     <section class="relative min-h-[78vh] overflow-hidden bg-brand-text text-center" aria-labelledby="finalTitle">
       <div class="absolute inset-0 experience-image">
-        <img id="finalImage" src="/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-20.jpg" alt="Soft mountain landscape for an elopement in Europe" loading="lazy" decoding="async">
+        <img id="finalImage" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" alt="" loading="lazy" decoding="async">
       </div>
       <div class="absolute inset-0 bg-black/45"></div>
       <div class="relative z-10 flex min-h-[68vh] items-end px-6 pb-12 pt-24 md:px-12 md:pb-16 md:pt-24">
@@ -485,7 +489,7 @@
       heroCopyEn: "It is about the feeling of arriving. About mountain light, deep calm and a day that feels true, effortless and entirely your own.",
       heroCta: "Lasst uns euren Tag planen",
       heroCtaEn: "Let's plan your day",
-      heroImage: "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-304.jpg",
+      heroImage: "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",
       heroAlt: "Intimer Hochzeitsmoment in den Dolomiten mit ruhigem Abendlicht",
       heroAltEn: "Intimate wedding moment in the Dolomites with calm evening light",
       philosophyEyebrow: "Philosophie",
@@ -496,7 +500,7 @@
       philosophyCopyEn: "Your wedding day should never feel like a photoshoot. It should feel like a day filled with closeness, space and honest moments. I guide with calm, intuition and only as much direction as truly helps.",
       philosophyCta: "Mehr über mich",
       philosophyCtaEn: "Read more about me",
-      philosophyImage: "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14.jpg",
+      philosophyImage: "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",
       philosophyAlt: "Editorial Elopement in den Bergen mit weichem Licht",
       philosophyAltEn: "Editorial elopement in the mountains with soft light",
       processEyebrow: "Der Weg",
@@ -529,7 +533,7 @@
       testimonialQuoteEn: "It never felt like a photoshoot. It felt like a calm, beautiful day where we could simply be with each other.",
       testimonialName: "Kellie & Krake",
       testimonialNameEn: "Kellie & Krake",
-      testimonialImage: "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-19.jpg",
+      testimonialImage: "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",
       testimonialAlt: "Cinematischer Elopement-Moment in den Alpen",
       testimonialAltEn: "Cinematic elopement moment in the Alps",
       planningEyebrow: "Planung",
@@ -563,7 +567,7 @@
       finalTitleEn: "Ready to start your adventure?",
       finalCta: "Ich möchte eure Geschichte hören",
       finalCtaEn: "I'd love to hear your story",
-      finalImage: "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-20.jpg",
+      finalImage: "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",
       finalAlt: "Weiche Berglandschaft für ein Elopement in Europa",
       finalAltEn: "Soft mountain landscape for an elopement in Europe"
     };
@@ -745,6 +749,7 @@
       }
 
       applyExperienceContent(activeLang, experienceData);
+      document.documentElement.classList.remove("cms-pending");
 
       document.querySelectorAll("[data-lang-button]").forEach((button) => {
         button.addEventListener("click", () => {

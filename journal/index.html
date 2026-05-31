@@ -350,7 +350,7 @@
             return `
               <a href="${href}" class="journal-card group fade-in-up" style="animation-delay: ${0.2 + (index * 0.08)}s;">
                 <div class="image-hover-container aspect-[16/10] mb-8">
-                  <img src="${entry.featuredImage || "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-8.jpg"}" alt="${imageAlt}" class="w-full h-full object-cover">
+                  <img src="${entry.featuredImage || "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw=="}" alt="${imageAlt}" class="w-full h-full object-cover">
                 </div>
                 <div class="flex flex-col">
                   <span class="text-[10px] uppercase tracking-widest text-brand-muted mb-4">${formatDate(entry.date, currentLang)}</span>
