@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de" class="scroll-smooth cms-pending">
+<html lang="de" class="scroll-smooth">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -66,10 +66,6 @@
 
     img {
       image-rendering: auto;
-    }
-
-    .cms-pending [data-dynamic-shell] {
-      visibility: hidden;
     }
 
     .headline {
@@ -655,7 +651,7 @@
     <section class="relative flex min-h-screen items-end px-6 pb-14 pt-28 md:px-12 md:pb-20" data-no-pin>
       <div class="absolute inset-0" data-no-pin>
         <img
-          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw=="
+          src="/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-256-hero.webp"
           alt=""
           class="h-full w-full object-cover object-center"
           fetchpriority="high"
@@ -1722,7 +1718,7 @@
       const chosenHeroImage = currentHeroImage || (heroImages.length
         ? heroImages[Math.floor(Math.random() * heroImages.length)]
         : null);
-      const heroImage = chosenHeroImage?.image || content.featuredImage || "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==";
+      const heroImage = chosenHeroImage?.image || content.featuredImage || "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-256-hero.webp";
       const heroAlt = lang === "en"
         ? (chosenHeroImage?.altEn || chosenHeroImage?.alt || content.featuredImageAlt || content.hero?.title || heroMainImage?.alt || "Homepage hero image")
         : (chosenHeroImage?.alt || chosenHeroImage?.altEn || content.featuredImageAlt || content.hero?.title || heroMainImage?.alt || "Hero Bild");
