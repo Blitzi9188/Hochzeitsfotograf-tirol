@@ -480,15 +480,15 @@
               <div class="grid grid-cols-1 xl:grid-cols-[0.95fr_1.05fr] gap-12 xl:gap-14 items-start">
                 <div class="space-y-10">
                   <div class="flex flex-col gap-2">
-                    <label class="text-[10px] uppercase tracking-widest text-brand-muted" id="labelName">Name</label>
+                    <label class="text-[10px] uppercase tracking-widest text-brand-muted" id="labelName">Name *</label>
                     <input type="text" class="py-3 text-lg font-light" id="placeholderName" placeholder="Your name">
                   </div>
                   <div class="flex flex-col gap-2">
-                    <label class="text-[10px] uppercase tracking-widest text-brand-muted" id="labelEmail">Email</label>
+                    <label class="text-[10px] uppercase tracking-widest text-brand-muted" id="labelEmail">Email *</label>
                     <input type="email" class="py-3 text-lg font-light" id="placeholderEmail" placeholder="hello@example.com">
                   </div>
                   <div class="flex flex-col gap-2">
-                    <label class="text-[10px] uppercase tracking-widest text-brand-muted" id="labelDate">Wedding Date</label>
+                    <label class="text-[10px] uppercase tracking-widest text-brand-muted" id="labelDate">Wedding Date *</label>
                     <input type="text" class="py-3 text-lg font-light" id="placeholderDate" placeholder="Preferred date">
                   </div>
                   <div class="flex flex-col gap-2">
@@ -1154,21 +1154,21 @@
         document.getElementById("introMeta").textContent = lang === "en"
           ? (siteSettings.contactIntroMetaEn || t.introMeta)
           : (siteSettings.contactIntroMetaDe || t.introMeta);
-        document.getElementById("labelName").textContent = lang === "en"
+        document.getElementById("labelName").textContent = `${lang === "en"
           ? (siteSettings.contactNameLabelEn || t.labelName)
-          : (siteSettings.contactNameLabelDe || t.labelName);
+          : (siteSettings.contactNameLabelDe || t.labelName)} *`;
         document.getElementById("placeholderName").placeholder = lang === "en"
           ? (siteSettings.contactNamePlaceholderEn || t.placeholderName)
           : (siteSettings.contactNamePlaceholderDe || t.placeholderName);
-        document.getElementById("labelEmail").textContent = lang === "en"
+        document.getElementById("labelEmail").textContent = `${lang === "en"
           ? (siteSettings.contactEmailLabelEn || t.labelEmail)
-          : (siteSettings.contactEmailLabelDe || t.labelEmail);
+          : (siteSettings.contactEmailLabelDe || t.labelEmail)} *`;
         document.getElementById("placeholderEmail").placeholder = lang === "en"
           ? (siteSettings.contactEmailPlaceholderEn || t.placeholderEmail)
           : (siteSettings.contactEmailPlaceholderDe || t.placeholderEmail);
-        document.getElementById("labelDate").textContent = lang === "en"
+        document.getElementById("labelDate").textContent = `${lang === "en"
           ? (siteSettings.contactDateLabelEn || t.labelDate)
-          : (siteSettings.contactDateLabelDe || t.labelDate);
+          : (siteSettings.contactDateLabelDe || t.labelDate)} *`;
         document.getElementById("placeholderDate").placeholder = lang === "en"
           ? (siteSettings.contactDatePlaceholderEn || t.placeholderDate)
           : (siteSettings.contactDatePlaceholderDe || t.placeholderDate);
