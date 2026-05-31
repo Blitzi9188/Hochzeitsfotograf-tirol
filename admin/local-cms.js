@@ -5438,6 +5438,46 @@ const bindSettings = async () => {
           <div class="field"><label>Standort Text DE</label><textarea name="contactLocationDe" rows="4" placeholder="Innsbruck, Tirol&#10;Verfügbar in den Alpen">${escapeHtml(data.contactLocationDe || "")}</textarea></div>
           <div class="field"><label>Standort Text EN</label><textarea name="contactLocationEn" rows="4" placeholder="Innsbruck, Tyrol&#10;Available across the Alps">${escapeHtml(data.contactLocationEn || "")}</textarea></div>
         </div>
+        <div class="field" style="padding-top: 8px; border-top: 1px solid var(--border);">
+          <label style="font-size: 12px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--muted);">Danke-Seite Kontaktformular</label>
+          <div class="muted" style="margin-top: 6px;">Diese Texte erscheinen nach dem erfolgreichen Absenden der Anfrage auf der Danke-Seite.</div>
+        </div>
+        <div class="field-grid-2">
+          <div class="field"><label>Meta Label DE</label><input type="text" name="contactThanksMetaDe" value="${escapeHtml(data.contactThanksMetaDe || "")}" placeholder="Bestätigung & Status"></div>
+          <div class="field"><label>Meta Label EN</label><input type="text" name="contactThanksMetaEn" value="${escapeHtml(data.contactThanksMetaEn || "")}" placeholder="Confirmation & Status"></div>
+        </div>
+        <div class="field-grid-2">
+          <div class="field"><label>Headline Zeile 1 DE</label><input type="text" name="contactThanksHeadlineLine1De" value="${escapeHtml(data.contactThanksHeadlineLine1De || "")}" placeholder="Danke"></div>
+          <div class="field"><label>Headline Zeile 1 EN</label><input type="text" name="contactThanksHeadlineLine1En" value="${escapeHtml(data.contactThanksHeadlineLine1En || "")}" placeholder="Thank"></div>
+        </div>
+        <div class="field-grid-2">
+          <div class="field"><label>Headline Zeile 2 DE</label><input type="text" name="contactThanksHeadlineLine2De" value="${escapeHtml(data.contactThanksHeadlineLine2De || "")}" placeholder="Euch."></div>
+          <div class="field"><label>Headline Zeile 2 EN</label><input type="text" name="contactThanksHeadlineLine2En" value="${escapeHtml(data.contactThanksHeadlineLine2En || "")}" placeholder="You."></div>
+        </div>
+        <div class="field-grid-2">
+          <div class="field"><label>Einleitung DE</label><textarea name="contactThanksIntroDe" rows="3" placeholder="Eure Anfrage ist gut angekommen und liegt jetzt direkt bei mir.">${escapeHtml(data.contactThanksIntroDe || "")}</textarea></div>
+          <div class="field"><label>Einleitung EN</label><textarea name="contactThanksIntroEn" rows="3" placeholder="Your inquiry arrived safely and is now directly with me.">${escapeHtml(data.contactThanksIntroEn || "")}</textarea></div>
+        </div>
+        <div class="field-grid-2">
+          <div class="field"><label>Folgetext DE</label><textarea name="contactThanksFollowupDe" rows="4" placeholder="Ich melde mich in der Regel innerhalb von 24 Stunden ...">${escapeHtml(data.contactThanksFollowupDe || "")}</textarea></div>
+          <div class="field"><label>Folgetext EN</label><textarea name="contactThanksFollowupEn" rows="4" placeholder="I usually reply within 24 hours ...">${escapeHtml(data.contactThanksFollowupEn || "")}</textarea></div>
+        </div>
+        <div class="field-grid-2">
+          <div class="field"><label>Überschrift Übersicht DE</label><input type="text" name="contactThanksReceiptLabelDe" value="${escapeHtml(data.contactThanksReceiptLabelDe || "")}" placeholder="Anfrageübersicht"></div>
+          <div class="field"><label>Überschrift Übersicht EN</label><input type="text" name="contactThanksReceiptLabelEn" value="${escapeHtml(data.contactThanksReceiptLabelEn || "")}" placeholder="Inquiry Summary"></div>
+        </div>
+        <div class="field-grid-2">
+          <div class="field"><label>CTA Label DE</label><input type="text" name="contactThanksCtaLabelDe" value="${escapeHtml(data.contactThanksCtaLabelDe || "")}" placeholder="Weiter zu den Guides"></div>
+          <div class="field"><label>CTA Label EN</label><input type="text" name="contactThanksCtaLabelEn" value="${escapeHtml(data.contactThanksCtaLabelEn || "")}" placeholder="Continue to the guides"></div>
+        </div>
+        <div class="field-grid-2">
+          <div class="field"><label>CTA Link DE</label><input type="text" name="contactThanksCtaUrlDe" value="${escapeHtml(data.contactThanksCtaUrlDe || "")}" placeholder="/guides/"></div>
+          <div class="field"><label>CTA Link EN</label><input type="text" name="contactThanksCtaUrlEn" value="${escapeHtml(data.contactThanksCtaUrlEn || "")}" placeholder="/guides/?lang=en"></div>
+        </div>
+        <div class="field-grid-2">
+          <div class="field"><label>Footer Zeile DE</label><input type="text" name="contactThanksFooterMetaDe" value="${escapeHtml(data.contactThanksFooterMetaDe || "")}" placeholder="Wir melden uns persönlich zurück."></div>
+          <div class="field"><label>Footer Zeile EN</label><input type="text" name="contactThanksFooterMetaEn" value="${escapeHtml(data.contactThanksFooterMetaEn || "")}" placeholder="You will hear back personally."></div>
+        </div>
         <div class="field-grid-2">
           <div class="field"><label>Impressum Titel DE</label><input type="text" name="impressumTitleDe" value="${escapeHtml(data.impressumTitleDe || "")}"></div>
           <div class="field"><label>Impressum Titel EN</label><input type="text" name="impressumTitleEn" value="${escapeHtml(data.impressumTitleEn || "")}"></div>

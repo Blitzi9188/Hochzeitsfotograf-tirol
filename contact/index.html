@@ -944,6 +944,16 @@
         renderCalendar();
       };
 
+      const redirectToThankYou = ({ name, date, location, source }) => {
+        const params = new URLSearchParams();
+        params.set("lang", currentLang);
+        params.set("name", name || "");
+        params.set("date", date || "");
+        params.set("location", location || "");
+        params.set("source", source || "contact");
+        window.location.href = `/contact/thank-you/?${params.toString()}`;
+      };
+
       const submitContactForm = async () => {
         const t = translations[currentLang];
         const name = nameInput.value.trim();
@@ -999,6 +1009,7 @@
           resetContactForm();
           buildCaptcha();
           setFormStatus(t.submitSuccess, false);
+          redirectToThankYou({ name, date, location, source: "contact" });
         } catch (error) {
           console.error(error);
           setFormStatus(t.submitError, true);

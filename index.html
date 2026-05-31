@@ -2029,6 +2029,16 @@
         homeInquiryStatus.style.color = isError ? "#9B3D2F" : "rgba(27, 26, 24, 0.7)";
       };
 
+      const redirectHomeInquiryThankYou = ({ lang, name, date, location }) => {
+        const params = new URLSearchParams();
+        params.set("lang", lang);
+        params.set("name", name || "");
+        params.set("date", date || "");
+        params.set("location", location || "");
+        params.set("source", "home");
+        window.location.href = `/contact/thank-you/?${params.toString()}`;
+      };
+
       const setHomeInquiryBusy = (busy) => {
         if (!homeInquirySubmitButton) return;
         homeInquirySubmitButton.disabled = busy;
@@ -2089,6 +2099,7 @@
           buildHomeInquirySecurityChallenge();
           if (homeInquirySecurityError) homeInquirySecurityError.textContent = "";
           setHomeInquiryStatus(t["contact.submitSuccess"], false);
+          redirectHomeInquiryThankYou({ lang, name, date, location });
         } catch (error) {
           console.error(error);
           setHomeInquiryStatus(t["contact.submitError"], true);
