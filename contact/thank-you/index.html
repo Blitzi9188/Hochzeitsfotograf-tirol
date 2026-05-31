@@ -202,25 +202,12 @@
 
   <main class="mx-auto flex w-full max-w-[1440px] flex-1 flex-col items-center px-5 pt-32 pb-16 sm:px-8 sm:pt-40 sm:pb-24 lg:px-14">
     <div class="flex w-full max-w-[620px] flex-col">
-      <p class="mb-6 text-center text-[10px] font-semibold uppercase tracking-[0.28em] text-brand-muted" id="metaLabel">Bestätigung & Status</p>
-
       <h1 class="hero-word mb-10 text-center text-[64px] font-extrabold uppercase text-brand-text sm:text-[88px] lg:text-[108px]" id="heroTitle">
         <span class="block">Danke</span>
-        <span class="block">Euch.</span>
+        <span class="block"></span>
       </h1>
 
-      <div class="mb-16 text-center text-brand-text" id="copyBlock">
-        <p class="mb-5 text-[17px] leading-8" id="introLine">
-          Eure Anfrage ist gut angekommen und liegt jetzt direkt bei mir.
-        </p>
-        <p class="text-[16px] leading-8 text-brand-text/85" id="followupLine">
-          Ich melde mich in der Regel innerhalb von 24 Stunden mit einer persönlichen Rückmeldung, damit wir gemeinsam schauen können, was für euch, eure Pläne und euren Tag wirklich passt.
-        </p>
-      </div>
-
       <section class="border-t-2 border-brand-text pt-10">
-        <p class="mb-8 text-[10px] font-semibold uppercase tracking-[0.24em] text-brand-text" id="receiptLabel">Anfrageübersicht</p>
-
         <div class="detail-row flex flex-col gap-2 py-5 sm:flex-row sm:items-baseline sm:justify-between" id="detailNameRow">
           <span class="text-[11px] font-semibold uppercase tracking-editorial text-brand-text" id="detailNameLabel">Name</span>
           <span class="text-[16px] italic text-brand-muted" id="detailNameValue">—</span>
@@ -246,24 +233,11 @@
           <span class="text-[16px] italic text-brand-muted" id="detailReferralValue">—</span>
         </div>
 
-        <div class="detail-row flex flex-col gap-2 py-5 sm:flex-row sm:items-baseline sm:justify-between" id="detailSourceRow">
-          <span class="text-[11px] font-semibold uppercase tracking-editorial text-brand-text" id="detailSourceLabel">Anfrageart</span>
-          <span class="text-[16px] italic text-brand-muted" id="detailSourceValue">Kontaktformular</span>
-        </div>
-
         <div class="detail-row flex flex-col gap-3 py-5" id="detailMessageRow">
           <span class="text-[11px] font-semibold uppercase tracking-editorial text-brand-text" id="detailMessageLabel">Nachricht</span>
           <span class="text-[16px] italic leading-8 text-brand-muted whitespace-pre-wrap" id="detailMessageValue">—</span>
         </div>
       </section>
-
-      <a
-        href="/guides/"
-        class="mt-10 inline-flex self-center border-b border-brand-text pb-1 text-[11px] font-medium uppercase tracking-[0.18em] text-brand-text transition-opacity hover:opacity-65"
-        id="ctaLink"
-      >
-        Weiter zu den Guides
-      </a>
     </div>
   </main>
 
@@ -281,59 +255,31 @@
     const translations = {
       de: {
         pageTitle: "Danke | Hochzeitsfotograf Tirol & Dolomiten",
-        metaLabel: "Bestätigung & Status",
         heroTop: "Danke",
-        heroBottom: "Euch.",
+        heroBottom: "",
         navAbout: "About",
         navContact: "Contact",
         navJournal: "Journal",
-        introLine: "Eure Anfrage ist gut angekommen und liegt jetzt direkt bei mir.",
-        followupLine:
-          "Ich melde mich in der Regel innerhalb von 24 Stunden mit einer persönlichen Rückmeldung, damit wir gemeinsam schauen können, was für euch, eure Pläne und euren Tag wirklich passt.",
-        receiptLabel: "Anfrageübersicht",
         detailNameLabel: "Name",
         detailEmailLabel: "E-Mail",
         detailDateLabel: "Wunschdatum",
         detailLocationLabel: "Ort",
         detailReferralLabel: "Empfehlung",
-        detailSourceLabel: "Anfrageart",
-        detailMessageLabel: "Nachricht",
-        sourceContact: "Kontaktformular",
-        sourceHome: "Startseite",
-        sourceUnknown: "Direkte Anfrage",
-        fallbackName: "Eure Anfrage",
-        fallbackDate: "Noch offen",
-        fallbackLocation: "Tirol, Dolomiten, Alpen",
-        ctaLabel: "Weiter zu den Guides",
-        footerMeta: "Wir melden uns persönlich zurück."
+        detailMessageLabel: "Nachricht"
       },
       en: {
         pageTitle: "Thank You | Wedding Photographer Tirol & Dolomites",
-        metaLabel: "Confirmation & Status",
         heroTop: "Thank",
-        heroBottom: "You.",
+        heroBottom: "",
         navAbout: "About",
         navContact: "Contact",
         navJournal: "Journal",
-        introLine: "Your inquiry arrived safely and is now directly with me.",
-        followupLine:
-          "I usually reply within 24 hours with a personal note, so we can look at what fits you, your plans, and the kind of day you want to create.",
-        receiptLabel: "Inquiry Summary",
         detailNameLabel: "Name",
         detailEmailLabel: "Email",
         detailDateLabel: "Preferred date",
         detailLocationLabel: "Location",
         detailReferralLabel: "Referral",
-        detailSourceLabel: "Inquiry type",
-        detailMessageLabel: "Message",
-        sourceContact: "Contact form",
-        sourceHome: "Homepage",
-        sourceUnknown: "Direct inquiry",
-        fallbackName: "Your inquiry",
-        fallbackDate: "Still open",
-        fallbackLocation: "Tyrol, Dolomites, Alps",
-        ctaLabel: "Continue to the guides",
-        footerMeta: "You will hear back personally."
+        detailMessageLabel: "Message"
       }
     };
 
@@ -344,41 +290,25 @@
       const suffix = lang === "en" ? "En" : "De";
       return {
         ...base,
-        metaLabel: settings[`contactThanksMeta${suffix}`]?.trim() || base.metaLabel,
         heroTop: settings[`contactThanksHeadlineLine1${suffix}`]?.trim() || base.heroTop,
-        heroBottom: settings[`contactThanksHeadlineLine2${suffix}`]?.trim() || base.heroBottom,
-        introLine: settings[`contactThanksIntro${suffix}`]?.trim() || base.introLine,
-        followupLine: settings[`contactThanksFollowup${suffix}`]?.trim() || base.followupLine,
-        receiptLabel: settings[`contactThanksReceiptLabel${suffix}`]?.trim() || base.receiptLabel,
-        ctaLabel: settings[`contactThanksCtaLabel${suffix}`]?.trim() || base.ctaLabel,
-        ctaTarget:
-          settings[`contactThanksCtaUrl${suffix}`]?.trim()
-          || (lang === "en" ? "/guides/?lang=en" : "/guides/"),
-        footerMeta: settings[`contactThanksFooterMeta${suffix}`]?.trim() || base.footerMeta
+        heroBottom: settings[`contactThanksHeadlineLine2${suffix}`]?.trim() || base.heroBottom
       };
     };
 
     const renderPage = (t) => {
       document.documentElement.lang = lang;
       document.title = t.pageTitle;
-      document.getElementById("metaLabel").textContent = t.metaLabel;
       document.getElementById("navAboutLink").textContent = t.navAbout;
       document.getElementById("navJournalLink").textContent = t.navJournal;
       document.getElementById("navContactLink").textContent = t.navContact;
       document.querySelector("#heroTitle span:first-child").textContent = t.heroTop;
       document.querySelector("#heroTitle span:last-child").textContent = t.heroBottom;
-      document.getElementById("introLine").textContent = t.introLine;
-      document.getElementById("followupLine").textContent = t.followupLine;
-      document.getElementById("receiptLabel").textContent = t.receiptLabel;
       document.getElementById("detailNameLabel").textContent = t.detailNameLabel;
       document.getElementById("detailEmailLabel").textContent = t.detailEmailLabel;
       document.getElementById("detailDateLabel").textContent = t.detailDateLabel;
       document.getElementById("detailLocationLabel").textContent = t.detailLocationLabel;
       document.getElementById("detailReferralLabel").textContent = t.detailReferralLabel;
-      document.getElementById("detailSourceLabel").textContent = t.detailSourceLabel;
       document.getElementById("detailMessageLabel").textContent = t.detailMessageLabel;
-      document.getElementById("ctaLink").textContent = t.ctaLabel;
-      document.getElementById("footerMeta").textContent = t.footerMeta;
       document.getElementById("footerContactLink").textContent = t.navContact;
       document.getElementById("footerJournalLink").textContent = t.navJournal;
 
@@ -388,17 +318,10 @@
       const submittedLocation = params.get("location")?.trim();
       const submittedReferral = params.get("referral")?.trim();
       const submittedMessage = params.get("message")?.trim();
-      const submittedSource = params.get("source")?.trim();
-
-      const sourceLabelMap = {
-        contact: t.sourceContact,
-        home: t.sourceHome
-      };
-
-      const setRow = (rowId, valueId, value, fallback = "") => {
+      const setRow = (rowId, valueId, value) => {
         const row = document.getElementById(rowId);
         const node = document.getElementById(valueId);
-        const finalValue = String(value || fallback || "").trim();
+        const finalValue = String(value || "").trim();
         if (!row || !node) return;
         if (!finalValue) {
           row.style.display = "none";
@@ -408,14 +331,12 @@
         node.textContent = finalValue;
       };
 
-      setRow("detailNameRow", "detailNameValue", submittedName, t.fallbackName);
+      setRow("detailNameRow", "detailNameValue", submittedName);
       setRow("detailEmailRow", "detailEmailValue", submittedEmail);
       setRow("detailDateRow", "detailDateValue", submittedDate);
       setRow("detailLocationRow", "detailLocationValue", submittedLocation);
       setRow("detailReferralRow", "detailReferralValue", submittedReferral);
-      setRow("detailSourceRow", "detailSourceValue", sourceLabelMap[submittedSource] || t.sourceUnknown);
       setRow("detailMessageRow", "detailMessageValue", submittedMessage);
-      document.getElementById("ctaLink").setAttribute("href", t.ctaTarget);
     };
 
     const init = async () => {
@@ -462,10 +383,7 @@
         renderPage(applyCmsOverrides(base, settings || {}));
       } catch (error) {
         console.warn("Thank-you page settings fallback active.", error);
-        renderPage({
-          ...base,
-          ctaTarget: lang === "en" ? "/guides/?lang=en" : "/guides/"
-        });
+        renderPage(base);
       }
     };
 
