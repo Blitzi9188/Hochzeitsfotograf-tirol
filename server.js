@@ -29,6 +29,7 @@ const {
   streamBundleDownload,
   appendLog
 } = require("./lib/preset-delivery");
+const { sendContactInquiry } = require("./lib/contact-mail");
 
 const rootDir = __dirname;
 loadEnvFile(path.join(rootDir, ".env"));
@@ -491,6 +492,20 @@ const server = http.createServer(async (req, res) => {
 
     if (req.method === "GET" && pathname === "/api/health") {
       sendJson(res, 200, { ok: true });
+      return;
+    }
+
+    if (req.method === "POST" && pathname === "/api/contact") {
+      const body = JSON.parse(await readBody(req));
+      const result = await sendContactInquiry({
+        rootDir: dataRoot,
+        payload: body,
+        meta: {
+          ip: req.headers["x-forwarded-for"] || req.socket.remoteAddress || "",
+          userAgent: req.headers["user-agent"] || ""
+        }
+      });
+      sendJson(res, 200, result);
       return;
     }
 

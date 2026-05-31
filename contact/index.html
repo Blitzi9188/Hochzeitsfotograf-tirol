@@ -736,7 +736,9 @@
           captchaQuestionPrefix: "Bitte löse",
           captchaError: "Bitte die Sicherheitsabfrage korrekt lösen.",
           validationError: "Bitte Name, E-Mail, Wunschdatum und Nachricht ausfüllen.",
-          submitReady: "Mailprogramm wird geöffnet.",
+          submitSending: "Anfrage wird gesendet.",
+          submitSuccess: "Danke. Eure Anfrage ist unterwegs.",
+          submitError: "Die Anfrage konnte gerade nicht gesendet werden. Bitte versucht es gleich noch einmal.",
           submit: "Nachricht senden",
           reviewsEyebrow: "Rezensionen",
           reviewsTitle: "Was Paare Sagen",
@@ -795,7 +797,9 @@
           captchaQuestionPrefix: "Please solve",
           captchaError: "Please solve the security check correctly.",
           validationError: "Please complete name, email, preferred date and message.",
-          submitReady: "Opening your mail app.",
+          submitSending: "Sending your inquiry.",
+          submitSuccess: "Thank you. Your inquiry is on its way.",
+          submitError: "Your inquiry could not be sent right now. Please try again in a moment.",
           submit: "Send Message",
           reviewsEyebrow: "Reviews",
           reviewsTitle: "What Couples Say",
@@ -920,7 +924,27 @@
         captchaQuestion.textContent = `${first} + ${second} = ?`;
       };
 
-      const submitContactForm = () => {
+      const setSubmitBusy = (busy) => {
+        submitButton.disabled = busy;
+        submitButton.style.opacity = busy ? "0.65" : "1";
+        submitButton.style.pointerEvents = busy ? "none" : "auto";
+      };
+
+      const resetContactForm = () => {
+        nameInput.value = "";
+        emailInput.value = "";
+        dateInput.value = "";
+        locationInput.value = "";
+        messageInput.value = "";
+        referralSelect.value = "";
+        selectedRangeStart = null;
+        selectedRangeEnd = null;
+        visibleMonth = new Date(todayStart);
+        updateDateInput();
+        renderCalendar();
+      };
+
+      const submitContactForm = async () => {
         const t = translations[currentLang];
         const name = nameInput.value.trim();
         const email = emailInput.value.trim();
@@ -947,23 +971,40 @@
           return;
         }
 
-        const recipient = String(siteSettings.contactFormRecipient || document.getElementById("infoMail").textContent || "foto@blitzkneisser.com").trim();
-        const subject = encodeURIComponent(currentLang === "en" ? `Wedding inquiry from ${name}` : `Hochzeitsanfrage von ${name}`);
-        const body = encodeURIComponent(
-          [
-            `${currentLang === "en" ? "Name" : "Name"}: ${name}`,
-            `${currentLang === "en" ? "Email" : "E-Mail"}: ${email}`,
-            `${currentLang === "en" ? "Preferred date" : "Wunschdatum"}: ${date || "-"}`,
-            `${currentLang === "en" ? "Location" : "Ort"}: ${location || "-"}`,
-            `${currentLang === "en" ? "How did you find me?" : "Wie habt ihr mich gefunden?"}: ${referral || "-"}`,
-            "",
-            `${currentLang === "en" ? "Message" : "Nachricht"}:`,
-            message
-          ].join("\n")
-        );
+        setSubmitBusy(true);
+        setFormStatus(t.submitSending, false);
 
-        setFormStatus(t.submitReady, false);
-        window.location.href = `mailto:${recipient}?subject=${subject}&body=${body}`;
+        try {
+          const response = await fetch("/api/contact", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+              source: "contact",
+              lang: currentLang,
+              name,
+              email,
+              date,
+              location,
+              referral,
+              message
+            })
+          });
+
+          if (!response.ok) {
+            throw new Error(`Contact request failed: ${response.status}`);
+          }
+
+          resetContactForm();
+          buildCaptcha();
+          setFormStatus(t.submitSuccess, false);
+        } catch (error) {
+          console.error(error);
+          setFormStatus(t.submitError, true);
+        } finally {
+          setSubmitBusy(false);
+        }
       };
 
       navToggle.addEventListener("click", () => {
