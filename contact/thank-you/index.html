@@ -207,6 +207,10 @@
         <span class="block"></span>
       </h1>
 
+      <p class="mb-12 text-center text-[18px] leading-9 text-brand-text/85" id="heroNote">
+        Eure Nachricht ist bei uns angekommen und wir melden uns innerhalb der nächsten 48 Stunden bei euch. Dann besprechen wir gemeinsam eure Vorstellungen und die Pläne für euren großen Tag.
+      </p>
+
       <section class="border-t-2 border-brand-text pt-10">
         <div class="detail-row flex flex-col gap-2 py-5 sm:flex-row sm:items-baseline sm:justify-between" id="detailNameRow">
           <span class="text-[11px] font-semibold uppercase tracking-editorial text-brand-text" id="detailNameLabel">Name</span>
@@ -257,6 +261,8 @@
         pageTitle: "Danke | Hochzeitsfotograf Tirol & Dolomiten",
         heroTop: "Danke",
         heroBottom: "",
+        heroNote:
+          "Eure Nachricht ist bei uns angekommen und wir melden uns innerhalb der nächsten 48 Stunden bei euch. Dann besprechen wir gemeinsam eure Vorstellungen und die Pläne für euren großen Tag.",
         navAbout: "About",
         navContact: "Contact",
         navJournal: "Journal",
@@ -271,6 +277,8 @@
         pageTitle: "Thank You | Wedding Photographer Tirol & Dolomites",
         heroTop: "Thank",
         heroBottom: "",
+        heroNote:
+          "Your message has reached us and we will get back to you within the next 48 hours. Then we can talk through your ideas and the plans for your day together.",
         navAbout: "About",
         navContact: "Contact",
         navJournal: "Journal",
@@ -291,7 +299,8 @@
       return {
         ...base,
         heroTop: settings[`contactThanksHeadlineLine1${suffix}`]?.trim() || base.heroTop,
-        heroBottom: settings[`contactThanksHeadlineLine2${suffix}`]?.trim() || base.heroBottom
+        heroBottom: settings[`contactThanksHeadlineLine2${suffix}`]?.trim() || base.heroBottom,
+        heroNote: settings[`contactThanksIntro${suffix}`]?.trim() || base.heroNote
       };
     };
 
@@ -303,6 +312,7 @@
       document.getElementById("navContactLink").textContent = t.navContact;
       document.querySelector("#heroTitle span:first-child").textContent = t.heroTop;
       document.querySelector("#heroTitle span:last-child").textContent = t.heroBottom;
+      document.getElementById("heroNote").textContent = t.heroNote;
       document.getElementById("detailNameLabel").textContent = t.detailNameLabel;
       document.getElementById("detailEmailLabel").textContent = t.detailEmailLabel;
       document.getElementById("detailDateLabel").textContent = t.detailDateLabel;
