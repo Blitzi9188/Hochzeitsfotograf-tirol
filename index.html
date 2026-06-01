@@ -29,6 +29,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <script>window.__HOMEPAGE_BOOTSTRAP__ = null;</script>
   <script>
     tailwind.config = {
       theme: {
@@ -651,7 +652,7 @@
     <section class="relative flex min-h-screen items-end px-6 pb-14 pt-28 md:px-12 md:pb-20" data-no-pin>
       <div class="absolute inset-0" data-no-pin>
         <img
-          src="/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-256-hero.webp"
+          src="/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14.jpg"
           alt=""
           class="h-full w-full object-cover object-center"
           fetchpriority="high"
@@ -679,7 +680,7 @@
           <div class="sticky top-32 md:top-36 space-y-12">
             <div>
               <span class="eyebrow text-brand-muted" data-i18n="about.eyebrow">Über mich</span>
-              <h2 class="headline mt-5 text-4xl md:text-6xl" data-i18n="about.title">Zeitlose Erinnerungen in den Bergen</h2>
+              <h2 class="headline mt-5 text-4xl md:text-6xl" data-i18n="about.title">Zeitlose Erinnerungen</h2>
             </div>
             <div class="space-y-6 text-xs uppercase tracking-[0.22em] text-brand-muted">
               <div>
@@ -1260,12 +1261,13 @@
     const renderPortfolioGallery = (lang, items) => {
       const track = document.getElementById("portfolioSlider");
       if (!track) return;
-      const fallbackItems = [
-        { image: "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14.jpg", alt: "Brautpaar zwischen Felsen und weitem Berglicht in den Dolomiten", altEn: "Couple between alpine rocks and soft mountain light in the Dolomites" },
-        { image: "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-21.jpg", alt: "Intimer Moment eines Paares bei einem Elopement in alpiner Landschaft", altEn: "Intimate moment during an alpine elopement" },
-        { image: "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Sneak-Peak-4.jpg", alt: "Ruhiges Portrait eines Paares mit Blick auf Bergketten", altEn: "Quiet portrait of a couple with mountain ranges in the background" }
-      ];
-      const source = Array.isArray(items) && items.length ? items : fallbackItems;
+      const source = Array.isArray(items)
+        ? items.filter((item) => item && item.image)
+        : [];
+      if (!source.length) {
+        track.innerHTML = "";
+        return;
+      }
       track.innerHTML = source.map((item, index) => `
         <figure class="portfolio-slide">
           <div class="image-hover-container aspect-[4/5] shadow-soft">
@@ -1310,37 +1312,10 @@
         : [];
       const fallbackImages = [
         ...portfolioImages,
-        ...heroImages,
-        "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14.jpg",
-        "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-21.jpg",
-        "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Sneak-Peak-4.jpg"
+        ...heroImages
       ].filter(Boolean);
       return Array.from(new Set(fallbackImages));
     };
-
-    const endingGalleryLibrary = [
-      { image: "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-28.jpg", alt: "Brautpaar in weiter Berglandschaft mit ruhigem Morgenlicht", altEn: "Couple in a wide mountain landscape with soft morning light" },
-      { image: "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-5.jpg", alt: "Ungezwungener Moment eines Paares bei einem Pizza Elopement in den Dolomiten", altEn: "Relaxed couple moment during a pizza elopement in the Dolomites" },
-      { image: "/assets/uploads/Blitzkneisser-Elopement-Dolomites-233.jpg", alt: "Detailaufnahme eines Paares in den Dolomiten", altEn: "Intimate detail portrait of a couple in the Dolomites" },
-      { image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-3.jpg", alt: "Brautpaar in den Bergen mit weiter alpiner Kulisse", altEn: "Couple in the mountains with a wide alpine backdrop" },
-      { image: "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-19.jpg", alt: "Intimer Augenblick eines Paares im weichen Licht der Dolomiten", altEn: "Intimate couple moment in the soft light of the Dolomites" },
-      { image: "/assets/uploads/Blitzkneisser-Elopement-Lago-di-Braies-Dolomites-11.jpg", alt: "Editoriales Portrait eines Paares mit alpiner Ruhe und Weite", altEn: "Editorial couple portrait with alpine calm and openness" },
-      { image: "/assets/uploads/Blitzkneisser-Dolomites-Ski-Wedding-44.jpg", alt: "Ruhiges Bergportrait mit klarer Lichtstimmung", altEn: "Quiet mountain portrait with crisp light" },
-      { image: "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-360.jpg", alt: "Paarmoment auf einem Bergkamm mit weiten Linien", altEn: "Couple moment on a mountain ridge with expansive lines" },
-      { image: "/assets/uploads/Blitzkneisser-Eloepement-Drei-Zinne-Coldai-3.jpg", alt: "Brautpaar vor dramatischen Felsen in den Dolomiten", altEn: "Couple in front of dramatic rock formations in the Dolomites" },
-      { image: "/assets/uploads/Blitzkneisser-Wedding-Dolomites-17.jpg", alt: "Leichter Moment eines Paares bei einem entspannten Elopement", altEn: "Playful couple moment during a relaxed elopement" },
-      { image: "/assets/uploads/Blitzkneisser-Elopement-Dolomites-6.jpg", alt: "Feine Nahaufnahme eines Paares in alpiner Landschaft", altEn: "Refined close portrait of a couple in an alpine setting" },
-      { image: "/assets/uploads/Blitzkneisser-Winter-Wedding-Dolomites-21.jpg", alt: "Winterlicher Elopement-Moment in den verschneiten Bergen", altEn: "Winter elopement moment in snow-covered mountains" }
-    ];
-
-    const portfolioMosaicFallbackLibrary = [
-      { image: "/assets/uploads/Blitzkneisser-Wedding-Dolomites-17.jpg", alt: "Portfolio Bild 1", altEn: "Portfolio image 1" },
-      { image: "/assets/uploads/Blitzkneisser-Hochzeit-Seefeld-9.jpg", alt: "Portfolio Bild 2", altEn: "Portfolio image 2" },
-      { image: "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-360.jpg", alt: "Portfolio Bild 3", altEn: "Portfolio image 3" },
-      { image: "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Sneak-Peak-4.jpg", alt: "Portfolio Bild 4", altEn: "Portfolio image 4" },
-      { image: "/assets/uploads/Blitzkneisser-Dolomites-Ski-Wedding-44.jpg", alt: "Portfolio Bild 5", altEn: "Portfolio image 5" },
-      { image: "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14.jpg", alt: "Portfolio Bild 6", altEn: "Portfolio image 6" }
-    ];
 
     const portfolioMosaicLayoutsByCount = {
       6: ["is-wide", "is-tall", "is-landscape", "is-portrait", "is-medium", "is-landscape"],
@@ -1359,8 +1334,36 @@
       return clone;
     };
 
-    const renderEndingGallery = (lang) => {
-      const selectedImages = shuffleList(endingGalleryLibrary).slice(0, 6);
+    const buildHomepageImagePool = (content, portfolioPageContent = {}) => {
+      const fromCmsPortfolio = getHomepagePortfolioSource(content, portfolioPageContent, 12);
+      const fromCmsHero = Array.isArray(content?.heroImages)
+        ? content.heroImages
+            .filter((item) => item && item.image)
+            .map((item) => ({
+              image: item.image,
+              alt: item.alt || content.hero?.title || "Bild",
+              altEn: item.altEn || item.alt || content.hero?.title || "Image"
+            }))
+        : [];
+
+      const pool = [...fromCmsPortfolio, ...fromCmsHero].filter((item) => item && item.image);
+      const unique = [];
+      const seen = new Set();
+      pool.forEach((item) => {
+        if (seen.has(item.image)) return;
+        seen.add(item.image);
+        unique.push(item);
+      });
+      return unique;
+    };
+
+    const renderEndingGallery = (lang, content, portfolioPageContent = {}) => {
+      const pool = shuffleList(buildHomepageImagePool(content, portfolioPageContent));
+      if (!pool.length) return;
+      const selectedImages = [];
+      while (selectedImages.length < 6) {
+        selectedImages.push(pool[selectedImages.length % pool.length]);
+      }
       selectedImages.forEach((item, index) => {
         const image = document.getElementById(`endingGalleryImage${index + 1}`);
         if (!image) return;
@@ -1370,33 +1373,7 @@
     };
 
     const buildPortfolioMosaicPool = (content, portfolioPageContent = {}) => {
-      const fromCmsPortfolio = getHomepagePortfolioSource(content, portfolioPageContent, 6);
-
-      const fromCmsHero = Array.isArray(content?.heroImages)
-        ? content.heroImages
-            .filter((item) => item && item.image)
-            .map((item) => ({
-              image: item.image,
-              alt: item.alt || "Hero Bild",
-              altEn: item.altEn || item.alt || "Hero image"
-            }))
-        : [];
-
-      const pool = [
-        ...fromCmsPortfolio,
-        ...fromCmsHero,
-        ...endingGalleryLibrary,
-        ...portfolioMosaicFallbackLibrary
-      ].filter((item) => item && item.image);
-
-      const unique = [];
-      const seen = new Set();
-      pool.forEach((item) => {
-        if (seen.has(item.image)) return;
-        seen.add(item.image);
-        unique.push(item);
-      });
-      return unique;
+      return buildHomepageImagePool(content, portfolioPageContent);
     };
 
     const renderPortfolioMosaic = (lang, content, portfolioPageContent = {}) => {
@@ -1434,8 +1411,8 @@
       const visibleSlots = slots.filter((_, index) => index < visibleCount);
       let selected = pool.slice(0, visibleSlots.length);
       if (selected.length < visibleSlots.length) {
-        const fallbackLoop = shuffleList(portfolioMosaicFallbackLibrary);
-        while (selected.length < visibleSlots.length) {
+        const fallbackLoop = shuffleList(pool);
+        while (selected.length < visibleSlots.length && fallbackLoop.length) {
           selected.push(fallbackLoop[selected.length % fallbackLoop.length]);
         }
       }
@@ -1694,7 +1671,7 @@
       renderFaq(content.faq);
       renderPortfolioGallery(lang, getHomepagePortfolioSource(content, portfolioPageContent, 6));
       renderPortfolioMosaic(lang, content, portfolioPageContent);
-      renderEndingGallery(lang);
+      renderEndingGallery(lang, content, portfolioPageContent);
       loadLatestJournalEntries(lang)
         .then((entries) => renderJournalCards(lang, entries))
         .catch(() => renderJournalCards(lang, []));
@@ -1718,7 +1695,7 @@
       const chosenHeroImage = currentHeroImage || (heroImages.length
         ? heroImages[Math.floor(Math.random() * heroImages.length)]
         : null);
-      const heroImage = chosenHeroImage?.image || content.featuredImage || "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-256-hero.webp";
+      const heroImage = chosenHeroImage?.image || content.featuredImage || "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14.jpg";
       const heroAlt = lang === "en"
         ? (chosenHeroImage?.altEn || chosenHeroImage?.alt || content.featuredImageAlt || content.hero?.title || heroMainImage?.alt || "Homepage hero image")
         : (chosenHeroImage?.alt || chosenHeroImage?.altEn || content.featuredImageAlt || content.hero?.title || heroMainImage?.alt || "Hero Bild");
@@ -1789,6 +1766,11 @@
 
     const loadHomepageContent = async (lang) => {
       if (homepageContentCache[lang]) return homepageContentCache[lang];
+      const bootstrap = window.__HOMEPAGE_BOOTSTRAP__ && window.__HOMEPAGE_BOOTSTRAP__[lang];
+      if (bootstrap) {
+        homepageContentCache[lang] = bootstrap;
+        return bootstrap;
+      }
       const response = await fetch(`/content/homepage/${lang}.json?ts=${Date.now()}`, { cache: "no-store" });
       if (!response.ok) {
         throw new Error(`Failed to load homepage content for ${lang}`);

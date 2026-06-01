@@ -285,6 +285,49 @@ const getStaticCandidates = (pathname) => {
     .filter((absolutePath) => !isBlockedStaticPath(absolutePath));
 };
 
+const readFirstAvailableFile = async (relativePath, encoding = null) => {
+  const cleanRelativePath = String(relativePath || "").replace(/^\/+/, "");
+  const candidates = [dataRoot, rootDir].map((baseDir) => path.join(baseDir, cleanRelativePath));
+  for (const filePath of candidates) {
+    try {
+      return await fsp.readFile(filePath, encoding || undefined);
+    } catch {
+      continue;
+    }
+  }
+  throw new Error(`Missing file: ${relativePath}`);
+};
+
+const readJsonDataFile = async (relativePath) => {
+  const raw = await readFirstAvailableFile(relativePath, "utf8");
+  return JSON.parse(raw);
+};
+
+const escapeInlineJson = (value) =>
+  JSON.stringify(value)
+    .replace(/</g, "\\u003c")
+    .replace(/>/g, "\\u003e")
+    .replace(/&/g, "\\u0026");
+
+const serveHomepage = async (req, res) => {
+  const template = await readFirstAvailableFile("index.html", "utf8");
+  const homepageBootstrap = {
+    de: await readJsonDataFile(path.join("content", "homepage", "de.json")),
+    en: await readJsonDataFile(path.join("content", "homepage", "en.json"))
+  };
+
+  const injected = template.replace(
+    "<script>window.__HOMEPAGE_BOOTSTRAP__ = null;</script>",
+    `<script>window.__HOMEPAGE_BOOTSTRAP__ = ${escapeInlineJson(homepageBootstrap)};</script>`
+  );
+
+  res.writeHead(200, {
+    "Content-Type": "text/html; charset=utf-8",
+    "Cache-Control": "no-store"
+  });
+  res.end(req.method === "HEAD" ? "" : injected);
+};
+
 const listFilesRecursive = async (dir) => {
   const entries = await fsp.readdir(dir, { withFileTypes: true });
   const items = await Promise.all(entries.map(async (entry) => {
@@ -471,6 +514,11 @@ const server = http.createServer(async (req, res) => {
   }
 
   try {
+    if ((req.method === "GET" || req.method === "HEAD") && pathname === "/") {
+      await serveHomepage(req, res);
+      return;
+    }
+
     if ((req.method === "GET" || req.method === "HEAD") && pathname === "/index.html") {
       const query = parsed.search || "";
       res.writeHead(308, { Location: query ? `/${query}` : "/" });

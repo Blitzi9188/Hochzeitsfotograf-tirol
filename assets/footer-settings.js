@@ -1,11 +1,7 @@
 (() => {
   const INSTAGRAM_FEED_STYLE_ID = "footer-instagram-feed-style";
   const NAV_READY_CLASS = "site-nav-ready";
-  const DEFAULT_INSTAGRAM_FALLBACK_IMAGES = [
-    "/assets/uploads/Blitzkneisser-Mountain-Elopement-Seceda-180.jpg",
-    "/assets/uploads/Blitzkneisser-Elopement-Dolomites-120.jpg",
-    "/assets/uploads/Blitzkneisser-Elopement-Lago-di-Braies-Dolomites-11.jpg"
-  ];
+  const DEFAULT_INSTAGRAM_FALLBACK_IMAGES = [];
 
   const ensureNavigationReadyStyles = () => {
     const styleId = "site-nav-ready-style";
@@ -13,18 +9,13 @@
     const style = document.createElement("style");
     style.id = styleId;
     style.textContent = `
-      html:not(.${NAV_READY_CLASS}) #navMenuPanel > div:first-child,
-      html:not(.${NAV_READY_CLASS}) #navMenuPanel .nav-lang-toggle {
-        opacity: 0 !important;
-      }
-
       html.${NAV_READY_CLASS} #navMenuPanel > div:first-child,
       html.${NAV_READY_CLASS} #navMenuPanel .nav-lang-toggle {
         opacity: 1 !important;
-        transition: opacity 0.15s ease;
       }
     `;
     document.head.appendChild(style);
+    document.documentElement.classList.add(NAV_READY_CLASS);
   };
 
   ensureNavigationReadyStyles();
@@ -870,7 +861,7 @@
       if (response.ok) {
         const homepage = await response.json();
         fallbackImages = [
-          ...(Array.isArray(homepage.heroRotation) ? homepage.heroRotation.map((item) => item?.image) : []),
+          ...(Array.isArray(homepage.heroImages) ? homepage.heroImages.map((item) => item?.image) : []),
           ...(Array.isArray(homepage.portfolioGallery) ? homepage.portfolioGallery.map((item) => item?.image) : [])
         ].filter(Boolean).slice(0, 6);
       }
