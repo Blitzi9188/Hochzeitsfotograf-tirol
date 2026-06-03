@@ -1061,7 +1061,7 @@
         "contact.form.details": "Erzählt mir mehr *",
         "contact.privacy": "Mit dem Absenden stimmt ihr der Verarbeitung eurer Daten für die Kontaktaufnahme zu.",
         "contact.validationError": "Bitte füllt Name, E-Mail und Nachricht aus, bevor ihr die Anfrage sendet.",
-        "contact.submitSending": "Anfrage wird gesendet.",
+        "contact.submitSending": "Nachricht wird gesendet, bitte warten...",
         "contact.submitSuccess": "Danke. Eure Anfrage ist unterwegs.",
         "contact.submitError": "Die Anfrage konnte gerade nicht gesendet werden. Bitte versucht es gleich noch einmal.",
         "contact.submit": "Anfrage senden",
@@ -1140,7 +1140,7 @@
         "contact.form.details": "Tell me more *",
         "contact.privacy": "By submitting this form, you agree that your data may be processed for the purpose of responding to your inquiry.",
         "contact.validationError": "Please fill in name, email and message before sending your inquiry.",
-        "contact.submitSending": "Sending your inquiry.",
+        "contact.submitSending": "Your message is being sent, please wait...",
         "contact.submitSuccess": "Thank you. Your inquiry is on its way.",
         "contact.submitError": "Your inquiry could not be sent right now. Please try again in a moment.",
         "contact.submit": "Send inquiry",
@@ -2025,6 +2025,30 @@
         window.location.href = `/contact/thank-you/?${params.toString()}`;
       };
 
+      const submitHomeInquiryInBackground = async (payload) => {
+        const body = JSON.stringify(payload);
+
+        if (navigator.sendBeacon) {
+          const blob = new Blob([body], { type: "application/json" });
+          if (navigator.sendBeacon("/api/contact", blob)) {
+            return true;
+          }
+        }
+
+        fetch("/api/contact", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json"
+          },
+          body,
+          keepalive: true
+        }).catch((error) => {
+          console.error(error);
+        });
+
+        return true;
+      };
+
       const setHomeInquiryBusy = (busy) => {
         if (!homeInquirySubmitButton) return;
         homeInquirySubmitButton.disabled = busy;
@@ -2060,27 +2084,16 @@
         setHomeInquiryStatus(t["contact.submitSending"], false);
 
         try {
-          const response = await fetch("/api/contact", {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json"
-            },
-            body: JSON.stringify({
-              source: "home",
-              lang,
-              name,
-              email,
-              date,
-              location,
-              referral: "",
-              message
-            })
+          await submitHomeInquiryInBackground({
+            source: "home",
+            lang,
+            name,
+            email,
+            date,
+            location,
+            referral: "",
+            message
           });
-
-          if (!response.ok) {
-            throw new Error(`Contact request failed: ${response.status}`);
-          }
-
           homeInquiryForm.reset();
           buildHomeInquirySecurityChallenge();
           if (homeInquirySecurityError) homeInquirySecurityError.textContent = "";

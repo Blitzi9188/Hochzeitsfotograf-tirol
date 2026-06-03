@@ -736,7 +736,7 @@
           captchaQuestionPrefix: "Bitte löse",
           captchaError: "Bitte die Sicherheitsabfrage korrekt lösen.",
           validationError: "Bitte füllt Name, E-Mail und Nachricht aus, bevor ihr die Anfrage sendet.",
-          submitSending: "Anfrage wird gesendet.",
+          submitSending: "Nachricht wird gesendet, bitte warten...",
           submitSuccess: "Danke. Eure Anfrage ist unterwegs.",
           submitError: "Die Anfrage konnte gerade nicht gesendet werden. Bitte versucht es gleich noch einmal.",
           submit: "Nachricht senden",
@@ -797,7 +797,7 @@
           captchaQuestionPrefix: "Please solve",
           captchaError: "Please solve the security check correctly.",
           validationError: "Please fill in name, email and message before sending your inquiry.",
-          submitSending: "Sending your inquiry.",
+          submitSending: "Your message is being sent, please wait...",
           submitSuccess: "Thank you. Your inquiry is on its way.",
           submitError: "Your inquiry could not be sent right now. Please try again in a moment.",
           submit: "Send Message",
@@ -955,6 +955,30 @@
         window.location.href = `/contact/thank-you/?${params.toString()}`;
       };
 
+      const submitContactInBackground = async (payload) => {
+        const body = JSON.stringify(payload);
+
+        if (navigator.sendBeacon) {
+          const blob = new Blob([body], { type: "application/json" });
+          if (navigator.sendBeacon("/api/contact", blob)) {
+            return true;
+          }
+        }
+
+        fetch("/api/contact", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json"
+          },
+          body,
+          keepalive: true
+        }).catch((error) => {
+          console.error(error);
+        });
+
+        return true;
+      };
+
       const submitContactForm = async () => {
         const t = translations[currentLang];
         const name = nameInput.value.trim();
@@ -986,27 +1010,16 @@
         setFormStatus(t.submitSending, false);
 
         try {
-          const response = await fetch("/api/contact", {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json"
-            },
-            body: JSON.stringify({
-              source: "contact",
-              lang: currentLang,
-              name,
-              email,
-              date,
-              location,
-              referral,
-              message
-            })
+          await submitContactInBackground({
+            source: "contact",
+            lang: currentLang,
+            name,
+            email,
+            date,
+            location,
+            referral,
+            message
           });
-
-          if (!response.ok) {
-            throw new Error(`Contact request failed: ${response.status}`);
-          }
-
           resetContactForm();
           buildCaptcha();
           setFormStatus(t.submitSuccess, false);
