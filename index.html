@@ -23,40 +23,22 @@
     property="og:description"
     content="Hochzeitsfotograf und Elopement Fotograf für Tirol, Innsbruck und die Dolomiten. Ruhige, emotionale Hochzeitsreportagen in den Bergen."
   >
-  <meta property="og:image" content="/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14.jpg" id="metaOgImage">
+  <meta property="og:image" content="/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14-lcp.jpg" id="metaOgImage">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
-  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap"></noscript>
+  <link
+    rel="preload"
+    as="image"
+    href="/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14-lcp.jpg"
+    imagesrcset="/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14-lcp-mobile.jpg 900w, /assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14-lcp.jpg 1200w"
+    imagesizes="100vw"
+    fetchpriority="high"
+  >
+  <link rel="stylesheet" href="/assets/home.css">
   <script>window.__HOMEPAGE_BOOTSTRAP__ = null;</script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          fontFamily: {
-            sans: ["Inter", "sans-serif"]
-          },
-          colors: {
-            brand: {
-              bg: "#FFFFFF",
-              surface: "#F4F0EA",
-              text: "#1B1A18",
-              muted: "#8A837A",
-              border: "#E6DED4",
-              accent: "#D9C6B2"
-            }
-          },
-          letterSpacing: {
-            tightest: "-0.06em"
-          },
-          boxShadow: {
-            soft: "0 30px 80px rgba(27, 26, 24, 0.08)"
-          }
-        }
-      }
-    };
-  </script>
   <style>
     body {
       background: #FFFFFF;
@@ -134,6 +116,11 @@
 
     .portfolio-slider-shell {
       position: relative;
+    }
+
+    .defer-section {
+      content-visibility: auto;
+      contain-intrinsic-size: 1200px;
     }
 
     .portfolio-slider-track {
@@ -652,10 +639,15 @@
     <section class="relative flex min-h-screen items-end px-6 pb-14 pt-28 md:px-12 md:pb-20" data-no-pin>
       <div class="absolute inset-0" data-no-pin>
         <img
-          src="/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14.jpg"
+          src="/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14-lcp.jpg"
+          srcset="/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14-lcp-mobile.jpg 900w, /assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14-lcp.jpg 1200w"
+          sizes="100vw"
           alt=""
           class="h-full w-full object-cover object-center"
           fetchpriority="high"
+          decoding="async"
+          width="1200"
+          height="800"
           id="heroMainImage"
         >
         <div class="absolute inset-0 bg-black/20"></div>
@@ -674,7 +666,7 @@
       </div>
     </section>
 
-    <section id="about" class="bg-brand-bg px-6 py-24 md:px-12 md:py-36">
+    <section id="about" class="defer-section bg-brand-bg px-6 py-24 md:px-12 md:py-36">
       <div class="mx-auto grid max-w-[120rem] gap-14 md:grid-cols-12 md:gap-24 lg:gap-28">
         <div class="scroll-fade md:col-span-4 md:self-start">
           <div class="sticky top-32 md:top-36 space-y-12">
@@ -723,7 +715,7 @@
       </div>
     </section>
 
-    <section id="journal" class="bg-brand-bg px-6 py-20 md:px-12 md:py-28">
+    <section id="journal" class="defer-section bg-brand-bg px-6 py-20 md:px-12 md:py-28">
       <div class="mx-auto max-w-[120rem]">
         <div class="scroll-fade mb-12 flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
           <div>
@@ -751,7 +743,7 @@
       </div>
     </section>
 
-    <section id="reviews" class="border-t border-brand-border bg-white px-6 py-20 md:px-12 md:py-28">
+    <section id="reviews" class="defer-section border-t border-brand-border bg-white px-6 py-20 md:px-12 md:py-28">
       <div class="mx-auto max-w-[120rem]">
         <div class="scroll-fade mb-10 mx-auto max-w-3xl text-center">
           <span class="eyebrow text-brand-muted" data-i18n="reviews.eyebrow">Google Reviews</span>
@@ -764,7 +756,7 @@
             <article class="review-slide scroll-fade is-visible">
               <div class="review-card">
                 <div class="flex items-center gap-4">
-                  <img src="/assets/uploads/Blitzkneisser-Mountain-Elopement-Instagram-5.jpg" alt="Kellie + Krake" class="h-14 w-14 rounded-full object-cover">
+                  <img src="/assets/uploads/Blitzkneisser-Mountain-Elopement-Instagram-5.jpg" alt="Kellie + Krake" class="h-14 w-14 rounded-full object-cover" loading="lazy" decoding="async">
                   <div>
                     <div class="text-[10px] uppercase tracking-[0.24em] text-brand-muted">Kellie + Krake</div>
                     <div class="mt-1 text-[10px] uppercase tracking-[0.18em] text-brand-muted">Januar 2026</div>
@@ -776,7 +768,7 @@
             <article class="review-slide scroll-fade is-visible">
               <div class="review-card">
                 <div class="flex items-center gap-4">
-                  <img src="/assets/uploads/Blitzkneisser-Hochzeit-Seefeld-8.jpg" alt="Anna + Paul" class="h-14 w-14 rounded-full object-cover">
+                  <img src="/assets/uploads/Blitzkneisser-Hochzeit-Seefeld-8.jpg" alt="Anna + Paul" class="h-14 w-14 rounded-full object-cover" loading="lazy" decoding="async">
                   <div>
                     <div class="text-[10px] uppercase tracking-[0.24em] text-brand-muted">Anna + Paul</div>
                     <div class="mt-1 text-[10px] uppercase tracking-[0.18em] text-brand-muted">November 2025</div>
@@ -788,7 +780,7 @@
             <article class="review-slide scroll-fade is-visible">
               <div class="review-card">
                 <div class="flex items-center gap-4">
-                  <img src="/assets/uploads/Blitzkneisser-Dolomites-Ski-Wedding-44.jpg" alt="Mary + John" class="h-14 w-14 rounded-full object-cover">
+                  <img src="/assets/uploads/Blitzkneisser-Dolomites-Ski-Wedding-44.jpg" alt="Mary + John" class="h-14 w-14 rounded-full object-cover" loading="lazy" decoding="async">
                   <div>
                     <div class="text-[10px] uppercase tracking-[0.24em] text-brand-muted">Mary + John</div>
                     <div class="mt-1 text-[10px] uppercase tracking-[0.18em] text-brand-muted">August 2025</div>
@@ -802,7 +794,7 @@
       </div>
     </section>
 
-    <section class="bg-white px-6 pb-12 pt-6 md:px-12 md:pb-20 md:pt-8">
+    <section class="defer-section bg-white px-6 pb-12 pt-6 md:px-12 md:pb-20 md:pt-8">
       <div class="mx-auto max-w-[120rem]">
         <div class="mb-6 flex flex-col gap-5 md:mb-8 md:flex-row md:items-end md:justify-between">
           <div class="scroll-fade">
@@ -846,7 +838,7 @@
       </div>
     </section>
 
-    <section id="contact" class="bg-brand-surface px-6 py-24 md:px-12 md:py-36">
+    <section id="contact" class="defer-section bg-brand-surface px-6 py-24 md:px-12 md:py-36">
       <div class="mx-auto grid max-w-[120rem] gap-12 md:grid-cols-12 md:gap-16">
         <div class="scroll-fade md:col-span-4">
           <span class="eyebrow text-brand-muted" data-i18n="contact.eyebrow">Anfrage</span>
@@ -866,8 +858,8 @@
               <input type="email" name="email" class="w-full border-b border-brand-text bg-transparent px-0 py-3 outline-none" required aria-required="true">
             </label>
             <label class="block">
-              <span class="mb-3 block text-[10px] uppercase tracking-[0.22em] text-brand-muted" data-i18n="contact.form.date">Wunschdatum</span>
-              <input type="text" name="date" class="w-full border-b border-brand-text bg-transparent px-0 py-3 outline-none">
+              <span class="mb-3 block text-[10px] uppercase tracking-[0.22em] text-brand-muted" data-i18n="contact.form.date">Wunschdatum *</span>
+              <input type="text" name="date" class="w-full border-b border-brand-text bg-transparent px-0 py-3 outline-none" required aria-required="true">
             </label>
             <label class="block">
               <span class="mb-3 block text-[10px] uppercase tracking-[0.22em] text-brand-muted" data-i18n="contact.form.location">Ort</span>
@@ -915,7 +907,7 @@
       </div>
     </section>
 
-    <section id="faq" class="border-t border-brand-border bg-white px-6 py-24 md:px-12 md:py-36">
+    <section id="faq" class="defer-section border-t border-brand-border bg-white px-6 py-24 md:px-12 md:py-36">
       <div class="mx-auto grid max-w-[120rem] gap-12 md:grid-cols-12 md:gap-16">
         <div class="scroll-fade md:col-span-4">
           <span class="eyebrow text-brand-muted">FAQ</span>
@@ -1056,11 +1048,11 @@
         "contact.copy": "Nutzt das Formular für Hochzeiten, Elopements oder redaktionelle Anfragen. Antworten erfolgen innerhalb von zwei Werktagen.",
         "contact.form.name": "Name *",
         "contact.form.email": "E-Mail *",
-        "contact.form.date": "Wunschdatum",
+        "contact.form.date": "Wunschdatum *",
         "contact.form.location": "Ort",
         "contact.form.details": "Erzählt mir mehr *",
         "contact.privacy": "Mit dem Absenden stimmt ihr der Verarbeitung eurer Daten für die Kontaktaufnahme zu.",
-        "contact.validationError": "Bitte füllt Name, E-Mail und Nachricht aus, bevor ihr die Anfrage sendet.",
+        "contact.validationError": "Bitte füllt Name, E-Mail, Wunschdatum und Nachricht aus, bevor ihr die Anfrage sendet.",
         "contact.submitSending": "Nachricht wird gesendet, bitte warten...",
         "contact.submitSuccess": "Danke. Eure Anfrage ist unterwegs.",
         "contact.submitError": "Die Anfrage konnte gerade nicht gesendet werden. Bitte versucht es gleich noch einmal.",
@@ -1135,11 +1127,11 @@
         "contact.copy": "Use the form for weddings, elopements or editorial requests. Replies are usually sent within two business days.",
         "contact.form.name": "Name *",
         "contact.form.email": "Email *",
-        "contact.form.date": "Preferred Date",
+        "contact.form.date": "Preferred Date *",
         "contact.form.location": "Location",
         "contact.form.details": "Tell me more *",
         "contact.privacy": "By submitting this form, you agree that your data may be processed for the purpose of responding to your inquiry.",
-        "contact.validationError": "Please fill in name, email and message before sending your inquiry.",
+        "contact.validationError": "Please fill in name, email, preferred date and message before sending your inquiry.",
         "contact.submitSending": "Your message is being sent, please wait...",
         "contact.submitSuccess": "Thank you. Your inquiry is on its way.",
         "contact.submitError": "Your inquiry could not be sent right now. Please try again in a moment.",
@@ -1271,7 +1263,7 @@
       track.innerHTML = source.map((item, index) => `
         <figure class="portfolio-slide">
           <div class="image-hover-container aspect-[4/5] shadow-soft">
-            <img src="${item.image}" alt="${lang === "en" ? (item.altEn || item.alt || `Portfolio image ${index + 1}`) : (item.alt || item.altEn || `Portfolio Bild ${index + 1}`)}" class="h-full w-full object-cover" loading="lazy">
+            <img src="${item.image}" alt="${lang === "en" ? (item.altEn || item.alt || `Portfolio image ${index + 1}`) : (item.alt || item.altEn || `Portfolio Bild ${index + 1}`)}" class="h-full w-full object-cover" loading="lazy" decoding="async">
           </div>
         </figure>
       `).join("");
@@ -1626,6 +1618,14 @@
       });
     };
 
+    const runHomepageIdleTask = (callback) => {
+      if ("requestIdleCallback" in window) {
+        window.requestIdleCallback(callback, { timeout: 2500 });
+        return;
+      }
+      window.setTimeout(callback, 1200);
+    };
+
     const applyHomepageContent = async (lang, content) => {
       applyStaticTranslations(lang);
 
@@ -1665,16 +1665,29 @@
         }
       });
 
-      const portfolioPageContent = await loadPortfolioPageContent().catch(() => ({}));
-
       renderGoogleReviews(lang, content);
       renderFaq(content.faq);
-      renderPortfolioGallery(lang, getHomepagePortfolioSource(content, portfolioPageContent, 6));
-      renderPortfolioMosaic(lang, content, portfolioPageContent);
-      renderEndingGallery(lang, content, portfolioPageContent);
-      loadLatestJournalEntries(lang)
-        .then((entries) => renderJournalCards(lang, entries))
-        .catch(() => renderJournalCards(lang, []));
+      renderPortfolioGallery(lang, getHomepagePortfolioSource(content, {}, 6));
+      renderPortfolioMosaic(lang, content, {});
+      renderEndingGallery(lang, content, {});
+      runHomepageIdleTask(async () => {
+        try {
+          const portfolioPageContent = await loadPortfolioPageContent().catch(() => ({}));
+          renderPortfolioGallery(lang, getHomepagePortfolioSource(content, portfolioPageContent, 6));
+          renderPortfolioMosaic(lang, content, portfolioPageContent);
+          renderEndingGallery(lang, content, portfolioPageContent);
+        } catch {
+          // Keep the lightweight homepage fallbacks when portfolio data cannot be loaded.
+        }
+      });
+      runHomepageIdleTask(async () => {
+        try {
+          const entries = await loadLatestJournalEntries(lang);
+          renderJournalCards(lang, entries);
+        } catch {
+          renderJournalCards(lang, []);
+        }
+      });
 
       const aboutMetaEmail = document.getElementById("aboutMetaEmail");
       const aboutMetaPhone = document.getElementById("aboutMetaPhone");
@@ -1692,10 +1705,8 @@
         ? content.heroImages.filter((item) => item && item.image)
         : [];
       const currentHeroImage = heroImages.find((item) => item.image === window.__selectedHeroImagePath);
-      const chosenHeroImage = currentHeroImage || (heroImages.length
-        ? heroImages[Math.floor(Math.random() * heroImages.length)]
-        : null);
-      const heroImage = chosenHeroImage?.image || content.featuredImage || "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14.jpg";
+      const chosenHeroImage = currentHeroImage || heroImages[0] || null;
+      const heroImage = chosenHeroImage?.image || content.featuredImage || "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14-lcp.jpg";
       const heroAlt = lang === "en"
         ? (chosenHeroImage?.altEn || chosenHeroImage?.alt || content.featuredImageAlt || content.hero?.title || heroMainImage?.alt || "Homepage hero image")
         : (chosenHeroImage?.alt || chosenHeroImage?.altEn || content.featuredImageAlt || content.hero?.title || heroMainImage?.alt || "Hero Bild");
@@ -2068,7 +2079,7 @@
         const message = String(formData.get("message") || "").trim();
         const value = Number.parseInt((homeInquirySecurityInput?.value || "").trim(), 10);
 
-        if (!name || !email || !message) {
+        if (!name || !email || !date || !message) {
           setHomeInquiryStatus(t["contact.validationError"], true);
           return;
         }
@@ -2266,7 +2277,26 @@
       setLanguage(initialLang);
     });
   </script>
-  <script src="/assets/footer-settings.js"></script>
-  <script src="/assets/pinterest-pin.js"></script>
+  <script>
+    (() => {
+      const loadScript = (src) => {
+        const script = document.createElement("script");
+        script.src = src;
+        script.defer = true;
+        document.body.appendChild(script);
+      };
+
+      const scheduleNonCriticalScripts = () => {
+        loadScript("/assets/footer-settings.js");
+        loadScript("/assets/pinterest-pin.js");
+      };
+
+      if ("requestIdleCallback" in window) {
+        window.requestIdleCallback(scheduleNonCriticalScripts, { timeout: 2500 });
+      } else {
+        window.setTimeout(scheduleNonCriticalScripts, 1200);
+      }
+    })();
+  </script>
 </body>
 </html>

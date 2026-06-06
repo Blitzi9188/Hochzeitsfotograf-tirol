@@ -311,9 +311,10 @@ const escapeInlineJson = (value) =>
 
 const serveHomepage = async (req, res) => {
   const template = await readFirstAvailableFile("index.html", "utf8");
+  const requestUrl = new URL(req.url || "/", "http://localhost");
+  const requestedLang = requestUrl.searchParams.get("lang") === "en" ? "en" : "de";
   const homepageBootstrap = {
-    de: await readJsonDataFile(path.join("content", "homepage", "de.json")),
-    en: await readJsonDataFile(path.join("content", "homepage", "en.json"))
+    [requestedLang]: await readJsonDataFile(path.join("content", "homepage", `${requestedLang}.json`))
   };
 
   const injected = template.replace(

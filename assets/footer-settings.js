@@ -40,7 +40,7 @@
         font-size: 0.65rem;
         letter-spacing: 0.2em;
         text-transform: uppercase;
-        color: #8a837a;
+        color: #6f685f;
         text-decoration: none;
       }
       #footerInstagramFeed .footer-instagram-grid {
@@ -549,8 +549,14 @@
       .privacy-consent-option {
         display: flex;
         align-items: center;
-        gap: 0.45rem;
+        gap: 0.65rem;
         font-size: 0.68rem;
+        min-height: 1.75rem;
+      }
+      .privacy-consent-option input {
+        width: 1.125rem;
+        height: 1.125rem;
+        flex: 0 0 auto;
       }
       .privacy-consent-actions {
         display: flex;
@@ -840,6 +846,14 @@
     renderInstagramFeed(settings, lang, posts, fallbackImages);
   };
 
+  const runWhenIdle = (callback) => {
+    if ("requestIdleCallback" in window) {
+      window.requestIdleCallback(callback, { timeout: 2500 });
+      return;
+    }
+    window.setTimeout(callback, 1200);
+  };
+
   document.addEventListener("DOMContentLoaded", async () => {
     ensureMobileBackToTop();
     ensureMobileLangToggleStyles();
@@ -847,37 +861,26 @@
     let settings = {};
     let posts = [];
     let fallbackImages = [];
-    try {
-      const response = await fetch(`/content/settings/site.json?ts=${Date.now()}`, { cache: "no-store" });
-      if (response.ok) {
-        settings = await response.json();
-      }
-    } catch {
-      settings = {};
-    }
 
-    try {
-      const response = await fetch(`/content/homepage/de.json?ts=${Date.now()}`, { cache: "no-store" });
-      if (response.ok) {
-        const homepage = await response.json();
-        fallbackImages = [
-          ...(Array.isArray(homepage.heroImages) ? homepage.heroImages.map((item) => item?.image) : []),
-          ...(Array.isArray(homepage.portfolioGallery) ? homepage.portfolioGallery.map((item) => item?.image) : [])
-        ].filter(Boolean).slice(0, 6);
+    const homepageBootstrap = window.__HOMEPAGE_BOOTSTRAP__?.de;
+    if (homepageBootstrap) {
+      fallbackImages = [
+        ...(Array.isArray(homepageBootstrap.heroImages) ? homepageBootstrap.heroImages.map((item) => item?.image) : []),
+        ...(Array.isArray(homepageBootstrap.portfolioGallery) ? homepageBootstrap.portfolioGallery.map((item) => item?.image) : [])
+      ].filter(Boolean).slice(0, 6);
+    } else {
+      try {
+        const response = await fetch(`/content/homepage/de.json?ts=${Date.now()}`, { cache: "no-store" });
+        if (response.ok) {
+          const homepage = await response.json();
+          fallbackImages = [
+            ...(Array.isArray(homepage.heroImages) ? homepage.heroImages.map((item) => item?.image) : []),
+            ...(Array.isArray(homepage.portfolioGallery) ? homepage.portfolioGallery.map((item) => item?.image) : [])
+          ].filter(Boolean).slice(0, 6);
+        }
+      } catch {
+        fallbackImages = [];
       }
-    } catch {
-      fallbackImages = [];
-    }
-
-    try {
-      const username = getInstagramUsername(settings.instagram || "blitzkneisser");
-      const response = await fetch(`/api/instagram-posts?username=${encodeURIComponent(username)}&count=3&ts=${Date.now()}`, { cache: "no-store" });
-      if (response.ok) {
-        const payload = await response.json();
-        posts = Array.isArray(payload.posts) ? payload.posts : [];
-      }
-    } catch {
-      posts = [];
     }
 
     const update = (lang = getLang(settings.defaultLanguage || "de")) => applyFooter(settings, lang, posts, fallbackImages);
@@ -890,6 +893,32 @@
 
     syncNavigation();
     ensurePrivacyConsent(getLang(settings.defaultLanguage || "de"));
+
+    runWhenIdle(async () => {
+      try {
+        const response = await fetch(`/content/settings/site.json?ts=${Date.now()}`, { cache: "no-store" });
+        if (response.ok) {
+          settings = await response.json();
+          syncNavigation(getLang(settings.defaultLanguage || "de"));
+        }
+      } catch {
+        settings = settings || {};
+      }
+    });
+
+    runWhenIdle(async () => {
+      try {
+        const username = getInstagramUsername(settings.instagram || "blitzkneisser");
+        const response = await fetch(`/api/instagram-posts?username=${encodeURIComponent(username)}&count=3&ts=${Date.now()}`, { cache: "no-store" });
+        if (response.ok) {
+          const payload = await response.json();
+          posts = Array.isArray(payload.posts) ? payload.posts : [];
+          update(getLang(settings.defaultLanguage || "de"));
+        }
+      } catch {
+        posts = [];
+      }
+    });
 
     const navGroup = document.querySelector("#navMenuPanel > div:first-child");
     if (navGroup) {
