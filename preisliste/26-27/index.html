@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Preise Hochzeitsfotograf Tirol & Dolomiten | 2026/27</title>
   <meta name="description" content="Preise für Hochzeitsfotografie, Elopements und Hochzeitsfilme in Tirol, Innsbruck und den Dolomiten für 2026/27.">
+  <meta name="robots" content="noindex,nofollow">
+  <link rel="canonical" href="https://www.hochzeitsfotograf.tirol/preisliste/26-27/">
   <link rel="icon" type="image/png" href="../../Logo-Blitzkneisser-BERG.png">
   <script defer src="../../assets/seo.js"></script>
   <script src="https://cdn.tailwindcss.com/3.4.17"></script>
@@ -299,14 +301,18 @@
       line-height: 0.9;
       font-weight: 900;
       letter-spacing: -0.06em;
-      color: #111111 !important;
+      color: #AA8759 !important;
       text-align: right;
+    }
+    .package-price * {
+      color: inherit !important;
+      -webkit-text-fill-color: inherit !important;
     }
     .package-price .currency {
       font-size: 0.75rem;
       font-weight: 700;
       letter-spacing: 0.16em;
-      color: #111111 !important;
+      color: inherit !important;
       text-transform: uppercase;
       margin-left: 0.35rem;
     }
@@ -452,7 +458,11 @@
       font-weight: 900;
       letter-spacing: -0.06em;
       line-height: 0.9;
-      color: #111111 !important;
+      color: #AA8759 !important;
+    }
+    .split-price * {
+      color: inherit !important;
+      -webkit-text-fill-color: inherit !important;
     }
     .split-title-row {
       display: flex;
@@ -472,7 +482,7 @@
       font-weight: 900;
       letter-spacing: -0.05em;
       line-height: 0.95;
-      color: #111111 !important;
+      color: #AA8759 !important;
       text-align: right;
       white-space: nowrap;
     }
@@ -486,6 +496,11 @@
       letter-spacing: inherit;
       text-transform: inherit;
       color: inherit !important;
+    }
+    .price-card .pricing-copy,
+    .price-card .pricing-copy * {
+      color: #AA8759 !important;
+      -webkit-text-fill-color: #AA8759 !important;
     }
     .split-badge {
       text-transform: uppercase;
@@ -508,59 +523,78 @@
         padding: 3.5rem 2rem 0;
       }
     }
-    .faq-head {
-      margin-bottom: 1.5rem;
-    }
-    .faq-title {
-      font-size: clamp(3rem, 5vw, 6rem);
-      line-height: 0.85;
-      letter-spacing: -0.06em;
-      text-transform: uppercase;
-      font-weight: 900;
-      margin: 1rem 0 0;
-    }
-    .faq-item {
+    .faq-layout {
       display: grid;
-      gap: 1rem;
-      border-top: 1px solid #F0F0F0;
-      padding: 1.25rem 0;
-      transition: background-color 0.25s ease;
+      gap: 3rem;
     }
-    .faq-item:hover {
-      background: #FAFAFA;
-    }
-    @media (min-width: 1024px) {
-      .faq-item {
-        grid-template-columns: 30% 70%;
-        gap: 1.5rem;
+    @media (min-width: 768px) {
+      .faq-layout {
+        grid-template-columns: repeat(12, minmax(0, 1fr));
+        gap: 4rem;
       }
     }
-    .faq-question {
-      display: flex;
+    .faq-head {
+      display: grid;
       gap: 1rem;
-      align-items: flex-start;
     }
-    .faq-number {
-      font-size: 0.8rem;
-      font-weight: 900;
-      letter-spacing: 0.25em;
-      color: #111111;
-      flex-shrink: 0;
+    @media (min-width: 768px) {
+      .faq-head {
+        grid-column: span 4 / span 4;
+      }
     }
-    .faq-question h3 {
+    .faq-title {
+      font-size: clamp(2.5rem, 5.2vw, 4.8rem);
+      line-height: 0.95;
+      letter-spacing: -0.05em;
+      font-weight: 700;
+      text-transform: none;
       margin: 0;
-      font-size: 0.85rem;
-      font-weight: 900;
-      letter-spacing: 0.25em;
-      text-transform: uppercase;
-      line-height: 1.55;
+      color: #111111;
+    }
+    .faq-list {
+      display: grid;
+      gap: 1.25rem;
+    }
+    @media (min-width: 768px) {
+      .faq-list {
+        grid-column: 6 / span 7;
+      }
+    }
+    .faq-item {
+      border-bottom: 1px solid #F0F0F0;
+      padding-bottom: 1.25rem;
+    }
+    .faq-item[open] summary {
+      color: #111111;
+    }
+    .faq-item summary::-webkit-details-marker {
+      display: none;
+    }
+    .faq-item summary {
+      display: flex;
+      cursor: pointer;
+      list-style: none;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 1.5rem;
+      font-size: 1.05rem;
+      line-height: 1.8;
+      color: #8A837A;
+      transition: color 0.25s ease;
+    }
+    .faq-item summary:hover {
+      color: #111111;
     }
     .faq-answer {
-      font-size: 0.96rem;
-      line-height: 1.75;
-      font-weight: 500;
-      color: #111111;
-      max-width: 44rem;
+      margin-top: 0.9rem;
+      max-width: 46rem;
+      font-size: 1rem;
+      line-height: 1.9;
+      font-weight: 300;
+      color: rgba(17,17,17,0.82);
+    }
+    .faq-answer p {
+      margin: 0;
     }
     .booking-section {
       padding: 3rem 1.5rem 2.5rem;
@@ -765,9 +799,41 @@
     const isFileMode = window.location.protocol === "file:";
     const siteRoot = isFileMode ? "../../" : "/";
     const assetUrl = (path) => `${siteRoot}${String(path).replace(/^\/+/, "")}`;
+    const wpUploadMap = {
+      "Blitzkneisser-Dolomites-Elopement-INSTA-6-scaled.jpeg": assetUrl("assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-6.jpg"),
+      "Blitzkneisser-Wedding-Dolomites-17-scaled.jpg": assetUrl("assets/uploads/Blitzkneisser-Wedding-Dolomites-17.jpg"),
+      "Blitzkneisser-Wedding-Dolomites-17-1024x683.jpg": assetUrl("assets/uploads/Blitzkneisser-Wedding-Dolomites-17.jpg"),
+      "Blitzkneisser-Elopement-Dolomites-120-scaled.jpg": assetUrl("assets/uploads/Blitzkneisser-Elopement-Dolomites-120.jpg"),
+      "Blitzkneisser-Pre-Wedding-Dolomites-45-scaled.jpg": assetUrl("assets/uploads/Blitzkneisser-Pre Wedding-Dolomites-45.jpg"),
+      "Blitzkneisser-Pre-Wedding-Dolomites-45-1024x683.jpg": assetUrl("assets/uploads/Blitzkneisser-Pre Wedding-Dolomites-45.jpg"),
+      "Blitzkneisser-Dolomites-Elopement-INSTA-28-scaled.jpg": assetUrl("assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-28.jpg"),
+      "Blitzkneisser-Dolomites-Elopement-INSTA-28-1024x683.jpg": assetUrl("assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-28.jpg"),
+      "Blitzkneisser-Elopement-Dolomites-167-scaled.jpg": assetUrl("assets/uploads/Blitzkneisser-Elopement-Dolomites-167.jpg"),
+      "Blitzkneisser-Elopement-Dolomites-167-1024x683.jpg": assetUrl("assets/uploads/Blitzkneisser-Elopement-Dolomites-167.jpg"),
+      "Blitzkneisser-Foto-Hochzeit-Meran-Südtirol-122.jpg": assetUrl("assets/uploads/Blitzkneisser-Hochtennboden-Standesamt-90.jpg"),
+      "Blitzkneisser-Foto-Hochzeit-Meran-Südtirol-122-1024x683.jpg": assetUrl("assets/uploads/Blitzkneisser-Hochtennboden-Standesamt-90.jpg"),
+      "Blitzkneisser-Foto-Hinterglemm-Hochzeit-715.jpg": assetUrl("assets/uploads/Blitzkneisser-Hochzeit-Seefeld-389.jpg"),
+      "Blitzkneisser-Foto-Hinterglemm-Hochzeit-715-1024x683.jpg": assetUrl("assets/uploads/Blitzkneisser-Hochzeit-Seefeld-389.jpg"),
+      "Blitzkneisser-Photo-Mountain-Wedding-Tyrol-174.jpg": assetUrl("assets/uploads/Blitzkneisser-Wedding-Photo-Nordkette-125.jpg"),
+      "Blitzkneisser-Photo-Mountain-Wedding-Tyrol-174-1024x683.jpg": assetUrl("assets/uploads/Blitzkneisser-Wedding-Photo-Nordkette-125.jpg"),
+      "Blitzkneisser-Wedding-Dress-Pragser-Wildsee-Italien-Hochzeit-Fotograf-Trento-Tirol-6.jpg": assetUrl("assets/uploads/Blitzkneisser-Elopement-Pragser-Wildsee-208.jpg"),
+      "Blitzkneisser-Wedding-Dress-Pragser-Wildsee-Italien-Hochzeit-Fotograf-Trento-Tirol-6-1024x682.jpg": assetUrl("assets/uploads/Blitzkneisser-Elopement-Pragser-Wildsee-208.jpg"),
+      "the-complete-guide-to-a-great-austrian-ski-resort-wedding-blitzkneisser-5.jpg": assetUrl("assets/uploads/Blitzkneisser-Dolomites-Ski-Wedding-44.jpg"),
+      "dolomites-elopement-guide-dos-and-donts-blitzkneisser-20.jpg": assetUrl("assets/uploads/Blitzkneisser-Dolomites-Elopement-Wedding-236.jpg"),
+      "dolomites-elopement-guide-dos-and-donts-blitzkneisser-20-1024x683.jpg": assetUrl("assets/uploads/Blitzkneisser-Dolomites-Elopement-Wedding-236.jpg"),
+      "Homepage-Selfie.png": assetUrl("assets/uploads/About-Me-Ich.webp"),
+      "Homepage-Selfie-972x1024.png": assetUrl("assets/uploads/About-Me-Ich.webp")
+    };
+    const isPlaceholderImage = (url) => /\/wp-content\/plugins\/flo-pricing-tool\/assets\/admin\/img\/noimage-landscape-grey\.png$/i.test(String(url || ""));
     const resolveUrl = (url) => {
       const value = String(url || "");
       if (!value) return "";
+      if (isPlaceholderImage(value)) return "";
+      if (/\/wp-content\/uploads\//i.test(value)) {
+        const clean = value.split("?")[0].split("#")[0];
+        const basename = clean.split("/").pop() || "";
+        if (wpUploadMap[basename]) return wpUploadMap[basename];
+      }
       if (/^(https?:|data:|blob:|mailto:|tel:|#)/i.test(value)) return value;
       return value.startsWith("/") ? assetUrl(value) : assetUrl(value);
     };
@@ -808,13 +874,18 @@
     }, { passive: true });
 
     const renderGallery = (items, maxWidthClass = "max-w-[1720px]") => {
-      const gallery = Array.isArray(items) ? items.filter(Boolean) : [];
+      const gallery = (Array.isArray(items) ? items : [])
+        .map((item) => {
+          const src = resolveUrl(item?.preview || item?.url || item);
+          return src ? { ...item, __resolvedSrc: src } : null;
+        })
+        .filter(Boolean);
       if (!gallery.length) return "";
       return `
         <div class="gallery-scroll">
           ${gallery.map((item) => `
             <figure class="rounded-none overflow-hidden border border-brand-border bg-white">
-              <img src="${escapeHtml(resolveUrl(item.preview || item.url || item))}" alt="" class="gallery-image">
+              <img src="${escapeHtml(item.__resolvedSrc)}" alt="" class="gallery-image">
             </figure>
           `).join("")}
         </div>
@@ -870,7 +941,9 @@
       return overview;
     };
 
-    const renderPackageCard = (column, index) => `
+    const renderPackageCard = (column, index) => {
+      const resolvedImage = resolveUrl(column.image?.url || "");
+      return `
       <article class="package-card">
         <div class="package-number">${String(index + 1).padStart(2, "0")}</div>
         <div class="relative z-10">
@@ -879,9 +952,9 @@
               ${toHtml(column.price || "")}
             </div>
           </div>
-          ${column.image?.url ? `
+          ${resolvedImage ? `
             <div class="split-image mb-8">
-              <img src="${escapeHtml(resolveUrl(column.image.url))}" alt="${escapeHtml(column.title || column.name || `Paket ${index + 1}`)}" class="w-full aspect-[4/3] object-cover">
+              <img src="${escapeHtml(resolvedImage)}" alt="${escapeHtml(column.title || column.name || `Paket ${index + 1}`)}" class="w-full aspect-[4/3] object-cover">
             </div>
           ` : ""}
             <div class="package-body">
@@ -893,11 +966,12 @@
           </div>
       </article>
     `;
+    };
 
     const renderLeftRightSection = (block, options = {}) => {
       const column = block.columns?.[0] || {};
       const gallery = Array.isArray(block.gallery) ? block.gallery : [];
-      const imageUrl = column.image?.url || gallery[0]?.preview || gallery[0]?.url || "";
+      const imageUrl = resolveUrl(column.image?.url || gallery[0]?.preview || gallery[0]?.url || "");
       const inlinePriceBlocks = new Set(["Standesamt", "Film", "Elopement"]);
       const showInlinePrice = inlinePriceBlocks.has(String(block.name || ""));
       return `
@@ -924,7 +998,7 @@
             <aside class="flex flex-col gap-4">
               ${imageUrl ? `
                 <div class="split-image">
-                  <img src="${escapeHtml(resolveUrl(imageUrl))}" alt="${escapeHtml(options.alt || block.name || "")}" class="w-full aspect-[4/5] object-cover">
+                  <img src="${escapeHtml(imageUrl)}" alt="${escapeHtml(options.alt || block.name || "")}" class="w-full aspect-[4/5] object-cover">
                 </div>
               ` : ""}
               ${gallery.length ? renderGallery(gallery) : ""}
@@ -944,11 +1018,12 @@
 
     const renderVideoCentered = (block) => {
       const video = block.video || {};
+      const videoCover = resolveUrl(video.cover || "");
       return `
         <section class="page-section py-16 md:py-20">
           <div class="mx-auto max-w-[1720px]">
             <a href="${escapeHtml(video.url || "#")}" target="_blank" rel="noreferrer" class="block relative overflow-hidden section-card">
-              ${video.cover ? `<img src="${escapeHtml(resolveUrl(video.cover))}" alt="${escapeHtml(block.name || "Film")}" class="w-full h-[52vh] object-cover">` : ""}
+              ${videoCover ? `<img src="${escapeHtml(videoCover)}" alt="${escapeHtml(block.name || "Film")}" class="w-full h-[52vh] object-cover">` : ""}
               <div class="absolute inset-0 flex items-center justify-center">
                 <span class="inline-flex items-center justify-center w-24 h-24 rounded-full border border-brand-border bg-white/85 text-[10px] uppercase tracking-[0.28em] shadow-sm">Play</span>
               </div>
@@ -968,7 +1043,7 @@
               <div class="pricing-copy">${toHtml(column.includes || "")}</div>
             </article>
             ${renderGallery(gallery)}
-            <article class="section-card p-6 md:p-8">
+            <article class="section-card price-card p-6 md:p-8">
               <div class="pricing-copy">${toHtml(column.price || "")}</div>
             </article>
           </div>
@@ -976,17 +1051,60 @@
       `;
     };
 
-    const renderFaqColumns = (block) => {
-      const [left = {}, right = {}] = block.columns || [];
+    const parseFaqItems = (html) => {
+      const source = String(html || "").trim();
+      if (!source) return [];
+      const container = document.createElement("div");
+      container.innerHTML = source;
+      const items = [];
+      let current = null;
+
+      Array.from(container.children).forEach((node) => {
+        const tagName = String(node.tagName || "").toUpperCase();
+        if (tagName === "H4" || tagName === "H3") {
+          if (current?.question && current?.answer) items.push(current);
+          current = {
+            question: node.textContent.trim(),
+            answer: ""
+          };
+          return;
+        }
+        if (!current) return;
+        if (tagName === "P") {
+          const text = node.innerHTML.trim();
+          if (text && !/^<br\s*\/?>$/i.test(text)) {
+            current.answer += `<p>${text}</p>`;
+          }
+        }
+      });
+
+      if (current?.question && current?.answer) items.push(current);
+      return items.filter((item) => item.question && item.answer);
+    };
+
+    const renderFaqColumns = (block, lang = "de") => {
+      const columns = Array.isArray(block.columns) ? block.columns : [];
+      const items = columns.flatMap((column) => parseFaqItems(column.text || ""));
+      const title = lang === "en" ? "Most frequently asked questions" : "Meist gestellte Fragen";
+      if (!items.length) return "";
       return `
         <section class="faq-section">
-          <div class="mx-auto max-w-[1720px] grid gap-10 lg:grid-cols-2">
-            <article class="section-card p-6 md:p-8 lg:p-10">
-              <div class="pricing-copy">${toHtml(left.title || "")}${toHtml(left.text || "")}${toHtml(left.includes || "")}</div>
-            </article>
-            <article class="section-card p-6 md:p-8 lg:p-10">
-              <div class="pricing-copy">${toHtml(right.title || "")}${toHtml(right.text || "")}${toHtml(right.includes || "")}</div>
-            </article>
+          <div class="mx-auto max-w-[1720px] faq-layout">
+            <div class="faq-head">
+              <span class="faq-kicker">FAQ</span>
+              <h2 class="faq-title">${escapeHtml(title)}</h2>
+            </div>
+            <div class="faq-list">
+              ${items.map((item, index) => `
+                <details class="faq-item" ${index === 0 ? "open" : ""}>
+                  <summary>
+                    <span>${escapeHtml(item.question)}</span>
+                    <span class="text-sm">+</span>
+                  </summary>
+                  <div class="faq-answer">${item.answer}</div>
+                </details>
+              `).join("")}
+            </div>
           </div>
         </section>
       `;
@@ -1003,7 +1121,8 @@
             language: "Language",
             note: "The inquiry will be prepared by email, just like on the existing price list.",
             submit: settings.submit_text || "Send",
-            status: "Preparing email..."
+            status: "Preparing email...",
+            agb: "Terms & Conditions"
           }
         : {
             kicker: "Anfrage",
@@ -1011,8 +1130,10 @@
             language: "Sprache",
             note: "Die Anfrage wird wie auf der bestehenden Preisliste per Mail vorbereitet.",
             submit: settings.submit_text || "Senden",
-            status: "E-Mail wird vorbereitet..."
+            status: "E-Mail wird vorbereitet...",
+            agb: "AGBs"
           };
+      const agbHref = lang === "en" ? "/agb/?lang=en" : "/agb/";
       const field = (item, widthClass = "md:col-span-1") => {
         if (!item || item.type === "hidden") return "";
         if (item.type === "select") {
@@ -1040,7 +1161,7 @@
       return `
         <section class="booking-section">
           <div class="mx-auto max-w-[1720px]">
-            <div class="grid gap-10 lg:grid-cols-[1.05fr_0.95fr]">
+            <div class="grid gap-10">
               <article class="section-card p-6 md:p-8 lg:p-10">
                 <div class="form-kicker">${uiText.kicker}</div>
                 <div class="booking-title">${toHtml(settings.title || "")}</div>
@@ -1056,40 +1177,23 @@
                   ${field(inputById("text_81"), "md:col-span-2")}
                   <div class="md:col-span-2 flex flex-wrap gap-3 pt-2">
                     <button type="submit" class="px-8 py-4 bg-brand-text text-white text-[10px] uppercase tracking-[0.32em] transition hover:bg-brand-muted">${escapeHtml(uiText.submit)}</button>
+                    <a href="${escapeHtml(agbHref)}" class="px-8 py-4 border border-brand-border bg-white text-brand-text text-[10px] uppercase tracking-[0.32em] transition hover:bg-brand-surface" target="_blank" rel="noreferrer">${escapeHtml(uiText.agb)}</a>
                   </div>
                 </form>
                 <p class="mt-4 text-xs uppercase tracking-[0.22em] text-[#111111]" id="inquiryStatus"></p>
               </article>
-              <aside class="section-soft p-6 md:p-8 lg:p-10">
-                <div class="pricing-copy">${toHtml(settings.name || "")}</div>
-                <div class="mt-8 space-y-6 text-sm leading-7 text-brand-text/85">
-                  <div><span class="block text-[10px] uppercase tracking-[0.24em] text-[#111111] mb-2">${escapeHtml(uiText.email)}</span><a href="mailto:${escapeHtml(form?.admin_email || "")}" class="underline underline-offset-8">${escapeHtml(form?.admin_email || "")}</a></div>
-                  <div><span class="block text-[10px] uppercase tracking-[0.24em] text-[#111111] mb-2">${escapeHtml(uiText.language)}</span><span>${escapeHtml(form?.language || "")}</span></div>
-                  <div><span class="block text-[10px] uppercase tracking-[0.24em] text-[#111111] mb-2">${lang === "en" ? "Note" : "Hinweis"}</span><span>${escapeHtml(uiText.note)}</span></div>
-                </div>
-              </aside>
             </div>
           </div>
         </section>
       `;
     };
 
-    const renderTerms = (html) => `
-      <section class="page-section py-16 md:py-20">
-        <div class="mx-auto max-w-[1720px]">
-          <article class="section-card p-6 md:p-8 lg:p-10 pricing-copy">
-            ${toHtml(html)}
-          </article>
-        </div>
-      </section>
-    `;
-
     const renderBlock = (block) => {
       if (!block) return "";
       const blockType = String(block.type || "");
       if (blockType === "text-centered") {
         if (block.slug === "intro") {
-          const image = block.background?.image || "";
+          const image = resolveUrl(block.background?.image || "");
           return `
             <section class="page-section py-20 md:py-28">
               <div class="mx-auto max-w-[1720px] grid gap-10 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
@@ -1098,7 +1202,7 @@
                   <div class="section-rule"></div>
                 </div>
                 <div class="section-card overflow-hidden">
-                  ${image ? `<img src="${escapeHtml(resolveUrl(image))}" alt="${escapeHtml(block.name || "Preisliste")}" class="w-full aspect-[4/5] object-cover" style="object-position:${escapeHtml(block.background?.position || "50% 50%")}">` : ""}
+                  ${image ? `<img src="${escapeHtml(image)}" alt="${escapeHtml(block.name || "Preisliste")}" class="w-full aspect-[4/5] object-cover" style="object-position:${escapeHtml(block.background?.position || "50% 50%")}">` : ""}
                 </div>
               </div>
             </section>
@@ -1134,7 +1238,7 @@
                 ${toHtml(column.price || "")}
               </div>
               <div class="section-card overflow-hidden">
-                <img src="${escapeHtml(resolveUrl(column.image?.url || ""))}" alt="${escapeHtml(block.name || "")}" class="w-full h-full min-h-[34rem] object-cover">
+                ${resolveUrl(column.image?.url || "") ? `<img src="${escapeHtml(resolveUrl(column.image?.url || ""))}" alt="${escapeHtml(block.name || "")}" class="w-full h-full min-h-[34rem] object-cover">` : ""}
               </div>
             </div>
           </section>
@@ -1149,7 +1253,7 @@
       return renderTextCentered(block);
     };
 
-    const renderIntroPanel = (pricing) => {
+    const renderIntroPanel = (pricing, lang = "de") => {
       const blocks = Array.isArray(pricing.blocks) ? pricing.blocks : [];
       const introCopyBlock = blocks[1] || {};
       const compactIntroHtml = (html) => {
@@ -1162,7 +1266,8 @@
       };
       return `
         <div class="intro-head">
-          <h1 class="headline intro-title">Preise</h1>
+          <h1 class="headline intro-title">${lang === "en" ? "Price Guide" : "Preisliste"}</h1>
+          <p class="intro-subtitle">${escapeHtml(pricing.title || (lang === "en" ? "Price list 26/27" : "Preisliste 26/27"))}</p>
         </div>
         <div class="intro-copy">
           <div class="pricing-copy">${compactIntroHtml(toHtml(introCopyBlock.text || ""))}</div>
@@ -1193,6 +1298,7 @@
         }
         if (block.type === "package-1") {
           const column = block.columns?.[0] || {};
+          const resolvedImage = resolveUrl(column.image?.url || "");
           return `
             <section class="page-section py-0">
               <article class="package-card">
@@ -1201,9 +1307,9 @@
                   <div class="package-head">
                     <div class="package-price">${toHtml(column.price || "")}</div>
                   </div>
-                  ${column.image?.url ? `
+                  ${resolvedImage ? `
                     <div class="split-image mb-8">
-                      <img src="${escapeHtml(resolveUrl(column.image.url))}" alt="${escapeHtml(block.name || "")}" class="w-full aspect-[4/3] object-cover">
+                      <img src="${escapeHtml(resolvedImage)}" alt="${escapeHtml(block.name || "")}" class="w-full aspect-[4/3] object-cover">
                     </div>
                   ` : ""}
                   <div class="package-body">
@@ -1224,7 +1330,7 @@
           return renderTextCentered(block);
         }
         if (block.type === "text-2columns") {
-          return renderFaqColumns(block);
+          return renderFaqColumns(block, lang);
         }
         return renderBlock(block);
       }).join("");
@@ -1232,18 +1338,26 @@
       pricingRoot.innerHTML = `
         <section class="pricing-shell">
           <aside class="pricing-left">
-            ${renderIntroPanel(pricing)}
+            ${renderIntroPanel(pricing, lang)}
           </aside>
           <section class="pricing-right">
             ${contentHtml}
             ${pricing.show_inquiry ? renderInquiry(pricing.inquiry_form || {}, lang) : ""}
-            ${pricing.show_terms && terms ? renderTerms(terms) : ""}
           </section>
         </section>
       `;
 
       const form = document.getElementById("preislisteInquiryForm");
       const statusNode = document.getElementById("inquiryStatus");
+      const faqItems = Array.from(pricingRoot.querySelectorAll(".faq-list details.faq-item"));
+      faqItems.forEach((item) => {
+        item.addEventListener("toggle", () => {
+          if (!item.open) return;
+          faqItems.forEach((otherItem) => {
+            if (otherItem !== item) otherItem.open = false;
+          });
+        });
+      });
       if (form && statusNode) {
         const inquiry = pricing.inquiry_form || {};
         form.addEventListener("submit", (event) => {
