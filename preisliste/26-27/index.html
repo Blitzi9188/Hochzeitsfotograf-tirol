@@ -316,6 +316,24 @@
       text-transform: uppercase;
       margin-left: 0.35rem;
     }
+    .package-inline-head {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 1.25rem;
+    }
+    .package-inline-head .package-price {
+      font-size: clamp(1.7rem, 3vw, 2.5rem);
+      margin: 0;
+      flex-shrink: 0;
+    }
+    .package-inline-head .pricing-copy {
+      flex: 1;
+      min-width: 0;
+    }
+    .package-inline-head .pricing-copy > *:first-child {
+      margin-top: 0;
+    }
     .package-body {
       display: flex;
       flex-direction: column;
@@ -947,18 +965,17 @@
       <article class="package-card">
         <div class="package-number">${String(index + 1).padStart(2, "0")}</div>
         <div class="relative z-10">
-          <div class="package-head">
-            <div class="package-price">
-              ${toHtml(column.price || "")}
-            </div>
-          </div>
           ${resolvedImage ? `
             <div class="split-image mb-8">
               <img src="${escapeHtml(resolvedImage)}" alt="${escapeHtml(column.title || column.name || `Paket ${index + 1}`)}" class="w-full aspect-[4/3] object-cover">
             </div>
           ` : ""}
             <div class="package-body">
-              <div class="pricing-copy">${toHtml(column.title || "")}${toHtml(column.includes || "")}${toHtml(column.text || "")}</div>
+              <div class="package-inline-head">
+                <div class="pricing-copy">${toHtml(column.title || column.name || "")}</div>
+                ${column.price ? `<div class="package-price">${toHtml(column.price || "")}</div>` : ""}
+              </div>
+              <div class="pricing-copy">${toHtml(column.includes || "")}${toHtml(column.text || "")}</div>
               <div class="split-meta">
                 <div class="package-note">${toHtml(column.add_extras_text || "")}</div>
               </div>
