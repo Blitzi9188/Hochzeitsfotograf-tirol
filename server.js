@@ -529,24 +529,198 @@ const server = http.createServer(async (req, res) => {
 
     const preislisteMatch = pathname.match(/^\/preisliste\/26-27\/?$/);
     if ((req.method === "GET" || req.method === "HEAD") && preislisteMatch) {
-      const template = await readFirstAvailableFile("preisliste/26-27/index.html", "utf8");
       const requestUrl = new URL(req.url || "/", "http://localhost");
       const requestedLang = requestUrl.searchParams.get("lang") === "en" ? "en" : "de";
-      let preislisteData = {};
+      let pricing = {};
       try {
-        preislisteData = await readJsonDataFile(path.join("content", "preisliste", `${requestedLang}.json`));
+        pricing = await readJsonDataFile(path.join("content", "preisliste", `${requestedLang}.json`));
       } catch {
-        try {
-          preislisteData = await readJsonDataFile(path.join("content", "preisliste", "de.json"));
-        } catch { preislisteData = {}; }
+        try { pricing = await readJsonDataFile(path.join("content", "preisliste", "de.json")); } catch { pricing = {}; }
       }
-      const bootstrap = { lang: requestedLang, pricing: preislisteData };
-      const injected = template.replace(
-        "<script>window.__PREISLISTE_BOOTSTRAP__ = null;</script>",
-        `<script>window.__PREISLISTE_BOOTSTRAP__ = ${escapeInlineJson(bootstrap)};</script>`
-      );
+
+      const blocks = Array.isArray(pricing.blocks) ? pricing.blocks : [];
+      const isEn = requestedLang === "en";
+
+      const esc = (s) => String(s || "").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+      const stripHtml = (s) => {
+        if (!s) return "";
+        return String(s)
+          .replace(/<li[^>]*>/gi, "\n").replace(/<br\s*\/?>/gi, "\n").replace(/<[^>]+>/g, "")
+          .replace(/&amp;/g,"&").replace(/&lt;/g,"<").replace(/&gt;/g,">")
+          .replace(/&auml;/g,"ä").replace(/&ouml;/g,"ö").replace(/&uuml;/g,"ü")
+          .replace(/&szlig;/g,"ß").replace(/&nbsp;/g," ").replace(/&ndash;/g,"–")
+          .replace(/&darr;/g,"↓").replace(/&#\d+;/g,"").trim();
+      };
+      const parseItems = (raw) => stripHtml(raw).split("\n").map(l => l.trim())
+        .filter(l => l && l.length > 2 && !/^(INCLUDES?|Inklusive|Includes):?$/i.test(l));
+
+      // Packages
+      const pkgBlock = blocks.find(b => b.type === "package-2");
+      const pkgCols = pkgBlock ? (pkgBlock.columns || []) : [];
+      const pkgHtml = pkgCols.map((col, i) => {
+        const num = ["01","02","03"][i] || String(i+1);
+        const name = esc(stripHtml(col.name || col.title || "").replace(/^PACKAGE\s*[№#]?\s*\d*/i,"").trim() || `Package ${num}`);
+        const price = esc(stripHtml(col.price || ""));
+        const items = parseItems(col.includes || col.text || "");
+        return `<div class="pl-pkg">
+  <div class="pl-pkg-num">Package ${esc(num)}</div>
+  <div class="pl-pkg-name">${name}</div>
+  <div class="pl-pkg-price">${price}</div>
+  <div class="pl-pkg-divider"></div>
+  <ul class="pl-pkg-includes">${items.map(it => `<li>${esc(it)}</li>`).join("")}</ul>
+</div>`;
+      }).join("\n");
+
+      // Addons
+      const addonTypes = new Set(["collection-text-left-extra-right","includes-left-slider-right","package-1","slider-full-price-below"]);
+      const addonBlocks = blocks.filter(b => b.name && addonTypes.has(b.type));
+      const addonHtml = addonBlocks.map(block => {
+        const col = (block.columns || [])[0] || {};
+        const name = esc(stripHtml(block.name || col.name || ""));
+        const price = esc(stripHtml(col.price || ""));
+        const lines = parseItems(col.includes || col.text || "");
+        const prose = lines.filter(l => l.length > 60).slice(0,2);
+        const items = lines.filter(l => l.length <= 60 && l.length > 3);
+        return `<div class="pl-addon">
+  <div class="pl-addon-left">
+    <div class="pl-addon-name">${name}</div>
+    ${prose.map(p => `<p class="pl-addon-text">${esc(p)}</p>`).join("")}
+    ${items.length ? `<ul class="pl-addon-includes">${items.map(it => `<li>${esc(it.replace(/^[•\-]\s*/,""))}</li>`).join("")}</ul>` : ""}
+  </div>
+  <div class="pl-addon-price">${price}</div>
+</div>`;
+      }).join("\n");
+
+      const activeDe = requestedLang === "de" ? `style="background:#1B1A18;color:#F9F7F2;border-color:#1B1A18;"` : "";
+      const activeEn = requestedLang === "en" ? `style="background:#1B1A18;color:#F9F7F2;border-color:#1B1A18;"` : "";
+
+      const html = `<!DOCTYPE html>
+<html lang="${esc(requestedLang)}" class="scroll-smooth">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>${isEn ? "Pricing Wedding Photographer Tyrol &amp; Dolomites | 2026/27" : "Preise Hochzeitsfotograf Tirol &amp; Dolomiten | 2026/27"}</title>
+<meta name="description" content="${isEn ? "Pricing for wedding photography, elopements and wedding films in Tyrol, Innsbruck and the Dolomites 2026/27." : "Preise für Hochzeitsfotografie, Elopements und Hochzeitsfilme in Tirol, Innsbruck und den Dolomiten für 2026/27."}">
+<link rel="canonical" href="https://www.hochzeitsfotograf.tirol/preisliste/26-27/">
+<link rel="icon" type="image/png" href="/Logo-Blitzkneisser-BERG.png">
+<script defer src="/assets/seo.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/home.css">
+<style>
+body{background:#fff;color:#1B1A18;-webkit-font-smoothing:antialiased;font-family:Inter,system-ui,sans-serif;}
+.pl-spacer{height:5rem}@media(min-width:768px){.pl-spacer{height:6.5rem}}
+.pl-hero{padding:3.5rem 1.5rem 2.5rem;border-bottom:1px solid #EBEBEB}
+@media(min-width:768px){.pl-hero{padding:4.5rem 3rem 3.5rem}}
+.pl-eyebrow{font-size:.68rem;letter-spacing:.28em;text-transform:uppercase;font-weight:600;color:#8A837A;margin-bottom:1.1rem}
+.pl-h1{font-family:'Playfair Display',serif;font-size:clamp(3.2rem,9vw,7.5rem);line-height:.92;letter-spacing:-.03em;font-weight:700;color:#1B1A18;margin:0 0 1.8rem}
+.pl-intro{font-size:.93rem;line-height:1.65;color:#5E5752;max-width:44rem;font-weight:400}
+.pl-section-label{font-size:.64rem;letter-spacing:.3em;text-transform:uppercase;font-weight:700;color:#1B1A18;display:block;margin-bottom:2rem;padding-bottom:.75rem;border-bottom:1px solid #EBEBEB}
+.pl-packages{padding:3rem 1.5rem;border-bottom:1px solid #EBEBEB}
+@media(min-width:768px){.pl-packages{padding:3.5rem 3rem}}
+.pl-packages-grid{display:grid;gap:1px;background:#EBEBEB;max-width:72rem}
+@media(min-width:768px){.pl-packages-grid{grid-template-columns:1fr 1fr}}
+.pl-pkg{background:#fff;padding:2.2rem 2rem}
+.pl-pkg-num{font-size:.62rem;letter-spacing:.32em;text-transform:uppercase;font-weight:700;color:#B0A89E;margin-bottom:.6rem}
+.pl-pkg-name{font-family:'Playfair Display',serif;font-size:1.55rem;font-weight:700;color:#1B1A18;margin:0 0 .25rem}
+.pl-pkg-price{font-size:2.3rem;font-weight:300;color:#1B1A18;line-height:1;margin:.8rem 0 1.5rem;letter-spacing:-.02em}
+.pl-pkg-divider{width:2.5rem;height:1px;background:#1B1A18;margin-bottom:1.5rem}
+.pl-pkg-includes{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:.55rem}
+.pl-pkg-includes li{font-size:.82rem;line-height:1.45;color:#5E5752;display:flex;gap:.6rem;align-items:flex-start}
+.pl-pkg-includes li::before{content:'—';color:#B0A89E;flex-shrink:0;font-size:.75rem;margin-top:.05rem}
+.pl-section{padding:2.5rem 0}
+.pl-section-inner{padding:0 1.5rem}@media(min-width:768px){.pl-section-inner{padding:0 3rem}}
+.pl-addons{max-width:72rem}
+.pl-addon{display:grid;padding:2rem 1.5rem;border-bottom:1px solid #EBEBEB;gap:1rem}
+@media(min-width:640px){.pl-addon{grid-template-columns:1fr auto;align-items:start;padding:2rem 3rem;gap:2rem}}
+.pl-addon-left{display:flex;flex-direction:column;gap:.6rem}
+.pl-addon-name{font-family:'Playfair Display',serif;font-size:1.25rem;font-weight:700;color:#1B1A18}
+.pl-addon-text{font-size:.83rem;line-height:1.6;color:#5E5752;max-width:34rem;margin:0}
+.pl-addon-includes{list-style:none;padding:0;margin:.5rem 0 0;display:flex;flex-direction:column;gap:.35rem}
+.pl-addon-includes li{font-size:.8rem;color:#5E5752;display:flex;gap:.5rem;align-items:flex-start}
+.pl-addon-includes li::before{content:'—';color:#B0A89E;flex-shrink:0;font-size:.72rem;margin-top:.05rem}
+.pl-addon-price{font-size:1.55rem;font-weight:300;color:#1B1A18;white-space:nowrap;letter-spacing:-.02em;text-align:right;padding-top:.1rem}
+.pl-cta{padding:3.5rem 1.5rem;text-align:center;background:#FAFAF8;border-top:1px solid #EBEBEB}
+@media(min-width:768px){.pl-cta{padding:4.5rem 3rem}}
+.pl-cta-title{font-family:'Playfair Display',serif;font-size:clamp(1.6rem,4vw,2.5rem);font-weight:700;color:#1B1A18;margin:0 0 .75rem}
+.pl-cta-text{font-size:.9rem;color:#5E5752;line-height:1.6;margin:0 auto 2rem;max-width:32rem}
+.pl-cta-btn{display:inline-block;padding:.85rem 2.2rem;border:1px solid #1B1A18;font-size:.68rem;letter-spacing:.22em;text-transform:uppercase;text-decoration:none;color:#1B1A18;transition:background .2s,color .2s}
+.pl-cta-btn:hover{background:#1B1A18;color:#fff}
+</style>
+</head>
+<body class="min-h-screen overflow-x-hidden flex flex-col">
+<nav class="fixed top-0 left-0 z-50 w-full bg-white/80 px-6 py-5 text-brand-text backdrop-blur-sm transition-all duration-500 md:px-12 md:py-8" id="mainNav">
+  <div class="mx-auto flex max-w-[120rem] items-center justify-between gap-6">
+    <a href="/" id="navHomeLink" class="group flex items-center" aria-label="Blitzkneisser Photography">
+      <img src="/Logo-Blitzkneisser-BERG.png" alt="Blitzkneisser Photography" class="h-11 w-auto brightness-0 contrast-125 opacity-70 transition duration-500 ease-out group-hover:opacity-100 md:h-14">
+    </a>
+    <button type="button" class="mobile-menu-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenuPanel" aria-label="Menü öffnen"><span></span><span></span><span></span></button>
+    <div class="nav-menu-panel ml-auto flex items-center justify-end gap-4 text-right" id="navMenuPanel">
+      <div class="flex items-center gap-4 text-[10px] uppercase tracking-[0.2em] sm:gap-6 md:gap-8 md:text-xs">
+        <a href="/" id="navHomeMenuLink" class="hover:opacity-60 transition-opacity duration-300">${isEn?"Home":"Startseite"}</a>
+        <a href="/experience/" id="navExperienceLink" class="hover:opacity-60 transition-opacity duration-300">Experience</a>
+        <a href="/guides/" id="navGuidesLink" class="hover:opacity-60 transition-opacity duration-300">Guides</a>
+        <a href="/journal/" id="navJournalLink" class="hover:opacity-60 transition-opacity duration-300">Journal</a>
+        <a href="/about/" id="navAboutLink" class="hover:opacity-60 transition-opacity duration-300">About</a>
+        <a href="/contact/" id="navContactLink" class="hover:opacity-60 transition-opacity duration-300">Contact</a>
+        <a href="/film/" id="navFilmLink" class="hidden hover:opacity-60 transition-opacity duration-300">Film</a>
+        <a href="/academy/" id="navAcademyLink" class="hidden hover:opacity-60 transition-opacity duration-300">Academy</a>
+      </div>
+      <div class="nav-lang-toggle flex items-center gap-2 text-[10px] uppercase tracking-[0.24em] md:text-xs">
+        <button type="button" class="border border-brand-border px-3 py-2 transition-colors" data-lang-button="de" aria-pressed="${requestedLang==="de"?"true":"false"}" ${activeDe} onclick="localStorage.setItem('site-lang','de');location.href='/preisliste/26-27/'">DE</button>
+        <button type="button" class="border border-brand-border px-3 py-2 transition-colors" data-lang-button="en" aria-pressed="${requestedLang==="en"?"true":"false"}" ${activeEn} onclick="localStorage.setItem('site-lang','en');location.href='/preisliste/26-27/?lang=en'">EN</button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="pl-spacer"></div>
+<main class="flex-1">
+  <div class="pl-hero">
+    <p class="pl-eyebrow">${isEn?"Investment Guide 2026/27":"Investment Guide 2026/27"}</p>
+    <h1 class="pl-h1">${isEn?"Pricing":"Preisliste"}</h1>
+    <p class="pl-intro">${isEn ? "Every wedding day is unique. Our packages are a guide — we are happy to tailor them to your day." : "Selbstverständlich ist es uns wichtig, jeden wichtigen Moment eures großen Tages festzuhalten. Unsere Pakete dienen als grobe Orientierung – wir passen sie gerne gemeinsam auf euren Tag ab."}</p>
+  </div>
+
+  <div class="pl-packages">
+    <div class="pl-packages-grid">
+${pkgHtml || `<div style="padding:2rem;color:#8A837A;font-size:.85rem;">Pakete werden aktualisiert…</div>`}
+    </div>
+  </div>
+
+  <div class="pl-section">
+    <div class="pl-section-inner">
+      <span class="pl-section-label">${isEn?"Additional Services":"Zusätzliche Leistungen"}</span>
+    </div>
+    <div class="pl-addons">
+${addonHtml}
+    </div>
+  </div>
+
+  <div class="pl-cta">
+    <h2 class="pl-cta-title">${isEn?"Any questions about pricing?":"Habt ihr Fragen zu den Preisen?"}</h2>
+    <p class="pl-cta-text">${isEn?"Just write to me — I look forward to hearing about your story.":"Schreibt mir einfach — ich freue mich auf euch und eure Geschichte."}</p>
+    <a href="/contact/" class="pl-cta-btn">${isEn?"Get in touch":"Termin anfragen"}</a>
+  </div>
+</main>
+
+<footer class="py-16 px-6 md:px-12 border-t border-brand-border flex flex-col gap-8 text-[10px] md:flex-row md:items-start md:justify-between md:gap-16 md:text-xs text-[#111111] tracking-[0.2em] uppercase font-medium bg-white">
+  <div id="footerBrandText">© 2026 Blitzkneisser Photography</div>
+  <div class="flex flex-wrap items-center justify-start gap-x-6 gap-y-3 md:gap-x-8">
+    <a id="footerInstagramLink" href="https://www.instagram.com/blitzkneisser/" class="hover:opacity-60 transition-opacity duration-300">Instagram</a>
+    <a href="/contact/" class="hover:opacity-60 transition-opacity duration-300" id="footerContactLink">Contact</a>
+    <a href="/journal/" class="hover:opacity-60 transition-opacity duration-300" id="footerJournalLink">Journal</a>
+    <a href="/film/" class="hover:opacity-60 transition-opacity duration-300" id="footerFilmLink">Film</a>
+    <a href="/" class="hover:opacity-60 transition-opacity duration-300" id="footerHomeLink">Home</a>
+  </div>
+  <div id="footerInstagramFeed" class="footer-instagram-feed"></div>
+</footer>
+<script src="/assets/footer-settings.js"></script>
+</body></html>`;
+
       res.writeHead(200, { "Content-Type": "text/html; charset=utf-8", "Cache-Control": "no-store" });
-      res.end(req.method === "HEAD" ? "" : injected);
+      res.end(req.method === "HEAD" ? "" : html);
       return;
     }
 
