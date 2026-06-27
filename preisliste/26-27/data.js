@@ -115,7 +115,7 @@ window.PREISLISTE_DATA = {
     "blocks": [
       {
         "background": {
-          "image": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2025/12/Blitzkneisser-Dolomites-Elopement-INSTA-6-scaled.jpeg",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-6.jpg",
           "scale": "cover",
           "scale_mobile": "cover",
           "position": "50% 56.99999999999999%",
@@ -287,7 +287,7 @@ window.PREISLISTE_DATA = {
             "includes": "<h4><span style=\"color: rgb(170, 135, 89);\">INCLUDES:</span></h4><ul><li><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">bis zu 8 Stunden durchgehende Fotografie</span></li><li><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">ein Fotograf</span></li><li><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">z.B. Getting Ready</span></li><li><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">Foto Begleitung</span></li><li><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">Trauung</span></li><li><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">Fotoshooting (Sonnenuntergang)</span></li><li><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">z.B. Brauttanz</span></li><li><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">z.B. Tortenanschnitt</span></li><li><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">Datentr&auml;ger mit min. 500 bearbeiteten Bildern</span></li></ul>",
             "price": "<h2><span style=\"color: rgb(170, 135, 89);\">4200€</span></h2>",
             "image": {
-              "url": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2025/12/Blitzkneisser-Wedding-Dolomites-17-scaled.jpg",
+              "url": "/assets/uploads/Blitzkneisser-Wedding-Dolomites-17.jpg",
               "width": 2560,
               "height": 1707
             },
@@ -304,7 +304,7 @@ window.PREISLISTE_DATA = {
             "includes": "<h4><span style=\"color: rgb(170, 135, 89);\">INCLUDES:</span></h4><ul><li><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">bis zu 6 Stunden durchgehende Fotografie</span></li><li><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">ein Fotograf</span></li><li><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\"><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">z.B. </span>Getting Ready</span></li><li><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\"><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">z.B. </span>Trauung </span></li><li><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">Fotoshooting</span><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">&nbsp;<span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">(Sonnenuntergang)</span></span></li><li><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">Foto Begleitung</span></li><li><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">Datentr&auml;ger mit min. 400* </span><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">bearbeiteten Bildern</span></li></ul><p><br></p>",
             "price": "<h2><span style=\"color: rgb(170, 135, 89);\">3700€</span></h2>",
             "image": {
-              "url": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2022/12/Blitzkneisser-Elopement-Dolomites-120-scaled.jpg",
+              "url": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-120.jpg",
               "width": 2048,
               "height": 1365
             },
@@ -433,7 +433,7 @@ window.PREISLISTE_DATA = {
             "add_extras_text": "<h4>ADD EXTRAS</h4>",
             "price": "<h2>300€</h2>",
             "image": {
-              "url": "https://www.hochzeitsfotograf.tirol/wp-content/plugins/flo-pricing-tool/assets/admin/img/noimage-landscape-grey.png",
+              "url": "/assets/uploads/Blitzkneisser-Wedding-Innsbruck-249.jpg",
               "width": "1024",
               "height": "768"
             },
@@ -509,7 +509,7 @@ window.PREISLISTE_DATA = {
             "add_extras_text": "<h4>ADD EXTRAS</h4>",
             "price": "<h2><span style=\"color: rgb(170, 135, 89);\">1200€</span></h2>",
             "image": {
-              "url": "https://www.hochzeitsfotograf.tirol/wp-content/plugins/flo-pricing-tool/assets/admin/img/noimage-landscape-grey.png",
+              "url": "/assets/uploads/Blitzkneisser-Hochtennboden-Standesamt-90.jpg",
               "width": "1024",
               "height": "768"
             },
@@ -521,18 +521,7 @@ window.PREISLISTE_DATA = {
           }
         ],
         "name": "Standesamt",
-        "gallery": [
-          {
-            "url": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2019/01/Blitzkneisser-Foto-Hochzeit-Meran-Südtirol-122.jpg",
-            "id": 3595,
-            "width": 5040,
-            "height": 3360,
-            "preview": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2019/01/Blitzkneisser-Foto-Hochzeit-Meran-Südtirol-122-1024x683.jpg",
-            "text": "",
-            "text_position": "",
-            "text_background": ""
-          }
-        ],
+        "gallery": [],
         "slug": "standesamt"
       },
       {
@@ -591,7 +580,7 @@ window.PREISLISTE_DATA = {
         "name": "Film",
         "video": {
           "url": "https://vimeo.com/798320135?fl=pl&fe=vl",
-          "cover": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2025/12/Blitzkneisser-Pre-Wedding-Dolomites-45-scaled.jpg",
+          "cover": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Instagram-5.webp",
           "type": "vimeo"
         },
         "slug": "film"
@@ -657,7 +646,7 @@ window.PREISLISTE_DATA = {
             "add_extras_text": "<h4>ADD EXTRAS</h4>",
             "price": "<h2>ab 3800€</h2>",
             "image": {
-              "url": "https://www.hochzeitsfotograf.tirol/wp-content/plugins/flo-pricing-tool/assets/admin/img/noimage-landscape-grey.png",
+              "url": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-6.jpg",
               "width": "1024",
               "height": "768"
             },
@@ -735,7 +724,7 @@ window.PREISLISTE_DATA = {
             "add_extras_text": "<h4>ADD EXTRAS</h4>",
             "price": "<h2>3500€</h2>",
             "image": {
-              "url": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2025/12/Blitzkneisser-Dolomites-Elopement-INSTA-28-scaled.jpg",
+              "url": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-28.jpg",
               "width": 2560,
               "height": 1707
             },
@@ -811,7 +800,7 @@ window.PREISLISTE_DATA = {
             "add_extras_text": "<h4>ADD EXTRAS</h4>",
             "price": "<h2>1500€</h2>",
             "image": {
-              "url": "https://www.hochzeitsfotograf.tirol/wp-content/plugins/flo-pricing-tool/assets/admin/img/noimage-landscape-grey.png",
+              "url": "/assets/uploads/Blitzkneisser-After-Wedding-Lago-di-Braies-9-hero.webp",
               "width": "1024",
               "height": "768"
             },
@@ -825,91 +814,81 @@ window.PREISLISTE_DATA = {
         "name": "AFTER WEDDING",
         "gallery": [
           {
-            "url": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2018/09/Blitzkneisser-Foto-Hinterglemm-Hochzeit-715.jpg",
+            "url": "/assets/uploads/Blitzkneisser-Hochzeit-Seefeld-389.jpg",
             "id": 3789,
-            "width": 2048,
-            "height": 1365,
-            "preview": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2018/09/Blitzkneisser-Foto-Hinterglemm-Hochzeit-715-1024x683.jpg",
+            "width": 1024,
+            "height": 683,
+            "preview": "/assets/uploads/Blitzkneisser-Hochzeit-Seefeld-389.jpg",
             "text": "",
             "text_position": "",
             "text_background": ""
           },
           {
-            "url": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2018/12/Blitzkneisser-Photo-Mountain-Wedding-Tyrol-174.jpg",
+            "url": "/assets/uploads/Blitzkneisser-Wedding-Photo-Nordkette-125.jpg",
             "id": 3526,
-            "width": 2048,
-            "height": 1365,
-            "preview": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2018/12/Blitzkneisser-Photo-Mountain-Wedding-Tyrol-174-1024x683.jpg",
+            "width": 1024,
+            "height": 768,
+            "preview": "/assets/uploads/Blitzkneisser-Wedding-Photo-Nordkette-125.jpg",
             "text": "",
             "text_position": "",
             "text_background": ""
           },
           {
-            "url": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2017/12/Blitzkneisser-Wedding-Dress-Pragser-Wildsee-Italien-Hochzeit-Fotograf-Trento-Tirol-6.jpg",
+            "url": "/assets/uploads/Blitzkneisser-Elopement-Pragser-Wildsee-208.jpg",
             "id": 859,
-            "width": 2000,
-            "height": 1333,
-            "preview": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2017/12/Blitzkneisser-Wedding-Dress-Pragser-Wildsee-Italien-Hochzeit-Fotograf-Trento-Tirol-6-1024x682.jpg",
+            "width": 1024,
+            "height": 683,
+            "preview": "/assets/uploads/Blitzkneisser-Elopement-Pragser-Wildsee-208.jpg",
             "text": "",
             "text_position": "",
             "text_background": ""
           },
           {
-            "url": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2024/03/Blitzkneisser-Elopement-Dolomites-167-scaled.jpg",
+            "url": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-167.jpg",
             "id": 27004,
             "width": 2048,
             "height": 1365,
-            "preview": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2024/03/Blitzkneisser-Elopement-Dolomites-167-1024x683.jpg",
+            "preview": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-167.jpg",
             "text": "",
             "text_position": "",
             "text_background": ""
           },
           {
-            "url": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2025/12/Blitzkneisser-Wedding-Dolomites-17-scaled.jpg",
+            "url": "/assets/uploads/Blitzkneisser-Wedding-Dolomites-17.jpg",
             "id": 27117,
             "width": 2560,
             "height": 1707,
-            "preview": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2025/12/Blitzkneisser-Wedding-Dolomites-17-1024x683.jpg",
+            "preview": "/assets/uploads/Blitzkneisser-Wedding-Dolomites-17.jpg",
             "text": "",
             "text_position": "",
             "text_background": ""
           },
           {
-            "url": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2025/12/Blitzkneisser-Pre-Wedding-Dolomites-45-scaled.jpg",
-            "id": 27119,
-            "width": 2560,
-            "height": 1707,
-            "preview": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2025/12/Blitzkneisser-Pre-Wedding-Dolomites-45-1024x683.jpg",
-            "text": "",
-            "text_position": "",
-            "text_background": ""
-          },
-          {
-            "url": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2025/12/Blitzkneisser-Dolomites-Elopement-INSTA-28-scaled.jpg",
+            "url": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-28.jpg",
             "id": 27121,
             "width": 2560,
             "height": 1707,
-            "preview": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2025/12/Blitzkneisser-Dolomites-Elopement-INSTA-28-1024x683.jpg",
+            "preview": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-28.jpg",
             "text": "",
             "text_position": "",
             "text_background": ""
           },
           {
-            "url": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2022/10/the-complete-guide-to-a-great-austrian-ski-resort-wedding-blitzkneisser-5.jpg",
+            "url": "/assets/uploads/Blitzkneisser-Dolomites-Ski-Wedding-44.jpg",
             "id": 26693,
             "width": 1000,
             "height": 666,
-            "preview": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2022/10/the-complete-guide-to-a-great-austrian-ski-resort-wedding-blitzkneisser-5.jpg",
+            "preview": "/assets/uploads/Blitzkneisser-Dolomites-Ski-Wedding-44.jpg",
             "text": "",
             "text_position": "",
             "text_background": ""
           },
           {
-            "url": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2022/08/dolomites-elopement-guide-dos-and-donts-blitzkneisser-20.jpg",
+            "url": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Wedding-236.jpg",
             "id": 26582,
             "width": 1600,
             "height": 1067,
-            "preview": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2022/08/dolomites-elopement-guide-dos-and-donts-blitzkneisser-20-1024x683.jpg",
+            "preview": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Wedding-236.jpg",
             "text": "",
             "text_position": "",
             "text_background": ""
@@ -978,9 +957,9 @@ window.PREISLISTE_DATA = {
             "add_extras_text": "<h4>ADD EXTRAS</h4>",
             "price": "<h2><span style=\"color: rgb(170, 135, 89);\">800€</span></h2>",
             "image": {
-              "url": "https://www.hochzeitsfotograf.tirol/wp-content/plugins/flo-pricing-tool/assets/admin/img/noimage-landscape-grey.png",
-              "width": "1024",
-              "height": "768"
+              "url": "/assets/uploads/Blitzkneisser-Fotobox-Selfie-Booth.png",
+              "width": "1495",
+              "height": "889"
             },
             "id": "4b3a3106-713c-8b65-6920-ebe72bc5a238",
             "name": "FOTOBOX",
@@ -990,18 +969,7 @@ window.PREISLISTE_DATA = {
           }
         ],
         "name": "FOTOBOX",
-        "gallery": [
-          {
-            "url": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2019/03/Homepage-Selfie.png",
-            "id": 3935,
-            "width": 1943,
-            "height": 2047,
-            "preview": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2019/03/Homepage-Selfie-972x1024.png",
-            "text": "",
-            "text_position": "",
-            "text_background": ""
-          }
-        ],
+        "gallery": [],
         "slug": "fotobox"
       },
       {
@@ -1718,7 +1686,7 @@ window.PREISLISTE_DATA = {
         "i_agree_text": "Wir stimmen den  <a ng-click=\"openTerms()\">AGB´s</a> zu.",
         "terms_text": "AGB´s",
         "submit_text": "SENDEN",
-        "title": "<h2 style=\"text-align:center; margin: 0px;\">D&uuml;rfen wir euch begleiten?</h2><p style=\"text-align:center;\">wir w&uuml;rden uns sehr freuen ein Teil eures gro&szlig;en Tages sein zu d&uuml;rfen.<br>Bitte lasst uns so viel wie m&ouml;glich teilhaben - damit wir alle besonderen Momente einfangen k&ouml;nnen...</p><p style=\"text-align:center;\"><br></p>"
+        "title": ""
       },
       "input_defaults": {
         "label": "",
@@ -1895,7 +1863,7 @@ window.PREISLISTE_DATA = {
     "blocks": [
       {
         "background": {
-          "image": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2025/12/Blitzkneisser-Dolomites-Elopement-INSTA-6-scaled.jpeg",
+          "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-6.jpg",
           "scale": "cover",
           "scale_mobile": "cover",
           "position": "50% 56.99999999999999%",
@@ -2067,7 +2035,7 @@ window.PREISLISTE_DATA = {
             "includes": "<h4><span style=\"color: rgb(170, 135, 89);\">INCLUDES:</span></h4><ul><li><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">up to 8 hours of continuous photography</span></li><li><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">a photographer</span></li><li><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">e.g. Getting Ready</span></li><li><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">Photo accompaniment</span></li><li><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">Wedding ceremony</span></li><li><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">Photo shoot (sunset)</span></li><li><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">e.g. Bridal Dance</span></li><li><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">e.g. Cake cutting</span></li><li><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">Data storage medium with at least 500 edited images</span></li></ul>",
             "price": "<h2><span style=\"color: rgb(170, 135, 89);\">4200€</span></h2>",
             "image": {
-              "url": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2025/12/Blitzkneisser-Wedding-Dolomites-17-scaled.jpg",
+              "url": "/assets/uploads/Blitzkneisser-Wedding-Dolomites-17.jpg",
               "width": 2560,
               "height": 1707
             },
@@ -2084,7 +2052,7 @@ window.PREISLISTE_DATA = {
             "includes": "<h4><span style=\"color: rgb(170, 135, 89);\">INCLUDES:</span></h4><ul><li><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">up to 6 hours of continuous photography</span></li><li><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">a photographer</span></li><li><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\"><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">e.g. </span>Getting Ready</span></li><li><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\"><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">e.g. </span>Wedding ceremony </span></li><li><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">Photo shoot</span><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\"> <span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">(Sunset)</span></span></li><li><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">Photo accompaniment</span></li><li><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">Data carrier with at least 400* </span><span style=\"font-family: Trebuchet MS, Helvetica, sans-serif;\">edited images</span></li></ul><p><br></p>",
             "price": "<h2><span style=\"color: rgb(170, 135, 89);\">3700€</span></h2>",
             "image": {
-              "url": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2022/12/Blitzkneisser-Elopement-Dolomites-120-scaled.jpg",
+              "url": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-120.jpg",
               "width": 2048,
               "height": 1365
             },
@@ -2213,7 +2181,7 @@ window.PREISLISTE_DATA = {
             "add_extras_text": "<h4>ADD EXTRAS</h4>",
             "price": "<h2>300€</h2>",
             "image": {
-              "url": "https://www.hochzeitsfotograf.tirol/wp-content/plugins/flo-pricing-tool/assets/admin/img/noimage-landscape-grey.png",
+              "url": "/assets/uploads/Blitzkneisser-Wedding-Innsbruck-249.jpg",
               "width": "1024",
               "height": "768"
             },
@@ -2289,7 +2257,7 @@ window.PREISLISTE_DATA = {
             "add_extras_text": "<h4>ADD EXTRAS</h4>",
             "price": "<h2><span style=\"color: rgb(170, 135, 89);\">1200€</span></h2>",
             "image": {
-              "url": "https://www.hochzeitsfotograf.tirol/wp-content/plugins/flo-pricing-tool/assets/admin/img/noimage-landscape-grey.png",
+              "url": "/assets/uploads/Blitzkneisser-Hochtennboden-Standesamt-90.jpg",
               "width": "1024",
               "height": "768"
             },
@@ -2301,18 +2269,7 @@ window.PREISLISTE_DATA = {
           }
         ],
         "name": "registry office",
-        "gallery": [
-          {
-            "url": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2019/01/Blitzkneisser-Foto-Hochzeit-Meran-Südtirol-122.jpg",
-            "id": 3595,
-            "width": 5040,
-            "height": 3360,
-            "preview": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2019/01/Blitzkneisser-Foto-Hochzeit-Meran-Südtirol-122-1024x683.jpg",
-            "text": "",
-            "text_position": "",
-            "text_background": ""
-          }
-        ],
+        "gallery": [],
         "slug": "standesamt"
       },
       {
@@ -2371,7 +2328,7 @@ window.PREISLISTE_DATA = {
         "name": "film",
         "video": {
           "url": "https://vimeo.com/798320135?fl=pl&fe=vl",
-          "cover": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2025/12/Blitzkneisser-Pre-Wedding-Dolomites-45-scaled.jpg",
+          "cover": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Instagram-5.webp",
           "type": "vimeo"
         },
         "slug": "film"
@@ -2437,7 +2394,7 @@ window.PREISLISTE_DATA = {
             "add_extras_text": "<h4>ADD EXTRAS</h4>",
             "price": "<h2>ab 3800€</h2>",
             "image": {
-              "url": "https://www.hochzeitsfotograf.tirol/wp-content/plugins/flo-pricing-tool/assets/admin/img/noimage-landscape-grey.png",
+              "url": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-6.jpg",
               "width": "1024",
               "height": "768"
             },
@@ -2515,7 +2472,7 @@ window.PREISLISTE_DATA = {
             "add_extras_text": "<h4>ADD EXTRAS</h4>",
             "price": "<h2>3500€</h2>",
             "image": {
-              "url": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2025/12/Blitzkneisser-Dolomites-Elopement-INSTA-28-scaled.jpg",
+              "url": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-28.jpg",
               "width": 2560,
               "height": 1707
             },
@@ -2591,7 +2548,7 @@ window.PREISLISTE_DATA = {
             "add_extras_text": "<h4>ADD EXTRAS</h4>",
             "price": "<h2>1500€</h2>",
             "image": {
-              "url": "https://www.hochzeitsfotograf.tirol/wp-content/plugins/flo-pricing-tool/assets/admin/img/noimage-landscape-grey.png",
+              "url": "/assets/uploads/Blitzkneisser-After-Wedding-Lago-di-Braies-9-hero.webp",
               "width": "1024",
               "height": "768"
             },
@@ -2605,91 +2562,81 @@ window.PREISLISTE_DATA = {
         "name": "AFTER WEDDING",
         "gallery": [
           {
-            "url": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2018/09/Blitzkneisser-Foto-Hinterglemm-Hochzeit-715.jpg",
+            "url": "/assets/uploads/Blitzkneisser-Hochzeit-Seefeld-389.jpg",
             "id": 3789,
-            "width": 2048,
-            "height": 1365,
-            "preview": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2018/09/Blitzkneisser-Foto-Hinterglemm-Hochzeit-715-1024x683.jpg",
+            "width": 1024,
+            "height": 683,
+            "preview": "/assets/uploads/Blitzkneisser-Hochzeit-Seefeld-389.jpg",
             "text": "",
             "text_position": "",
             "text_background": ""
           },
           {
-            "url": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2018/12/Blitzkneisser-Photo-Mountain-Wedding-Tyrol-174.jpg",
+            "url": "/assets/uploads/Blitzkneisser-Wedding-Photo-Nordkette-125.jpg",
             "id": 3526,
-            "width": 2048,
-            "height": 1365,
-            "preview": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2018/12/Blitzkneisser-Photo-Mountain-Wedding-Tyrol-174-1024x683.jpg",
+            "width": 1024,
+            "height": 768,
+            "preview": "/assets/uploads/Blitzkneisser-Wedding-Photo-Nordkette-125.jpg",
             "text": "",
             "text_position": "",
             "text_background": ""
           },
           {
-            "url": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2017/12/Blitzkneisser-Wedding-Dress-Pragser-Wildsee-Italien-Hochzeit-Fotograf-Trento-Tirol-6.jpg",
+            "url": "/assets/uploads/Blitzkneisser-Elopement-Pragser-Wildsee-208.jpg",
             "id": 859,
-            "width": 2000,
-            "height": 1333,
-            "preview": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2017/12/Blitzkneisser-Wedding-Dress-Pragser-Wildsee-Italien-Hochzeit-Fotograf-Trento-Tirol-6-1024x682.jpg",
+            "width": 1024,
+            "height": 683,
+            "preview": "/assets/uploads/Blitzkneisser-Elopement-Pragser-Wildsee-208.jpg",
             "text": "",
             "text_position": "",
             "text_background": ""
           },
           {
-            "url": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2024/03/Blitzkneisser-Elopement-Dolomites-167-scaled.jpg",
+            "url": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-167.jpg",
             "id": 27004,
             "width": 2048,
             "height": 1365,
-            "preview": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2024/03/Blitzkneisser-Elopement-Dolomites-167-1024x683.jpg",
+            "preview": "/assets/uploads/Blitzkneisser-Elopement-Dolomites-167.jpg",
             "text": "",
             "text_position": "",
             "text_background": ""
           },
           {
-            "url": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2025/12/Blitzkneisser-Wedding-Dolomites-17-scaled.jpg",
+            "url": "/assets/uploads/Blitzkneisser-Wedding-Dolomites-17.jpg",
             "id": 27117,
             "width": 2560,
             "height": 1707,
-            "preview": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2025/12/Blitzkneisser-Wedding-Dolomites-17-1024x683.jpg",
+            "preview": "/assets/uploads/Blitzkneisser-Wedding-Dolomites-17.jpg",
             "text": "",
             "text_position": "",
             "text_background": ""
           },
           {
-            "url": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2025/12/Blitzkneisser-Pre-Wedding-Dolomites-45-scaled.jpg",
-            "id": 27119,
-            "width": 2560,
-            "height": 1707,
-            "preview": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2025/12/Blitzkneisser-Pre-Wedding-Dolomites-45-1024x683.jpg",
-            "text": "",
-            "text_position": "",
-            "text_background": ""
-          },
-          {
-            "url": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2025/12/Blitzkneisser-Dolomites-Elopement-INSTA-28-scaled.jpg",
+            "url": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-28.jpg",
             "id": 27121,
             "width": 2560,
             "height": 1707,
-            "preview": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2025/12/Blitzkneisser-Dolomites-Elopement-INSTA-28-1024x683.jpg",
+            "preview": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-28.jpg",
             "text": "",
             "text_position": "",
             "text_background": ""
           },
           {
-            "url": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2022/10/the-complete-guide-to-a-great-austrian-ski-resort-wedding-blitzkneisser-5.jpg",
+            "url": "/assets/uploads/Blitzkneisser-Dolomites-Ski-Wedding-44.jpg",
             "id": 26693,
             "width": 1000,
             "height": 666,
-            "preview": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2022/10/the-complete-guide-to-a-great-austrian-ski-resort-wedding-blitzkneisser-5.jpg",
+            "preview": "/assets/uploads/Blitzkneisser-Dolomites-Ski-Wedding-44.jpg",
             "text": "",
             "text_position": "",
             "text_background": ""
           },
           {
-            "url": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2022/08/dolomites-elopement-guide-dos-and-donts-blitzkneisser-20.jpg",
+            "url": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Wedding-236.jpg",
             "id": 26582,
             "width": 1600,
             "height": 1067,
-            "preview": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2022/08/dolomites-elopement-guide-dos-and-donts-blitzkneisser-20-1024x683.jpg",
+            "preview": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Wedding-236.jpg",
             "text": "",
             "text_position": "",
             "text_background": ""
@@ -2758,9 +2705,9 @@ window.PREISLISTE_DATA = {
             "add_extras_text": "<h4>ADD EXTRAS</h4>",
             "price": "<h2><span style=\"color: rgb(170, 135, 89);\">800€</span></h2>",
             "image": {
-              "url": "https://www.hochzeitsfotograf.tirol/wp-content/plugins/flo-pricing-tool/assets/admin/img/noimage-landscape-grey.png",
-              "width": "1024",
-              "height": "768"
+              "url": "/assets/uploads/Blitzkneisser-Fotobox-Selfie-Booth.png",
+              "width": "1495",
+              "height": "889"
             },
             "id": "4b3a3106-713c-8b65-6920-ebe72bc5a238",
             "name": "PHOTO BOX",
@@ -2770,18 +2717,7 @@ window.PREISLISTE_DATA = {
           }
         ],
         "name": "PHOTO BOX",
-        "gallery": [
-          {
-            "url": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2019/03/Homepage-Selfie.png",
-            "id": 3935,
-            "width": 1943,
-            "height": 2047,
-            "preview": "https://www.hochzeitsfotograf.tirol/wp-content/uploads/2019/03/Homepage-Selfie-972x1024.png",
-            "text": "",
-            "text_position": "",
-            "text_background": ""
-          }
-        ],
+        "gallery": [],
         "slug": "fotobox"
       },
       {
@@ -3498,7 +3434,7 @@ window.PREISLISTE_DATA = {
         "i_agree_text": "We agree to the <a ng-click=\"openTerms()\">Terms and Conditions</a>.",
         "terms_text": "Terms and Conditions",
         "submit_text": "SEND",
-        "title": "<h2 style=\"text-align:center; margin: 0px;\">May we accompany you?</h2><p style=\"text-align:center;\">We would be very happy to be a part of your big day.<br>Please let us be as involved as possible - so that we can capture all the special moments...</p><p style=\"text-align:center;\"><br></p>"
+        "title": ""
       },
       "input_defaults": {
         "label": "",
