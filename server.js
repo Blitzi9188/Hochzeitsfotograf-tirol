@@ -527,6 +527,29 @@ const server = http.createServer(async (req, res) => {
       return;
     }
 
+    const preislisteMatch = pathname.match(/^\/preisliste\/26-27\/?$/);
+    if ((req.method === "GET" || req.method === "HEAD") && preislisteMatch) {
+      const template = await readFirstAvailableFile("preisliste/26-27/index.html", "utf8");
+      const requestUrl = new URL(req.url || "/", "http://localhost");
+      const requestedLang = requestUrl.searchParams.get("lang") === "en" ? "en" : "de";
+      let preislisteData = {};
+      try {
+        preislisteData = await readJsonDataFile(path.join("content", "preisliste", `${requestedLang}.json`));
+      } catch {
+        try {
+          preislisteData = await readJsonDataFile(path.join("content", "preisliste", "de.json"));
+        } catch { preislisteData = {}; }
+      }
+      const bootstrap = { lang: requestedLang, pricing: preislisteData };
+      const injected = template.replace(
+        "<script>window.__PREISLISTE_BOOTSTRAP__ = null;</script>",
+        `<script>window.__PREISLISTE_BOOTSTRAP__ = ${escapeInlineJson(bootstrap)};</script>`
+      );
+      res.writeHead(200, { "Content-Type": "text/html; charset=utf-8", "Cache-Control": "no-store" });
+      res.end(req.method === "HEAD" ? "" : injected);
+      return;
+    }
+
     const journalMatch = pathname.match(/^\/journal\/([^/]+)\/$/);
     if ((req.method === "GET" || req.method === "HEAD") && journalMatch) {
       const templatePath = path.join(rootDir, "journal", "post", "index.html");
