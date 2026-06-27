@@ -563,11 +563,11 @@ const server = http.createServer(async (req, res) => {
         const price = esc(stripHtml(col.price || ""));
         const items = parseItems(col.includes || col.text || "");
         return `<div class="pl-pkg">
-  <div class="pl-pkg-num">Package ${esc(num)}</div>
-  <div class="pl-pkg-name">${name}</div>
+  <span class="pl-pkg-num">Package ${esc(num)}</span>
+  <h2 class="headline text-2xl md:text-3xl text-brand-text">${name}</h2>
   <div class="pl-pkg-price">${price}</div>
-  <div class="pl-pkg-divider"></div>
-  <ul class="pl-pkg-includes">${items.map(it => `<li>${esc(it)}</li>`).join("")}</ul>
+  <div class="pl-pkg-rule"></div>
+  <ul class="pl-pkg-list">${items.map(it => `<li>${esc(it)}</li>`).join("")}</ul>
 </div>`;
       }).join("\n");
 
@@ -582,10 +582,10 @@ const server = http.createServer(async (req, res) => {
         const prose = lines.filter(l => l.length > 60).slice(0,2);
         const items = lines.filter(l => l.length <= 60 && l.length > 3);
         return `<div class="pl-addon">
-  <div class="pl-addon-left">
+  <div class="pl-addon-body">
     <div class="pl-addon-name">${name}</div>
     ${prose.map(p => `<p class="pl-addon-text">${esc(p)}</p>`).join("")}
-    ${items.length ? `<ul class="pl-addon-includes">${items.map(it => `<li>${esc(it.replace(/^[•\-]\s*/,""))}</li>`).join("")}</ul>` : ""}
+    ${items.length ? `<ul class="pl-addon-list">${items.map(it => `<li>${esc(it.replace(/^[•\-]\s*/,""))}</li>`).join("")}</ul>` : ""}
   </div>
   <div class="pl-addon-price">${price}</div>
 </div>`;
@@ -606,47 +606,47 @@ const server = http.createServer(async (req, res) => {
 <script defer src="/assets/seo.js"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap"></noscript>
 <link rel="stylesheet" href="/assets/home.css">
 <style>
-body{background:#fff;color:#1B1A18;-webkit-font-smoothing:antialiased;font-family:Inter,system-ui,sans-serif;}
-.pl-spacer{height:5rem}@media(min-width:768px){.pl-spacer{height:6.5rem}}
-.pl-hero{padding:3.5rem 1.5rem 2.5rem;border-bottom:1px solid #EBEBEB}
-@media(min-width:768px){.pl-hero{padding:4.5rem 3rem 3.5rem}}
-.pl-eyebrow{font-size:.68rem;letter-spacing:.28em;text-transform:uppercase;font-weight:600;color:#8A837A;margin-bottom:1.1rem}
-.pl-h1{font-family:'Playfair Display',serif;font-size:clamp(3.2rem,9vw,7.5rem);line-height:.92;letter-spacing:-.03em;font-weight:700;color:#1B1A18;margin:0 0 1.8rem}
-.pl-intro{font-size:.93rem;line-height:1.65;color:#5E5752;max-width:44rem;font-weight:400}
-.pl-section-label{font-size:.64rem;letter-spacing:.3em;text-transform:uppercase;font-weight:700;color:#1B1A18;display:block;margin-bottom:2rem;padding-bottom:.75rem;border-bottom:1px solid #EBEBEB}
-.pl-packages{padding:3rem 1.5rem;border-bottom:1px solid #EBEBEB}
-@media(min-width:768px){.pl-packages{padding:3.5rem 3rem}}
-.pl-packages-grid{display:grid;gap:1px;background:#EBEBEB;max-width:72rem}
-@media(min-width:768px){.pl-packages-grid{grid-template-columns:1fr 1fr}}
-.pl-pkg{background:#fff;padding:2.2rem 2rem}
-.pl-pkg-num{font-size:.62rem;letter-spacing:.32em;text-transform:uppercase;font-weight:700;color:#B0A89E;margin-bottom:.6rem}
-.pl-pkg-name{font-family:'Playfair Display',serif;font-size:1.55rem;font-weight:700;color:#1B1A18;margin:0 0 .25rem}
-.pl-pkg-price{font-size:2.3rem;font-weight:300;color:#1B1A18;line-height:1;margin:.8rem 0 1.5rem;letter-spacing:-.02em}
-.pl-pkg-divider{width:2.5rem;height:1px;background:#1B1A18;margin-bottom:1.5rem}
-.pl-pkg-includes{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:.55rem}
-.pl-pkg-includes li{font-size:.82rem;line-height:1.45;color:#5E5752;display:flex;gap:.6rem;align-items:flex-start}
-.pl-pkg-includes li::before{content:'—';color:#B0A89E;flex-shrink:0;font-size:.75rem;margin-top:.05rem}
-.pl-section{padding:2.5rem 0}
-.pl-section-inner{padding:0 1.5rem}@media(min-width:768px){.pl-section-inner{padding:0 3rem}}
-.pl-addons{max-width:72rem}
-.pl-addon{display:grid;padding:2rem 1.5rem;border-bottom:1px solid #EBEBEB;gap:1rem}
-@media(min-width:640px){.pl-addon{grid-template-columns:1fr auto;align-items:start;padding:2rem 3rem;gap:2rem}}
-.pl-addon-left{display:flex;flex-direction:column;gap:.6rem}
-.pl-addon-name{font-family:'Playfair Display',serif;font-size:1.25rem;font-weight:700;color:#1B1A18}
-.pl-addon-text{font-size:.83rem;line-height:1.6;color:#5E5752;max-width:34rem;margin:0}
-.pl-addon-includes{list-style:none;padding:0;margin:.5rem 0 0;display:flex;flex-direction:column;gap:.35rem}
-.pl-addon-includes li{font-size:.8rem;color:#5E5752;display:flex;gap:.5rem;align-items:flex-start}
-.pl-addon-includes li::before{content:'—';color:#B0A89E;flex-shrink:0;font-size:.72rem;margin-top:.05rem}
-.pl-addon-price{font-size:1.55rem;font-weight:300;color:#1B1A18;white-space:nowrap;letter-spacing:-.02em;text-align:right;padding-top:.1rem}
-.pl-cta{padding:3.5rem 1.5rem;text-align:center;background:#FAFAF8;border-top:1px solid #EBEBEB}
-@media(min-width:768px){.pl-cta{padding:4.5rem 3rem}}
-.pl-cta-title{font-family:'Playfair Display',serif;font-size:clamp(1.6rem,4vw,2.5rem);font-weight:700;color:#1B1A18;margin:0 0 .75rem}
-.pl-cta-text{font-size:.9rem;color:#5E5752;line-height:1.6;margin:0 auto 2rem;max-width:32rem}
-.pl-cta-btn{display:inline-block;padding:.85rem 2.2rem;border:1px solid #1B1A18;font-size:.68rem;letter-spacing:.22em;text-transform:uppercase;text-decoration:none;color:#1B1A18;transition:background .2s,color .2s}
-.pl-cta-btn:hover{background:#1B1A18;color:#fff}
+body{background:#fff;color:#1B1A18;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+.headline{font-weight:700;letter-spacing:-.05em;line-height:.9;text-transform:uppercase;}
+.eyebrow{letter-spacing:.28em;text-transform:uppercase;font-size:10px;font-weight:500;}
+
+/* layout */
+.pl-wrap{padding-left:1.5rem;padding-right:1.5rem;}
+@media(min-width:768px){.pl-wrap{padding-left:3rem;padding-right:3rem;}}
+.pl-inner{max-width:72rem;}
+
+/* hero */
+.pl-hero{padding-top:7rem;padding-bottom:3rem;border-bottom:1px solid #E6DED4;}
+@media(min-width:768px){.pl-hero{padding-top:9rem;padding-bottom:4rem;}}
+
+/* packages */
+.pl-pkg-grid{display:grid;gap:0;border:1px solid #E6DED4;margin-top:3rem;}
+@media(min-width:768px){.pl-pkg-grid{grid-template-columns:1fr 1fr;}}
+.pl-pkg{padding:2.5rem 2rem;border-bottom:1px solid #E6DED4;position:relative;}
+@media(min-width:768px){.pl-pkg{padding:3rem 2.5rem;border-bottom:0;border-right:1px solid #E6DED4;}
+.pl-pkg:last-child{border-right:0;}}
+.pl-pkg-num{display:block;font-size:10px;letter-spacing:.3em;font-weight:500;color:#6F685F;text-transform:uppercase;margin-bottom:.75rem;}
+.pl-pkg-price{font-size:3rem;font-weight:300;color:#1B1A18;line-height:1;margin:.5rem 0 2rem;letter-spacing:-.03em;}
+@media(min-width:768px){.pl-pkg-price{font-size:3.5rem;}}
+.pl-pkg-rule{width:2rem;height:1px;background:#1B1A18;margin-bottom:1.5rem;}
+.pl-pkg-list{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:.6rem;}
+.pl-pkg-list li{font-size:.82rem;line-height:1.5;color:#6F685F;display:flex;gap:.65rem;align-items:flex-start;}
+.pl-pkg-list li::before{content:'–';color:#B0A89E;flex-shrink:0;font-size:.78rem;margin-top:.1rem;}
+
+/* addons */
+.pl-addons{border-top:1px solid #E6DED4;margin-top:4rem;}
+.pl-addon{display:flex;justify-content:space-between;align-items:flex-start;gap:2rem;padding:2rem 0;border-bottom:1px solid #E6DED4;flex-wrap:wrap;}
+.pl-addon-body{flex:1;min-width:0;}
+.pl-addon-name{font-size:10px;letter-spacing:.28em;font-weight:500;text-transform:uppercase;color:#1B1A18;margin-bottom:.6rem;}
+.pl-addon-text{font-size:.85rem;line-height:1.6;color:#6F685F;max-width:38rem;margin:0;}
+.pl-addon-list{list-style:none;padding:0;margin:.6rem 0 0;display:flex;flex-direction:column;gap:.35rem;}
+.pl-addon-list li{font-size:.8rem;line-height:1.4;color:#6F685F;display:flex;gap:.5rem;align-items:flex-start;}
+.pl-addon-list li::before{content:'–';color:#B0A89E;flex-shrink:0;font-size:.75rem;margin-top:.05rem;}
+.pl-addon-price{font-size:1.4rem;font-weight:300;color:#1B1A18;white-space:nowrap;letter-spacing:-.02em;flex-shrink:0;}
 </style>
 </head>
 <body class="min-h-screen overflow-x-hidden flex flex-col">
@@ -675,34 +675,43 @@ body{background:#fff;color:#1B1A18;-webkit-font-smoothing:antialiased;font-famil
   </div>
 </nav>
 
-<div class="pl-spacer"></div>
 <main class="flex-1">
-  <div class="pl-hero">
-    <p class="pl-eyebrow">${isEn?"Investment Guide 2026/27":"Investment Guide 2026/27"}</p>
-    <h1 class="pl-h1">${isEn?"Pricing":"Preisliste"}</h1>
-    <p class="pl-intro">${isEn ? "Every wedding day is unique. Our packages are a guide — we are happy to tailor them to your day." : "Selbstverständlich ist es uns wichtig, jeden wichtigen Moment eures großen Tages festzuhalten. Unsere Pakete dienen als grobe Orientierung – wir passen sie gerne gemeinsam auf euren Tag ab."}</p>
-  </div>
 
-  <div class="pl-packages">
-    <div class="pl-packages-grid">
-${pkgHtml || `<div style="padding:2rem;color:#8A837A;font-size:.85rem;">Pakete werden aktualisiert…</div>`}
+  <!-- HERO -->
+  <div class="pl-wrap pl-hero">
+    <div class="pl-inner">
+      <span class="eyebrow text-brand-muted mb-6 block">${isEn ? "Investment Guide 2026/27" : "Investment Guide 2026/27"}</span>
+      <h1 class="headline text-[2.8rem] text-brand-text sm:text-[4rem] md:text-[5.5rem] lg:text-[7rem] mb-6">${isEn ? "Pricing" : "Preisliste"}</h1>
+      <p class="text-sm md:text-[0.95rem] leading-relaxed text-brand-muted max-w-xl font-light">${isEn
+        ? "Every wedding day is unique. Our packages serve as a starting point — we are happy to tailor them to your day together."
+        : "Jeder Hochzeitstag ist einzigartig. Unsere Pakete dienen als grobe Orientierung — wir passen sie gerne gemeinsam auf euren Tag ab."}</p>
+
+      <!-- PACKAGES -->
+      <div class="pl-pkg-grid">
+${pkgHtml}
+      </div>
     </div>
   </div>
 
-  <div class="pl-section">
-    <div class="pl-section-inner">
-      <span class="pl-section-label">${isEn?"Additional Services":"Zusätzliche Leistungen"}</span>
-    </div>
-    <div class="pl-addons">
+  <!-- ADDONS -->
+  <div class="pl-wrap py-16 md:py-20">
+    <div class="pl-inner">
+      <span class="eyebrow text-brand-muted mb-8 block">${isEn ? "Additional Services" : "Zusätzliche Leistungen"}</span>
+      <div class="pl-addons">
 ${addonHtml}
+      </div>
     </div>
   </div>
 
-  <div class="pl-cta">
-    <h2 class="pl-cta-title">${isEn?"Any questions about pricing?":"Habt ihr Fragen zu den Preisen?"}</h2>
-    <p class="pl-cta-text">${isEn?"Just write to me — I look forward to hearing about your story.":"Schreibt mir einfach — ich freue mich auf euch und eure Geschichte."}</p>
-    <a href="/contact/" class="pl-cta-btn">${isEn?"Get in touch":"Termin anfragen"}</a>
+  <!-- CTA -->
+  <div class="pl-wrap py-20 md:py-28 border-t border-brand-border">
+    <div class="pl-inner">
+      <span class="eyebrow text-brand-muted mb-6 block">${isEn ? "Contact" : "Anfrage"}</span>
+      <h2 class="headline text-4xl md:text-6xl text-brand-text mb-8">${isEn ? "Any questions?" : "Fragen zu den Preisen?"}</h2>
+      <a href="/contact/" class="inline-block border border-brand-text px-6 py-3 text-xs uppercase tracking-[0.2em] text-brand-text transition hover:bg-brand-text hover:text-white" id="heroContactLink">${isEn ? "Get in touch" : "Termin anfragen"}</a>
+    </div>
   </div>
+
 </main>
 
 <footer class="py-16 px-6 md:px-12 border-t border-brand-border flex flex-col gap-8 text-[10px] md:flex-row md:items-start md:justify-between md:gap-16 md:text-xs text-[#111111] tracking-[0.2em] uppercase font-medium bg-white">
