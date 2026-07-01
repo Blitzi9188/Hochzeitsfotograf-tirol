@@ -564,12 +564,25 @@
         transform: translateY(0);
       }
 
-      .nav-menu-panel > div:first-child,
-      .nav-menu-panel .nav-lang-toggle {
-        width: 100%;
+      .nav-menu-panel > div:first-child {
         flex-direction: column;
         align-items: center;
-        gap: 0.9rem;
+        gap: 1rem;
+      }
+
+      .nav-menu-panel .text-right {
+        text-align: center;
+      }
+
+      .nav-menu-panel a {
+        font-size: 1rem;
+        font-weight: 700;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+      }
+
+      .nav-menu-panel .nav-lang-toggle {
+        display: none;
       }
 
       .floating-lang-toggle {
