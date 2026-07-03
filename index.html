@@ -832,17 +832,15 @@
   <main id="top" data-dynamic-shell>
     <section class="hero-section px-6 pb-0 md:px-12" data-no-pin>
       <div class="mx-auto max-w-[120rem]">
+        <!-- Monumental full-width headline -->
+        <div class="scroll-fade mb-10 md:mb-14">
+          <h1 class="headline text-left text-[3.4rem] leading-[0.93] text-brand-text sm:text-[5.5rem] sm:leading-[0.91] md:text-[8rem] md:leading-[0.88] lg:text-[11.5rem] lg:leading-[0.86] xl:text-[13.5rem]" data-i18n="hero.title">
+            Echte Momente<br>in den Bergen
+          </h1>
+        </div>
+        <!-- Image + CTAs row -->
         <div class="flex flex-col md:grid md:grid-cols-2 md:gap-16 lg:gap-24 md:items-start">
-          <div class="scroll-fade pb-8 md:pb-24">
-            <h1 class="headline text-left text-[2.9rem] leading-[0.98] text-brand-text sm:text-[4.25rem] md:text-[4.6rem] md:leading-[0.94] lg:text-[7rem] lg:leading-[0.9]" data-i18n="hero.title">
-              Echte Momente<br>in den Bergen
-            </h1>
-            <div class="mt-8 flex flex-col items-stretch gap-3 sm:flex-row sm:flex-wrap sm:items-start">
-              <a href="/contact/" class="w-full border border-brand-text px-6 py-3 text-center text-xs uppercase tracking-[0.2em] text-brand-text transition hover:bg-brand-text hover:text-white sm:w-auto" data-i18n="hero.primaryCta" id="heroContactLink">Termin anfragen</a>
-              <a href="/journal/" class="w-full border border-brand-border px-6 py-3 text-center text-xs uppercase tracking-[0.2em] text-brand-muted transition hover:border-brand-text sm:w-auto" data-i18n="hero.secondaryCta" id="heroJournalLink">Journal ansehen</a>
-            </div>
-          </div>
-          <div class="scroll-fade -mx-6 md:mx-0">
+          <div class="scroll-fade -mx-6 md:mx-0 md:order-1">
             <img
               src="/assets/uploads/Blitzkneisser-Mountain-Elopement-Sunrise-Dolomites-208.jpg"
               alt="Hochzeitsfotograf Tirol – Elopement bei Sonnenaufgang in den Dolomiten"
@@ -853,6 +851,12 @@
               height="800"
               id="heroMainImage"
             >
+          </div>
+          <div class="scroll-fade pb-8 md:pb-24 md:order-2 flex flex-col justify-end h-full pt-8 md:pt-0">
+            <div class="flex flex-col items-stretch gap-3 sm:flex-row sm:flex-wrap sm:items-start">
+              <a href="/contact/" class="w-full border border-brand-text px-6 py-3 text-center text-xs uppercase tracking-[0.2em] text-brand-text transition hover:bg-brand-text hover:text-white sm:w-auto" data-i18n="hero.primaryCta" id="heroContactLink">Termin anfragen</a>
+              <a href="/journal/" class="w-full border border-brand-border px-6 py-3 text-center text-xs uppercase tracking-[0.2em] text-brand-muted transition hover:border-brand-text sm:w-auto" data-i18n="hero.secondaryCta" id="heroJournalLink">Journal ansehen</a>
+            </div>
           </div>
         </div>
       </div>
