@@ -1933,7 +1933,10 @@
         ? content.heroImages.filter((item) => item && item.image)
         : [];
       const currentHeroImage = heroImages.find((item) => item.image === window.__selectedHeroImagePath);
-      const chosenHeroImage = currentHeroImage || heroImages[0] || null;
+      const randomHeroImage = heroImages.length > 1
+        ? heroImages[Math.floor(Math.random() * heroImages.length)]
+        : (heroImages[0] || null);
+      const chosenHeroImage = currentHeroImage || randomHeroImage || null;
       const heroImage = chosenHeroImage?.image || content.featuredImage || "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14-lcp.jpg";
       const heroAlt = lang === "en"
         ? (chosenHeroImage?.altEn || chosenHeroImage?.alt || content.featuredImageAlt || content.hero?.title || heroMainImage?.alt || "Homepage hero image")
