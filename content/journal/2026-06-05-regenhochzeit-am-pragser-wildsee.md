@@ -23,6 +23,18 @@ galleryOutroTextEn: "If you can imagine spending your wedding day at a place lik
 bodyEn: "There's a belief that a perfect wedding requires blue skies and warm sunshine. But anyone who has ever stood at Lago di Braies when mist rolls over the water and raindrops trace quiet circles on the surface of that impossibly blue lake knows: perfection is something else entirely.\nJenny and Matt chose this place for their wedding day with full intention. And the weather gave them something no sunny forecast could have offered – a mood so raw, so tender and so completely their own that it still feels like a dream looking back at these images.\nThe rain at Lago di Braies doesn't feel like bad luck. It feels like the mountains breathing. The mist softens every edge, the sound of rain on still water becomes a kind of music, and the light – filtered through clouds and reflected off the turquoise surface – turns everything it touches into something quietly extraordinary.\nJenny and Matt moved through their day with an ease that only comes when two people are exactly where they're meant to be. There was no rushing for shelter, no disappointed glances at the sky. Instead, there were quiet looks, slow walks along the lakeshore and moments of complete presence that only rain seems to make possible.\nIf you've been wondering whether a mountain wedding is possible when the forecast isn't perfect – this day is your answer."
 showToc: false
 gallery:
+  - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-1.jpg
+    alt: Brautpaar am Pragser Wildsee bei Regen – Regenhochzeit in den Dolomiten
+    link: ""
+  - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-2.jpg
+    alt: Braut im Hochzeitskleid am Ufer des Pragser Wildsees im Nebel
+    link: ""
+  - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-3.jpg
+    alt: Intimer Moment des Brautpaares am Pragser Wildsee bei bewölktem Himmel
+    link: ""
+  - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-4.jpg
+    alt: Regenhochzeit Pragser Wildsee – Brautpaar im Regen mit Blick auf den See
+    link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-5.jpg
     alt: Hochzeitsfotografie am Pragser Wildsee – natürliches Licht bei Regen
     link: ""
