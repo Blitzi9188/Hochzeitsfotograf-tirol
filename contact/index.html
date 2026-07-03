@@ -316,7 +316,11 @@
       }
 
       .nav-menu-panel .nav-lang-toggle {
-        display: none;
+        display: flex;
+        flex-direction: row;
+        gap: 0.5rem;
+        justify-content: center;
+        margin-top: 0.5rem;
       }
 
       .floating-lang-toggle {
@@ -332,6 +336,17 @@
         backdrop-filter: blur(14px);
         border: 1px solid #E6DED4;
         box-shadow: 0 12px 30px rgba(27, 26, 24, 0.08);
+      }
+
+      .floating-lang-toggle {
+        width: 2.75rem !important;
+        height: 2.75rem !important;
+        padding: 0 !important;
+        justify-content: center !important;
+      }
+
+      .floating-lang-toggle button[data-lang-button] {
+        display: none !important;
       }
 
       .floating-lang-toggle button {
@@ -425,9 +440,14 @@
     </div>
   </nav>
 
-  <div class="floating-lang-toggle" id="floatingLangToggle" aria-label="Sprache wechseln">
-    <button type="button" data-lang-button="de" aria-pressed="true">DE</button>
-    <button type="button" data-lang-button="en" aria-pressed="false">EN</button>
+  <div class="floating-lang-toggle" id="floatingBackToTop" aria-label="Nach oben scrollen" role="button" tabindex="0" onclick="window.scrollTo({top:0,behavior:'smooth'})" onkeydown="if(event.key==='Enter')window.scrollTo({top:0,behavior:'smooth'})">
+    <span class="back-to-top-icon" aria-hidden="true">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M8 13V3M8 3L3 8M8 3L13 8" stroke="#1B1A18" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </span>
+    <button type="button" data-lang-button="de" aria-pressed="true" style="display:none">DE</button>
+    <button type="button" data-lang-button="en" aria-pressed="false" style="display:none">EN</button>
   </div>
 
   <main data-dynamic-shell>

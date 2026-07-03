@@ -218,7 +218,7 @@
   };
 
   const defaultMenuItems = [
-    { id: "home", labelDe: "Home", labelEn: "Home", visible: true, order: 1 },
+    { id: "home", labelDe: "Home", labelEn: "Home", visible: false, order: 1 },
     { id: "experience", labelDe: "Experience", labelEn: "Experience", visible: true, order: 2 },
     { id: "guides", labelDe: "Guides", labelEn: "Guides", visible: true, order: 3 },
     { id: "journal", labelDe: "Journal", labelEn: "Journal", visible: true, order: 4 },

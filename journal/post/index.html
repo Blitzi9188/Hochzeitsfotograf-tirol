@@ -289,7 +289,11 @@
       }
 
       .nav-menu-panel .nav-lang-toggle {
-        display: none;
+        display: flex;
+        flex-direction: row;
+        gap: 0.5rem;
+        justify-content: center;
+        margin-top: 0.5rem;
       }
 
       .floating-lang-toggle {
@@ -305,6 +309,17 @@
         backdrop-filter: blur(14px);
         border: 1px solid #E5E0D8;
         box-shadow: 0 12px 30px rgba(27, 26, 24, 0.08);
+      }
+
+      .floating-lang-toggle {
+        width: 2.75rem !important;
+        height: 2.75rem !important;
+        padding: 0 !important;
+        justify-content: center !important;
+      }
+
+      .floating-lang-toggle button[data-lang-button] {
+        display: none !important;
       }
 
       .floating-lang-toggle button {
@@ -355,9 +370,14 @@
     </div>
   </header>
 
-  <div class="floating-lang-toggle" id="floatingLangToggle" aria-label="Sprache wechseln">
-    <button type="button" data-lang-button="de" aria-pressed="true">DE</button>
-    <button type="button" data-lang-button="en" aria-pressed="false">EN</button>
+  <div class="floating-lang-toggle" id="floatingBackToTop" aria-label="Nach oben scrollen" role="button" tabindex="0" onclick="window.scrollTo({top:0,behavior:'smooth'})" onkeydown="if(event.key==='Enter')window.scrollTo({top:0,behavior:'smooth'})">
+    <span class="back-to-top-icon" aria-hidden="true">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M8 13V3M8 3L3 8M8 3L13 8" stroke="#1B1A18" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </span>
+    <button type="button" data-lang-button="de" aria-pressed="true" style="display:none">DE</button>
+    <button type="button" data-lang-button="en" aria-pressed="false" style="display:none">EN</button>
   </div>
 
   <main class="pt-48" data-dynamic-shell>
@@ -430,12 +450,17 @@
     </section>
   </main>
 
-  <footer class="py-16 px-6 md:px-12 border-t border-brand-border flex flex-col md:flex-row justify-between items-start md:items-center text-[10px] md:text-xs text-brand-muted tracking-[0.2em] uppercase font-medium bg-brand-bg">
-    <div id="footerBrandText">© 2026 Blitzkneisser Photography</div>
-    <div class="flex flex-col md:flex-row gap-6 md:gap-12 mt-8 md:mt-0">
-      <a id="footerInstagramLink" href="#" class="hover:text-brand-text transition-colors duration-300">Instagram</a>
-      <a id="footerContactLink" href="/contact/" class="hover:text-brand-text transition-colors duration-300" data-i18n="nav.contact">Contact</a>
-      <a id="footerJournalLink" href="/journal/" class="hover:text-brand-text transition-colors duration-300">Journal</a>
+  <footer class="py-10 px-6 md:px-12 border-t border-brand-border text-[10px] md:text-xs text-brand-muted tracking-[0.2em] uppercase font-medium bg-brand-bg">
+    <div class="mx-auto max-w-[120rem] flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
+      <div id="footerBrandText">© 2026 Blitzkneisser – Innsbruck, Tirol</div>
+      <div class="flex flex-wrap gap-5 md:gap-10">
+        <a href="https://instagram.com/blitzkneisser" target="_blank" rel="noreferrer" class="hover:text-brand-text transition-colors duration-300" id="footerInstagramLink">Instagram</a>
+        <a href="/contact/" class="hover:text-brand-text transition-colors duration-300" id="footerContactLink">Kontakt</a>
+        <a href="/journal/" class="hover:text-brand-text transition-colors duration-300" id="footerJournalLink">Journal</a>
+        <a href="/dsgvo/" class="hover:text-brand-text transition-colors duration-300">DSGVO</a>
+        <a href="/impressum/" class="hover:text-brand-text transition-colors duration-300">Impressum</a>
+        <a href="/agb/" class="hover:text-brand-text transition-colors duration-300">AGB</a>
+      </div>
     </div>
     <div id="footerInstagramFeed" class="footer-instagram-feed"></div>
   </footer>
