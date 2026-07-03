@@ -1007,16 +1007,15 @@
             const pinUrl = `https://www.pinterest.com/pin/create/button/?url=${pageUrl}&media=${imgSrc}&description=${pinDescription}`;
             const altText = currentLang === "en" ? (item.altEn || item.alt || "") : (item.alt || item.altEn || "");
             return `
-              <a href="${pinUrl}" target="_blank" rel="noopener noreferrer"
-                class="group relative block aspect-[4/5] overflow-hidden bg-gray-100"
-                aria-label="Auf Pinterest merken">
-                <img src="${item.image}" alt="${altText}" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" decoding="async">
-                <div class="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300 flex items-center justify-center">
-                  <span class="opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-[#e60023] text-white text-[10px] uppercase tracking-[0.2em] font-medium px-4 py-2">
-                    ⊕ Pin it
-                  </span>
-                </div>
-              </a>
+              <div data-no-pin>
+                <a href="${pinUrl}" target="_blank" rel="noopener noreferrer" aria-label="Auf Pinterest merken" style="display:block;">
+                  <img src="${item.image}" alt="${altText}" class="w-full object-cover" style="aspect-ratio:4/5;" loading="lazy" decoding="async">
+                </a>
+                <a href="${pinUrl}" target="_blank" rel="noopener noreferrer"
+                  style="display:inline-block;margin-top:0.5rem;font-size:0.55rem;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:#e60023;text-decoration:none;">
+                  ⊕ PIN IT
+                </a>
+              </div>
             `;
           }).join("");
           pinterestEyebrow.textContent = currentLang === "en" ? "Share on Pinterest" : "Auf Pinterest teilen";
