@@ -50,14 +50,8 @@
 
       @media (hover: none) {
         .pin-badge {
-          opacity: 1;
+          opacity: 0.96;
           transform: none;
-          background: rgba(230, 0, 35, 0.85);
-          color: #fff;
-          text-shadow: none;
-          padding: 0.25rem 0.5rem;
-          border-radius: 2px;
-          font-size: 0.55rem;
         }
       }
     `;
