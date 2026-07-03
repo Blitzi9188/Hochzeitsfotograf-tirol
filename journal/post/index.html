@@ -10,6 +10,11 @@
   >
   <link rel="canonical" href="">
   <link rel="icon" type="image/png" href="/Logo-Blitzkneisser-BERG.png">
+  <!-- Pinterest Rich Pins -->
+  <meta name="pinterest-rich-pin" content="true">
+  <meta property="og:type" content="article">
+  <meta property="article:author" content="Blitzkneisser Photography">
+  <meta property="og:site_name" content="Blitzkneisser – Hochzeitsfotograf Tirol">
   <script defer src="/assets/seo.js"></script>
   <script src="https://cdn.tailwindcss.com/3.4.17"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -432,6 +437,15 @@
     </section>
 
     <section class="max-w-4xl mx-auto px-6 mb-32" id="galleryOutroSection"></section>
+
+    <!-- Pinterest Share Section -->
+    <section class="max-w-5xl mx-auto px-6 mb-32" id="pinterestSection" style="display:none">
+      <div class="border-t border-brand-border pt-16">
+        <p class="text-[10px] uppercase tracking-[0.28em] font-medium text-brand-muted mb-4" id="pinterestEyebrow">Auf Pinterest teilen</p>
+        <h3 class="headline text-2xl md:text-3xl mb-10" id="pinterestHeading">Bilder auf Pinterest merken</h3>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4" id="pinterestGrid"></div>
+      </div>
+    </section>
 
     <section class="mb-48">
       <div class="full-bleed-container h-[80vh] image-hover-container relative">
@@ -968,6 +982,48 @@
         <h3 class="headline text-2xl md:text-3xl mb-6">${partnersHeading}</h3>
         <div class="prose-entry">${textToPartnerMarkup(partnersText)}</div>
       ` : "";
+
+      // Pinterest Section: pick every 7th image (up to 6 picks) for a curated grid
+      const pinterestSection = document.getElementById("pinterestSection");
+      const pinterestGrid = document.getElementById("pinterestGrid");
+      const pinterestEyebrow = document.getElementById("pinterestEyebrow");
+      const pinterestHeading = document.getElementById("pinterestHeading");
+      if (pinterestSection && pinterestGrid && Array.isArray(entry.gallery) && entry.gallery.length > 0) {
+        const allGallery = entry.gallery;
+        const step = Math.max(1, Math.floor(allGallery.length / 6));
+        const picks = [];
+        for (let pi = 0; pi < allGallery.length && picks.length < 6; pi += step) {
+          picks.push(allGallery[pi]);
+        }
+        if (picks.length > 0) {
+          const pageUrl = encodeURIComponent(window.location.origin + window.location.pathname);
+          const pinDescription = encodeURIComponent(
+            currentLang === "en"
+              ? (entry.seoTitleEn || entry.titleEn || entry.title || "Blitzkneisser Photography")
+              : (entry.seoTitle || entry.title || "Blitzkneisser Photography")
+          );
+          pinterestGrid.innerHTML = picks.map(item => {
+            const imgSrc = encodeURIComponent(window.location.origin + item.image);
+            const pinUrl = `https://www.pinterest.com/pin/create/button/?url=${pageUrl}&media=${imgSrc}&description=${pinDescription}`;
+            const altText = currentLang === "en" ? (item.altEn || item.alt || "") : (item.alt || item.altEn || "");
+            return `
+              <a href="${pinUrl}" target="_blank" rel="noopener noreferrer"
+                class="group relative block aspect-[4/5] overflow-hidden bg-gray-100"
+                aria-label="Auf Pinterest merken">
+                <img src="${item.image}" alt="${altText}" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" decoding="async">
+                <div class="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300 flex items-center justify-center">
+                  <span class="opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-[#e60023] text-white text-[10px] uppercase tracking-[0.2em] font-medium px-4 py-2">
+                    ⊕ Pin it
+                  </span>
+                </div>
+              </a>
+            `;
+          }).join("");
+          pinterestEyebrow.textContent = currentLang === "en" ? "Share on Pinterest" : "Auf Pinterest teilen";
+          pinterestHeading.textContent = currentLang === "en" ? "Save these images to Pinterest" : "Bilder auf Pinterest merken";
+          pinterestSection.style.display = "";
+        }
+      }
     };
 
     const applyLanguage = (lang) => {
