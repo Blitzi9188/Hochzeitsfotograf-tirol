@@ -18,3 +18,4 @@ private/runtime/*
 # Local helper / non-site artifacts
 .tmp_translate_preisliste.py
 Türschilder/
+T*rschilder/

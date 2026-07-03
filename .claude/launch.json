@@ -1,0 +1,24 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "hub",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["vite", "/Users/blitzkneisser/Documents/New project"],
+      "port": 5173
+    },
+    {
+      "name": "homepage",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
+      "port": 8001
+    },
+    {
+      "name": "photo-kiss",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
+      "cwd": "../photo-kiss mit CMS/photo-kiss-claude-handoff",
+      "port": 3000
+    }
+  ]
+}
