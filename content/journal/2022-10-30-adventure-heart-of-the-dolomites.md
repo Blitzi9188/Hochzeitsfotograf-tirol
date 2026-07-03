@@ -21,6 +21,8 @@ galleryOutroHeadingEn: ""
 galleryOutroText: ""
 galleryOutroTextEn: ""
 bodyEn: "A Love Story with Adventure\n\nIn the Dolomites, Kailee and Evan embarked on a unique wedding adventure. They exchanged vows on a breathtaking cliffside overlooking the iconic Three Peaks. Accompanied by musicians upon arrival, against the backdrop of towering peaks, they pledged eternal love—a magical and profound moment."
+teaserDescription: "Gelübde an einem Fels. Musiker. Drei Zinnen. Ein Tag, der sich nicht erfunden anfühlt."
+teaserDescriptionEn: "Vows on a cliff edge. Live music. Three Peaks. A day that doesn't feel invented."
 showToc: false
 gallery:
   - image: "https://blitzkneisser.com/wp-content/uploads/2020/10/Blitzkneisser-Eloepement-Dolomites-Sneak-Peak-4-scaled.jpg"

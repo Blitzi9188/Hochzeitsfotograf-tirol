@@ -21,6 +21,8 @@ galleryOutroHeadingEn: ""
 galleryOutroText: ""
 galleryOutroTextEn: ""
 bodyEn: "Unforgettable Sunrise Elopement in the Dolomites\n\nAs the first golden rays touched the Dolomites, Aubrey and Matt exchanged vows at sunrise, creating a magical moment together. Their two enchanting daughters stood by their side, making the ceremony even more special."
+teaserDescription: "Vor dem ersten Licht. Kein Mensch, kein Lärm – nur die Berge und ihr Versprechen."
+teaserDescriptionEn: "Before first light. No people, no noise – just the mountains and their vow."
 showToc: false
 gallery:
   - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-1.jpg"

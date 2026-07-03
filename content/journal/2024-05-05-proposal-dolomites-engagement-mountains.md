@@ -21,6 +21,8 @@ galleryOutroHeadingEn: ""
 galleryOutroText: ""
 galleryOutroTextEn: ""
 bodyEn: "Unforgettable Proposal Photo-Shooting in the Mountains\n\nA proposal in the mountains is unforgettable. Imagine standing atop a peak in the Auflagen Mountains, surrounded by majestic nature. The crisp mountain air fills your lungs as the sun rises or sets, painting the sky in stunning colors."
+teaserDescription: "Er hatte den Ring. Die Berge hatten den Rest."
+teaserDescriptionEn: "He had the ring. The mountains had the rest."
 showToc: false
 gallery:
   - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Engagement-Dolomites-75-scaled.jpg"

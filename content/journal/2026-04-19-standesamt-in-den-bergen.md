@@ -21,6 +21,8 @@ galleryOutroHeadingEn: "In collaboration with:"
 galleryOutroText: "Hubschrauber:\nwww.elikos.com\n\nPlanung:\nwww.mountain-elopement.com\n\nBlumen:\nwww.blumenfee-karin.at"
 galleryOutroTextEn: "Helicopter:\nwww.elikos.com\n\nPlanning:\nwww.mountain-elopement.com\n\nFlowers:\nwww.blumenfee-karin.at"
 bodyEn: "After their wedding in Bolzano, it quickly became clear to Lisa and Dom that they wanted to return to the mountains together again. For her personal after-wedding shoot, she took a helicopter high up into the Dolomites early in the morning - far away from everyday life and the familiar paths.\nHigh above the valleys, between quiet peaks, cold morning air and the first rays of sun, honest and intimate moments were created in the middle of the mountains. Instead of a big drama, it was all about experiencing this morning together and really feeling the peace of the Dolomites."
+teaserDescription: "Kein Bankett. Kein Protokoll. Nur sie, die Berge und das erste Ja."
+teaserDescriptionEn: "No banquet. No protocol. Just them, the mountains and the very first yes."
 showToc: true
 gallery:
   - image: /assets/uploads/Blitzkneisser-After-Wedding-Dolomites-9.jpg

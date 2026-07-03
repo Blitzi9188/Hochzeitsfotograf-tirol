@@ -21,6 +21,8 @@ galleryOutroHeadingEn: ""
 galleryOutroText: ""
 galleryOutroTextEn: ""
 bodyEn: "Pizza Elopement party in the middle of the red glowing Dolomites\n\nIn the heart of the Dolomites, Mountain Elopement orchestrated a magical ceremony for Tayla & Garnet. Featuring Pizza Chef Andreas, this enchanting event combined breathtaking views with culinary surprises."
+teaserDescription: "Hubschrauber. Drei Zinnen. Selbstgemachte Pizza. Und das war erst der Anfang."
+teaserDescriptionEn: "Helicopter. Three Peaks. Homemade pizza. And that was just the beginning."
 showToc: false
 gallery:
   - image: "https://blitzkneisser.com/wp-content/uploads/2024/03/Blitzkneisser-Pizza-Elopement-Dolomits-2-scaled.jpg"

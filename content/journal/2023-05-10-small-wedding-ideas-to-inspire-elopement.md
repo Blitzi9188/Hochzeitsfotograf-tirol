@@ -21,6 +21,8 @@ galleryOutroHeadingEn: ""
 galleryOutroText: ""
 galleryOutroTextEn: ""
 bodyEn: "Where Love Blossoms amidst Crystal Waters and Crimson Dolomites\n\nNestled in the Dolomites, Lago di Braies is a hidden gem with clear waters mirroring the surrounding beauty. For one couple, it became the picturesque backdrop for their elopement, a celebration of love amidst nature’s splendor."
+teaserDescription: "Das Wasser so klar, man konnte bis auf den Grund sehen. Und doch blieb der Blick bei ihnen."
+teaserDescriptionEn: "The water so clear you could see the bottom. And yet their eyes never left each other."
 showToc: false
 gallery:
   - image: "https://blitzkneisser.com/wp-content/uploads/2023/05/Blitzkneisser-Elopement-Dolomites-Prags-Zinnen-1-scaled.jpg"

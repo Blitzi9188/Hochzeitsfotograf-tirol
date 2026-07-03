@@ -1730,7 +1730,7 @@
         .split("\n")
         .map((line) => line.trim())
         .find((line) => line && !/^[-*]\s/.test(line));
-      return (firstParagraph || "").slice(0, 190).trim();
+      return (firstParagraph || "").slice(0, 80).trim();
     };
 
     const formatJournalMetaDate = (value, lang) => {

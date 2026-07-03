@@ -22,20 +22,20 @@
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        padding: 0.1rem 0.2rem;
+        padding: 0;
         border: 0;
         background: transparent;
         text-decoration: none;
-        font-size: 0.6rem;
-        font-weight: 500;
-        letter-spacing: 0.08em;
+        font-size: 0.55rem;
+        font-weight: 600;
+        letter-spacing: 0.12em;
         text-transform: uppercase;
         line-height: 1;
         color: #e60023;
-        text-shadow: 0 1px 2px rgba(255, 255, 255, 0.35);
+        text-shadow: 0 1px 3px rgba(255,255,255,0.6);
         opacity: 0;
-        transform: translateY(-6px);
-        transition: opacity 0.25s ease, transform 0.25s ease, color 0.25s ease;
+        transform: translateY(-4px);
+        transition: opacity 0.2s ease, transform 0.2s ease;
       }
 
       .pin-badge:hover {
@@ -50,7 +50,7 @@
 
       @media (hover: none) {
         .pin-badge {
-          opacity: 0.96;
+          opacity: 0.85;
           transform: none;
         }
       }
