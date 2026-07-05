@@ -140,17 +140,17 @@ const syncSeededPath = async (sourcePath, targetPath) => {
 
   await fsp.mkdir(path.dirname(targetPath), { recursive: true });
 
+  // Only copy if the file does not yet exist in the persistent volume.
+  // This preserves any edits made via the CMS admin panel on the live server
+  // while still seeding new files (e.g. new blog posts) on every deploy.
   try {
-    const targetStat = await fsp.stat(targetPath);
-    if (targetStat.isFile() && targetStat.mtimeMs >= sourceStat.mtimeMs) {
-      return;
-    }
+    await fsp.stat(targetPath);
+    return; // File already exists – keep the live/CMS version.
   } catch {
     // Target does not exist yet, so we copy it below.
   }
 
   await fsp.copyFile(sourcePath, targetPath);
-  await fsp.utimes(targetPath, sourceStat.atime, sourceStat.mtime);
 };
 
 const ensurePersistentDataRoot = async () => {
