@@ -12,6 +12,8 @@
   <link rel="icon" type="image/png" href="/Logo-Blitzkneisser-BERG.png">
   <!-- Pinterest Rich Pins -->
   <meta name="pinterest-rich-pin" content="true">
+  <!-- Pinterest Domain Verification – replace content value with your code from pinterest.com/settings/claim -->
+  <meta name="p:domain_verify" content="REPLACE_WITH_YOUR_CODE">
   <meta property="og:type" content="article">
   <meta property="article:author" content="Blitzkneisser Photography">
   <meta property="og:site_name" content="Blitzkneisser – Hochzeitsfotograf Tirol">
@@ -344,7 +346,7 @@
     <nav class="w-full px-6 py-5 text-brand-text md:px-12 md:py-8" id="mainNav">
       <div class="relative mx-auto flex max-w-[120rem] items-center justify-between gap-6">
         <a href="/" id="navHomeLink" class="group flex items-center no-underline text-current" aria-label="Blitzkneisser Photography">
-          <img src="/Logo-Blitzkneisser-BERG.png" alt="Blitzkneisser Photography" class="h-11 w-auto brightness-0 contrast-125 opacity-70 md:h-14">
+          <img src="/Logo-Blitzkneisser-BERG.png" alt="Blitzkneisser Photography" class="h-11 w-auto brightness-0 contrast-125 opacity-70 md:h-14" data-pin-nopin="true">
         </a>
         <div class="pointer-events-none absolute left-1/2 hidden -translate-x-1/2 md:block text-[10px] uppercase tracking-[0.2em] font-medium whitespace-nowrap text-brand-text" id="readLabelCentered">0% Read</div>
         <div class="pointer-events-none absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 md:hidden text-[10px] uppercase tracking-[0.2em] font-medium whitespace-nowrap text-brand-text" id="readLabel">0% Read</div>
@@ -775,7 +777,16 @@
         const imageAlt = currentLang === "en"
           ? (item.altEn || item.alt || "Gallery image")
           : (item.alt || item.altEn || "Galeriebild");
-        const imageMarkup = `<img src="${item.image}" alt="${imageAlt}" class="w-full h-full object-cover" loading="lazy" decoding="async">`;
+        const entryTitle = currentEntryData
+          ? (currentLang === "en" ? (currentEntryData.titleEn || currentEntryData.title) : currentEntryData.title) || ""
+          : "";
+        const pinBase = currentEntryData?.pinDescription
+          ? currentEntryData.pinDescription
+          : `${imageAlt}. Dolomites mountain elopement photography by Blitzkneisser.`;
+        const pinDescription = currentEntryData?.pinDescription
+          ? pinBase
+          : (imageAlt ? `${imageAlt}. ${entryTitle ? entryTitle + '. ' : ''}Dolomites mountain elopement photography by Blitzkneisser.` : pinBase);
+        const imageMarkup = `<img src="${item.image}" alt="${imageAlt}" class="w-full h-full object-cover" loading="lazy" decoding="async" data-pin-description="${pinDescription.replace(/"/g, '&quot;')}" data-pin-url="${window.location.href}">`;
         if (item.link) {
           return `<a href="${item.link}" class="block h-full w-full">${imageMarkup}</a>`;
         }
@@ -947,6 +958,10 @@
       ensureHeadMeta('meta[property="og:image"]', {
         property: "og:image",
         content: entry.featuredImage || "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw=="
+      });
+      ensureHeadMeta('meta[property="og:url"]', {
+        property: "og:url",
+        content: window.location.href.split("?")[0]
       });
 
       document.getElementById("entryEyebrow").textContent = t.featurePrefix;

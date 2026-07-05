@@ -796,7 +796,7 @@
   >
     <div class="mx-auto flex max-w-[120rem] items-center justify-between gap-6">
       <a href="#top" class="group flex items-center" id="brandHomeLink" aria-label="Blitzkneisser Photography">
-        <img src="/Logo-Blitzkneisser-BERG.png" alt="Blitzkneisser Photography" class="h-11 w-auto brightness-0 contrast-125 opacity-70 md:h-14">
+        <img src="/Logo-Blitzkneisser-BERG.png" alt="Blitzkneisser Photography" class="h-11 w-auto brightness-0 contrast-125 opacity-70 md:h-14" data-pin-nopin="true">
       </a>
       <button type="button" class="mobile-menu-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenuPanel" aria-label="Menü öffnen">
         <span></span>
@@ -843,6 +843,7 @@
           width="1200"
           height="800"
           id="heroMainImage"
+          data-pin-nopin="true"
         >
       </div>
       <!-- Monumental headline + CTAs – weißer Hintergrund, Abstand zum Bild -->
@@ -1768,6 +1769,8 @@
                 alt="${entry.alt}"
                 class="h-full w-full object-cover"
                 loading="lazy"
+                data-pin-description="${(entry.alt || entry.title || '').replace(/"/g, '&quot;')}. Dolomites mountain elopement photography by Blitzkneisser."
+                data-pin-url="${entry.url}"
               >
             </div>
             <div class="mt-6 flex items-center justify-between gap-4 text-[10px] uppercase tracking-[0.24em] text-brand-muted">
