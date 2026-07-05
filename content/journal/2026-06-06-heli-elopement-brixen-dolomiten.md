@@ -1,7 +1,7 @@
 ---
 lang: de
-title: Helikopter-Elopement in den Dolomiten
-titleEn: Helicopter Elopement in the Dolomites
+title: Helikopter-Elopement in den Dolomiten – Jasmi & Dominik
+titleEn: Helicopter Elopement in the Dolomites – Jasmi & Dominik
 author: Blitzkneisser
 date: "2026-06-06T10:00:00.000Z"
 readingTime: ""
