@@ -11,7 +11,7 @@ seoDescription: Der Pragser Wildsee fühlt sich am frühen Morgen oft deutlich r
 seoDescriptionEn: Lake Braies often feels much quieter and more personal early in the morning than later in the day.
 featuredImage: "https://blitzkneisser.com/wp-content/uploads/2024/01/Blitzkneisser-Elopement-Dolomites-Prags-Zinnen-144-scaled.jpg"
 featuredImageAlt: Lago di Breies, Fotograf, Blitzkneisser, Hochzeit, Elopement
-featuredImageAltEn: lago di Breies, Fotograf, Blitzkneisser, Wedding, Elopement
+featuredImageAltEn: Couple elopement at Lago di Braies Dolomites | intimate mountain wedding photographer Blitzkneisser
 galleryIntroHeading: ""
 galleryIntroHeadingEn: ""
 galleryIntroText: "Als die Sonne aufging und den Himmel golden und rosa färbte, gaben sie sich am Ufer des Pragser Wildsees das Ja-Wort. Das ruhige Wasser spiegelte ihre Liebe wider und schuf einen magischen Moment, umarmt von den purpurroten Dolomitengipfeln.\n\nNach der Zeremonie reisten das Paar und ihr Hochzeitsplaner nach Tre Cime di Lavaredo/Cadini di Misurina. Inmitten hoch aufragender Gipfel und Panoramablick bekräftigten sie ihr Gelübde, umgeben von der ungezähmten Schönheit der Berge.\n\nWenn Sie Hilfe bei der Planung des perfekten See-Elopements benötigen, freue ich mich, von Ihnen zu hören! Ich bin darauf spezialisiert, jedes Detail zu planen und diesen unvergesslichen Moment in atemberaubenden Fotos festzuhalten. Ich helfe Ihnen dabei, ein magisches und unvergessliches Erlebnis am See zu schaffen."

@@ -11,7 +11,7 @@ seoDescription: Zwischen Sonnenaufgang, Bergen und stillen Wegen entstand ein Af
 seoDescriptionEn: Between sunrise, mountains and quiet paths, an after wedding shoot was created that felt easy and natural.
 featuredImage: /assets/uploads/Blitzkneisser-After-Wedding-Dolomites-2.jpg
 featuredImageAlt: Am Gipfel der Liebe, Fotoshooting, Dolomiten, Morgenlicht
-featuredImageAltEn: At the peak of love, photo shoot, Dolomites, morning light
+featuredImageAltEn: After wedding shoot in the Dolomites at sunrise | helicopter mountain elopement photography by Blitzkneisser
 galleryIntroHeading: HERBSTLICHES LICHT UND RUHIGE MOMENTE IN DEN DOLOMITEN
 galleryIntroHeadingEn: AUTUMNAL LIGHT AND CALM MOMENTS IN THE DOLOMITES
 galleryIntroText: "Dort oben erwartete uns absolute Stille — keine Menschenmengen, keine Geräusche, nur die Berge und das erste Licht des Tages. Besonders im Herbst wirken die Dolomiten in den frühen Morgenstunden fast unwirklich. Wenn die Sonne langsam über die zerklüfteten Gipfel zieht und die Landschaft in warme Farben taucht, verändert sich die Stimmung von Minute zu Minute.\nFür Lisa und Dom wurde dieses After Wedding Shooting nicht nur zu einem besonderen Abenteuer, sondern zu einer Erinnerung, die sich auch Jahre später noch genauso echt anfühlt wie an diesem Morgen."

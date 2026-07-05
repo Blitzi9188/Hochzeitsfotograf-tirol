@@ -1770,7 +1770,7 @@
                 alt="${entry.alt}"
                 class="h-full w-full object-cover"
                 loading="lazy"
-                data-pin-description="${(entry.alt || entry.title || '').replace(/"/g, '&quot;')}. Dolomites mountain elopement photography by Blitzkneisser."
+                data-pin-description="${(entry.alt || entry.titleEn || entry.title || '').replace(/"/g, '&quot;')}. ${entry.titleEn ? entry.titleEn + '. ' : ''}Dolomites mountain elopement photography by Blitzkneisser."
                 data-pin-url="${entry.url}"
               >
             </div>
@@ -1805,7 +1805,8 @@
         const slug = getJournalSlugFromPath(path);
         const title = data.title || (lang === "en" ? "Journal Story" : "Journal-Beitrag");
         const image = data.featuredImage || "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-14.jpg";
-        const alt = data.featuredImageAlt || title;
+        // Always use English alt for journal card images so Pinterest pulls English text
+        const alt = data.featuredImageAltEn || data.featuredImageAlt || title;
         const excerpt = (lang === "en"
           ? (data.teaserDescriptionEn || data.teaserDescription || "")
           : (data.teaserDescription || data.teaserDescriptionEn || "")) || excerptFromMarkdownBody(body) || data.seoDescription || (lang === "en"
@@ -1817,8 +1818,11 @@
         const metaLabel = formatJournalMetaDate(data.date, lang);
         const url = lang === "en" ? `/journal/${slug}/?lang=en` : `/journal/${slug}/`;
 
+        // Always use English title for Pinterest pin descriptions
+        const titleEn = data.titleEn || data.title || title;
         return {
           title,
+          titleEn,
           image,
           alt,
           excerpt,

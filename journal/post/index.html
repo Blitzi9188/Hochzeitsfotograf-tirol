@@ -777,15 +777,17 @@
         const imageAlt = currentLang === "en"
           ? (item.altEn || item.alt || "Gallery image")
           : (item.alt || item.altEn || "Galeriebild");
+        // pinAlt always uses English so Pinterest always gets English text (even via right-click)
+        const pinAlt = item.altEn || item.alt || imageAlt;
         const entryTitle = currentEntryData
-          ? (currentLang === "en" ? (currentEntryData.titleEn || currentEntryData.title) : currentEntryData.title) || ""
+          ? (currentEntryData.titleEn || currentEntryData.title) || ""
           : "";
         const pinBase = currentEntryData?.pinDescription
           ? currentEntryData.pinDescription
-          : `${imageAlt}. Dolomites mountain elopement photography by Blitzkneisser.`;
+          : `${pinAlt}. Dolomites mountain elopement photography by Blitzkneisser.`;
         const pinDescription = currentEntryData?.pinDescription
           ? pinBase
-          : (imageAlt ? `${imageAlt}. ${entryTitle ? entryTitle + '. ' : ''}Dolomites mountain elopement photography by Blitzkneisser.` : pinBase);
+          : (pinAlt ? `${pinAlt}. ${entryTitle ? entryTitle + '. ' : ''}Dolomites mountain elopement photography by Blitzkneisser.` : pinBase);
         const imageMarkup = `<img src="${item.image}" alt="${imageAlt}" class="w-full h-full object-cover" loading="lazy" decoding="async" data-pin-description="${pinDescription.replace(/"/g, '&quot;')}" data-pin-url="${window.location.href}">`;
         if (item.link) {
           return `<a href="${item.link}" class="block h-full w-full">${imageMarkup}</a>`;

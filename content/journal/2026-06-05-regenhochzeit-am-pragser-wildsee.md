@@ -27,225 +27,299 @@ showToc: false
 gallery:
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-1.jpg
     alt: Brautpaar am Pragser Wildsee bei Regen – Regenhochzeit in den Dolomiten
+    altEn: Couple at Lago di Braies in the rain | rainy wedding Dolomites | mountain elopement photographer
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-2.jpg
     alt: Braut im Hochzeitskleid am Ufer des Pragser Wildsees im Nebel
+    altEn: Bride in wedding dress on the shore of Lago di Braies in the mist | Dolomites elopement photographer
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-3.jpg
     alt: Intimer Moment des Brautpaares am Pragser Wildsee bei bewölktem Himmel
+    altEn: Intimate moment of the couple at Lago di Braies under cloudy skies | Dolomites wedding photography
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-4.jpg
     alt: Regenhochzeit Pragser Wildsee – Brautpaar im Regen mit Blick auf den See
+    altEn: Rainy wedding Lago di Braies – couple in the rain overlooking the lake | Dolomites elopement
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-5.jpg
     alt: Hochzeitsfotografie am Pragser Wildsee – natürliches Licht bei Regen
+    altEn: Wedding photography at Lago di Braies – natural light in the rain | Dolomites mountain wedding
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-6.jpg
     alt: Braut und Bräutigam halten sich am regnerischen Pragser Wildsee in den Armen
+    altEn: Bride and groom embracing at rainy Lago di Braies | Dolomites wedding photographer
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-7.jpg
     alt: Stimmungsvolle Hochzeitsaufnahme am Lago di Braies im Nebel
+    altEn: Atmospheric wedding shot at Lago di Braies in the mist | Dolomites elopement photography
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-8.jpg
     alt: Brautpaar spaziert am Ufer des Pragser Wildsees entlang – Regentag Dolomiten
+    altEn: Couple walking along the shore of Lago di Braies on a rainy day | Dolomites mountain wedding
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-9.jpg
     alt: Ehrlicher Blickkontakt des Brautpaares am Pragser Wildsee bei Regen
+    altEn: Honest eye contact of the couple at Lago di Braies in the rain | Dolomites elopement photographer
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-10.jpg
     alt: Hochzeitskleid im Wind am türkisblauen Pragser Wildsee bei bewölktem Wetter
+    altEn: Wedding dress in the wind at turquoise Lago di Braies under cloudy skies | Dolomites wedding
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-11.jpg
     alt: Zarter Kuss des Brautpaares am Lago di Braies im Regen
+    altEn: Tender kiss of the couple at Lago di Braies in the rain | Dolomites elopement photography
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-12.jpg
     alt: Regenhochzeit in den Dolomiten – Braut mit Schleier im Nebel am See
+    altEn: Rainy wedding in the Dolomites – bride with veil in the mist by the lake | Lago di Braies
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-13.jpg
     alt: Natürliche Hochzeitsfotos am Pragser Wildsee – Stimmung im Regen
+    altEn: Natural wedding photos at Lago di Braies – atmosphere in the rain | Dolomites mountain wedding
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-14.jpg
     alt: Brautpaar am Pragser Wildsee – romantische Hochzeitsreportage Dolomiten
+    altEn: Couple at Lago di Braies – romantic wedding reportage Dolomites | elopement photographer
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-15.jpg
     alt: Hochzeitsfoto Pragser Wildsee – weiche Lichtstimmung bei Regen
+    altEn: Wedding photo Lago di Braies – soft light atmosphere in the rain | Dolomites elopement
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-16.jpg
     alt: Inniger Moment am See – Regenhochzeit Lago di Braies
+    altEn: Tender moment by the lake – rainy wedding at Lago di Braies | Dolomites elopement photographer
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-17.jpg
     alt: Braut und Bräutigam am Pragser Wildsee – mystische Nebel-Atmosphäre
+    altEn: Bride and groom at Lago di Braies – mystical misty atmosphere | Dolomites wedding photography
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-18.jpg
     alt: Hochzeitsreportage Pragser Wildsee – ehrliche Emotionen im Regen
+    altEn: Wedding reportage Lago di Braies – genuine emotions in the rain | Dolomites elopement
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-19.jpg
     alt: Regentropfen auf dem türkisblauen See – Hochzeitsfotografie Dolomiten
+    altEn: Raindrops on the turquoise lake – wedding photography Dolomites | Lago di Braies elopement
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-20.jpg
     alt: Brautpaar unter bewölktem Himmel am Pragser Wildsee – stimmungsvolle Aufnahme
+    altEn: Couple under cloudy sky at Lago di Braies – atmospheric wedding shot | Dolomites photographer
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-21.jpg
     alt: Hochzeitsfoto am Lago di Braies – Brautpaar im weichen Regenlicht
+    altEn: Wedding photo at Lago di Braies – couple in soft rain light | Dolomites mountain elopement
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-22.jpg
     alt: Regenhochzeit Pragser Wildsee – Brautkleid spiegelt sich im nassen Untergrund
+    altEn: Rainy wedding Lago di Braies – wedding dress reflected in the wet ground | Dolomites elopement
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-23.jpg
     alt: Stille Momente am Lago di Braies – Hochzeitsfotograf Tirol
+    altEn: Quiet moments at Lago di Braies | Dolomites elopement photographer Tyrol | mountain wedding
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-24.jpg
     alt: Braut und Bräutigam mit Felswänden der Dolomiten im Hintergrund – Regentag
+    altEn: Bride and groom with Dolomite rock faces in the background on a rainy day | Lago di Braies wedding
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-25.jpg
     alt: Hochzeit am Pragser Wildsee – natürliche Nähe des Brautpaares im Regen
+    altEn: Wedding at Lago di Braies – natural closeness of the couple in the rain | Dolomites elopement
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-26.jpg
     alt: Regenhochzeit Lago di Braies – Hochzeitskleid im Nebel der Dolomiten
+    altEn: Rainy wedding Lago di Braies – wedding dress in the Dolomite mist | mountain elopement photography
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-27.jpg
     alt: Brautpaar hält Hände am Pragser Wildsee – Hochzeitsreportage Südtirol
+    altEn: Couple holding hands at Lago di Braies – wedding reportage South Tyrol | Dolomites elopement
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-28.jpg
     alt: Lachen im Regen – authentische Hochzeitsmomente am Pragser Wildsee
+    altEn: Laughing in the rain – authentic wedding moments at Lago di Braies | Dolomites elopement photographer
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-29.jpg
     alt: Hochzeitsfoto am Lago di Braies – Nebel über den Dolomitengipfeln
+    altEn: Wedding photo at Lago di Braies – mist over the Dolomite peaks | mountain elopement photography
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-30.jpg
     alt: Braut im Regen am Pragser Wildsee – zeitlose Hochzeitsfotografie
+    altEn: Bride in the rain at Lago di Braies – timeless wedding photography | Dolomites elopement
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-31.jpg
     alt: Regenhochzeit Dolomiten – Brautpaar am türkisblauen Pragser Wildsee
+    altEn: Rainy wedding Dolomites – couple at turquoise Lago di Braies | mountain elopement photographer
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-32.jpg
     alt: Hochzeitsmoment am Lago di Braies – weiches Licht bei bewölktem Himmel
+    altEn: Wedding moment at Lago di Braies – soft light under cloudy skies | Dolomites elopement
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-33.jpg
     alt: Intime Hochzeitsaufnahme am Pragser Wildsee bei Regen
+    altEn: Intimate wedding shot at Lago di Braies in the rain | Dolomites mountain elopement photography
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-34.jpg
     alt: Brautpaar spiegelt sich im Wasser des Pragser Wildsees – Regentag Hochzeit
+    altEn: Couple reflected in the water of Lago di Braies on a rainy wedding day | Dolomites elopement
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-35.jpg
     alt: Stimmungsvolle Regenhochzeit am Lago di Braies in den Dolomiten
+    altEn: Atmospheric rainy wedding at Lago di Braies in the Dolomites | mountain elopement photographer
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-36.jpg
     alt: Braut mit Schleier am Pragser Wildsee – mystische Nebel-Stimmung
+    altEn: Bride with veil at Lago di Braies – mystical misty mood | Dolomites elopement photography
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-37.jpg
     alt: Hochzeitsfotografie Pragser Wildsee – ehrliche Nähe im Regen
+    altEn: Wedding photography Lago di Braies – genuine closeness in the rain | Dolomites elopement
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-38.jpg
     alt: Brautpaar am Ufer des Lago di Braies – Hochzeitsreportage Dolomiten
+    altEn: Couple on the shore of Lago di Braies – wedding reportage Dolomites | mountain elopement photographer
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-39.jpg
     alt: Regenhochzeit Pragser Wildsee – Brautpaar im diffusen Morgenlicht
+    altEn: Rainy wedding Lago di Braies – couple in diffuse morning light | Dolomites elopement photography
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-40.jpg
     alt: Hochzeit am Pragser Wildsee – emotionaler Moment im Regen
+    altEn: Wedding at Lago di Braies – emotional moment in the rain | Dolomites mountain elopement
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-41.jpg
     alt: Braut und Bräutigam am Lago di Braies – stille Momente bei Regen
+    altEn: Bride and groom at Lago di Braies – quiet moments in the rain | Dolomites elopement photographer
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-42.jpg
     alt: Hochzeitskleid am Pragser Wildsee – Nebel über den Dolomiten
+    altEn: Wedding dress at Lago di Braies – mist over the Dolomites | mountain elopement photography
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-43.jpg
     alt: Regenhochzeit Dolomiten – Brautpaar zwischen Felswänden und türkisem Wasser
+    altEn: Rainy wedding Dolomites – couple between rock faces and turquoise water | Lago di Braies elopement
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-44.jpg
     alt: Hochzeitsfoto Lago di Braies – romantische Stimmung bei Regen und Nebel
+    altEn: Wedding photo Lago di Braies – romantic mood in rain and mist | Dolomites mountain elopement
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-45.jpg
     alt: Brautpaar am Pragser Wildsee – sanftes Regenlicht und ehrliche Emotionen
+    altEn: Couple at Lago di Braies – soft rain light and genuine emotions | Dolomites elopement photographer
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-46.jpg
     alt: Hochzeitsreportage Pragser Wildsee – intime Momente im Regen
+    altEn: Wedding reportage Lago di Braies – intimate moments in the rain | Dolomites elopement photography
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-47.jpg
     alt: Braut und Bräutigam am Lago di Braies – Regenhochzeit Südtirol
+    altEn: Bride and groom at Lago di Braies – rainy wedding South Tyrol | Dolomites elopement photographer
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-48.jpg
     alt: Stille Hochzeitsmomente am Pragser Wildsee im Regen
+    altEn: Quiet wedding moments at Lago di Braies in the rain | Dolomites mountain elopement photography
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-49.jpg
     alt: Regenhochzeit Lago di Braies – Brautkleid im diffusen Wolkenlicht
+    altEn: Rainy wedding Lago di Braies – wedding dress in soft cloud light | Dolomites elopement photographer
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-50.jpg
     alt: Hochzeit am Pragser Wildsee – natürliche Stimmung bei Regen und Nebel
+    altEn: Wedding at Lago di Braies – natural mood in rain and mist | Dolomites mountain elopement
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-51.jpg
     alt: Brautpaar am Lago di Braies – zeitlose Hochzeitsfotografie Dolomiten
+    altEn: Couple at Lago di Braies – timeless wedding photography Dolomites | mountain elopement photographer
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-52.jpg
     alt: Regenhochzeit Pragser Wildsee – Braut und Bräutigam im mystischen Nebel
+    altEn: Rainy wedding Lago di Braies – bride and groom in mystical mist | Dolomites elopement photography
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-53.jpg
     alt: Hochzeitsmoment am Lago di Braies – weiche Töne im Regenlicht
+    altEn: Wedding moment at Lago di Braies – soft tones in the rain light | Dolomites mountain elopement
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-54.jpg
     alt: Brautpaar im Regen am Pragser Wildsee – Hochzeitsfotograf Blitzkneisser
+    altEn: Couple in the rain at Lago di Braies – wedding photographer Blitzkneisser | Dolomites elopement
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-55.jpg
     alt: Regenhochzeit Dolomiten – ehrliche und natürliche Hochzeitsmomente
+    altEn: Rainy wedding Dolomites – genuine and natural wedding moments | Lago di Braies elopement photographer
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-56.jpg
     alt: Hochzeitsfoto am Pragser Wildsee – Brautpaar in stiller Umarmung bei Regen
+    altEn: Wedding photo at Lago di Braies – couple in quiet embrace in the rain | Dolomites elopement
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-57.jpg
     alt: Lago di Braies Hochzeit – romantische Bergkulisse im Nebel
+    altEn: Lago di Braies wedding – romantic mountain backdrop in the mist | Dolomites elopement photography
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-58.jpg
     alt: Regenhochzeit Pragser Wildsee – Brautpaar im Einklang mit der Berglandschaft
+    altEn: Rainy wedding Lago di Braies – couple in harmony with the mountain landscape | Dolomites elopement
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-59.jpg
     alt: Hochzeitsreportage Lago di Braies – intime Nähe im Regenlicht
+    altEn: Wedding reportage Lago di Braies – intimate closeness in rain light | Dolomites mountain elopement
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-60.jpg
     alt: Braut und Bräutigam am türkisblauen Pragser Wildsee bei Regen
+    altEn: Bride and groom at turquoise Lago di Braies in the rain | Dolomites elopement photography
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-61.jpg
     alt: Stimmungsvolle Hochzeitsaufnahme – Nebel über dem Lago di Braies
+    altEn: Atmospheric wedding shot – mist over Lago di Braies | Dolomites mountain elopement photographer
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-62.jpg
     alt: Regenhochzeit Dolomiten – Brautpaar zwischen Wasser und Felswänden
+    altEn: Rainy wedding Dolomites – couple between water and rock faces | Lago di Braies elopement
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-63.jpg
     alt: Hochzeit am Pragser Wildsee – natürliche Hochzeitsfotografie im Regen
+    altEn: Wedding at Lago di Braies – natural wedding photography in the rain | Dolomites elopement
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-64.jpg
     alt: Brautpaar am Lago di Braies – zeitloser Hochzeitsmoment im Nebel
+    altEn: Couple at Lago di Braies – timeless wedding moment in the mist | Dolomites elopement photographer
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-65.jpg
     alt: Regenhochzeit Pragser Wildsee – ehrliche Momente im Regen
+    altEn: Rainy wedding Lago di Braies – genuine moments in the rain | Dolomites mountain elopement photography
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-66.jpg
     alt: Hochzeitsfotografie Lago di Braies – Brautkleid im sanften Regenlicht
+    altEn: Wedding photography Lago di Braies – wedding dress in soft rain light | Dolomites elopement
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-67.jpg
     alt: Braut und Bräutigam am Pragser Wildsee – Hochzeitsreportage im Regen
+    altEn: Bride and groom at Lago di Braies – wedding reportage in the rain | Dolomites elopement photographer
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-68.jpg
     alt: Regenhochzeit Lago di Braies – mystische Stimmung zwischen Nebel und Bergen
+    altEn: Rainy wedding Lago di Braies – mystical mood between mist and mountains | Dolomites elopement
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-69.jpg
     alt: Hochzeit am Pragser Wildsee – ruhige und intime Hochzeitsmomente
+    altEn: Wedding at Lago di Braies – quiet and intimate wedding moments | Dolomites mountain elopement
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-70.jpg
     alt: Brautpaar am Lago di Braies – Hochzeitsfoto im weichen Wolkenlicht
+    altEn: Couple at Lago di Braies – wedding photo in soft cloud light | Dolomites elopement photography
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-71.jpg
     alt: Regenhochzeit Pragser Wildsee – Brautpaar in der Stille der Dolomiten
+    altEn: Rainy wedding Lago di Braies – couple in the silence of the Dolomites | mountain elopement photographer
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-72.jpg
     alt: Hochzeitsreportage am Lago di Braies – Regen, Nebel und echte Emotionen
+    altEn: Wedding reportage at Lago di Braies – rain, mist and real emotions | Dolomites elopement photography
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-73.jpg
     alt: Braut und Bräutigam am Pragser Wildsee – letzter Blick auf die Dolomiten
+    altEn: Bride and groom at Lago di Braies – last look at the Dolomites | mountain elopement photographer
     link: ""
   - image: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-74.jpg
     alt: Regenhochzeit am Pragser Wildsee – unvergesslicher Hochzeitstag in den Dolomiten
+    altEn: Rainy wedding at Lago di Braies – unforgettable wedding day in the Dolomites | elopement photographer
     link: ""
 ---
 
