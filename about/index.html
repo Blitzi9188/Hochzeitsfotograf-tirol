@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hochzeitsfotograf Tirol | Über mich | Blitzkneisser Photography</title>
+  <title>Hochzeitsfotograf Tirol | About | Blitzkneisser Photography</title>
   <meta
     name="description"
     content="Hochzeitsfotograf Tirol für ruhige, echte Reportagen in den Alpen. Entdeckt emotionale Bilder aus Innsbruck, Dolomiten & Tirol und fragt euren Termin an."
@@ -371,7 +371,7 @@
       const navMenuPanel = document.getElementById("navMenuPanel");
       const ui = {
         de: {
-          navAbout: "Über mich",
+          navAbout: "About",
           navFilm: "Film",
           navPortfolio: "Portfolio",
           navJournal: "Journal",
@@ -488,7 +488,7 @@
         const t = ui[lang];
         const data = aboutData || {};
         document.documentElement.lang = lang;
-        document.title = lang === "en" ? (data.metaTitleEn || data.metaTitle || "About | Blitzkneisser Photography") : (data.metaTitle || "Über mich | Blitzkneisser Photography");
+        document.title = lang === "en" ? (data.metaTitleEn || data.metaTitle || "About | Blitzkneisser Photography") : (data.metaTitle || "About | Blitzkneisser Photography");
         if (metaDescriptionNode) {
           metaDescriptionNode.setAttribute("content", lang === "en" ? (data.metaDescriptionEn || data.metaDescription || "") : (data.metaDescription || ""));
         }

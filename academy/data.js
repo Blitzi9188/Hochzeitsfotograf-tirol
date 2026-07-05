@@ -125,7 +125,7 @@ window.ACADEMY_DATA = {
       pageTitle: "Academy | Blitzkneisser Photography",
       metaDescription: "Academy, Workshops und Presets von Blitzkneisser Photography. Für Fotograf:innen, die Bildsprache, Workflow und alpine Reportagen bewusst weiterentwickeln möchten.",
       "nav.home": "Home",
-      "nav.about": "Über mich",
+      "nav.about": "About",
       "nav.film": "Film",
       "nav.portfolio": "Portfolio",
       "nav.contact": "Kontakt",

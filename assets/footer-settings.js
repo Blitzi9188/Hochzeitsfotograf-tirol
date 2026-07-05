@@ -196,7 +196,7 @@
       journal: "Journal",
       film: "Film",
       home: "Startseite",
-      about: "Über mich",
+      about: "About",
       dsgvo: "DSGVO",
       impressum: "Impressum",
       agb: "AGB",

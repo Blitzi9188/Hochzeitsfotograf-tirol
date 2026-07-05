@@ -16,7 +16,7 @@ const MENU_GROUPS = [
   {
     label: "Seiten",
     items: [
-      { id: "homepage-de", eyebrow: "Homepage", title: "Homepage DE / EN", description: "Hero, Über mich, Leistungen, FAQ und SEO in Deutsch und Englisch gemeinsam pflegen.", meta: "Hauptseite" },
+      { id: "homepage-de", eyebrow: "Homepage", title: "Homepage DE / EN", description: "Hero, About, Leistungen, FAQ und SEO in Deutsch und Englisch gemeinsam pflegen.", meta: "Hauptseite" },
       { id: "experience", eyebrow: "Experience", title: "Experience Seite", description: "Experience-Texte, emotionale Sections, FAQ und Bilder in Deutsch pflegen und auf Englisch automatisch ergänzen.", meta: "Journey" },
       { id: "guides-hub", eyebrow: "Guides", title: "Guides Hauptseite", description: "Hero, Start Here, weitere Guides, Stories, FAQ und Abschluss der Guides-Hauptseite pflegen.", meta: "Guide Hub" },
       { id: "guides-pages", eyebrow: "Guides", title: "Guide Unterseiten", description: "Alle Guide-Unterseiten mit DE/EN Texten, Bildern und ALT-Texten übersichtlich bearbeiten.", meta: "Guide Pages" },
@@ -133,7 +133,7 @@ const STATIC_IMAGE_USAGES = [
   {
     image: "/assets/uploads/Blitzkneisser-Couple-Shooting-Dolomites-INSTA-4.jpg",
     area: "Homepage",
-    slot: "Über mich Bild",
+    slot: "About Bild",
     detail: "Bildblock in der About-Sektion der Startseite"
   },
   {
@@ -2847,7 +2847,7 @@ const bindHomepage = async (viewId) => {
         ${renderLangFieldPair("Primary CTA", "hero.primaryCta", dataDe.hero.primaryCta, dataEn.hero.primaryCta)}
         ${renderLangFieldPair("Secondary CTA", "hero.secondaryCta", dataDe.hero.secondaryCta, dataEn.hero.secondaryCta)}
 
-        <h2 class="section-title">Über mich / About</h2>
+        <h2 class="section-title">About / About</h2>
         <div class="empty" style="margin-bottom: 18px;">
           Hier bearbeitest du den Textblock unter „Ruhige Bilder mit Tiefe und Leichtigkeit“ auf der Startseite. Jeder Absatz kann links auf Deutsch und rechts auf Englisch gepflegt werden.
         </div>
