@@ -203,6 +203,12 @@
     .faq-item[open] summary::after { transform: rotate(45deg); }
     .faq-answer { padding: 0.5rem 0 1rem; font-size: 0.875rem; line-height: 1.75; color: #8A837A; }
 
+    @media (max-width: 767px) {
+      footer { align-items: center !important; }
+      #footerMetaGroup { align-items: center !important; text-align: center; }
+      #footerMetaGroup > div { text-align: center; }
+      footer > div:not(#footerMetaGroup):not(#footerInstagramFeed) { justify-content: center !important; text-align: center; }
+    }
     .mobile-menu-toggle { display: none; }
     @media (min-width: 768px) {
       .editorial-section { padding: 7rem 3rem; }
@@ -484,23 +490,23 @@
   </main>
 
   <footer class="py-10 px-6 md:px-12 border-t border-brand-border text-[10px] md:text-xs text-brand-muted tracking-[0.2em] uppercase font-medium bg-white">
-    <div class="mx-auto max-w-[120rem] mb-4 pb-4 border-b border-brand-border flex flex-wrap items-center gap-x-6 gap-y-2">
+    <div class="mx-auto max-w-[120rem] mb-4 pb-4 border-b border-brand-border flex flex-wrap justify-center md:justify-start items-center gap-x-6 gap-y-2">
       <span class="opacity-60">Erlebnisse</span>
       <a href="/hubschrauber-hochzeit-tirol/" class="hover:text-brand-text transition-colors duration-300">Hubschrauber Hochzeit</a>
       <a href="/standesamt-hochzeit-innsbruck/" class="hover:text-brand-text transition-colors duration-300">Standesamt Innsbruck</a>
     </div>
-    <div class="mx-auto max-w-[120rem] flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
-      <div>© 2026 Blitzkneisser – Innsbruck, Tirol</div>
-      <div class="flex flex-wrap gap-5 md:gap-10">
-        <a href="https://instagram.com/blitzkneisser" target="_blank" rel="noreferrer" class="hover:text-brand-text transition-colors">Instagram</a>
-        <a href="/contact/" class="hover:text-brand-text transition-colors">Kontakt</a>
-        <a href="/journal/" class="hover:text-brand-text transition-colors">Journal</a>
-        <a href="/dsgvo/" class="hover:text-brand-text transition-colors">DSGVO</a>
-        <a href="/impressum/" class="hover:text-brand-text transition-colors">Impressum</a>
-        <a href="/agb/" class="hover:text-brand-text transition-colors">AGB</a>
+    <div class="mx-auto max-w-[120rem] flex flex-col items-center gap-6 md:flex-row md:items-center md:justify-between text-center md:text-left">
+      <div id="footerBrandText">© 2026 Blitzkneisser – Innsbruck, Tirol</div>
+      <div class="flex flex-wrap justify-center md:justify-end gap-5 md:gap-10">
+        <a href="https://instagram.com/blitzkneisser" target="_blank" rel="noreferrer" class="hover:text-brand-text transition-colors duration-300" id="footerInstagramLink">Instagram</a>
+        <a href="/dsgvo/" class="hover:text-brand-text transition-colors duration-300" id="footerDsgvoLink">DSGVO</a>
+        <a href="/impressum/" class="hover:text-brand-text transition-colors duration-300" id="footerImpressumLink">Impressum</a>
+        <a href="/agb/" class="hover:text-brand-text transition-colors duration-300" id="footerAgbLink">AGB</a>
       </div>
     </div>
+    <div id="footerInstagramFeed" class="footer-instagram-feed"></div>
   </footer>
+  <script src="/assets/footer-settings.js"></script>
 
   <script>
     const nav = document.getElementById("mainNav");
