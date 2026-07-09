@@ -508,7 +508,7 @@ const serveStatic = async (req, res, pathname) => {
 //    Ziele sind vorläufig; später durch eigene Seiten ersetzen und hier anpassen.
 const LEGACY_REDIRECTS = [
   { from: "/hubschrauber-hochzeit",           to: "/hubschrauber-hochzeit-tirol/" },
-  { from: "/stadel-hochzeit",                 to: "/stadel-hochzeit-tirol/" },
+  { from: "/stadel-hochzeit",                 to: "/experience/" },
   { from: "/helicopter-elopement-in-den-dolomiten", to: "/journal/" },
 ];
 
