@@ -507,9 +507,8 @@ const serveStatic = async (req, res, pathname) => {
 // 1) Alte URLs → neue Ziele (301 permanent)
 //    Ziele sind vorläufig; später durch eigene Seiten ersetzen und hier anpassen.
 const LEGACY_REDIRECTS = [
-  { from: "/hubschrauber-hochzeit",           to: "/experience/" },
-  { from: "/stadel-hochzeit",                 to: "/experience/" },
-  { from: "/standesamt-hochzeit-innsbruck",   to: "/experience/" },
+  { from: "/hubschrauber-hochzeit",           to: "/hubschrauber-hochzeit-tirol/" },
+  { from: "/stadel-hochzeit",                 to: "/stadel-hochzeit-tirol/" },
   { from: "/helicopter-elopement-in-den-dolomiten", to: "/journal/" },
 ];
 

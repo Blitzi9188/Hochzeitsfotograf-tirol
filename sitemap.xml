@@ -61,6 +61,26 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- SEO Landing Pages -->
+  <url>
+    <loc>https://hochzeitsfotograf.tirol/hubschrauber-hochzeit-tirol/</loc>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://hochzeitsfotograf.tirol/stadel-hochzeit-tirol/</loc>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://hochzeitsfotograf.tirol/standesamt-hochzeit-innsbruck/</loc>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
   <!-- Journal-Beiträge -->
   <url>
     <loc>https://hochzeitsfotograf.tirol/journal/heli-elopement-brixen-dolomiten/</loc>
