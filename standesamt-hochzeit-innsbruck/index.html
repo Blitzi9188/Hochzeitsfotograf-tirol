@@ -158,6 +158,8 @@
       #mainNav.is-open .nav-menu-panel { opacity: 1; pointer-events: auto; transform: translateY(0); }
       .nav-menu-panel > div:first-child { flex-direction: column; align-items: center; gap: 1rem; }
       .nav-menu-panel a { font-size: 1rem; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; }
+      .nav-lang-toggle { display: flex; flex-direction: row; gap: 0.5rem; justify-content: center; margin-top: 0.5rem; }
+      .nav-lang-toggle button { border: 1px solid #E6DED4; min-width: 2.8rem; padding: 0.7rem 0.75rem; font-size: 0.625rem; letter-spacing: 0.2em; text-transform: uppercase; }
     }
   </style>
 </head>
@@ -165,17 +167,21 @@
 
   <nav class="fixed top-0 left-0 z-50 w-full bg-white/80 px-6 py-5 text-brand-text backdrop-blur-sm md:px-12 md:py-8" id="mainNav">
     <div class="mx-auto flex max-w-[120rem] items-center justify-between gap-6">
-      <a href="/" class="group flex items-center" aria-label="Blitzkneisser Photography">
+      <a href="/" id="navHomeLink" class="group flex items-center" aria-label="Blitzkneisser Photography">
         <img src="/Logo-Blitzkneisser-BERG.png" alt="Blitzkneisser Photography" class="h-11 w-auto brightness-0 contrast-125 opacity-70 md:h-14" data-pin-nopin="true">
       </a>
       <button type="button" class="mobile-menu-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenuPanel" aria-label="Menü öffnen"><span></span><span></span><span></span></button>
       <div class="nav-menu-panel ml-auto flex items-center justify-end gap-4 text-right" id="navMenuPanel">
         <div class="flex items-center gap-4 text-[10px] uppercase tracking-[0.2em] sm:gap-6 md:gap-8 md:text-xs">
-          <a href="/experience/" class="hover:opacity-60">Experience</a>
-          <a href="/guides/" class="hover:opacity-60">Guides</a>
-          <a href="/journal/" class="hover:opacity-60">Journal</a>
-          <a href="/about/" class="hover:opacity-60">About</a>
-          <a href="/contact/" class="hover:opacity-60">Contact</a>
+          <a href="/experience/" id="navExperienceLink" class="hover:opacity-60">Experience</a>
+          <a href="/guides/" id="navGuidesLink" class="hover:opacity-60">Guides</a>
+          <a href="/journal/" id="navJournalLink" class="hover:opacity-60">Journal</a>
+          <a href="/about/" id="navAboutLink" class="hover:opacity-60">About</a>
+          <a href="/contact/" id="navContactLink" class="hover:opacity-60">Contact</a>
+        </div>
+        <div class="nav-lang-toggle flex items-center gap-2 text-[10px] uppercase tracking-[0.24em] md:text-xs">
+          <button type="button" class="border border-brand-border px-3 py-2 transition-colors" data-lang-button="de" aria-pressed="true">DE</button>
+          <button type="button" class="border border-brand-border px-3 py-2 transition-colors" data-lang-button="en" aria-pressed="false">EN</button>
         </div>
       </div>
     </div>
@@ -187,12 +193,12 @@
     <header class="px-6 md:px-12 max-w-[120rem] mx-auto mb-16 md:mb-20 fade-in-up">
       <div class="grid gap-12 lg:grid-cols-[1.1fr_0.9fr] lg:items-end">
         <div>
-          <span class="eyebrow mb-4">Hochzeitsfotograf Innsbruck</span>
-          <h1 class="headline text-[2.8rem] md:text-[5.4rem] lg:text-[7.2rem]">Standesamt<br>Hochzeit<br>Innsbruck</h1>
+          <span class="eyebrow mb-4" id="heroEyebrow">Hochzeitsfotograf Innsbruck</span>
+          <h1 id="heroTitle" class="headline text-[2.8rem] md:text-[5.4rem] lg:text-[7.2rem]">Standesamt<br>Hochzeit<br>Innsbruck</h1>
         </div>
         <div>
-          <p class="intro-copy">Eure Ziviltrauung in Innsbruck – ein kurzer, echter, tiefer Moment. Kein Stress, keine Inszenierung. Ich dokumentiere mit Ruhe und Gespür, was zwischen euch passiert: das Lachen vor dem Rathaus, das Zittern beim Ja-Wort, der erste Blick danach.</p>
-          <a href="/contact/" class="editorial-button mt-8 inline-block">Jetzt anfragen</a>
+          <p class="intro-copy" id="heroCopy">Eure Ziviltrauung in Innsbruck – ein kurzer, echter, tiefer Moment. Kein Stress, keine Inszenierung. Ich dokumentiere mit Ruhe und Gespür, was zwischen euch passiert: das Lachen vor dem Rathaus, das Zittern beim Ja-Wort, der erste Blick danach.</p>
+          <a href="/contact/" id="heroCta" class="editorial-button mt-8 inline-block">Jetzt anfragen</a>
         </div>
       </div>
       <div class="mt-12 border-t border-brand-border"></div>
@@ -215,10 +221,10 @@
     <section class="editorial-section border-y border-brand-border bg-brand-soft" aria-labelledby="whatTitle">
       <div class="editorial-inner grid gap-10 lg:grid-cols-2 lg:items-center">
         <div class="fade-in-up">
-          <span class="eyebrow">Warum das Standesamt</span>
+          <span class="eyebrow" id="whatEyebrow">Warum das Standesamt</span>
           <h2 id="whatTitle" class="headline mt-5 text-4xl md:text-6xl">Der ehrlichste<br>Moment des<br>ganzen Tages.</h2>
-          <p class="section-copy mt-7 max-w-xl">Das Standesamt hat keinen Showcharakter. Es ist kurz, dicht, echt. Zwei Menschen, ein Ja-Wort, ein Moment, der alles verändert. Genau das ist fotografisch eines der stärksten Ereignisse überhaupt – wenn man es wirklich sieht und nicht nur ablichtet.</p>
-          <p class="section-copy mt-4 max-w-xl">Innsbruck bietet dafür eine außergewöhnliche Kulisse: historische Räume, die Altstadt danach, der Inn, die Berge – in wenigen Minuten Fahrt seid ihr mitten in der Natur.</p>
+          <p class="section-copy mt-7 max-w-xl" id="whatCopy1">Das Standesamt hat keinen Showcharakter. Es ist kurz, dicht, echt. Zwei Menschen, ein Ja-Wort, ein Moment, der alles verändert. Genau das ist fotografisch eines der stärksten Ereignisse überhaupt – wenn man es wirklich sieht und nicht nur ablichtet.</p>
+          <p class="section-copy mt-4 max-w-xl" id="whatCopy2">Innsbruck bietet dafür eine außergewöhnliche Kulisse: historische Räume, die Altstadt danach, der Inn, die Berge – in wenigen Minuten Fahrt seid ihr mitten in der Natur.</p>
         </div>
         <figure class="experience-image aspect-[4/5] fade-in-up" style="animation-delay:0.12s;">
           <img src="/assets/uploads/standesamt-hochzeit-innsbruck-trausaal-kuss.jpg"
@@ -231,7 +237,7 @@
     </section>
 
     <!-- Innsbruck als Location -->
-    <section class="editorial-section" aria-labelledby="innsbruckTitle">
+    <section class="editorial-section" aria-labelledby="locationTitle">
       <div class="editorial-inner grid gap-10 lg:grid-cols-2 lg:items-center">
         <figure class="experience-image aspect-[4/5] fade-in-up order-2 lg:order-1">
           <img src="/assets/uploads/standesamt-hochzeit-innsbruck-hofgasse-paar.jpg"
@@ -241,10 +247,10 @@
                data-pin-description="Portraits after the civil ceremony in Innsbruck – old town and Nordkette mountains in the background, Tyrol wedding photographer">
         </figure>
         <div class="fade-in-up order-1 lg:order-2" style="animation-delay:0.12s;">
-          <span class="eyebrow">Innsbruck als Kulisse</span>
-          <h2 id="innsbruckTitle" class="headline mt-5 text-4xl md:text-6xl">Stadt und Berge<br>in einem.</h2>
-          <p class="section-copy mt-7 max-w-xl">Was Innsbruck besonders macht: Ihr seid in wenigen Minuten aus der Stadt heraus – und plötzlich stehen Bergen vor euch, die in fast keiner anderen europäischen Hauptstadt so nah sind. Nach dem Standesamt kann euer Tag in die Berge, ans Wasser oder in die Altstadt führen.</p>
-          <p class="section-copy mt-4 max-w-xl">Ich kenne die Orte, das Licht zu jeder Tageszeit und weiß, wann wir wo sein müssen. So könnt ihr einfach da sein – ohne Logistik-Stress.</p>
+          <span class="eyebrow" id="locationEyebrow">Innsbruck als Kulisse</span>
+          <h2 id="locationTitle" class="headline mt-5 text-4xl md:text-6xl">Stadt und Berge<br>in einem.</h2>
+          <p class="section-copy mt-7 max-w-xl" id="locationCopy1">Was Innsbruck besonders macht: Ihr seid in wenigen Minuten aus der Stadt heraus – und plötzlich stehen Bergen vor euch, die in fast keiner anderen europäischen Hauptstadt so nah sind. Nach dem Standesamt kann euer Tag in die Berge, ans Wasser oder in die Altstadt führen.</p>
+          <p class="section-copy mt-4 max-w-xl" id="locationCopy2">Ich kenne die Orte, das Licht zu jeder Tageszeit und weiß, wann wir wo sein müssen. So könnt ihr einfach da sein – ohne Logistik-Stress.</p>
         </div>
       </div>
     </section>
@@ -252,7 +258,7 @@
     <!-- Bildstrecke -->
     <section class="editorial-section bg-brand-soft" aria-label="Impressionen Standesamt Innsbruck">
       <div class="editorial-inner">
-        <span class="eyebrow mb-8 block">Impressionen</span>
+        <span class="eyebrow mb-8 block" id="impressionenEyebrow">Impressionen</span>
         <div class="grid gap-4 md:grid-cols-3">
           <figure class="experience-image aspect-[3/4]">
             <img src="/assets/uploads/standesamt-hochzeit-innsbruck-ringuebergabe.jpg"
@@ -283,41 +289,41 @@
     <section class="editorial-section" aria-labelledby="specialTitle">
       <div class="editorial-inner">
         <div class="mb-12 max-w-2xl">
-          <span class="eyebrow">Was ich für euch tue</span>
+          <span class="eyebrow" id="specialEyebrow">Was ich für euch tue</span>
           <h2 id="specialTitle" class="headline mt-5 text-4xl md:text-6xl">Mehr als ein<br>Fotograf am<br>Standesamt.</h2>
         </div>
         <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           <div class="border-t border-brand-border pt-6">
-            <h3 class="text-sm font-bold uppercase tracking-widest mb-3">Diskretes Dokumentieren</h3>
-            <p class="text-sm text-brand-muted leading-relaxed">Im Trauungssaal bin ich leise und unsichtbar – kein Blitz, kein Stören, keine inszenierten Posen. Nur das, was wirklich passiert.</p>
+            <h3 class="text-sm font-bold uppercase tracking-widest mb-3" id="feat1Title">Diskretes Dokumentieren</h3>
+            <p class="text-sm text-brand-muted leading-relaxed" id="feat1Text">Im Trauungssaal bin ich leise und unsichtbar – kein Blitz, kein Stören, keine inszenierten Posen. Nur das, was wirklich passiert.</p>
           </div>
           <div class="border-t border-brand-border pt-6">
-            <h3 class="text-sm font-bold uppercase tracking-widest mb-3">Portraits danach</h3>
-            <p class="text-sm text-brand-muted leading-relaxed">Nach der Trauung führe ich euch zu den schönsten Orten in und um Innsbruck – je nach Zeit, Wetter und eurer Stimmung.</p>
+            <h3 class="text-sm font-bold uppercase tracking-widest mb-3" id="feat2Title">Portraits danach</h3>
+            <p class="text-sm text-brand-muted leading-relaxed" id="feat2Text">Nach der Trauung führe ich euch zu den schönsten Orten in und um Innsbruck – je nach Zeit, Wetter und eurer Stimmung.</p>
           </div>
           <div class="border-t border-brand-border pt-6">
-            <h3 class="text-sm font-bold uppercase tracking-widest mb-3">Auch für kleine Feiern</h3>
-            <p class="text-sm text-brand-muted leading-relaxed">Ob ihr danach im Stadel feiert, ins Restaurant geht oder direkt in die Berge fahrt: Ich begleite euch so weit, wie ihr möchtet.</p>
+            <h3 class="text-sm font-bold uppercase tracking-widest mb-3" id="feat3Title">Auch für kleine Feiern</h3>
+            <p class="text-sm text-brand-muted leading-relaxed" id="feat3Text">Ob ihr danach im Stadel feiert, ins Restaurant geht oder direkt in die Berge fahrt: Ich begleite euch so weit, wie ihr möchtet.</p>
           </div>
           <div class="border-t border-brand-border pt-6">
-            <h3 class="text-sm font-bold uppercase tracking-widest mb-3">Internationale Paare willkommen</h3>
-            <p class="text-sm text-brand-muted leading-relaxed">Viele internationale Paare wählen Innsbruck für ihre Ziviltrauung. Ich spreche Deutsch und Englisch und kenne die Abläufe gut.</p>
+            <h3 class="text-sm font-bold uppercase tracking-widest mb-3" id="feat4Title">Internationale Paare willkommen</h3>
+            <p class="text-sm text-brand-muted leading-relaxed" id="feat4Text">Viele internationale Paare wählen Innsbruck für ihre Ziviltrauung. Ich spreche Deutsch und Englisch und kenne die Abläufe gut.</p>
           </div>
           <div class="border-t border-brand-border pt-6">
-            <h3 class="text-sm font-bold uppercase tracking-widest mb-3">Kein Mindest-Gäste-Limit</h3>
-            <p class="text-sm text-brand-muted leading-relaxed">Trauung zu zweit? Gerne. Mit Familie? Auch. Das Format bestimmt ihr – ich passe mich an.</p>
+            <h3 class="text-sm font-bold uppercase tracking-widest mb-3" id="feat5Title">Kein Mindest-Gäste-Limit</h3>
+            <p class="text-sm text-brand-muted leading-relaxed" id="feat5Text">Trauung zu zweit? Gerne. Mit Familie? Auch. Das Format bestimmt ihr – ich passe mich an.</p>
           </div>
           <div class="border-t border-brand-border pt-6">
-            <h3 class="text-sm font-bold uppercase tracking-widest mb-3">Ortskenntnis & Lichtgespür</h3>
-            <p class="text-sm text-brand-muted leading-relaxed">Ich weiß, wann das Licht in der Altstadt am schönsten ist, wohin nach dem Standesamt und wie man den Nordkettenblick am besten einfängt.</p>
+            <h3 class="text-sm font-bold uppercase tracking-widest mb-3" id="feat6Title">Ortskenntnis & Lichtgespür</h3>
+            <p class="text-sm text-brand-muted leading-relaxed" id="feat6Text">Ich weiß, wann das Licht in der Altstadt am schönsten ist, wohin nach dem Standesamt und wie man den Nordkettenblick am besten einfängt.</p>
           </div>
         </div>
 
         <div class="mt-16 pt-10 border-t border-brand-border">
-          <p class="text-sm text-brand-muted mb-6">Weitere Hochzeitsformen in Tirol:</p>
+          <p class="text-sm text-brand-muted mb-6" id="moreText">Weitere Hochzeitsformen in Tirol:</p>
           <div class="flex flex-wrap gap-4">
-            <a href="/hubschrauber-hochzeit-tirol/" class="editorial-link">Hubschrauber Hochzeit</a>
-            <a href="/experience/" class="editorial-link">Das Gesamterlebnis</a>
+            <a href="/hubschrauber-hochzeit-tirol/" class="editorial-link" id="linkHubschrauber">Hubschrauber Hochzeit</a>
+            <a href="/experience/" class="editorial-link" id="linkExperience">Das Gesamterlebnis</a>
           </div>
         </div>
       </div>
@@ -326,32 +332,32 @@
     <!-- FAQ -->
     <section class="editorial-section bg-brand-soft" aria-labelledby="faqTitle">
       <div class="editorial-inner max-w-3xl">
-        <span class="eyebrow">Häufige Fragen</span>
+        <span class="eyebrow" id="faqEyebrow">Häufige Fragen</span>
         <h2 id="faqTitle" class="headline mt-5 text-4xl md:text-5xl mb-10">FAQ – Standesamt Innsbruck</h2>
 
         <details class="faq-item">
-          <summary>Wo befindet sich das Standesamt Innsbruck?</summary>
-          <p class="faq-answer">Das Standesamt der Stadt Innsbruck befindet sich im Rathaus am Maria-Theresien-Straße 18, mitten in der Innsbrucker Altstadt – umgeben von goldenen Dächern, historischen Fassaden und den nahen Berggipfeln der Nordkette.</p>
+          <summary id="faq1Q">Wo befindet sich das Standesamt Innsbruck?</summary>
+          <p class="faq-answer" id="faq1A">Das Standesamt der Stadt Innsbruck befindet sich im Rathaus am Maria-Theresien-Straße 18, mitten in der Innsbrucker Altstadt – umgeben von goldenen Dächern, historischen Fassaden und den nahen Berggipfeln der Nordkette.</p>
         </details>
         <details class="faq-item">
-          <summary>Wie buche ich einen Standesamt-Termin in Innsbruck?</summary>
-          <p class="faq-answer">Standesamtliche Trauungen werden direkt über die Stadtgemeinde Innsbruck gebucht. Für österreichische Staatsbürger ist das unkompliziert; für internationale Paare gibt es einige Besonderheiten bei den Dokumenten. Ich helfe euch gerne, den Überblick zu behalten.</p>
+          <summary id="faq2Q">Wie buche ich einen Standesamt-Termin in Innsbruck?</summary>
+          <p class="faq-answer" id="faq2A">Standesamtliche Trauungen werden direkt über die Stadtgemeinde Innsbruck gebucht. Für österreichische Staatsbürger ist das unkompliziert; für internationale Paare gibt es einige Besonderheiten bei den Dokumenten. Ich helfe euch gerne, den Überblick zu behalten.</p>
         </details>
         <details class="faq-item">
-          <summary>Wie lange dauert eine standesamtliche Trauung in Innsbruck?</summary>
-          <p class="faq-answer">Die eigentliche Zeremonie dauert meist 20 bis 40 Minuten. Ich empfehle, davor und danach Zeit einzuplanen – für Portraits in der Altstadt, am Inn oder mit dem Nordkettenpanorama im Hintergrund.</p>
+          <summary id="faq3Q">Wie lange dauert eine standesamtliche Trauung in Innsbruck?</summary>
+          <p class="faq-answer" id="faq3A">Die eigentliche Zeremonie dauert meist 20 bis 40 Minuten. Ich empfehle, davor und danach Zeit einzuplanen – für Portraits in der Altstadt, am Inn oder mit dem Nordkettenpanorama im Hintergrund.</p>
         </details>
         <details class="faq-item">
-          <summary>Kann ich danach noch eine Feier im Stadel oder im Freien organisieren?</summary>
-          <p class="faq-answer">Absolut. Viele Paare kombinieren eine Innsbrucker Standesamtstrauung mit einer Feier auf einer Alm oder in den Bergen. Ich begleite euch gerne durch den gesamten Tag.</p>
+          <summary id="faq4Q">Kann ich danach noch eine Feier im Stadel oder im Freien organisieren?</summary>
+          <p class="faq-answer" id="faq4A">Absolut. Viele Paare kombinieren eine Innsbrucker Standesamtstrauung mit einer Feier auf einer Alm oder in den Bergen. Ich begleite euch gerne durch den gesamten Tag.</p>
         </details>
         <details class="faq-item">
-          <summary>Fotografierst du auch kleine Standesamt-Hochzeiten ohne große Feier?</summary>
-          <p class="faq-answer">Ja, sehr gerne. Manche Paare entscheiden sich für eine reine Standesamts-Trauung zu zweit oder mit ganz wenigen Gästen. Das ist oft das Intimste und Ehrlichste – und ich dokumentiere es mit vollem Engagement.</p>
+          <summary id="faq5Q">Fotografierst du auch kleine Standesamt-Hochzeiten ohne große Feier?</summary>
+          <p class="faq-answer" id="faq5A">Ja, sehr gerne. Manche Paare entscheiden sich für eine reine Standesamts-Trauung zu zweit oder mit ganz wenigen Gästen. Das ist oft das Intimste und Ehrlichste – und ich dokumentiere es mit vollem Engagement.</p>
         </details>
         <details class="faq-item">
-          <summary>Welche Locations eignen sich für Portraits nach dem Standesamt in Innsbruck?</summary>
-          <p class="faq-answer">Innsbruck bietet außergewöhnliche Möglichkeiten: das Goldene Dachl, die Altstadt-Gassen, der Inn mit Nordkettenblick, der Hofgarten oder – für etwas mehr Abenteuer – eine kurze Fahrt in die umliegenden Berge. Wir besprechen das gerne vorab.</p>
+          <summary id="faq6Q">Welche Locations eignen sich für Portraits nach dem Standesamt in Innsbruck?</summary>
+          <p class="faq-answer" id="faq6A">Innsbruck bietet außergewöhnliche Möglichkeiten: das Goldene Dachl, die Altstadt-Gassen, der Inn mit Nordkettenblick, der Hofgarten oder – für etwas mehr Abenteuer – eine kurze Fahrt in die umliegenden Berge. Wir besprechen das gerne vorab.</p>
         </details>
       </div>
     </section>
@@ -368,9 +374,9 @@
       <div class="relative z-10 flex min-h-[60vh] items-end px-6 pb-12 pt-24 md:px-12 md:pb-16">
         <div class="editorial-inner flex justify-center text-white w-full">
           <div class="max-w-3xl">
-            <span class="eyebrow text-white/70">Eure Standesamt-Hochzeit in Innsbruck</span>
+            <span class="eyebrow text-white/70" id="finalEyebrow">Eure Standesamt-Hochzeit in Innsbruck</span>
             <h2 id="finalTitle" class="headline mt-6 text-5xl md:text-7xl">Klein, echt<br>und alles.</h2>
-            <a href="/contact/" class="editorial-button mt-8 inline-block text-white border-white hover:bg-white hover:text-brand-text">Jetzt anfragen</a>
+            <a href="/contact/" id="finalCta" class="editorial-button mt-8 inline-block text-white border-white hover:bg-white hover:text-brand-text">Jetzt anfragen</a>
           </div>
         </div>
       </div>
@@ -398,6 +404,7 @@
   <script src="/assets/footer-settings.js"></script>
 
   <script>
+    // Mobile nav toggle
     const nav = document.getElementById("mainNav");
     const navToggle = document.getElementById("navToggle");
     const navMenuPanel = document.getElementById("navMenuPanel");
@@ -406,10 +413,176 @@
       nav.classList.toggle("is-open", willOpen);
       navToggle.setAttribute("aria-expanded", willOpen ? "true" : "false");
     });
-    navMenuPanel.querySelectorAll("a").forEach(a => {
+    navMenuPanel.querySelectorAll("a, button[data-lang-button]").forEach(a => {
       a.addEventListener("click", () => { if (window.innerWidth < 768) nav.classList.remove("is-open"); });
     });
     window.addEventListener("resize", () => { if (window.innerWidth >= 768) nav.classList.remove("is-open"); });
+
+    // Language switching
+    (function () {
+      const translations = {
+        de: {
+          docTitle: "Standesamt Hochzeit Innsbruck – Hochzeitsfotograf für die Ziviltrauung",
+          heroEyebrow: "Hochzeitsfotograf Innsbruck",
+          heroTitle: "Standesamt<br>Hochzeit<br>Innsbruck",
+          heroCopy: "Eure Ziviltrauung in Innsbruck – ein kurzer, echter, tiefer Moment. Kein Stress, keine Inszenierung. Ich dokumentiere mit Ruhe und Gespür, was zwischen euch passiert: das Lachen vor dem Rathaus, das Zittern beim Ja-Wort, der erste Blick danach.",
+          heroCta: "Jetzt anfragen",
+          whatEyebrow: "Warum das Standesamt",
+          whatTitle: "Der ehrlichste<br>Moment des<br>ganzen Tages.",
+          whatCopy1: "Das Standesamt hat keinen Showcharakter. Es ist kurz, dicht, echt. Zwei Menschen, ein Ja-Wort, ein Moment, der alles verändert. Genau das ist fotografisch eines der stärksten Ereignisse überhaupt – wenn man es wirklich sieht und nicht nur ablichtet.",
+          whatCopy2: "Innsbruck bietet dafür eine außergewöhnliche Kulisse: historische Räume, die Altstadt danach, der Inn, die Berge – in wenigen Minuten Fahrt seid ihr mitten in der Natur.",
+          locationEyebrow: "Innsbruck als Kulisse",
+          locationTitle: "Stadt und Berge<br>in einem.",
+          locationCopy1: "Was Innsbruck besonders macht: Ihr seid in wenigen Minuten aus der Stadt heraus – und plötzlich stehen Bergen vor euch, die in fast keiner anderen europäischen Hauptstadt so nah sind. Nach dem Standesamt kann euer Tag in die Berge, ans Wasser oder in die Altstadt führen.",
+          locationCopy2: "Ich kenne die Orte, das Licht zu jeder Tageszeit und weiß, wann wir wo sein müssen. So könnt ihr einfach da sein – ohne Logistik-Stress.",
+          impressionenEyebrow: "Impressionen",
+          specialEyebrow: "Was ich für euch tue",
+          specialTitle: "Mehr als ein<br>Fotograf am<br>Standesamt.",
+          feat1Title: "Diskretes Dokumentieren",
+          feat1Text: "Im Trauungssaal bin ich leise und unsichtbar – kein Blitz, kein Stören, keine inszenierten Posen. Nur das, was wirklich passiert.",
+          feat2Title: "Portraits danach",
+          feat2Text: "Nach der Trauung führe ich euch zu den schönsten Orten in und um Innsbruck – je nach Zeit, Wetter und eurer Stimmung.",
+          feat3Title: "Auch für kleine Feiern",
+          feat3Text: "Ob ihr danach im Stadel feiert, ins Restaurant geht oder direkt in die Berge fahrt: Ich begleite euch so weit, wie ihr möchtet.",
+          feat4Title: "Internationale Paare willkommen",
+          feat4Text: "Viele internationale Paare wählen Innsbruck für ihre Ziviltrauung. Ich spreche Deutsch und Englisch und kenne die Abläufe gut.",
+          feat5Title: "Kein Mindest-Gäste-Limit",
+          feat5Text: "Trauung zu zweit? Gerne. Mit Familie? Auch. Das Format bestimmt ihr – ich passe mich an.",
+          feat6Title: "Ortskenntnis & Lichtgespür",
+          feat6Text: "Ich weiß, wann das Licht in der Altstadt am schönsten ist, wohin nach dem Standesamt und wie man den Nordkettenblick am besten einfängt.",
+          moreText: "Weitere Hochzeitsformen in Tirol:",
+          linkHubschrauber: "Hubschrauber Hochzeit",
+          linkExperience: "Das Gesamterlebnis",
+          faqEyebrow: "Häufige Fragen",
+          faqTitle: "FAQ – Standesamt Innsbruck",
+          faq1Q: "Wo befindet sich das Standesamt Innsbruck?",
+          faq1A: "Das Standesamt der Stadt Innsbruck befindet sich im Rathaus am Maria-Theresien-Straße 18, mitten in der Innsbrucker Altstadt – umgeben von goldenen Dächern, historischen Fassaden und den nahen Berggipfeln der Nordkette.",
+          faq2Q: "Wie buche ich einen Standesamt-Termin in Innsbruck?",
+          faq2A: "Standesamtliche Trauungen werden direkt über die Stadtgemeinde Innsbruck gebucht. Für österreichische Staatsbürger ist das unkompliziert; für internationale Paare gibt es einige Besonderheiten bei den Dokumenten. Ich helfe euch gerne, den Überblick zu behalten.",
+          faq3Q: "Wie lange dauert eine standesamtliche Trauung in Innsbruck?",
+          faq3A: "Die eigentliche Zeremonie dauert meist 20 bis 40 Minuten. Ich empfehle, davor und danach Zeit einzuplanen – für Portraits in der Altstadt, am Inn oder mit dem Nordkettenpanorama im Hintergrund.",
+          faq4Q: "Kann ich danach noch eine Feier im Stadel oder im Freien organisieren?",
+          faq4A: "Absolut. Viele Paare kombinieren eine Innsbrucker Standesamtstrauung mit einer Feier auf einer Alm oder in den Bergen. Ich begleite euch gerne durch den gesamten Tag.",
+          faq5Q: "Fotografierst du auch kleine Standesamt-Hochzeiten ohne große Feier?",
+          faq5A: "Ja, sehr gerne. Manche Paare entscheiden sich für eine reine Standesamts-Trauung zu zweit oder mit ganz wenigen Gästen. Das ist oft das Intimste und Ehrlichste – und ich dokumentiere es mit vollem Engagement.",
+          faq6Q: "Welche Locations eignen sich für Portraits nach dem Standesamt in Innsbruck?",
+          faq6A: "Innsbruck bietet außergewöhnliche Möglichkeiten: das Goldene Dachl, die Altstadt-Gassen, der Inn mit Nordkettenblick, der Hofgarten oder – für etwas mehr Abenteuer – eine kurze Fahrt in die umliegenden Berge. Wir besprechen das gerne vorab.",
+          finalEyebrow: "Eure Standesamt-Hochzeit in Innsbruck",
+          finalTitle: "Klein, echt<br>und alles.",
+          finalCta: "Jetzt anfragen"
+        },
+        en: {
+          docTitle: "Civil Ceremony Innsbruck – Wedding Photographer for Your Registry Wedding",
+          heroEyebrow: "Wedding Photographer Innsbruck",
+          heroTitle: "Civil Ceremony<br>Wedding<br>Innsbruck",
+          heroCopy: "Your civil ceremony in Innsbruck – a brief, real, profound moment. No stress, no staging. I document with calm and sensitivity what happens between you: the laughter outside the town hall, the trembling at 'I do', the first glance afterwards.",
+          heroCta: "Enquire now",
+          whatEyebrow: "Why the civil ceremony",
+          whatTitle: "The most honest<br>moment of<br>the entire day.",
+          whatCopy1: "The civil registry office has no show element. It is brief, dense, real. Two people, one 'I do', a moment that changes everything. That is photographically one of the most powerful events there is – when you truly see it and don't just photograph it.",
+          whatCopy2: "Innsbruck provides an extraordinary backdrop: historic rooms, the old town afterwards, the Inn river, the mountains – within minutes you are surrounded by nature.",
+          locationEyebrow: "Innsbruck as backdrop",
+          locationTitle: "City and mountains<br>in one.",
+          locationCopy1: "What makes Innsbruck special: within minutes you can be out of the city – and suddenly surrounded by mountains closer than in almost any other European city. After the civil ceremony, your day can head into the mountains, to the water or through the old town.",
+          locationCopy2: "I know the locations, the light at every time of day and where we need to be when. So you can simply be present – without logistics stress.",
+          impressionenEyebrow: "Impressions",
+          specialEyebrow: "What I do for you",
+          specialTitle: "More than a photographer<br>at the civil<br>registry.",
+          feat1Title: "Discreet Documentation",
+          feat1Text: "In the ceremony room I'm quiet and invisible – no flash, no disturbance, no staged poses. Only what really happens.",
+          feat2Title: "Portraits afterwards",
+          feat2Text: "After the ceremony I take you to the most beautiful spots in and around Innsbruck – depending on time, weather and your mood.",
+          feat3Title: "Also for small celebrations",
+          feat3Text: "Whether you celebrate in a barn afterwards, go to a restaurant or head straight into the mountains: I accompany you as far as you'd like.",
+          feat4Title: "International couples welcome",
+          feat4Text: "Many international couples choose Innsbruck for their civil ceremony. I speak German and English and know the procedures well.",
+          feat5Title: "No minimum guest requirement",
+          feat5Text: "Ceremony for two? Gladly. With family? Also fine. You decide the format – I adapt.",
+          feat6Title: "Local knowledge & light sense",
+          feat6Text: "I know when the light in the old town is most beautiful, where to go after the ceremony and how to best capture the Nordkette view.",
+          moreText: "More wedding formats in Tyrol:",
+          linkHubschrauber: "Helicopter Wedding",
+          linkExperience: "The Full Experience",
+          faqEyebrow: "Frequently Asked Questions",
+          faqTitle: "FAQ – Civil Ceremony Innsbruck",
+          faq1Q: "Where is the civil registry in Innsbruck?",
+          faq1A: "The civil registry of the city of Innsbruck is located in the town hall at Maria-Theresien-Straße 18, right in Innsbruck's historic old town – surrounded by golden roofs, historic facades and the nearby Nordkette peaks.",
+          faq2Q: "How do I book a civil ceremony in Innsbruck?",
+          faq2A: "Civil ceremonies are booked directly with the city of Innsbruck. For Austrian citizens this is straightforward; for international couples there are some document requirements. I'm happy to help you stay on top of things.",
+          faq3Q: "How long does a civil ceremony in Innsbruck take?",
+          faq3A: "The actual ceremony usually lasts 20 to 40 minutes. I recommend planning time before and after – for portraits in the old town, by the Inn or with the Nordkette panorama in the background.",
+          faq4Q: "Can I organise a celebration in a barn or outdoors afterwards?",
+          faq4A: "Absolutely. Many couples combine an Innsbruck civil ceremony with a celebration at an alpine hut or in the mountains. I'm happy to accompany you through the entire day.",
+          faq5Q: "Do you also photograph small civil ceremonies without a big celebration?",
+          faq5A: "Yes, very happily. Some couples opt for a pure civil ceremony just the two of them or with very few guests. That is often the most intimate and honest a wedding can be – and I document it with full commitment.",
+          faq6Q: "Which locations are best for portraits after the civil ceremony in Innsbruck?",
+          faq6A: "Innsbruck offers extraordinary possibilities: the Golden Roof, the old town alleyways, the Inn with Nordkette view, the Hofgarten – or for a little more adventure, a short drive into the surrounding mountains. We can discuss this in advance.",
+          finalEyebrow: "Your civil ceremony in Innsbruck",
+          finalTitle: "Small, real<br>and everything.",
+          finalCta: "Enquire now"
+        }
+      };
+
+      const htmlIds = ["heroTitle", "whatTitle", "locationTitle", "specialTitle", "finalTitle"];
+      const textIds = [
+        "heroEyebrow", "heroCopy", "heroCta",
+        "whatEyebrow", "whatCopy1", "whatCopy2",
+        "locationEyebrow", "locationCopy1", "locationCopy2",
+        "impressionenEyebrow",
+        "specialEyebrow",
+        "feat1Title", "feat1Text", "feat2Title", "feat2Text", "feat3Title", "feat3Text",
+        "feat4Title", "feat4Text", "feat5Title", "feat5Text", "feat6Title", "feat6Text",
+        "moreText", "linkHubschrauber", "linkExperience",
+        "faqEyebrow", "faqTitle",
+        "faq1Q", "faq1A", "faq2Q", "faq2A", "faq3Q", "faq3A",
+        "faq4Q", "faq4A", "faq5Q", "faq5A", "faq6Q", "faq6A",
+        "finalEyebrow", "finalCta"
+      ];
+
+      const applyLanguage = (lang) => {
+        localStorage.setItem("site-lang", lang);
+        document.documentElement.lang = lang;
+        const t = translations[lang];
+        document.title = t.docTitle;
+
+        htmlIds.forEach(id => {
+          const el = document.getElementById(id);
+          if (el && t[id] !== undefined) el.innerHTML = t[id];
+        });
+        textIds.forEach(id => {
+          const el = document.getElementById(id);
+          if (el && t[id] !== undefined) el.textContent = t[id];
+        });
+
+        const base = lang === "en";
+        document.getElementById("navHomeLink").href = base ? "/?lang=en" : "/";
+        document.getElementById("navExperienceLink").href = base ? "/experience/?lang=en" : "/experience/";
+        document.getElementById("navGuidesLink").href = base ? "/guides/?lang=en" : "/guides/";
+        document.getElementById("navAboutLink").href = base ? "/about/?lang=en" : "/about/";
+        document.getElementById("navJournalLink").href = base ? "/journal/?lang=en" : "/journal/";
+        document.getElementById("navContactLink").href = base ? "/contact/?lang=en" : "/contact/";
+        document.getElementById("heroCta").href = base ? "/contact/?lang=en" : "/contact/";
+        document.getElementById("finalCta").href = base ? "/contact/?lang=en" : "/contact/";
+
+        window.history.replaceState({}, "", base ? "/standesamt-hochzeit-innsbruck/?lang=en" : "/standesamt-hochzeit-innsbruck/");
+
+        document.querySelectorAll("[data-lang-button]").forEach(btn => {
+          const active = btn.dataset.langButton === lang;
+          btn.setAttribute("aria-pressed", active ? "true" : "false");
+          btn.style.backgroundColor = active ? "#1B1A18" : "transparent";
+          btn.style.color = active ? "#F9F7F2" : "#1B1A18";
+          btn.style.borderColor = active ? "#1B1A18" : "#E6DED4";
+        });
+      };
+
+      document.querySelectorAll("[data-lang-button]").forEach(btn => {
+        btn.addEventListener("click", () => applyLanguage(btn.dataset.langButton));
+      });
+
+      const currentLang = new URLSearchParams(window.location.search).get("lang") === "en" ? "en"
+        : (localStorage.getItem("site-lang") === "en" ? "en" : "de");
+      applyLanguage(currentLang);
+    })();
   </script>
 </body>
 </html>

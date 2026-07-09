@@ -237,6 +237,7 @@
       .nav-menu-panel > div:first-child { flex-direction: column; align-items: center; gap: 1rem; }
       .nav-menu-panel a { font-size: 1rem; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; }
       .nav-lang-toggle { display: flex; flex-direction: row; gap: 0.5rem; justify-content: center; margin-top: 0.5rem; }
+      .nav-lang-toggle button { border: 1px solid #E6DED4; min-width: 2.8rem; padding: 0.7rem 0.75rem; font-size: 0.625rem; letter-spacing: 0.2em; text-transform: uppercase; }
     }
   </style>
 </head>
@@ -244,17 +245,21 @@
 
   <nav class="fixed top-0 left-0 z-50 w-full bg-white/80 px-6 py-5 text-brand-text backdrop-blur-sm md:px-12 md:py-8" id="mainNav">
     <div class="mx-auto flex max-w-[120rem] items-center justify-between gap-6">
-      <a href="/" class="group flex items-center" aria-label="Blitzkneisser Photography">
+      <a href="/" id="navHomeLink" class="group flex items-center" aria-label="Blitzkneisser Photography">
         <img src="/Logo-Blitzkneisser-BERG.png" alt="Blitzkneisser Photography" class="h-11 w-auto brightness-0 contrast-125 opacity-70 md:h-14" data-pin-nopin="true">
       </a>
       <button type="button" class="mobile-menu-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenuPanel" aria-label="Menü öffnen"><span></span><span></span><span></span></button>
       <div class="nav-menu-panel ml-auto flex items-center justify-end gap-4 text-right" id="navMenuPanel">
         <div class="flex items-center gap-4 text-[10px] uppercase tracking-[0.2em] sm:gap-6 md:gap-8 md:text-xs">
-          <a href="/experience/" class="hover:opacity-60">Experience</a>
-          <a href="/guides/" class="hover:opacity-60">Guides</a>
-          <a href="/journal/" class="hover:opacity-60">Journal</a>
-          <a href="/about/" class="hover:opacity-60">About</a>
-          <a href="/contact/" class="hover:opacity-60">Contact</a>
+          <a href="/experience/" id="navExperienceLink" class="hover:opacity-60">Experience</a>
+          <a href="/guides/" id="navGuidesLink" class="hover:opacity-60">Guides</a>
+          <a href="/journal/" id="navJournalLink" class="hover:opacity-60">Journal</a>
+          <a href="/about/" id="navAboutLink" class="hover:opacity-60">About</a>
+          <a href="/contact/" id="navContactLink" class="hover:opacity-60">Contact</a>
+        </div>
+        <div class="nav-lang-toggle flex items-center gap-2 text-[10px] uppercase tracking-[0.24em] md:text-xs">
+          <button type="button" class="border border-brand-border px-3 py-2 transition-colors" data-lang-button="de" aria-pressed="true">DE</button>
+          <button type="button" class="border border-brand-border px-3 py-2 transition-colors" data-lang-button="en" aria-pressed="false">EN</button>
         </div>
       </div>
     </div>
@@ -266,13 +271,13 @@
     <header class="px-6 md:px-12 max-w-[120rem] mx-auto mb-16 md:mb-20 fade-in-up">
       <div class="grid gap-12 lg:grid-cols-[1.1fr_0.9fr] lg:items-end">
         <div>
-          <span class="eyebrow mb-4">Hochzeitsfotograf Tirol</span>
-          <h1 class="headline text-[3rem] md:text-[5.8rem] lg:text-[7.8rem]">Hubschrauber<br>Hochzeit<br>Tirol</h1>
+          <span class="eyebrow mb-4" id="heroEyebrow">Hochzeitsfotograf Tirol</span>
+          <h1 id="heroTitle" class="headline text-[3rem] md:text-[5.8rem] lg:text-[7.8rem]">Hubschrauber<br>Hochzeit<br>Tirol</h1>
         </div>
         <div>
-          <p class="intro-copy">Heiraten an einem Ort, den ihr zu Fuß nie erreichen würdet. Per Helikopter auf den Gipfel – für ein Elopement, das wirklich unvergesslich bleibt. Ich begleite euch mit Kamera, Ruhe und dem Gespür für diese außergewöhnlichen Momente.</p>
-          <p class="intro-copy mt-4">Unsere Rolle dabei: Wir begleiten euch als Fotografen – mit Erfahrung auf Berglandeplätzen von den Stubaier Alpen bis in die Dolomiten. Die Flugorganisation läuft über erfahrene Flugunternehmen, mit denen wir seit Jahren zusammenarbeiten.</p>
-          <a href="/contact/" class="editorial-button mt-8 inline-block">Jetzt anfragen</a>
+          <p class="intro-copy" id="heroCopy1">Heiraten an einem Ort, den ihr zu Fuß nie erreichen würdet. Per Helikopter auf den Gipfel – für ein Elopement, das wirklich unvergesslich bleibt. Ich begleite euch mit Kamera, Ruhe und dem Gespür für diese außergewöhnlichen Momente.</p>
+          <p class="intro-copy mt-4" id="heroCopy2">Unsere Rolle dabei: Wir begleiten euch als Fotografen – mit Erfahrung auf Berglandeplätzen von den Stubaier Alpen bis in die Dolomiten. Die Flugorganisation läuft über erfahrene Flugunternehmen, mit denen wir seit Jahren zusammenarbeiten.</p>
+          <a href="/contact/" id="heroCta" class="editorial-button mt-8 inline-block">Jetzt anfragen</a>
         </div>
       </div>
       <div class="mt-12 border-t border-brand-border"></div>
@@ -295,10 +300,10 @@
     <section class="editorial-section border-y border-brand-border bg-brand-soft" aria-labelledby="whatTitle">
       <div class="editorial-inner grid gap-10 lg:grid-cols-2 lg:items-center">
         <div class="fade-in-up">
-          <span class="eyebrow">Was euch erwartet</span>
+          <span class="eyebrow" id="whatEyebrow">Was euch erwartet</span>
           <h2 id="whatTitle" class="headline mt-5 text-4xl md:text-6xl">Orte, die man<br>sonst nur von<br>weitem sieht.</h2>
-          <p class="section-copy mt-7 max-w-xl">Eine Hubschrauber-Hochzeit bedeutet: kein stundenlanger Aufstieg, keine anderen Wanderer am Gipfel, kein Kompromiss zwischen Erreichbarkeit und Schönheit. Ihr landet dort, wo die wenigsten Menschen je stehen werden – und ich halte genau diesen Moment fest.</p>
-          <p class="section-copy mt-4 max-w-xl">Gemeinsam planen wir Route, Licht und Ablauf so, dass alles fließt. Ob kurzes Gipfelelopement oder ganztägiges Erlebnis mit Heli-Flügen und Abendessen auf der Alm – ich passe mich eurer Vision an.</p>
+          <p class="section-copy mt-7 max-w-xl" id="whatCopy1">Eine Hubschrauber-Hochzeit bedeutet: kein stundenlanger Aufstieg, keine anderen Wanderer am Gipfel, kein Kompromiss zwischen Erreichbarkeit und Schönheit. Ihr landet dort, wo die wenigsten Menschen je stehen werden – und ich halte genau diesen Moment fest.</p>
+          <p class="section-copy mt-4 max-w-xl" id="whatCopy2">Gemeinsam planen wir Route, Licht und Ablauf so, dass alles fließt. Ob kurzes Gipfelelopement oder ganztägiges Erlebnis mit Heli-Flügen und Abendessen auf der Alm – ich passe mich eurer Vision an.</p>
         </div>
         <figure class="experience-image aspect-[4/5] fade-in-up" style="animation-delay:0.12s;">
           <img src="/assets/uploads/hubschrauber-hochzeit-dolomiten-landung.jpg"
@@ -313,28 +318,28 @@
     <!-- Ablauf -->
     <section class="editorial-section text-center" aria-labelledby="processTitle">
       <div class="editorial-inner">
-        <span class="eyebrow">Wie es abläuft</span>
+        <span class="eyebrow" id="processEyebrow">Wie es abläuft</span>
         <h2 id="processTitle" class="headline mx-auto mt-5 max-w-4xl text-4xl md:text-6xl">Von der Anfrage bis zum Abflug</h2>
         <div class="mt-14 grid gap-8 md:grid-cols-4 text-left">
           <div>
             <div class="text-[2.5rem] font-light text-brand-muted leading-none mb-4">01</div>
-            <h3 class="text-sm font-bold uppercase tracking-widest mb-2">Anfrage & Gespräch</h3>
-            <p class="text-sm text-brand-muted leading-relaxed">Ihr erzählt mir von eurer Idee. Gemeinsam schauen wir, welche Orte und Piloten zu euch passen.</p>
+            <h3 class="text-sm font-bold uppercase tracking-widest mb-2" id="step1Title">Anfrage & Gespräch</h3>
+            <p class="text-sm text-brand-muted leading-relaxed" id="step1Text">Ihr erzählt mir von eurer Idee. Gemeinsam schauen wir, welche Orte und Piloten zu euch passen.</p>
           </div>
           <div>
             <div class="text-[2.5rem] font-light text-brand-muted leading-none mb-4">02</div>
-            <h3 class="text-sm font-bold uppercase tracking-widest mb-2">Planung & Genehmigung</h3>
-            <p class="text-sm text-brand-muted leading-relaxed">Wir koordinieren Helikopter, Landeerlaubnis, Licht und Wetterfenster. Ich unterstütze euch dabei.</p>
+            <h3 class="text-sm font-bold uppercase tracking-widest mb-2" id="step2Title">Planung & Genehmigung</h3>
+            <p class="text-sm text-brand-muted leading-relaxed" id="step2Text">Wir koordinieren Helikopter, Landeerlaubnis, Licht und Wetterfenster. Ich unterstütze euch dabei.</p>
           </div>
           <div>
             <div class="text-[2.5rem] font-light text-brand-muted leading-none mb-4">03</div>
-            <h3 class="text-sm font-bold uppercase tracking-widest mb-2">Euer Tag am Gipfel</h3>
-            <p class="text-sm text-brand-muted leading-relaxed">Der Flug, die Landung, die Stille, das Licht. Ich bin dabei – mit Abstand, wenn nötig; nah, wenn es wichtig ist.</p>
+            <h3 class="text-sm font-bold uppercase tracking-widest mb-2" id="step3Title">Euer Tag am Gipfel</h3>
+            <p class="text-sm text-brand-muted leading-relaxed" id="step3Text">Der Flug, die Landung, die Stille, das Licht. Ich bin dabei – mit Abstand, wenn nötig; nah, wenn es wichtig ist.</p>
           </div>
           <div>
             <div class="text-[2.5rem] font-light text-brand-muted leading-none mb-4">04</div>
-            <h3 class="text-sm font-bold uppercase tracking-widest mb-2">Eure Galerie</h3>
-            <p class="text-sm text-brand-muted leading-relaxed">Bilder, die euch zurück in die dünne Bergluft bringen – und zeigen, wie außergewöhnlich euer Tag wirklich war.</p>
+            <h3 class="text-sm font-bold uppercase tracking-widest mb-2" id="step4Title">Eure Galerie</h3>
+            <p class="text-sm text-brand-muted leading-relaxed" id="step4Text">Bilder, die euch zurück in die dünne Bergluft bringen – und zeigen, wie außergewöhnlich euer Tag wirklich war.</p>
           </div>
         </div>
       </div>
@@ -383,9 +388,9 @@
           <div class="max-w-2xl">
             <span class="eyebrow text-white/65" style="letter-spacing:0.42em;">Jasmi & Dominik</span>
             <blockquote class="mt-6">
-              <p class="max-w-2xl text-xl font-light leading-relaxed" style="font-style:italic;">"Der Moment, als wir landen und plötzlich ganz allein auf diesem Gipfel stehen – das war das Stillste und Schönste, was ich je erlebt habe."</p>
+              <p class="max-w-2xl text-xl font-light leading-relaxed" style="font-style:italic;" id="testimonialQuote">"Der Moment, als wir landen und plötzlich ganz allein auf diesem Gipfel stehen – das war das Stillste und Schönste, was ich je erlebt habe."</p>
             </blockquote>
-            <a href="/journal/heli-elopement-brixen-dolomiten/" class="editorial-link mt-8 inline-block text-white border-white">Zur Geschichte von Jasmi & Dominik</a>
+            <a href="/journal/heli-elopement-brixen-dolomiten/" id="testimonialLink" class="editorial-link mt-8 inline-block text-white border-white">Zur Geschichte von Jasmi & Dominik</a>
           </div>
         </div>
       </div>
@@ -395,41 +400,41 @@
     <section class="editorial-section" aria-labelledby="specialTitle">
       <div class="editorial-inner">
         <div class="mb-12 max-w-2xl">
-          <span class="eyebrow">Was eine Hubschrauber-Hochzeit ausmacht</span>
+          <span class="eyebrow" id="specialEyebrow">Was eine Hubschrauber-Hochzeit ausmacht</span>
           <h2 id="specialTitle" class="headline mt-5 text-4xl md:text-6xl">Stille, die man<br>nur mit dem<br>Heli erreicht.</h2>
         </div>
         <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           <div class="border-t border-brand-border pt-6">
-            <h3 class="text-sm font-bold uppercase tracking-widest mb-3">Absolute Abgeschiedenheit</h3>
-            <p class="text-sm text-brand-muted leading-relaxed">Kein Wanderweg, keine anderen Gäste, kein Lärm. Nur ihr, das Licht und die Weite des Hochgebirges.</p>
+            <h3 class="text-sm font-bold uppercase tracking-widest mb-3" id="feat1Title">Absolute Abgeschiedenheit</h3>
+            <p class="text-sm text-brand-muted leading-relaxed" id="feat1Text">Kein Wanderweg, keine anderen Gäste, kein Lärm. Nur ihr, das Licht und die Weite des Hochgebirges.</p>
           </div>
           <div class="border-t border-brand-border pt-6">
-            <h3 class="text-sm font-bold uppercase tracking-widest mb-3">Orte ohne Einschränkung</h3>
-            <p class="text-sm text-brand-muted leading-relaxed">Gletscher, Felsgipfel, Hochalmen oder Bergseen – wir wählen den Ort nach Licht und Stimmung, nicht nach Zugänglichkeit.</p>
+            <h3 class="text-sm font-bold uppercase tracking-widest mb-3" id="feat2Title">Orte ohne Einschränkung</h3>
+            <p class="text-sm text-brand-muted leading-relaxed" id="feat2Text">Gletscher, Felsgipfel, Hochalmen oder Bergseen – wir wählen den Ort nach Licht und Stimmung, nicht nach Zugänglichkeit.</p>
           </div>
           <div class="border-t border-brand-border pt-6">
-            <h3 class="text-sm font-bold uppercase tracking-widest mb-3">Das Erlebnis selbst</h3>
-            <p class="text-sm text-brand-muted leading-relaxed">Schon der Flug ist Teil der Geschichte. Die Anspannung, der Ausblick, die Landung – das alles halte ich fest.</p>
+            <h3 class="text-sm font-bold uppercase tracking-widest mb-3" id="feat3Title">Das Erlebnis selbst</h3>
+            <p class="text-sm text-brand-muted leading-relaxed" id="feat3Text">Schon der Flug ist Teil der Geschichte. Die Anspannung, der Ausblick, die Landung – das alles halte ich fest.</p>
           </div>
           <div class="border-t border-brand-border pt-6">
-            <h3 class="text-sm font-bold uppercase tracking-widest mb-3">Wetteralternativen</h3>
-            <p class="text-sm text-brand-muted leading-relaxed">Bergwetter ist unberechenbar. Wir planen immer mit Ausweichtag und bodennahen Alternativen – eure Hochzeit findet statt.</p>
+            <h3 class="text-sm font-bold uppercase tracking-widest mb-3" id="feat4Title">Wetteralternativen</h3>
+            <p class="text-sm text-brand-muted leading-relaxed" id="feat4Text">Bergwetter ist unberechenbar. Wir planen immer mit Ausweichtag und bodennahen Alternativen – eure Hochzeit findet statt.</p>
           </div>
           <div class="border-t border-brand-border pt-6">
-            <h3 class="text-sm font-bold uppercase tracking-widest mb-3">Zeitlos & intim</h3>
-            <p class="text-sm text-brand-muted leading-relaxed">Ein Elopement per Helikopter hat keine Show, keinen Zeitdruck, keine Liste. Nur zwei Menschen und einen außergewöhnlichen Ort.</p>
+            <h3 class="text-sm font-bold uppercase tracking-widest mb-3" id="feat5Title">Zeitlos & intim</h3>
+            <p class="text-sm text-brand-muted leading-relaxed" id="feat5Text">Ein Elopement per Helikopter hat keine Show, keinen Zeitdruck, keine Liste. Nur zwei Menschen und einen außergewöhnlichen Ort.</p>
           </div>
           <div class="border-t border-brand-border pt-6">
-            <h3 class="text-sm font-bold uppercase tracking-widest mb-3">Komplette Planung</h3>
-            <p class="text-sm text-brand-muted leading-relaxed">Ich empfehle euch Piloten, helfe bei der Logistik und koordiniere Licht, Ablauf und Ort – damit ihr einfach dabei sein könnt.</p>
+            <h3 class="text-sm font-bold uppercase tracking-widest mb-3" id="feat6Title">Komplette Planung</h3>
+            <p class="text-sm text-brand-muted leading-relaxed" id="feat6Text">Ich empfehle euch Piloten, helfe bei der Logistik und koordiniere Licht, Ablauf und Ort – damit ihr einfach dabei sein könnt.</p>
           </div>
         </div>
 
         <div class="mt-16 pt-10 border-t border-brand-border">
-          <p class="text-sm text-brand-muted mb-6">Weitere Hochzeitslocations in Tirol:</p>
+          <p class="text-sm text-brand-muted mb-6" id="moreText">Weitere Hochzeitslocations in Tirol:</p>
           <div class="flex flex-wrap gap-4">
-            <a href="/standesamt-hochzeit-innsbruck/" class="editorial-link">Standesamt Innsbruck</a>
-            <a href="/experience/" class="editorial-link">Das Gesamterlebnis</a>
+            <a href="/standesamt-hochzeit-innsbruck/" class="editorial-link" id="linkStandesamt">Standesamt Innsbruck</a>
+            <a href="/experience/" class="editorial-link" id="linkExperience">Das Gesamterlebnis</a>
           </div>
         </div>
       </div>
@@ -438,32 +443,32 @@
     <!-- FAQ -->
     <section class="editorial-section bg-brand-soft" aria-labelledby="faqTitle">
       <div class="editorial-inner max-w-3xl">
-        <span class="eyebrow">Häufige Fragen</span>
+        <span class="eyebrow" id="faqEyebrow">Häufige Fragen</span>
         <h2 id="faqTitle" class="headline mt-5 text-4xl md:text-5xl mb-10">FAQ – Hubschrauber Hochzeit</h2>
 
         <details class="faq-item">
-          <summary>Was kostet eine Hubschrauber-Hochzeit in Tirol?</summary>
-          <p class="faq-answer">Die Kosten für den Helikopter variieren je nach Flugdauer, Standort und Anbieter – typisch sind 800 bis 2.000 Euro für einen kurzen Gipfelflug. Mein Fotografiepaket kommt dazu. Gemeinsam finden wir eine Variante, die zu eurem Budget passt.</p>
+          <summary id="faq1Q">Was kostet eine Hubschrauber-Hochzeit in Tirol?</summary>
+          <p class="faq-answer" id="faq1A">Die Kosten für den Helikopter variieren je nach Flugdauer, Standort und Anbieter – typisch sind 800 bis 2.000 Euro für einen kurzen Gipfelflug. Mein Fotografiepaket kommt dazu. Gemeinsam finden wir eine Variante, die zu eurem Budget passt.</p>
         </details>
         <details class="faq-item">
-          <summary>Wohin kann man mit dem Hubschrauber in Tirol heiraten?</summary>
-          <p class="faq-answer">Die Möglichkeiten sind fast grenzenlos: hochalpine Gletscher, Felsgipfel in den Dolomiten, abgelegene Almen oder Bergseen. Ich empfehle euch Orte, die ich kenne und die fotografisch außergewöhnlich sind.</p>
+          <summary id="faq2Q">Wohin kann man mit dem Hubschrauber in Tirol heiraten?</summary>
+          <p class="faq-answer" id="faq2A">Die Möglichkeiten sind fast grenzenlos: hochalpine Gletscher, Felsgipfel in den Dolomiten, abgelegene Almen oder Bergseen. Ich empfehle euch Orte, die ich kenne und die fotografisch außergewöhnlich sind.</p>
         </details>
         <details class="faq-item">
-          <summary>Ist eine Hubschrauber-Hochzeit legal in Tirol?</summary>
-          <p class="faq-answer">Das Landen mit einem Hubschrauber in alpinem Gelände ist reguliert, aber mit entsprechender Genehmigung gut möglich. Erfahrene Helikopter-Anbieter aus Tirol haben dafür Routine.</p>
+          <summary id="faq3Q">Ist eine Hubschrauber-Hochzeit legal in Tirol?</summary>
+          <p class="faq-answer" id="faq3A">Das Landen mit einem Hubschrauber in alpinem Gelände ist reguliert, aber mit entsprechender Genehmigung gut möglich. Erfahrene Helikopter-Anbieter aus Tirol haben dafür Routine.</p>
         </details>
         <details class="faq-item">
-          <summary>Wie lange dauert ein Helikopter-Elopement Shooting?</summary>
-          <p class="faq-answer">Meistens planen wir 2 bis 4 Stunden am Gipfel ein. Je nach Wetterfenster, Licht und Stimmung kann es kürzer oder länger werden. Am Berg bestimmt das Wetter den Rhythmus, nicht die Uhr.</p>
+          <summary id="faq4Q">Wie lange dauert ein Helikopter-Elopement Shooting?</summary>
+          <p class="faq-answer" id="faq4A">Meistens planen wir 2 bis 4 Stunden am Gipfel ein. Je nach Wetterfenster, Licht und Stimmung kann es kürzer oder länger werden. Am Berg bestimmt das Wetter den Rhythmus, nicht die Uhr.</p>
         </details>
         <details class="faq-item">
-          <summary>Was passiert bei schlechtem Wetter?</summary>
-          <p class="faq-answer">Bei Unwetter oder schlechter Flugsicht verschieben wir den Flug – das ist mit erfahrenen Piloten gut planbar. Wir haben immer einen Ausweichtermin und eine Alternative, die genauso schön sein kann.</p>
+          <summary id="faq5Q">Was passiert bei schlechtem Wetter?</summary>
+          <p class="faq-answer" id="faq5A">Bei Unwetter oder schlechter Flugsicht verschieben wir den Flug – das ist mit erfahrenen Piloten gut planbar. Wir haben immer einen Ausweichtermin und eine Alternative, die genauso schön sein kann.</p>
         </details>
         <details class="faq-item">
-          <summary>Fotografierst du auch den Flug selbst?</summary>
-          <p class="faq-answer">Ja, wenn möglich. Im Helikopter dokumentiere ich Blicke aus dem Fenster, eure Gesichter beim ersten Anflug auf den Gipfel – das sind oft die emotionalsten Momente des ganzen Tages.</p>
+          <summary id="faq6Q">Fotografierst du auch den Flug selbst?</summary>
+          <p class="faq-answer" id="faq6A">Ja, wenn möglich. Im Helikopter dokumentiere ich Blicke aus dem Fenster, eure Gesichter beim ersten Anflug auf den Gipfel – das sind oft die emotionalsten Momente des ganzen Tages.</p>
         </details>
       </div>
     </section>
@@ -471,9 +476,9 @@
     <!-- Schwester-Marke Empfehlung -->
     <section class="editorial-section border-t border-brand-border bg-brand-soft" aria-label="Full-Service Empfehlung">
       <div class="editorial-inner max-w-2xl">
-        <span class="eyebrow">Ihr möchtet, dass jemand alles plant?</span>
-        <p class="section-copy mt-5">Für Paare, die ein komplettes Elopement mit Planung, Blumen, Zeremonie und allen Details wünschen, gibt es unsere Schwester-Marke:</p>
-        <a href="https://mountain-elopement.com/" target="_blank" rel="follow" class="editorial-link mt-6 inline-block">Mountain Elopement – Full-Service Elopements in den Dolomiten →</a>
+        <span class="eyebrow" id="sisterEyebrow">Ihr möchtet, dass jemand alles plant?</span>
+        <p class="section-copy mt-5" id="sisterText">Für Paare, die ein komplettes Elopement mit Planung, Blumen, Zeremonie und allen Details wünschen, gibt es unsere Schwester-Marke:</p>
+        <a href="https://mountain-elopement.com/" target="_blank" rel="follow" class="editorial-link mt-6 inline-block" id="sisterLink">Mountain Elopement – Full-Service Elopements in den Dolomiten →</a>
       </div>
     </section>
 
@@ -489,9 +494,9 @@
       <div class="relative z-10 flex min-h-[60vh] items-end px-6 pb-12 pt-24 md:px-12 md:pb-16">
         <div class="editorial-inner flex justify-center text-white w-full">
           <div class="max-w-3xl">
-            <span class="eyebrow text-white/70">Lasst uns etwas Unvergessliches schaffen</span>
+            <span class="eyebrow text-white/70" id="finalEyebrow">Lasst uns etwas Unvergessliches schaffen</span>
             <h2 id="finalTitle" class="headline mt-6 text-5xl md:text-7xl">Bereit für den<br>Gipfel?</h2>
-            <a href="/contact/" class="editorial-button mt-8 inline-block text-white border-white hover:bg-white hover:text-brand-text">Jetzt anfragen</a>
+            <a href="/contact/" id="finalCta" class="editorial-button mt-8 inline-block text-white border-white hover:bg-white hover:text-brand-text">Jetzt anfragen</a>
           </div>
         </div>
       </div>
@@ -519,6 +524,7 @@
   <script src="/assets/footer-settings.js"></script>
 
   <script>
+    // Mobile nav toggle
     const nav = document.getElementById("mainNav");
     const navToggle = document.getElementById("navToggle");
     const navMenuPanel = document.getElementById("navMenuPanel");
@@ -527,10 +533,200 @@
       nav.classList.toggle("is-open", willOpen);
       navToggle.setAttribute("aria-expanded", willOpen ? "true" : "false");
     });
-    navMenuPanel.querySelectorAll("a").forEach(a => {
+    navMenuPanel.querySelectorAll("a, button[data-lang-button]").forEach(a => {
       a.addEventListener("click", () => { if (window.innerWidth < 768) nav.classList.remove("is-open"); });
     });
     window.addEventListener("resize", () => { if (window.innerWidth >= 768) nav.classList.remove("is-open"); });
+
+    // Language switching
+    (function () {
+      const translations = {
+        de: {
+          docTitle: "Hubschrauber Hochzeit Tirol | Fotograf für euer Heli-Wedding",
+          heroEyebrow: "Hochzeitsfotograf Tirol",
+          heroTitle: "Hubschrauber<br>Hochzeit<br>Tirol",
+          heroCopy1: "Heiraten an einem Ort, den ihr zu Fuß nie erreichen würdet. Per Helikopter auf den Gipfel – für ein Elopement, das wirklich unvergesslich bleibt. Ich begleite euch mit Kamera, Ruhe und dem Gespür für diese außergewöhnlichen Momente.",
+          heroCopy2: "Unsere Rolle dabei: Wir begleiten euch als Fotografen – mit Erfahrung auf Berglandeplätzen von den Stubaier Alpen bis in die Dolomiten. Die Flugorganisation läuft über erfahrene Flugunternehmen, mit denen wir seit Jahren zusammenarbeiten.",
+          heroCta: "Jetzt anfragen",
+          whatEyebrow: "Was euch erwartet",
+          whatTitle: "Orte, die man<br>sonst nur von<br>weitem sieht.",
+          whatCopy1: "Eine Hubschrauber-Hochzeit bedeutet: kein stundenlanger Aufstieg, keine anderen Wanderer am Gipfel, kein Kompromiss zwischen Erreichbarkeit und Schönheit. Ihr landet dort, wo die wenigsten Menschen je stehen werden – und ich halte genau diesen Moment fest.",
+          whatCopy2: "Gemeinsam planen wir Route, Licht und Ablauf so, dass alles fließt. Ob kurzes Gipfelelopement oder ganztägiges Erlebnis mit Heli-Flügen und Abendessen auf der Alm – ich passe mich eurer Vision an.",
+          processEyebrow: "Wie es abläuft",
+          processTitle: "Von der Anfrage bis zum Abflug",
+          step1Title: "Anfrage & Gespräch",
+          step1Text: "Ihr erzählt mir von eurer Idee. Gemeinsam schauen wir, welche Orte und Piloten zu euch passen.",
+          step2Title: "Planung & Genehmigung",
+          step2Text: "Wir koordinieren Helikopter, Landeerlaubnis, Licht und Wetterfenster. Ich unterstütze euch dabei.",
+          step3Title: "Euer Tag am Gipfel",
+          step3Text: "Der Flug, die Landung, die Stille, das Licht. Ich bin dabei – mit Abstand, wenn nötig; nah, wenn es wichtig ist.",
+          step4Title: "Eure Galerie",
+          step4Text: "Bilder, die euch zurück in die dünne Bergluft bringen – und zeigen, wie außergewöhnlich euer Tag wirklich war.",
+          specialEyebrow: "Was eine Hubschrauber-Hochzeit ausmacht",
+          specialTitle: "Stille, die man<br>nur mit dem<br>Heli erreicht.",
+          feat1Title: "Absolute Abgeschiedenheit",
+          feat1Text: "Kein Wanderweg, keine anderen Gäste, kein Lärm. Nur ihr, das Licht und die Weite des Hochgebirges.",
+          feat2Title: "Orte ohne Einschränkung",
+          feat2Text: "Gletscher, Felsgipfel, Hochalmen oder Bergseen – wir wählen den Ort nach Licht und Stimmung, nicht nach Zugänglichkeit.",
+          feat3Title: "Das Erlebnis selbst",
+          feat3Text: "Schon der Flug ist Teil der Geschichte. Die Anspannung, der Ausblick, die Landung – das alles halte ich fest.",
+          feat4Title: "Wetteralternativen",
+          feat4Text: "Bergwetter ist unberechenbar. Wir planen immer mit Ausweichtag und bodennahen Alternativen – eure Hochzeit findet statt.",
+          feat5Title: "Zeitlos & intim",
+          feat5Text: "Ein Elopement per Helikopter hat keine Show, keinen Zeitdruck, keine Liste. Nur zwei Menschen und einen außergewöhnlichen Ort.",
+          feat6Title: "Komplette Planung",
+          feat6Text: "Ich empfehle euch Piloten, helfe bei der Logistik und koordiniere Licht, Ablauf und Ort – damit ihr einfach dabei sein könnt.",
+          moreText: "Weitere Hochzeitslocations in Tirol:",
+          linkStandesamt: "Standesamt Innsbruck",
+          linkExperience: "Das Gesamterlebnis",
+          faqEyebrow: "Häufige Fragen",
+          faqTitle: "FAQ – Hubschrauber Hochzeit",
+          faq1Q: "Was kostet eine Hubschrauber-Hochzeit in Tirol?",
+          faq1A: "Die Kosten für den Helikopter variieren je nach Flugdauer, Standort und Anbieter – typisch sind 800 bis 2.000 Euro für einen kurzen Gipfelflug. Mein Fotografiepaket kommt dazu. Gemeinsam finden wir eine Variante, die zu eurem Budget passt.",
+          faq2Q: "Wohin kann man mit dem Hubschrauber in Tirol heiraten?",
+          faq2A: "Die Möglichkeiten sind fast grenzenlos: hochalpine Gletscher, Felsgipfel in den Dolomiten, abgelegene Almen oder Bergseen. Ich empfehle euch Orte, die ich kenne und die fotografisch außergewöhnlich sind.",
+          faq3Q: "Ist eine Hubschrauber-Hochzeit legal in Tirol?",
+          faq3A: "Das Landen mit einem Hubschrauber in alpinem Gelände ist reguliert, aber mit entsprechender Genehmigung gut möglich. Erfahrene Helikopter-Anbieter aus Tirol haben dafür Routine.",
+          faq4Q: "Wie lange dauert ein Helikopter-Elopement Shooting?",
+          faq4A: "Meistens planen wir 2 bis 4 Stunden am Gipfel ein. Je nach Wetterfenster, Licht und Stimmung kann es kürzer oder länger werden. Am Berg bestimmt das Wetter den Rhythmus, nicht die Uhr.",
+          faq5Q: "Was passiert bei schlechtem Wetter?",
+          faq5A: "Bei Unwetter oder schlechter Flugsicht verschieben wir den Flug – das ist mit erfahrenen Piloten gut planbar. Wir haben immer einen Ausweichtermin und eine Alternative, die genauso schön sein kann.",
+          faq6Q: "Fotografierst du auch den Flug selbst?",
+          faq6A: "Ja, wenn möglich. Im Helikopter dokumentiere ich Blicke aus dem Fenster, eure Gesichter beim ersten Anflug auf den Gipfel – das sind oft die emotionalsten Momente des ganzen Tages.",
+          sisterEyebrow: "Ihr möchtet, dass jemand alles plant?",
+          sisterText: "Für Paare, die ein komplettes Elopement mit Planung, Blumen, Zeremonie und allen Details wünschen, gibt es unsere Schwester-Marke:",
+          sisterLink: "Mountain Elopement – Full-Service Elopements in den Dolomiten →",
+          finalEyebrow: "Lasst uns etwas Unvergessliches schaffen",
+          finalTitle: "Bereit für den<br>Gipfel?",
+          finalCta: "Jetzt anfragen",
+          testimonialQuote: "„Der Moment, als wir landen und plötzlich ganz allein auf diesem Gipfel stehen – das war das Stillste und Schönste, was ich je erlebt habe.“",
+          testimonialLink: "Zur Geschichte von Jasmi & Dominik"
+        },
+        en: {
+          docTitle: "Helicopter Wedding Tyrol | Photographer for Your Heli Elopement",
+          heroEyebrow: "Wedding Photographer Tyrol",
+          heroTitle: "Helicopter<br>Wedding<br>Tyrol",
+          heroCopy1: "Getting married at a place you'd never reach on foot. By helicopter to the summit – for an elopement that truly stays with you forever. I accompany you with my camera, calm presence and a sense for these extraordinary moments.",
+          heroCopy2: "Our role: We accompany you as photographers – with experience at mountain landing sites from the Stubai Alps to the Dolomites. Flight logistics are handled by experienced aviation companies we've worked with for years.",
+          heroCta: "Enquire now",
+          whatEyebrow: "What to expect",
+          whatTitle: "Places you'd otherwise<br>only see<br>from afar.",
+          whatCopy1: "A helicopter wedding means: no hours of hiking, no other visitors at the summit, no compromise between accessibility and beauty. You land where very few people will ever stand – and I capture exactly that moment.",
+          whatCopy2: "Together we plan the route, light and schedule so that everything flows. Whether a short summit elopement or an all-day experience with helicopter flights and dinner at a mountain hut – I adapt to your vision.",
+          processEyebrow: "How it works",
+          processTitle: "From enquiry to take-off",
+          step1Title: "Enquiry & Conversation",
+          step1Text: "You tell me about your idea. Together we look at which locations and pilots suit you.",
+          step2Title: "Planning & Permits",
+          step2Text: "We coordinate helicopter, landing permit, light and weather window. I support you throughout.",
+          step3Title: "Your Day at the Summit",
+          step3Text: "The flight, the landing, the silence, the light. I'm there – at a distance when needed; close when it matters.",
+          step4Title: "Your Gallery",
+          step4Text: "Images that take you back to that thin mountain air – and show how extraordinary your day truly was.",
+          specialEyebrow: "What makes a helicopter wedding special",
+          specialTitle: "Silence you can only<br>reach by<br>helicopter.",
+          feat1Title: "Absolute Seclusion",
+          feat1Text: "No hiking trail, no other guests, no noise. Just you, the light and the vastness of the high mountains.",
+          feat2Title: "Unlimited Locations",
+          feat2Text: "Glaciers, rock peaks, alpine pastures or mountain lakes – we choose the location by light and atmosphere, not accessibility.",
+          feat3Title: "The Experience Itself",
+          feat3Text: "The flight itself is part of the story. The anticipation, the view, the landing – I capture all of it.",
+          feat4Title: "Weather Alternatives",
+          feat4Text: "Mountain weather is unpredictable. We always plan with a backup day and ground-level alternatives – your wedding will happen.",
+          feat5Title: "Timeless & intimate",
+          feat5Text: "A helicopter elopement has no show, no time pressure, no checklist. Just two people and an extraordinary place.",
+          feat6Title: "Complete Planning",
+          feat6Text: "I recommend pilots, help with logistics and coordinate light, schedule and location – so you can simply be present.",
+          moreText: "More wedding locations in Tyrol:",
+          linkStandesamt: "Civil Ceremony Innsbruck",
+          linkExperience: "The Full Experience",
+          faqEyebrow: "Frequently Asked Questions",
+          faqTitle: "FAQ – Helicopter Wedding",
+          faq1Q: "How much does a helicopter wedding in Tyrol cost?",
+          faq1A: "Helicopter costs vary depending on flight duration, location and provider – typically €800 to €2,000 for a short summit flight. My photography package is additional. Together we'll find an option that fits your budget.",
+          faq2Q: "Where can you get married by helicopter in Tyrol?",
+          faq2A: "The possibilities are almost unlimited: high-alpine glaciers, rock peaks in the Dolomites, remote alpine pastures or mountain lakes. I recommend locations I know well and that are photographically extraordinary.",
+          faq3Q: "Is a helicopter wedding legal in Tyrol?",
+          faq3A: "Helicopter landings in alpine terrain are regulated but very possible with the appropriate permit. Experienced helicopter providers in Tyrol handle this routinely.",
+          faq4Q: "How long does a helicopter elopement shoot take?",
+          faq4A: "We usually plan 2 to 4 hours at the summit. Depending on the weather window, light and mood it may be shorter or longer. In the mountains, the weather sets the pace – not the clock.",
+          faq5Q: "What happens in bad weather?",
+          faq5A: "In the case of storms or poor visibility we reschedule the flight – this is easily manageable with experienced pilots. We always have an alternative date and an option that can be just as beautiful.",
+          faq6Q: "Do you also photograph the flight itself?",
+          faq6A: "Yes, when possible. During the helicopter flight I document views from the window, your faces on the first approach to the summit – these are often the most emotional moments of the entire day.",
+          sisterEyebrow: "Would you like someone to plan everything?",
+          sisterText: "For couples who want a complete elopement with planning, flowers, ceremony and all the details, there is our sister brand:",
+          sisterLink: "Mountain Elopement – Full-Service Elopements in the Dolomites →",
+          finalEyebrow: "Let's create something unforgettable",
+          finalTitle: "Ready for<br>the summit?",
+          finalCta: "Enquire now",
+          testimonialQuote: "“The moment we landed and suddenly stood completely alone on that peak – that was the stillest and most beautiful thing I've ever experienced.”",
+          testimonialLink: "The story of Jasmi & Dominik"
+        }
+      };
+
+      const htmlIds = ["heroTitle", "whatTitle", "processTitle", "specialTitle", "finalTitle"];
+      const textIds = [
+        "heroEyebrow", "heroCopy1", "heroCopy2", "heroCta",
+        "whatEyebrow", "whatCopy1", "whatCopy2",
+        "processEyebrow",
+        "step1Title", "step1Text", "step2Title", "step2Text", "step3Title", "step3Text", "step4Title", "step4Text",
+        "specialEyebrow",
+        "feat1Title", "feat1Text", "feat2Title", "feat2Text", "feat3Title", "feat3Text",
+        "feat4Title", "feat4Text", "feat5Title", "feat5Text", "feat6Title", "feat6Text",
+        "moreText", "linkStandesamt", "linkExperience",
+        "faqEyebrow", "faqTitle",
+        "faq1Q", "faq1A", "faq2Q", "faq2A", "faq3Q", "faq3A",
+        "faq4Q", "faq4A", "faq5Q", "faq5A", "faq6Q", "faq6A",
+        "sisterEyebrow", "sisterText", "sisterLink",
+        "finalEyebrow", "finalCta",
+        "testimonialQuote", "testimonialLink"
+      ];
+
+      const applyLanguage = (lang) => {
+        localStorage.setItem("site-lang", lang);
+        document.documentElement.lang = lang;
+        const t = translations[lang];
+        document.title = t.docTitle;
+
+        htmlIds.forEach(id => {
+          const el = document.getElementById(id);
+          if (el && t[id] !== undefined) el.innerHTML = t[id];
+        });
+        textIds.forEach(id => {
+          const el = document.getElementById(id);
+          if (el && t[id] !== undefined) el.textContent = t[id];
+        });
+
+        const base = lang === "en";
+        document.getElementById("navHomeLink").href = base ? "/?lang=en" : "/";
+        document.getElementById("navExperienceLink").href = base ? "/experience/?lang=en" : "/experience/";
+        document.getElementById("navGuidesLink").href = base ? "/guides/?lang=en" : "/guides/";
+        document.getElementById("navAboutLink").href = base ? "/about/?lang=en" : "/about/";
+        document.getElementById("navJournalLink").href = base ? "/journal/?lang=en" : "/journal/";
+        document.getElementById("navContactLink").href = base ? "/contact/?lang=en" : "/contact/";
+        document.getElementById("heroCta").href = base ? "/contact/?lang=en" : "/contact/";
+        document.getElementById("finalCta").href = base ? "/contact/?lang=en" : "/contact/";
+
+        window.history.replaceState({}, "", base ? "/hubschrauber-hochzeit-tirol/?lang=en" : "/hubschrauber-hochzeit-tirol/");
+
+        document.querySelectorAll("[data-lang-button]").forEach(btn => {
+          const active = btn.dataset.langButton === lang;
+          btn.setAttribute("aria-pressed", active ? "true" : "false");
+          btn.style.backgroundColor = active ? "#1B1A18" : "transparent";
+          btn.style.color = active ? "#F9F7F2" : "#1B1A18";
+          btn.style.borderColor = active ? "#1B1A18" : "#E6DED4";
+        });
+      };
+
+      document.querySelectorAll("[data-lang-button]").forEach(btn => {
+        btn.addEventListener("click", () => applyLanguage(btn.dataset.langButton));
+      });
+
+      const currentLang = new URLSearchParams(window.location.search).get("lang") === "en" ? "en"
+        : (localStorage.getItem("site-lang") === "en" ? "en" : "de");
+      applyLanguage(currentLang);
+    })();
   </script>
 </body>
 </html>
