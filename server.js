@@ -500,9 +500,42 @@ const serveStatic = async (req, res, pathname) => {
   sendText(res, 404, "Not Found");
 };
 
+// ---------------------------------------------------------------------------
+// SEO REDIRECTS — zentrale Konfiguration (hier pflegen, nicht verstreut)
+// ---------------------------------------------------------------------------
+
+// 1) Alte URLs → neue Ziele (301 permanent)
+//    Ziele sind vorläufig; später durch eigene Seiten ersetzen und hier anpassen.
+const LEGACY_REDIRECTS = [
+  { from: "/hubschrauber-hochzeit",           to: "/experience/" },
+  { from: "/stadel-hochzeit",                 to: "/experience/" },
+  { from: "/standesamt-hochzeit-innsbruck",   to: "/experience/" },
+  { from: "/helicopter-elopement-in-den-dolomiten", to: "/journal/" },
+];
+
 const server = http.createServer(async (req, res) => {
   const parsed = url.parse(req.url, true);
   const pathname = parsed.pathname || "/";
+
+  // 2) www → ohne www (301)
+  const reqHost = req.headers["host"] || "";
+  if (reqHost.startsWith("www.")) {
+    const bareHost = reqHost.slice(4);
+    const qs = parsed.search || "";
+    res.writeHead(301, { Location: `https://${bareHost}${pathname}${qs}` });
+    res.end();
+    return;
+  }
+
+  // 3) Legacy-URL-Redirects (mit und ohne Trailing Slash, 301)
+  const pathnameNorm = pathname.endsWith("/") ? pathname.slice(0, -1) : pathname;
+  for (const rule of LEGACY_REDIRECTS) {
+    if (pathnameNorm === rule.from) {
+      res.writeHead(301, { Location: rule.to });
+      res.end();
+      return;
+    }
+  }
 
   if (req.method === "OPTIONS") {
     res.writeHead(204, {
@@ -601,7 +634,7 @@ const server = http.createServer(async (req, res) => {
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>${isEn ? "Pricing Wedding Photographer Tyrol &amp; Dolomites | 2026/27" : "Preise Hochzeitsfotograf Tirol &amp; Dolomiten | 2026/27"}</title>
 <meta name="description" content="${isEn ? "Pricing for wedding photography, elopements and wedding films in Tyrol, Innsbruck and the Dolomites 2026/27." : "Preise für Hochzeitsfotografie, Elopements und Hochzeitsfilme in Tirol, Innsbruck und den Dolomiten für 2026/27."}">
-<link rel="canonical" href="https://www.hochzeitsfotograf.tirol/preisliste/26-27/">
+<link rel="canonical" href="https://hochzeitsfotograf.tirol/preisliste/26-27/">
 <link rel="icon" type="image/png" href="/Logo-Blitzkneisser-BERG.png">
 <script defer src="/assets/seo.js"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">

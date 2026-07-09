@@ -19,6 +19,13 @@
       "runtimeArgs": ["run", "dev"],
       "cwd": "../photo-kiss mit CMS/photo-kiss-claude-handoff",
       "port": 3000
+    },
+    {
+      "name": "dino-dorado",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev", "--", "--port", "5188", "--strictPort"],
+      "cwd": "dino-dorado",
+      "port": 5188
     }
   ]
 }

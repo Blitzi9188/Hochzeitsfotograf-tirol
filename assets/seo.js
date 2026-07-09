@@ -1,5 +1,5 @@
 (() => {
-  const SITE_URL = "https://www.hochzeitsfotograf.tirol";
+  const SITE_URL = "https://hochzeitsfotograf.tirol";
 
   const ensureMeta = (selector, attrs = {}) => {
     let node = document.head.querySelector(selector);

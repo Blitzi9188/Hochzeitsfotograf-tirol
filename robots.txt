@@ -26,4 +26,4 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
-Sitemap: https://www.hochzeitsfotograf.tirol/sitemap.xml
+Sitemap: https://hochzeitsfotograf.tirol/sitemap.xml
