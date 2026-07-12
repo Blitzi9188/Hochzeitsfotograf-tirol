@@ -130,6 +130,6 @@ gallery:
 
 Es gibt Tage, die sich anfühlen, als gehörten die Dolomiten euch allein.
 
-Dieser begann am Morgen, noch bevor die ersten Wanderer den Weg zum Pragser Wildsee fanden. Das Wasser war schwarz, die Berge spiegelten sich darin, und die Holzboote lagen still an ihren Tauen. Genau dort, am Seeufer, tauschten sie ihre Gelübde – Worte, die sie sich selbst geschrieben hatten, ohne Mikrofon, ohne Gäste, ohne Ablaufplan. Nur sie, der See und der Moment. Danach ein Ruderboot auf türkisem Wasser, und der erste Kuss als verheiratetes Paar mit dem Pragser Wildsee als einzigem Zeugen.
+Dieser begann am Morgen, noch bevor die ersten Wanderer den Weg zum Pragser Wildsee fanden. Das Wasser war kristallklar und türkisgrün, die Berge spiegelten sich darin, und die Holzboote lagen still an ihren Tauen. Genau dort, am Seeufer, tauschten sie ihre Gelübde – Worte, die sie sich selbst geschrieben hatten, ohne Mikrofon, ohne Gäste, ohne Ablaufplan. Nur sie, der See und der Moment. Danach ein Ruderboot auf türkisem Wasser, und der erste Kuss als verheiratetes Paar mit dem Pragser Wildsee als einzigem Zeugen.
 
 Am Abend hob der Hubschrauber ab. Was folgte, waren die schönsten Plätze der Dolomiten – von oben, in goldenem Licht, ohne einen Weg, der dorthin führt.
