@@ -83,10 +83,15 @@ gallery:
 ### Alt-Texte & Pinterest
 - `alt` (DE): beschreibend, keyword-nah, Muster
   „[Motiv] am [Location] – Hochzeitsfotograf Tirol / Elopement Dolomiten".
-- `altEn` (EN): **doppelt wichtig** – das Template baut daraus automatisch die
-  Pinterest-Pin-Beschreibung (`altEn` + Titel + „Dolomites mountain elopement
-  photography by Blitzkneisser."). Also: englisch, suchstark, natürlich
-  formuliert, pro Bild einzigartig.
+- `altEn` (EN): **PFLICHT für ausnahmslos JEDES Bild** (jedes gallery-Item UND
+  `featuredImageAltEn`). Pinterest-Pins müssen IMMER eine englische
+  Beschreibung tragen – egal ob der Besucher die Seite auf Deutsch oder
+  Englisch ansieht. Das Template erzwingt das bereits (`pinAlt = altEn || alt`
+  – Fallback auf `alt` wäre Deutsch!), deshalb darf `altEn` nie fehlen und nie
+  leer sein. Aus `altEn` wird automatisch die Pin-Beschreibung gebaut
+  (`altEn` + Titel + „Dolomites mountain elopement photography by
+  Blitzkneisser."). Also: englisch, suchstark, natürlich formuliert, pro Bild
+  einzigartig.
 - KEIN globales `pinDescription`-Feld setzen – es würde alle Bilder mit
   demselben Text überschreiben und die individuellen altEn-Pins deaktivieren.
 
@@ -138,7 +143,8 @@ galleryIntroText zusammen ca. 300–500 Wörter.
 
 - Struktur korrekt (Inhalt in YAML-Feldern, Markdown-Body leer)?
 - Featured Image Querformat?
-- Jedes Bild hat `alt` (DE) UND `altEn` (EN/Pinterest), pro Bild einzigartig?
+- Jedes Bild hat `alt` (DE) UND `altEn` (EN) – `altEn` nirgends leer? Pinterest
+  bekommt IMMER Englisch, unabhängig von der Seitensprache.
 - Kein globales `pinDescription` gesetzt?
 - seoTitle ≤60 Z., seoDescription 150–160 Z., beide zweisprachig?
 - Bildreihenfolge folgt der Geschichte (Morgen → Höhepunkt → Abend)?
