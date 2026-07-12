@@ -14,7 +14,6 @@ featuredImageAlt: Brautpaar auf Dolomitengipfel mit weitem Panorama im Abendlich
 featuredImageAltEn: Couple on Dolomite summit with wide panorama in evening light – elopement photographer Tyrol
 teaserDescription: "Morgens Gelübde am Pragser Wildsee. Abends ein Gipfel, den kein Wanderweg erreicht. Zwei Stimmungen, ein Tag."
 teaserDescriptionEn: "Vows at Lago di Braies in the morning. A summit no trail can reach in the evening. Two moods, one day."
-body: "Es gibt Tage, die sich anfühlen, als gehörten die Dolomiten euch allein.\n\nDieser begann am Morgen, noch bevor die ersten Wanderer den Weg zum Pragser Wildsee fanden. Das Wasser war schwarz, die Berge spiegelten sich darin, und die Holzboote lagen still an ihren Tauen. Genau dort, am Seeufer, tauschten sie ihre Gelübde – Worte, die sie sich selbst geschrieben hatten, ohne Mikrofon, ohne Gäste, ohne Ablaufplan. Nur sie, der See und der Moment. Danach ein Ruderboot auf türkisem Wasser, und der erste Kuss als verheiratetes Paar mit dem Pragser Wildsee als einzigem Zeugen.\n\nAm Abend hob der Hubschrauber ab. Was folgte, waren die schönsten Plätze der Dolomiten – von oben, in goldenem Licht, ohne einen Weg, der dorthin führt."
 bodyEn: "There are days that feel as if the Dolomites belong to you alone.\n\nThis one began in the morning, before the first hikers found their way to Lago di Braies. The water was black, the mountains mirrored themselves in it, and the wooden boats lay still on their moorings. Right there, at the water's edge, they exchanged their vows – words they had written themselves, without a microphone, without guests, without a schedule. Just them, the lake, and the moment. Then a rowboat on turquoise water, and the first kiss as a married couple with Lago di Braies as the only witness.\n\nIn the evening, the helicopter lifted off. What followed were the most beautiful places in the Dolomites – from above, in golden light, without a single trail that leads there."
 galleryIntroHeading: "WARUM DIESER TAG NICHT FÜR ALLE IST"
 galleryIntroHeadingEn: "WHY THIS KIND OF DAY ISN'T FOR EVERYONE"
@@ -128,3 +127,9 @@ gallery:
     altEn: Couple walking hand in hand into the evening – elopement Dolomites
     link: ""
 ---
+
+Es gibt Tage, die sich anfühlen, als gehörten die Dolomiten euch allein.
+
+Dieser begann am Morgen, noch bevor die ersten Wanderer den Weg zum Pragser Wildsee fanden. Das Wasser war schwarz, die Berge spiegelten sich darin, und die Holzboote lagen still an ihren Tauen. Genau dort, am Seeufer, tauschten sie ihre Gelübde – Worte, die sie sich selbst geschrieben hatten, ohne Mikrofon, ohne Gäste, ohne Ablaufplan. Nur sie, der See und der Moment. Danach ein Ruderboot auf türkisem Wasser, und der erste Kuss als verheiratetes Paar mit dem Pragser Wildsee als einzigem Zeugen.
+
+Am Abend hob der Hubschrauber ab. Was folgte, waren die schönsten Plätze der Dolomiten – von oben, in goldenem Licht, ohne einen Weg, der dorthin führt.
