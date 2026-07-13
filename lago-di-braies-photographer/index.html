@@ -176,8 +176,8 @@
           <a href="/contact/?lang=en" class="hover:opacity-60">Contact</a>
         </div>
         <div class="nav-lang-toggle flex items-center gap-2 text-[10px] uppercase tracking-[0.24em] md:text-xs">
-          <a href="/" class="border border-brand-border px-3 py-2 transition-colors hover:bg-brand-text hover:text-white text-center min-w-[2.8rem]" style="font-size:0.625rem;letter-spacing:0.2em;text-transform:uppercase;text-decoration:none;color:#1B1A18;">DE</a>
-          <span class="border border-brand-text bg-brand-text px-3 py-2 text-white text-center min-w-[2.8rem]" style="font-size:0.625rem;letter-spacing:0.2em;text-transform:uppercase;">EN</span>
+          <button type="button" id="lg-btn-de" onclick="setLago('de')" class="border border-brand-border px-3 py-2 transition-colors hover:bg-brand-text hover:text-white text-center min-w-[2.8rem]" style="font-size:0.625rem;letter-spacing:0.2em;text-transform:uppercase;cursor:pointer;background:none;">DE</button>
+          <button type="button" id="lg-btn-en" onclick="setLago('en')" class="border border-brand-text bg-brand-text px-3 py-2 text-white text-center min-w-[2.8rem]" style="font-size:0.625rem;letter-spacing:0.2em;text-transform:uppercase;cursor:pointer;">EN</button>
         </div>
       </div>
     </div>
@@ -201,12 +201,12 @@
       <div class="mt-0 border-t border-brand-border mb-10 md:mb-14"></div>
       <div class="grid gap-12 lg:grid-cols-[1.1fr_0.9fr] lg:items-end">
         <div>
-          <span class="eyebrow mb-4">Lago di Braies · Dolomites</span>
-          <h1 class="headline text-[2.6rem] md:text-[5rem] lg:text-[6.8rem]">Wedding &amp;<br>Elopement<br>Photographer<br>at Lago<br>di Braies</h1>
+          <span class="eyebrow mb-4" id="lg-eyebrow">Lago di Braies · Dolomites</span>
+          <h1 class="headline text-[2.6rem] md:text-[5rem] lg:text-[6.8rem]" id="lg-h1">Wedding &amp;<br>Elopement<br>Photographer<br>at Lago<br>di Braies</h1>
         </div>
         <div>
-          <p class="intro-copy">The most iconic lake in the Dolomites. Wooden boathouse, turquoise water, peaks that rise straight from the shore. We have photographed here across many seasons – we know when the gates open, which mooring catches the morning light, and how to make 90 minutes of sunrise work for you.</p>
-          <a href="/contact/?lang=en" class="editorial-button mt-8 inline-block">Enquire now</a>
+          <p class="intro-copy" id="lg-intro">The most iconic lake in the Dolomites. Wooden boathouse, turquoise water, peaks that rise straight from the shore. We have photographed here across many seasons – we know when the gates open, which mooring catches the morning light, and how to make 90 minutes of sunrise work for you.</p>
+          <a href="/contact/?lang=en" class="editorial-button mt-8 inline-block" id="lg-cta1">Enquire now</a>
         </div>
       </div>
     </header>
@@ -215,10 +215,10 @@
     <section class="editorial-section border-y border-brand-border bg-brand-soft" aria-labelledby="whyTitle">
       <div class="editorial-inner grid gap-10 lg:grid-cols-2 lg:items-center">
         <div class="fade-in-up">
-          <span class="eyebrow">Why Lago di Braies</span>
+          <span class="eyebrow" id="lg-why-eyebrow">Why Lago di Braies</span>
           <h2 id="whyTitle" class="headline mt-5 text-4xl md:text-6xl">Still water.<br>No crowds.<br>One hour.</h2>
-          <p class="section-copy mt-7 max-w-xl">Lago di Braies draws thousands of visitors a day in summer – but before they arrive, the lake belongs to you. We start early. The Dolomite peaks mirror themselves in glassy water, the wooden boats sit quietly at their moorings, and the light does things a studio could never replicate.</p>
-          <p class="section-copy mt-4 max-w-xl">We have shot here in June fog, July heat, and September frost. We know the permit process, the boat hire timing through <a href="https://www.la-palafitta.com/" rel="noopener" target="_blank" class="underline decoration-brand-border underline-offset-2 hover:decoration-brand-text">La Palafitta</a>, and the exact spots where the reflection hits perfectly. You bring yourselves. We bring the rest.</p>
+          <p class="section-copy mt-7 max-w-xl" id="lg-why-p1">Lago di Braies draws thousands of visitors a day in summer – but before they arrive, the lake belongs to you. We start early. The Dolomite peaks mirror themselves in glassy water, the wooden boats sit quietly at their moorings, and the light does things a studio could never replicate.</p>
+          <p class="section-copy mt-4 max-w-xl" id="lg-why-p2">We have shot here in June fog, July heat, and September frost. We know the permit process, the boat hire timing through <a href="https://www.la-palafitta.com/" rel="noopener" target="_blank" class="underline decoration-brand-border underline-offset-2 hover:decoration-brand-text">La Palafitta</a>, and the exact spots where the reflection hits perfectly. You bring yourselves. We bring the rest.</p>
         </div>
         <figure class="experience-image aspect-[4/5] fade-in-up" style="animation-delay:0.12s;">
           <img src="/assets/uploads/Blitzkneisser-Pragser-Wildsee-Dolomites-142.jpg"
@@ -241,11 +241,11 @@
                data-pin-description="Intimate elopement at Lago di Braies – bride and groom sharing a quiet moment at the Dolomite lake in the early morning, South Tyrol – Blitzkneisser">
         </figure>
         <div class="fade-in-up order-1 lg:order-2" style="animation-delay:0.12s;">
-          <span class="eyebrow">How a session works</span>
+          <span class="eyebrow" id="lg-ses-eyebrow">How a session works</span>
           <h2 id="sessionTitle" class="headline mt-5 text-4xl md:text-6xl">Sunrise.<br>Vows.<br>The boat.</h2>
-          <p class="section-copy mt-7 max-w-xl">We meet at the lake at first light – usually before 6 a.m. in peak summer. The first moments are always a walk along the shore as the sky shifts. Then the boat: quiet, drifting, just the two of you and the mountains. If you are exchanging vows, the dock by the boathouse is where the stillness is absolute.</p>
-          <p class="section-copy mt-4 max-w-xl">A half-day session runs two to three hours. For full elopement days we combine the lake with an afternoon hike, a mountain refuge lunch or – for the most extraordinary option – a helicopter flight to peaks in the Dolomites that no trail can reach.</p>
-          <a href="/contact/?lang=en" class="editorial-link mt-7 inline-block">Plan your session</a>
+          <p class="section-copy mt-7 max-w-xl" id="lg-ses-p1">We meet at the lake at first light – usually before 6 a.m. in peak summer. The first moments are always a walk along the shore as the sky shifts. Then the boat: quiet, drifting, just the two of you and the mountains. If you are exchanging vows, the dock by the boathouse is where the stillness is absolute.</p>
+          <p class="section-copy mt-4 max-w-xl" id="lg-ses-p2">A half-day session runs two to three hours. For full elopement days we combine the lake with an afternoon hike, a mountain refuge lunch or – for the most extraordinary option – a helicopter flight to peaks in the Dolomites that no trail can reach.</p>
+          <a href="/contact/?lang=en" class="editorial-link mt-7 inline-block" id="lg-ses-link">Plan your session</a>
         </div>
       </div>
     </section>
@@ -253,7 +253,7 @@
     <!-- Gallery -->
     <section class="editorial-section bg-brand-soft" aria-label="Lago di Braies photography gallery">
       <div class="editorial-inner">
-        <span class="eyebrow mb-8 block">Gallery</span>
+        <span class="eyebrow mb-8 block" id="lg-gal-eyebrow">Gallery</span>
         <div class="grid gap-4 md:grid-cols-3">
           <figure class="experience-image aspect-[3/4]">
             <img src="/assets/uploads/Blitzkneisser-Lago-di-Braies-Rain-25.jpg"
@@ -299,7 +299,7 @@
           </figure>
         </div>
         <div class="mt-12 text-center">
-          <a href="/journal/lago-di-braies-wedding-dream-destination-in-the-dolomites/?lang=en" class="editorial-link">See the full Lago di Braies editorial in our journal</a>
+          <a href="/journal/lago-di-braies-wedding-dream-destination-in-the-dolomites/?lang=en" class="editorial-link" id="lg-gal-link">See the full Lago di Braies editorial in our journal</a>
         </div>
       </div>
     </section>
@@ -318,19 +318,19 @@
     <!-- Pricing -->
     <section class="editorial-section" aria-labelledby="pricingTitle">
       <div class="editorial-inner max-w-3xl">
-        <span class="eyebrow">Investment</span>
+        <span class="eyebrow" id="lg-price-eyebrow">Investment</span>
         <h2 id="pricingTitle" class="headline mt-5 text-4xl md:text-6xl">Sessions<br>from €1,200</h2>
-        <p class="section-copy mt-7">A half-day sunrise session at Lago di Braies starts at €1,200. Full elopement days – including vows, boat portraits, and a multi-location afternoon – are quoted individually based on the scope of your day. Travel from Innsbruck/Tyrol is included for Lago di Braies.</p>
-        <p class="section-copy mt-4">We photograph, not plan. If you need florals, a celebrant, permits and logistics handled end to end, see the note below about our sister brand.</p>
-        <a href="/contact/?lang=en" class="editorial-button mt-8 inline-block">Enquire about your date</a>
+        <p class="section-copy mt-7" id="lg-price-p1">A half-day sunrise session at Lago di Braies starts at €1,200. Full elopement days – including vows, boat portraits, and a multi-location afternoon – are quoted individually based on the scope of your day. Travel from Innsbruck/Tyrol is included for Lago di Braies.</p>
+        <p class="section-copy mt-4" id="lg-price-p2">We photograph, not plan. If you need florals, a celebrant, permits and logistics handled end to end, see the note below about our sister brand.</p>
+        <a href="/contact/?lang=en" class="editorial-button mt-8 inline-block" id="lg-cta2">Enquire about your date</a>
       </div>
     </section>
 
     <!-- Rangefinder Press mention -->
     <section class="border-y border-brand-border py-10 px-6 md:px-12 bg-brand-soft">
       <div class="max-w-[88rem] mx-auto flex flex-col md:flex-row md:items-center gap-6">
-        <span class="eyebrow shrink-0">As seen in</span>
-        <p class="text-sm text-brand-muted leading-relaxed">One of our Lago di Braies images was selected as <strong class="text-brand-text">Rangefinder Magazine Photo of the Day</strong> — recognised among the best destination wedding photography worldwide.</p>
+        <span class="eyebrow shrink-0" id="lg-press-eyebrow">As seen in</span>
+        <p class="text-sm text-brand-muted leading-relaxed" id="lg-press-copy">One of our Lago di Braies images was selected as <strong class="text-brand-text">Rangefinder Magazine Photo of the Day</strong> — recognised among the best destination wedding photography worldwide.</p>
       </div>
     </section>
 
@@ -338,10 +338,10 @@
     <section class="editorial-section" aria-labelledby="sisterBrandTitle">
       <div class="editorial-inner max-w-3xl">
         <div class="border border-brand-border p-8 md:p-12">
-          <span class="eyebrow mb-4">Full-service elopement planning</span>
+          <span class="eyebrow mb-4" id="lg-sister-eyebrow">Full-service elopement planning</span>
           <h2 id="sisterBrandTitle" class="headline text-3xl md:text-5xl mt-4">Want your entire<br>elopement planned?</h2>
-          <p class="section-copy mt-6">Ceremony, flowers, celebrant, helicopter, mountain permit, restaurant reservation – all of it. Our sister brand Mountain Elopement is a full-service elopement planning and photography studio specialising in the Alps and Dolomites. They take care of everything so you can simply be present on your day.</p>
-          <a href="https://mountain-elopement.com/" rel="noopener" target="_blank" class="editorial-button mt-8 inline-block">Discover Mountain Elopement →</a>
+          <p class="section-copy mt-6" id="lg-sister-copy">Ceremony, flowers, celebrant, helicopter, mountain permit, restaurant reservation – all of it. Our sister brand Mountain Elopement is a full-service elopement planning and photography studio specialising in the Alps and Dolomites. They take care of everything so you can simply be present on your day.</p>
+          <a href="https://mountain-elopement.com/" rel="noopener" target="_blank" class="editorial-button mt-8 inline-block" id="lg-cta3">Discover Mountain Elopement →</a>
         </div>
       </div>
     </section>
@@ -349,37 +349,37 @@
     <!-- FAQ -->
     <section class="editorial-section bg-brand-soft" aria-labelledby="faqTitle">
       <div class="editorial-inner max-w-3xl">
-        <span class="eyebrow mb-6 block">Frequently asked questions</span>
+        <span class="eyebrow mb-6 block" id="lg-faq-eyebrow">Frequently asked questions</span>
         <h2 id="faqTitle" class="headline text-4xl md:text-5xl mb-12">Everything you<br>need to know.</h2>
 
         <details class="faq-item">
-          <summary>What is the best time of day for photography at Lago di Braies?</summary>
-          <p class="faq-answer">Sunrise is by far the best time. The gates to the lake open at dawn and the first hour gives you perfectly still water, no crowds and warm golden light that turns the Dolomite reflections into something extraordinary. We typically start between 5:00 and 6:00 a.m. depending on the season.</p>
+          <summary id="lg-faq-q1">What is the best time of day for photography at Lago di Braies?</summary>
+          <p class="faq-answer" id="lg-faq-a1">Sunrise is by far the best time. The gates to the lake open at dawn and the first hour gives you perfectly still water, no crowds and warm golden light that turns the Dolomite reflections into something extraordinary. We typically start between 5:00 and 6:00 a.m. depending on the season.</p>
         </details>
 
         <details class="faq-item">
-          <summary>How do I book the iconic rowboat for photos?</summary>
-          <p class="faq-answer">Rowboat hire is managed by the boathouse at Lago di Braies (<a href="https://www.la-palafitta.com/" rel="noopener" target="_blank" class="underline decoration-brand-border underline-offset-2 hover:decoration-brand-text">La Palafitta</a>). We coordinate the timing so you have the boat during the best light window. Boats are available from early morning in summer – we advise booking your photography session first so we can plan around their availability.</p>
+          <summary id="lg-faq-q2">How do I book the iconic rowboat for photos?</summary>
+          <p class="faq-answer" id="lg-faq-a2">Rowboat hire is managed by the boathouse at Lago di Braies (<a href="https://www.la-palafitta.com/" rel="noopener" target="_blank" class="underline decoration-brand-border underline-offset-2 hover:decoration-brand-text">La Palafitta</a>). We coordinate the timing so you have the boat during the best light window. Boats are available from early morning in summer – we advise booking your photography session first so we can plan around their availability.</p>
         </details>
 
         <details class="faq-item">
-          <summary>Do I need a permit for a photo session at Lago di Braies?</summary>
-          <p class="faq-answer">Commercial photography sessions at Lago di Braies require a location permit. We handle this for every session we book there – it is included in our coordination and does not cost you extra effort.</p>
+          <summary id="lg-faq-q3">Do I need a permit for a photo session at Lago di Braies?</summary>
+          <p class="faq-answer" id="lg-faq-a3">Commercial photography sessions at Lago di Braies require a location permit. We handle this for every session we book there – it is included in our coordination and does not cost you extra effort.</p>
         </details>
 
         <details class="faq-item">
-          <summary>How far is Lago di Braies from Innsbruck, Bolzano and Cortina?</summary>
-          <p class="faq-answer">Lago di Braies is roughly 2 hours from Innsbruck and Bolzano, and about 1 hour from Cortina d'Ampezzo. The road from Niederdorf / Braies village to the lake is scenic and easy. We can advise on the best approach route depending on where you are staying.</p>
+          <summary id="lg-faq-q4">How far is Lago di Braies from Innsbruck, Bolzano and Cortina?</summary>
+          <p class="faq-answer" id="lg-faq-a4">Lago di Braies is roughly 2 hours from Innsbruck and Bolzano, and about 1 hour from Cortina d'Ampezzo. The road from Niederdorf / Braies village to the lake is scenic and easy. We can advise on the best approach route depending on where you are staying.</p>
         </details>
 
         <details class="faq-item">
-          <summary>Can we combine a Lago di Braies session with a helicopter elopement in the Dolomites?</summary>
-          <p class="faq-answer">Yes – and it makes for one of the most memorable days imaginable. We start at dawn at the lake for vows and boat portraits, then fly by helicopter to peaks and ridges that no trail can reach for the golden-hour finale. This is exactly the kind of day we love to plan and photograph.</p>
+          <summary id="lg-faq-q5">Can we combine a Lago di Braies session with a helicopter elopement in the Dolomites?</summary>
+          <p class="faq-answer" id="lg-faq-a5">Yes – and it makes for one of the most memorable days imaginable. We start at dawn at the lake for vows and boat portraits, then fly by helicopter to peaks and ridges that no trail can reach for the golden-hour finale. This is exactly the kind of day we love to plan and photograph.</p>
         </details>
 
         <details class="faq-item">
-          <summary>How many times have you photographed at Lago di Braies?</summary>
-          <p class="faq-answer">We have photographed weddings, elopements and couple sessions at Lago di Braies across many seasons and in every kind of light. We know the quiet corners, the boat timings, the permit process and the angles that make each session feel entirely different. One of our images from Lago di Braies was featured as Rangefinder Magazine Photo of the Day.</p>
+          <summary id="lg-faq-q6">How many times have you photographed at Lago di Braies?</summary>
+          <p class="faq-answer" id="lg-faq-a6">We have photographed weddings, elopements and couple sessions at Lago di Braies across many seasons and in every kind of light. We know the quiet corners, the boat timings, the permit process and the angles that make each session feel entirely different. One of our images from Lago di Braies was featured as Rangefinder Magazine Photo of the Day.</p>
         </details>
 
         <!-- Last FAQ border -->
@@ -390,10 +390,10 @@
     <!-- Final CTA -->
     <section class="editorial-section" aria-labelledby="finalTitle">
       <div class="editorial-inner max-w-3xl">
-        <span class="eyebrow">Your session at Lago di Braies</span>
+        <span class="eyebrow" id="lg-final-eyebrow">Your session at Lago di Braies</span>
         <h2 id="finalTitle" class="headline mt-5 text-4xl md:text-6xl">The lake.<br>The light.<br>Just you two.</h2>
-        <p class="section-copy mt-7">Tell us your date and what you have in mind. We'll let you know if it's available and talk through what a session at Lago di Braies could look like for you.</p>
-        <a href="/contact/?lang=en" class="editorial-button mt-8 inline-block">Enquire now</a>
+        <p class="section-copy mt-7" id="lg-final-copy">Tell us your date and what you have in mind. We'll let you know if it's available and talk through what a session at Lago di Braies could look like for you.</p>
+        <a href="/contact/?lang=en" class="editorial-button mt-8 inline-block" id="lg-cta4">Enquire now</a>
       </div>
     </section>
 
@@ -430,5 +430,92 @@
   </script>
 
   <script src="/assets/footer-settings.js"></script>
+
+  <script>
+  // ── Lago di Braies · bilingual DE/EN ────────────────────────────────────
+  (function () {
+    var stored = localStorage.getItem('site-lang');
+    var lang = stored || 'en';
+
+    window.setLago = function (l) {
+      localStorage.setItem('site-lang', l);
+      window.location.reload();
+    };
+
+    // Style the active lang button
+    var btnDe = document.getElementById('lg-btn-de');
+    var btnEn = document.getElementById('lg-btn-en');
+    if (lang === 'de') {
+      if (btnDe) { btnDe.style.background = '#1B1A18'; btnDe.style.color = '#fff'; btnDe.style.borderColor = '#1B1A18'; }
+      if (btnEn) { btnEn.style.background = ''; btnEn.style.color = '#1B1A18'; btnEn.style.borderColor = '#E6DED4'; }
+    }
+
+    if (lang !== 'de') return; // EN ist die Standard-Sprache – nichts zu tun
+
+    // DE translations
+    var t = {
+      'lg-eyebrow':      'Lago di Braies · Dolomiten',
+      'lg-h1':           'Fotograf am<br>Lago di Braies –<br>Hochzeiten &amp;<br>Elopements',
+      'lg-intro':        'Der bekannteste See in den Dolomiten. Holzbootshaus, türkisfarbenes Wasser, Gipfel direkt am Ufer. Wir haben hier über viele Jahreszeiten fotografiert – wir wissen, wann die Schranken öffnen, welcher Anlegeplatz das Morgenlicht einfängt und wie man 90 Minuten Sonnenaufgang perfekt nutzt.',
+      'lg-cta1':         'Anfrage senden',
+      'lg-why-eyebrow':  'Warum Lago di Braies',
+      'whyTitle':        'Stilles Wasser.<br>Keine Massen.<br>Eine Stunde.',
+      'lg-why-p1':       'Der Lago di Braies zieht im Sommer täglich tausende Besucher an – doch bevor sie eintreffen, gehört der See euch. Wir starten früh. Die Dolomitengipfel spiegeln sich im glasklaren Wasser, die Holzboote liegen still an ihren Anlegeplätzen, und das Licht erzeugt Stimmungen, die kein Studio der Welt replizieren kann.',
+      'lg-why-p2':       'Wir haben hier im Juninebel, in der Julihitze und im Septemberfrost fotografiert. Wir kennen den Genehmigungsprozess, die Bootsvermietung durch <a href="https://www.la-palafitta.com/" rel="noopener" target="_blank" class="underline decoration-brand-border underline-offset-2 hover:decoration-brand-text">La Palafitta</a> und die exakten Plätze, an denen die Spiegelung perfekt ist. Ihr bringt euch selbst. Wir bringen den Rest.',
+      'lg-ses-eyebrow':  'So läuft eine Session ab',
+      'sessionTitle':    'Sonnenaufgang.<br>Gelübde.<br>Das Boot.',
+      'lg-ses-p1':       'Wir treffen uns bei erstem Licht am See – im Hochsommer meist vor 6 Uhr morgens. Die ersten Momente sind ein Spaziergang entlang des Ufers, während der Himmel sich färbt. Dann das Boot: ruhig, treibend, nur ihr zwei und die Berge. Wenn ihr Gelübde tauscht, ist der Steg beim Bootshaus der Ort der absoluten Stille.',
+      'lg-ses-p2':       'Eine Halbtagessession dauert zwei bis drei Stunden. Für volle Elopement-Tage kombinieren wir den See mit einer Nachmittagswanderung, einem Hüttenessen oder – für die außergewöhnlichste Option – einem Hubschrauberflug zu Dolomitengipfeln, die kein Wanderweg erreicht.',
+      'lg-ses-link':     'Eure Session planen',
+      'lg-gal-eyebrow':  'Galerie',
+      'lg-gal-link':     'Den vollständigen Lago di Braies Bericht im Journal ansehen',
+      'lg-price-eyebrow':'Investment',
+      'pricingTitle':    'Sessions<br>ab €1.200',
+      'lg-price-p1':     'Eine Halbtagessession bei Sonnenaufgang am Lago di Braies beginnt bei €1.200. Vollständige Elopement-Tage – einschließlich Gelübde, Bootsfotos und mehreren Locations – werden individuell je nach Umfang eures Tages berechnet. An- und Rückreise von Innsbruck/Tirol ist für Lago di Braies inkludiert.',
+      'lg-price-p2':     'Wir fotografieren – nicht planen. Wenn ihr Blumen, Zeremonienleiter, Genehmigungen und Logistik komplett abgedeckt haben möchtet, lest den Hinweis unten zu unserer Schwestermarke.',
+      'lg-cta2':         'Euer Datum anfragen',
+      'lg-press-eyebrow':'Veröffentlicht in',
+      'lg-press-copy':   'Eines unserer Bilder vom Lago di Braies wurde als <strong class="text-brand-text">Rangefinder Magazine Photo of the Day</strong> ausgewählt – anerkannt unter den besten Destination-Hochzeitsfotografien weltweit.',
+      'lg-sister-eyebrow':'Vollständige Elopement-Planung',
+      'sisterBrandTitle':'Möchtet ihr euer<br>Elopement komplett<br>geplant haben?',
+      'lg-sister-copy':  'Zeremonie, Blumen, Zeremonienleiter, Helikopter, Bergbewilligung, Restaurantreservierung – alles inklusive. Unsere Schwestermarke Mountain Elopement ist ein Full-Service Elopement-Planungs- und Fotostudio, spezialisiert auf Alpen und Dolomiten. Sie kümmern sich um alles, damit ihr an eurem Tag einfach präsent sein könnt.',
+      'lg-cta3':         'Mountain Elopement entdecken →',
+      'lg-faq-eyebrow':  'Häufige Fragen',
+      'faqTitle':        'Alles, was ihr<br>wissen müsst.',
+      'lg-faq-q1':       'Wann ist die beste Tageszeit für Fotos am Lago di Braies?',
+      'lg-faq-a1':       'Der Sonnenaufgang ist bei weitem die beste Zeit. Die Schranken zum See öffnen in der Morgendämmerung, und die erste Stunde gibt euch perfekt stilles Wasser, keine Touristenmassen und warmes goldenes Licht, das die Dolomiten-Spiegelungen in etwas Außergewöhnliches verwandelt. Wir beginnen je nach Jahreszeit zwischen 5:00 und 6:00 Uhr morgens.',
+      'lg-faq-q2':       'Wie buche ich das bekannte Ruderboot für Fotos?',
+      'lg-faq-a2':       'Die Bootsmiete wird vom Bootshaus am Lago di Braies verwaltet (<a href="https://www.la-palafitta.com/" rel="noopener" target="_blank" class="underline decoration-brand-border underline-offset-2 hover:decoration-brand-text">La Palafitta</a>). Wir koordinieren den Zeitpunkt, damit ihr das Boot im besten Lichtfenster habt. Boote sind im Sommer ab den frühen Morgenstunden verfügbar – wir empfehlen, zuerst eure Fotosession zu buchen, damit wir die Bootszeit darauf abstimmen können.',
+      'lg-faq-q3':       'Brauche ich eine Genehmigung für eine Fotosession am Lago di Braies?',
+      'lg-faq-a3':       'Kommerzielle Fotosessions am Lago di Braies erfordern eine Location-Genehmigung. Wir regeln das für jede Session, die wir dort buchen – es ist in unserer Koordination enthalten und kostet euch keinen zusätzlichen Aufwand.',
+      'lg-faq-q4':       'Wie weit ist der Lago di Braies von Innsbruck, Bozen und Cortina?',
+      'lg-faq-a4':       'Der Lago di Braies liegt etwa 2 Stunden von Innsbruck und Bozen entfernt und etwa 1 Stunde von Cortina d\'Ampezzo. Die Straße von Niederdorf/Prags zum See ist malerisch und leicht zu fahren. Wir beraten euch gerne zur besten Anfahrtsroute je nach eurem Unterkunftsort.',
+      'lg-faq-q5':       'Können wir eine Lago di Braies Session mit einem Helikopter-Elopement kombinieren?',
+      'lg-faq-a5':       'Ja – und das ergibt einen der unvergesslichsten Tage, die man sich vorstellen kann. Wir beginnen im Morgengrauen am See für Gelübde und Bootsfotos, dann fliegen wir mit dem Helikopter zu Gipfeln und Graten, die kein Wanderweg erreicht. Genau so einen Tag lieben wir zu planen und zu fotografieren.',
+      'lg-faq-q6':       'Wie oft habt ihr schon am Lago di Braies fotografiert?',
+      'lg-faq-a6':       'Wir haben Hochzeiten, Elopements und Paar-Sessions am Lago di Braies über viele Jahreszeiten und bei jeder Art von Licht fotografiert. Wir kennen die ruhigen Ecken, die Bootszeiten, den Genehmigungsprozess und die Perspektiven, die jede Session einzigartig machen. Eines unserer Bilder vom Lago di Braies wurde als Rangefinder Magazine Photo of the Day ausgezeichnet.',
+      'lg-final-eyebrow':'Eure Session am Lago di Braies',
+      'finalTitle':      'Der See.<br>Das Licht.<br>Nur ihr zwei.',
+      'lg-final-copy':   'Schreibt uns euer Datum und was ihr im Sinn habt. Wir melden uns, ob der Termin verfügbar ist und besprechen, wie eine Session am Lago di Braies für euch aussehen könnte.',
+      'lg-cta4':         'Jetzt anfragen'
+    };
+
+    Object.keys(t).forEach(function (id) {
+      var el = document.getElementById(id);
+      if (el) el.innerHTML = t[id];
+    });
+
+    // Contact links → ohne ?lang=en
+    document.querySelectorAll('a[href*="lang=en"]').forEach(function (a) {
+      a.href = a.href.replace('?lang=en', '').replace('&lang=en', '');
+    });
+
+    // Page meta
+    document.title = 'Fotograf am Lago di Braies | Hochzeiten & Elopements in den Dolomiten';
+    var meta = document.querySelector('meta[name="description"]');
+    if (meta) meta.content = 'Euer Fotograf am Lago di Braies: Sonnenaufgangs-Sessions, ikonische Bootsfotos und langjährige lokale Erfahrung am schönsten See der Dolomiten. Sessions ab €1.200. Jetzt anfragen.';
+    document.documentElement.lang = 'de';
+  })();
+  </script>
 </body>
 </html>
