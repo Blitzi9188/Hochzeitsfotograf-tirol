@@ -322,9 +322,9 @@
 
     <!-- Rangefinder Press mention -->
     <section class="border-y border-brand-border py-14 md:py-20 px-6 md:px-12 bg-brand-soft text-center">
-      <span class="eyebrow text-brand-muted block mb-5" id="lg-press-eyebrow">Veröffentlicht in</span>
+      <span class="eyebrow text-brand-muted block mb-5" id="lg-press-eyebrow">Published in</span>
       <p class="font-playfair text-2xl md:text-4xl text-brand-text leading-tight" id="lg-press-copy">Rangefinder Magazine</p>
-      <p class="mt-3 text-sm md:text-base text-brand-muted tracking-widest uppercase">Photo of the Day – Lago di Braies</p>
+      <p class="mt-3 text-sm md:text-base text-brand-muted tracking-widest uppercase" id="lg-press-sub">Photo of the Day – Lago di Braies</p>
     </section>
 
     <!-- FAQ -->
@@ -417,6 +417,7 @@
   (function () {
     var stored = localStorage.getItem('site-lang');
     var lang = stored || 'en';
+    localStorage.setItem('site-lang', lang); // immer persistieren, auch bei EN-Default
 
     window.setLago = function (l) {
       localStorage.setItem('site-lang', l);
@@ -457,6 +458,7 @@
       'lg-cta2':         'Euer Datum anfragen',
       'lg-press-eyebrow':'Veröffentlicht in',
       'lg-press-copy':   'Rangefinder Magazine',
+      'lg-press-sub':    'Foto des Tages – Lago di Braies',
       'lg-faq-eyebrow':  'Häufige Fragen',
       'faqTitle':        'Alles, was ihr<br>wissen müsst.',
       'lg-faq-q1':       'Wann ist die beste Tageszeit für Fotos am Lago di Braies?',
