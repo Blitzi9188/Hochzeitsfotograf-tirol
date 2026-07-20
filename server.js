@@ -93,10 +93,13 @@ const buildCacheControl = (ext) => {
   if ([".jpg", ".jpeg", ".png", ".webp", ".avif", ".heic", ".heif", ".svg"].includes(lowerExt)) {
     return "public, max-age=31536000, immutable";
   }
-  if ([".css", ".js", ".json", ".xml", ".txt", ".md", ".yml", ".yaml"].includes(lowerExt)) {
+  if ([".css", ".js"].includes(lowerExt)) {
+    return "public, max-age=604800, stale-while-revalidate=86400"; // 7 days
+  }
+  if ([".json", ".xml", ".txt", ".md", ".yml", ".yaml"].includes(lowerExt)) {
     return "public, max-age=3600";
   }
-  return "public, max-age=900";
+  return "public, max-age=3600";
 };
 
 const sendJson = (res, statusCode, data) => {
