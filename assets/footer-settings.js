@@ -407,32 +407,26 @@
 
   const consentTexts = {
     de: {
-      title: "Zustimmung verwalten",
-      copy: "Um dir ein optimales Erlebnis zu bieten, verwenden wir Technologien wie Cookies, um Geräteinformationen zu speichern und/oder darauf zuzugreifen. Wenn du diesen Technologien zustimmst, können wir Daten wie das Surfverhalten oder eindeutige IDs auf dieser Website verarbeiten. Wenn du deine Zustimmung nicht erteilst oder zurückziehst, können bestimmte Merkmale und Funktionen beeinträchtigt werden.",
-      policy: "Datenschutzerklärung ansehen",
-      policyShort: "Datenschutz-Erklärung",
-      impressum: "Impressum",
-      agb: "AGBs",
-      necessary: "Notwendige Daten (immer aktiv)",
+      copy: "Wir verwenden Cookies für die Funktionalität dieser Website sowie – mit deiner Zustimmung – für Statistik und Marketing.",
+      policyShort: "Datenschutz",
+      settingsLink: "Einstellungen",
+      necessary: "Notwendige (immer aktiv)",
       analytics: "Statistik",
       marketing: "Marketing",
-      accept: "Zustimmen",
-      reject: "Ablehnen",
-      save: "Einstellungen speichern"
+      accept: "Alle akzeptieren",
+      reject: "Nur essenzielle",
+      save: "Auswahl speichern"
     },
     en: {
-      title: "Manage consent",
-      copy: "To provide you with an optimal experience, we use technologies such as cookies to store and/or access device information. If you consent, we may process data such as browsing behavior or unique IDs on this website. If you do not give or withdraw consent, certain features and functions may be affected.",
-      policy: "View privacy policy",
-      policyShort: "Privacy Policy",
-      impressum: "Legal Notice",
-      agb: "Terms",
-      necessary: "Necessary data (always active)",
+      copy: "We use cookies for the functionality of this website and – with your consent – for analytics and marketing.",
+      policyShort: "Privacy",
+      settingsLink: "Settings",
+      necessary: "Necessary (always active)",
       analytics: "Analytics",
       marketing: "Marketing",
-      accept: "Consent",
-      reject: "Reject",
-      save: "Save settings"
+      accept: "Accept all",
+      reject: "Essential only",
+      save: "Save selection"
     }
   };
 
@@ -464,139 +458,142 @@
     const style = document.createElement("style");
     style.id = CONSENT_STYLE_ID;
     style.textContent = `
-      .privacy-consent-overlay {
+      .pcb {
         position: fixed;
-        inset: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
         z-index: 200;
-        background: rgba(27, 26, 24, 0.11);
-        display: grid;
-        place-items: end center;
-        padding: 1rem;
-        opacity: 0;
-        transition: opacity 0.42s ease;
+        background: rgba(255,255,255,0.97);
+        border-top: 1px solid rgba(27,26,24,0.14);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        padding: 0.85rem 1.25rem 1rem;
+        transform: translateY(100%);
+        transition: transform 0.38s cubic-bezier(0.16,1,0.3,1);
+        will-change: transform;
       }
-      .privacy-consent-overlay.is-visible {
-        opacity: 1;
-      }
-      .privacy-consent-modal {
-        width: min(40rem, 100%);
-        background: rgba(255, 255, 255, 0.97);
-        border: 1px solid #e6ded4;
-        box-shadow: 0 10px 24px rgba(27, 26, 24, 0.1);
-        padding: 0.95rem 0.95rem 0.9rem;
-        transform: translateY(10px);
-        opacity: 0.98;
-        transition: transform 0.42s ease, opacity 0.42s ease;
-        text-align: center;
-        backdrop-filter: blur(8px);
-        position: relative;
-      }
-      .privacy-consent-overlay.is-visible .privacy-consent-modal {
+      .pcb.is-visible {
         transform: translateY(0);
-        opacity: 1;
       }
-      .privacy-consent-modal h2 {
-        margin: 0 0 0.5rem;
-        font-size: 1rem;
-        font-weight: 800;
-        letter-spacing: -0.03em;
-        text-transform: uppercase;
+      .pcb-inner {
+        max-width: 54rem;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 0.6rem;
       }
-      .privacy-consent-lang {
+      .pcb-text {
+        font-size: 0.7rem;
+        line-height: 1.55;
+        color: #3d3830;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: baseline;
+        gap: 0.25rem 0.6rem;
+      }
+      .pcb-links {
         display: inline-flex;
-        gap: 0.4rem;
-        margin: 0;
-        position: absolute;
-        top: 0.62rem;
-        right: 0.62rem;
+        gap: 0.7rem;
+        flex-shrink: 0;
       }
-      .privacy-consent-lang button {
-        border: 1px solid #e6ded4;
-        background: #fff;
-        color: #1b1a18;
-        padding: 0.3rem 0.5rem;
+      .pcb-links a, .pcb-settings-btn {
         font-size: 0.6rem;
         letter-spacing: 0.14em;
         text-transform: uppercase;
-        cursor: pointer;
-      }
-      .privacy-consent-lang button[aria-pressed="true"] {
-        border-color: #1b1a18;
-        background: #1b1a18;
-        color: #fff;
-      }
-      .privacy-consent-modal p {
-        margin: 0 auto 0.65rem;
-        max-width: 42rem;
-        font-size: 0.75rem;
-        line-height: 1.4;
-        color: #4d473f;
-      }
-      .privacy-consent-link {
-        display: inline-block;
-        margin-bottom: 0.7rem;
-        font-size: 0.58rem;
-        letter-spacing: 0.16em;
-        text-transform: uppercase;
         color: #1b1a18;
-      }
-      .privacy-consent-options {
-        display: inline-grid;
-        gap: 0.35rem;
-        margin: 0 auto 0.65rem;
-        text-align: left;
-      }
-      .privacy-consent-option {
-        display: flex;
+        text-decoration: underline;
+        text-underline-offset: 2px;
+        background: none;
+        border: none;
+        padding: 0;
+        cursor: pointer;
+        font-family: inherit;
+        min-height: 48px;
+        display: inline-flex;
         align-items: center;
-        gap: 0.65rem;
-        font-size: 0.68rem;
-        min-height: 1.75rem;
       }
-      .privacy-consent-option input {
-        width: 1.125rem;
-        height: 1.125rem;
-        flex: 0 0 auto;
+      .pcb-links a:hover, .pcb-settings-btn:hover {
+        opacity: 0.6;
       }
-      .privacy-consent-actions {
+      .pcb-panel {
+        display: none;
+        padding: 0.55rem 0 0.1rem;
+        border-top: 1px solid rgba(27,26,24,0.08);
+      }
+      .pcb-panel.is-open {
+        display: block;
+      }
+      .pcb-options {
         display: flex;
         flex-wrap: wrap;
-        gap: 0.55rem;
-        justify-content: center;
+        gap: 0.25rem 1.5rem;
+        margin-bottom: 0.6rem;
       }
-      .privacy-consent-actions button {
+      .pcb-option {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        font-size: 0.62rem;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: #3d3830;
+        cursor: pointer;
+        min-height: 48px;
+      }
+      .pcb-option input[type="checkbox"] {
+        width: 1.05rem;
+        height: 1.05rem;
+        flex: 0 0 auto;
+        cursor: pointer;
+        accent-color: #1b1a18;
+      }
+      .pcb-save {
+        min-height: 48px;
         border: 1px solid #1b1a18;
         background: #fff;
         color: #1b1a18;
-        padding: 0.48rem 0.72rem;
         font-size: 0.58rem;
         font-weight: 700;
-        letter-spacing: 0.16em;
+        letter-spacing: 0.18em;
         text-transform: uppercase;
         cursor: pointer;
+        padding: 0.4rem 1.1rem;
+        font-family: inherit;
       }
-      .privacy-consent-actions .accept {
+      .pcb-save:hover {
         background: #1b1a18;
         color: #fff;
-        font-weight: 800;
       }
-      .privacy-consent-mini-links {
-        margin-top: 0.55rem;
+      .pcb-actions {
         display: flex;
-        justify-content: center;
-        align-items: center;
+        gap: 0.5rem;
         flex-wrap: wrap;
-        gap: 0.45rem;
-        font-size: 0.58rem;
-        letter-spacing: 0.12em;
-        text-transform: uppercase;
       }
-      .privacy-consent-mini-links a {
-        color: #6f685f;
-        text-decoration: none;
-      }
-      .privacy-consent-mini-links a:hover {
+      .pcb-btn {
+        flex: 1 1 10rem;
+        min-height: 48px;
+        border: 1px solid #1b1a18;
+        background: #fff;
         color: #1b1a18;
+        font-size: 0.58rem;
+        font-weight: 700;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        cursor: pointer;
+        padding: 0.4rem 1rem;
+        font-family: inherit;
+        text-align: center;
+      }
+      .pcb-btn:hover {
+        background: rgba(27,26,24,0.06);
+      }
+      .pcb-btn-accept {
+        background: #1b1a18;
+        color: #fff;
+      }
+      .pcb-btn-accept:hover {
+        background: #3d3830;
       }
     `;
     document.head.appendChild(style);
@@ -608,86 +605,77 @@
     if (document.getElementById(CONSENT_MODAL_ID)) return;
 
     ensureConsentStyles();
-    let currentLocale = lang === "en" ? "en" : "de";
+    const locale = lang === "en" ? "en" : "de";
     let analyticsSelected = true;
     let marketingSelected = true;
-    const overlay = document.createElement("div");
-    overlay.id = CONSENT_MODAL_ID;
-    overlay.className = "privacy-consent-overlay";
 
-    const close = () => overlay.remove();
-    const renderModal = () => {
-      const t = consentTexts[currentLocale] || consentTexts.de;
-      const policyHref = currentLocale === "en" ? "/impressum/?lang=en" : "/impressum/";
-      const dsgvoHref = currentLocale === "en" ? "/dsgvo/?lang=en" : "/dsgvo/";
-      const impressumHref = currentLocale === "en" ? "/impressum/?lang=en" : "/impressum/";
-      const agbHref = currentLocale === "en" ? "/agb/?lang=en" : "/agb/";
-      overlay.innerHTML = `
-        <div class="privacy-consent-modal" role="dialog" aria-modal="true" aria-labelledby="privacyConsentTitle">
-          <div class="privacy-consent-lang">
-            <button type="button" id="consentLangDe" aria-pressed="${currentLocale === "de"}">DE</button>
-            <button type="button" id="consentLangEn" aria-pressed="${currentLocale === "en"}">EN</button>
-          </div>
-          <h2 id="privacyConsentTitle">${t.title}</h2>
-          <p>${t.copy}</p>
-          <a class="privacy-consent-link" href="${policyHref}" target="_blank" rel="noreferrer">${t.policy}</a>
-          <div class="privacy-consent-options">
-            <label class="privacy-consent-option"><input type="checkbox" checked disabled> ${t.necessary}</label>
-            <label class="privacy-consent-option"><input id="consentAnalytics" type="checkbox" ${analyticsSelected ? "checked" : ""}> ${t.analytics}</label>
-            <label class="privacy-consent-option"><input id="consentMarketing" type="checkbox" ${marketingSelected ? "checked" : ""}> ${t.marketing}</label>
-          </div>
-          <div class="privacy-consent-actions">
-            <button type="button" class="accept" id="consentAccept">${t.accept}</button>
-            <button type="button" id="consentReject">${t.reject}</button>
-            <button type="button" id="consentSave">${t.save}</button>
-          </div>
-          <div class="privacy-consent-mini-links">
+    const t = consentTexts[locale] || consentTexts.de;
+    const dsgvoHref = locale === "en" ? "/dsgvo/?lang=en" : "/dsgvo/";
+
+    const bar = document.createElement("div");
+    bar.id = CONSENT_MODAL_ID;
+    bar.className = "pcb";
+    bar.setAttribute("role", "region");
+    bar.setAttribute("aria-label", locale === "en" ? "Cookie settings" : "Cookie-Einstellungen");
+
+    bar.innerHTML = `
+      <div class="pcb-inner">
+        <div class="pcb-text">
+          <span>${t.copy}</span>
+          <span class="pcb-links">
             <a href="${dsgvoHref}" target="_blank" rel="noreferrer">${t.policyShort}</a>
-            <span>•</span>
-            <a href="${impressumHref}" target="_blank" rel="noreferrer">${t.impressum}</a>
-            <span>•</span>
-            <a href="${agbHref}" target="_blank" rel="noreferrer">${t.agb}</a>
-          </div>
+            <button type="button" class="pcb-settings-btn" id="consentSettingsToggle" aria-expanded="false" aria-controls="consentPanel">${t.settingsLink}</button>
+          </span>
         </div>
-      `;
+        <div class="pcb-panel" id="consentPanel">
+          <div class="pcb-options">
+            <label class="pcb-option"><input type="checkbox" checked disabled> ${t.necessary}</label>
+            <label class="pcb-option"><input id="consentAnalytics" type="checkbox" checked> ${t.analytics}</label>
+            <label class="pcb-option"><input id="consentMarketing" type="checkbox" checked> ${t.marketing}</label>
+          </div>
+          <button type="button" class="pcb-save" id="consentSave">${t.save}</button>
+        </div>
+        <div class="pcb-actions">
+          <button type="button" class="pcb-btn pcb-btn-accept" id="consentAccept">${t.accept}</button>
+          <button type="button" class="pcb-btn" id="consentReject">${t.reject}</button>
+        </div>
+      </div>
+    `;
 
-      overlay.querySelector("#consentLangDe")?.addEventListener("click", () => {
-        currentLocale = "de";
-        renderModal();
-      });
-      overlay.querySelector("#consentLangEn")?.addEventListener("click", () => {
-        currentLocale = "en";
-        renderModal();
-      });
-      overlay.querySelector("#consentAnalytics")?.addEventListener("change", (event) => {
-        analyticsSelected = Boolean(event.target?.checked);
-      });
-      overlay.querySelector("#consentMarketing")?.addEventListener("change", (event) => {
-        marketingSelected = Boolean(event.target?.checked);
-      });
-      overlay.querySelector("#consentAccept")?.addEventListener("click", () => {
-        saveConsent("accepted", { analytics: true, marketing: true });
-        close();
-      });
-      overlay.querySelector("#consentReject")?.addEventListener("click", () => {
-        saveConsent("rejected", { analytics: false, marketing: false });
-        close();
-      });
-      overlay.querySelector("#consentSave")?.addEventListener("click", () => {
-        saveConsent("custom", { analytics: analyticsSelected, marketing: marketingSelected });
-        close();
-      });
+    const close = () => {
+      bar.style.transform = "translateY(100%)";
+      bar.addEventListener("transitionend", () => bar.remove(), { once: true });
     };
 
-    renderModal();
-    document.body.appendChild(overlay);
-    overlay.addEventListener("click", (event) => {
-      if (event.target !== overlay) return;
+    bar.querySelector("#consentSettingsToggle").addEventListener("click", () => {
+      const panel = bar.querySelector("#consentPanel");
+      const btn = bar.querySelector("#consentSettingsToggle");
+      const isOpen = panel.classList.toggle("is-open");
+      btn.setAttribute("aria-expanded", String(isOpen));
+    });
+
+    bar.querySelector("#consentAnalytics").addEventListener("change", (e) => {
+      analyticsSelected = e.target.checked;
+    });
+    bar.querySelector("#consentMarketing").addEventListener("change", (e) => {
+      marketingSelected = e.target.checked;
+    });
+    bar.querySelector("#consentAccept").addEventListener("click", () => {
       saveConsent("accepted", { analytics: true, marketing: true });
       close();
     });
+    bar.querySelector("#consentReject").addEventListener("click", () => {
+      saveConsent("rejected", { analytics: false, marketing: false });
+      close();
+    });
+    bar.querySelector("#consentSave").addEventListener("click", () => {
+      saveConsent("custom", { analytics: analyticsSelected, marketing: marketingSelected });
+      close();
+    });
+
+    document.body.appendChild(bar);
     window.requestAnimationFrame(() => {
-      overlay.classList.add("is-visible");
+      window.requestAnimationFrame(() => bar.classList.add("is-visible"));
     });
   };
 
