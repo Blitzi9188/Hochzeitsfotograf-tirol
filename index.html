@@ -809,15 +809,15 @@
       </button>
       <div class="nav-menu-panel ml-auto flex items-center justify-end gap-4 text-right" id="navMenuPanel">
         <div class="flex items-center gap-4 text-[10px] uppercase tracking-[0.2em] sm:gap-6 md:gap-8 md:text-xs">
-          <a href="/experience/" class="hover:opacity-60" id="navExperienceLink">Experience</a>
-          <a href="/guides/" class="hover:opacity-60" id="navGuidesLink">Guides</a>
-          <a href="/journal/" class="hover:opacity-60" data-i18n="nav.journal" id="navJournalLink">Journal</a>
-          <a href="/about/" class="hover:opacity-60" data-i18n="nav.about" id="navAboutLink">About</a>
-          <a href="/contact/" class="hover:opacity-60" data-i18n="nav.contact" id="navContactLink">Contact</a>
+          <a href="/experience/" class="hover:opacity-60 inline-flex items-center" style="min-height:44px" id="navExperienceLink">Experience</a>
+          <a href="/guides/" class="hover:opacity-60 inline-flex items-center" style="min-height:44px" id="navGuidesLink">Guides</a>
+          <a href="/journal/" class="hover:opacity-60 inline-flex items-center" style="min-height:44px" data-i18n="nav.journal" id="navJournalLink">Journal</a>
+          <a href="/about/" class="hover:opacity-60 inline-flex items-center" style="min-height:44px" data-i18n="nav.about" id="navAboutLink">About</a>
+          <a href="/contact/" class="hover:opacity-60 inline-flex items-center" style="min-height:44px" data-i18n="nav.contact" id="navContactLink">Contact</a>
         </div>
         <div class="nav-lang-toggle lang-toggle flex items-center gap-2 text-[10px] uppercase tracking-[0.24em] md:text-xs">
-          <button type="button" class="border border-brand-border px-3 py-2 transition-colors" data-lang-button="de" aria-pressed="true">DE</button>
-          <button type="button" class="border border-brand-border px-3 py-2 transition-colors" data-lang-button="en" aria-pressed="false">EN</button>
+          <button type="button" class="border border-brand-border px-3 transition-colors" style="min-height:44px;min-width:44px" data-lang-button="de" aria-pressed="true">DE</button>
+          <button type="button" class="border border-brand-border px-3 transition-colors" style="min-height:44px;min-width:44px" data-lang-button="en" aria-pressed="false">EN</button>
         </div>
       </div>
     </div>
@@ -975,7 +975,10 @@
             <article class="review-slide scroll-fade is-visible">
               <div class="review-card">
                 <div class="flex items-center gap-4">
-                  <img src="/assets/uploads/Blitzkneisser-Mountain-Elopement-Instagram-5.jpg" alt="Kellie + Krake" class="h-14 w-14 rounded-full object-cover" loading="lazy" decoding="async" width="1620" height="1080">
+                  <picture>
+                    <source type="image/webp" srcset="/assets/uploads/Blitzkneisser-Mountain-Elopement-Instagram-5-200w.webp">
+                    <img src="/assets/uploads/Blitzkneisser-Mountain-Elopement-Instagram-5.jpg" alt="Kellie + Krake" class="h-14 w-14 rounded-full object-cover" loading="lazy" decoding="async" width="1620" height="1080">
+                  </picture>
                   <div>
                     <div class="text-[10px] uppercase tracking-[0.24em] text-brand-muted">Kellie + Krake</div>
                     <div class="mt-1 text-[10px] uppercase tracking-[0.18em] text-brand-muted">Januar 2026</div>
@@ -987,7 +990,10 @@
             <article class="review-slide scroll-fade is-visible">
               <div class="review-card">
                 <div class="flex items-center gap-4">
-                  <img src="/assets/uploads/Blitzkneisser-Hochzeit-Seefeld-8.jpg" alt="Anna + Paul" class="h-14 w-14 rounded-full object-cover" loading="lazy" decoding="async" width="720" height="1080">
+                  <picture>
+                    <source type="image/webp" srcset="/assets/uploads/Blitzkneisser-Hochzeit-Seefeld-8-200w.webp">
+                    <img src="/assets/uploads/Blitzkneisser-Hochzeit-Seefeld-8.jpg" alt="Anna + Paul" class="h-14 w-14 rounded-full object-cover" loading="lazy" decoding="async" width="720" height="1080">
+                  </picture>
                   <div>
                     <div class="text-[10px] uppercase tracking-[0.24em] text-brand-muted">Anna + Paul</div>
                     <div class="mt-1 text-[10px] uppercase tracking-[0.18em] text-brand-muted">November 2025</div>
@@ -999,7 +1005,10 @@
             <article class="review-slide scroll-fade is-visible">
               <div class="review-card">
                 <div class="flex items-center gap-4">
-                  <img src="/assets/uploads/Blitzkneisser-Dolomites-Ski-Wedding-44.jpg" alt="Mary + John" class="h-14 w-14 rounded-full object-cover" loading="lazy" decoding="async" width="2800" height="1867">
+                  <picture>
+                    <source type="image/webp" srcset="/assets/uploads/Blitzkneisser-Dolomites-Ski-Wedding-44-200w.webp">
+                    <img src="/assets/uploads/Blitzkneisser-Dolomites-Ski-Wedding-44.jpg" alt="Mary + John" class="h-14 w-14 rounded-full object-cover" loading="lazy" decoding="async" width="2800" height="1867">
+                  </picture>
                   <div>
                     <div class="text-[10px] uppercase tracking-[0.24em] text-brand-muted">Mary + John</div>
                     <div class="mt-1 text-[10px] uppercase tracking-[0.18em] text-brand-muted">August 2025</div>
@@ -1046,31 +1055,58 @@
 
         <div class="portfolio-mosaic-grid scroll-fade mb-8 md:mb-10">
           <a class="portfolio-mosaic-item is-wide" data-mosaic-slot data-portfolio-link href="/portfolio/" aria-label="Portfolio öffnen">
-            <img data-mosaic-image src="/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-3.jpg" alt="After-Wedding Shooting in den Dolomiten – Hochzeitsfotograf Tirol" loading="lazy" decoding="async" width="1500" height="1000">
+            <picture>
+              <source type="image/webp" srcset="/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-3-800w.webp">
+              <img data-mosaic-image src="/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-3.jpg" alt="After-Wedding Shooting in den Dolomiten – Hochzeitsfotograf Tirol" loading="lazy" decoding="async" width="1500" height="1000">
+            </picture>
           </a>
           <a class="portfolio-mosaic-item is-tall" data-mosaic-slot data-portfolio-link href="/portfolio/" aria-label="Portfolio öffnen">
-            <img data-mosaic-image src="/assets/uploads/Blitzkneisser-Elopement-Dolomites-Prags-Zinnen-242.jpg" alt="Elopement an den Drei Zinnen, Dolomiten – Blitzkneisser Photography" loading="lazy" decoding="async" width="2800" height="1867">
+            <picture>
+              <source type="image/webp" srcset="/assets/uploads/Blitzkneisser-Elopement-Dolomites-Prags-Zinnen-242-800w.webp">
+              <img data-mosaic-image src="/assets/uploads/Blitzkneisser-Elopement-Dolomites-Prags-Zinnen-242.jpg" alt="Elopement an den Drei Zinnen, Dolomiten – Blitzkneisser Photography" loading="lazy" decoding="async" width="2800" height="1867">
+            </picture>
           </a>
           <a class="portfolio-mosaic-item is-landscape" data-mosaic-slot data-portfolio-link href="/portfolio/" aria-label="Portfolio öffnen">
-            <img data-mosaic-image src="/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-Instagram-3.jpg" alt="After-Wedding Fotoshooting Dolomiten – Hochzeitsfotograf aus Innsbruck" loading="lazy" decoding="async" width="2800" height="1867">
+            <picture>
+              <source type="image/webp" srcset="/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-Instagram-3-800w.webp">
+              <img data-mosaic-image src="/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-Instagram-3.jpg" alt="After-Wedding Fotoshooting Dolomiten – Hochzeitsfotograf aus Innsbruck" loading="lazy" decoding="async" width="2800" height="1867">
+            </picture>
           </a>
           <a class="portfolio-mosaic-item is-portrait" data-mosaic-slot data-portfolio-link href="/portfolio/" aria-label="Portfolio öffnen">
-            <img data-mosaic-image src="/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-10.jpg" alt="Elopement am Seceda, Südtirol – Berghochzeit Fotograf" loading="lazy" decoding="async" width="1620" height="1080">
+            <picture>
+              <source type="image/webp" srcset="/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-10-800w.webp">
+              <img data-mosaic-image src="/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-10.jpg" alt="Elopement am Seceda, Südtirol – Berghochzeit Fotograf" loading="lazy" decoding="async" width="1620" height="1080">
+            </picture>
           </a>
           <a class="portfolio-mosaic-item is-medium" data-mosaic-slot data-portfolio-link href="/portfolio/" aria-label="Portfolio öffnen">
-            <img data-mosaic-image src="/assets/uploads/Blitzkneisser-Mountain-Elopement-Seceda-180.jpg" alt="Mountain Elopement am Seceda – Hochzeitsfotograf Dolomiten" loading="lazy" decoding="async" width="2800" height="1867">
+            <picture>
+              <source type="image/webp" srcset="/assets/uploads/Blitzkneisser-Mountain-Elopement-Seceda-180-800w.webp">
+              <img data-mosaic-image src="/assets/uploads/Blitzkneisser-Mountain-Elopement-Seceda-180.jpg" alt="Mountain Elopement am Seceda – Hochzeitsfotograf Dolomiten" loading="lazy" decoding="async" width="2800" height="1867">
+            </picture>
           </a>
           <a class="portfolio-mosaic-item is-landscape" data-mosaic-slot data-portfolio-link href="/portfolio/" aria-label="Portfolio öffnen">
-            <img data-mosaic-image src="/assets/uploads/Blitzkneisser-Mountain-Elopement-Seceda-133.jpg" alt="Intimes Elopement in den Bergen – Blitzkneisser Hochzeitsfotograf" loading="lazy" decoding="async" width="2800" height="1867">
+            <picture>
+              <source type="image/webp" srcset="/assets/uploads/Blitzkneisser-Mountain-Elopement-Seceda-133-800w.webp">
+              <img data-mosaic-image src="/assets/uploads/Blitzkneisser-Mountain-Elopement-Seceda-133.jpg" alt="Intimes Elopement in den Bergen – Blitzkneisser Hochzeitsfotograf" loading="lazy" decoding="async" width="2800" height="1867">
+            </picture>
           </a>
           <a class="portfolio-mosaic-item is-medium" data-mosaic-slot data-portfolio-link href="/portfolio/" aria-label="Portfolio öffnen">
-            <img data-mosaic-image src="/assets/uploads/Blitzkneisser-Dolomites-Elopement-Wedding-155.jpg" alt="Hochzeitsreportage Dolomiten – emotionale Berghochzeit Fotografie" loading="lazy" decoding="async" width="2800" height="1867">
+            <picture>
+              <source type="image/webp" srcset="/assets/uploads/Blitzkneisser-Dolomites-Elopement-Wedding-155-800w.webp">
+              <img data-mosaic-image src="/assets/uploads/Blitzkneisser-Dolomites-Elopement-Wedding-155.jpg" alt="Hochzeitsreportage Dolomiten – emotionale Berghochzeit Fotografie" loading="lazy" decoding="async" width="2800" height="1867">
+            </picture>
           </a>
           <a class="portfolio-mosaic-item is-portrait" data-mosaic-slot data-portfolio-link href="/portfolio/" aria-label="Portfolio öffnen">
-            <img data-mosaic-image src="/assets/uploads/Blitzkneisser-Elopement-Seceda-Dolomites-180.jpg" alt="Elopement Seceda Dolomiten – Hochzeitsfotograf Tirol und Südtirol" loading="lazy" decoding="async" width="2800" height="1867">
+            <picture>
+              <source type="image/webp" srcset="/assets/uploads/Blitzkneisser-Elopement-Seceda-Dolomites-180-800w.webp">
+              <img data-mosaic-image src="/assets/uploads/Blitzkneisser-Elopement-Seceda-Dolomites-180.jpg" alt="Elopement Seceda Dolomiten – Hochzeitsfotograf Tirol und Südtirol" loading="lazy" decoding="async" width="2800" height="1867">
+            </picture>
           </a>
           <a class="portfolio-mosaic-item is-medium" data-mosaic-slot data-portfolio-link href="/portfolio/" aria-label="Portfolio öffnen">
-            <img data-mosaic-image src="/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-11.jpg" alt="After-Wedding Bilder in den Dolomiten – alpine Hochzeitsfotografie" loading="lazy" decoding="async" width="1867" height="2800">
+            <picture>
+              <source type="image/webp" srcset="/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-11-800w.webp">
+              <img data-mosaic-image src="/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-11.jpg" alt="After-Wedding Bilder in den Dolomiten – alpine Hochzeitsfotografie" loading="lazy" decoding="async" width="1867" height="2800">
+            </picture>
           </a>
         </div>
 
@@ -1089,7 +1125,10 @@
         <div class="grid gap-6 sm:grid-cols-3 scroll-fade">
           <a href="/hubschrauber-hochzeit-tirol/" class="group block">
             <div class="overflow-hidden aspect-[4/3] bg-brand-soft">
-              <img src="/assets/uploads/hubschrauber-hochzeit-drei-zinnen-paar.jpg"
+              <picture>
+                <source type="image/webp" srcset="/assets/uploads/hubschrauber-hochzeit-drei-zinnen-paar-800w.webp">
+                <img src="/assets/uploads/hubschrauber-hochzeit-drei-zinnen-paar.jpg"
+              </picture>
                    alt="Hubschrauber Hochzeit Tirol – Helikopter Elopement in den Dolomiten"
                    class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.03]"
                    loading="lazy" decoding="async" data-pin-nopin="true">
@@ -1102,7 +1141,10 @@
           </a>
           <a href="/standesamt-hochzeit-innsbruck/" class="group block">
             <div class="overflow-hidden aspect-[4/3] bg-brand-soft">
-              <img src="/assets/uploads/standesamt-hochzeit-innsbruck-nordkette-paar.jpg"
+              <picture>
+                <source type="image/webp" srcset="/assets/uploads/standesamt-hochzeit-innsbruck-nordkette-paar-800w.webp">
+                <img src="/assets/uploads/standesamt-hochzeit-innsbruck-nordkette-paar.jpg"
+              </picture>
                    alt="Brautpaar nach der standesamtlichen Trauung mit Nordkette-Panorama, Innsbruck"
                    class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.03]"
                    loading="lazy" decoding="async" data-pin-nopin="true">
@@ -1115,7 +1157,10 @@
           </a>
           <a href="/lago-di-braies-photographer/" class="group block">
             <div class="overflow-hidden aspect-[4/3] bg-brand-soft">
-              <img src="/assets/uploads/Blitzkneisser-After-Wedding-Lago-di-Braies-9-hero.webp"
+              <picture>
+                <source type="image/webp" srcset="/assets/uploads/Blitzkneisser-After-Wedding-Lago-di-Braies-9-hero-800w.webp">
+                <img src="/assets/uploads/Blitzkneisser-After-Wedding-Lago-di-Braies-9-hero.webp"
+              </picture>
                    alt="Brautpaar im Ruderboot auf dem Pragser Wildsee mit Dolomiten-Spiegelung"
                    class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.03]"
                    loading="lazy" decoding="async" data-pin-nopin="true">
@@ -1285,10 +1330,16 @@
         <a href="https://www.instagram.com/blitzkneisser/" target="_blank" rel="noreferrer" class="footer-instagram-title" style="display:block;text-align:center;font-size:0.6rem;letter-spacing:0.2em;text-transform:uppercase;font-weight:500;margin-bottom:1rem;color:inherit;text-decoration:none;">Instagram</a>
         <div class="footer-instagram-grid" style="display:grid;grid-template-columns:repeat(3,1fr);gap:0.5rem;max-width:32rem;margin:0 auto;">
           <a href="https://www.instagram.com/blitzkneisser/" target="_blank" rel="noreferrer" style="aspect-ratio:1;overflow:hidden;display:block;">
-            <img src="/assets/uploads/Blitzkneisser-Mountain-Elopement-Instagram-5.jpg" alt="Instagram 1" style="width:100%;height:100%;object-fit:cover;transition:transform 0.5s;" loading="lazy" decoding="async" width="1620" height="1080">
+            <picture>
+              <source type="image/webp" srcset="/assets/uploads/Blitzkneisser-Mountain-Elopement-Instagram-5-200w.webp">
+              <img src="/assets/uploads/Blitzkneisser-Mountain-Elopement-Instagram-5.jpg" alt="Instagram 1" style="width:100%;height:100%;object-fit:cover;transition:transform 0.5s;" loading="lazy" decoding="async" width="1620" height="1080">
+            </picture>
           </a>
           <a href="https://www.instagram.com/blitzkneisser/" target="_blank" rel="noreferrer" style="aspect-ratio:1;overflow:hidden;display:block;">
-            <img src="/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-Instagram-3.jpg" alt="Instagram 2" style="width:100%;height:100%;object-fit:cover;transition:transform 0.5s;" loading="lazy" decoding="async" width="2800" height="1867">
+            <picture>
+              <source type="image/webp" srcset="/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-Instagram-3-800w.webp">
+              <img src="/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-Instagram-3.jpg" alt="Instagram 2" style="width:100%;height:100%;object-fit:cover;transition:transform 0.5s;" loading="lazy" decoding="async" width="2800" height="1867">
+            </picture>
           </a>
           <a href="https://www.instagram.com/blitzkneisser/" target="_blank" rel="noreferrer" style="aspect-ratio:1;overflow:hidden;display:block;">
             <img src="/assets/uploads/Blitzkneisser-Mountain-Elopement-Instagram-27.jpg" alt="Instagram 3" style="width:100%;height:100%;object-fit:cover;transition:transform 0.5s;" loading="lazy" decoding="async">
