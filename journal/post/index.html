@@ -8,7 +8,7 @@
     name="description"
     content="Echte Geschichten aus Tirol, den Dolomiten und den Alpen: Elopements, intime Hochzeiten und Tage in den Bergen mit Licht, Wetter und Persönlichkeit."
   >
-  <link rel="canonical" href="">
+  <link rel="canonical" href="" id="canonicalTag">
   <link rel="icon" type="image/png" href="/Logo-Blitzkneisser-BERG.png">
   <!-- Pinterest Rich Pins -->
   <meta name="pinterest-rich-pin" content="true">
@@ -995,6 +995,58 @@
         <h3 class="headline text-2xl md:text-3xl mb-6">${partnersHeading}</h3>
         <div class="prose-entry">${textToPartnerMarkup(partnersText)}</div>
       ` : "";
+
+      // Canonical
+      const pageUrl = window.location.href.split("?")[0];
+      const canonicalEl = document.getElementById("canonicalTag") || document.querySelector('link[rel="canonical"]');
+      if (canonicalEl) canonicalEl.setAttribute("href", pageUrl);
+
+      // BlogPosting JSON-LD
+      let schemaEl = document.getElementById("postSchema");
+      if (!schemaEl) {
+        schemaEl = document.createElement("script");
+        schemaEl.type = "application/ld+json";
+        schemaEl.id = "postSchema";
+        document.head.appendChild(schemaEl);
+      }
+      const postSchema = {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BlogPosting",
+            "@id": `${pageUrl}#blogposting`,
+            "headline": seoTitle || entryTitle,
+            "description": seoDescription || "",
+            "url": pageUrl,
+            "inLanguage": currentLang === "en" ? "en" : "de-AT",
+            "datePublished": entry.date || "",
+            "dateModified": entry.dateModified || entry.date || "",
+            "author": {
+              "@type": "Person",
+              "name": "Andreas Kiss",
+              "url": "https://hochzeitsfotograf.tirol/about/"
+            },
+            "publisher": { "@id": "https://hochzeitsfotograf.tirol/#business" },
+            "mainEntityOfPage": { "@id": `${pageUrl}#webpage` },
+            "image": entry.featuredImage ? {
+              "@type": "ImageObject",
+              "url": entry.featuredImage.startsWith("http") ? entry.featuredImage : `https://hochzeitsfotograf.tirol${entry.featuredImage}`,
+              "description": featuredImageAlt || entryTitle
+            } : undefined
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": `${pageUrl}#breadcrumb`,
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://hochzeitsfotograf.tirol/" },
+              { "@type": "ListItem", "position": 2, "name": "Journal", "item": "https://hochzeitsfotograf.tirol/journal/" },
+              { "@type": "ListItem", "position": 3, "name": entryTitle || "Beitrag", "item": pageUrl }
+            ]
+          }
+        ]
+      };
+      // Remove undefined fields (image might be undefined)
+      schemaEl.textContent = JSON.stringify(postSchema, (k, v) => v === undefined ? undefined : v, 2);
 
     };
 
