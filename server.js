@@ -3,6 +3,7 @@ const fs = require("fs");
 const fsp = require("fs/promises");
 const path = require("path");
 const url = require("url");
+const zlib = require("zlib");
 
 const loadEnvFile = (filePath) => {
   if (!fs.existsSync(filePath)) return;
@@ -489,11 +490,22 @@ const serveStatic = async (req, res, pathname) => {
       const targetFile = stat.isDirectory() ? path.join(filePath, "index.html") : filePath;
       const ext = path.extname(targetFile).toLowerCase();
       const content = await fsp.readFile(targetFile);
-      res.writeHead(200, {
-        "Content-Type": mimeTypes[ext] || "application/octet-stream",
-        "Cache-Control": buildCacheControl(ext)
-      });
-      res.end(content);
+      const compressible = [".css", ".js", ".html", ".json", ".xml", ".txt", ".svg"].includes(ext);
+      const acceptEncoding = req.headers["accept-encoding"] || "";
+      if (compressible && acceptEncoding.includes("gzip")) {
+        zlib.gzip(content, (err, compressed) => {
+          if (err) {
+            res.writeHead(200, { "Content-Type": mimeTypes[ext] || "application/octet-stream", "Cache-Control": buildCacheControl(ext) });
+            res.end(content);
+          } else {
+            res.writeHead(200, { "Content-Type": mimeTypes[ext] || "application/octet-stream", "Cache-Control": buildCacheControl(ext), "Content-Encoding": "gzip", "Vary": "Accept-Encoding" });
+            res.end(compressed);
+          }
+        });
+      } else {
+        res.writeHead(200, { "Content-Type": mimeTypes[ext] || "application/octet-stream", "Cache-Control": buildCacheControl(ext) });
+        res.end(content);
+      }
       return;
     } catch {
       continue;
