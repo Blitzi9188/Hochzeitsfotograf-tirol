@@ -928,6 +928,49 @@
       </div>
     </section>
 
+    <section class="film-teaser-section bg-white px-6 py-16 md:px-12 md:py-24">
+      <div class="mx-auto max-w-[120rem]">
+        <div class="scroll-fade mb-10 text-center">
+          <span class="eyebrow text-brand-muted" data-i18n="filmTeaser.eyebrow">Film</span>
+          <h2 class="headline mt-4 text-4xl md:text-6xl" data-i18n="filmTeaser.title">Ein Elopement in Bewegung</h2>
+          <p class="mx-auto mt-5 max-w-2xl text-base font-light leading-8 text-brand-text/80" data-i18n="filmTeaser.copy">Manche Augenblicke leben vom Klang und von der Bewegung — vom Wind auf dem Grat, von leisen Worten, von einem Blick. Ein kurzer Film aus den Dolomiten.</p>
+        </div>
+        <div class="scroll-fade film-teaser-frame relative mx-auto aspect-video w-full max-w-5xl overflow-hidden bg-black" data-video-id="NW43N3paI-0">
+          <button type="button" class="film-teaser-play group absolute inset-0 h-full w-full cursor-pointer border-0 p-0" aria-label="Film abspielen">
+            <img src="/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Sneak-Peak-2.jpg" alt="Elopement in den Dolomiten – Hochzeitsfilm von Blitzkneisser" loading="lazy" class="h-full w-full object-cover transition-opacity duration-300 group-hover:opacity-90">
+            <span class="pointer-events-none absolute inset-0 flex items-center justify-center">
+              <span class="flex h-16 w-16 items-center justify-center rounded-full bg-white/90 shadow-lg transition-transform duration-300 group-hover:scale-105">
+                <svg width="18" height="22" viewBox="0 0 18 22" fill="#111" aria-hidden="true"><path d="M0 0l18 11L0 22z"/></svg>
+              </span>
+            </span>
+          </button>
+        </div>
+        <div class="scroll-fade mt-8 text-center">
+          <a href="/film/" class="inline-block text-[10px] uppercase tracking-[0.4em] font-medium border border-brand-border px-8 py-4 hover:opacity-60 transition-opacity" data-i18n="filmTeaser.cta">Alle Filme ansehen</a>
+        </div>
+      </div>
+    </section>
+    <script>
+      (function () {
+        document.querySelectorAll(".film-teaser-frame").forEach(function (frame) {
+          var btn = frame.querySelector(".film-teaser-play");
+          if (!btn) return;
+          btn.addEventListener("click", function () {
+            var id = frame.getAttribute("data-video-id");
+            if (!id) return;
+            var iframe = document.createElement("iframe");
+            iframe.src = "https://www.youtube-nocookie.com/embed/" + id + "?autoplay=1&rel=0&modestbranding=1&playsinline=1";
+            iframe.title = "Blitzkneisser Film";
+            iframe.setAttribute("allow", "autoplay; encrypted-media; picture-in-picture; fullscreen");
+            iframe.setAttribute("allowfullscreen", "");
+            iframe.className = "absolute inset-0 h-full w-full border-0";
+            frame.innerHTML = "";
+            frame.appendChild(iframe);
+          });
+        });
+      })();
+    </script>
+
     <section id="journal" class="journal-section defer-section bg-brand-bg px-6 md:px-12">
       <div class="mx-auto max-w-[120rem]">
         <div class="scroll-fade mb-12 flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
@@ -1406,6 +1449,10 @@
         "reviews.card3.name": "Mary + John",
         "reviews.card3.date": "August 2025",
         "reviews.card3.copy": "Sehr sympathisch, großartig umgesetzt und Bilder, die man sich ein Leben lang gern anschaut. Mit Blitzkneiser haben wir für unsere Hochzeit genau den richtigen Fotografen gewählt. Positiv, hilfsbereit und selbst bei jedem Wetter verlässlich. Danke.",
+        "filmTeaser.eyebrow": "Film",
+        "filmTeaser.title": "Ein Elopement in Bewegung",
+        "filmTeaser.copy": "Manche Augenblicke leben vom Klang und von der Bewegung — vom Wind auf dem Grat, von leisen Worten, von einem Blick. Ein kurzer Film aus den Dolomiten.",
+        "filmTeaser.cta": "Alle Filme ansehen",
         "journal.eyebrow": "Journal",
         "journal.title": "Aktuelle Geschichten aus Tirol, Innsbruck und den Dolomiten",
         "journal.link": "Alle Beiträge ansehen",
@@ -1502,6 +1549,10 @@
         "reviews.card3.name": "Mary + John",
         "reviews.card3.date": "August 2025",
         "reviews.card3.copy": "Super personable, great implementation, photos that you'll enjoy looking at for a lifetime. With Blitzkneiser we selected the best photographer for our wedding. Positive and helpful in all weathers - thank you",
+        "filmTeaser.eyebrow": "Film",
+        "filmTeaser.title": "An elopement in motion",
+        "filmTeaser.copy": "Some moments live through sound and movement — the wind on the ridge, quiet words, a single glance. A short film from the Dolomites.",
+        "filmTeaser.cta": "View all films",
         "journal.eyebrow": "Journal",
         "journal.title": "Recent stories from Tirol, Innsbruck and the Dolomites",
         "journal.link": "View all posts",
