@@ -106,8 +106,7 @@ const buildCacheControl = (ext) => {
 const sendJson = (res, statusCode, data) => {
   res.writeHead(statusCode, {
     "Content-Type": "application/json; charset=utf-8",
-    "Cache-Control": "no-store",
-    "Access-Control-Allow-Origin": "*"
+    "Cache-Control": "no-store"
   });
   res.end(JSON.stringify(data));
 };
@@ -115,10 +114,19 @@ const sendJson = (res, statusCode, data) => {
 const sendText = (res, statusCode, message) => {
   res.writeHead(statusCode, {
     "Content-Type": "text/plain; charset=utf-8",
-    "Cache-Control": "no-store",
-    "Access-Control-Allow-Origin": "*"
+    "Cache-Control": "no-store"
   });
   res.end(message);
+};
+
+// CMS endpoints are admin-only. Check for a shared secret in X-Admin-Token header.
+const ADMIN_TOKEN = String(process.env.ADMIN_TOKEN || "").trim();
+const requireAdminToken = (req, res) => {
+  if (!ADMIN_TOKEN) return true; // No token configured: allow (dev mode without .env)
+  const provided = String(req.headers["x-admin-token"] || "").trim();
+  if (provided === ADMIN_TOKEN) return true;
+  sendText(res, 401, "Unauthorized");
+  return false;
 };
 
 const pathExists = async (targetPath) => {
@@ -170,9 +178,16 @@ const ensurePersistentDataRoot = async () => {
   }
 };
 
+const MAX_BODY_BYTES = 20 * 1024 * 1024; // 20 MB
 const readBody = async (req) => {
   const chunks = [];
+  let total = 0;
   for await (const chunk of req) {
+    total += chunk.length;
+    if (total > MAX_BODY_BYTES) {
+      req.destroy();
+      throw Object.assign(new Error("Payload too large"), { statusCode: 413 });
+    }
     chunks.push(chunk);
   }
   return Buffer.concat(chunks).toString("utf8");
@@ -359,6 +374,91 @@ const journalSlugFromFile = (file) =>
 const resolveJournalFileBySlug = async (slug) => {
   const files = await listFilesRecursive(journalDir);
   return files.find((file) => journalSlugFromFile(file) === slug) || null;
+};
+
+const SITE_ORIGIN = "https://blitzkneisser.com";
+const PAGE_TITLE_SUFFIX = "Blitzkneisser Photography";
+
+const escHtml = (value) =>
+  String(value == null ? "" : value)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+
+// Serverseitiges Rendern eines Journal-Beitrags: bäckt Titel, Meta-Description,
+// Canonical, H1, Intro-Text (DE-Standard) und BlogPosting/BreadcrumbList-JSON-LD
+// direkt in das Template, damit /journal/{slug}/ beim Direktaufruf echtes,
+// crawlbares HTML (200) liefert. Das clientseitige JS hydratisiert danach wie bisher.
+const renderJournalEntryHtml = (templateHtml, data, body, pageUrl) => {
+  const entryTitle = data.title || "Journal Eintrag";
+  const seoTitle = data.seoTitle || entryTitle;
+  const seoDescription = data.seoDescription || "Journal Beitrag von Blitzkneisser Photography.";
+  const featuredImage = data.featuredImage || "";
+  const featuredImageAlt = data.featuredImageAlt || entryTitle;
+  const fullTitle = `${seoTitle} | ${PAGE_TITLE_SUFFIX}`;
+
+  const paragraphs = String(body || "")
+    .split("\n")
+    .map((line) => line.trim())
+    .filter((line) => line && !line.startsWith("## "));
+  const introHtml = paragraphs
+    .map((p, i) => `<p class="${i === 0 ? "dropcap " : ""}text-lg md:text-xl font-light leading-relaxed text-brand-text opacity-90 mb-8">${escHtml(p)}</p>`)
+    .join("\n");
+
+  const imageAbsolute = featuredImage
+    ? (featuredImage.startsWith("http") ? featuredImage : `${SITE_ORIGIN}${featuredImage}`)
+    : "";
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BlogPosting",
+        "@id": `${pageUrl}#blogposting`,
+        "headline": seoTitle,
+        "description": seoDescription,
+        "url": pageUrl,
+        "inLanguage": "de-AT",
+        "datePublished": data.date || "",
+        "dateModified": data.dateModified || data.date || "",
+        "author": { "@type": "Person", "name": "Andreas Kiss", "url": `${SITE_ORIGIN}/about/` },
+        "publisher": { "@id": `${SITE_ORIGIN}/#business` },
+        "mainEntityOfPage": { "@id": `${pageUrl}#webpage` },
+        ...(imageAbsolute ? { "image": { "@type": "ImageObject", "url": imageAbsolute, "description": featuredImageAlt } } : {})
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": `${pageUrl}#breadcrumb`,
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Startseite", "item": `${SITE_ORIGIN}/` },
+          { "@type": "ListItem", "position": 2, "name": "Journal", "item": `${SITE_ORIGIN}/journal/` },
+          { "@type": "ListItem", "position": 3, "name": entryTitle, "item": pageUrl }
+        ]
+      }
+    ]
+  };
+
+  const headInjection = [
+    `<meta property="og:title" content="${escHtml(fullTitle)}">`,
+    `<meta property="og:description" content="${escHtml(seoDescription)}">`,
+    imageAbsolute ? `<meta property="og:image" content="${escHtml(imageAbsolute)}">` : "",
+    `<meta property="og:url" content="${escHtml(pageUrl)}">`,
+    `<meta property="og:type" content="article">`,
+    `<script type="application/ld+json" id="postSchema">${escapeInlineJson(jsonLd)}</script>`
+  ].filter(Boolean).join("\n  ");
+
+  let html = templateHtml.toString();
+  html = html.replace(/<title>[\s\S]*?<\/title>/, `<title>${escHtml(fullTitle)}</title>`);
+  html = html.replace(
+    /(<meta\s+name="description"\s+content=")[^"]*(")/,
+    `$1${escHtml(seoDescription)}$2`
+  );
+  html = html.replace('href="" id="canonicalTag"', `href="${escHtml(pageUrl)}" id="canonicalTag"`);
+  html = html.replace('id="entryTitle"></h1>', `id="entryTitle">${escHtml(entryTitle).replace(/ \| /g, "<br>")}</h1>`);
+  html = html.replace('id="introSection"></section>', `id="introSection">${introHtml}</section>`);
+  html = html.replace('</head>', `  ${headInjection}\n</head>`);
+  return html;
 };
 
 const listUploadFiles = async () => {
@@ -648,7 +748,7 @@ const server = http.createServer(async (req, res) => {
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>${isEn ? "Pricing Wedding Photographer Tyrol &amp; Dolomites | 2026/27" : "Preise Hochzeitsfotograf Tirol &amp; Dolomiten | 2026/27"}</title>
 <meta name="description" content="${isEn ? "Pricing for wedding photography, elopements and wedding films in Tyrol, Innsbruck and the Dolomites 2026/27." : "Preise für Hochzeitsfotografie, Elopements und Hochzeitsfilme in Tirol, Innsbruck und den Dolomiten für 2026/27."}">
-<link rel="canonical" href="https://hochzeitsfotograf.tirol/preisliste/26-27/">
+<link rel="canonical" href="https://blitzkneisser.com/preisliste/26-27/">
 <link rel="icon" type="image/png" href="/Logo-Blitzkneisser-BERG.png">
 <script defer src="/assets/seo.js"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -782,13 +882,25 @@ ${addonHtml}
 
     const journalMatch = pathname.match(/^\/journal\/([^/]+)\/$/);
     if ((req.method === "GET" || req.method === "HEAD") && journalMatch) {
+      const slug = journalMatch[1];
+      const file = await resolveJournalFileBySlug(slug);
+      // Unbekannter Slug -> echter 404 (keine leeren Phantom-Seiten für Googlebot)
+      if (!file) {
+        sendText(res, 404, "Journal entry not found");
+        return;
+      }
       const templatePath = path.join(rootDir, "journal", "post", "index.html");
-      const content = await fsp.readFile(templatePath);
+      const templateHtml = await fsp.readFile(templatePath, "utf8");
+      const raw = await fsp.readFile(file, "utf8");
+      const { frontmatter, body } = splitFrontmatter(raw);
+      const data = parseFrontmatterData(frontmatter);
+      const pageUrl = `${SITE_ORIGIN}/journal/${slug}/`;
+      const html = renderJournalEntryHtml(templateHtml, data, body, pageUrl);
       res.writeHead(200, {
         "Content-Type": "text/html; charset=utf-8",
         "Cache-Control": "no-store"
       });
-      res.end(req.method === "HEAD" ? "" : content);
+      res.end(req.method === "HEAD" ? "" : html);
       return;
     }
 
@@ -879,11 +991,13 @@ ${addonHtml}
     }
 
     if (req.method === "GET" && pathname === "/api/files") {
+      if (!requireAdminToken(req, res)) return;
       sendJson(res, 200, { files: await listEditableFiles() });
       return;
     }
 
     if (req.method === "GET" && pathname === "/api/file") {
+      if (!requireAdminToken(req, res)) return;
       const requestedPath = String(parsed.query.path || "");
       const safePath = isSafeEditablePath(requestedPath);
       if (!safePath) {
@@ -896,6 +1010,7 @@ ${addonHtml}
     }
 
     if (req.method === "GET" && pathname === "/api/journal-entry") {
+      if (!requireAdminToken(req, res)) return;
       const slug = String(parsed.query.slug || "");
       if (!slug) {
         sendText(res, 400, "Missing slug");
@@ -914,6 +1029,7 @@ ${addonHtml}
     }
 
     if (req.method === "POST" && pathname === "/api/file") {
+      if (!requireAdminToken(req, res)) return;
       const body = JSON.parse(await readBody(req));
       const safePath = isSafeEditablePath(String(body.path || ""));
       if (!safePath) {
@@ -927,6 +1043,7 @@ ${addonHtml}
     }
 
     if (req.method === "POST" && pathname === "/api/translate") {
+      if (!requireAdminToken(req, res)) return;
       const body = JSON.parse(await readBody(req));
       const text = String(body.text || "");
       const sourceLang = String(body.sourceLang || "de");
@@ -937,6 +1054,7 @@ ${addonHtml}
     }
 
     if (req.method === "POST" && pathname === "/api/delete-file") {
+      if (!requireAdminToken(req, res)) return;
       const body = JSON.parse(await readBody(req));
       const safePath = isSafeEditablePath(String(body.path || ""));
       if (!safePath) {
@@ -949,6 +1067,7 @@ ${addonHtml}
     }
 
     if (req.method === "GET" && pathname === "/api/uploads") {
+      if (!requireAdminToken(req, res)) return;
       sendJson(res, 200, { files: await listUploadFiles() });
       return;
     }
@@ -1003,6 +1122,7 @@ ${addonHtml}
     }
 
     if (req.method === "POST" && pathname === "/api/upload") {
+      if (!requireAdminToken(req, res)) return;
       const body = JSON.parse(await readBody(req));
       const filename = path.basename(String(body.filename || ""));
       if (!filename) {
@@ -1017,6 +1137,7 @@ ${addonHtml}
     }
 
     if (req.method === "POST" && pathname === "/api/delete-upload") {
+      if (!requireAdminToken(req, res)) return;
       const body = JSON.parse(await readBody(req));
       const filename = path.basename(String(body.filename || ""));
       if (!filename) {
@@ -1034,7 +1155,7 @@ ${addonHtml}
       path: pathname,
       method: req.method
     }).catch(() => {});
-    sendText(res, 500, error.message || "Internal Server Error");
+    sendText(res, 500, "Internal Server Error");
   }
 });
 

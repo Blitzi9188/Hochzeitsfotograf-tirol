@@ -270,8 +270,23 @@ const translatePricingJson = async (value, key = "") => {
   return next;
 };
 
+// Read the admin token from localStorage (set once after login).
+const getAdminToken = () => localStorage.getItem("cms-admin-token") || "";
+
 const api = async (url, options = {}) => {
-  const response = await fetch(url, options);
+  const token = getAdminToken();
+  const headers = Object.assign({}, options.headers || {});
+  if (token) headers["X-Admin-Token"] = token;
+  const response = await fetch(url, { ...options, headers });
+  if (response.status === 401) {
+    // Token missing or wrong — prompt once and retry.
+    const entered = prompt("Admin-Token eingeben:");
+    if (entered) {
+      localStorage.setItem("cms-admin-token", entered);
+      return api(url, options); // one retry
+    }
+    throw new Error("Nicht autorisiert");
+  }
   if (!response.ok) {
     const text = await response.text();
     throw new Error(text || `Request failed: ${response.status}`);
