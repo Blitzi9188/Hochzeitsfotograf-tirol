@@ -314,7 +314,7 @@ const getStaticCandidates = (pathname) => {
   const candidates = [dataRoot, rootDir].map((baseDir) => ({ baseDir, absolutePath: path.resolve(baseDir, `.${cleanPath}`) }));
 
   return candidates
-    .filter(({ baseDir, absolutePath }) => absolutePath.startsWith(baseDir))
+    .filter(({ baseDir, absolutePath }) => absolutePath === baseDir || absolutePath.startsWith(`${baseDir}${path.sep}`))
     .map(({ absolutePath }) => absolutePath)
     .filter((absolutePath) => !isBlockedStaticPath(absolutePath));
 };

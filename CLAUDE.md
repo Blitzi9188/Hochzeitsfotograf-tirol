@@ -70,6 +70,7 @@ git push origin main
 Railway detects the push and auto-deploys within ~2 minutes.
 
 ### Railway Environment Variables
+- `ADMIN_TOKEN` — **required** shared secret for the admin/CMS API (`X-Admin-Token` header). Without it the admin API is locked to localhost only (safe, but unusable remotely). Generate: `node -e "console.log(require('crypto').randomBytes(32).toString('base64url'))"`
 - `DATA_ROOT=/data` — persistent storage for CMS uploads (set in Railway Volume)
 - `RESEND_API_KEY` — for contact form emails
 - `RESEND_FROM` — sender email
