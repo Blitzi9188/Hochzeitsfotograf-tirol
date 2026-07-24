@@ -4,6 +4,7 @@ const fsp = require("fs/promises");
 const path = require("path");
 const url = require("url");
 const zlib = require("zlib");
+const crypto = require("crypto");
 
 const loadEnvFile = (filePath) => {
   if (!fs.existsSync(filePath)) return;
@@ -121,11 +122,25 @@ const sendText = (res, statusCode, message) => {
 
 // CMS endpoints are admin-only. Check for a shared secret in X-Admin-Token header.
 const ADMIN_TOKEN = String(process.env.ADMIN_TOKEN || "").trim();
+const isLoopbackAddress = (addr) => {
+  const a = String(addr || "").replace(/^::ffff:/, "");
+  return a === "127.0.0.1" || a === "::1" || a === "localhost";
+};
 const requireAdminToken = (req, res) => {
-  if (!ADMIN_TOKEN) return true; // No token configured: allow (dev mode without .env)
-  const provided = String(req.headers["x-admin-token"] || "").trim();
-  if (provided === ADMIN_TOKEN) return true;
-  sendText(res, 401, "Unauthorized");
+  if (ADMIN_TOKEN) {
+    const provided = String(req.headers["x-admin-token"] || "").trim();
+    const providedBuf = Buffer.from(provided);
+    const expectedBuf = Buffer.from(ADMIN_TOKEN);
+    const ok = providedBuf.length === expectedBuf.length
+      && crypto.timingSafeEqual(providedBuf, expectedBuf);
+    if (ok) return true;
+    sendText(res, 401, "Unauthorized");
+    return false;
+  }
+  // Kein Token konfiguriert: fail-closed. Nur lokale Entwicklung erlauben,
+  // Netz-Zugriffe abweisen (schützt die Live-Seite auch ohne gesetzte Variable).
+  if (isLoopbackAddress(req.socket && req.socket.remoteAddress)) return true;
+  sendText(res, 503, "Admin API disabled: set ADMIN_TOKEN");
   return false;
 };
 
@@ -1010,7 +1025,8 @@ ${addonHtml}
     }
 
     if (req.method === "GET" && pathname === "/api/journal-entry") {
-      if (!requireAdminToken(req, res)) return;
+      // Öffentlich: liefert nur veröffentlichte Journal-Inhalte (kein Geheimnis),
+      // wird vom Browser der Besucher zur Galerie-Hydration aufgerufen.
       const slug = String(parsed.query.slug || "");
       if (!slug) {
         sendText(res, 400, "Missing slug");
@@ -1127,6 +1143,12 @@ ${addonHtml}
       const filename = path.basename(String(body.filename || ""));
       if (!filename) {
         sendText(res, 400, "Missing filename");
+        return;
+      }
+      // Nur echte Bildformate erlauben (keine ausführbaren/aktiven Typen wie .html/.svg/.js)
+      const allowedExt = new Set([".jpg", ".jpeg", ".png", ".webp", ".gif", ".avif"]);
+      if (!allowedExt.has(path.extname(filename).toLowerCase())) {
+        sendText(res, 400, "Unsupported file type");
         return;
       }
       const buffer = Buffer.from(String(body.contentBase64 || ""), "base64");
