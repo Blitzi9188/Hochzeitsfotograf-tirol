@@ -126,21 +126,19 @@ const isLoopbackAddress = (addr) => {
   const a = String(addr || "").replace(/^::ffff:/, "");
   return a === "127.0.0.1" || a === "::1" || a === "localhost";
 };
-const requireAdminToken = (req, res) => {
+const isAdminAuthed = (req) => {
   if (ADMIN_TOKEN) {
     const provided = String(req.headers["x-admin-token"] || "").trim();
     const providedBuf = Buffer.from(provided);
     const expectedBuf = Buffer.from(ADMIN_TOKEN);
-    const ok = providedBuf.length === expectedBuf.length
+    return providedBuf.length === expectedBuf.length
       && crypto.timingSafeEqual(providedBuf, expectedBuf);
-    if (ok) return true;
-    sendText(res, 401, "Unauthorized");
-    return false;
   }
-  // Kein Token konfiguriert: fail-closed. Nur lokale Entwicklung erlauben,
-  // Netz-Zugriffe abweisen (schützt die Live-Seite auch ohne gesetzte Variable).
-  if (isLoopbackAddress(req.socket && req.socket.remoteAddress)) return true;
-  sendText(res, 503, "Admin API disabled: set ADMIN_TOKEN");
+  return isLoopbackAddress(req.socket && req.socket.remoteAddress);
+};
+const requireAdminToken = (req, res) => {
+  if (isAdminAuthed(req)) return true;
+  sendText(res, ADMIN_TOKEN ? 401 : 503, ADMIN_TOKEN ? "Unauthorized" : "Admin API disabled: set ADMIN_TOKEN");
   return false;
 };
 
@@ -1006,14 +1004,18 @@ ${addonHtml}
     }
 
     if (req.method === "GET" && pathname === "/api/files") {
-      if (!requireAdminToken(req, res)) return;
-      sendJson(res, 200, { files: await listEditableFiles() });
+      const all = await listEditableFiles();
+      const files = isAdminAuthed(req)
+        ? all
+        : all.filter((f) => f.startsWith("content/journal/") && f.endsWith(".md"));
+      sendJson(res, 200, { files });
       return;
     }
 
     if (req.method === "GET" && pathname === "/api/file") {
-      if (!requireAdminToken(req, res)) return;
       const requestedPath = String(parsed.query.path || "");
+      const isPublicJournal = /^content\/journal\/[^/]+\.md$/.test(requestedPath);
+      if (!isPublicJournal && !requireAdminToken(req, res)) return;
       const safePath = isSafeEditablePath(requestedPath);
       if (!safePath) {
         sendText(res, 400, "Invalid path");
