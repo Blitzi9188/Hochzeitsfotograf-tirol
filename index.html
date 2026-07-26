@@ -1396,7 +1396,7 @@
         "hero.title": "Für Paare, die die Berge und echte Momente lieben",
         "hero.definition": "Elopement-Fotograf für die Dolomiten und Tirol — mit Planung von Location, Timing und Anreise. Von Innsbruck aus begleite ich intime Berghochzeiten am Pragser Wildsee, an der Seceda und den Drei Zinnen.",
         "hero.copy": "Elegante, ruhige und emotionale Reportagen für Hochzeiten in Tirol, Innsbruck, den Dolomiten und den Alpen.",
-        "hero.primaryCta": "Termin anfragen",
+        "hero.primaryCta": "Verfügbarkeit anfragen",
         "hero.secondaryCta": "Journal ansehen",
         "about.eyebrow": "About",
         "about.title": "Ruhige Bilder mit Tiefe und Leichtigkeit",
@@ -1493,7 +1493,7 @@
         "hero.title": "For couples who love mountains and honest moments",
         "hero.definition": "Elopement photographer for the Dolomites and Tirol — with planning of location, timing and access. Based in Innsbruck, I document intimate mountain weddings at Lago di Braies, Seceda and the Tre Cime.",
         "hero.copy": "Elegant, calm and emotional storytelling for weddings in Tirol, Innsbruck, the Dolomites and across the Alps.",
-        "hero.primaryCta": "Inquire now",
+        "hero.primaryCta": "Check availability",
         "hero.secondaryCta": "View journal",
         "about.eyebrow": "About",
         "about.title": "Quiet imagery with depth and lightness",
@@ -2763,5 +2763,15 @@
       }
     })();
   </script>
+<style>
+  .sticky-inquire{position:fixed;bottom:1rem;left:1rem;z-index:40;display:inline-flex;align-items:center;background:#1B1A18;color:#fff;font-size:11px;letter-spacing:.2em;text-transform:uppercase;padding:.85rem 1.35rem;text-decoration:none;box-shadow:0 6px 20px rgba(0,0,0,.18);opacity:0;pointer-events:none;transform:translateY(8px);transition:opacity .3s ease,transform .3s ease,background .2s ease}
+  .sticky-inquire.is-visible{opacity:1;pointer-events:auto;transform:translateY(0)}
+  .sticky-inquire:hover{background:#000}
+  @media (max-width:640px){.sticky-inquire{font-size:10px;padding:.75rem 1.15rem}}
+</style>
+<a href="/contact/" class="sticky-inquire" id="stickyInquire" data-i18n="hero.primaryCta">Verfügbarkeit anfragen</a>
+<script>
+  (function(){var el=document.getElementById("stickyInquire");if(!el)return;var t=function(){el.classList.toggle("is-visible",window.scrollY>600)};window.addEventListener("scroll",t,{passive:true});t();})();
+</script>
 </body>
 </html>
