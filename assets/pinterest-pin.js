@@ -16,36 +16,42 @@
 
       .pin-badge {
         position: absolute;
-        top: 0.5rem;
-        left: 0.5rem;
+        top: 0.7rem;
+        left: 0.7rem;
         z-index: 8;
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        width: 2rem;
-        height: 2rem;
+        /* !important: sonst streckt ".cluster-grid a { width:100% }" den Button ueber das ganze Bild */
+        width: 1.75rem !important;
+        height: 1.75rem !important;
+        max-width: 1.75rem;
+        max-height: 1.75rem;
         padding: 0;
         border: 0;
         border-radius: 9999px;
-        background: #fff;
+        background: rgba(255, 255, 255, 0.82);
+        -webkit-backdrop-filter: blur(6px) saturate(120%);
+        backdrop-filter: blur(6px) saturate(120%);
         text-decoration: none;
         line-height: 0;
-        box-shadow: 0 1px 4px rgba(0,0,0,0.25);
+        box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12);
         opacity: 0;
-        transform: translateY(-4px);
-        transition: opacity 0.2s ease, transform 0.2s ease, background 0.2s ease;
+        transform: translateY(-2px) scale(0.94);
+        transition: opacity 0.28s ease, transform 0.28s ease, background 0.2s ease, box-shadow 0.2s ease;
       }
 
       .pin-badge svg {
-        width: 1.15rem;
-        height: 1.15rem;
+        width: 0.9rem;
+        height: 0.9rem;
         display: block;
         fill: #e60023;
         transition: fill 0.2s ease;
       }
 
       .pin-badge:hover {
-        background: #f4f4f4;
+        background: #ffffff;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.18);
       }
 
       .pin-badge:hover svg {
@@ -55,12 +61,12 @@
       .pin-host:hover .pin-badge,
       .pin-host:focus-within .pin-badge {
         opacity: 1;
-        transform: translateY(0);
+        transform: translateY(0) scale(1);
       }
 
       @media (hover: none) {
         .pin-badge {
-          opacity: 0.9;
+          opacity: 0.8;
           transform: none;
         }
       }
