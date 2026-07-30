@@ -30,12 +30,10 @@
         padding: 0;
         border: 0;
         border-radius: 9999px;
-        background: rgba(255, 255, 255, 0.82);
-        -webkit-backdrop-filter: blur(6px) saturate(120%);
-        backdrop-filter: blur(6px) saturate(120%);
+        background: #e60023;
         text-decoration: none;
         line-height: 0;
-        box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12);
+        box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
         opacity: 0;
         transform: translateY(-2px) scale(0.94);
         transition: opacity 0.28s ease, transform 0.28s ease, background 0.2s ease, box-shadow 0.2s ease;
@@ -45,17 +43,17 @@
         width: 0.9rem;
         height: 0.9rem;
         display: block;
-        fill: #e60023;
+        fill: #ffffff;
         transition: fill 0.2s ease;
       }
 
       .pin-badge:hover {
-        background: #ffffff;
-        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.18);
+        background: #bd001d;
+        box-shadow: 0 2px 9px rgba(0, 0, 0, 0.35);
       }
 
       .pin-badge:hover svg {
-        fill: #bd001d;
+        fill: #ffffff;
       }
 
       .pin-host:hover .pin-badge,
