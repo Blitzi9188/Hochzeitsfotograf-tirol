@@ -2807,15 +2807,5 @@
       }
     })();
   </script>
-<style>
-  .sticky-inquire{position:fixed;bottom:1rem;left:1rem;z-index:40;display:inline-flex;align-items:center;background:#1B1A18;color:#fff;font-size:11px;letter-spacing:.2em;text-transform:uppercase;padding:.85rem 1.35rem;text-decoration:none;box-shadow:0 6px 20px rgba(0,0,0,.18);opacity:0;pointer-events:none;transform:translateY(8px);transition:opacity .3s ease,transform .3s ease,background .2s ease}
-  .sticky-inquire.is-visible{opacity:1;pointer-events:auto;transform:translateY(0)}
-  .sticky-inquire:hover{background:#000}
-  @media (max-width:640px){.sticky-inquire{font-size:10px;padding:.75rem 1.15rem}}
-</style>
-<a href="/contact/" class="sticky-inquire" id="stickyInquire" data-i18n="hero.availabilityCta">Verfügbarkeit anfragen</a>
-<script>
-  (function(){var el=document.getElementById("stickyInquire");if(!el)return;var t=function(){el.classList.toggle("is-visible",window.scrollY>600)};window.addEventListener("scroll",t,{passive:true});t();})();
-</script>
 </body>
 </html>
