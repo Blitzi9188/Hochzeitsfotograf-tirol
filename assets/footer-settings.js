@@ -94,7 +94,7 @@
       style.textContent = `
         .mobile-back-to-top {
           position: fixed;
-          left: 1rem;
+          right: 1rem;
           bottom: 1rem;
           z-index: 58;
           width: 2.75rem;

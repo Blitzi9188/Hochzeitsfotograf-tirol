@@ -811,7 +811,7 @@
   <style>
     .hero-image-wrap{position:relative}
     .hero-cta-overlay{position:absolute;left:0;right:0;bottom:0;padding:5.5rem 1.75rem 2rem;background:linear-gradient(to top,rgba(0,0,0,.6),rgba(0,0,0,.1) 60%,rgba(0,0,0,0));display:flex;flex-direction:column;align-items:flex-start;gap:1rem;pointer-events:none}
-    .hero-overlay-title{color:#fff;margin:0;font-weight:700;text-transform:uppercase;letter-spacing:-0.01em;line-height:0.98;text-align:left;font-size:clamp(1.8rem,6vw,4.25rem);text-shadow:0 2px 22px rgba(0,0,0,.45);max-width:20ch}
+    .hero-overlay-title{color:#fff;margin:0;font-weight:700;text-transform:uppercase;letter-spacing:-0.03em;line-height:0.92;text-align:left;font-size:clamp(2.4rem,8.5vw,6.75rem);text-shadow:0 3px 26px rgba(0,0,0,.5);max-width:16ch}
     .hero-cta-overlay a{pointer-events:auto}
     .hero-cta-buttons{display:flex;flex-wrap:wrap;gap:.75rem;justify-content:center}
     .hero-cta-primary{background:#fff;color:#1B1A18;border:1px solid #fff;padding:.85rem 1.6rem;font-size:11px;letter-spacing:.2em;text-transform:uppercase;text-decoration:none;transition:background .2s,color .2s}
@@ -1350,11 +1350,6 @@
   </div>
 
   <footer class="py-10 px-6 md:px-12 border-t border-brand-border text-[10px] md:text-xs text-brand-muted tracking-[0.2em] uppercase font-medium bg-brand-bg">
-    <div class="mx-auto max-w-[120rem] mb-4 pb-4 border-b border-brand-border flex flex-wrap items-center gap-x-6 gap-y-2">
-      <span class="opacity-60" data-i18n="footer.experiences">Erlebnisse</span>
-      <a href="/hubschrauber-hochzeit-tirol/" class="hover:text-brand-text transition-colors duration-300" data-i18n="footer.helicopter">Hubschrauber Hochzeit</a>
-      <a href="/standesamt-hochzeit-innsbruck/" class="hover:text-brand-text transition-colors duration-300" data-i18n="footer.civil">Standesamt Innsbruck</a>
-    </div>
     <div class="mx-auto max-w-[120rem] flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
       <div id="footerBrandText">© 2026 Blitzkneisser – Innsbruck, Tirol</div>
       <div class="flex flex-wrap gap-5 md:gap-10">
@@ -2259,6 +2254,8 @@
         : (chosenHeroImage?.alt || chosenHeroImage?.altEn || content.featuredImageAlt || content.hero?.title || heroMainImage?.alt || "Hero Bild");
       window.__selectedHeroImagePath = heroImage;
       if (heroMainImage) {
+        const heroPic = heroMainImage.closest("picture");
+        if (heroPic) heroPic.querySelectorAll("source").forEach((sn) => sn.removeAttribute("srcset"));
         heroMainImage.src = heroImage;
         heroMainImage.alt = heroAlt;
       }
