@@ -810,14 +810,22 @@
   </script>
   <style>
     .hero-image-wrap{position:relative}
-    .hero-cta-overlay{position:absolute;left:0;right:0;bottom:0;padding:5.5rem 1.5rem 1.9rem;background:linear-gradient(to top,rgba(0,0,0,.62),rgba(0,0,0,.12) 55%,rgba(0,0,0,0));display:flex;flex-direction:column;align-items:center;gap:1.1rem;pointer-events:none}
-    .hero-overlay-title{color:#fff;margin:0;font-weight:700;text-transform:uppercase;letter-spacing:-0.01em;line-height:0.98;text-align:center;font-size:clamp(1.8rem,6vw,4.25rem);text-shadow:0 2px 22px rgba(0,0,0,.45);max-width:18ch}
+    .hero-cta-overlay{position:absolute;left:0;right:0;bottom:0;padding:5.5rem 1.75rem 2rem;background:linear-gradient(to top,rgba(0,0,0,.6),rgba(0,0,0,.1) 60%,rgba(0,0,0,0));display:flex;flex-direction:column;align-items:flex-start;gap:1rem;pointer-events:none}
+    .hero-overlay-title{color:#fff;margin:0;font-weight:700;text-transform:uppercase;letter-spacing:-0.01em;line-height:0.98;text-align:left;font-size:clamp(1.8rem,6vw,4.25rem);text-shadow:0 2px 22px rgba(0,0,0,.45);max-width:20ch}
     .hero-cta-overlay a{pointer-events:auto}
     .hero-cta-buttons{display:flex;flex-wrap:wrap;gap:.75rem;justify-content:center}
     .hero-cta-primary{background:#fff;color:#1B1A18;border:1px solid #fff;padding:.85rem 1.6rem;font-size:11px;letter-spacing:.2em;text-transform:uppercase;text-decoration:none;transition:background .2s,color .2s}
     .hero-cta-primary:hover{background:transparent;color:#fff}
     .hero-cta-secondary{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.7);padding:.85rem 1.6rem;font-size:11px;letter-spacing:.2em;text-transform:uppercase;text-decoration:none;transition:border-color .2s}
     .hero-cta-secondary:hover{border-color:#fff}
+    .hero-below-buttons{display:flex;flex-wrap:wrap;gap:.75rem;max-width:120rem;margin:1.75rem auto 0;padding:0 1.5rem 3.5rem}
+    .hero-below-buttons a{border:1px solid #1B1A18;padding:.85rem 1.6rem;font-size:11px;letter-spacing:.2em;text-transform:uppercase;text-decoration:none;transition:background .2s,color .2s}
+    .hero-btn-primary{background:#1B1A18;color:#fff}
+    .hero-btn-primary:hover{background:transparent;color:#1B1A18}
+    .hero-btn-outline{background:transparent;color:#1B1A18}
+    .hero-btn-outline:hover{background:#1B1A18;color:#fff}
+    @media(min-width:768px){.hero-below-buttons{padding-left:3rem;padding-right:3rem}.hero-cta-overlay{padding-left:2.75rem}}
+    @media(max-width:640px){.hero-below-buttons a{padding:.72rem 1.15rem;font-size:10px}}
     @media (max-width:640px){.hero-cta-overlay{padding:2.5rem 1rem 1.15rem}.hero-cta-primary,.hero-cta-secondary{padding:.72rem 1.15rem;font-size:10px}}
   </style>
 </head>
@@ -892,11 +900,11 @@
         </picture>
         <div class="hero-cta-overlay">
           <h1 class="hero-overlay-title" data-i18n="hero.titleFixed">ELOPEMENT IN DEN DOLOMITEN</h1>
-          <div class="hero-cta-buttons">
-            <a href="#contact" class="hero-cta-primary" data-i18n="hero.availabilityCta">Check availability</a>
-            <a href="/portfolio/" class="hero-cta-secondary" data-i18n="hero.portfolioCta">View portfolio</a>
-          </div>
         </div>
+      </div>
+      <div class="hero-below-buttons">
+        <a href="#contact" class="hero-btn-primary" data-i18n="hero.availabilityCta">Check availability</a>
+        <a href="/portfolio/" class="hero-btn-outline" data-i18n="hero.portfolioCta">View portfolio</a>
       </div>
     </section>
 
