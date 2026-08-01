@@ -93,7 +93,31 @@
   };
 
   const findHost = (img) => {
-    return img.closest(".image-hover-container, .visual-container, .review-card, figure, article") || img.parentElement;
+    // Bewusst KEIN "article": das umschliesst den ganzen Beitrag und der Badge
+    // saesse dann oben-links am Artikel statt am Bild ("faellt aus dem Bild").
+    return img.closest(".image-hover-container, .visual-container, .review-card, figure") || img.parentElement;
+  };
+
+  // Badge exakt an das sichtbare Bild-Rechteck koppeln – falls der Host groesser
+  // ist als das Bild (z. B. zentriertes Bild in breiterem Wrapper), rueckt der
+  // Badge sonst in die Host-Ecke und ragt aus dem Bild. Wird bei Resize neu gesetzt.
+  const pinBadgeToImage = (img, host, badge) => {
+    const sync = () => {
+      if (!img.offsetParent && host.offsetParent === null) return;
+      const top = img.offsetTop;
+      const left = img.offsetLeft;
+      // Nur wenn das Bild spuerbar innerhalb des Hosts versetzt ist, ueberschreiben.
+      if (top > 2 || left > 2) {
+        badge.style.top = `calc(${top}px + 0.7rem)`;
+        badge.style.left = `calc(${left}px + 0.7rem)`;
+      } else {
+        badge.style.top = "";
+        badge.style.left = "";
+      }
+    };
+    sync();
+    if (img.complete) requestAnimationFrame(sync);
+    window.addEventListener("resize", sync, { passive: true });
   };
 
   const absoluteUrl = (value) => {
@@ -136,6 +160,7 @@
       event.stopPropagation();
     });
     host.appendChild(badge);
+    pinBadgeToImage(img, host, badge);
   };
 
   const initPinterestPins = (scope = document) => {

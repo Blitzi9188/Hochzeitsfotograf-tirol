@@ -307,9 +307,17 @@ const isBlockedStaticPath = (absolutePath) => {
   return privateRoots.some((blockedRoot) => absolutePath === blockedRoot || absolutePath.startsWith(`${blockedRoot}${path.sep}`));
 };
 
+// Git-verwaltete Pfade: immer zuerst aus dem Repo (rootDir) ausliefern, NICHT aus
+// dem Volume. Sonst bedient der einmal geseedete Volume-Stand veraltete Dateien und
+// Git-Deploys werden nie sichtbar (Volume-Trap). Guides werden ausschliesslich per
+// Git gepflegt -> Repo ist die Quelle der Wahrheit.
+const REPO_FIRST_PREFIXES = ["/guides/"];
+
 const getStaticCandidates = (pathname) => {
   const cleanPath = pathname === "/" ? "/index.html" : pathname;
-  const candidates = [dataRoot, rootDir].map((baseDir) => ({ baseDir, absolutePath: path.resolve(baseDir, `.${cleanPath}`) }));
+  const repoFirst = REPO_FIRST_PREFIXES.some((prefix) => cleanPath.startsWith(prefix));
+  const baseOrder = repoFirst ? [rootDir, dataRoot] : [dataRoot, rootDir];
+  const candidates = baseOrder.map((baseDir) => ({ baseDir, absolutePath: path.resolve(baseDir, `.${cleanPath}`) }));
 
   return candidates
     .filter(({ baseDir, absolutePath }) => absolutePath === baseDir || absolutePath.startsWith(`${baseDir}${path.sep}`))
