@@ -638,6 +638,28 @@ const LEGACY_REDIRECTS = [
   { from: "/hubschrauber-hochzeit",           to: "/hubschrauber-hochzeit-tirol/" },
   { from: "/stadel-hochzeit",                 to: "/experience/" },
   { from: "/helicopter-elopement-in-den-dolomiten", to: "/journal/" },
+  // Alte WordPress-URLs (blitzkneisser.com) → neue Pfade (exakt, 301)
+  { from: "/about-capturing-intimate-moments-amid-majestic-peaks", to: "/about/" },
+  { from: "/contact-me-dolomites-photographer",                    to: "/contact/" },
+  { from: "/datenschutz-erklaerung-hochzeits-fotograf",            to: "/dsgvo/" },
+  { from: "/dolomites-elopement-stories-capturing-love-in-the-mountains", to: "/journal/" },
+  { from: "/mountain-elopement-dolomites",                         to: "/experience/" },
+  { from: "/the-best-elopement-locations",                         to: "/journal/the-best-elopement-locations/" },
+  { from: "/sunrise-elopement-at-passo-giau",                      to: "/journal/sunrise-elopement-at-passo-giau/" },
+  { from: "/proposal-dolomites-engagement-mountains",              to: "/journal/proposal-dolomites-engagement-mountains/" },
+  { from: "/winter-elopement-in-the-dolomites",                    to: "/journal/winter-wedding-in-the-alps/" },
+  { from: "/winter-wedding-in-the-alps",                           to: "/journal/winter-wedding-in-the-alps/" },
+  { from: "/lago-di-braies-wedding-dream-destination-in-the-dolomites", to: "/journal/lago-di-braies-wedding-dream-destination-in-the-dolomites/" },
+  { from: "/small-wedding-ideas-to-inspire-elopement",             to: "/journal/small-wedding-ideas-to-inspire-elopement/" },
+  { from: "/a-dream-engagement-in-the-alps-2",                     to: "/journal/a-dream-engagement-in-the-alps-2/" },
+  { from: "/category/dolomites",                                   to: "/journal/" },
+];
+
+// Präfix-Redirects (alte WP-URL-Muster) → neue Pfade (301, Präfix-Match)
+const PREFIX_REDIRECTS = [
+  { prefix: "/tag/",              to: "/journal/" },
+  { prefix: "/gallery-category/", to: "/portfolio/" },
+  { prefix: "/shop/",             to: "/workshops-presets/" },
 ];
 
 const server = http.createServer(async (req, res) => {
@@ -658,6 +680,15 @@ const server = http.createServer(async (req, res) => {
   const pathnameNorm = pathname.endsWith("/") ? pathname.slice(0, -1) : pathname;
   for (const rule of LEGACY_REDIRECTS) {
     if (pathnameNorm === rule.from) {
+      res.writeHead(301, { Location: rule.to });
+      res.end();
+      return;
+    }
+  }
+
+  // Präfix-Redirects (301) – z. B. /tag/*, /gallery-category/*, /shop/*
+  for (const rule of PREFIX_REDIRECTS) {
+    if (pathname.startsWith(rule.prefix) || pathnameNorm === rule.prefix.slice(0, -1)) {
       res.writeHead(301, { Location: rule.to });
       res.end();
       return;
