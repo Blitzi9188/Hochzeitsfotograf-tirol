@@ -219,10 +219,10 @@
 
   const defaultMenuItems = [
     { id: "home", labelDe: "Home", labelEn: "Home", visible: false, order: 1 },
-    { id: "experience", labelDe: "Experience", labelEn: "Experience", visible: true, order: 2 },
+    { id: "experience", labelDe: "Erlebnisse", labelEn: "Experience", visible: true, order: 2 },
     { id: "guides", labelDe: "Guides", labelEn: "Guides", visible: true, order: 3 },
     { id: "journal", labelDe: "Journal", labelEn: "Journal", visible: true, order: 4 },
-    { id: "about", labelDe: "About", labelEn: "About", visible: true, order: 5 },
+    { id: "about", labelDe: "Über mich", labelEn: "About", visible: true, order: 5 },
     { id: "contact", labelDe: "Kontakt", labelEn: "Contact", visible: true, order: 6 },
     { id: "film", labelDe: "Film", labelEn: "Film", visible: false, order: 7 },
     { id: "portfolio", labelDe: "Portfolio", labelEn: "Portfolio", visible: false, order: 8 },
@@ -262,8 +262,8 @@
         const fallback = defaultMenuItems.find((entry) => entry.id === item.id) || defaultMenuItems[index];
         return {
           id: item.id,
-          labelDe: String(item.labelDe || fallback.labelDe || "").trim(),
-          labelEn: String(item.labelEn || fallback.labelEn || "").trim(),
+          labelDe: String(fallback.labelDe || item.labelDe || "").trim(),
+          labelEn: String(fallback.labelEn || item.labelEn || "").trim(),
           visible: item.visible !== false,
           order: Number(item.order || fallback.order || index + 1)
         };
