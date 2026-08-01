@@ -19,3 +19,8 @@ private/runtime/*
 .tmp_translate_preisliste.py
 Türschilder/
 T*rschilder/
+
+# Separate Projekte - nicht Teil der Hauptseite/Deploy
+elope-lake-braies/
+dino-dorado/
+github-preview/
