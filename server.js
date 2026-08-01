@@ -392,9 +392,21 @@ const listEditableFiles = async () => {
 const journalSlugFromFile = (file) =>
   path.basename(file, path.extname(file)).replace(/^\d{4}-\d{2}-\d{2}-/, "");
 
+// Journal repo-first: Git ist die Quelle der Wahrheit. Sonst liefert die einmal
+// ins Volume geseedete Kopie veraltete featuredImage/gallery-Pfade (Volume-Trap),
+// und migrierte /assets/uploads/-Pfade werden per git push nie live. Fallback auf
+// das Volume bleibt, damit rein per CMS veroeffentlichte Slugs (nur im Volume,
+// nicht im Repo) weiterhin aufloesen.
+const repoJournalDir = path.join(rootDir, "content", "journal");
+const journalSearchDirs = repoJournalDir === journalDir ? [journalDir] : [repoJournalDir, journalDir];
+
 const resolveJournalFileBySlug = async (slug) => {
-  const files = await listFilesRecursive(journalDir);
-  return files.find((file) => journalSlugFromFile(file) === slug) || null;
+  for (const dir of journalSearchDirs) {
+    const files = await listFilesRecursive(dir).catch(() => []);
+    const match = files.find((file) => journalSlugFromFile(file) === slug);
+    if (match) return match;
+  }
+  return null;
 };
 
 const SITE_ORIGIN = "https://blitzkneisser.com";

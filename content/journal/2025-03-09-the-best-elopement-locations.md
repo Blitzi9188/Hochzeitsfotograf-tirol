@@ -11,7 +11,7 @@ seoDescription: Die besten Elopement Locations in den Dolomiten – von stillen 
 seoDescriptionEn: The best elopement locations in the Dolomites – from quiet mountain lakes to dramatic peaks.
 teaserDescription: Eine Auswahl von Orten in den Dolomiten, die sich nicht nur eindrucksvoll zeigen, sondern sich auch persönlich und stimmig erleben lassen.
 teaserDescriptionEn: A selection of places in the Dolomites that feel not only visually striking, but also personal and deeply lived in.
-featuredImage: "https://blitzkneisser.com/wp-content/uploads/2025/03/Blitzkneisser-Dolomits-Cadini-Proposal-148-scaled.jpg"
+featuredImage: "/assets/uploads/Blitzkneisser-Dolomits-Cadini-Proposal-148-scaled.jpg"
 featuredImageAlt: Die besten Elopement-Orte in den Dolomiten zum Heiraten
 featuredImageAltEn: the best elopement locations in the dolomites to get married
 galleryIntroHeading: ""
@@ -25,79 +25,79 @@ galleryOutroTextEn: ""
 bodyEn: "Secret Elopement Locations Dolomites\n\nTre Cime di Lavaredo"
 showToc: false
 gallery:
-  - image: "https://blitzkneisser.com/wp-content/uploads/2023/05/Blitzkneisser-Elopement-Dolomites-Prags-Zinnen-283-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Prags-Zinnen-283.jpg"
     alt: Die besten Elopement-Orte in den Dolomiten zum Heiraten
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2018/01/Blitzkneisser-Pizza-Elopement-Dolomits-241-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-241-scaled.jpg"
     alt: Die besten Elopement-Orte in den Dolomiten zum Heiraten
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/01/Blitzkneisser-Mountain-Elopement-Seceda-Cordina-12-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Seceda-Cordina-12-scaled.jpg"
     alt: Die besten Elopement-Orte in den Dolomiten zum Heiraten
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/01/Blitzkneisser-Eloepement-Drei-Zinne-Coldai-1-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Eloepement-Drei-Zinne-Coldai-1-scaled.jpg"
     alt: Die besten Elopement-Orte in den Dolomiten zum Heiraten
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/03/Blitzkneisser-Dolomites-Elopement-Snow-2.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Dolomites-Elopement-Snow-2.jpg"
     alt: Die besten Elopement-Orte in den Dolomiten zum Heiraten
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/03/Blitzkneisser-Elopement-Dolomites-171-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Elopement-Dolomites-171.jpg"
     alt: Die besten Elopement-Orte in den Dolomiten zum Heiraten
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/01/Blitzkneisser-Elopement-Merano-15-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Elopement-Merano-15-scaled.jpg"
     alt: Die besten Elopement-Orte in den Dolomiten zum Heiraten
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/03/Blitzkneisser-Wedding-Shooting-Seceda-49-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Wedding-Shooting-Seceda-49-scaled.jpg"
     alt: Die besten Elopement-Orte in den Dolomiten zum Heiraten
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/03/Blitzkneisser-Foto-Wedding-Elopement-Seceda-Italy-191-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Foto-Wedding-Elopement-Seceda-Italy-191-scaled.jpg"
     alt: Die besten Elopement-Orte in den Dolomiten zum Heiraten
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/03/Blitzkneisser-Dolomits-Cadini-Proposal-148-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Dolomits-Cadini-Proposal-148-scaled.jpg"
     alt: Die besten Elopement-Orte in den Dolomiten zum Heiraten
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Elopement_lago-di-Braies-16.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Elopement_lago-di-Braies-16.jpg"
     alt: Die besten Elopement-Orte in den Dolomiten zum Heiraten
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2023/05/Blitzkneisser-Elopement-Dolomites-Prags-Zinnen-144-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Prags-Zinnen-144-scaled.jpg"
     alt: Die besten Elopement-Orte in den Dolomiten zum Heiraten
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/03/Blitzkneisser-Foto-Pragser-Wildsee-Hochzeit-146-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Foto-Pragser-Wildsee-Hochzeit-146-scaled.jpg"
     alt: Die besten Elopement-Orte in den Dolomiten zum Heiraten
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/03/Blitzkneisser-Elopement-Dolomites-Insta-22.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Elopement-Dolomites-Insta-22.jpg"
     alt: Die besten Elopement-Orte in den Dolomiten zum Heiraten
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-40.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-40.jpg"
     alt: Die besten Elopement-Orte in den Dolomiten zum Heiraten
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-22.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-22.jpg"
     alt: Die besten Elopement-Orte in den Dolomiten zum Heiraten
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/03/Blitzkneisser-Proposal-Dolomites-35-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Proposal-Dolomites-35-scaled.jpg"
     alt: Die besten Elopement-Orte in den Dolomiten zum Heiraten
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/03/Blitzkneisser-Elopement-Dolomites-192-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Elopement-Dolomites-192-scaled.jpg"
     alt: Die besten Elopement-Orte in den Dolomiten zum Heiraten
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/03/Blitzkneisser-Elopement-Dolomites-162-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Elopement-Dolomites-162-scaled.jpg"
     alt: Die besten Elopement-Orte in den Dolomiten zum Heiraten
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/03/Blitzkneisser-Elopement-Dolomites-167-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Elopement-Dolomites-167.jpg"
     alt: Die besten Elopement-Orte in den Dolomiten zum Heiraten
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/03/Blitzkneisser-After-Wedding-Dolomites-48-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-48-scaled.jpg"
     alt: Die besten Elopement-Orte in den Dolomiten zum Heiraten
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/03/Blitzkneisser-Elopement-Dolomites-120-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Elopement-Dolomites-120.jpg"
     alt: Die besten Elopement-Orte in den Dolomiten zum Heiraten
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/03/Blitzkneisser-Proposal-Dolomites-253-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Proposal-Dolomites-253-scaled.jpg"
     alt: Die besten Elopement-Orte in den Dolomiten zum Heiraten
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/01/Blitzkneisser-After-Wedding-Dolomites-3.jpg"
+  - image: "/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-3.jpg"
     alt: Die besten Elopement-Orte in den Dolomiten zum Heiraten
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/01/Blitzkneisser-Dolomites-Insta-15-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Dolomites-Insta-15.jpg"
     alt: Die besten Elopement-Orte in den Dolomiten zum Heiraten
     link: ""
 ---
