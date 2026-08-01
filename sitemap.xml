@@ -2,288 +2,482 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
-  <!-- Hauptseiten -->
   <url>
-    <loc>https://hochzeitsfotograf.tirol/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://blitzkneisser.com/</loc>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="de-AT" href="https://hochzeitsfotograf.tirol/"/>
-    <xhtml:link rel="alternate" hreflang="en"    href="https://hochzeitsfotograf.tirol/?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://hochzeitsfotograf.tirol/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://blitzkneisser.com/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://blitzkneisser.com/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blitzkneisser.com/"/>
   </url>
   <url>
-    <loc>https://hochzeitsfotograf.tirol/experience/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://blitzkneisser.com/about/</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://blitzkneisser.com/about/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://blitzkneisser.com/about/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blitzkneisser.com/about/"/>
+  </url>
+  <url>
+    <loc>https://blitzkneisser.com/experience/</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://blitzkneisser.com/experience/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://blitzkneisser.com/experience/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blitzkneisser.com/experience/"/>
+  </url>
+  <url>
+    <loc>https://blitzkneisser.com/portfolio/</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://blitzkneisser.com/portfolio/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://blitzkneisser.com/portfolio/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blitzkneisser.com/portfolio/"/>
+  </url>
+  <url>
+    <loc>https://blitzkneisser.com/contact/</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://blitzkneisser.com/contact/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://blitzkneisser.com/contact/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blitzkneisser.com/contact/"/>
+  </url>
+  <url>
+    <loc>https://blitzkneisser.com/film/</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://blitzkneisser.com/film/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://blitzkneisser.com/film/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blitzkneisser.com/film/"/>
+  </url>
+  <url>
+    <loc>https://blitzkneisser.com/preisliste/26-27/</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://blitzkneisser.com/preisliste/26-27/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://blitzkneisser.com/preisliste/26-27/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blitzkneisser.com/preisliste/26-27/"/>
+  </url>
+  <url>
+    <loc>https://blitzkneisser.com/lago-di-braies-photographer/</loc>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://blitzkneisser.com/lago-di-braies-photographer/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://blitzkneisser.com/lago-di-braies-photographer/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blitzkneisser.com/lago-di-braies-photographer/"/>
   </url>
   <url>
-    <loc>https://hochzeitsfotograf.tirol/journal/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <loc>https://blitzkneisser.com/hubschrauber-hochzeit-tirol/</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://blitzkneisser.com/hubschrauber-hochzeit-tirol/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://blitzkneisser.com/hubschrauber-hochzeit-tirol/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blitzkneisser.com/hubschrauber-hochzeit-tirol/"/>
+  </url>
+  <url>
+    <loc>https://blitzkneisser.com/academy/</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://blitzkneisser.com/academy/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://blitzkneisser.com/academy/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blitzkneisser.com/academy/"/>
+  </url>
+  <url>
+    <loc>https://blitzkneisser.com/academy/item/</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://blitzkneisser.com/academy/item/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://blitzkneisser.com/academy/item/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blitzkneisser.com/academy/item/"/>
+  </url>
+  <url>
+    <loc>https://blitzkneisser.com/workshops-presets/</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://blitzkneisser.com/workshops-presets/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://blitzkneisser.com/workshops-presets/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blitzkneisser.com/workshops-presets/"/>
+  </url>
+  <url>
+    <loc>https://blitzkneisser.com/guides/</loc>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://blitzkneisser.com/guides/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://blitzkneisser.com/guides/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blitzkneisser.com/guides/"/>
   </url>
   <url>
-    <loc>https://hochzeitsfotograf.tirol/about/</loc>
-    <lastmod>2026-06-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://hochzeitsfotograf.tirol/contact/</loc>
-    <lastmod>2026-06-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://hochzeitsfotograf.tirol/guides/</loc>
-    <lastmod>2026-06-01</lastmod>
+    <loc>https://blitzkneisser.com/guides/alpe-di-siusi-guide/</loc>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://blitzkneisser.com/guides/alpe-di-siusi-guide/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://blitzkneisser.com/guides/alpe-di-siusi-guide/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blitzkneisser.com/guides/alpe-di-siusi-guide/"/>
   </url>
   <url>
-    <loc>https://hochzeitsfotograf.tirol/portfolio/</loc>
-    <lastmod>2026-06-01</lastmod>
+    <loc>https://blitzkneisser.com/guides/best-dolomites-elopement-locations/</loc>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://blitzkneisser.com/guides/best-dolomites-elopement-locations/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://blitzkneisser.com/guides/best-dolomites-elopement-locations/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blitzkneisser.com/guides/best-dolomites-elopement-locations/"/>
   </url>
   <url>
-    <loc>https://hochzeitsfotograf.tirol/film/</loc>
-    <lastmod>2026-06-01</lastmod>
+    <loc>https://blitzkneisser.com/guides/best-time-for-a-dolomites-elopement/</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://blitzkneisser.com/guides/best-time-for-a-dolomites-elopement/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://blitzkneisser.com/guides/best-time-for-a-dolomites-elopement/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blitzkneisser.com/guides/best-time-for-a-dolomites-elopement/"/>
+  </url>
+  <url>
+    <loc>https://blitzkneisser.com/guides/cadini-di-misurina-guide/</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://blitzkneisser.com/guides/cadini-di-misurina-guide/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://blitzkneisser.com/guides/cadini-di-misurina-guide/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blitzkneisser.com/guides/cadini-di-misurina-guide/"/>
+  </url>
+  <url>
+    <loc>https://blitzkneisser.com/guides/cortina-dampezzo-guide/</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://blitzkneisser.com/guides/cortina-dampezzo-guide/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://blitzkneisser.com/guides/cortina-dampezzo-guide/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blitzkneisser.com/guides/cortina-dampezzo-guide/"/>
+  </url>
+  <url>
+    <loc>https://blitzkneisser.com/guides/dolomites-elopement-guide/</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://blitzkneisser.com/guides/dolomites-elopement-guide/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://blitzkneisser.com/guides/dolomites-elopement-guide/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blitzkneisser.com/guides/dolomites-elopement-guide/"/>
+  </url>
+  <url>
+    <loc>https://blitzkneisser.com/guides/dolomites-proposal-guide/</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://blitzkneisser.com/guides/dolomites-proposal-guide/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://blitzkneisser.com/guides/dolomites-proposal-guide/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blitzkneisser.com/guides/dolomites-proposal-guide/"/>
+  </url>
+  <url>
+    <loc>https://blitzkneisser.com/guides/elopement-vs-traditional-wedding-alps/</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://blitzkneisser.com/guides/elopement-vs-traditional-wedding-alps/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://blitzkneisser.com/guides/elopement-vs-traditional-wedding-alps/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blitzkneisser.com/guides/elopement-vs-traditional-wedding-alps/"/>
+  </url>
+  <url>
+    <loc>https://blitzkneisser.com/guides/helicopter-elopement-guide/</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://blitzkneisser.com/guides/helicopter-elopement-guide/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://blitzkneisser.com/guides/helicopter-elopement-guide/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blitzkneisser.com/guides/helicopter-elopement-guide/"/>
+  </url>
+  <url>
+    <loc>https://blitzkneisser.com/guides/lago-di-braies-guide/</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://blitzkneisser.com/guides/lago-di-braies-guide/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://blitzkneisser.com/guides/lago-di-braies-guide/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blitzkneisser.com/guides/lago-di-braies-guide/"/>
+  </url>
+  <url>
+    <loc>https://blitzkneisser.com/guides/lago-di-sorapis-guide/</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://blitzkneisser.com/guides/lago-di-sorapis-guide/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://blitzkneisser.com/guides/lago-di-sorapis-guide/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blitzkneisser.com/guides/lago-di-sorapis-guide/"/>
+  </url>
+  <url>
+    <loc>https://blitzkneisser.com/guides/multi-day-elopement-guide/</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://blitzkneisser.com/guides/multi-day-elopement-guide/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://blitzkneisser.com/guides/multi-day-elopement-guide/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blitzkneisser.com/guides/multi-day-elopement-guide/"/>
+  </url>
+  <url>
+    <loc>https://blitzkneisser.com/guides/seceda-guide/</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://blitzkneisser.com/guides/seceda-guide/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://blitzkneisser.com/guides/seceda-guide/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blitzkneisser.com/guides/seceda-guide/"/>
+  </url>
+  <url>
+    <loc>https://blitzkneisser.com/guides/sunrise-vs-sunset-dolomites/</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://blitzkneisser.com/guides/sunrise-vs-sunset-dolomites/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://blitzkneisser.com/guides/sunrise-vs-sunset-dolomites/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blitzkneisser.com/guides/sunrise-vs-sunset-dolomites/"/>
+  </url>
+  <url>
+    <loc>https://blitzkneisser.com/guides/tre-cime-wedding-guide/</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://blitzkneisser.com/guides/tre-cime-wedding-guide/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://blitzkneisser.com/guides/tre-cime-wedding-guide/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blitzkneisser.com/guides/tre-cime-wedding-guide/"/>
+  </url>
+  <url>
+    <loc>https://blitzkneisser.com/guides/val-di-funes-guide/</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://blitzkneisser.com/guides/val-di-funes-guide/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://blitzkneisser.com/guides/val-di-funes-guide/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blitzkneisser.com/guides/val-di-funes-guide/"/>
+  </url>
+  <url>
+    <loc>https://blitzkneisser.com/guides/weather-and-backup-planning/</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://blitzkneisser.com/guides/weather-and-backup-planning/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://blitzkneisser.com/guides/weather-and-backup-planning/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blitzkneisser.com/guides/weather-and-backup-planning/"/>
+  </url>
+  <url>
+    <loc>https://blitzkneisser.com/guides/what-to-wear-in-the-mountains/</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://blitzkneisser.com/guides/what-to-wear-in-the-mountains/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://blitzkneisser.com/guides/what-to-wear-in-the-mountains/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blitzkneisser.com/guides/what-to-wear-in-the-mountains/"/>
+  </url>
+  <url>
+    <loc>https://blitzkneisser.com/guides/civil-wedding-austria-foreign-couples/</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://blitzkneisser.com/guides/civil-wedding-austria-foreign-couples/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://blitzkneisser.com/guides/civil-wedding-austria-foreign-couples/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blitzkneisser.com/guides/civil-wedding-austria-foreign-couples/"/>
+  </url>
+  <url>
+    <loc>https://blitzkneisser.com/journal/</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://blitzkneisser.com/journal/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://blitzkneisser.com/journal/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blitzkneisser.com/journal/"/>
+  </url>
+  <url>
+    <loc>https://blitzkneisser.com/journal/a-dream-engagement-in-the-alps-2/</loc>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://blitzkneisser.com/journal/a-dream-engagement-in-the-alps-2/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://blitzkneisser.com/journal/a-dream-engagement-in-the-alps-2/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blitzkneisser.com/journal/a-dream-engagement-in-the-alps-2/"/>
   </url>
   <url>
-    <loc>https://hochzeitsfotograf.tirol/preisliste/26-27/</loc>
-    <lastmod>2026-06-27</lastmod>
+    <loc>https://blitzkneisser.com/journal/adventure-heart-of-the-dolomites/</loc>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://blitzkneisser.com/journal/adventure-heart-of-the-dolomites/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://blitzkneisser.com/journal/adventure-heart-of-the-dolomites/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blitzkneisser.com/journal/adventure-heart-of-the-dolomites/"/>
+  </url>
+  <url>
+    <loc>https://blitzkneisser.com/journal/elopement-pragser-wildsee-im-regen/</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://blitzkneisser.com/journal/elopement-pragser-wildsee-im-regen/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://blitzkneisser.com/journal/elopement-pragser-wildsee-im-regen/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blitzkneisser.com/journal/elopement-pragser-wildsee-im-regen/"/>
+  </url>
+  <url>
+    <loc>https://blitzkneisser.com/journal/heli-elopement-brixen-dolomiten/</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://blitzkneisser.com/journal/heli-elopement-brixen-dolomiten/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://blitzkneisser.com/journal/heli-elopement-brixen-dolomiten/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blitzkneisser.com/journal/heli-elopement-brixen-dolomiten/"/>
+  </url>
+  <url>
+    <loc>https://blitzkneisser.com/journal/hubschrauber-elopement-dolomiten-pragser-wildsee/</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://blitzkneisser.com/journal/hubschrauber-elopement-dolomiten-pragser-wildsee/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://blitzkneisser.com/journal/hubschrauber-elopement-dolomiten-pragser-wildsee/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blitzkneisser.com/journal/hubschrauber-elopement-dolomiten-pragser-wildsee/"/>
+  </url>
+  <url>
+    <loc>https://blitzkneisser.com/journal/lago-di-braies-wedding-dream-destination-in-the-dolomites/</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://blitzkneisser.com/journal/lago-di-braies-wedding-dream-destination-in-the-dolomites/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://blitzkneisser.com/journal/lago-di-braies-wedding-dream-destination-in-the-dolomites/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blitzkneisser.com/journal/lago-di-braies-wedding-dream-destination-in-the-dolomites/"/>
+  </url>
+  <url>
+    <loc>https://blitzkneisser.com/journal/pizza-elopement-dolomites-mountains/</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://blitzkneisser.com/journal/pizza-elopement-dolomites-mountains/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://blitzkneisser.com/journal/pizza-elopement-dolomites-mountains/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blitzkneisser.com/journal/pizza-elopement-dolomites-mountains/"/>
+  </url>
+  <url>
+    <loc>https://blitzkneisser.com/journal/proposal-dolomites-engagement-mountains/</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://blitzkneisser.com/journal/proposal-dolomites-engagement-mountains/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://blitzkneisser.com/journal/proposal-dolomites-engagement-mountains/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blitzkneisser.com/journal/proposal-dolomites-engagement-mountains/"/>
+  </url>
+  <url>
+    <loc>https://blitzkneisser.com/journal/proposal-seiser-alm/</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://blitzkneisser.com/journal/proposal-seiser-alm/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://blitzkneisser.com/journal/proposal-seiser-alm/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blitzkneisser.com/journal/proposal-seiser-alm/"/>
+  </url>
+  <url>
+    <loc>https://blitzkneisser.com/journal/regenhochzeit-am-pragser-wildsee/</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://blitzkneisser.com/journal/regenhochzeit-am-pragser-wildsee/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://blitzkneisser.com/journal/regenhochzeit-am-pragser-wildsee/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blitzkneisser.com/journal/regenhochzeit-am-pragser-wildsee/"/>
+  </url>
+  <url>
+    <loc>https://blitzkneisser.com/journal/small-wedding-ideas-to-inspire-elopement/</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://blitzkneisser.com/journal/small-wedding-ideas-to-inspire-elopement/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://blitzkneisser.com/journal/small-wedding-ideas-to-inspire-elopement/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blitzkneisser.com/journal/small-wedding-ideas-to-inspire-elopement/"/>
+  </url>
+  <url>
+    <loc>https://blitzkneisser.com/journal/sonnenaufgang-elopement-innsbruck/</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://blitzkneisser.com/journal/sonnenaufgang-elopement-innsbruck/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://blitzkneisser.com/journal/sonnenaufgang-elopement-innsbruck/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blitzkneisser.com/journal/sonnenaufgang-elopement-innsbruck/"/>
+  </url>
+  <url>
+    <loc>https://blitzkneisser.com/journal/standesamt-in-den-bergen/</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://blitzkneisser.com/journal/standesamt-in-den-bergen/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://blitzkneisser.com/journal/standesamt-in-den-bergen/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blitzkneisser.com/journal/standesamt-in-den-bergen/"/>
+  </url>
+  <url>
+    <loc>https://blitzkneisser.com/journal/standesamtliche-hochzeit-i-brixen/</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://blitzkneisser.com/journal/standesamtliche-hochzeit-i-brixen/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://blitzkneisser.com/journal/standesamtliche-hochzeit-i-brixen/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blitzkneisser.com/journal/standesamtliche-hochzeit-i-brixen/"/>
+  </url>
+  <url>
+    <loc>https://blitzkneisser.com/journal/sunrise-elopement-at-passo-giau/</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://blitzkneisser.com/journal/sunrise-elopement-at-passo-giau/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://blitzkneisser.com/journal/sunrise-elopement-at-passo-giau/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blitzkneisser.com/journal/sunrise-elopement-at-passo-giau/"/>
+  </url>
+  <url>
+    <loc>https://blitzkneisser.com/journal/the-best-elopement-locations/</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://blitzkneisser.com/journal/the-best-elopement-locations/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://blitzkneisser.com/journal/the-best-elopement-locations/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blitzkneisser.com/journal/the-best-elopement-locations/"/>
+  </url>
+  <url>
+    <loc>https://blitzkneisser.com/journal/winter-wedding-in-the-alps/</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://blitzkneisser.com/journal/winter-wedding-in-the-alps/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://blitzkneisser.com/journal/winter-wedding-in-the-alps/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blitzkneisser.com/journal/winter-wedding-in-the-alps/"/>
+  </url>
+  <url>
+    <loc>https://blitzkneisser.com/impressum/</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://blitzkneisser.com/impressum/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://blitzkneisser.com/impressum/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blitzkneisser.com/impressum/"/>
+  </url>
+  <url>
+    <loc>https://blitzkneisser.com/dsgvo/</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://blitzkneisser.com/dsgvo/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://blitzkneisser.com/dsgvo/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blitzkneisser.com/dsgvo/"/>
+  </url>
+  <url>
+    <loc>https://blitzkneisser.com/agb/</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://blitzkneisser.com/agb/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://blitzkneisser.com/agb/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blitzkneisser.com/agb/"/>
   </url>
 
-  <!-- SEO Landing Pages -->
-  <url>
-    <loc>https://hochzeitsfotograf.tirol/lago-di-braies-photographer/</loc>
-    <lastmod>2026-07-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://hochzeitsfotograf.tirol/hubschrauber-hochzeit-tirol/</loc>
-    <lastmod>2026-07-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-<url>
-    <loc>https://hochzeitsfotograf.tirol/standesamt-hochzeit-innsbruck/</loc>
-    <lastmod>2026-07-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <!-- Journal-Beiträge -->
-  <url>
-    <loc>https://hochzeitsfotograf.tirol/journal/heli-elopement-brixen-dolomiten/</loc>
-    <lastmod>2026-07-05</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://hochzeitsfotograf.tirol/journal/regenhochzeit-am-pragser-wildsee/</loc>
-    <lastmod>2026-07-05</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://hochzeitsfotograf.tirol/journal/standesamtliche-hochzeit-i-brixen/</loc>
-    <lastmod>2026-06-01</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://hochzeitsfotograf.tirol/journal/standesamt-in-den-bergen/</loc>
-    <lastmod>2026-06-01</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://hochzeitsfotograf.tirol/journal/sonnenaufgang-elopement-innsbruck/</loc>
-    <lastmod>2026-06-01</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://hochzeitsfotograf.tirol/journal/a-dream-engagement-in-the-alps-2/</loc>
-    <lastmod>2025-05-09</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://hochzeitsfotograf.tirol/journal/the-best-elopement-locations/</loc>
-    <lastmod>2025-03-09</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://hochzeitsfotograf.tirol/journal/lago-di-braies-wedding-dream-destination-in-the-dolomites/</loc>
-    <lastmod>2025-02-25</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://hochzeitsfotograf.tirol/journal/sunrise-elopement-at-passo-giau/</loc>
-    <lastmod>2025-02-24</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://hochzeitsfotograf.tirol/journal/proposal-dolomites-engagement-mountains/</loc>
-    <lastmod>2024-05-05</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://hochzeitsfotograf.tirol/journal/winter-wedding-in-the-alps/</loc>
-    <lastmod>2024-03-28</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://hochzeitsfotograf.tirol/journal/pizza-elopement-dolomites-mountains/</loc>
-    <lastmod>2023-09-10</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://hochzeitsfotograf.tirol/journal/small-wedding-ideas-to-inspire-elopement/</loc>
-    <lastmod>2023-05-10</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://hochzeitsfotograf.tirol/journal/adventure-heart-of-the-dolomites/</loc>
-    <lastmod>2022-10-30</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <!-- Rechtliches -->
-  <url>
-    <loc>https://hochzeitsfotograf.tirol/impressum/</loc>
-    <lastmod>2026-06-01</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  <url>
-    <loc>https://hochzeitsfotograf.tirol/dsgvo/</loc>
-    <lastmod>2026-06-01</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.2</priority>
-  </url>
-
-  <url>
-    <loc>https://hochzeitsfotograf.tirol/guides/alpe-di-siusi-guide/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://hochzeitsfotograf.tirol/guides/best-dolomites-elopement-locations/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://hochzeitsfotograf.tirol/guides/best-places-officially-elope-tyrol/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://hochzeitsfotograf.tirol/guides/best-time-for-a-dolomites-elopement/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://hochzeitsfotograf.tirol/guides/cadini-di-misurina-guide/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://hochzeitsfotograf.tirol/guides/civil-wedding-austria-foreign-couples/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://hochzeitsfotograf.tirol/guides/cortina-dampezzo-guide/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://hochzeitsfotograf.tirol/guides/dolomites-elopement-guide/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://hochzeitsfotograf.tirol/guides/dolomites-proposal-guide/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://hochzeitsfotograf.tirol/guides/elopement-vs-traditional-wedding-alps/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://hochzeitsfotograf.tirol/guides/helicopter-elopement-guide/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://hochzeitsfotograf.tirol/guides/lago-di-braies-guide/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://hochzeitsfotograf.tirol/guides/lago-di-sorapis-guide/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://hochzeitsfotograf.tirol/guides/multi-day-elopement-guide/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://hochzeitsfotograf.tirol/guides/seceda-guide/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://hochzeitsfotograf.tirol/guides/sunrise-vs-sunset-dolomites/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://hochzeitsfotograf.tirol/guides/tre-cime-wedding-guide/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://hochzeitsfotograf.tirol/guides/val-di-funes-guide/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://hochzeitsfotograf.tirol/guides/weather-and-backup-planning/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://hochzeitsfotograf.tirol/guides/what-to-wear-in-the-mountains/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://hochzeitsfotograf.tirol/journal/hubschrauber-elopement-dolomiten-pragser-wildsee/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
 </urlset>
