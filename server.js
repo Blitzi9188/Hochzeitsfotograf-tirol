@@ -426,7 +426,7 @@ const listJournalRelPaths = async () => {
   return [...bySlug.values()].sort().map((name) => `content/journal/${name}`);
 };
 
-const SITE_ORIGIN = "https://hochzeitsfotograf.tirol";
+const SITE_ORIGIN = "https://blitzkneisser.com";
 const PAGE_TITLE_SUFFIX = "Blitzkneisser Photography";
 
 // Injects self-referencing canonical + hreflang (de-AT / en / x-default) directly
@@ -864,10 +864,10 @@ const server = http.createServer(async (req, res) => {
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>${isEn ? "Pricing Wedding Photographer Tyrol &amp; Dolomites | 2026/27" : "Preise Hochzeitsfotograf Tirol &amp; Dolomiten | 2026/27"}</title>
 <meta name="description" content="${isEn ? "Pricing for wedding photography, elopements and wedding films in Tyrol, Innsbruck and the Dolomites 2026/27." : "Preise für Hochzeitsfotografie, Elopements und Hochzeitsfilme in Tirol, Innsbruck und den Dolomiten für 2026/27."}">
-<link rel="canonical" href="https://hochzeitsfotograf.tirol/preisliste/26-27/">
-<link rel="alternate" hreflang="de-AT" href="https://hochzeitsfotograf.tirol/preisliste/26-27/">
-<link rel="alternate" hreflang="en" href="https://hochzeitsfotograf.tirol/preisliste/26-27/">
-<link rel="alternate" hreflang="x-default" href="https://hochzeitsfotograf.tirol/preisliste/26-27/">
+<link rel="canonical" href="https://blitzkneisser.com/preisliste/26-27/">
+<link rel="alternate" hreflang="de-AT" href="https://blitzkneisser.com/preisliste/26-27/">
+<link rel="alternate" hreflang="en" href="https://blitzkneisser.com/preisliste/26-27/">
+<link rel="alternate" hreflang="x-default" href="https://blitzkneisser.com/preisliste/26-27/">
 <link rel="icon" type="image/png" href="/Logo-Blitzkneisser-BERG.png">
 <script defer src="/assets/seo.js"></script>
 <link rel="stylesheet" href="/assets/home.css">

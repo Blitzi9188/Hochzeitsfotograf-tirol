@@ -8,11 +8,11 @@
     name="description"
     content="Hochwertige Editorial Guides für Dolomites Elopements, Hochzeiten in Nord- und Südtirol und bewusste Bergtage mit klarer Planung, echten Orten und stiller Inspiration."
   >
-  <link rel="canonical" href="https://hochzeitsfotograf.tirol/guides/">
+  <link rel="canonical" href="https://blitzkneisser.com/guides/">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Guides | Editorial Wedding Planning in the Dolomites">
   <meta property="og:description" content="Thoughtful guides, locations and honest planning inspiration for couples dreaming of an intentional wedding or elopement in the mountains.">
-  <meta property="og:image" content="https://hochzeitsfotograf.tirol/assets/uploads/Blitzkneisser-Mountain-Elopement-Seceda-180-hero.webp">
+  <meta property="og:image" content="https://blitzkneisser.com/assets/uploads/Blitzkneisser-Mountain-Elopement-Seceda-180-hero.webp">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" type="image/png" href="/Logo-Blitzkneisser-BERG.png">
   <script defer src="/assets/seo.js"></script>
@@ -1987,14 +1987,14 @@
         schemaNode.id = "guidesSchema";
         document.head.appendChild(schemaNode);
       }
-      const baseUrl = "https://hochzeitsfotograf.tirol/guides/";
+      const baseUrl = "https://blitzkneisser.com/guides/";
       const langUrl = activeLang === "en" ? `${baseUrl}?lang=en` : baseUrl;
       schemaNode.textContent = JSON.stringify([
         {
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
           "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://hochzeitsfotograf.tirol/" },
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://blitzkneisser.com/" },
             { "@type": "ListItem", "position": 2, "name": "Guides", "item": langUrl }
           ]
         },
@@ -2043,7 +2043,7 @@
         if (ogImage && selectedHeroImage) {
           const absoluteImage = selectedHeroImage.startsWith("http")
             ? selectedHeroImage
-            : `https://hochzeitsfotograf.tirol${selectedHeroImage}`;
+            : `https://blitzkneisser.com${selectedHeroImage}`;
           ogImage.setAttribute("content", absoluteImage);
         }
       }
