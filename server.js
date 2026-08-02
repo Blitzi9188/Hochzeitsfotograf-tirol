@@ -440,6 +440,7 @@ const injectSeoHead = (html, pathname) => {
 
   const canonical = `${SITE_ORIGIN}${clean}`;
   const replacement = [
+    `<script>window.__SITE_ORIGIN__ = ${JSON.stringify(SITE_ORIGIN)};</script>`,
     `<link rel="canonical" href="${canonical}">`,
     `<link rel="alternate" hreflang="de-AT" href="${canonical}">`,
     `<link rel="alternate" hreflang="en" href="${canonical}">`,

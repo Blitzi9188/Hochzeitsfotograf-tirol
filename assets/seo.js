@@ -1,5 +1,8 @@
 (() => {
-  const SITE_URL = "https://blitzkneisser.com";
+  // SINGLE SOURCE OF TRUTH = server.js SITE_ORIGIN. Der Server injiziert
+  // window.__SITE_ORIGIN__ in jeden <head> (vor diesem Script); wir lesen es hier.
+  // So kann Client/SSR NIE divergieren. Fallback nur, falls das Global fehlt.
+  const SITE_URL = (typeof window !== "undefined" && window.__SITE_ORIGIN__) || "https://blitzkneisser.com";
 
   const ensureMeta = (selector, attrs = {}) => {
     let node = document.head.querySelector(selector);
