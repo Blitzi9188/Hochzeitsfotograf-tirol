@@ -392,9 +392,37 @@ const listEditableFiles = async () => {
 const journalSlugFromFile = (file) =>
   path.basename(file, path.extname(file)).replace(/^\d{4}-\d{2}-\d{2}-/, "");
 
+// Journal repo-first: Git ist die Quelle der Wahrheit. Sonst liefert die einmal
+// ins Volume geseedete Kopie veraltete featuredImage/gallery-Pfade (Volume-Trap),
+// und migrierte /assets/uploads/-Pfade werden per git push nie live. Fallback auf
+// das Volume bleibt, damit rein per CMS veroeffentlichte Slugs (nur im Volume,
+// nicht im Repo) weiterhin aufloesen.
+const repoJournalDir = path.join(rootDir, "content", "journal");
+const journalSearchDirs = repoJournalDir === journalDir ? [journalDir] : [repoJournalDir, journalDir];
+
 const resolveJournalFileBySlug = async (slug) => {
-  const files = await listFilesRecursive(journalDir);
-  return files.find((file) => journalSlugFromFile(file) === slug) || null;
+  for (const dir of journalSearchDirs) {
+    const files = await listFilesRecursive(dir).catch(() => []);
+    const match = files.find((file) => journalSlugFromFile(file) === slug);
+    if (match) return match;
+  }
+  return null;
+};
+
+// Repo-first Liste der Journal-.md (fuer die Uebersicht /journal/, die client-seitig
+// via /api/files -> /api/file rendert). Repo gewinnt pro Slug, Volume ergaenzt nur
+// Slugs, die es im Repo nicht gibt -> Git-Deploys erscheinen sofort in den Karten.
+const listJournalRelPaths = async () => {
+  const bySlug = new Map();
+  // Volume zuerst, dann Repo -> spaeteres set() gewinnt (Repo).
+  for (const dir of [...journalSearchDirs].reverse()) {
+    const files = await listFilesRecursive(dir).catch(() => []);
+    for (const file of files) {
+      if (!file.endsWith(".md")) continue;
+      bySlug.set(journalSlugFromFile(file), path.basename(file));
+    }
+  }
+  return [...bySlug.values()].sort().map((name) => `content/journal/${name}`);
 };
 
 const SITE_ORIGIN = "https://blitzkneisser.com";
@@ -1043,10 +1071,11 @@ ${addonHtml}
     }
 
     if (req.method === "GET" && pathname === "/api/files") {
-      const all = await listEditableFiles();
+      // Oeffentlich (kein Admin): nur Journal-.md, repo-first (Karten der Uebersicht).
+      // Admin: vollstaendige Volume-Liste zum Bearbeiten.
       const files = isAdminAuthed(req)
-        ? all
-        : all.filter((f) => f.startsWith("content/journal/") && f.endsWith(".md"));
+        ? await listEditableFiles()
+        : await listJournalRelPaths();
       sendJson(res, 200, { files });
       return;
     }
@@ -1060,7 +1089,14 @@ ${addonHtml}
         sendText(res, 400, "Invalid path");
         return;
       }
-      const content = await fsp.readFile(safePath, "utf8");
+      // Journal repo-first lesen: der Repo-Stand (git) hat Vorrang vor der
+      // geseedeten Volume-Kopie; Fallback auf Volume, falls im Repo nicht vorhanden.
+      let readPath = safePath;
+      if (isPublicJournal) {
+        const repoPath = path.join(rootDir, requestedPath);
+        try { await fsp.access(repoPath); readPath = repoPath; } catch { /* Volume-Fallback */ }
+      }
+      const content = await fsp.readFile(readPath, "utf8");
       sendJson(res, 200, { path: requestedPath, content });
       return;
     }
