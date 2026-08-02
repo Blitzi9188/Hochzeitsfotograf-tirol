@@ -9,7 +9,7 @@ seoTitle: Abenteuer Elopement in den Dolomiten
 seoTitleEn: Adventure elopement in the Dolomites
 seoDescription: Ein ruhiges Elopement in den Dolomiten zwischen stillen Gipfeln und frühem Morgenlicht.
 seoDescriptionEn: A quiet elopement in the Dolomites between quiet peaks and early morning light.
-featuredImage: "https://blitzkneisser.com/wp-content/uploads/2020/10/Blitzkneisser-Eloepement-Dolomites-INSTA-3-scaled.jpg"
+featuredImage: "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-INSTA-3-scaled.jpg"
 featuredImageAlt: Elopement-Abenteuer im Herzen der Dolomiten
 featuredImageAltEn: Elopement Adventure in the Heart of the Dolomites
 galleryIntroHeading: ""
@@ -25,71 +25,71 @@ teaserDescription: "Gelübde an einem Fels. Musiker. Drei Zinnen. Ein Tag, der s
 teaserDescriptionEn: "Vows on a cliff edge. Live music. Three Peaks. A day that doesn't feel invented."
 showToc: false
 gallery:
-  - image: "https://blitzkneisser.com/wp-content/uploads/2020/10/Blitzkneisser-Eloepement-Dolomites-Sneak-Peak-4-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Sneak-Peak-4.jpg"
     alt: Elopement-Abenteuer im Herzen der Dolomiten
     altEn: Elopement adventure in the heart of the Dolomites | Tre Cime mountain wedding | photographer Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2020/10/Blitzkneisser-Eloepement-Dolomites-INSTA-1-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-INSTA-1-scaled.jpg"
     alt: Elopement-Abenteuer im Herzen der Dolomiten
     altEn: Elopement adventure in the heart of the Dolomites | Tre Cime mountain wedding | photographer Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2020/10/Blitzkneisser-Eloepement-Dolomites-INSTA-2-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-INSTA-2-scaled.jpg"
     alt: Elopement-Abenteuer im Herzen der Dolomiten
     altEn: Elopement adventure in the heart of the Dolomites | Tre Cime mountain wedding | photographer Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2020/10/Blitzkneisser-Eloepement-Dolomites-INSTA-3-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-INSTA-3-scaled.jpg"
     alt: Elopement-Abenteuer im Herzen der Dolomiten
     altEn: Elopement adventure in the heart of the Dolomites | Tre Cime mountain wedding | photographer Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2020/10/Blitzkneisser-Eloepement-Dolomites-INSTA-4-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-INSTA-4-scaled.jpg"
     alt: Elopement-Abenteuer im Herzen der Dolomiten
     altEn: Elopement adventure in the heart of the Dolomites | Tre Cime mountain wedding | photographer Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2020/10/Blitzkneisser-Eloepement-Dolomites-INSTA-5-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-INSTA-5-scaled.jpg"
     alt: Elopement-Abenteuer im Herzen der Dolomiten
     altEn: Elopement adventure in the heart of the Dolomites | Tre Cime mountain wedding | photographer Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2020/10/Blitzkneisser-Eloepement-Dolomites-INSTA-6-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-INSTA-6-scaled.jpg"
     alt: Elopement-Abenteuer im Herzen der Dolomiten
     altEn: Elopement adventure in the heart of the Dolomites | Tre Cime mountain wedding | photographer Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2020/10/Blitzkneisser-Eloepement-Dolomites-INSTA-8-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-INSTA-8-scaled.jpg"
     alt: Elopement-Abenteuer im Herzen der Dolomiten
     altEn: Elopement adventure in the heart of the Dolomites | Tre Cime mountain wedding | photographer Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2020/10/Blitzkneisser-Eloepement-Dolomites-INSTA-14-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-INSTA-14-scaled.jpg"
     alt: Elopement-Abenteuer im Herzen der Dolomiten
     altEn: Elopement adventure in the heart of the Dolomites | Tre Cime mountain wedding | photographer Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2020/10/Blitzkneisser-Eloepement-Dolomites-INSTA-9-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-INSTA-9-scaled.jpg"
     alt: Elopement-Abenteuer im Herzen der Dolomiten
     altEn: Elopement adventure in the heart of the Dolomites | Tre Cime mountain wedding | photographer Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2020/10/Blitzkneisser-Eloepement-Dolomites-INSTA-10-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-INSTA-10-scaled.jpg"
     alt: Elopement-Abenteuer im Herzen der Dolomiten
     altEn: Elopement adventure in the heart of the Dolomites | Tre Cime mountain wedding | photographer Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2020/10/Blitzkneisser-Eloepement-Dolomites-INSTA-11-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-INSTA-11-scaled.jpg"
     alt: Elopement-Abenteuer im Herzen der Dolomiten
     altEn: Elopement adventure in the heart of the Dolomites | Tre Cime mountain wedding | photographer Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2020/10/Blitzkneisser-Eloepement-Dolomites-INSTA-12-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-INSTA-12-scaled.jpg"
     alt: Elopement-Abenteuer im Herzen der Dolomiten
     altEn: Elopement adventure in the heart of the Dolomites | Tre Cime mountain wedding | photographer Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2020/10/Blitzkneisser-Eloepement-Dolomites-INSTA-16-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-INSTA-16-scaled.jpg"
     alt: Elopement-Abenteuer im Herzen der Dolomiten
     altEn: Elopement adventure in the heart of the Dolomites | Tre Cime mountain wedding | photographer Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2020/10/Blitzkneisser-Eloepement-Dolomites-INSTA-13-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-INSTA-13-scaled.jpg"
     alt: Elopement-Abenteuer im Herzen der Dolomiten
     altEn: Elopement adventure in the heart of the Dolomites | Tre Cime mountain wedding | photographer Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2020/10/Blitzkneisser-Eloepement-Dolomites-INSTA-15-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-INSTA-15-scaled.jpg"
     alt: Elopement-Abenteuer im Herzen der Dolomiten
     altEn: Elopement adventure in the heart of the Dolomites | Tre Cime mountain wedding | photographer Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2020/10/Blitzkneisser-Eloepement-Dolomites-INSTA-17-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Eloepement-Dolomites-INSTA-17-scaled.jpg"
     alt: Elopement-Abenteuer im Herzen der Dolomiten
     altEn: Elopement adventure in the heart of the Dolomites | Tre Cime mountain wedding | photographer Blitzkneisser
     link: ""

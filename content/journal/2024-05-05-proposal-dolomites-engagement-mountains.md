@@ -9,7 +9,7 @@ seoTitle: Heiratsantrag in den Alpen
 seoTitleEn: Marriage proposal in the Alps
 seoDescription: Verlobung in den Alpen mit Sonnenaufgang, weiter Aussicht und einem Moment nur für euch zwei.
 seoDescriptionEn: Engagement in the Alps with sunrise, wide views and a moment just for the two of you.
-featuredImage: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Engagement-Dolomites-75-scaled.jpg"
+featuredImage: "/assets/uploads/Blitzkneisser-Engagement-Dolomites-75-scaled.jpg"
 featuredImageAlt: Heiratsantrag in den Alpen – Verlobung in den Dolomiten
 featuredImageAltEn: Mountain proposal in the Alps – engagement in the Dolomites | wedding photographer Blitzkneisser
 galleryIntroHeading: ""
@@ -25,251 +25,251 @@ teaserDescription: "Er hatte den Ring. Die Berge hatten den Rest."
 teaserDescriptionEn: "He had the ring. The mountains had the rest."
 showToc: false
 gallery:
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Engagement-Dolomites-75-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Engagement-Dolomites-75-scaled.jpg"
     alt: Unvergesslicher Bergvorschlag
     altEn: Unforgettable mountain proposal in the Dolomites | Alps engagement photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Engagement-Dolomites-84-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Engagement-Dolomites-84-scaled.jpg"
     alt: "Proposal in den bergen "
     altEn: Surprise proposal in the mountains | Dolomites Alps engagement photographer Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Engagement-Dolomites-99-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Engagement-Dolomites-99-scaled.jpg"
     alt: Unvergesslicher Verlobung
     altEn: Unforgettable engagement in the Alps | Dolomites mountain proposal photography Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Engagement-Dolomites-105-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Engagement-Dolomites-105-scaled.jpg"
     alt: Unvergesslicher Bergvorschlag
     altEn: Unforgettable mountain proposal in the Dolomites | Alps engagement photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Martin-Lisa-Verlobung-36-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Martin-Lisa-Verlobung-36-scaled.jpg"
     alt: Unvergesslicher Bergvorschlag
     altEn: Unforgettable mountain proposal in the Dolomites | Alps engagement photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Martin-Lisa-Verlobung-38-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Martin-Lisa-Verlobung-38-scaled.jpg"
     alt: Unvergesslicher Bergvorschlag
     altEn: Unforgettable mountain proposal in the Dolomites | Alps engagement photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Martin-Lisa-Verlobung-64-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Martin-Lisa-Verlobung-64-scaled.jpg"
     alt: Unvergesslicher Bergvorschlag
     altEn: Unforgettable mountain proposal in the Dolomites | Alps engagement photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Martin-Lisa-Verlobung-69-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Martin-Lisa-Verlobung-69-scaled.jpg"
     alt: Unvergesslicher Bergvorschlag
     altEn: Unforgettable mountain proposal in the Dolomites | Alps engagement photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Martin-Lisa-Verlobung-79-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Martin-Lisa-Verlobung-79-scaled.jpg"
     alt: Unvergesslicher Bergvorschlag
     altEn: Unforgettable mountain proposal in the Dolomites | Alps engagement photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Martin-Lisa-Verlobung-84-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Martin-Lisa-Verlobung-84-scaled.jpg"
     alt: Unvergesslicher Bergvorschlag
     altEn: Unforgettable mountain proposal in the Dolomites | Alps engagement photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Martin-Lisa-Verlobung-95-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Martin-Lisa-Verlobung-95-scaled.jpg"
     alt: Unvergesslicher Bergvorschlag
     altEn: Unforgettable mountain proposal in the Dolomites | Alps engagement photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Martin-Lisa-Verlobung-100-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Martin-Lisa-Verlobung-100-scaled.jpg"
     alt: Unvergesslicher Bergvorschlag
     altEn: Unforgettable mountain proposal in the Dolomites | Alps engagement photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Nordkette-Verlobung-Innsbruck-53-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Nordkette-Verlobung-Innsbruck-53-scaled.jpg"
     alt: Unvergesslicher Bergvorschlag
     altEn: Unforgettable mountain proposal in the Dolomites | Alps engagement photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Nordkette-Verlobung-Innsbruck-54-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Nordkette-Verlobung-Innsbruck-54-scaled.jpg"
     alt: Unvergesslicher Bergvorschlag
     altEn: Unforgettable mountain proposal in the Dolomites | Alps engagement photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Nordkette-Verlobung-Innsbruck-55-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Nordkette-Verlobung-Innsbruck-55-scaled.jpg"
     alt: Unvergesslicher Bergvorschlag
     altEn: Unforgettable mountain proposal in the Dolomites | Alps engagement photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Nordkette-Verlobung-Innsbruck-56-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Nordkette-Verlobung-Innsbruck-56-scaled.jpg"
     alt: Unvergesslicher Bergvorschlag
     altEn: Unforgettable mountain proposal in the Dolomites | Alps engagement photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Nordkette-Verlobung-Innsbruck-57-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Nordkette-Verlobung-Innsbruck-57-scaled.jpg"
     alt: Unvergesslicher Bergvorschlag
     altEn: Unforgettable mountain proposal in the Dolomites | Alps engagement photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Nordkette-Verlobung-Innsbruck-58-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Nordkette-Verlobung-Innsbruck-58-scaled.jpg"
     alt: Unvergesslicher Bergvorschlag
     altEn: Unforgettable mountain proposal in the Dolomites | Alps engagement photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Engagement-Corvara-Dolomites-13-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Engagement-Corvara-Dolomites-13-scaled.jpg"
     alt: Unvergesslicher Bergvorschlag
     altEn: Unforgettable mountain proposal in the Dolomites | Alps engagement photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Engagement-Corvara-Dolomites-21-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Engagement-Corvara-Dolomites-21-scaled.jpg"
     alt: Unvergesslicher Bergvorschlag
     altEn: Unforgettable mountain proposal in the Dolomites | Alps engagement photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Engagement-Corvara-Dolomites-51-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Engagement-Corvara-Dolomites-51-scaled.jpg"
     alt: Unvergesslicher Bergvorschlag
     altEn: Unforgettable mountain proposal in the Dolomites | Alps engagement photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Engagement-Corvara-Dolomites-69-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Engagement-Corvara-Dolomites-69-scaled.jpg"
     alt: Unvergesslicher Bergvorschlag
     altEn: Unforgettable mountain proposal in the Dolomites | Alps engagement photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Engagement-Corvara-Dolomites-78-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Engagement-Corvara-Dolomites-78-scaled.jpg"
     alt: Unvergesslicher Bergvorschlag
     altEn: Unforgettable mountain proposal in the Dolomites | Alps engagement photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Engagement-Corvara-Dolomites-107-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Engagement-Corvara-Dolomites-107-scaled.jpg"
     alt: Unvergesslicher Bergvorschlag
     altEn: Unforgettable mountain proposal in the Dolomites | Alps engagement photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Photo-Hofburg-Innsbruck-12-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Photo-Hofburg-Innsbruck-12-scaled.jpg"
     alt: Unvergesslicher Bergvorschlag
     altEn: Unforgettable mountain proposal in the Dolomites | Alps engagement photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Photo-Hofburg-Innsbruck-14-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Photo-Hofburg-Innsbruck-14-scaled.jpg"
     alt: Unvergesslicher Bergvorschlag
     altEn: Unforgettable mountain proposal in the Dolomites | Alps engagement photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Photo-Hofburg-Innsbruck-17-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Photo-Hofburg-Innsbruck-17-scaled.jpg"
     alt: Unvergesslicher Bergvorschlag
     altEn: Unforgettable mountain proposal in the Dolomites | Alps engagement photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Photo-Hofburg-Innsbruck-23-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Photo-Hofburg-Innsbruck-23-scaled.jpg"
     alt: Unvergesslicher Bergvorschlag
     altEn: Unforgettable mountain proposal in the Dolomites | Alps engagement photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Photo-Hofburg-Innsbruck-36-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Photo-Hofburg-Innsbruck-36-scaled.jpg"
     alt: Unvergesslicher Bergvorschlag
     altEn: Unforgettable mountain proposal in the Dolomites | Alps engagement photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Photo-Hofburg-Innsbruck-96-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Photo-Hofburg-Innsbruck-96-scaled.jpg"
     alt: Unvergesslicher Bergvorschlag
     altEn: Unforgettable mountain proposal in the Dolomites | Alps engagement photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Photo-Hofburg-Innsbruck-97-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Photo-Hofburg-Innsbruck-97-scaled.jpg"
     alt: Unvergesslicher Bergvorschlag
     altEn: Unforgettable mountain proposal in the Dolomites | Alps engagement photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Engagement-Dolomites-75-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Engagement-Dolomites-75-1280x853.jpg"
     alt: Unvergesslicher Bergvorschlag
     altEn: Unforgettable mountain proposal in the Dolomites | Alps engagement photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Engagement-Dolomites-84-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Engagement-Dolomites-84-1280x853.jpg"
     alt: Unvergesslicher Bergvorschlag
     altEn: Unforgettable mountain proposal in the Dolomites | Alps engagement photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Engagement-Dolomites-99-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Engagement-Dolomites-99-1280x853.jpg"
     alt: Unvergesslicher Bergvorschlag
     altEn: Unforgettable mountain proposal in the Dolomites | Alps engagement photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Engagement-Dolomites-105-1280x1920.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Engagement-Dolomites-105-1280x1920.jpg"
     alt: Unvergesslicher Bergvorschlag
     altEn: Unforgettable mountain proposal in the Dolomites | Alps engagement photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Martin-Lisa-Verlobung-36-1280x1920.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Martin-Lisa-Verlobung-36-1280x1920.jpg"
     alt: Unvergesslicher Bergvorschlag
     altEn: Unforgettable mountain proposal in the Dolomites | Alps engagement photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Martin-Lisa-Verlobung-38-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Martin-Lisa-Verlobung-38-1280x853.jpg"
     alt: Unvergesslicher Bergvorschlag
     altEn: Unforgettable mountain proposal in the Dolomites | Alps engagement photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Martin-Lisa-Verlobung-64-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Martin-Lisa-Verlobung-64-1280x853.jpg"
     alt: Unvergesslicher Bergvorschlag
     altEn: Unforgettable mountain proposal in the Dolomites | Alps engagement photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Martin-Lisa-Verlobung-69-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Martin-Lisa-Verlobung-69-1280x853.jpg"
     alt: Unvergesslicher Bergvorschlag
     altEn: Unforgettable mountain proposal in the Dolomites | Alps engagement photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Martin-Lisa-Verlobung-79-1280x1920.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Martin-Lisa-Verlobung-79-1280x1920.jpg"
     alt: Unvergesslicher Bergvorschlag
     altEn: Unforgettable mountain proposal in the Dolomites | Alps engagement photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Martin-Lisa-Verlobung-84-1280x1920.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Martin-Lisa-Verlobung-84-1280x1920.jpg"
     alt: Unvergesslicher Bergvorschlag
     altEn: Unforgettable mountain proposal in the Dolomites | Alps engagement photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Martin-Lisa-Verlobung-95-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Martin-Lisa-Verlobung-95-1280x853.jpg"
     alt: Unvergesslicher Bergvorschlag
     altEn: Unforgettable mountain proposal in the Dolomites | Alps engagement photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Martin-Lisa-Verlobung-100-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Martin-Lisa-Verlobung-100-1280x853.jpg"
     alt: Unvergesslicher Bergvorschlag
     altEn: Unforgettable mountain proposal in the Dolomites | Alps engagement photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Nordkette-Verlobung-Innsbruck-53-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Nordkette-Verlobung-Innsbruck-53-1280x853.jpg"
     alt: Unvergesslicher Bergvorschlag
     altEn: Unforgettable mountain proposal in the Dolomites | Alps engagement photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Nordkette-Verlobung-Innsbruck-54-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Nordkette-Verlobung-Innsbruck-54-1280x853.jpg"
     alt: Unvergesslicher Bergvorschlag
     altEn: Unforgettable mountain proposal in the Dolomites | Alps engagement photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Nordkette-Verlobung-Innsbruck-55-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Nordkette-Verlobung-Innsbruck-55-1280x853.jpg"
     alt: Unvergesslicher Bergvorschlag
     altEn: Unforgettable mountain proposal in the Dolomites | Alps engagement photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Nordkette-Verlobung-Innsbruck-56-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Nordkette-Verlobung-Innsbruck-56-1280x853.jpg"
     alt: Unvergesslicher Bergvorschlag
     altEn: Unforgettable mountain proposal in the Dolomites | Alps engagement photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Nordkette-Verlobung-Innsbruck-57-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Nordkette-Verlobung-Innsbruck-57-1280x853.jpg"
     alt: Unvergesslicher Bergvorschlag
     altEn: Unforgettable mountain proposal in the Dolomites | Alps engagement photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Nordkette-Verlobung-Innsbruck-58-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Nordkette-Verlobung-Innsbruck-58-1280x853.jpg"
     alt: Unvergesslicher Bergvorschlag
     altEn: Unforgettable mountain proposal in the Dolomites | Alps engagement photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Engagement-Corvara-Dolomites-13-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Engagement-Corvara-Dolomites-13-1280x853.jpg"
     alt: Unvergesslicher Bergvorschlag
     altEn: Unforgettable mountain proposal in the Dolomites | Alps engagement photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Engagement-Corvara-Dolomites-21-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Engagement-Corvara-Dolomites-21-1280x853.jpg"
     alt: Unvergesslicher Bergvorschlag
     altEn: Unforgettable mountain proposal in the Dolomites | Alps engagement photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Engagement-Corvara-Dolomites-51-1280x1920.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Engagement-Corvara-Dolomites-51-1280x1920.jpg"
     alt: Unvergesslicher Bergvorschlag
     altEn: Unforgettable mountain proposal in the Dolomites | Alps engagement photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Engagement-Corvara-Dolomites-69-1280x1920.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Engagement-Corvara-Dolomites-69-1280x1920.jpg"
     alt: Unvergesslicher Bergvorschlag
     altEn: Unforgettable mountain proposal in the Dolomites | Alps engagement photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Engagement-Corvara-Dolomites-78-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Engagement-Corvara-Dolomites-78-1280x853.jpg"
     alt: Unvergesslicher Bergvorschlag
     altEn: Unforgettable mountain proposal in the Dolomites | Alps engagement photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Engagement-Corvara-Dolomites-107-1280x1920.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Engagement-Corvara-Dolomites-107-1280x1920.jpg"
     alt: Unvergesslicher Bergvorschlag
     altEn: Unforgettable mountain proposal in the Dolomites | Alps engagement photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Photo-Hofburg-Innsbruck-12-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Photo-Hofburg-Innsbruck-12-1280x853.jpg"
     alt: Unvergesslicher Bergvorschlag
     altEn: Unforgettable mountain proposal in the Dolomites | Alps engagement photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Photo-Hofburg-Innsbruck-14-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Photo-Hofburg-Innsbruck-14-1280x853.jpg"
     alt: Unvergesslicher Bergvorschlag
     altEn: Unforgettable mountain proposal in the Dolomites | Alps engagement photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Photo-Hofburg-Innsbruck-17-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Photo-Hofburg-Innsbruck-17-1280x853.jpg"
     alt: Unvergesslicher Bergvorschlag
     altEn: Unforgettable mountain proposal in the Dolomites | Alps engagement photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Photo-Hofburg-Innsbruck-23-1280x1920.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Photo-Hofburg-Innsbruck-23-1280x1920.jpg"
     alt: Unvergesslicher Bergvorschlag
     altEn: Unforgettable mountain proposal in the Dolomites | Alps engagement photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Photo-Hofburg-Innsbruck-36-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Photo-Hofburg-Innsbruck-36-1280x853.jpg"
     alt: Unvergesslicher Bergvorschlag
     altEn: Unforgettable mountain proposal in the Dolomites | Alps engagement photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Photo-Hofburg-Innsbruck-96-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Photo-Hofburg-Innsbruck-96-1280x853.jpg"
     alt: Unvergesslicher Bergvorschlag
     altEn: Unforgettable mountain proposal in the Dolomites | Alps engagement photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Photo-Hofburg-Innsbruck-97-1280x1920.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Photo-Hofburg-Innsbruck-97-1280x1920.jpg"
     alt: Unvergesslicher Bergvorschlag
     altEn: Unforgettable mountain proposal in the Dolomites | Alps engagement photography by Blitzkneisser
     link: ""

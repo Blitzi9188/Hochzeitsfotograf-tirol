@@ -9,7 +9,7 @@ seoTitle: Sunrise Elopement am Passo Giau
 seoTitleEn: Sunrise elopement at Passo Giau
 seoDescription: Passo Giau Elopement mit frühem Licht, klarer Bergluft und einer der schönsten Aussichten der Dolomiten.
 seoDescriptionEn: Passo Giau Elopement with early light, clear mountain air and one of the most beautiful views in the Dolomites.
-featuredImage: "https://blitzkneisser.com/wp-content/uploads/2025/01/Blitzkneisser-Mountain-Elopement-Instagram-5-scaled.jpg"
+featuredImage: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Instagram-5.jpg"
 featuredImageAlt: Elopement bei Sonnenaufgang am Passo Giau
 featuredImageAltEn: Sunrise Elopement at Passo Giau
 galleryIntroHeading: ""
@@ -26,411 +26,411 @@ teaserDescriptionEn: "Before first light. No people, no noise – just the mount
 pinDescription: "Sunrise elopement at Passo Giau in the Dolomites. Golden hour mountain wedding before dawn. Adventurous alpine elopement photography."
 showToc: false
 gallery:
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-1.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-1.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-2.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-2.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-3.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-3.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-4.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-4.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-5.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-5.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-6.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-6.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-7.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-7.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-8.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-8.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-9.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-9.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-10.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-10.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-11.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-11.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-12.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-12.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-13.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-13.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-14.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-14.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-15.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-15.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-16.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-16.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-17.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-17.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-18.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-18.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-19.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-19.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-20.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-20.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-21.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-21.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-22.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-22.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-23.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-23.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-24.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-24.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-25.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-25.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-26.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-26.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-27.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-27.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-28.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-28.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-29.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-29.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-30.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-30.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-31.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-31.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-32.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-32.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-33.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-33.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-34.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-34.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-35.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-35.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-36.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-36.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-37.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-37.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-38.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-38.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-39.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-39.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-40.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-40.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-41.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-41.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-42.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-42.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-43.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-43.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-44.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-44.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-45.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-45.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-46.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-46.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-47.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-47.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-48.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-48.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-49.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-49.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-50.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-50.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-51.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-51.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-52.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-52.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-53.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-53.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-54.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-54.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-55.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-55.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-56.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-56.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-57.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-57.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-58.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-58.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-59.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-59.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-60.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-60.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-61.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-61.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-62.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-62.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-63.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-63.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-64.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-64.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-65.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-65.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-1-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-1-1280x853.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-4-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-4-1280x853.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-5-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-5-1280x853.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-6-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-6-1280x853.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-7-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-7-1280x853.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-8-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-8-1280x853.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-9-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-9-1280x853.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-11-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-11-1280x853.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-13-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-13-1280x853.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-16-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-16-1280x853.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-17-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-17-1280x853.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-19-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-19-1280x853.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-22-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-22-1280x853.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-23-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-23-1280x853.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-27-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-27-1280x853.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-28-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-28-1280x853.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-29-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-29-1280x853.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-30-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-30-1280x853.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-31-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-31-1280x853.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-34-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-34-1280x853.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-36-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-36-1280x853.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-39-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-39-1280x853.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-40-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-40-1280x853.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-41-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-41-1280x853.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-42-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-42-1280x853.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-44-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-44-1280x853.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-46-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-46-1280x853.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-48-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-48-1280x853.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-49-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-49-1280x853.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-51-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-51-1280x853.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-54-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-54-1280x853.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-56-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-56-1280x853.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-58-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-58-1280x853.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-60-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-60-1280x853.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-61-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-61-1280x853.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-64-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-64-1280x853.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-65-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-65-1280x853.jpg"
     alt: Elopement bei Sonnenaufgang am Passo Giau
     altEn: Sunrise elopement at Passo Giau | Dolomites mountain wedding photography by Blitzkneisser
     link: ""

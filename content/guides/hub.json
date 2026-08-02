@@ -287,7 +287,7 @@
           "location": "Dolomiten",
           "feeling": "Weite & Berglicht",
           "href": "/journal/the-best-elopement-locations/",
-          "image": "https://blitzkneisser.com/wp-content/uploads/2025/03/Blitzkneisser-Dolomits-Cadini-Proposal-148-scaled.jpg",
+          "image": "/assets/uploads/Blitzkneisser-Dolomits-Cadini-Proposal-148-scaled.jpg",
           "alt": "Panorama aus den Dolomiten für den Journalbeitrag über Elopement-Orte"
         },
         {
@@ -319,7 +319,7 @@
           "location": "Alpen",
           "feeling": "Leise & nah",
           "href": "/journal/a-dream-engagement-in-the-alps-2/",
-          "image": "https://blitzkneisser.com/wp-content/uploads/2025/05/Blitzkneisser-Proposal-Dolomites-36-scaled.jpg",
+          "image": "/assets/uploads/Blitzkneisser-Proposal-Dolomites-36-scaled.jpg",
           "alt": "Verlobung in den Alpen mit weitem Bergblick"
         },
         {
@@ -327,7 +327,7 @@
           "location": "Alpen im Winter",
           "feeling": "Schnee & Ruhe",
           "href": "/journal/winter-wedding-in-the-alps/",
-          "image": "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Winter-Wedding-Tirol-570-scaled.jpg",
+          "image": "/assets/uploads/Blitzkneisser-Winter-Wedding-Tirol-570.jpg",
           "alt": "Winterhochzeit in verschneiter Berglandschaft"
         }
       ]
@@ -663,7 +663,7 @@
           "location": "Dolomites",
           "feeling": "Open & cinematic",
           "href": "/journal/the-best-elopement-locations/",
-          "image": "https://blitzkneisser.com/wp-content/uploads/2025/03/Blitzkneisser-Dolomits-Cadini-Proposal-148-scaled.jpg",
+          "image": "/assets/uploads/Blitzkneisser-Dolomits-Cadini-Proposal-148-scaled.jpg",
           "alt": "Dolomites panorama for the journal story about elopement locations"
         },
         {
@@ -695,7 +695,7 @@
           "location": "Alps",
           "feeling": "Quiet & close",
           "href": "/journal/a-dream-engagement-in-the-alps-2/",
-          "image": "https://blitzkneisser.com/wp-content/uploads/2025/05/Blitzkneisser-Proposal-Dolomites-36-scaled.jpg",
+          "image": "/assets/uploads/Blitzkneisser-Proposal-Dolomites-36-scaled.jpg",
           "alt": "Mountain proposal in the Alps with wide views"
         },
         {
@@ -703,7 +703,7 @@
           "location": "Winter Alps",
           "feeling": "Snow & calm",
           "href": "/journal/winter-wedding-in-the-alps/",
-          "image": "https://blitzkneisser.com/wp-content/uploads/2024/05/Blitzkneisser-Winter-Wedding-Tirol-570-scaled.jpg",
+          "image": "/assets/uploads/Blitzkneisser-Winter-Wedding-Tirol-570.jpg",
           "alt": "Winter wedding in a snowy alpine landscape"
         }
       ]

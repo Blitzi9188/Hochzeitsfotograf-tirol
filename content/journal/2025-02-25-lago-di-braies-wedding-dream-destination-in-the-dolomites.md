@@ -25,94 +25,94 @@ galleryOutroTextEn: ""
 bodyEn: "Embraced by Fog and Golden Dolomites at Lago di Braies\n\nIn the early morning hours, Lago di Braies was completely engulfed in a blanket of mist. The stillness of the lake reflected the towering, golden peaks of the Dolomites, adding to the ethereal beauty of the moment."
 showToc: false
 gallery:
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Elopement_lago-di-Braies-1.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Elopement_lago-di-Braies-1.jpg"
     alt: Mystisches Elopement am Pragser Wildsee
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Elopement_lago-di-Braies-2.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Elopement_lago-di-Braies-2.jpg"
     alt: Mystisches Elopement am Pragser Wildsee
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Elopement_lago-di-Braies-3.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Elopement_lago-di-Braies-3.jpg"
     alt: Mystisches Elopement am Pragser Wildsee
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Elopement_lago-di-Braies-4.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Elopement_lago-di-Braies-4.jpg"
     alt: Mystisches Elopement am Pragser Wildsee
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Elopement_lago-di-Braies-5.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Elopement_lago-di-Braies-5.jpg"
     alt: Mystisches Elopement am Pragser Wildsee
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Elopement_lago-di-Braies-6.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Elopement_lago-di-Braies-6.jpg"
     alt: Mystisches Elopement am Pragser Wildsee
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Elopement_lago-di-Braies-7.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Elopement_lago-di-Braies-7.jpg"
     alt: Mystisches Elopement am Pragser Wildsee
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Elopement_lago-di-Braies-8.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Elopement_lago-di-Braies-8.jpg"
     alt: Mystisches Elopement am Pragser Wildsee
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Elopement_lago-di-Braies-9.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Elopement_lago-di-Braies-9.jpg"
     alt: Mystisches Elopement am Pragser Wildsee
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Elopement_lago-di-Braies-10.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Elopement_lago-di-Braies-10.jpg"
     alt: Mystisches Elopement am Pragser Wildsee
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Elopement_lago-di-Braies-11.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Elopement_lago-di-Braies-11.jpg"
     alt: Mystisches Elopement am Pragser Wildsee
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Elopement_lago-di-Braies-13.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Elopement_lago-di-Braies-13.jpg"
     alt: Mystisches Elopement am Pragser Wildsee
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Elopement_lago-di-Braies-12.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Elopement_lago-di-Braies-12.jpg"
     alt: Mystisches Elopement am Pragser Wildsee
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Elopement_lago-di-Braies-14.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Elopement_lago-di-Braies-14.jpg"
     alt: Mystisches Elopement am Pragser Wildsee
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Elopement_lago-di-Braies-15.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Elopement_lago-di-Braies-15.jpg"
     alt: Mystisches Elopement am Pragser Wildsee
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Elopement_lago-di-Braies-17.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Elopement_lago-di-Braies-17.jpg"
     alt: Mystisches Elopement am Pragser Wildsee
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Elopement_lago-di-Braies-16.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Elopement_lago-di-Braies-16.jpg"
     alt: Mystisches Elopement am Pragser Wildsee
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Elopement_lago-di-Braies-18.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Elopement_lago-di-Braies-18.jpg"
     alt: Mystisches Elopement am Pragser Wildsee
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Elopement_lago-di-Braies-19.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Elopement_lago-di-Braies-19.jpg"
     alt: Mystisches Elopement am Pragser Wildsee
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Elopement_lago-di-Braies-20.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Elopement_lago-di-Braies-20.jpg"
     alt: Mystisches Elopement am Pragser Wildsee
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Elopement_lago-di-Braies-21.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Elopement_lago-di-Braies-21.jpg"
     alt: Mystisches Elopement am Pragser Wildsee
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Elopement_lago-di-Braies-23.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Elopement_lago-di-Braies-23.jpg"
     alt: Mystisches Elopement am Pragser Wildsee
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Elopement_lago-di-Braies-22.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Elopement_lago-di-Braies-22.jpg"
     alt: Mystisches Elopement am Pragser Wildsee
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Elopement_lago-di-Braies-24.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Elopement_lago-di-Braies-24.jpg"
     alt: Mystisches Elopement am Pragser Wildsee
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Elopement_lago-di-Braies-25.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Elopement_lago-di-Braies-25.jpg"
     alt: Mystisches Elopement am Pragser Wildsee
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Elopement_lago-di-Braies-28.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Elopement_lago-di-Braies-28.jpg"
     alt: Mystisches Elopement am Pragser Wildsee
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Elopement_lago-di-Braies-27.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Elopement_lago-di-Braies-27.jpg"
     alt: Mystisches Elopement am Pragser Wildsee
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Elopement_lago-di-Braies-26.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Elopement_lago-di-Braies-26.jpg"
     alt: Mystisches Elopement am Pragser Wildsee
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Elopement_lago-di-Braies-29.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Elopement_lago-di-Braies-29.jpg"
     alt: Mystisches Elopement am Pragser Wildsee
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2025/02/Blitzkneisser-Elopement_lago-di-Braies-30.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Elopement_lago-di-Braies-30.jpg"
     alt: Mystisches Elopement am Pragser Wildsee
     link: ""
 ---

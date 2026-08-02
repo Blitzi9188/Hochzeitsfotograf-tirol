@@ -41,7 +41,7 @@
   const canonical = ensureLink("canonical");
   canonical.setAttribute("href", canonicalUrl);
 
-  const altDe = ensureLink("alternate", "de");
+  const altDe = ensureLink("alternate", "de-AT");
   altDe.setAttribute("href", deUrl);
   const altEn = ensureLink("alternate", "en");
   altEn.setAttribute("href", enUrl);

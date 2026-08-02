@@ -1,38 +1,14 @@
 {
-  "metaTitle": "Hochzeitsfotograf Tirol & Dolomiten | Elopement Fotograf",
-  "metaDescription": "Hochzeitsfotograf und Elopement Fotograf für Tirol, Innsbruck und die Dolomiten. Ruhige, emotionale Hochzeitsreportagen in den Bergen.",
-  "featuredImage": "",
-  "featuredImageAlt": "",
+  "metaTitle": "Hochzeitsfotograf Tirol & Innsbruck | Blitzkneisser",
+  "metaDescription": "Hochzeitsfotograf aus Innsbruck für Berghochzeiten, Elopements und Standesamt-Trauungen in Tirol. Ruhige, emotionale Reportagen – von der Kemater Alm bis zur Nordkette.",
+  "featuredImage": "/assets/uploads/blitzkneisser-winter-wedding-tirol-535-1200w.jpg",
+  "featuredImageAlt": "Winterhochzeit in den Tiroler Bergen – Hochzeitsfotograf Innsbruck",
   "heroImages": [
     {
-      "image": "/assets/uploads/Blitzkneisser-Mountain-Elopement-Sunrise-Dolomites-208.jpg",
-      "alt": "Brautpaar beim Sonnenaufgang in den Dolomiten, goldenes Morgenlicht über den Bergen",
-      "altEn": "Wedding couple at sunrise in the Dolomites, golden morning light over the mountains"
-    },
-    {
-      "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-7-home.jpg",
-      "alt": "Hochzeitspaar steigt gerade aus dem Hubschrauber aus. Traumhaft schönes Wetter mitten in den Dolomiten\n",
-      "altEn": "The wedding couple is getting out of the helicopter. Fantastically beautiful weather in the middle of the Dolomites"
-    },
-    {
-      "image": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-21-home.jpg",
-      "alt": "Brautpaar beim Skifahren bei sonnigem Wetter, lachend und voller Freude\n",
-      "altEn": "Newlyweds skiing in sunny weather, laughing and full of joy"
-    },
-    {
-      "image": "/assets/uploads/Blitzkneisser-Proposal-Dolomites-177-home.jpg",
-      "alt": "Küssendes Brautpaar in inniger, romantischer Stimmung",
-      "altEn": "Kissing bride and groom in an intimate, romantic mood"
-    },
-    {
-      "image": "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-2-home.jpg",
-      "alt": "Die Braut stand strahlend vor den imposanten Drei Zinnen, umgeben von ihrer fröhlichen Hochzeitsgesellschaft. Mit coolen Sonnenbrillen, guter Stimmung und dem Panorama der Berge entstand ein Moment voller Leichtigkeit, Stil und unvergesslicher Erinnerungen.",
-      "altEn": "The bride stood beaming in front of the impressive Three Peaks, surrounded by her happy wedding party. With cool sunglasses, a good atmosphere and the panorama of the mountains, a moment was created full of lightness, style and unforgettable memories."
-    },
-    {
-      "image": "/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-360-home.jpg",
-      "alt": "Braut mit lässig verschränkten Beinen in einer coolen Pose, während die Sonne warm von hinten durch die Berge strahlte. Der Bräutigam saß entspannt mit seinem Snowboard am Boden und blickte sie liebevoll an – ein Moment voller Freiheit, Stil und echter Verbundenheit.",
-      "altEn": "Bride with casually crossed legs in a cool pose while the sun shone warmly through the mountains from behind. The groom sat relaxed on the ground with his snowboard and looked at her lovingly - a moment full of freedom, style and real connection."
+      "image": "/assets/uploads/blitzkneisser-winter-wedding-tirol-535-1200w.jpg",
+      "srcset": "/assets/uploads/blitzkneisser-winter-wedding-tirol-535-800w.jpg 800w, /assets/uploads/blitzkneisser-winter-wedding-tirol-535-1200w.jpg 1200w, /assets/uploads/blitzkneisser-winter-wedding-tirol-535-2000w.jpg 2000w",
+      "alt": "Winterhochzeit in den Tiroler Bergen – Brautpaar im Schnee, Hochzeitsfotograf Innsbruck",
+      "altEn": "Winter wedding in the Tyrolean Alps – couple in the snow, wedding photographer Innsbruck"
     }
   ],
   "hero": {
@@ -54,19 +30,19 @@
     "metaEmail": "foto@blitzkneisser.com",
     "metaLabelPhone": "Telefon",
     "metaPhone": "+43 664/3918228",
-    "copy1": "Ein Elopement in den Dolomiten ist eine intime Hochzeit zu zweit oder im kleinsten Kreis, meist mit symbolischer Zeremonie an einem Bergsee oder Gipfel. Als Fotograf aus Innsbruck begleite ich euch von der Location-Wahl über Timing und Anreise bis zu den Bildern — planbar, ortskundig und wetterfest.",
-    "copy2": "Ich lebe und arbeite in Innsbruck und kenne viele besondere Orte in Tirol und den Alpen, an denen intime Hochzeiten, Elopements und ruhige Paarmomente eine ganz eigene Magie entfalten. Mein Fokus liegt darauf, die stille Kraft der Berge mit eurer Verbindung zu vereinen – für Bilder, die sich leicht anfühlen und zugleich tief berühren.\n",
-    "copy3": "Für mich geht es um jeden einzelnen Moment – und zugleich darum, euren Tag als stimmige, gefühlvolle Geschichte zu erzählen. Jede Reportage soll Nähe, Ruhe, Licht und Persönlichkeit tragen – modern, emotional und ganz ohne künstliche Inszenierung.\n",
-    "copy4": "Wenn ihr eure Hochzeit oder euer Elopement in Tirol plant, begleite ich euch vom ersten Gedanken bis hin zu den leisen und großen Momenten eures Tages. So entstehen Bilder, die nicht nur Erinnerungen bewahren, sondern eure Hochzeit in den Bergen auch Jahre später noch fühlbar machen.\n"
+    "copy1": "Hochzeiten in Tirol sind mein Zuhause. Als Fotograf aus Innsbruck kenne ich die Berge, Almen und stillen Ecken Nordtirols aus eigener Erfahrung – von der Kemater Alm hoch über der Stadt bis zur Nordkette, vom Tanzboden am Achensee bis zu den Hochalmen rund um Schwaz. Diese Ortskenntnis ist kein Detail, sondern der Kern meiner Arbeit.",
+    "copy2": "Egal ob standesamtliche Trauung im Herzen Innsbrucks, intime Berghochzeit auf einer Alm oder Elopement im Morgengrauen – ich begleite euch ruhig und nah, ohne euren Tag zu inszenieren. Mein Anspruch: Bilder, die sich genauso anfühlen wie der Moment selbst – leicht, echt und bleibend.",
+    "copy3": "In Tirol heiraten heißt, einen Ort zu wählen, der für sich selbst spricht. Ich helfe euch, diesen Ort zu finden – und halte dann fest, was dort zwischen euch passiert. Nicht mehr, aber auch nicht weniger.",
+    "copy4": "Über 40 Fünf-Sterne-Bewertungen, die Auszeichnung 'Best Epic Portrait' bei den Way Up North Awards 2024 und eine Veröffentlichung im Rangefinder Magazine – Anerkennung, die mich in dem bestätigt, was mir wichtig ist: echte Bilder für echte Momente."
   },
   "journal": {
     "eyebrow": "Journal",
-    "title": "Natürliche Geschichten",
+    "title": "Aktuelle Geschichten aus Tirol & Innsbruck",
     "link": "Alle Beiträge ansehen"
   },
   "portfolio": {
     "eyebrow": "Portfolio",
-    "title": "Echte Momente"
+    "title": "Ein kuratierter Überblick aus Hochzeiten, Elopements und stillen Paarmomenten in den Tiroler Bergen."
   },
   "portfolioGallery": [],
   "services": {

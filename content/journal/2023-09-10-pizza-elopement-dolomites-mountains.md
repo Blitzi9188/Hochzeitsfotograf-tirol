@@ -9,7 +9,7 @@ seoTitle: Helikopter Hochzeit in den Dolomiten mit Pizza
 seoTitleEn: Helicopter wedding in the Dolomites with pizza
 seoDescription: Helikopter Elopement in den Dolomiten mit abgelegenen Orten, Pizzaofen und weiter Aussicht.
 seoDescriptionEn: Helicopter elopement in the Dolomites with remote locations, pizza oven and wide views.
-featuredImage: "https://blitzkneisser.com/wp-content/uploads/2018/01/Blitzkneisser-Pizza-Elopement-Dolomits-304-scaled.jpg"
+featuredImage: "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-304.jpg"
 featuredImageAlt: Ein Helikopterflug zur Pizzaliebe
 featuredImageAltEn: A Helicopter Ride to Pizza Love
 galleryIntroHeading: ""
@@ -25,227 +25,227 @@ teaserDescription: "Hubschrauber. Drei Zinnen. Selbstgemachte Pizza. Und das war
 teaserDescriptionEn: "Helicopter. Three Peaks. Homemade pizza. And that was just the beginning."
 showToc: false
 gallery:
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/03/Blitzkneisser-Pizza-Elopement-Dolomits-2-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-2.jpg"
     alt: Ein Helikopterflug zur Pizzaliebe
     altEn: Helicopter pizza elopement in the Dolomites | wood-fired pizza wedding at Tre Cime | Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/03/Blitzkneisser-Pizza-Elopement-Dolomits-321-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-321-scaled.jpg"
     alt: Ein Helikopterflug zur Pizzaliebe
     altEn: Helicopter pizza elopement in the Dolomites | wood-fired pizza wedding at Tre Cime | Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2018/01/Blitzkneisser-Pizza-Elopement-Dolomits-35-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-35-scaled.jpg"
     alt: Ein Helikopterflug zur Pizzaliebe
     altEn: Helicopter pizza elopement in the Dolomites | wood-fired pizza wedding at Tre Cime | Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2018/01/Blitzkneisser-Pizza-Elopement-Dolomits-49-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-49-scaled.jpg"
     alt: Ein Helikopterflug zur Pizzaliebe
     altEn: Helicopter pizza elopement in the Dolomites | wood-fired pizza wedding at Tre Cime | Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2018/01/Blitzkneisser-Pizza-Elopement-Dolomits-59-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-59-scaled.jpg"
     alt: Ein Helikopterflug zur Pizzaliebe
     altEn: Helicopter pizza elopement in the Dolomites | wood-fired pizza wedding at Tre Cime | Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2018/01/Blitzkneisser-Pizza-Elopement-Dolomits-67-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-67-scaled.jpg"
     alt: Ein Helikopterflug zur Pizzaliebe
     altEn: Helicopter pizza elopement in the Dolomites | wood-fired pizza wedding at Tre Cime | Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2018/01/Blitzkneisser-Pizza-Elopement-Dolomits-76-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-76-scaled.jpg"
     alt: Ein Helikopterflug zur Pizzaliebe
     altEn: Helicopter pizza elopement in the Dolomites | wood-fired pizza wedding at Tre Cime | Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2018/01/Blitzkneisser-Pizza-Elopement-Dolomits-118-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-118-scaled.jpg"
     alt: Ein Helikopterflug zur Pizzaliebe
     altEn: Helicopter pizza elopement in the Dolomites | wood-fired pizza wedding at Tre Cime | Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2018/01/Blitzkneisser-Pizza-Elopement-Dolomits-119-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-119-scaled.jpg"
     alt: Ein Helikopterflug zur Pizzaliebe
     altEn: Helicopter pizza elopement in the Dolomites | wood-fired pizza wedding at Tre Cime | Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2018/01/Blitzkneisser-Pizza-Elopement-Dolomits-145-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-145-scaled.jpg"
     alt: Ein Helikopterflug zur Pizzaliebe
     altEn: Helicopter pizza elopement in the Dolomites | wood-fired pizza wedding at Tre Cime | Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2018/01/Blitzkneisser-Pizza-Elopement-Dolomits-156-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-156-scaled.jpg"
     alt: Ein Helikopterflug zur Pizzaliebe
     altEn: Helicopter pizza elopement in the Dolomites | wood-fired pizza wedding at Tre Cime | Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2018/01/Blitzkneisser-Pizza-Elopement-Dolomits-172-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-172-scaled.jpg"
     alt: Ein Helikopterflug zur Pizzaliebe
     altEn: Helicopter pizza elopement in the Dolomites | wood-fired pizza wedding at Tre Cime | Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2018/01/Blitzkneisser-Pizza-Elopement-Dolomits-175-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-175-scaled.jpg"
     alt: Ein Helikopterflug zur Pizzaliebe
     altEn: Helicopter pizza elopement in the Dolomites | wood-fired pizza wedding at Tre Cime | Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2018/01/Blitzkneisser-Pizza-Elopement-Dolomits-180-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-180-scaled.jpg"
     alt: Ein Helikopterflug zur Pizzaliebe
     altEn: Helicopter pizza elopement in the Dolomites | wood-fired pizza wedding at Tre Cime | Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2018/01/Blitzkneisser-Pizza-Elopement-Dolomits-195-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-195-scaled.jpg"
     alt: Ein Helikopterflug zur Pizzaliebe
     altEn: Helicopter pizza elopement in the Dolomites | wood-fired pizza wedding at Tre Cime | Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2018/01/Blitzkneisser-Pizza-Elopement-Dolomits-201-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-201-scaled.jpg"
     alt: Ein Helikopterflug zur Pizzaliebe
     altEn: Helicopter pizza elopement in the Dolomites | wood-fired pizza wedding at Tre Cime | Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2018/01/Blitzkneisser-Pizza-Elopement-Dolomits-216-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-216-scaled.jpg"
     alt: Ein Helikopterflug zur Pizzaliebe
     altEn: Helicopter pizza elopement in the Dolomites | wood-fired pizza wedding at Tre Cime | Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2018/01/Blitzkneisser-Pizza-Elopement-Dolomits-228-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-228-scaled.jpg"
     alt: Ein Helikopterflug zur Pizzaliebe
     altEn: Helicopter pizza elopement in the Dolomites | wood-fired pizza wedding at Tre Cime | Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2018/01/Blitzkneisser-Pizza-Elopement-Dolomits-235-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-235-scaled.jpg"
     alt: Ein Helikopterflug zur Pizzaliebe
     altEn: Helicopter pizza elopement in the Dolomites | wood-fired pizza wedding at Tre Cime | Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2018/01/Blitzkneisser-Pizza-Elopement-Dolomits-241-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-241-scaled.jpg"
     alt: Ein Helikopterflug zur Pizzaliebe
     altEn: Helicopter pizza elopement in the Dolomites | wood-fired pizza wedding at Tre Cime | Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2018/01/Blitzkneisser-Pizza-Elopement-Dolomits-245-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-245-scaled.jpg"
     alt: Ein Helikopterflug zur Pizzaliebe
     altEn: Helicopter pizza elopement in the Dolomites | wood-fired pizza wedding at Tre Cime | Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2018/01/Blitzkneisser-Pizza-Elopement-Dolomits-252-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-252.jpg"
     alt: Ein Helikopterflug zur Pizzaliebe
     altEn: Helicopter pizza elopement in the Dolomites | wood-fired pizza wedding at Tre Cime | Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2018/01/Blitzkneisser-Pizza-Elopement-Dolomits-261-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-261-scaled.jpg"
     alt: Ein Helikopterflug zur Pizzaliebe
     altEn: Helicopter pizza elopement in the Dolomites | wood-fired pizza wedding at Tre Cime | Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2018/01/Blitzkneisser-Pizza-Elopement-Dolomits-294-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-294-scaled.jpg"
     alt: Ein Helikopterflug zur Pizzaliebe
     altEn: Helicopter pizza elopement in the Dolomites | wood-fired pizza wedding at Tre Cime | Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2018/01/Blitzkneisser-Pizza-Elopement-Dolomits-298-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-298-scaled.jpg"
     alt: Ein Helikopterflug zur Pizzaliebe
     altEn: Helicopter pizza elopement in the Dolomites | wood-fired pizza wedding at Tre Cime | Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2018/01/Blitzkneisser-Pizza-Elopement-Dolomits-304-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-304.jpg"
     alt: Ein Helikopterflug zur Pizzaliebe
     altEn: Helicopter pizza elopement in the Dolomites | wood-fired pizza wedding at Tre Cime | Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2018/01/Blitzkneisser-Pizza-Elopement-Dolomits-312-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-312-scaled.jpg"
     alt: Ein Helikopterflug zur Pizzaliebe
     altEn: Helicopter pizza elopement in the Dolomites | wood-fired pizza wedding at Tre Cime | Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2018/01/Blitzkneisser-Pizza-Elopement-Dolomits-319-scaled.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-319-scaled.jpg"
     alt: Ein Helikopterflug zur Pizzaliebe
     altEn: Helicopter pizza elopement in the Dolomites | wood-fired pizza wedding at Tre Cime | Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/03/Blitzkneisser-Pizza-Elopement-Dolomits-2-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-2-1280x853.jpg"
     alt: Ein Helikopterflug zur Pizzaliebe
     altEn: Helicopter pizza elopement in the Dolomites | wood-fired pizza wedding at Tre Cime | Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2024/03/Blitzkneisser-Pizza-Elopement-Dolomits-321-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-321-1280x853.jpg"
     alt: Ein Helikopterflug zur Pizzaliebe
     altEn: Helicopter pizza elopement in the Dolomites | wood-fired pizza wedding at Tre Cime | Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2018/01/Blitzkneisser-Pizza-Elopement-Dolomits-35-1280x1920.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-35-1280x1920.jpg"
     alt: Ein Helikopterflug zur Pizzaliebe
     altEn: Helicopter pizza elopement in the Dolomites | wood-fired pizza wedding at Tre Cime | Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2018/01/Blitzkneisser-Pizza-Elopement-Dolomits-49-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-49-1280x853.jpg"
     alt: Ein Helikopterflug zur Pizzaliebe
     altEn: Helicopter pizza elopement in the Dolomites | wood-fired pizza wedding at Tre Cime | Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2018/01/Blitzkneisser-Pizza-Elopement-Dolomits-59-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-59-1280x853.jpg"
     alt: Ein Helikopterflug zur Pizzaliebe
     altEn: Helicopter pizza elopement in the Dolomites | wood-fired pizza wedding at Tre Cime | Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2018/01/Blitzkneisser-Pizza-Elopement-Dolomits-67-1280x1920.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-67-1280x1920.jpg"
     alt: Ein Helikopterflug zur Pizzaliebe
     altEn: Helicopter pizza elopement in the Dolomites | wood-fired pizza wedding at Tre Cime | Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2018/01/Blitzkneisser-Pizza-Elopement-Dolomits-76-1280x1920.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-76-1280x1920.jpg"
     alt: Ein Helikopterflug zur Pizzaliebe
     altEn: Helicopter pizza elopement in the Dolomites | wood-fired pizza wedding at Tre Cime | Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2018/01/Blitzkneisser-Pizza-Elopement-Dolomits-118-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-118-1280x853.jpg"
     alt: Ein Helikopterflug zur Pizzaliebe
     altEn: Helicopter pizza elopement in the Dolomites | wood-fired pizza wedding at Tre Cime | Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2018/01/Blitzkneisser-Pizza-Elopement-Dolomits-119-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-119-1280x853.jpg"
     alt: Ein Helikopterflug zur Pizzaliebe
     altEn: Helicopter pizza elopement in the Dolomites | wood-fired pizza wedding at Tre Cime | Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2018/01/Blitzkneisser-Pizza-Elopement-Dolomits-145-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-145-1280x853.jpg"
     alt: Ein Helikopterflug zur Pizzaliebe
     altEn: Helicopter pizza elopement in the Dolomites | wood-fired pizza wedding at Tre Cime | Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2018/01/Blitzkneisser-Pizza-Elopement-Dolomits-156-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-156-1280x853.jpg"
     alt: Ein Helikopterflug zur Pizzaliebe
     altEn: Helicopter pizza elopement in the Dolomites | wood-fired pizza wedding at Tre Cime | Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2018/01/Blitzkneisser-Pizza-Elopement-Dolomits-172-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-172-1280x853.jpg"
     alt: Ein Helikopterflug zur Pizzaliebe
     altEn: Helicopter pizza elopement in the Dolomites | wood-fired pizza wedding at Tre Cime | Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2018/01/Blitzkneisser-Pizza-Elopement-Dolomits-175-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-175-1280x853.jpg"
     alt: Ein Helikopterflug zur Pizzaliebe
     altEn: Helicopter pizza elopement in the Dolomites | wood-fired pizza wedding at Tre Cime | Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2018/01/Blitzkneisser-Pizza-Elopement-Dolomits-180-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-180-1280x853.jpg"
     alt: Ein Helikopterflug zur Pizzaliebe
     altEn: Helicopter pizza elopement in the Dolomites | wood-fired pizza wedding at Tre Cime | Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2018/01/Blitzkneisser-Pizza-Elopement-Dolomits-195-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-195-1280x853.jpg"
     alt: Ein Helikopterflug zur Pizzaliebe
     altEn: Helicopter pizza elopement in the Dolomites | wood-fired pizza wedding at Tre Cime | Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2018/01/Blitzkneisser-Pizza-Elopement-Dolomits-201-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-201-1280x853.jpg"
     alt: Ein Helikopterflug zur Pizzaliebe
     altEn: Helicopter pizza elopement in the Dolomites | wood-fired pizza wedding at Tre Cime | Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2018/01/Blitzkneisser-Pizza-Elopement-Dolomits-216-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-216-1280x853.jpg"
     alt: Ein Helikopterflug zur Pizzaliebe
     altEn: Helicopter pizza elopement in the Dolomites | wood-fired pizza wedding at Tre Cime | Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2018/01/Blitzkneisser-Pizza-Elopement-Dolomits-228-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-228-1280x853.jpg"
     alt: Ein Helikopterflug zur Pizzaliebe
     altEn: Helicopter pizza elopement in the Dolomites | wood-fired pizza wedding at Tre Cime | Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2018/01/Blitzkneisser-Pizza-Elopement-Dolomits-235-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-235-1280x853.jpg"
     alt: Ein Helikopterflug zur Pizzaliebe
     altEn: Helicopter pizza elopement in the Dolomites | wood-fired pizza wedding at Tre Cime | Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2018/01/Blitzkneisser-Pizza-Elopement-Dolomits-241-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-241-1280x853.jpg"
     alt: Ein Helikopterflug zur Pizzaliebe
     altEn: Helicopter pizza elopement in the Dolomites | wood-fired pizza wedding at Tre Cime | Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2018/01/Blitzkneisser-Pizza-Elopement-Dolomits-245-1280x1920.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-245-1280x1920.jpg"
     alt: Ein Helikopterflug zur Pizzaliebe
     altEn: Helicopter pizza elopement in the Dolomites | wood-fired pizza wedding at Tre Cime | Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2018/01/Blitzkneisser-Pizza-Elopement-Dolomits-252-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-252-1280x853.jpg"
     alt: Ein Helikopterflug zur Pizzaliebe
     altEn: Helicopter pizza elopement in the Dolomites | wood-fired pizza wedding at Tre Cime | Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2018/01/Blitzkneisser-Pizza-Elopement-Dolomits-261-1280x1920.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-261-1280x1920.jpg"
     alt: Ein Helikopterflug zur Pizzaliebe
     altEn: Helicopter pizza elopement in the Dolomites | wood-fired pizza wedding at Tre Cime | Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2018/01/Blitzkneisser-Pizza-Elopement-Dolomits-294-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-294-1280x853.jpg"
     alt: Ein Helikopterflug zur Pizzaliebe
     altEn: Helicopter pizza elopement in the Dolomites | wood-fired pizza wedding at Tre Cime | Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2018/01/Blitzkneisser-Pizza-Elopement-Dolomits-298-1280x1920.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-298-1280x1920.jpg"
     alt: Ein Helikopterflug zur Pizzaliebe
     altEn: Helicopter pizza elopement in the Dolomites | wood-fired pizza wedding at Tre Cime | Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2018/01/Blitzkneisser-Pizza-Elopement-Dolomits-304-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-304-1280x853.jpg"
     alt: Ein Helikopterflug zur Pizzaliebe
     altEn: Helicopter pizza elopement in the Dolomites | wood-fired pizza wedding at Tre Cime | Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2018/01/Blitzkneisser-Pizza-Elopement-Dolomits-312-1280x853.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-312-1280x853.jpg"
     alt: Ein Helikopterflug zur Pizzaliebe
     altEn: Helicopter pizza elopement in the Dolomites | wood-fired pizza wedding at Tre Cime | Blitzkneisser
     link: ""
-  - image: "https://blitzkneisser.com/wp-content/uploads/2018/01/Blitzkneisser-Pizza-Elopement-Dolomits-319-1280x1920.jpg"
+  - image: "/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-319-1280x1920.jpg"
     alt: Ein Helikopterflug zur Pizzaliebe
     altEn: Helicopter pizza elopement in the Dolomites | wood-fired pizza wedding at Tre Cime | Blitzkneisser
     link: ""

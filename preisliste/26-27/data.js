@@ -12,7 +12,7 @@ window.PREISLISTE_DATA = {
       "height": "auto"
     },
     "logo_mobile": {
-      "url": "https://hochzeitsfotograf.tirol/wp-content/plugins/flo-pricing-tool//assets/theme/img/gray.jpg",
+      "url": "https://blitzkneisser.com/wp-content/plugins/flo-pricing-tool//assets/theme/img/gray.jpg",
       "width": 109,
       "height": 52
     },
@@ -166,7 +166,7 @@ window.PREISLISTE_DATA = {
         "in_menu": false,
         "layout": "",
         "name": "INTRO",
-        "text": "<p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><img src=\"https://hochzeitsfotograf.tirol/wp-content/uploads/2016/04/Logo-Blitzkneisser-2017-HG-dunkel.png\" style=\"width: 210px;\" class=\"fr-fic fr-dib\"></p><h1 style=\"text-align: center; margin-left: 20px;\"><span style=\"color: rgb(255, 255, 255);\">PREISLISTE</span></h1><p style=\"text-align: center;\"><span style=\"font-size: 48px;\"><span style=\"color: rgb(255, 255, 255);\">&darr;</span></span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><h1 style=\"text-align: center; margin-left: 20px;\"><br></h1><hr><p style=\"text-align: center;\"><br></p>",
+        "text": "<p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><img src=\"/Logo-Blitzkneisser-2017-HG-hell.png\" style=\"width: 210px;\" class=\"fr-fic fr-dib\"></p><h1 style=\"text-align: center; margin-left: 20px;\"><span style=\"color: rgb(255, 255, 255);\">PREISLISTE</span></h1><p style=\"text-align: center;\"><span style=\"font-size: 48px;\"><span style=\"color: rgb(255, 255, 255);\">&darr;</span></span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><h1 style=\"text-align: center; margin-left: 20px;\"><br></h1><hr><p style=\"text-align: center;\"><br></p>",
         "slug": "intro",
         "random_id": "250924intro",
         "extras": []
@@ -1090,7 +1090,7 @@ window.PREISLISTE_DATA = {
             "add_extras_text": "<h4>ADD EXTRAS</h4>",
             "price": "<h2 >5500</h2>",
             "image": {
-              "url": "https://hochzeitsfotograf.tirol/wp-content/plugins/flo-pricing-tool/assets/admin/img/noimage-landscape-grey.png",
+              "url": "https://blitzkneisser.com/wp-content/plugins/flo-pricing-tool/assets/admin/img/noimage-landscape-grey.png",
               "width": "1024",
               "height": "768"
             },
@@ -1103,7 +1103,7 @@ window.PREISLISTE_DATA = {
             "add_extras_text": "<h4>ADD EXTRAS</h4>",
             "price": "<h2 >5500</h2>",
             "image": {
-              "url": "https://hochzeitsfotograf.tirol/wp-content/plugins/flo-pricing-tool/assets/admin/img/noimage-landscape-grey.png",
+              "url": "https://blitzkneisser.com/wp-content/plugins/flo-pricing-tool/assets/admin/img/noimage-landscape-grey.png",
               "width": "1024",
               "height": "768"
             },
@@ -1128,7 +1128,7 @@ window.PREISLISTE_DATA = {
     "users": [],
     "screenshot": "",
     "feat": {
-      "url": "https://hochzeitsfotograf.tirol/wp-content/uploads/2022/12/Blitzkneisser-Wedding-Photo-Nordkette-125-scaled.jpg",
+      "url": "/assets/uploads/Blitzkneisser-Wedding-Photo-Nordkette-125.jpg",
       "width": "auto",
       "height": "auto"
     },
@@ -1317,7 +1317,7 @@ window.PREISLISTE_DATA = {
         }
       }
     },
-    "portfolio": "https://hochzeitsfotograf.tirol/portfolio/",
+    "portfolio": "https://blitzkneisser.com/portfolio/",
     "facebook": "https://www.facebook.com/blitzkneisser.foto/",
     "twitter": "https://twitter.com/blitzkneisser_",
     "pinterest": "https://www.pinterest.de/blitz_kneisser/",
@@ -1374,7 +1374,7 @@ window.PREISLISTE_DATA = {
       "type": "footer",
       "template": "footer",
       "logo": {
-        "url": "https://hochzeitsfotograf.tirol/wp-content/uploads/2017/09/Logo-Blitzkneisser-2017-HG-dunkel.png",
+        "url": "/Logo-Blitzkneisser-2017-HG-hell.png",
         "width": 159,
         "height": 81
       },
@@ -1509,7 +1509,7 @@ window.PREISLISTE_DATA = {
           "name": "Name der Braut *",
           "options": [],
           "placeholder": "Name der Braut*",
-          "icon": "https://hochzeitsfotograf.tirol/wp-content/plugins/flo-pricing-tool/assets/admin/img/icon-blank.png",
+          "icon": "https://blitzkneisser.com/wp-content/plugins/flo-pricing-tool/assets/admin/img/icon-blank.png",
           "unique_key": 100000000010,
           "row": "1",
           "css_class": "",
@@ -1524,7 +1524,7 @@ window.PREISLISTE_DATA = {
           "placeholder": "Name des Bräutigam*",
           "name": "Name des Bräutigam*",
           "options": [],
-          "icon": "https://hochzeitsfotograf.tirol/wp-content/plugins/flo-pricing-tool/assets/admin/img/icon-blank.png",
+          "icon": "https://blitzkneisser.com/wp-content/plugins/flo-pricing-tool/assets/admin/img/icon-blank.png",
           "unique_key": 261317054,
           "row": "2",
           "css_class": "",
@@ -1538,7 +1538,7 @@ window.PREISLISTE_DATA = {
           "id": "email",
           "name": "Email",
           "options": [],
-          "icon": "https://hochzeitsfotograf.tirol/wp-content/plugins/flo-pricing-tool/assets/admin/img/icon-envelope.png",
+          "icon": "https://blitzkneisser.com/wp-content/plugins/flo-pricing-tool/assets/admin/img/icon-envelope.png",
           "placeholder": "Email *",
           "unique_key": 100000000011,
           "row": "3",
@@ -1553,7 +1553,7 @@ window.PREISLISTE_DATA = {
           "id": "date",
           "name": "Datum",
           "options": [],
-          "icon": "https://hochzeitsfotograf.tirol/wp-content/plugins/flo-pricing-tool/assets/admin/img/icon-event-date.png",
+          "icon": "https://blitzkneisser.com/wp-content/plugins/flo-pricing-tool/assets/admin/img/icon-event-date.png",
           "placeholder": "Datum",
           "unique_key": 100000000012,
           "row": "4",
@@ -1568,7 +1568,7 @@ window.PREISLISTE_DATA = {
           "id": "location",
           "name": "Location",
           "options": [],
-          "icon": "https://hochzeitsfotograf.tirol/wp-content/plugins/flo-pricing-tool/assets/admin/img/icon-location.png",
+          "icon": "https://blitzkneisser.com/wp-content/plugins/flo-pricing-tool/assets/admin/img/icon-location.png",
           "placeholder": "Location",
           "unique_key": 100000000013,
           "row": "4",
@@ -1584,7 +1584,7 @@ window.PREISLISTE_DATA = {
           "placeholder": "Anzahl der Gäste",
           "name": "Anzahl der Gäste",
           "options": [],
-          "icon": "https://hochzeitsfotograf.tirol/wp-content/plugins/flo-pricing-tool/assets/admin/img/icon-blank.png",
+          "icon": "https://blitzkneisser.com/wp-content/plugins/flo-pricing-tool/assets/admin/img/icon-blank.png",
           "unique_key": 541253122,
           "row": "5",
           "css_class": "",
@@ -1604,7 +1604,7 @@ window.PREISLISTE_DATA = {
             "Freie Trauung",
             "Destination Wedding"
           ],
-          "icon": "https://hochzeitsfotograf.tirol/wp-content/plugins/flo-pricing-tool/assets/admin/img/icon-blank.png",
+          "icon": "https://blitzkneisser.com/wp-content/plugins/flo-pricing-tool/assets/admin/img/icon-blank.png",
           "unique_key": 185982001,
           "row": "6",
           "css_class": "",
@@ -1619,7 +1619,7 @@ window.PREISLISTE_DATA = {
           "placeholder": "Eure Geschichte",
           "name": "Eure Geschichte",
           "options": [],
-          "icon": "https://hochzeitsfotograf.tirol/wp-content/plugins/flo-pricing-tool/assets/admin/img/icon-message.png",
+          "icon": "https://blitzkneisser.com/wp-content/plugins/flo-pricing-tool/assets/admin/img/icon-message.png",
           "unique_key": 642080288,
           "row": "7",
           "css_class": "",
@@ -1634,7 +1634,7 @@ window.PREISLISTE_DATA = {
           "placeholder": "Wie finden wir euch auf Facebook oder Instagram",
           "name": "Können wir euch auch auf den Sozialen Netzwerken folgen",
           "options": [],
-          "icon": "https://hochzeitsfotograf.tirol/wp-content/plugins/flo-pricing-tool/assets/admin/img/icon-blank.png",
+          "icon": "https://blitzkneisser.com/wp-content/plugins/flo-pricing-tool/assets/admin/img/icon-blank.png",
           "unique_key": 418930949,
           "row": "8",
           "css_class": "",
@@ -1696,7 +1696,7 @@ window.PREISLISTE_DATA = {
         "placeholder": "Some text in here",
         "name": "Proper name for the text",
         "options": [],
-        "icon": "https://hochzeitsfotograf.tirol/wp-content/plugins/flo-pricing-tool/assets/admin/img/icon-blank.png",
+        "icon": "https://blitzkneisser.com/wp-content/plugins/flo-pricing-tool/assets/admin/img/icon-blank.png",
         "unique_key": 815066916,
         "row": "",
         "css_class": "",
@@ -1744,7 +1744,7 @@ window.PREISLISTE_DATA = {
     "post_type": "flopricing",
     "status": "publish",
     "id": 27112,
-    "featured_image": "https://hochzeitsfotograf.tirol/wp-content/uploads/2022/12/Blitzkneisser-Wedding-Photo-Nordkette-125-scaled.jpg",
+    "featured_image": "/assets/uploads/Blitzkneisser-Wedding-Photo-Nordkette-125.jpg",
     "has_access": true
   },
   "en": {
@@ -1760,7 +1760,7 @@ window.PREISLISTE_DATA = {
       "height": "auto"
     },
     "logo_mobile": {
-      "url": "https://hochzeitsfotograf.tirol/wp-content/plugins/flo-pricing-tool//assets/theme/img/gray.jpg",
+      "url": "https://blitzkneisser.com/wp-content/plugins/flo-pricing-tool//assets/theme/img/gray.jpg",
       "width": 109,
       "height": 52
     },
@@ -1914,7 +1914,7 @@ window.PREISLISTE_DATA = {
         "in_menu": false,
         "layout": "",
         "name": "INTRO",
-        "text": "<p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><img src=\"https://hochzeitsfotograf.tirol/wp-content/uploads/2016/04/Logo-Blitzkneisser-2017-HG- Dunkel.png\" style=\"width: 210px;\" class=\"fr-fic fr-dib\"></p><h1 style=\"text-align: center; margin-left: 20px;\"><span style=\"color: rgb(255, 255, 255);\">PRICE LIST</span></h1><p style=\"text-align: center;\"><span style=\"font-size: 48px;\"><span style=\"color: rgb(255, 255, 255);\">↓</span></span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><h1 style=\"text-align: center; margin-left: 20px;\"><br></h1><hr><p style=\"text-align: center;\"><br></p>",
+        "text": "<p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><img src=\"/Logo-Blitzkneisser-2017-HG-hell.png\" style=\"width: 210px;\" class=\"fr-fic fr-dib\"></p><h1 style=\"text-align: center; margin-left: 20px;\"><span style=\"color: rgb(255, 255, 255);\">PRICE LIST</span></h1><p style=\"text-align: center;\"><span style=\"font-size: 48px;\"><span style=\"color: rgb(255, 255, 255);\">↓</span></span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><h1 style=\"text-align: center; margin-left: 20px;\"><br></h1><hr><p style=\"text-align: center;\"><br></p>",
         "slug": "intro",
         "random_id": "250924intro",
         "extras": []
@@ -2838,7 +2838,7 @@ window.PREISLISTE_DATA = {
             "add_extras_text": "<h4>ADD EXTRAS</h4>",
             "price": "<h2 >5500</h2>",
             "image": {
-              "url": "https://hochzeitsfotograf.tirol/wp-content/plugins/flo-pricing-tool/assets/admin/img/noimage-landscape-grey.png",
+              "url": "https://blitzkneisser.com/wp-content/plugins/flo-pricing-tool/assets/admin/img/noimage-landscape-grey.png",
               "width": "1024",
               "height": "768"
             },
@@ -2851,7 +2851,7 @@ window.PREISLISTE_DATA = {
             "add_extras_text": "<h4>ADD EXTRAS</h4>",
             "price": "<h2 >5500</h2>",
             "image": {
-              "url": "https://hochzeitsfotograf.tirol/wp-content/plugins/flo-pricing-tool/assets/admin/img/noimage-landscape-grey.png",
+              "url": "https://blitzkneisser.com/wp-content/plugins/flo-pricing-tool/assets/admin/img/noimage-landscape-grey.png",
               "width": "1024",
               "height": "768"
             },
@@ -2876,7 +2876,7 @@ window.PREISLISTE_DATA = {
     "users": [],
     "screenshot": "",
     "feat": {
-      "url": "https://hochzeitsfotograf.tirol/wp-content/uploads/2022/12/Blitzkneisser-Wedding-Photo-Nordkette-125-scaled.jpg",
+      "url": "/assets/uploads/Blitzkneisser-Wedding-Photo-Nordkette-125.jpg",
       "width": "auto",
       "height": "auto"
     },
@@ -3065,7 +3065,7 @@ window.PREISLISTE_DATA = {
         }
       }
     },
-    "portfolio": "https://hochzeitsfotograf.tirol/portfolio/",
+    "portfolio": "https://blitzkneisser.com/portfolio/",
     "facebook": "https://www.facebook.com/blitzkneisser.foto/",
     "twitter": "https://twitter.com/blitzkneisser_",
     "pinterest": "https://www.pinterest.de/blitz_kneisser/",
@@ -3122,7 +3122,7 @@ window.PREISLISTE_DATA = {
       "type": "footer",
       "template": "footer",
       "logo": {
-        "url": "https://hochzeitsfotograf.tirol/wp-content/uploads/2017/09/Logo-Blitzkneisser-2017-HG-dunkel.png",
+        "url": "/Logo-Blitzkneisser-2017-HG-hell.png",
         "width": 159,
         "height": 81
       },
@@ -3257,7 +3257,7 @@ window.PREISLISTE_DATA = {
           "name": "Bride's name *",
           "options": [],
           "placeholder": "Bride's name*",
-          "icon": "https://hochzeitsfotograf.tirol/wp-content/plugins/flo-pricing-tool/assets/admin/img/icon-blank.png",
+          "icon": "https://blitzkneisser.com/wp-content/plugins/flo-pricing-tool/assets/admin/img/icon-blank.png",
           "unique_key": 100000000010,
           "row": "1",
           "css_class": "",
@@ -3272,7 +3272,7 @@ window.PREISLISTE_DATA = {
           "placeholder": "Groom's name*",
           "name": "Groom's name*",
           "options": [],
-          "icon": "https://hochzeitsfotograf.tirol/wp-content/plugins/flo-pricing-tool/assets/admin/img/icon-blank.png",
+          "icon": "https://blitzkneisser.com/wp-content/plugins/flo-pricing-tool/assets/admin/img/icon-blank.png",
           "unique_key": 261317054,
           "row": "2",
           "css_class": "",
@@ -3286,7 +3286,7 @@ window.PREISLISTE_DATA = {
           "id": "email",
           "name": "E-mail",
           "options": [],
-          "icon": "https://hochzeitsfotograf.tirol/wp-content/plugins/flo-pricing-tool/assets/admin/img/icon-envelope.png",
+          "icon": "https://blitzkneisser.com/wp-content/plugins/flo-pricing-tool/assets/admin/img/icon-envelope.png",
           "placeholder": "Email *",
           "unique_key": 100000000011,
           "row": "3",
@@ -3301,7 +3301,7 @@ window.PREISLISTE_DATA = {
           "id": "date",
           "name": "Date",
           "options": [],
-          "icon": "https://hochzeitsfotograf.tirol/wp-content/plugins/flo-pricing-tool/assets/admin/img/icon-event-date.png",
+          "icon": "https://blitzkneisser.com/wp-content/plugins/flo-pricing-tool/assets/admin/img/icon-event-date.png",
           "placeholder": "Date",
           "unique_key": 100000000012,
           "row": "4",
@@ -3316,7 +3316,7 @@ window.PREISLISTE_DATA = {
           "id": "location",
           "name": "Location",
           "options": [],
-          "icon": "https://hochzeitsfotograf.tirol/wp-content/plugins/flo-pricing-tool/assets/admin/img/icon-location.png",
+          "icon": "https://blitzkneisser.com/wp-content/plugins/flo-pricing-tool/assets/admin/img/icon-location.png",
           "placeholder": "Location",
           "unique_key": 100000000013,
           "row": "4",
@@ -3332,7 +3332,7 @@ window.PREISLISTE_DATA = {
           "placeholder": "Number of guests",
           "name": "Number of guests",
           "options": [],
-          "icon": "https://hochzeitsfotograf.tirol/wp-content/plugins/flo-pricing-tool/assets/admin/img/icon-blank.png",
+          "icon": "https://blitzkneisser.com/wp-content/plugins/flo-pricing-tool/assets/admin/img/icon-blank.png",
           "unique_key": 541253122,
           "row": "5",
           "css_class": "",
@@ -3352,7 +3352,7 @@ window.PREISLISTE_DATA = {
             "Free wedding ceremony",
             "Destination wedding"
           ],
-          "icon": "https://hochzeitsfotograf.tirol/wp-content/plugins/flo-pricing-tool/assets/admin/img/icon-blank.png",
+          "icon": "https://blitzkneisser.com/wp-content/plugins/flo-pricing-tool/assets/admin/img/icon-blank.png",
           "unique_key": 185982001,
           "row": "6",
           "css_class": "",
@@ -3367,7 +3367,7 @@ window.PREISLISTE_DATA = {
           "placeholder": "Your story",
           "name": "Your story",
           "options": [],
-          "icon": "https://hochzeitsfotograf.tirol/wp-content/plugins/flo-pricing-tool/assets/admin/img/icon-message.png",
+          "icon": "https://blitzkneisser.com/wp-content/plugins/flo-pricing-tool/assets/admin/img/icon-message.png",
           "unique_key": 642080288,
           "row": "7",
           "css_class": "",
@@ -3382,7 +3382,7 @@ window.PREISLISTE_DATA = {
           "placeholder": "How can we find you on Facebook or Instagram?",
           "name": "Can we also follow you on social networks?",
           "options": [],
-          "icon": "https://hochzeitsfotograf.tirol/wp-content/plugins/flo-pricing-tool/assets/admin/img/icon-blank.png",
+          "icon": "https://blitzkneisser.com/wp-content/plugins/flo-pricing-tool/assets/admin/img/icon-blank.png",
           "unique_key": 418930949,
           "row": "8",
           "css_class": "",
@@ -3444,7 +3444,7 @@ window.PREISLISTE_DATA = {
         "placeholder": "Some text in here",
         "name": "Proper name for the text",
         "options": [],
-        "icon": "https://hochzeitsfotograf.tirol/wp-content/plugins/flo-pricing-tool/assets/admin/img/icon-blank.png",
+        "icon": "https://blitzkneisser.com/wp-content/plugins/flo-pricing-tool/assets/admin/img/icon-blank.png",
         "unique_key": 815066916,
         "row": "",
         "css_class": "",
@@ -3492,7 +3492,7 @@ window.PREISLISTE_DATA = {
     "post_type": "flopricing",
     "status": "publish",
     "id": 27112,
-    "featured_image": "https://hochzeitsfotograf.tirol/wp-content/uploads/2022/12/Blitzkneisser-Wedding-Photo-Nordkette-125-scaled.jpg",
+    "featured_image": "/assets/uploads/Blitzkneisser-Wedding-Photo-Nordkette-125.jpg",
     "has_access": true
   }
 };
