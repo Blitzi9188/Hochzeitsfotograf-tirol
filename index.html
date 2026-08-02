@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hochzeitsfotograf Tirol & Dolomiten – Elopement Fotograf Innsbruck | Blitzkneisser</title>
+  <title>Dolomites Elopement & Wedding Photographer | Blitzkneisser</title>
   <meta
     name="description"
     content="Hochzeitsfotograf & Elopement Fotograf in Tirol, Innsbruck und den Dolomiten. Emotionale Berghochzeiten, intime Elopements, alpine Reportagen. Jetzt anfragen."
@@ -26,7 +26,7 @@
   <meta property="og:locale:alternate" content="en_US">
   <meta property="og:site_name" content="Blitzkneisser Photography">
   <meta property="og:url" content="https://hochzeitsfotograf.tirol/" id="metaOgUrl">
-  <meta property="og:title" content="Hochzeitsfotograf Tirol & Dolomiten – Elopement Fotograf | Blitzkneisser">
+  <meta property="og:title" content="Dolomites Elopement & Wedding Photographer | Blitzkneisser">
   <meta
     property="og:description"
     content="Hochzeitsfotograf & Elopement Fotograf in Tirol, Innsbruck und den Dolomiten. Emotionale Berghochzeiten, intime Elopements, alpine Reportagen. Jetzt anfragen."
@@ -36,7 +36,7 @@
   <meta property="og:image:height" content="800">
   <meta property="og:image:alt" content="Hochzeitsfotograf Tirol – Elopement in den Dolomiten bei Sonnenaufgang">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Hochzeitsfotograf Tirol & Dolomiten | Blitzkneisser">
+  <meta name="twitter:title" content="Dolomites Elopement & Wedding Photographer | Blitzkneisser">
   <meta name="twitter:description" content="Emotionale Berghochzeiten & Elopements in Tirol, Innsbruck und den Dolomiten. Jetzt anfragen.">
   <meta name="twitter:image" content="https://hochzeitsfotograf.tirol/assets/uploads/Blitzkneisser-Mountain-Elopement-Sunrise-Dolomites-208.jpg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -480,19 +480,23 @@
         align-items: center;
         gap: 1rem;
         padding: 1rem 1.5rem 1.25rem;
-        background: rgba(255, 255, 255, 0.94);
-        backdrop-filter: blur(14px);
+        /* Voll deckendes Weiss, KEIN backdrop-filter: blur() + opacity ist auf
+           iOS-Safari ein bekannter Rendering-Bug (Panel wird nicht gemalt). */
+        background: #ffffff;
         border-bottom: 1px solid #E6DED4;
         opacity: 0;
         pointer-events: none;
         transform: translateY(-8px);
-        transition: opacity 0.25s ease, transform 0.25s ease;
+        transition: opacity 0.2s ease, transform 0.2s ease;
       }
 
+      /* !important + keine Transition: der offene Zustand ist IMMER sofort
+         sichtbar, egal welche Regel/Transition sonst dazwischenfunkt. */
       #mainNav.is-open .nav-menu-panel {
-        opacity: 1;
-        pointer-events: auto;
-        transform: translateY(0);
+        opacity: 1 !important;
+        pointer-events: auto !important;
+        transform: none !important;
+        transition: none !important;
       }
 
       .nav-menu-panel > div:first-child {
@@ -1734,11 +1738,11 @@
 
     const metaByLang = {
       de: {
-        title: "Hochzeitsfotograf Tirol | Elopements in den Bergen",
+        title: "Dolomites Elopement & Wedding Photographer | Blitzkneisser",
         description: "Moderne Hochzeitsfotografie und Elopements in Tirol, Innsbruck und den Alpen. Emotionale Reportagen für intime Hochzeiten in den Bergen."
       },
       en: {
-        title: "Wedding Photographer Tirol | Alpine Elopements in Austria",
+        title: "Dolomites Elopement & Wedding Photographer | Blitzkneisser",
         description: "Elegant wedding photography and mountain elopements in Tirol, Innsbruck, the Dolomites and across the Alps."
       }
     };
@@ -2288,9 +2292,11 @@
         metaOgImage.setAttribute("content", heroImage);
       }
 
-      document.title = content.metaTitle || metaByLang[lang].title;
+      // Titel bewusst NICHT aus content.metaTitle (veralteter Volume-Wert), sondern
+      // git-kontrolliert aus metaByLang -> Aenderungen sind sofort per Deploy live.
+      document.title = metaByLang[lang].title;
       document.querySelector('meta[name="description"]').setAttribute("content", content.metaDescription || metaByLang[lang].description);
-      document.querySelector('meta[property="og:title"]').setAttribute("content", content.metaTitle || metaByLang[lang].title);
+      document.querySelector('meta[property="og:title"]').setAttribute("content", metaByLang[lang].title);
       document.querySelector('meta[property="og:description"]').setAttribute("content", content.metaDescription || metaByLang[lang].description);
     };
 
