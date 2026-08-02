@@ -3,7 +3,7 @@ lang: de
 title: "Ein Ja im letzten Licht auf der Seiser Alm"
 titleEn: "A Yes in the Last Light on the Alpe di Siusi"
 author: Blitzkneisser
-date: "2026-07-12T19:00:00.000Z"
+date: "2026-08-02T09:00:00.000Z"
 readingTime: ""
 seoTitle: "Verlobung auf der Seiser Alm – Proposal Fotograf Dolomiten"
 seoTitleEn: "Proposal on the Alpe di Siusi – Dolomites Photographer"
