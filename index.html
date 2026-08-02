@@ -423,8 +423,10 @@
     @media (max-width: 767px) {
       .mobile-menu-toggle {
         display: inline-flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
+        gap: 5px;
         width: 44px;
         height: 44px;
         margin-left: auto;
@@ -436,38 +438,13 @@
         -webkit-tap-highlight-color: transparent;
       }
 
-      .mobile-menu-toggle svg,
-      .mobile-menu-toggle .line,
-      .mobile-menu-toggle .line-top-bottom {
+      .mobile-menu-toggle .hamburger-bar {
+        display: block;
+        width: 24px;
+        height: 2px;
+        background: #1B1A18;
+        border-radius: 2px;
         pointer-events: none;
-      }
-
-      .mobile-menu-toggle svg {
-        height: 2em;
-        transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
-      }
-
-      .mobile-menu-toggle .line {
-        fill: none;
-        stroke: #1B1A18;
-        stroke-linecap: round;
-        stroke-linejoin: round;
-        stroke-width: 3;
-        transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
-                    stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
-      }
-
-      .mobile-menu-toggle .line-top-bottom {
-        stroke-dasharray: 12 63;
-      }
-
-      #mainNav.is-open .mobile-menu-toggle svg {
-        transform: rotate(-45deg);
-      }
-
-      #mainNav.is-open .mobile-menu-toggle .line-top-bottom {
-        stroke-dasharray: 20 300;
-        stroke-dashoffset: -32.42;
       }
 
       .nav-menu-panel {
@@ -862,10 +839,9 @@
         <img src="/Logo-Blitzkneisser-BERG.png" alt="Blitzkneisser Photography" class="h-11 w-auto brightness-0 contrast-125 opacity-70 md:h-14" width="1326" height="705" data-pin-nopin="true">
       </a>
       <button type="button" class="mobile-menu-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenuPanel" aria-label="Menü öffnen">
-        <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-          <path class="line line-top-bottom" d="m 30,11.000046 h -28 c 0,0 -0.928099,0.040115 -0.928099,0.928099 0,0.928084 0.928099,0.928099 0.928099,0.928099 h 28 c 0,0 0.928099,-0.04012 0.928099,-0.928099 C 30.928099,11.040161 30,11.000046 30,11.000046 z m 0,10.999954 h -28 c 0,0 -0.928099,0.040115 -0.928099,0.928099 0,0.928084 0.928099,0.928099 0.928099,0.928099 h 28 c 0,0 0.928099,-0.04012 0.928099,-0.928099 C 30.928099,22.040069 30,21.999954 30,21.999954 z"/>
-          <path class="line" d="m 30,16.999977 h -28 c 0,0 -0.928099,0.040115 -0.928099,0.928099 0,0.928084 0.928099,0.928099 0.928099,0.928099 h 28 c 0,0 0.928099,-0.04012 0.928099,-0.928099 C 30.928099,17.040092 30,16.999977 30,16.999977 z"/>
-        </svg>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
       </button>
       <div class="nav-menu-panel ml-auto flex items-center justify-end gap-4 text-right" id="navMenuPanel">
         <div class="flex items-center gap-4 text-[10px] uppercase tracking-[0.2em] sm:gap-6 md:gap-8 md:text-xs">
