@@ -14,58 +14,53 @@
         position: relative;
       }
 
+      /* Dezent: nur ein kleines rotes "P" - kein Kasten, Rahmen, Hintergrund, Label */
       .pin-badge {
         position: absolute;
-        top: 0.7rem;
-        left: 0.7rem;
+        top: 0.6rem;
+        left: 0.6rem;
         z-index: 8;
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        /* !important: sonst streckt ".cluster-grid a { width:100% }" den Button ueber das ganze Bild */
-        width: 1.75rem !important;
-        height: 1.75rem !important;
-        max-width: 1.75rem;
-        max-height: 1.75rem;
+        /* !important: sonst streckt ".cluster-grid a { width:100% }" den Link auf volle Breite */
+        width: 1.1rem !important;
+        height: 1.1rem !important;
+        max-width: 1.1rem;
+        max-height: 1.1rem;
         padding: 0;
         border: 0;
-        border-radius: 9999px;
-        background: #e60023;
+        background: none;
+        box-shadow: none;
         text-decoration: none;
         line-height: 0;
-        box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
         opacity: 0;
-        transform: translateY(-2px) scale(0.94);
-        transition: opacity 0.28s ease, transform 0.28s ease, background 0.2s ease, box-shadow 0.2s ease;
+        transition: opacity 0.25s ease;
       }
 
       .pin-badge svg {
-        width: 0.9rem;
-        height: 0.9rem;
+        width: 100%;
+        height: 100%;
         display: block;
-        fill: #ffffff;
-        transition: fill 0.2s ease;
+        fill: #E60023;
+        /* dezente Lesbarkeit auf hellen wie dunklen Bildstellen, ohne Kasten/Hintergrund */
+        filter: drop-shadow(0 0 1.5px rgba(255, 255, 255, 0.9)) drop-shadow(0 0 1px rgba(0, 0, 0, 0.35));
+      }
+
+      /* Nur beim Hover ueber dem Bild einblenden, zurueckhaltend */
+      .pin-host:hover .pin-badge,
+      .pin-host:focus-within .pin-badge {
+        opacity: 0.85;
       }
 
       .pin-badge:hover {
-        background: #bd001d;
-        box-shadow: 0 2px 9px rgba(0, 0, 0, 0.35);
-      }
-
-      .pin-badge:hover svg {
-        fill: #ffffff;
-      }
-
-      .pin-host:hover .pin-badge,
-      .pin-host:focus-within .pin-badge {
         opacity: 1;
-        transform: translateY(0) scale(1);
       }
 
       @media (hover: none) {
+        /* Touch: kein Hover -> sehr dezent dauerhaft sichtbar */
         .pin-badge {
-          opacity: 0.8;
-          transform: none;
+          opacity: 0.5;
         }
       }
     `;
