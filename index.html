@@ -432,6 +432,14 @@
         border: none;
         padding: 0;
         cursor: pointer;
+        touch-action: manipulation;
+        -webkit-tap-highlight-color: transparent;
+      }
+
+      .mobile-menu-toggle svg,
+      .mobile-menu-toggle .line,
+      .mobile-menu-toggle .line-top-bottom {
+        pointer-events: none;
       }
 
       .mobile-menu-toggle svg {
@@ -2452,14 +2460,18 @@
         navToggle.setAttribute("aria-label", "Menü öffnen");
       };
 
-      let menuOpenScrollY = 0;
-      navToggle.addEventListener("click", () => {
+      const toggleNavMenu = (event) => {
+        // pointerup deckt Touch UND Maus ab; preventDefault verhindert das
+        // nachgelagerte synthetische click-Event (sonst doppeltes Umschalten).
+        if (event) event.preventDefault();
         const willOpen = !nav.classList.contains("is-open");
         nav.classList.toggle("is-open", willOpen);
         navToggle.setAttribute("aria-expanded", willOpen ? "true" : "false");
         navToggle.setAttribute("aria-label", willOpen ? "Menü schließen" : "Menü öffnen");
-        if (willOpen) menuOpenScrollY = window.scrollY;
-      });
+      };
+      navToggle.addEventListener("pointerup", toggleNavMenu);
+      // Fallback fuer Browser ohne Pointer-Events.
+      if (!window.PointerEvent) navToggle.addEventListener("click", toggleNavMenu);
 
       navMenuPanel.querySelectorAll("a, button[data-lang-button]").forEach((item) => {
         item.addEventListener("click", () => {
@@ -2471,16 +2483,10 @@
         if (window.innerWidth >= 768) closeNavMenu();
       });
 
-      // Nur bei echtem Wegscrollen schliessen (>40px). Sonst schliesst auf Touch
-      // schon das Antippen / das Ein- und Ausblenden der mobilen Adressleiste das
-      // Menue sofort wieder ("Hamburger reagiert nicht").
-      window.addEventListener("scroll", () => {
-        if (window.innerWidth < 768
-          && nav.classList.contains("is-open")
-          && Math.abs(window.scrollY - menuOpenScrollY) > 40) {
-          closeNavMenu();
-        }
-      }, { passive: true });
+      // BEWUSST kein Schliessen-bei-Scroll: auf iOS aendert das Ein-/Ausblenden der
+      // Adressleiste window.scrollY sprunghaft und wuerde das gerade geoeffnete Menue
+      // sofort wieder zuklappen ("Hamburger geht nicht"). Menue schliesst ueber den
+      // Toggle (X) oder einen Menue-Link.
 
       const heroContactLink = document.getElementById("heroContactLink");
       const heroSecurityModal = document.getElementById("heroSecurityModal");
