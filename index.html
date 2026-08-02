@@ -2449,12 +2449,16 @@
       const closeNavMenu = () => {
         nav.classList.remove("is-open");
         navToggle.setAttribute("aria-expanded", "false");
+        navToggle.setAttribute("aria-label", "Menü öffnen");
       };
 
+      let menuOpenScrollY = 0;
       navToggle.addEventListener("click", () => {
         const willOpen = !nav.classList.contains("is-open");
         nav.classList.toggle("is-open", willOpen);
         navToggle.setAttribute("aria-expanded", willOpen ? "true" : "false");
+        navToggle.setAttribute("aria-label", willOpen ? "Menü schließen" : "Menü öffnen");
+        if (willOpen) menuOpenScrollY = window.scrollY;
       });
 
       navMenuPanel.querySelectorAll("a, button[data-lang-button]").forEach((item) => {
@@ -2467,8 +2471,13 @@
         if (window.innerWidth >= 768) closeNavMenu();
       });
 
+      // Nur bei echtem Wegscrollen schliessen (>40px). Sonst schliesst auf Touch
+      // schon das Antippen / das Ein- und Ausblenden der mobilen Adressleiste das
+      // Menue sofort wieder ("Hamburger reagiert nicht").
       window.addEventListener("scroll", () => {
-        if (window.innerWidth < 768 && nav.classList.contains("is-open")) {
+        if (window.innerWidth < 768
+          && nav.classList.contains("is-open")
+          && Math.abs(window.scrollY - menuOpenScrollY) > 40) {
           closeNavMenu();
         }
       }, { passive: true });
