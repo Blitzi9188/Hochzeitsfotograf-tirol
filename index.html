@@ -2466,18 +2466,21 @@
         navToggle.setAttribute("aria-label", "Menü öffnen");
       };
 
-      const toggleNavMenu = (event) => {
-        // pointerup deckt Touch UND Maus ab; preventDefault verhindert das
-        // nachgelagerte synthetische click-Event (sonst doppeltes Umschalten).
-        if (event) event.preventDefault();
+      // Robust: sowohl click ALS AUCH pointerup binden, damit der Toggle mit JEDEM
+      // Input feuert (Touch, Maus, Tastatur). Entprellung verhindert doppeltes
+      // Umschalten, falls ein Tap beide Events ausloest.
+      let lastNavToggle = 0;
+      const toggleNavMenu = () => {
+        const now = Date.now();
+        if (now - lastNavToggle < 350) return;
+        lastNavToggle = now;
         const willOpen = !nav.classList.contains("is-open");
         nav.classList.toggle("is-open", willOpen);
         navToggle.setAttribute("aria-expanded", willOpen ? "true" : "false");
         navToggle.setAttribute("aria-label", willOpen ? "Menü schließen" : "Menü öffnen");
       };
+      navToggle.addEventListener("click", toggleNavMenu);
       navToggle.addEventListener("pointerup", toggleNavMenu);
-      // Fallback fuer Browser ohne Pointer-Events.
-      if (!window.PointerEvent) navToggle.addEventListener("click", toggleNavMenu);
 
       navMenuPanel.querySelectorAll("a, button[data-lang-button]").forEach((item) => {
         item.addEventListener("click", () => {
