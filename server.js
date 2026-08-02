@@ -357,10 +357,11 @@ const serveHomepage = async (req, res) => {
     [requestedLang]: await readJsonDataFile(path.join("content", "homepage", `${requestedLang}.json`))
   };
 
-  const injected = template.replace(
+  const bootstrapped = template.replace(
     "<script>window.__HOMEPAGE_BOOTSTRAP__ = null;</script>",
     `<script>window.__HOMEPAGE_BOOTSTRAP__ = ${escapeInlineJson(homepageBootstrap)};</script>`
   );
+  const injected = injectSeoHead(bootstrapped, "/");
 
   res.writeHead(200, {
     "Content-Type": "text/html; charset=utf-8",
@@ -425,8 +426,36 @@ const listJournalRelPaths = async () => {
   return [...bySlug.values()].sort().map((name) => `content/journal/${name}`);
 };
 
-const SITE_ORIGIN = "https://blitzkneisser.com";
+const SITE_ORIGIN = "https://hochzeitsfotograf.tirol";
 const PAGE_TITLE_SUFFIX = "Blitzkneisser Photography";
+
+// Injects self-referencing canonical + hreflang (de-AT / en / x-default) directly
+// into any HTML string before it is sent, so crawlers see correct tags in raw HTML.
+const injectSeoHead = (html, pathname) => {
+  let clean = String(pathname || "/");
+  if (!clean.startsWith("/")) clean = `/${clean}`;
+  // Strip query string; keep trailing slash
+  clean = clean.split("?")[0];
+  if (clean !== "/" && !clean.endsWith("/")) clean += "/";
+
+  const canonical = `${SITE_ORIGIN}${clean}`;
+  const replacement = [
+    `<link rel="canonical" href="${canonical}">`,
+    `<link rel="alternate" hreflang="de-AT" href="${canonical}">`,
+    `<link rel="alternate" hreflang="en" href="${canonical}">`,
+    `<link rel="alternate" hreflang="x-default" href="${canonical}">`,
+  ].join("\n  ");
+
+  // Remove any existing canonical + hreflang tags
+  let out = html
+    .replace(/<link\s[^>]*rel="canonical"[^>]*>/gi, "")
+    .replace(/<link\s[^>]*rel="alternate"[^>]*hreflang[^>]*>/gi, "")
+    .replace(/<link\s[^>]*hreflang[^>]*rel="alternate"[^>]*>/gi, "");
+
+  // Insert after opening <head> tag
+  out = out.replace(/(<head(?:\s[^>]*)?>)/i, `$1\n  ${replacement}`);
+  return out;
+};
 
 const escHtml = (value) =>
   String(value == null ? "" : value)
@@ -638,7 +667,14 @@ const serveStatic = async (req, res, pathname) => {
       const stat = await fsp.stat(filePath);
       const targetFile = stat.isDirectory() ? path.join(filePath, "index.html") : filePath;
       const ext = path.extname(targetFile).toLowerCase();
-      const content = await fsp.readFile(targetFile);
+      let content = await fsp.readFile(targetFile);
+
+      // Inject SSR canonical + hreflang into every HTML page before serving
+      if (ext === ".html") {
+        const htmlStr = injectSeoHead(content.toString("utf8"), pathname);
+        content = Buffer.from(htmlStr, "utf8");
+      }
+
       const compressible = [".css", ".js", ".html", ".json", ".xml", ".txt", ".svg"].includes(ext);
       const acceptEncoding = req.headers["accept-encoding"] || "";
       if (compressible && acceptEncoding.includes("gzip")) {
@@ -828,13 +864,12 @@ const server = http.createServer(async (req, res) => {
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>${isEn ? "Pricing Wedding Photographer Tyrol &amp; Dolomites | 2026/27" : "Preise Hochzeitsfotograf Tirol &amp; Dolomiten | 2026/27"}</title>
 <meta name="description" content="${isEn ? "Pricing for wedding photography, elopements and wedding films in Tyrol, Innsbruck and the Dolomites 2026/27." : "Preise für Hochzeitsfotografie, Elopements und Hochzeitsfilme in Tirol, Innsbruck und den Dolomiten für 2026/27."}">
-<link rel="canonical" href="https://blitzkneisser.com/preisliste/26-27/">
+<link rel="canonical" href="https://hochzeitsfotograf.tirol/preisliste/26-27/">
+<link rel="alternate" hreflang="de-AT" href="https://hochzeitsfotograf.tirol/preisliste/26-27/">
+<link rel="alternate" hreflang="en" href="https://hochzeitsfotograf.tirol/preisliste/26-27/">
+<link rel="alternate" hreflang="x-default" href="https://hochzeitsfotograf.tirol/preisliste/26-27/">
 <link rel="icon" type="image/png" href="/Logo-Blitzkneisser-BERG.png">
 <script defer src="/assets/seo.js"></script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap"></noscript>
 <link rel="stylesheet" href="/assets/home.css">
 <style>
 body{background:#fff;color:#1B1A18;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
@@ -975,7 +1010,7 @@ ${addonHtml}
       const { frontmatter, body } = splitFrontmatter(raw);
       const data = parseFrontmatterData(frontmatter);
       const pageUrl = `${SITE_ORIGIN}/journal/${slug}/`;
-      const html = renderJournalEntryHtml(templateHtml, data, body, pageUrl);
+      const html = injectSeoHead(renderJournalEntryHtml(templateHtml, data, body, pageUrl), `/journal/${slug}/`);
       res.writeHead(200, {
         "Content-Type": "text/html; charset=utf-8",
         "Cache-Control": "no-store"
