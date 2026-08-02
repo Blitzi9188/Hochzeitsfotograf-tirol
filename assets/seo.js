@@ -1,4 +1,10 @@
 (() => {
+  // SINGLE SOURCE OF TRUTH fuer die Canonical-Domain: MUSS mit server.js SITE_ORIGIN
+
+  // uebereinstimmen (beide https://blitzkneisser.com, non-www). NIE auf hochzeitsfotograf.tirol
+
+  // aendern - das entindexiert blitzkneisser.com. seo.js wird ?v-cachebusted eingebunden.
+
   const SITE_URL = "https://blitzkneisser.com";
 
   const ensureMeta = (selector, attrs = {}) => {
