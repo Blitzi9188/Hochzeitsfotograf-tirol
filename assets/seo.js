@@ -1,11 +1,8 @@
 (() => {
-  // SINGLE SOURCE OF TRUTH fuer die Canonical-Domain: MUSS mit server.js SITE_ORIGIN
-
-  // uebereinstimmen (beide https://blitzkneisser.com, non-www). NIE auf hochzeitsfotograf.tirol
-
-  // aendern - das entindexiert blitzkneisser.com. seo.js wird ?v-cachebusted eingebunden.
-
-  const SITE_URL = "https://blitzkneisser.com";
+  // SINGLE SOURCE OF TRUTH = server.js SITE_ORIGIN. Der Server injiziert
+  // window.__SITE_ORIGIN__ in jeden <head> (vor diesem Script); wir lesen es hier.
+  // So kann Client/SSR NIE divergieren. Fallback nur, falls das Global fehlt.
+  const SITE_URL = (typeof window !== "undefined" && window.__SITE_ORIGIN__) || "https://blitzkneisser.com";
 
   const ensureMeta = (selector, attrs = {}) => {
     let node = document.head.querySelector(selector);
