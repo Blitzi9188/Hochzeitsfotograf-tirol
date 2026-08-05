@@ -427,6 +427,32 @@ const listJournalRelPaths = async () => {
 };
 
 const SITE_ORIGIN = "https://blitzkneisser.com";
+// Cloudflare Turnstile (Bot-Schutz Kontaktformular). Beide via Railway-Env setzen:
+// TURNSTILE_SITEKEY (oeffentlich, wird ins HTML injiziert) + TURNSTILE_SECRET (geheim,
+// serverseitige Pruefung). Solange nicht gesetzt: Fallback auf die Rechenaufgabe.
+const TURNSTILE_SITEKEY = String(process.env.TURNSTILE_SITEKEY || "").trim();
+const TURNSTILE_SECRET = String(process.env.TURNSTILE_SECRET || "").trim();
+
+// Verifiziert ein Turnstile-Token bei Cloudflare. Ist kein Secret gesetzt, wird NICHT
+// blockiert (skipped:true) -> Formular funktioniert bis zur Konfiguration weiter.
+const verifyTurnstile = async (token, ip) => {
+  if (!TURNSTILE_SECRET) return { ok: true, skipped: true };
+  if (!token) return { ok: false, error: "missing-token" };
+  try {
+    const form = new URLSearchParams({ secret: TURNSTILE_SECRET, response: String(token) });
+    const remoteIp = String(ip || "").split(",")[0].trim();
+    if (remoteIp) form.append("remoteip", remoteIp);
+    const resp = await fetch("https://challenges.cloudflare.com/turnstile/v0/siteverify", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: form.toString()
+    });
+    const data = await resp.json();
+    return { ok: Boolean(data && data.success), error: (data && data["error-codes"] || []).join(",") };
+  } catch (err) {
+    return { ok: false, error: "verify-failed" };
+  }
+};
 const PAGE_TITLE_SUFFIX = "Blitzkneisser Photography";
 
 // Injects self-referencing canonical + hreflang (de-AT / en / x-default) directly
@@ -441,6 +467,7 @@ const injectSeoHead = (html, pathname) => {
   const canonical = `${SITE_ORIGIN}${clean}`;
   const replacement = [
     `<script>window.__SITE_ORIGIN__ = ${JSON.stringify(SITE_ORIGIN)};</script>`,
+    `<script>window.__TURNSTILE_SITEKEY__ = ${JSON.stringify(TURNSTILE_SITEKEY)};</script>`,
     `<link rel="canonical" href="${canonical}">`,
     `<link rel="alternate" hreflang="de-AT" href="${canonical}">`,
     `<link rel="alternate" hreflang="en" href="${canonical}">`,
@@ -1027,6 +1054,14 @@ ${addonHtml}
 
     if (req.method === "POST" && pathname === "/api/contact") {
       const body = JSON.parse(await readBody(req));
+      const turnstile = await verifyTurnstile(
+        body.turnstileToken,
+        req.headers["x-forwarded-for"] || (req.socket && req.socket.remoteAddress) || ""
+      );
+      if (!turnstile.ok) {
+        sendJson(res, 400, { ok: false, error: "Bot-Schutz fehlgeschlagen. Bitte Bestätigung wiederholen." });
+        return;
+      }
       const result = await sendContactInquiry({
         rootDir: dataRoot,
         payload: body,

@@ -1177,7 +1177,9 @@
             </label>
             <div class="md:col-span-2 pt-2">
               <span class="mb-3 block text-[10px] uppercase tracking-[0.22em] text-brand-muted" id="homeInquirySecurityLabel">Sicherheitscheck</span>
-              <div class="flex flex-wrap items-center gap-3">
+              <!-- Cloudflare Turnstile (aktiv, sobald TURNSTILE_SITEKEY gesetzt ist); sonst Rechenaufgabe unten -->
+              <div id="homeInquiryTurnstile" style="display:none"></div>
+              <div id="homeInquiryMathCheck" class="flex flex-wrap items-center gap-3">
                 <span id="homeInquirySecurityQuestion" class="min-w-[90px] border border-brand-border px-3 py-2 text-sm text-brand-text">3 + 5 = ?</span>
                 <input
                   id="homeInquirySecurityInput"
@@ -2296,6 +2298,40 @@
     let latestLanguageRequestId = 0;
     let homeInquirySecurityResult = null;
 
+    // Cloudflare Turnstile: aktiv, sobald der Server window.__TURNSTILE_SITEKEY__ setzt
+    // (Railway-Env TURNSTILE_SITEKEY). Sonst bleibt die Rechenaufgabe als Fallback.
+    const turnstileSiteKey = (typeof window !== "undefined" && window.__TURNSTILE_SITEKEY__) || "";
+    const turnstileActive = () => Boolean(turnstileSiteKey);
+    let homeTurnstileWidgetId = null;
+    const initHomeTurnstile = () => {
+      if (!turnstileActive()) return;
+      const wrap = document.getElementById("homeInquiryTurnstile");
+      const mathCheck = document.getElementById("homeInquiryMathCheck");
+      const mathInput = document.getElementById("homeInquirySecurityInput");
+      if (mathInput) mathInput.removeAttribute("required"); // sonst blockiert das Pflichtfeld den Submit
+      if (mathCheck) mathCheck.style.display = "none";
+      if (wrap) wrap.style.display = "block";
+      const renderWidget = () => {
+        if (!window.turnstile || !wrap || homeTurnstileWidgetId !== null) return;
+        homeTurnstileWidgetId = window.turnstile.render(wrap, {
+          sitekey: turnstileSiteKey,
+          theme: "light",
+          language: getInquiryUiLang() === "en" ? "en" : "de"
+        });
+      };
+      if (window.turnstile) {
+        renderWidget();
+      } else if (!document.getElementById("cf-turnstile-script")) {
+        window.__onHomeTurnstileLoad = renderWidget;
+        const s = document.createElement("script");
+        s.id = "cf-turnstile-script";
+        s.src = "https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit&onload=__onHomeTurnstileLoad";
+        s.async = true;
+        s.defer = true;
+        document.head.appendChild(s);
+      }
+    };
+
     const getInquiryUiLang = () => (currentPageLanguage === "en" ? "en" : "de");
     const homeInquirySecurityI18n = {
       de: {
@@ -2303,14 +2339,16 @@
         placeholder: "Antwort",
         refresh: "Neu laden",
         aria: "Sicherheitsabfrage Antwort",
-        error: "Bitte Sicherheitsabfrage korrekt lösen."
+        error: "Bitte Sicherheitsabfrage korrekt lösen.",
+        turnstile: "Bitte bestätige kurz, dass du kein Roboter bist."
       },
       en: {
         label: "Security Check",
         placeholder: "Answer",
         refresh: "Refresh",
         aria: "Security check answer",
-        error: "Please solve the security check correctly."
+        error: "Please solve the security check correctly.",
+        turnstile: "Please confirm that you are human."
       }
     };
 
@@ -2606,6 +2644,7 @@
 
       applyHomeInquirySecurityLanguage();
       buildHomeInquirySecurityChallenge();
+      initHomeTurnstile();
 
       homeInquirySecurityRefresh?.addEventListener("click", () => {
         buildHomeInquirySecurityChallenge();
@@ -2681,7 +2720,19 @@
           return;
         }
 
-        if (value !== homeInquirySecurityResult) {
+        // Bot-Schutz: Cloudflare Turnstile (falls konfiguriert), sonst Rechenaufgabe
+        let turnstileToken = "";
+        if (turnstileActive()) {
+          turnstileToken = (window.turnstile && homeTurnstileWidgetId !== null)
+            ? window.turnstile.getResponse(homeTurnstileWidgetId)
+            : "";
+          if (!turnstileToken) {
+            const msg = homeInquirySecurityI18n[getInquiryUiLang()].turnstile;
+            if (homeInquirySecurityError) homeInquirySecurityError.textContent = msg;
+            setHomeInquiryStatus(msg, true);
+            return;
+          }
+        } else if (value !== homeInquirySecurityResult) {
           if (homeInquirySecurityError) {
             homeInquirySecurityError.textContent = homeInquirySecurityI18n[getInquiryUiLang()].error;
           }
@@ -2700,10 +2751,14 @@
             date,
             location,
             referral: "",
-            message
+            message,
+            turnstileToken
           });
           homeInquiryForm.reset();
           buildHomeInquirySecurityChallenge();
+          if (turnstileActive() && window.turnstile && homeTurnstileWidgetId !== null) {
+            window.turnstile.reset(homeTurnstileWidgetId);
+          }
           if (homeInquirySecurityError) homeInquirySecurityError.textContent = "";
           setHomeInquiryStatus(t["contact.submitSuccess"], false);
           redirectHomeInquiryThankYou({ lang, name, email, date, location, message });
