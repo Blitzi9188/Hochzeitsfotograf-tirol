@@ -453,6 +453,36 @@ const verifyTurnstile = async (token, ip) => {
     return { ok: false, error: "verify-failed" };
   }
 };
+
+// Selbst-gehosteter Bot-Schutz (Standard, ohne externes Konto): der Server signiert bei
+// jedem Seitenaufruf ein Zeit-Token (window.__FORM_TS__). Beim Absenden wird geprueft:
+// gueltige HMAC-Signatur, plausibles Alter (nicht sofort abgeschickt, nicht uralt) und
+// eine leere Honeypot-Falle. Blockiert automatisierte Direkt-POSTs zuverlaessig.
+const FORM_SECRET = crypto
+  .createHash("sha256")
+  .update(String(ADMIN_TOKEN || process.env.FORM_SECRET || SITE_ORIGIN || "blitzkneisser-form"))
+  .digest("hex");
+const signFormPayload = (value) =>
+  crypto.createHmac("sha256", FORM_SECRET).update(String(value)).digest("hex").slice(0, 32);
+const issueFormToken = () => {
+  const ts = Date.now();
+  return `${ts}.${signFormPayload(ts)}`;
+};
+const verifyFormToken = (token) => {
+  const raw = String(token || "");
+  const dot = raw.indexOf(".");
+  if (dot === -1) return false;
+  const ts = raw.slice(0, dot);
+  const sig = raw.slice(dot + 1);
+  if (!/^\d+$/.test(ts)) return false;
+  const expected = signFormPayload(ts);
+  const a = Buffer.from(sig);
+  const b = Buffer.from(expected);
+  if (a.length !== b.length || !crypto.timingSafeEqual(a, b)) return false;
+  const age = Date.now() - Number(ts);
+  return age >= 2500 && age <= 2 * 60 * 60 * 1000; // >=2,5s (kein Instant-Bot), <=2h
+};
+
 const PAGE_TITLE_SUFFIX = "Blitzkneisser Photography";
 
 // Injects self-referencing canonical + hreflang (de-AT / en / x-default) directly
@@ -468,6 +498,7 @@ const injectSeoHead = (html, pathname) => {
   const replacement = [
     `<script>window.__SITE_ORIGIN__ = ${JSON.stringify(SITE_ORIGIN)};</script>`,
     `<script>window.__TURNSTILE_SITEKEY__ = ${JSON.stringify(TURNSTILE_SITEKEY)};</script>`,
+    `<script>window.__FORM_TS__ = ${JSON.stringify(issueFormToken())};</script>`,
     `<link rel="canonical" href="${canonical}">`,
     `<link rel="alternate" hreflang="de-AT" href="${canonical}">`,
     `<link rel="alternate" hreflang="en" href="${canonical}">`,
@@ -1054,11 +1085,16 @@ ${addonHtml}
 
     if (req.method === "POST" && pathname === "/api/contact") {
       const body = JSON.parse(await readBody(req));
-      const turnstile = await verifyTurnstile(
-        body.turnstileToken,
-        req.headers["x-forwarded-for"] || (req.socket && req.socket.remoteAddress) || ""
-      );
-      if (!turnstile.ok) {
+      const clientIp = req.headers["x-forwarded-for"] || (req.socket && req.socket.remoteAddress) || "";
+      let botOk;
+      if (TURNSTILE_SECRET) {
+        // Cloudflare Turnstile, falls konfiguriert
+        botOk = (await verifyTurnstile(body.turnstileToken, clientIp)).ok;
+      } else {
+        // Standard: selbst-gehostet – Honeypot muss leer sein UND Zeit-Token gueltig
+        botOk = !String(body.company || "").trim() && verifyFormToken(body.formToken);
+      }
+      if (!botOk) {
         sendJson(res, 400, { ok: false, error: "Bot-Schutz fehlgeschlagen. Bitte Bestätigung wiederholen." });
         return;
       }
