@@ -920,14 +920,8 @@
       let siteSettings = {};
       const langParam = new URLSearchParams(window.location.search).get("lang");
       const detectAutoLanguage = () => {
-        const browserLanguages = [
-          ...(navigator.languages || []),
-          navigator.language,
-          navigator.userLanguage
-        ]
-          .filter(Boolean)
-          .map((value) => String(value).toLowerCase());
-        return browserLanguages.some((value) => value.startsWith("de")) ? "de" : "en";
+        // English-first (Marken-Ausrichtung blitzkneisser.com); DE via Umschalter/?lang=de.
+        return "en";
       };
       let currentLang = langParam === "en" ? "en" : ((langParam === "de" ? "de" : localStorage.getItem("site-lang")) || detectAutoLanguage());
 
@@ -1377,7 +1371,7 @@
       buildCaptcha();
     });
   </script>
-  <script src="/assets/footer-settings.js?v=5"></script>
+  <script src="/assets/footer-settings.js?v=6"></script>
   <script src="/assets/pinterest-pin.js?v=3"></script>
 </body>
 </html>

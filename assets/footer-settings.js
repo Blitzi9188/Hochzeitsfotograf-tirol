@@ -872,8 +872,8 @@
       }
     }
 
-    const update = (lang = getLang(settings.defaultLanguage || "de")) => applyFooter(settings, lang, posts, fallbackImages);
-    const syncNavigation = (lang = getLang(settings.defaultLanguage || "de")) => {
+    const update = (lang = getLang("en")) => applyFooter(settings, lang, posts, fallbackImages);
+    const syncNavigation = (lang = getLang("en")) => {
       localStorage.setItem("site-lang", lang);
       syncInternalLanguageLinks(lang);
       applyNavigation(settings, lang);
@@ -881,14 +881,14 @@
     };
 
     syncNavigation();
-    ensurePrivacyConsent(getLang(settings.defaultLanguage || "de"));
+    ensurePrivacyConsent(getLang("en"));
 
     runWhenIdle(async () => {
       try {
         const response = await fetch(`/content/settings/site.json?ts=${Date.now()}`, { cache: "no-store" });
         if (response.ok) {
           settings = await response.json();
-          syncNavigation(getLang(settings.defaultLanguage || "de"));
+          syncNavigation(getLang("en"));
         }
       } catch {
         settings = settings || {};
@@ -902,7 +902,7 @@
         if (response.ok) {
           const payload = await response.json();
           posts = Array.isArray(payload.posts) ? payload.posts : [];
-          update(getLang(settings.defaultLanguage || "de"));
+          update(getLang("en"));
         }
       } catch {
         posts = [];
@@ -914,7 +914,7 @@
       const navObserver = new MutationObserver(() => {
         if (isApplyingNavigation) return;
         window.requestAnimationFrame(() => {
-          syncNavigation(getLang(settings.defaultLanguage || "de"));
+          syncNavigation(getLang("en"));
         });
       });
       navObserver.observe(navGroup, { childList: true, subtree: true, characterData: true });
@@ -929,7 +929,7 @@
     });
 
     window.addEventListener("pageshow", () => {
-      syncNavigation(getLang(settings.defaultLanguage || "de"));
+      syncNavigation(getLang("en"));
     });
   });
 })();

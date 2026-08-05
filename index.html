@@ -2399,17 +2399,9 @@
     window.__selectedHeroImagePath = "";
 
     const detectAutoLanguage = () => {
-      const browserLanguages = [
-        ...(navigator.languages || []),
-        navigator.language,
-        navigator.userLanguage
-      ]
-        .filter(Boolean)
-        .map((value) => String(value).toLowerCase());
-
-      if (browserLanguages.some((value) => value.startsWith("de"))) {
-        return "de";
-      }
+      // Marken-Ausrichtung blitzkneisser.com: Englisch ist Standardsprache fuer neue
+      // Besucher (internationaler Dolomiten-Fokus). Deutsch bleibt per Umschalter /
+      // ?lang=de / gespeicherter Praeferenz erreichbar.
       return "en";
     };
 
@@ -2930,7 +2922,7 @@
       setLanguage(initialLang);
     });
   </script>
-  <script defer src="/assets/footer-settings.js?v=5"></script>
+  <script defer src="/assets/footer-settings.js?v=6"></script>
   <script>
     (() => {
       const loadScript = (src) => {
