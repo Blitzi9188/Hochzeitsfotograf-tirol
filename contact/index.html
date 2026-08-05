@@ -558,18 +558,23 @@
                 <div class="grid grid-cols-1 md:grid-cols-[1fr_auto] gap-8 items-end">
                   <div class="flex flex-col gap-4">
                     <div>
-                      <label class="text-[10px] uppercase tracking-widest text-brand-muted block mb-2" id="captchaLabel">Sicherheitsabfrage</label>
-                      <div class="captcha-visual">
-                        <span id="captchaQuestion">4 + 3 = ?</span>
+                      <label class="text-[10px] uppercase tracking-widest text-brand-muted block mb-3" id="captchaLabel">Sicherheitscheck</label>
+                      <label class="inline-flex items-center gap-3 border border-brand-border px-4 py-3 cursor-pointer select-none">
+                        <input type="checkbox" id="contactHuman" class="h-5 w-5 accent-black">
+                        <span class="text-sm text-brand-text" id="contactHumanLabel">Ich bin kein Roboter</span>
+                      </label>
+                      <!-- alte Rechenaufgabe versteckt (IDs bleiben, damit vorhandenes JS nicht bricht) -->
+                      <div class="captcha-visual" style="display:none">
+                        <span id="captchaQuestion"></span>
                       </div>
                     </div>
-                    <div class="flex flex-col gap-2">
+                    <div class="flex flex-col gap-2" style="display:none">
                       <label class="text-[10px] uppercase tracking-widest text-brand-muted" id="captchaInputLabel">Antwort</label>
-                      <input type="text" class="py-3 text-lg font-light" id="captchaAnswer" inputmode="numeric" autocomplete="off" placeholder="Antwort eingeben" required aria-required="true">
+                      <input type="text" class="py-3 text-lg font-light" id="captchaAnswer" inputmode="numeric" autocomplete="off" placeholder="Antwort eingeben" tabindex="-1" aria-hidden="true">
                     </div>
                   </div>
                   <div class="flex flex-col gap-3 md:items-end">
-                    <button type="button" class="captcha-refresh" id="captchaRefresh">Neu laden</button>
+                    <button type="button" class="captcha-refresh" id="captchaRefresh" style="display:none">Neu laden</button>
                     <div class="honeypot-field" aria-hidden="true">
                       <label for="websiteField">Website</label>
                       <input type="text" id="websiteField" tabindex="-1" autocomplete="off">
@@ -788,12 +793,13 @@
           calendarTitle: "Wunschdatum auswählen",
           calendarPrev: "←",
           calendarNext: "→",
-          captchaLabel: "Sicherheitsabfrage",
+          captchaLabel: "Sicherheitscheck",
           captchaInputLabel: "Antwort",
           captchaPlaceholder: "Antwort eingeben",
           captchaRefresh: "Neu laden",
           captchaQuestionPrefix: "Bitte löse",
-          captchaError: "Bitte die Sicherheitsabfrage korrekt lösen.",
+          captchaError: "Bitte bestätige, dass du kein Roboter bist.",
+          human: "Ich bin kein Roboter",
           validationError: "Bitte füllt Name, E-Mail, Wunschdatum und Nachricht aus, bevor ihr die Anfrage sendet.",
           submitSending: "Nachricht wird gesendet, bitte warten...",
           submitSuccess: "Danke. Eure Anfrage ist unterwegs.",
@@ -855,7 +861,8 @@
           captchaPlaceholder: "Enter answer",
           captchaRefresh: "Refresh",
           captchaQuestionPrefix: "Please solve",
-          captchaError: "Please solve the security check correctly.",
+          captchaError: "Please confirm that you are human.",
+          human: "I'm not a robot",
           validationError: "Please fill in name, email, preferred date and message before sending your inquiry.",
           submitSending: "Your message is being sent, please wait...",
           submitSuccess: "Thank you. Your inquiry is on its way.",
@@ -899,6 +906,7 @@
       const captchaAnswer = document.getElementById("captchaAnswer");
       const captchaRefresh = document.getElementById("captchaRefresh");
       const websiteField = document.getElementById("websiteField");
+      const contactHuman = document.getElementById("contactHuman");
       const formStatus = document.getElementById("formStatus");
       const contactHero = document.getElementById("contactHero");
       const heroImage = document.getElementById("heroImage");
@@ -912,14 +920,8 @@
       let siteSettings = {};
       const langParam = new URLSearchParams(window.location.search).get("lang");
       const detectAutoLanguage = () => {
-        const browserLanguages = [
-          ...(navigator.languages || []),
-          navigator.language,
-          navigator.userLanguage
-        ]
-          .filter(Boolean)
-          .map((value) => String(value).toLowerCase());
-        return browserLanguages.some((value) => value.startsWith("de")) ? "de" : "en";
+        // English-first (Marken-Ausrichtung blitzkneisser.com); DE via Umschalter/?lang=de.
+        return "en";
       };
       let currentLang = langParam === "en" ? "en" : ((langParam === "de" ? "de" : localStorage.getItem("site-lang")) || detectAutoLanguage());
 
@@ -1060,9 +1062,8 @@
           return;
         }
 
-        if (!Number.isFinite(answer) || answer !== captchaResult) {
+        if (!contactHuman || !contactHuman.checked) {
           setFormStatus(t.captchaError, true);
-          buildCaptcha();
           return;
         }
 
@@ -1078,7 +1079,9 @@
             date,
             location,
             referral,
-            message
+            message,
+            formToken: (typeof window !== "undefined" && window.__FORM_TS__) || "",
+            company: (websiteField && websiteField.value) || ""
           });
           resetContactForm();
           buildCaptcha();
@@ -1268,6 +1271,8 @@
         document.getElementById("calendarNext").textContent = t.calendarNext;
         document.getElementById("captchaLabel").textContent = t.captchaLabel;
         document.getElementById("captchaInputLabel").textContent = t.captchaInputLabel;
+        const contactHumanLabelNode = document.getElementById("contactHumanLabel");
+        if (contactHumanLabelNode) contactHumanLabelNode.textContent = t.human;
         document.getElementById("captchaAnswer").placeholder = t.captchaPlaceholder;
         document.getElementById("captchaRefresh").textContent = t.captchaRefresh;
         document.getElementById("submitButton").textContent = lang === "en"
@@ -1366,7 +1371,7 @@
       buildCaptcha();
     });
   </script>
-  <script src="/assets/footer-settings.js?v=4"></script>
-  <script src="/assets/pinterest-pin.js?v=2"></script>
+  <script src="/assets/footer-settings.js?v=6"></script>
+  <script src="/assets/pinterest-pin.js?v=3"></script>
 </body>
 </html>
