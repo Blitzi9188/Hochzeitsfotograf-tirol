@@ -427,6 +427,62 @@ const listJournalRelPaths = async () => {
 };
 
 const SITE_ORIGIN = "https://blitzkneisser.com";
+// Cloudflare Turnstile (Bot-Schutz Kontaktformular). Beide via Railway-Env setzen:
+// TURNSTILE_SITEKEY (oeffentlich, wird ins HTML injiziert) + TURNSTILE_SECRET (geheim,
+// serverseitige Pruefung). Solange nicht gesetzt: Fallback auf die Rechenaufgabe.
+const TURNSTILE_SITEKEY = String(process.env.TURNSTILE_SITEKEY || "").trim();
+const TURNSTILE_SECRET = String(process.env.TURNSTILE_SECRET || "").trim();
+
+// Verifiziert ein Turnstile-Token bei Cloudflare. Ist kein Secret gesetzt, wird NICHT
+// blockiert (skipped:true) -> Formular funktioniert bis zur Konfiguration weiter.
+const verifyTurnstile = async (token, ip) => {
+  if (!TURNSTILE_SECRET) return { ok: true, skipped: true };
+  if (!token) return { ok: false, error: "missing-token" };
+  try {
+    const form = new URLSearchParams({ secret: TURNSTILE_SECRET, response: String(token) });
+    const remoteIp = String(ip || "").split(",")[0].trim();
+    if (remoteIp) form.append("remoteip", remoteIp);
+    const resp = await fetch("https://challenges.cloudflare.com/turnstile/v0/siteverify", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: form.toString()
+    });
+    const data = await resp.json();
+    return { ok: Boolean(data && data.success), error: (data && data["error-codes"] || []).join(",") };
+  } catch (err) {
+    return { ok: false, error: "verify-failed" };
+  }
+};
+
+// Selbst-gehosteter Bot-Schutz (Standard, ohne externes Konto): der Server signiert bei
+// jedem Seitenaufruf ein Zeit-Token (window.__FORM_TS__). Beim Absenden wird geprueft:
+// gueltige HMAC-Signatur, plausibles Alter (nicht sofort abgeschickt, nicht uralt) und
+// eine leere Honeypot-Falle. Blockiert automatisierte Direkt-POSTs zuverlaessig.
+const FORM_SECRET = crypto
+  .createHash("sha256")
+  .update(String(ADMIN_TOKEN || process.env.FORM_SECRET || SITE_ORIGIN || "blitzkneisser-form"))
+  .digest("hex");
+const signFormPayload = (value) =>
+  crypto.createHmac("sha256", FORM_SECRET).update(String(value)).digest("hex").slice(0, 32);
+const issueFormToken = () => {
+  const ts = Date.now();
+  return `${ts}.${signFormPayload(ts)}`;
+};
+const verifyFormToken = (token) => {
+  const raw = String(token || "");
+  const dot = raw.indexOf(".");
+  if (dot === -1) return false;
+  const ts = raw.slice(0, dot);
+  const sig = raw.slice(dot + 1);
+  if (!/^\d+$/.test(ts)) return false;
+  const expected = signFormPayload(ts);
+  const a = Buffer.from(sig);
+  const b = Buffer.from(expected);
+  if (a.length !== b.length || !crypto.timingSafeEqual(a, b)) return false;
+  const age = Date.now() - Number(ts);
+  return age >= 2500 && age <= 2 * 60 * 60 * 1000; // >=2,5s (kein Instant-Bot), <=2h
+};
+
 const PAGE_TITLE_SUFFIX = "Blitzkneisser Photography";
 
 // Injects self-referencing canonical + hreflang (de-AT / en / x-default) directly
@@ -441,6 +497,8 @@ const injectSeoHead = (html, pathname) => {
   const canonical = `${SITE_ORIGIN}${clean}`;
   const replacement = [
     `<script>window.__SITE_ORIGIN__ = ${JSON.stringify(SITE_ORIGIN)};</script>`,
+    `<script>window.__TURNSTILE_SITEKEY__ = ${JSON.stringify(TURNSTILE_SITEKEY)};</script>`,
+    `<script>window.__FORM_TS__ = ${JSON.stringify(issueFormToken())};</script>`,
     `<link rel="canonical" href="${canonical}">`,
     `<link rel="alternate" hreflang="de-AT" href="${canonical}">`,
     `<link rel="alternate" hreflang="en" href="${canonical}">`,
@@ -1027,6 +1085,21 @@ ${addonHtml}
 
     if (req.method === "POST" && pathname === "/api/contact") {
       const body = JSON.parse(await readBody(req));
+      const clientIp = req.headers["x-forwarded-for"] || (req.socket && req.socket.remoteAddress) || "";
+      // Bot-Schutz: gueltig ist ENTWEDER die selbst-gehostete Pruefung (Honeypot leer +
+      // signiertes Zeit-Token) ODER ein Cloudflare-Turnstile-Token (body.turnstileToken
+      // fuer das statische Formular, body.token fuer die React-SPA). Ist TURNSTILE_SECRET
+      // nicht gesetzt, gibt verifyTurnstile {ok:true} zurueck (skipped).
+      const honeypotEmpty = !String(body.company || "").trim();
+      let botOk = honeypotEmpty && verifyFormToken(body.formToken);
+      if (!botOk && honeypotEmpty) {
+        const tsToken = body.turnstileToken || body.token;
+        if (tsToken) botOk = (await verifyTurnstile(tsToken, clientIp)).ok;
+      }
+      if (!botOk) {
+        sendJson(res, 400, { ok: false, error: "Bot-Schutz fehlgeschlagen. Bitte Bestätigung wiederholen." });
+        return;
+      }
       const result = await sendContactInquiry({
         rootDir: dataRoot,
         payload: body,
