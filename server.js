@@ -1086,13 +1086,13 @@ ${addonHtml}
     if (req.method === "POST" && pathname === "/api/contact") {
       const body = JSON.parse(await readBody(req));
       const clientIp = req.headers["x-forwarded-for"] || (req.socket && req.socket.remoteAddress) || "";
-      let botOk;
-      if (TURNSTILE_SECRET) {
-        // Cloudflare Turnstile, falls konfiguriert
+      // Bot-Schutz: gueltig ist ENTWEDER die selbst-gehostete Pruefung (Honeypot leer +
+      // signiertes Zeit-Token) ODER ein gueltiges Cloudflare-Turnstile-Token (falls
+      // konfiguriert). So funktionieren alle Formulare, egal welchen Nachweis sie senden.
+      const honeypotEmpty = !String(body.company || "").trim();
+      let botOk = honeypotEmpty && verifyFormToken(body.formToken);
+      if (!botOk && TURNSTILE_SECRET && body.turnstileToken) {
         botOk = (await verifyTurnstile(body.turnstileToken, clientIp)).ok;
-      } else {
-        // Standard: selbst-gehostet – Honeypot muss leer sein UND Zeit-Token gueltig
-        botOk = !String(body.company || "").trim() && verifyFormToken(body.formToken);
       }
       if (!botOk) {
         sendJson(res, 400, { ok: false, error: "Bot-Schutz fehlgeschlagen. Bitte Bestätigung wiederholen." });
