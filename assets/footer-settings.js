@@ -788,7 +788,8 @@
     }
 
     if (brandNode) {
-      brandNode.textContent = `© 2026 ${brand}${locality ? ` — ${locality}` : ""}`;
+      // Standort bewusst NICHT anzeigen (Herkunft/Basis nicht plakativ machen)
+      brandNode.textContent = `© 2026 ${brand}`;
     }
     if (instagramLink) {
       instagramLink.href = settings.instagram || "https://www.instagram.com/blitzkneisser/";
