@@ -107,7 +107,8 @@ const buildCacheControl = (ext) => {
 const sendJson = (res, statusCode, data) => {
   res.writeHead(statusCode, {
     "Content-Type": "application/json; charset=utf-8",
-    "Cache-Control": "no-store"
+    "Cache-Control": "no-store",
+    "Access-Control-Allow-Origin": "*"
   });
   res.end(JSON.stringify(data));
 };
