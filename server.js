@@ -936,7 +936,7 @@ const server = http.createServer(async (req, res) => {
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>${isEn ? "Pricing Wedding Photographer Tyrol &amp; Dolomites | 2026/27" : "Preise Hochzeitsfotograf Tirol &amp; Dolomiten | 2026/27"}</title>
+<title>${isEn ? "Pricing | Dolomites Wedding &amp; Elopement Photographer | 2026/27" : "Preise | Dolomiten Hochzeits- &amp; Elopement-Fotograf | 2026/27"}</title>
 <meta name="description" content="${isEn ? "Pricing for wedding photography, elopements and wedding films in Tyrol, Innsbruck and the Dolomites 2026/27." : "Preise für Hochzeitsfotografie, Elopements und Hochzeitsfilme in Tirol, Innsbruck und den Dolomiten für 2026/27."}">
 <link rel="canonical" href="https://blitzkneisser.com/preisliste/26-27/">
 <link rel="alternate" hreflang="de-AT" href="https://blitzkneisser.com/preisliste/26-27/">
