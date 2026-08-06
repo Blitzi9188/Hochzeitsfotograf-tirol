@@ -428,6 +428,34 @@
       display: none;
     }
 
+    /* Animierte "Ich bin kein Roboter"-Checkbox (schwarze Outline) */
+    .checkbox-wrapper input[type="checkbox"] { display: none; }
+    .checkbox-wrapper .terms-label { cursor: pointer; display: inline-flex; align-items: center; }
+    .checkbox-wrapper .terms-label .label-text { margin-left: 10px; }
+    .checkbox-wrapper .checkbox-svg { width: 30px; height: 30px; flex-shrink: 0; }
+    .checkbox-wrapper .checkbox-box {
+      fill: rgba(207, 205, 205, 0.425);
+      stroke: #1B1A18;
+      stroke-width: 9;
+      stroke-dasharray: 800;
+      stroke-dashoffset: 800;
+      transition: stroke-dashoffset 0.6s ease-in;
+    }
+    .checkbox-wrapper .checkbox-tick {
+      fill: none;
+      stroke: #1B1A18;
+      stroke-width: 14;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-dasharray: 172;
+      stroke-dashoffset: 172;
+      transition: stroke-dashoffset 0.6s ease-in;
+    }
+    .checkbox-wrapper input[type="checkbox"]:checked + .terms-label .checkbox-box,
+    .checkbox-wrapper input[type="checkbox"]:checked + .terms-label .checkbox-tick {
+      stroke-dashoffset: 0;
+    }
+
     @media (max-width: 767px) {
       .mobile-menu-toggle {
         display: inline-flex;
@@ -1179,14 +1207,15 @@
               <span class="mb-3 block text-[10px] uppercase tracking-[0.22em] text-brand-muted" id="homeInquirySecurityLabel">Sicherheitscheck</span>
               <!-- Cloudflare Turnstile (aktiv, sobald TURNSTILE_SITEKEY gesetzt ist); sonst Rechenaufgabe unten -->
               <div id="homeInquiryTurnstile" style="display:none"></div>
-              <div id="homeInquiryHumanCheck" class="inline-flex items-center gap-3 border border-brand-border px-4 py-3">
-                <input
-                  id="homeInquiryHuman"
-                  type="checkbox"
-                  class="h-5 w-5 accent-black"
-                  aria-describedby="homeInquirySecurityError"
-                >
-                <label for="homeInquiryHuman" class="cursor-pointer select-none text-sm text-brand-text" id="homeInquiryHumanLabel" data-i18n="contact.human">Ich bin kein Roboter</label>
+              <div id="homeInquiryHumanCheck" class="checkbox-wrapper inline-flex items-center border border-brand-border px-4 py-3">
+                <input id="homeInquiryHuman" type="checkbox" aria-describedby="homeInquirySecurityError">
+                <label for="homeInquiryHuman" class="terms-label" id="homeInquiryHumanLabel">
+                  <svg class="checkbox-svg" viewBox="0 0 200 200" aria-hidden="true">
+                    <path class="checkbox-box" pathLength="800" d="M45 20 H155 A25 25 0 0 1 180 45 V155 A25 25 0 0 1 155 180 H45 A25 25 0 0 1 20 155 V45 A25 25 0 0 1 45 20 Z"/>
+                    <path class="checkbox-tick" pathLength="172" d="M58 104 L88 140 L146 62"/>
+                  </svg>
+                  <span class="label-text text-sm text-brand-text" data-i18n="contact.human">Ich bin kein Roboter</span>
+                </label>
               </div>
               <!-- Honeypot: fuer Menschen unsichtbar; Bots fuellen es aus -> serverseitig abgewiesen -->
               <input type="text" id="hp_company" name="company" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute!important;left:-9999px!important;top:-9999px!important;width:1px;height:1px;opacity:0;pointer-events:none">

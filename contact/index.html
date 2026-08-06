@@ -149,6 +149,34 @@
       min-height: 1.25rem;
     }
 
+    /* Animierte "Ich bin kein Roboter"-Checkbox (schwarze Outline) */
+    .checkbox-wrapper input[type="checkbox"] { display: none; }
+    .checkbox-wrapper .terms-label { cursor: pointer; display: inline-flex; align-items: center; }
+    .checkbox-wrapper .terms-label .label-text { margin-left: 10px; }
+    .checkbox-wrapper .checkbox-svg { width: 30px; height: 30px; flex-shrink: 0; }
+    .checkbox-wrapper .checkbox-box {
+      fill: rgba(207, 205, 205, 0.425);
+      stroke: #1B1A18;
+      stroke-width: 9;
+      stroke-dasharray: 800;
+      stroke-dashoffset: 800;
+      transition: stroke-dashoffset 0.6s ease-in;
+    }
+    .checkbox-wrapper .checkbox-tick {
+      fill: none;
+      stroke: #1B1A18;
+      stroke-width: 14;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-dasharray: 172;
+      stroke-dashoffset: 172;
+      transition: stroke-dashoffset 0.6s ease-in;
+    }
+    .checkbox-wrapper input[type="checkbox"]:checked + .terms-label .checkbox-box,
+    .checkbox-wrapper input[type="checkbox"]:checked + .terms-label .checkbox-tick {
+      stroke-dashoffset: 0;
+    }
+
     .honeypot-field {
       position: absolute;
       left: -9999px;
@@ -559,10 +587,16 @@
                   <div class="flex flex-col gap-4">
                     <div>
                       <label class="text-[10px] uppercase tracking-widest text-brand-muted block mb-3" id="captchaLabel">Sicherheitscheck</label>
-                      <label class="inline-flex items-center gap-3 border border-brand-border px-4 py-3 cursor-pointer select-none">
-                        <input type="checkbox" id="contactHuman" class="h-5 w-5 accent-black">
-                        <span class="text-sm text-brand-text" id="contactHumanLabel">Ich bin kein Roboter</span>
-                      </label>
+                      <span class="checkbox-wrapper inline-flex items-center border border-brand-border px-4 py-3">
+                        <input type="checkbox" id="contactHuman">
+                        <label for="contactHuman" class="terms-label">
+                          <svg class="checkbox-svg" viewBox="0 0 200 200" aria-hidden="true">
+                            <path class="checkbox-box" pathLength="800" d="M45 20 H155 A25 25 0 0 1 180 45 V155 A25 25 0 0 1 155 180 H45 A25 25 0 0 1 20 155 V45 A25 25 0 0 1 45 20 Z"/>
+                            <path class="checkbox-tick" pathLength="172" d="M58 104 L88 140 L146 62"/>
+                          </svg>
+                          <span class="label-text text-sm text-brand-text" id="contactHumanLabel">Ich bin kein Roboter</span>
+                        </label>
+                      </span>
                       <!-- alte Rechenaufgabe versteckt (IDs bleiben, damit vorhandenes JS nicht bricht) -->
                       <div class="captcha-visual" style="display:none">
                         <span id="captchaQuestion"></span>
