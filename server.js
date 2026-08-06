@@ -311,7 +311,7 @@ const isBlockedStaticPath = (absolutePath) => {
 // dem Volume. Sonst bedient der einmal geseedete Volume-Stand veraltete Dateien und
 // Git-Deploys werden nie sichtbar (Volume-Trap). Guides werden ausschliesslich per
 // Git gepflegt -> Repo ist die Quelle der Wahrheit.
-const REPO_FIRST_PREFIXES = ["/guides/"];
+const REPO_FIRST_PREFIXES = ["/guides/", "/content/guides/"];
 
 const getStaticCandidates = (pathname) => {
   const cleanPath = pathname === "/" ? "/index.html" : pathname;
@@ -766,7 +766,6 @@ const serveStatic = async (req, res, pathname) => {
 // 1) Alte URLs → neue Ziele (301 permanent)
 //    Ziele sind vorläufig; später durch eigene Seiten ersetzen und hier anpassen.
 const LEGACY_REDIRECTS = [
-  { from: "/hubschrauber-hochzeit",           to: "/hubschrauber-hochzeit-tirol/" },
   { from: "/stadel-hochzeit",                 to: "/experience/" },
   { from: "/helicopter-elopement-in-den-dolomiten", to: "/journal/" },
   // Alte WordPress-URLs (blitzkneisser.com) → neue Pfade (exakt, 301)
