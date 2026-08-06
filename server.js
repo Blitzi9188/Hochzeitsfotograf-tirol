@@ -311,7 +311,7 @@ const isBlockedStaticPath = (absolutePath) => {
 // dem Volume. Sonst bedient der einmal geseedete Volume-Stand veraltete Dateien und
 // Git-Deploys werden nie sichtbar (Volume-Trap). Guides werden ausschliesslich per
 // Git gepflegt -> Repo ist die Quelle der Wahrheit.
-const REPO_FIRST_PREFIXES = ["/guides/", "/content/guides/"];
+const REPO_FIRST_PREFIXES = ["/guides/", "/content/guides/", "/sitemap.xml", "/robots.txt"];
 
 const getStaticCandidates = (pathname) => {
   const cleanPath = pathname === "/" ? "/index.html" : pathname;
@@ -792,6 +792,14 @@ const PREFIX_REDIRECTS = [
   { prefix: "/shop/",             to: "/workshops-presets/" },
 ];
 
+// Endgueltig entfernte Seiten (gehoeren zu hochzeitsfotograf.tirol). 410 Gone auch
+// dann, wenn eine alte Kopie noch im Volume liegt (Deletion propagiert sonst nicht).
+const GONE_PATHS = new Set([
+  "/standesamt-hochzeit-innsbruck",
+  "/hubschrauber-hochzeit-tirol",
+  "/guides/best-places-officially-elope-tyrol",
+]);
+
 const server = http.createServer(async (req, res) => {
   const parsed = url.parse(req.url, true);
   const pathname = parsed.pathname || "/";
@@ -808,6 +816,13 @@ const server = http.createServer(async (req, res) => {
 
   // 3) Legacy-URL-Redirects (mit und ohne Trailing Slash, 301)
   const pathnameNorm = pathname.endsWith("/") ? pathname.slice(0, -1) : pathname;
+
+  // Entfernte Seiten -> 410 Gone (auch bei alter Volume-Kopie)
+  if (GONE_PATHS.has(pathnameNorm)) {
+    sendText(res, 410, "Gone");
+    return;
+  }
+
   for (const rule of LEGACY_REDIRECTS) {
     if (pathnameNorm === rule.from) {
       res.writeHead(301, { Location: rule.to });
