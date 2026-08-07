@@ -149,27 +149,45 @@
       min-height: 1.25rem;
     }
 
-    /* Neumorphismus-Button (Send Message) */
-    .neu-button {
-      background-color: #e0e0e0;
-      border-radius: 8px;
-      box-shadow: inset 4px 4px 10px #bcbcbc, inset -4px -4px 10px #ffffff;
-      color: #4d4d4d;
+    /* Send-Message-Button (gescopet als .msg-button, damit KEIN globaler button{}-Selektor
+       andere Buttons trifft). Pfeil erscheint beim Hover. */
+    .msg-button {
+      min-width: 190px;
+      height: 60px;
+      padding: 0 24px;
+      color: #fff;
+      background: #000;
+      font-size: 17px;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0px 0px 0 #000;
+      transition: 0.5s;
+      position: relative;
+      border: 2px solid #000;
       cursor: pointer;
-      font-size: 18px;
-      padding: 15px 40px;
-      transition: all 0.2s ease-in-out;
-      border: 2px solid rgb(206, 206, 206);
     }
-    .neu-button:hover {
-      box-shadow: inset 2px 2px 5px #bcbcbc, inset -2px -2px 5px #ffffff, 2px 2px 5px #bcbcbc, -2px -2px 5px #ffffff;
+    .msg-button:hover {
+      box-shadow: 8px 10px 0 #000;
+      background: transparent;
+      border: 2px solid #000;
+      color: #000;
+      margin-top: 5px;
     }
-    .neu-button:focus {
-      outline: none;
-      box-shadow: inset 2px 2px 5px #bcbcbc, inset -2px -2px 5px #ffffff, 2px 2px 5px #bcbcbc, -2px -2px 5px #ffffff;
+    .msg-button .msg-arrow {
+      margin-left: 10px;
+      width: 0;
+      overflow: hidden;
+      transition: 0.4s;
+      white-space: nowrap;
     }
-    .neu-button:disabled {
+    .msg-button:hover .msg-arrow {
+      width: 30px;
+    }
+    .msg-button:disabled {
       cursor: not-allowed;
+      opacity: 0.6;
     }
 
     /* Animierte "Ich bin kein Roboter"-Checkbox (schwarze Outline) */
@@ -643,7 +661,7 @@
               <div class="form-status text-center lg:text-left text-[10px] uppercase tracking-[0.22em] text-brand-muted" id="formStatus" aria-live="polite" style="margin-top:1.25rem"></div>
 
               <div class="flex justify-center lg:justify-start pt-2" style="margin-top:1.25rem">
-                <button class="neu-button" id="submitButton" type="button">Send Message</button>
+                <button class="msg-button" id="submitButton" type="button"><span class="msg-text">Send Message</span><span class="msg-arrow" aria-hidden="true">&rarr;</span></button>
               </div>
             </div>
           </div>
@@ -1330,7 +1348,8 @@
         if (contactHumanLabelNode) contactHumanLabelNode.textContent = t.human;
         document.getElementById("captchaAnswer").placeholder = t.captchaPlaceholder;
         document.getElementById("captchaRefresh").textContent = t.captchaRefresh;
-        document.getElementById("submitButton").textContent = lang === "en"
+        const submitLabelNode = document.querySelector("#submitButton .msg-text") || document.getElementById("submitButton");
+        submitLabelNode.textContent = lang === "en"
           ? (siteSettings.contactSubmitEn || t.submit)
           : (siteSettings.contactSubmitDe || t.submit);
         document.getElementById("reviewsEyebrow").textContent = t.reviewsEyebrow;
