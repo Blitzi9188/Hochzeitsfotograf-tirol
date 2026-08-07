@@ -149,6 +149,72 @@
       min-height: 1.25rem;
     }
 
+    /* Animierter Outline-Draw-Button (Send Message) – gescopet, damit andere Buttons unberuehrt bleiben */
+    .send-btn-box {
+      position: relative;
+      display: inline-block;
+      padding: 15px 34px;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: 900;
+      background: transparent;
+      transition: box-shadow .5s linear;
+    }
+    .send-btn-box:before {
+      position: absolute;
+      content: '';
+      left: 0;
+      bottom: 0;
+      height: 4px;
+      width: 100%;
+      border-bottom: 4px solid transparent;
+      border-left: 4px solid transparent;
+      box-sizing: border-box;
+      transform: translateX(100%);
+    }
+    .send-btn-box:after {
+      position: absolute;
+      content: '';
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 4px;
+      border-top: 4px solid transparent;
+      border-right: 4px solid transparent;
+      box-sizing: border-box;
+      transform: translateX(-100%);
+    }
+    .send-btn-box:hover {
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    }
+    .send-btn-box:hover:before {
+      border-color: #262626;
+      height: 100%;
+      transform: translateX(0);
+      transition: .3s transform linear, .3s height linear .3s;
+    }
+    .send-btn-box:hover:after {
+      border-color: #262626;
+      height: 100%;
+      transform: translateX(0);
+      transition: .3s transform linear, .3s height linear .5s;
+    }
+    .send-btn-box button {
+      color: #1B1A18;
+      text-decoration: none;
+      cursor: pointer;
+      outline: none;
+      border: none;
+      background: transparent;
+      text-transform: uppercase;
+      font-weight: 900;
+      letter-spacing: 0.3em;
+      font-size: 11px;
+    }
+    .send-btn-box button:disabled {
+      cursor: not-allowed;
+    }
+
     /* Animierte "Ich bin kein Roboter"-Checkbox (schwarze Outline) */
     .checkbox-wrapper input[type="checkbox"] { display: none; }
     .checkbox-wrapper .terms-label { cursor: pointer; display: inline-flex; align-items: center; }
@@ -620,9 +686,9 @@
               <div class="form-status text-center lg:text-left text-[10px] uppercase tracking-[0.22em] text-brand-muted" id="formStatus" aria-live="polite" style="margin-top:1.25rem"></div>
 
               <div class="flex justify-center lg:justify-start pt-2" style="margin-top:1.25rem">
-                <button class="px-16 py-5 bg-brand-text text-white text-[10px] uppercase tracking-[0.4em] hover:bg-brand-muted transition-all duration-500 hover:px-20" id="submitButton" type="button">
-                  Send Message
-                </button>
+                <span class="send-btn-box">
+                  <button id="submitButton" type="button">Send Message</button>
+                </span>
               </div>
             </div>
           </div>
