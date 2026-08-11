@@ -2,12 +2,6 @@
   "version": "0.0.1",
   "configurations": [
     {
-      "name": "hub",
-      "runtimeExecutable": "npx",
-      "runtimeArgs": ["vite", "/Users/blitzkneisser/Documents/Hochzeitsfotograf-Neu"],
-      "port": 5173
-    },
-    {
       "name": "homepage",
       "runtimeExecutable": "npm",
       "runtimeArgs": ["run", "dev"],
@@ -15,25 +9,11 @@
       "autoPort": true
     },
     {
-      "name": "photo-kiss",
-      "runtimeExecutable": "npm",
-      "runtimeArgs": ["run", "dev"],
-      "cwd": "../photo-kiss mit CMS/photo-kiss-claude-handoff",
-      "port": 3000
-    },
-    {
       "name": "elope-lake-braies",
       "runtimeExecutable": "npm",
       "runtimeArgs": ["run", "dev"],
       "cwd": "elope-lake-braies",
       "port": 4321
-    },
-    {
-      "name": "fotobox-tirol",
-      "runtimeExecutable": "npm",
-      "runtimeArgs": ["run", "dev"],
-      "cwd": "../../../Websites/fotobox-tirol",
-      "port": 3001
     },
     {
       "name": "dino-dorado",

@@ -27,3 +27,4 @@ github-preview/
 
 # Graphify Build-Artefakt (Knowledge-Graph, lokal generiert)
 graphify-out/
+.claude/*.graphify-bak
