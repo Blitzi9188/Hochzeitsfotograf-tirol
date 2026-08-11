@@ -1802,7 +1802,7 @@
         <article class="start-here-item" data-guide-tags="${item.tags.join("|")}">
           <a href="${withLang(item.href)}" class="start-here-card-link">
             <figure class="start-here-thumb">
-              <img src="${item.image}" alt="${item.alt}" loading="lazy" decoding="async">
+              <img src="${item.image}" alt="${item.alt}" decoding="async">
             </figure>
             <h2 class="text-[1.35rem] font-light leading-tight tracking-[-0.03em]">${item.title}</h2>
             <p class="body-copy max-w-[34ch]">${item.copy}</p>
@@ -1821,7 +1821,7 @@
         <article class="start-here-item" data-guide-tags="${item.tags.join("|")}">
           <a href="${withLang(item.href)}" class="guide-tile-link">
             <figure class="start-here-thumb">
-              <img src="${item.image}" alt="${item.alt}" loading="lazy" decoding="async">
+              <img src="${item.image}" alt="${item.alt}" decoding="async">
             </figure>
             <h2 class="text-[1.2rem] font-light leading-tight tracking-[-0.03em]">${item.title}</h2>
           </a>
@@ -1912,7 +1912,7 @@
         <article class="story-card">
           <a href="${withLang(item.href || "/journal/")}" class="story-card-link">
             <figure class="story-thumb aspect-[4/5]">
-              <img src="${item.image}" alt="${item.alt}" loading="lazy" decoding="async">
+              <img src="${item.image}" alt="${item.alt}" decoding="async">
             </figure>
             <div class="story-meta">
               <span>${item.location || ""}</span>
