@@ -1162,7 +1162,13 @@
       #contact input::placeholder,#contact textarea::placeholder{color:rgba(244,241,236,0.45) !important;}
       #contact a{color:#E6DED4 !important;}
       #contact a:hover{color:#FFFFFF !important;}
-      #contact button[type="submit"]:hover{background:#F4F1EC !important;color:#141311 !important;}
+      /* Send-Button im dunklen #contact-Bereich – gescopet als .msg-button (heller Button,
+         Hover -> transparent + Rahmen + Schatten-Versatz + einblendender Pfeil) */
+      #contact .msg-button{min-width:190px;height:60px;padding:0 24px;color:#141311;background:#F4F1EC;font-size:17px;display:flex;align-items:center;justify-content:center;box-shadow:0 0 0 #F4F1EC;transition:0.5s;position:relative;border:2px solid #F4F1EC;cursor:pointer;}
+      #contact .msg-button:hover{box-shadow:8px 10px 0 #F4F1EC;background:transparent;border:2px solid #F4F1EC;color:#F4F1EC;margin-top:5px;}
+      #contact .msg-button .msg-arrow{margin-left:10px;width:0;overflow:hidden;transition:0.4s;white-space:nowrap;}
+      #contact .msg-button:hover .msg-arrow{width:30px;}
+      #contact .msg-button:disabled{cursor:not-allowed;opacity:0.6;}
     </style>
     <section id="contact" class="defer-section bg-white border-t border-brand-border px-6 py-16 md:px-12 md:py-24">
       <div class="mx-auto grid max-w-[120rem] gap-12 md:grid-cols-12 md:gap-16">
@@ -1226,9 +1232,7 @@
                 Mit dem Absenden stimmt ihr der Verarbeitung eurer Daten für die Kontaktaufnahme zu.
               </p>
               <p id="homeInquiryStatus" class="w-full text-sm font-light leading-7 text-brand-text/70 md:max-w-xl" aria-live="polite"></p>
-              <button type="submit" class="border border-brand-text px-6 py-3 text-xs uppercase tracking-[0.22em] transition hover:bg-brand-text hover:text-white" data-i18n="contact.submit">
-                Anfrage senden
-              </button>
+              <button type="submit" class="msg-button"><span class="msg-text" data-i18n="contact.submit">Anfrage senden</span><span class="msg-arrow" aria-hidden="true">&rarr;</span></button>
             </div>
           </form>
         </div>
