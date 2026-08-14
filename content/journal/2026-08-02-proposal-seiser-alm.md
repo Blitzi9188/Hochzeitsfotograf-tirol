@@ -21,8 +21,8 @@ galleryIntroText: "Eine Überraschungsverlobung lebt vom richtigen Augenblick. I
 galleryIntroTextEn: "A surprise proposal lives on the right instant. I deliberately stay in the background until everything feels right – and only press the shutter when the moment is real. On the Alpe di Siusi it came in the last warm light of the day.\nAre you also looking for the perfect moment for your proposal? Then let's plan it together – the spot, the timing, the light. You focus entirely on the question, while I stay invisible and capture it all."
 galleryOutroHeading: "Plant ihr eine Überraschungsverlobung in den Bergen?"
 galleryOutroHeadingEn: "Are you planning a surprise proposal in the mountains?"
-galleryOutroText: "Ob Seiser Alm, Dolomiten oder Tiroler Berge – ich plane mit euch den richtigen Ort, das beste Licht und halte mich im entscheidenden Moment unsichtbar im Hintergrund. Erzählt mir von eurem Plan.\nwww.hochzeitsfotograf.tirol/contact/"
-galleryOutroTextEn: "Whether the Alpe di Siusi, the Dolomites or the Tyrolean mountains – I plan the right spot and the best light with you, and stay invisible in the background at the decisive moment. Tell me about your plan.\nwww.hochzeitsfotograf.tirol/contact/"
+galleryOutroText: "Ob Seiser Alm, Dolomiten oder Tiroler Berge – ich plane mit euch den richtigen Ort, das beste Licht und halte mich im entscheidenden Moment unsichtbar im Hintergrund. Erzählt mir von eurem Plan.\nblitzkneisser.com/contact/"
+galleryOutroTextEn: "Whether the Alpe di Siusi, the Dolomites or the Tyrolean mountains – I plan the right spot and the best light with you, and stay invisible in the background at the decisive moment. Tell me about your plan.\nblitzkneisser.com/contact/"
 showToc: false
 gallery:
   - image: /assets/uploads/Blitzkneisser-Seiser-Alm-Proposal-1.jpg
