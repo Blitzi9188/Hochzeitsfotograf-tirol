@@ -312,7 +312,7 @@ const isBlockedStaticPath = (absolutePath) => {
 // dem Volume. Sonst bedient der einmal geseedete Volume-Stand veraltete Dateien und
 // Git-Deploys werden nie sichtbar (Volume-Trap). Guides werden ausschliesslich per
 // Git gepflegt -> Repo ist die Quelle der Wahrheit.
-const REPO_FIRST_PREFIXES = ["/guides/", "/content/guides/", "/sitemap.xml", "/robots.txt"];
+const REPO_FIRST_PREFIXES = ["/guides/", "/content/guides/", "/sitemap.xml", "/robots.txt", "/content/about/"];
 
 const getStaticCandidates = (pathname) => {
   const cleanPath = pathname === "/" ? "/index.html" : pathname;

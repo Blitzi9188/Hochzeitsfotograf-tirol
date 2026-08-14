@@ -7,7 +7,7 @@
   "heroTitleEn": "About",
   "heroCopy": "Blitzkneisser Fotografie steht für ruhige Hochzeitsreportagen, feine Beobachtung und eine moderne, reduzierte Bildsprache in den Dolomiten und über die Grenzen Tirols hinaus.",
   "heroCopyEn": "Blitzkneisser Photography stands for calm wedding reports, fine observation and a modern, reduced imagery in the Dolomites and beyond the borders of Tyrol.",
-  "portraitImage": "/assets/uploads/About-Me-Ich.jpg",
+  "portraitImage": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-19.jpg",
   "portraitImages": [
     {
       "image": "/assets/uploads/IMG_9931.JPG"
@@ -25,8 +25,8 @@
       "image": "/assets/uploads/IMG_5540.jpg"
     }
   ],
-  "portraitAlt": "Portrait von Blitzkneisser Photography",
-  "portraitAltEn": "Portrait of Blitzkneisser Photography",
+  "portraitAlt": "Paar in den Dolomiten – Blitzkneisser Photography",
+  "portraitAltEn": "Couple in the Dolomites – Blitzkneisser Photography",
   "portraitRole": "Photographer",
   "portraitRoleEn": "Photographer",
   "storyTitle": "Mehr als Bilder",
@@ -85,7 +85,7 @@
   "ctaCopyEn": "If you are planning a wedding or an elopement in Tyrol, Innsbruck or the mountains, I would love to hear from you.",
   "ctaLinkLabel": "Zur Anfrage",
   "ctaLinkLabelEn": "Start your inquiry",
-  "ctaImage": "/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-19.jpg",
-  "ctaAlt": "Berglandschaft in den Alpen",
-  "ctaAltEn": "Mountain landscape in the Alps"
+  "ctaImage": "/assets/uploads/About-Me-Ich.jpg",
+  "ctaAlt": "Andreas Kiss – Blitzkneisser Photography",
+  "ctaAltEn": "Andreas Kiss – Blitzkneisser Photography"
 }
