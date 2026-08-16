@@ -113,9 +113,6 @@ gallery:
     alt: "Detail der Regenhochzeit am Pragser Wildsee – Elopement Fotograf Dolomiten"
     altEn: "Detail of the rainy wedding at Lago di Braies — elopement photographer Dolomites"
     link: ""
-  - image: /assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-24.jpg
-    alt: "Braut im Regen mit Blick auf den Bergsee – Elopement Dolomiten"
-    altEn: "Bride in the rain overlooking the mountain lake — elopement Dolomites"
     link: ""
   - image: /assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-25.jpg
     alt: "Brautpaar am Ruderboot des Pragser Wildsee – Hochzeitsfotograf Tirol"
