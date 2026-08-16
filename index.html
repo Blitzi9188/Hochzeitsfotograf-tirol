@@ -2142,9 +2142,14 @@
       }
 
       const { files = [] } = await listResponse.json();
+      // Only fetch the newest posts for the homepage "recent stories" section.
+      // Filenames are date-prefixed, so a descending sort surfaces the latest;
+      // we fetch a small buffer and re-sort by the real frontmatter date below.
+      const HOMEPAGE_JOURNAL_LIMIT = 9;
       const journalFiles = files
         .filter((file) => file.startsWith("content/journal/") && file.endsWith(".md"))
-        .sort();
+        .sort()
+        .slice(-HOMEPAGE_JOURNAL_LIMIT);
 
       const entries = await Promise.all(journalFiles.map(async (path) => {
         const response = await fetch(`/api/file?path=${encodeURIComponent(path)}&ts=${Date.now()}`, { cache: "no-store" });
