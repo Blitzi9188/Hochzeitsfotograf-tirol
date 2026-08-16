@@ -121,6 +121,30 @@ const sendText = (res, statusCode, message) => {
   res.end(message);
 };
 
+const sendHtml = (req, res, html) => {
+  if (req.method === "HEAD") {
+    res.writeHead(200, { "Content-Type": "text/html; charset=utf-8", "Cache-Control": "no-store" });
+    res.end("");
+    return;
+  }
+  const content = Buffer.from(html, "utf8");
+  const acceptEncoding = req.headers["accept-encoding"] || "";
+  if (acceptEncoding.includes("gzip")) {
+    zlib.gzip(content, (err, compressed) => {
+      if (err) {
+        res.writeHead(200, { "Content-Type": "text/html; charset=utf-8", "Cache-Control": "no-store" });
+        res.end(content);
+      } else {
+        res.writeHead(200, { "Content-Type": "text/html; charset=utf-8", "Cache-Control": "no-store", "Content-Encoding": "gzip", "Vary": "Accept-Encoding" });
+        res.end(compressed);
+      }
+    });
+  } else {
+    res.writeHead(200, { "Content-Type": "text/html; charset=utf-8", "Cache-Control": "no-store" });
+    res.end(content);
+  }
+};
+
 // CMS endpoints are admin-only. Check for a shared secret in X-Admin-Token header.
 const ADMIN_TOKEN = String(process.env.ADMIN_TOKEN || "").trim();
 const isLoopbackAddress = (addr) => {
@@ -364,11 +388,7 @@ const serveHomepage = async (req, res) => {
   );
   const injected = injectSeoHead(bootstrapped, "/");
 
-  res.writeHead(200, {
-    "Content-Type": "text/html; charset=utf-8",
-    "Cache-Control": "no-store"
-  });
-  res.end(req.method === "HEAD" ? "" : injected);
+  sendHtml(req, res, injected);
 };
 
 const listFilesRecursive = async (dir) => {
@@ -1064,8 +1084,7 @@ ${addonHtml}
 <script src="/assets/footer-settings.js"></script>
 </body></html>`;
 
-      res.writeHead(200, { "Content-Type": "text/html; charset=utf-8", "Cache-Control": "no-store" });
-      res.end(req.method === "HEAD" ? "" : html);
+      sendHtml(req, res, html);
       return;
     }
 
@@ -1085,11 +1104,7 @@ ${addonHtml}
       const data = parseFrontmatterData(frontmatter);
       const pageUrl = `${SITE_ORIGIN}/journal/${slug}/`;
       const html = injectSeoHead(renderJournalEntryHtml(templateHtml, data, body, pageUrl), `/journal/${slug}/`);
-      res.writeHead(200, {
-        "Content-Type": "text/html; charset=utf-8",
-        "Cache-Control": "no-store"
-      });
-      res.end(req.method === "HEAD" ? "" : html);
+      sendHtml(req, res, html);
       return;
     }
 
