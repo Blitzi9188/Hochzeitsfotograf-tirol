@@ -3,7 +3,7 @@ lang: de
 title: "Verregneter Morgen am See"
 titleEn: "A Rainy Morning at the Lake"
 author: Blitzkneisser
-date: "2026-06-10T09:00:00.000Z"
+date: "2026-08-16T09:00:00.000Z"
 readingTime: ""
 seoTitle: "Regen-Elopement am Pragser Wildsee – Hochzeitsfotograf Tirol"
 seoTitleEn: "Rainy Elopement at Lago di Braies – Dolomites"
