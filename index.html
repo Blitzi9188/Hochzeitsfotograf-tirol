@@ -1946,6 +1946,13 @@
       return merged;
     };
 
+    // Responsive AVIF/WebP/JPG variants that exist for mosaic pool images.
+    // Value = available widths (some originals are smaller than 1200px).
+    // Images not listed here fall back to their full-size original (still sharp,
+    // just not byte-optimised). Regenerate with build-responsive.js to extend.
+    const MOSAIC_VARIANT_WIDTHS = {"/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-Instagram-5.jpg":[400,800,1200],"/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-21-home.jpg":[400,800,1200],"/assets/uploads/Blitzkneisser-Dolomites-Elopement-INSTA-7-home.jpg":[400,800,1200],"/assets/uploads/Blitzkneisser-Dolomites-Proposel-INSTA-3.jpg":[400,800,1200],"/assets/uploads/Blitzkneisser-Eloepement-Dolomites-Sneak-Peak-7.jpg":[400,800,1200],"/assets/uploads/Blitzkneisser-Elopement-Cadini-Seceda-360-home.jpg":[400,800,1200],"/assets/uploads/Blitzkneisser-Elopement-Dolomites-120.jpg":[400,800,1200],"/assets/uploads/Blitzkneisser-Elopement-Dolomites-191.jpg":[400,800,1200],"/assets/uploads/Blitzkneisser-Elopement-Dolomites-233.jpg":[400,800,1200],"/assets/uploads/Blitzkneisser-Elopement-Dolomites-6.jpg":[400,800,1200],"/assets/uploads/Blitzkneisser-Elopement-Dolomites-Insta-8.jpg":[400,800],"/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-3.jpg":[400,800,1200],"/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-INSTAGRAM-16.jpg":[400,800,1200],"/assets/uploads/Blitzkneisser-Mountain-Elopement-Sunrise-Dolomites-208.jpg":[400,800,1200],"/assets/uploads/Blitzkneisser-Pizza-Elopement-Dolomits-2-home.jpg":[400,800,1200],"/assets/uploads/Blitzkneisser-Proposal-Dolomites-177-home.jpg":[400,800,1200],"/assets/uploads/Blitzkneisser-Proposal-Lago-di-Braies-81.jpg":[400,800,1200],"/assets/uploads/Blitzkneisser-Wedding-Photo-Nordkette-125.jpg":[400,800,1200],"/assets/uploads/Blitzkneisser-Winter-Wedding-Jufenalm-15.jpg":[400,800,1200]};
+    const MOSAIC_SIZES = "(max-width: 767px) 50vw, 33vw";
+
     const renderPortfolioMosaic = (lang, content, portfolioPageContent = {}) => {
       const slotCards = Array.from(document.querySelectorAll(".portfolio-mosaic-item[data-mosaic-slot]"));
       if (!slotCards.length) return;
@@ -1991,7 +1998,26 @@
       visibleSlots.forEach((imageNode, index) => {
         const item = selected[index];
         if (!item) return;
-        imageNode.src = item.image;
+        const pic = imageNode.closest("picture");
+        const widths = MOSAIC_VARIANT_WIDTHS[item.image];
+        if (widths && widths.length) {
+          const base = item.image.replace(/\.[^.]+$/, "");
+          const ss = (ext) => widths.map((w) => `${base}-${w}w.${ext} ${w}w`).join(", ");
+          if (pic) pic.querySelectorAll("source").forEach((sn) => {
+            const t = sn.getAttribute("type") || "";
+            sn.setAttribute("srcset", t.includes("avif") ? ss("avif") : ss("webp"));
+            sn.setAttribute("sizes", MOSAIC_SIZES);
+          });
+          imageNode.srcset = ss("jpg");
+          imageNode.setAttribute("sizes", MOSAIC_SIZES);
+          imageNode.src = `${base}-${widths[widths.length - 1]}w.jpg`;
+        } else {
+          // No variants for this image -> use the full-size original, and clear
+          // the static picture's stale sources so the original is shown.
+          if (pic) pic.querySelectorAll("source").forEach((sn) => sn.removeAttribute("srcset"));
+          imageNode.removeAttribute("srcset");
+          imageNode.src = item.image;
+        }
         imageNode.alt = lang === "en"
           ? (item.altEn || item.alt || `Portfolio image ${index + 1}`)
           : (item.alt || item.altEn || `Portfolio Bild ${index + 1}`);
