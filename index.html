@@ -2318,7 +2318,9 @@
         const useVariants = !!(chosenHeroImage && chosenHeroImage.image === heroImage && /\.jpe?g$/i.test(heroImage));
         if (useVariants && heroPic) {
           const heroBase = heroImage.replace(/\.[^.]+$/, "");
-          const ssFor = (ext) => `${heroBase}-800w.${ext} 800w, ${heroBase}-1200w.${ext} 1200w, ${heroBase}-2000w.${ext} 2000w`;
+          // Hero originals are 1800px wide, so only 800w/1200w variants exist for
+          // every image (no 2000w) — referencing 2000w would 404 on large screens.
+          const ssFor = (ext) => `${heroBase}-800w.${ext} 800w, ${heroBase}-1200w.${ext} 1200w`;
           heroPic.querySelectorAll("source").forEach((sn) => {
             const t = sn.getAttribute("type") || "";
             sn.setAttribute("srcset", t.includes("avif") ? ssFor("avif") : t.includes("webp") ? ssFor("webp") : ssFor("jpg"));
