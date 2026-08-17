@@ -911,11 +911,6 @@
       <div class="mb-0 hero-image-wrap">
         <picture>
           <source
-            type="image/avif"
-            srcset="/assets/uploads/Blitzkneisser-Mountain-Elopement-Sunrise-Dolomites-208-800w.avif 800w, /assets/uploads/Blitzkneisser-Mountain-Elopement-Sunrise-Dolomites-208-1200w.avif 1200w, /assets/uploads/Blitzkneisser-Mountain-Elopement-Sunrise-Dolomites-208-2000w.avif 2000w"
-            sizes="100vw"
-          >
-          <source
             type="image/webp"
             srcset="/assets/uploads/Blitzkneisser-Mountain-Elopement-Sunrise-Dolomites-208-800w.webp 800w, /assets/uploads/Blitzkneisser-Mountain-Elopement-Sunrise-Dolomites-208-1200w.webp 1200w, /assets/uploads/Blitzkneisser-Mountain-Elopement-Sunrise-Dolomites-208-2000w.webp 2000w"
             sizes="100vw"
@@ -2312,30 +2307,8 @@
       window.__selectedHeroImagePath = heroImage;
       if (heroMainImage) {
         const heroPic = heroMainImage.closest("picture");
-        // Responsive AVIF/WebP/JPG variants (-800w/-1200w/-2000w) exist for all
-        // CMS hero images. Derive the srcsets from the chosen image's basename so
-        // the browser loads a ~100KB AVIF instead of the ~380KB original JPG.
-        const useVariants = !!(chosenHeroImage && chosenHeroImage.image === heroImage && /\.jpe?g$/i.test(heroImage));
-        if (useVariants && heroPic) {
-          const heroBase = heroImage.replace(/\.[^.]+$/, "");
-          // Hero originals are 1800px wide, so only 800w/1200w variants exist for
-          // every image (no 2000w) — referencing 2000w would 404 on large screens.
-          const ssFor = (ext) => `${heroBase}-800w.${ext} 800w, ${heroBase}-1200w.${ext} 1200w`;
-          heroPic.querySelectorAll("source").forEach((sn) => {
-            const t = sn.getAttribute("type") || "";
-            sn.setAttribute("srcset", t.includes("avif") ? ssFor("avif") : t.includes("webp") ? ssFor("webp") : ssFor("jpg"));
-          });
-          // Safety net: if a variant is unexpectedly missing, fall back to the original once.
-          heroMainImage.onerror = () => {
-            heroMainImage.onerror = null;
-            if (heroPic) heroPic.querySelectorAll("source").forEach((sn) => sn.removeAttribute("srcset"));
-            heroMainImage.src = heroImage;
-          };
-          heroMainImage.src = `${heroBase}-1200w.jpg`;
-        } else {
-          if (heroPic) heroPic.querySelectorAll("source").forEach((sn) => sn.removeAttribute("srcset"));
-          heroMainImage.src = heroImage;
-        }
+        if (heroPic) heroPic.querySelectorAll("source").forEach((sn) => sn.removeAttribute("srcset"));
+        heroMainImage.src = heroImage;
         heroMainImage.alt = heroAlt;
       }
       if (metaOgImage) {
