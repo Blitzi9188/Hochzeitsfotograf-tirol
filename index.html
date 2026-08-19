@@ -2122,6 +2122,29 @@
       }).format(date);
     };
 
+    // Responsive AVIF/WebP/JPG variants for journal card featured images.
+    // Cards render small (aspect 4/5), so 400/800/1200w stay perfectly sharp.
+    // Images not listed fall back to their full-size original. Regenerate with
+    // build-responsive.js when new posts appear at the top of the journal.
+    const JOURNAL_VARIANT_WIDTHS = {"/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-2.jpg":[400,800,1200],"/assets/uploads/Blitzkneisser-Dolomites-Elopement-Wedding-167.jpg":[400,800,1200],"/assets/uploads/Blitzkneisser-Dolomites-Ski-Wedding-44.jpg":[400,800,1200],"/assets/uploads/Blitzkneisser-Heli-Elopement-Brixen-Dolomites-10.jpg":[400,800,1200],"/assets/uploads/Blitzkneisser-Lago-Heli-Mountain-Elopement-23.jpg":[400,800,1200],"/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-1.jpg":[400,800,1200],"/assets/uploads/Blitzkneisser-Proposal-Dolomites-36-scaled.jpg":[400,800,1200],"/assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-24.jpg":[400,800,1200],"/assets/uploads/Blitzkneisser-Seiser-Alm-Proposal-37.jpg":[400,800,1200]};
+    const JOURNAL_CARD_SIZES = "(max-width: 767px) 80vw, (max-width: 1279px) 45vw, 30vw";
+
+    const journalCardImageHtml = (entry) => {
+      const pinDesc = `${(entry.alt || entry.titleEn || entry.title || '').replace(/"/g, '&quot;')}. ${entry.titleEn ? entry.titleEn + '. ' : ''}Dolomites mountain elopement photography by Blitzkneisser.`;
+      const imgAttrs = `alt="${entry.alt}" class="h-full w-full object-cover" loading="lazy" data-pin-description="${pinDesc}" data-pin-url="${entry.url}"`;
+      const widths = JOURNAL_VARIANT_WIDTHS[entry.image];
+      if (widths && widths.length) {
+        const base = entry.image.replace(/\.[^.]+$/, "");
+        const ss = (ext) => widths.map((w) => `${base}-${w}w.${ext} ${w}w`).join(", ");
+        return `<picture>
+                <source type="image/avif" srcset="${ss('avif')}" sizes="${JOURNAL_CARD_SIZES}">
+                <source type="image/webp" srcset="${ss('webp')}" sizes="${JOURNAL_CARD_SIZES}">
+                <img src="${base}-${widths[widths.length - 1]}w.jpg" srcset="${ss('jpg')}" sizes="${JOURNAL_CARD_SIZES}" ${imgAttrs}>
+              </picture>`;
+      }
+      return `<img src="${entry.image}" ${imgAttrs}>`;
+    };
+
     const renderJournalCards = (lang, entries) => {
       const container = document.getElementById("journalCards");
       if (!container) return;
@@ -2141,14 +2164,7 @@
         <article class="journal-slide scroll-fade is-visible" data-no-pin>
           <a href="${entry.url}" class="journal-card" data-no-pin>
             <div class="image-hover-container aspect-[4/5]" data-no-pin>
-              <img
-                src="${entry.image}"
-                alt="${entry.alt}"
-                class="h-full w-full object-cover"
-                loading="lazy"
-                data-pin-description="${(entry.alt || entry.titleEn || entry.title || '').replace(/"/g, '&quot;')}. ${entry.titleEn ? entry.titleEn + '. ' : ''}Dolomites mountain elopement photography by Blitzkneisser."
-                data-pin-url="${entry.url}"
-              >
+              ${journalCardImageHtml(entry)}
             </div>
             <div class="mt-6 flex items-center justify-between gap-4 text-[10px] uppercase tracking-[0.24em] text-brand-muted">
               <span>${entry.metaLabel}</span>
