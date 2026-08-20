@@ -167,6 +167,32 @@ const requireAdminToken = (req, res) => {
   return false;
 };
 
+// Client-IP (hinter Railway-Proxy steht die echte IP im X-Forwarded-For).
+const clientIpOf = (req) =>
+  String(req.headers["x-forwarded-for"] || (req.socket && req.socket.remoteAddress) || "")
+    .split(",")[0].trim();
+
+// Einfaches In-Memory-Rate-Limit pro Schluessel (best effort, Single-Instance).
+const rateBuckets = new Map();
+const rateLimitOk = (key, limit, windowMs) => {
+  const now = Date.now();
+  const hits = (rateBuckets.get(key) || []).filter((t) => now - t < windowMs);
+  if (hits.length >= limit) { rateBuckets.set(key, hits); return false; }
+  hits.push(now);
+  rateBuckets.set(key, hits);
+  if (rateBuckets.size > 5000) { // Notbremse gegen unbegrenztes Wachstum
+    for (const [k, v] of rateBuckets) { if (!v.length || now - v[v.length - 1] > windowMs) rateBuckets.delete(k); }
+  }
+  return true;
+};
+
+// fetch mit hartem Timeout (verhindert haengende Upstream-Requests / DoS).
+const fetchWithTimeout = (resource, options = {}, timeoutMs = 8000) => {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), timeoutMs);
+  return fetch(resource, { ...options, signal: controller.signal }).finally(() => clearTimeout(timer));
+};
+
 const pathExists = async (targetPath) => {
   try {
     await fsp.access(targetPath);
@@ -282,13 +308,13 @@ const fetchInstagramPosts = async (username, count = 3) => {
   const cleanUsername = getInstagramUsername(username);
   if (!cleanUsername) return [];
 
-  const response = await fetch(`https://www.instagram.com/api/v1/users/web_profile_info/?username=${encodeURIComponent(cleanUsername)}`, {
+  const response = await fetchWithTimeout(`https://www.instagram.com/api/v1/users/web_profile_info/?username=${encodeURIComponent(cleanUsername)}`, {
     headers: {
       "User-Agent": "Mozilla/5.0",
       "X-IG-App-ID": "936619743392459",
       "Referer": `https://www.instagram.com/${cleanUsername}/`
     }
-  });
+  }, 8000);
 
   if (!response.ok) {
     throw new Error(`Instagram request failed: ${response.status}`);
@@ -825,6 +851,15 @@ const server = http.createServer(async (req, res) => {
   const parsed = url.parse(req.url, true);
   const pathname = parsed.pathname || "/";
 
+  // Security-Header fuer ALLE Antworten (statisch + API + Redirects).
+  // CSP bewusst (noch) NICHT gesetzt -> kommt separat als Report-Only, um
+  // Inline-Scripts / Instagram / Stripe / Google Fonts nicht zu brechen.
+  res.setHeader("X-Content-Type-Options", "nosniff");
+  res.setHeader("X-Frame-Options", "DENY");
+  res.setHeader("Referrer-Policy", "strict-origin-when-cross-origin");
+  res.setHeader("Permissions-Policy", "camera=(), microphone=(), geolocation=(), browsing-topics=()");
+  res.setHeader("Strict-Transport-Security", "max-age=31536000");
+
   // 2) www → ohne www (301)
   const reqHost = req.headers["host"] || "";
   if (reqHost.startsWith("www.")) {
@@ -1114,6 +1149,10 @@ ${addonHtml}
     }
 
     if (req.method === "POST" && pathname === "/api/contact") {
+      if (!rateLimitOk(`contact:${clientIpOf(req)}`, 5, 60 * 60 * 1000)) {
+        sendJson(res, 429, { ok: false, error: "Zu viele Anfragen. Bitte versuche es später erneut." });
+        return;
+      }
       const body = JSON.parse(await readBody(req));
       const clientIp = req.headers["x-forwarded-for"] || (req.socket && req.socket.remoteAddress) || "";
       // Bot-Schutz: gueltig ist ENTWEDER die selbst-gehostete Pruefung (Honeypot leer +
@@ -1305,6 +1344,10 @@ ${addonHtml}
     }
 
     if (req.method === "GET" && pathname === "/api/instagram-posts") {
+      if (!rateLimitOk(`ig:${clientIpOf(req)}`, 60, 60 * 1000)) {
+        sendText(res, 429, "Too Many Requests");
+        return;
+      }
       const username = String(parsed.query.username || "");
       const count = Number(parsed.query.count || 3);
       const posts = await fetchInstagramPosts(username, count);
@@ -1313,6 +1356,10 @@ ${addonHtml}
     }
 
     if (req.method === "GET" && pathname === "/api/instagram-image") {
+      if (!rateLimitOk(`ig:${clientIpOf(req)}`, 120, 60 * 1000)) {
+        sendText(res, 429, "Too Many Requests");
+        return;
+      }
       const remoteUrl = String(parsed.query.url || "");
       if (!remoteUrl) {
         sendText(res, 400, "Missing url");
@@ -1332,12 +1379,12 @@ ${addonHtml}
         return;
       }
 
-      const imageResponse = await fetch(parsedUrl.toString(), {
+      const imageResponse = await fetchWithTimeout(parsedUrl.toString(), {
         headers: {
           "User-Agent": "Mozilla/5.0",
           "Referer": "https://www.instagram.com/"
         }
-      });
+      }, 8000);
 
       if (!imageResponse.ok) {
         sendText(res, imageResponse.status, "Instagram image request failed");
