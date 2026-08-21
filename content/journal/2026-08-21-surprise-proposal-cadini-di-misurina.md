@@ -1,7 +1,7 @@
 ---
 lang: de
-title: "Die Frage am Cadini di Misurina"
-titleEn: "The Question at Cadini di Misurina"
+title: "Ein Überraschungsantrag mitten in den Dolomiten"
+titleEn: "A Surprise Proposal in the Heart of the Dolomites"
 author: Blitzkneisser
 date: "2026-08-21T09:00:00.000Z"
 readingTime: ""

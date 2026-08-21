@@ -802,8 +802,9 @@
     // Responsive AVIF/WebP/JPG-Varianten fuer Beitragsbilder mit vorhandenen
     // Groessen. Nur gelistete Bilder werden optimiert; alle anderen (aeltere
     // Beitraege) fallen unveraendert auf ihr Original zurueck -> keine Regression.
-    const POST_VARIANT_WIDTHS = {"/assets/uploads/Blitzkneisser-Cadini-Proposal-1.jpg":[480,960,1440],"/assets/uploads/Blitzkneisser-Cadini-Proposal-4.jpg":[480,960,1440],"/assets/uploads/Blitzkneisser-Cadini-Proposal-7.jpg":[480,960,1440],"/assets/uploads/Blitzkneisser-Cadini-Proposal-9.jpg":[480,960,1440],"/assets/uploads/Blitzkneisser-Cadini-Proposal-12.jpg":[480,960,1440],"/assets/uploads/Blitzkneisser-Cadini-Proposal-19.jpg":[480,960,1440],"/assets/uploads/Blitzkneisser-Cadini-Proposal-21.jpg":[480,960,1440],"/assets/uploads/Blitzkneisser-Cadini-Proposal-25.jpg":[480,960,1440],"/assets/uploads/Blitzkneisser-Cadini-Proposal-28.jpg":[480,960,1440],"/assets/uploads/Blitzkneisser-Cadini-Proposal-34.jpg":[480,960,1440],"/assets/uploads/Blitzkneisser-Cadini-Proposal-45.jpg":[480,960,1440],"/assets/uploads/Blitzkneisser-Cadini-Proposal-50.jpg":[480,960,1440],"/assets/uploads/Blitzkneisser-Cadini-Proposal-52.jpg":[480,960,1440],"/assets/uploads/Blitzkneisser-Cadini-Proposal-54.jpg":[480,960,1440,2048],"/assets/uploads/Blitzkneisser-Cadini-Proposal-80.jpg":[480,960,1440],"/assets/uploads/Blitzkneisser-Cadini-Proposal-87.jpg":[480,960,1440],"/assets/uploads/Blitzkneisser-Cadini-Proposal-92.jpg":[480,960,1440],"/assets/uploads/Blitzkneisser-Cadini-Proposal-106.jpg":[480,960,1440],"/assets/uploads/Blitzkneisser-Cadini-Proposal-108.jpg":[480,960,1440],"/assets/uploads/Blitzkneisser-Cadini-Proposal-123.jpg":[480,960,1440],"/assets/uploads/Blitzkneisser-Cadini-Proposal-131.jpg":[480,960,1440],"/assets/uploads/Blitzkneisser-Cadini-Proposal-134.jpg":[480,960,1440],"/assets/uploads/Blitzkneisser-Cadini-Proposal-154.jpg":[480,960,1440]};
-    const POST_GALLERY_SIZES = "(max-width: 767px) 92vw, (max-width: 1023px) 60vw, 560px";
+    const POST_VARIANT_WIDTHS = {"/assets/uploads/Blitzkneisser-Cadini-Proposal-1.jpg":[480,960,1440,1920],"/assets/uploads/Blitzkneisser-Cadini-Proposal-4.jpg":[480,960,1440,1920],"/assets/uploads/Blitzkneisser-Cadini-Proposal-7.jpg":[480,960,1440,1920],"/assets/uploads/Blitzkneisser-Cadini-Proposal-9.jpg":[480,960,1440,1920],"/assets/uploads/Blitzkneisser-Cadini-Proposal-12.jpg":[480,960,1440,1920],"/assets/uploads/Blitzkneisser-Cadini-Proposal-19.jpg":[480,960,1440,1920],"/assets/uploads/Blitzkneisser-Cadini-Proposal-21.jpg":[480,960,1440,1920],"/assets/uploads/Blitzkneisser-Cadini-Proposal-25.jpg":[480,960,1440,1920],"/assets/uploads/Blitzkneisser-Cadini-Proposal-28.jpg":[480,960,1440,1920],"/assets/uploads/Blitzkneisser-Cadini-Proposal-34.jpg":[480,960,1440,1920],"/assets/uploads/Blitzkneisser-Cadini-Proposal-45.jpg":[480,960,1440,1920],"/assets/uploads/Blitzkneisser-Cadini-Proposal-50.jpg":[480,960,1440,1920],"/assets/uploads/Blitzkneisser-Cadini-Proposal-52.jpg":[480,960,1440,1920],"/assets/uploads/Blitzkneisser-Cadini-Proposal-54.jpg":[480,960,1440,1920,2560],"/assets/uploads/Blitzkneisser-Cadini-Proposal-80.jpg":[480,960,1440,1920],"/assets/uploads/Blitzkneisser-Cadini-Proposal-87.jpg":[480,960,1440,1920],"/assets/uploads/Blitzkneisser-Cadini-Proposal-92.jpg":[480,960,1440,1920],"/assets/uploads/Blitzkneisser-Cadini-Proposal-106.jpg":[480,960,1440,1920],"/assets/uploads/Blitzkneisser-Cadini-Proposal-108.jpg":[480,960,1440,1920],"/assets/uploads/Blitzkneisser-Cadini-Proposal-123.jpg":[480,960,1440,1920],"/assets/uploads/Blitzkneisser-Cadini-Proposal-131.jpg":[480,960,1440,1920],"/assets/uploads/Blitzkneisser-Cadini-Proposal-134.jpg":[480,960,1440,1920],"/assets/uploads/Blitzkneisser-Cadini-Proposal-154.jpg":[480,960,1440,1920]};
+    const POST_GALLERY_SIZES_LARGE = "(max-width: 767px) 92vw, 62vw";
+    const POST_GALLERY_SIZES_SMALL = "(max-width: 767px) 46vw, 31vw";
     const buildVariantSrcsets = (imagePath, widths) => {
       const b = imagePath.replace(/\.[^.]+$/, "");
       const ss = (ext) => widths.map((w) => `${b}-${w}w.${ext} ${w}w`).join(", ");
@@ -812,7 +813,7 @@
 
     const renderGalleryChunk = (chunk, chunkIndex) => {
       if (!Array.isArray(chunk) || !chunk.length) return "";
-      const renderImage = (item) => {
+      const renderImage = (item, sizes = POST_GALLERY_SIZES_LARGE) => {
         const imageAlt = currentLang === "en"
           ? (item.altEn || item.alt || "Gallery image")
           : (item.alt || item.altEn || "Galeriebild");
@@ -833,9 +834,9 @@
         if (gWidths && gWidths.length) {
           const v = buildVariantSrcsets(item.image, gWidths);
           imageMarkup = `<picture>`
-            + `<source type="image/avif" srcset="${v.avif}" sizes="${POST_GALLERY_SIZES}">`
-            + `<source type="image/webp" srcset="${v.webp}" sizes="${POST_GALLERY_SIZES}">`
-            + `<img src="${v.fallback}" srcset="${v.jpg}" sizes="${POST_GALLERY_SIZES}" alt="${imageAlt}" class="w-full h-full object-cover" loading="lazy" decoding="async" ${pinAttrs}>`
+            + `<source type="image/avif" srcset="${v.avif}" sizes="${sizes}">`
+            + `<source type="image/webp" srcset="${v.webp}" sizes="${sizes}">`
+            + `<img src="${v.fallback}" srcset="${v.jpg}" sizes="${sizes}" alt="${imageAlt}" class="w-full h-full object-cover" loading="lazy" decoding="async" ${pinAttrs}>`
             + `</picture>`;
         } else {
           imageMarkup = `<img src="${item.image}" alt="${imageAlt}" class="w-full h-full object-cover" loading="lazy" decoding="async" ${pinAttrs}>`;
@@ -861,14 +862,14 @@
           ${second ? `
             <div class="col-span-6 md:col-span-4 gallery-frame">
               <div class="aspect-[4/5] image-hover-container">
-                ${renderImage(second)}
+                ${renderImage(second, POST_GALLERY_SIZES_SMALL)}
               </div>
             </div>
           ` : ""}
           ${third ? `
             <div class="col-span-6 md:col-span-4 gallery-frame">
               <div class="aspect-[4/5] image-hover-container">
-                ${renderImage(third)}
+                ${renderImage(third, POST_GALLERY_SIZES_SMALL)}
               </div>
             </div>
           ` : ""}
