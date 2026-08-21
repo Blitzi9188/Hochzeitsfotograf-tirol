@@ -164,9 +164,9 @@
       const style = document.createElement("style");
       style.id = "navAutoHideStyle";
       // 'top' statt 'transform': auf manchen Seiten ist transform am Nav blockiert.
+      // Gesteuert wird per Inline-Style (Klassenregel wurde ueberschrieben).
       style.textContent = `
         #mainNav { transition: top 0.35s ease, background 0.3s ease, border-color 0.3s ease; will-change: top; }
-        #mainNav.nav-hidden { top: -160px !important; }
       `;
       document.head.appendChild(style);
     }
@@ -180,14 +180,14 @@
       if (Math.abs(y - lastY) < MIN_DELTA) return;
       // Mobile-Menü offen -> Nav immer sichtbar lassen
       if (nav.classList.contains("is-open")) {
-        nav.classList.remove("nav-hidden");
+        nav.style.top = "";
         lastY = y;
         return;
       }
       if (y > lastY && y > HIDE_AFTER) {
-        nav.classList.add("nav-hidden");    // runter -> ausblenden
+        nav.style.top = "-160px";  // runter -> ausblenden
       } else {
-        nav.classList.remove("nav-hidden"); // hoch -> einblenden
+        nav.style.top = "";        // hoch -> einblenden (zurueck zu CSS top:0)
       }
       lastY = y;
     };
