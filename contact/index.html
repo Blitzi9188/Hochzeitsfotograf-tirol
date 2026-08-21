@@ -604,13 +604,6 @@
                     <label class="text-[10px] uppercase tracking-widest text-brand-muted" id="labelLocation">Location</label>
                     <input type="text" class="py-3 text-lg font-light" id="placeholderLocation" placeholder="Tyrol, Dolomites, Alps">
                   </div>
-                </div>
-
-                <div class="space-y-10">
-                  <div class="flex flex-col gap-2">
-                    <label class="text-[10px] uppercase tracking-widest text-brand-muted" id="labelMessage">Message *</label>
-                    <textarea rows="11" class="py-3 text-lg font-light resize-none min-h-[22rem]" id="placeholderMessage" placeholder="Share your plans..." required aria-required="true"></textarea>
-                  </div>
                   <div class="flex flex-col gap-2">
                     <label class="text-[10px] uppercase tracking-widest text-brand-muted" id="labelReferral">Wie habt ihr mich gefunden?</label>
                     <select class="py-3 text-lg font-light bg-transparent" id="referralSelect">
@@ -621,6 +614,13 @@
                       <option value="Google">Google</option>
                       <option value="KI Suche">KI Suche</option>
                     </select>
+                  </div>
+                </div>
+
+                <div class="space-y-10">
+                  <div class="flex flex-col gap-2">
+                    <label class="text-[10px] uppercase tracking-widest text-brand-muted" id="labelMessage">Message *</label>
+                    <textarea rows="11" class="py-3 text-lg font-light resize-none min-h-[22rem]" id="placeholderMessage" placeholder="Share your plans..." required aria-required="true"></textarea>
                   </div>
                 </div>
               </div>
@@ -1451,7 +1451,7 @@
       buildCaptcha();
     });
   </script>
-  <script src="/assets/footer-settings.js?v=7"></script>
+  <script src="/assets/footer-settings.js?v=8"></script>
   <script src="/assets/pinterest-pin.js?v=3"></script>
 </body>
 </html>

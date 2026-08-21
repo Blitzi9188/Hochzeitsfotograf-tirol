@@ -156,6 +156,48 @@
     updateVisibility();
   };
 
+  // Nav beim Runterscrollen ausblenden, beim Hochscrollen wieder einblenden.
+  const setupNavAutoHide = () => {
+    const nav = document.getElementById("mainNav");
+    if (!nav) return;
+    if (!document.getElementById("navAutoHideStyle")) {
+      const style = document.createElement("style");
+      style.id = "navAutoHideStyle";
+      style.textContent = `
+        #mainNav { transition: transform 0.35s ease; will-change: transform; }
+        #mainNav.nav-hidden { transform: translateY(-100%); }
+      `;
+      document.head.appendChild(style);
+    }
+    let lastY = window.scrollY;
+    let ticking = false;
+    const HIDE_AFTER = 120; // erst ab dieser Scrolltiefe ausblenden
+    const MIN_DELTA = 6;    // Mindest-Scrollweg gegen Zittern
+    const onScroll = () => {
+      ticking = false;
+      const y = window.scrollY;
+      if (Math.abs(y - lastY) < MIN_DELTA) return;
+      // Mobile-Menü offen -> Nav immer sichtbar lassen
+      if (nav.classList.contains("is-open")) {
+        nav.classList.remove("nav-hidden");
+        lastY = y;
+        return;
+      }
+      if (y > lastY && y > HIDE_AFTER) {
+        nav.classList.add("nav-hidden");    // runter -> ausblenden
+      } else {
+        nav.classList.remove("nav-hidden"); // hoch -> einblenden
+      }
+      lastY = y;
+    };
+    window.addEventListener("scroll", () => {
+      if (!ticking) {
+        ticking = true;
+        window.requestAnimationFrame(onScroll);
+      }
+    }, { passive: true });
+  };
+
   const ensureMobileLangToggleStyles = () => {
     const styleId = "mobile-lang-toggle-global-style";
     if (document.getElementById(styleId)) return;
@@ -856,6 +898,7 @@
 
   document.addEventListener("DOMContentLoaded", async () => {
     ensureMobileBackToTop();
+    setupNavAutoHide();
     ensureMobileLangToggleStyles();
 
     let settings = {};
