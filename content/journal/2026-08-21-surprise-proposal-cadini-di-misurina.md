@@ -21,8 +21,8 @@ galleryIntroText: "Manchmal braucht es gar keine komplizierte Tarnung.\nIch war 
 galleryIntroTextEn: "Sometimes you don't need any elaborate disguise at all.\nI was simply out as a photographer and asked the two of them whether I should take a photo of them on their phone – after all, they only had selfies of themselves.\nKim had no idea what was about to happen in the next few seconds.\nAs she stepped into place for the photo, Conner suddenly dropped to his knees and asked her the biggest question of all. I got to capture that one completely unstaged moment – her reaction, his nerves, and finally her yes.\nAfter that, the tension was gone. We took our time for a relaxed session along the ridge, with the Dolomites and the Tre Cime in the background.\nThat is exactly what I love about surprise proposals: you don't have to stage the moment. You just have to make sure it can happen.\nAnd if you are planning a proposal in the mountains yourself: above 2,000 metres it can be cool and windy even in summer, so a warm jacket definitely belongs in your bag. The scenery takes care of the rest.\nLINK: proposalguide"
 galleryOutroHeading: "Plant ihr euren Antrag in den Dolomiten?"
 galleryOutroHeadingEn: "Thinking about proposing in the Dolomites?"
-galleryOutroText: "Erzählt mir von eurem Plan und eurem Datum – ich helfe euch, die Überraschung gelingen zu lassen, und bin unbemerkt da für den Moment, in dem sie Ja sagt.\nblitzkneisser.com/contact/"
-galleryOutroTextEn: "Tell me your plan and your date – I'll help you pull off the surprise and be there, unnoticed, for the moment she says yes.\nblitzkneisser.com/contact/"
+galleryOutroText: "Erzählt mir von eurem Plan und eurem Datum – ich helfe euch, die Überraschung gelingen zu lassen, und bin unbemerkt da für den Moment, in dem sie Ja sagt.\nLINK: contact"
+galleryOutroTextEn: "Tell me your plan and your date – I'll help you pull off the surprise and be there, unnoticed, for the moment she says yes.\nLINK: contact"
 showToc: false
 gallery:
   - image: /assets/uploads/Blitzkneisser-Cadini-Proposal-1.jpg

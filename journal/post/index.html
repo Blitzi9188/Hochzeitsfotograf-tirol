@@ -157,31 +157,49 @@
     .journal-link-button {
       display: inline-flex;
       align-items: center;
-      justify-content: center;
-      min-height: 2.95rem;
-      padding: 0.82rem 1.2rem;
-      border: 1px solid rgba(26, 26, 26, 0.18);
-      background: rgba(255, 255, 255, 0.86);
-      color: #1A1A1A;
-      font-size: 0.78rem;
+      gap: 0.7rem;
+      min-height: 3.15rem;
+      padding: 0 1.75rem;
+      border: 1px solid #1A1A1A;
+      background: #1A1A1A;
+      color: #FFFFFF;
+      font-size: 0.72rem;
       line-height: 1;
-      letter-spacing: 0.22em;
+      font-weight: 500;
+      letter-spacing: 0.24em;
       text-transform: uppercase;
       text-decoration: none;
-      transition: background-color 0.25s ease, border-color 0.25s ease, transform 0.25s ease;
+      transition: background-color 0.35s ease, color 0.35s ease, transform 0.35s ease, box-shadow 0.35s ease;
+    }
+
+    .journal-link-button::after {
+      content: "\2192";
+      font-size: 1.05rem;
+      letter-spacing: 0;
+      transform: translateX(0);
+      transition: transform 0.35s ease;
+    }
+
+    .journal-link-button:hover {
+      background: #FFFFFF;
+      color: #1A1A1A;
+      transform: translateY(-2px);
+      box-shadow: 0 16px 34px rgba(26, 26, 26, 0.18);
+    }
+
+    .journal-link-button:hover::after {
+      transform: translateX(5px);
     }
 
     .prose-entry a.journal-link-button {
-      color: #1A1A1A;
+      color: #FFFFFF;
       font-weight: 500;
       text-decoration: none;
       text-transform: uppercase;
     }
 
-    .journal-link-button:hover {
-      background: rgba(26, 26, 26, 0.03);
-      border-color: rgba(26, 26, 26, 0.34);
-      transform: translateY(-1px);
+    .prose-entry a.journal-link-button:hover {
+      color: #1A1A1A;
     }
 
     .prose-entry a {
@@ -579,10 +597,12 @@
       },
       "surprise-proposal-cadini-di-misurina": {
         de: {
-          proposalguide: { label: "Guide: Antrag in den Dolomiten planen", href: "https://blitzkneisser.com/guides/dolomites-proposal-guide/" }
+          proposalguide: { label: "Guide: Antrag in den Dolomiten planen", href: "https://blitzkneisser.com/guides/dolomites-proposal-guide/" },
+          contact: { label: "Antrag anfragen", href: "https://blitzkneisser.com/contact/" }
         },
         en: {
-          proposalguide: { label: "Guide: Planning a Dolomites Proposal", href: "https://blitzkneisser.com/guides/dolomites-proposal-guide/" }
+          proposalguide: { label: "Guide: Planning a Dolomites Proposal", href: "https://blitzkneisser.com/guides/dolomites-proposal-guide/" },
+          contact: { label: "Plan your proposal", href: "https://blitzkneisser.com/contact/" }
         }
       }
     };
