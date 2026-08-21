@@ -612,12 +612,28 @@
                     <textarea rows="11" class="py-3 text-lg font-light resize-none min-h-[22rem]" id="placeholderMessage" placeholder="Share your plans..." required aria-required="true"></textarea>
                   </div>
                   <div class="flex flex-col gap-2">
+                    <label class="text-[10px] uppercase tracking-widest text-brand-muted">Paket (optional)</label>
+                    <select class="py-3 text-lg font-light bg-transparent" id="packageSelect">
+                      <option value="">Bitte auswählen (optional)</option>
+                      <option value="Standesamt kompakt">Standesamt kompakt</option>
+                      <option value="Standesamt & Agape">Standesamt &amp; Agape</option>
+                      <option value="Kleine Hochzeit">Kleine Hochzeit</option>
+                      <option value="Porträt">Porträt</option>
+                      <option value="Familienshooting">Familienshooting</option>
+                      <option value="Paar & Verlobung">Paar &amp; Verlobung</option>
+                      <option value="Berghochzeit & Elopement">Berghochzeit &amp; Elopement</option>
+                      <option value="Noch nicht sicher">Noch nicht sicher</option>
+                    </select>
+                  </div>
+                  <div class="flex flex-col gap-2">
                     <label class="text-[10px] uppercase tracking-widest text-brand-muted" id="labelReferral">Wie habt ihr mich gefunden?</label>
                     <select class="py-3 text-lg font-light bg-transparent" id="referralSelect">
                       <option value="">Bitte auswählen</option>
                       <option value="Instagram">Instagram</option>
+                      <option value="Facebook">Facebook</option>
+                      <option value="Weiterempfehlung">Weiterempfehlung</option>
                       <option value="Google">Google</option>
-                      <option value="Weitere Empfehlungen">Weitere Empfehlungen</option>
+                      <option value="KI Suche">KI Suche</option>
                     </select>
                   </div>
                 </div>
@@ -974,6 +990,7 @@
       const locationInput = document.getElementById("placeholderLocation");
       const messageInput = document.getElementById("placeholderMessage");
       const referralSelect = document.getElementById("referralSelect");
+      const packageSelect = document.getElementById("packageSelect");
       const submitButton = document.getElementById("submitButton");
       const captchaQuestion = document.getElementById("captchaQuestion");
       const captchaAnswer = document.getElementById("captchaAnswer");
@@ -1070,6 +1087,7 @@
         locationInput.value = "";
         messageInput.value = "";
         referralSelect.value = "";
+        if (packageSelect) packageSelect.value = "";
         selectedRangeStart = null;
         selectedRangeEnd = null;
         visibleMonth = new Date(todayStart);
@@ -1122,6 +1140,7 @@
         const location = locationInput.value.trim();
         const message = messageInput.value.trim();
         const referral = referralSelect.value.trim();
+        const packageChoice = packageSelect ? packageSelect.value.trim() : "";
         const answer = Number.parseInt(captchaAnswer.value.trim(), 10);
 
         if (websiteField.value.trim()) {
@@ -1152,6 +1171,7 @@
             date,
             location,
             referral,
+            package: packageChoice,
             message,
             formToken: (typeof window !== "undefined" && window.__FORM_TS__) || "",
             company: (websiteField && websiteField.value) || ""
