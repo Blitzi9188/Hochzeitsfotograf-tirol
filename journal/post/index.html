@@ -150,31 +150,36 @@
     .journal-link-buttons {
       display: flex;
       flex-wrap: wrap;
+      justify-content: center;
       gap: 0.85rem;
-      margin: 1.25rem 0 1.5rem;
+      margin: 2.25rem 0 1.25rem;
     }
 
     .journal-link-button {
-      display: inline-flex;
+      display: inline-flex !important;
       align-items: center;
-      gap: 0.7rem;
-      min-height: 3.15rem;
-      padding: 0 1.75rem;
+      justify-content: center;
+      gap: 0.5rem;
+      width: auto;
+      max-width: max-content;
+      min-height: 0;
+      padding: 0.82rem 1.35rem;
       border: 1px solid #1A1A1A;
       background: #1A1A1A;
       color: #FFFFFF;
-      font-size: 0.72rem;
+      font-size: 0.68rem;
       line-height: 1;
-      font-weight: 500;
-      letter-spacing: 0.24em;
+      font-weight: 600;
+      letter-spacing: 0.16em;
       text-transform: uppercase;
       text-decoration: none;
+      border-radius: 2px;
       transition: background-color 0.35s ease, color 0.35s ease, transform 0.35s ease, box-shadow 0.35s ease;
     }
 
     .journal-link-button::after {
       content: "\2192";
-      font-size: 1.05rem;
+      font-size: 0.9rem;
       letter-spacing: 0;
       transform: translateX(0);
       transition: transform 0.35s ease;

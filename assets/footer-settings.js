@@ -812,6 +812,17 @@
       agbLink.href = lang === "en" ? "/agb/?lang=en" : "/agb/";
       agbLink.textContent = t.agb;
     }
+    // Doppelte statische Rechts-Links entfernen: auf jeder Seite bleibt genau EIN
+    // Satz (die verwalteten Links mit ID). Verhindert "DSGVO Impressum AGB" doppelt.
+    if (footerNode && document.getElementById("footerDsgvoLink")) {
+      const managedLegalIds = new Set(["footerDsgvoLink", "footerImpressumLink", "footerAgbLink"]);
+      footerNode.querySelectorAll("a[href]").forEach((a) => {
+        if (managedLegalIds.has(a.id)) return;
+        let legalPath = "";
+        try { legalPath = new URL(a.getAttribute("href"), window.location.origin).pathname.replace(/\/+$/, "/"); } catch (_) { return; }
+        if (/^\/(dsgvo|impressum|agb)\/$/.test(legalPath)) a.remove();
+      });
+    }
     if (filmLink) {
       filmLink.href = lang === "en" ? "/film/?lang=en" : "/film/";
       filmLink.textContent = t.film;

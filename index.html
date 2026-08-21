@@ -2123,7 +2123,7 @@
     // Images not listed fall back to their full-size original. Regenerate with
     // build-responsive.js when new posts appear at the top of the journal.
     const JOURNAL_VARIANT_WIDTHS = {"/assets/uploads/Blitzkneisser-After-Wedding-Dolomites-2.jpg":[400,800,1200],"/assets/uploads/Blitzkneisser-Dolomites-Elopement-Wedding-167.jpg":[400,800,1200],"/assets/uploads/Blitzkneisser-Dolomites-Ski-Wedding-44.jpg":[400,800,1200],"/assets/uploads/Blitzkneisser-Heli-Elopement-Brixen-Dolomites-10.jpg":[400,800,1200],"/assets/uploads/Blitzkneisser-Lago-Heli-Mountain-Elopement-23.jpg":[400,800,1200],"/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-BLOG-1.jpg":[400,800,1200],"/assets/uploads/Blitzkneisser-Proposal-Dolomites-36-scaled.jpg":[400,800,1200],"/assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-24.jpg":[400,800,1200],"/assets/uploads/Blitzkneisser-Seiser-Alm-Proposal-37.jpg":[400,800,1200],"/assets/uploads/Blitzkneisser-Cadini-Proposal-54.jpg":[480,960,1440]};
-    const JOURNAL_CARD_SIZES = "(max-width: 767px) 80vw, (max-width: 1279px) 45vw, 30vw";
+    const JOURNAL_CARD_SIZES = "(max-width: 767px) 88vw, 500px";
 
     const journalCardImageHtml = (entry) => {
       const pinDesc = `${(entry.alt || entry.titleEn || entry.title || '').replace(/"/g, '&quot;')}. ${entry.titleEn ? entry.titleEn + '. ' : ''}Dolomites mountain elopement photography by Blitzkneisser.`;
