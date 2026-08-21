@@ -771,6 +771,17 @@
       }
     };
 
+    // Responsive AVIF/WebP/JPG-Varianten fuer Beitragsbilder mit vorhandenen
+    // Groessen. Nur gelistete Bilder werden optimiert; alle anderen (aeltere
+    // Beitraege) fallen unveraendert auf ihr Original zurueck -> keine Regression.
+    const POST_VARIANT_WIDTHS = {"/assets/uploads/Blitzkneisser-Cadini-Proposal-1.jpg":[400,800,1200],"/assets/uploads/Blitzkneisser-Cadini-Proposal-4.jpg":[400,800,1200],"/assets/uploads/Blitzkneisser-Cadini-Proposal-7.jpg":[400,800,1200],"/assets/uploads/Blitzkneisser-Cadini-Proposal-9.jpg":[400,800,1200],"/assets/uploads/Blitzkneisser-Cadini-Proposal-12.jpg":[400,800,1200],"/assets/uploads/Blitzkneisser-Cadini-Proposal-19.jpg":[400,800,1200],"/assets/uploads/Blitzkneisser-Cadini-Proposal-21.jpg":[400,800,1200],"/assets/uploads/Blitzkneisser-Cadini-Proposal-25.jpg":[400,800,1200],"/assets/uploads/Blitzkneisser-Cadini-Proposal-28.jpg":[400,800,1200],"/assets/uploads/Blitzkneisser-Cadini-Proposal-34.jpg":[400,800,1200],"/assets/uploads/Blitzkneisser-Cadini-Proposal-45.jpg":[400,800,1200],"/assets/uploads/Blitzkneisser-Cadini-Proposal-50.jpg":[400,800,1200],"/assets/uploads/Blitzkneisser-Cadini-Proposal-52.jpg":[400,800,1200],"/assets/uploads/Blitzkneisser-Cadini-Proposal-54.jpg":[400,800,1200,2000],"/assets/uploads/Blitzkneisser-Cadini-Proposal-80.jpg":[400,800,1200],"/assets/uploads/Blitzkneisser-Cadini-Proposal-87.jpg":[400,800,1200],"/assets/uploads/Blitzkneisser-Cadini-Proposal-92.jpg":[400,800,1200],"/assets/uploads/Blitzkneisser-Cadini-Proposal-106.jpg":[400,800,1200],"/assets/uploads/Blitzkneisser-Cadini-Proposal-108.jpg":[400,800,1200],"/assets/uploads/Blitzkneisser-Cadini-Proposal-123.jpg":[400,800,1200],"/assets/uploads/Blitzkneisser-Cadini-Proposal-131.jpg":[400,800,1200],"/assets/uploads/Blitzkneisser-Cadini-Proposal-134.jpg":[400,800,1200],"/assets/uploads/Blitzkneisser-Cadini-Proposal-154.jpg":[400,800,1200]};
+    const POST_GALLERY_SIZES = "(max-width: 767px) 92vw, (max-width: 1023px) 60vw, 560px";
+    const buildVariantSrcsets = (imagePath, widths) => {
+      const b = imagePath.replace(/\.[^.]+$/, "");
+      const ss = (ext) => widths.map((w) => `${b}-${w}w.${ext} ${w}w`).join(", ");
+      return { avif: ss("avif"), webp: ss("webp"), jpg: ss("jpg"), fallback: `${b}-${widths[Math.min(2, widths.length - 1)]}w.jpg` };
+    };
+
     const renderGalleryChunk = (chunk, chunkIndex) => {
       if (!Array.isArray(chunk) || !chunk.length) return "";
       const renderImage = (item) => {
@@ -788,7 +799,19 @@
         const pinDescription = currentEntryData?.pinDescription
           ? pinBase
           : (pinAlt ? `${pinAlt}. ${entryTitle ? entryTitle + '. ' : ''}Dolomites mountain elopement photography by Blitzkneisser.` : pinBase);
-        const imageMarkup = `<img src="${item.image}" alt="${imageAlt}" class="w-full h-full object-cover" loading="lazy" decoding="async" data-pin-description="${pinDescription.replace(/"/g, '&quot;')}" data-pin-url="${window.location.href}">`;
+        const pinAttrs = `data-pin-description="${pinDescription.replace(/"/g, '&quot;')}" data-pin-url="${window.location.href}"`;
+        const gWidths = POST_VARIANT_WIDTHS[item.image];
+        let imageMarkup;
+        if (gWidths && gWidths.length) {
+          const v = buildVariantSrcsets(item.image, gWidths);
+          imageMarkup = `<picture>`
+            + `<source type="image/avif" srcset="${v.avif}" sizes="${POST_GALLERY_SIZES}">`
+            + `<source type="image/webp" srcset="${v.webp}" sizes="${POST_GALLERY_SIZES}">`
+            + `<img src="${v.fallback}" srcset="${v.jpg}" sizes="${POST_GALLERY_SIZES}" alt="${imageAlt}" class="w-full h-full object-cover" loading="lazy" decoding="async" ${pinAttrs}>`
+            + `</picture>`;
+        } else {
+          imageMarkup = `<img src="${item.image}" alt="${imageAlt}" class="w-full h-full object-cover" loading="lazy" decoding="async" ${pinAttrs}>`;
+        }
         if (item.link) {
           return `<a href="${item.link}" class="block h-full w-full">${imageMarkup}</a>`;
         }
@@ -969,8 +992,19 @@
       document.getElementById("entryEyebrow").textContent = t.featurePrefix;
       document.getElementById("entryTitle").innerHTML = (entryTitle || "Journal Entry").replace(/ \| /g, "<br>");
       document.getElementById("entryMeta").textContent = `${t.metaBy} ${entry.author || "Blitzkneisser"}`;
-      document.getElementById("heroImage").src = entry.featuredImage || "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-8.jpg";
-      document.getElementById("heroImage").alt = featuredImageAlt || t.imageAlt;
+      const heroNode = document.getElementById("heroImage");
+      const heroWidths = POST_VARIANT_WIDTHS[entry.featuredImage];
+      if (heroWidths && heroWidths.length) {
+        // Full-Bleed-Header -> groesste Variante fuer Schaerfe, kleine fuer Mobile.
+        const hb = entry.featuredImage.replace(/\.[^.]+$/, "");
+        heroNode.setAttribute("sizes", "100vw");
+        heroNode.setAttribute("srcset", heroWidths.map((w) => `${hb}-${w}w.jpg ${w}w`).join(", "));
+        heroNode.src = `${hb}-${heroWidths[heroWidths.length - 1]}w.jpg`;
+      } else {
+        heroNode.removeAttribute("srcset");
+        heroNode.src = entry.featuredImage || "/assets/uploads/Blitzkneisser-Mountain-Elopement-Dolomites-8.jpg";
+      }
+      heroNode.alt = featuredImageAlt || t.imageAlt;
       document.getElementById("heroCaption").textContent = featuredImageAlt || t.heroCaption;
       document.getElementById("introSection").innerHTML = introParagraphs.map((paragraph, index) => `
         <p class="${index === 0 ? "dropcap text-lg md:text-xl font-light leading-relaxed text-brand-text opacity-90 mb-8" : "text-lg md:text-xl font-light leading-relaxed text-brand-text opacity-90 mb-8"}">${paragraph}</p>
