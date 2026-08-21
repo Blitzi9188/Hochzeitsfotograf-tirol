@@ -14,7 +14,7 @@ featuredImageAlt: "Verlobtes Paar am Grat des Cadini di Misurina in den Dolomite
 featuredImageAltEn: "Engaged couple on the Cadini di Misurina ridge in the Dolomites — proposal photographer"
 teaserDescription: "Kim dachte, sie posiert für den Schnappschuss eines Fremden – dann kniete Conner nieder. Ein Überraschungs-Antrag hoch über Misurina in den Dolomiten."
 teaserDescriptionEn: "Kim thought she was posing for a stranger's snapshot – then Conner dropped to one knee. A surprise proposal high above Misurina in the Dolomites."
-bodyEn: "Kim thought she was posing for a stranger's holiday snapshot. On the 19th of July, high on the Cadini di Misurina ridge, a friendly \"tourist\" asked if he could take a quick photo of the two of them – and in that exact second, Conner dropped to one knee. She had no idea. That is the whole point.\nA surprise proposal in the Dolomites isn't staged, it's stolen: one honest moment, 2,000 metres up, with the Tre Cime watching from across the valley."
+bodyEn: "Kim thought she was simply being photographed for a quick holiday snapshot.\nI had spotted the two of them on the Cadini di Misurina ridge and offered to take a photo of them on their phone – after all, so far they only had selfies of themselves.\nKim stepped in next to Conner, with no idea what was about to happen.\nAnd while I still had the phone in my hand, Conner suddenly dropped to his knees and asked her the biggest question of all.\nA completely unexpected moment, somewhere high up in the Dolomites. No staging, no perfect setting – just a real moment the two of them will forever connect with this place.\nThat is exactly why I love surprise proposals in the mountains."
 galleryIntroHeading: "EINEN ANTRAG MITTEN IM BLICKFELD VERSTECKEN"
 galleryIntroHeadingEn: "HOW TO HIDE A PROPOSAL IN PLAIN SIGHT"
 galleryIntroText: "Der Trick ist einfach: Ich tauche als ganz normaler Wanderer mit Kamera auf und biete an, ein Foto von den beiden zu machen. Das nimmt allen die Anspannung – und es sorgt dafür, dass der Moment, in dem er niederkniet, vollkommen echt ist. Keine Posen, kein Schauspiel, nur ihr Gesicht, als sie begreift, was gerade passiert.\nNach dem Ja lassen wir uns Zeit. Ein kurzes, entspanntes Shooting entlang des Grats, die Drei Zinnen am Horizont, und zum Schluss eine kleine Feier – ein Geschenk und ein Glas Champagner, denn so ein Morgen verdient einen Toast. Ein ehrlicher Tipp, falls ihr es plant: Der Cadini liegt über 2.000 Metern und der Wind ruht selten. Bringt warme Jacken mit, kommt zum Sonnenauf- oder -untergang, und lasst das Licht den Rest machen."
@@ -96,6 +96,14 @@ gallery:
     altEn: "Surprise proposal at Cadini di Misurina in the Dolomites"
 ---
 
-Kim dachte, sie posiert für den Urlaubs-Schnappschuss eines Fremden. Am 19. Juli, hoch oben auf dem Grat des Cadini di Misurina, fragte ein freundlicher „Tourist", ob er kurz ein Foto von den beiden machen dürfe – und in genau diesem Moment kniete Conner nieder. Sie ahnte nichts. Genau darum geht es.
+Kim dachte, sie würde einfach nur für einen kurzen Urlaubs-Schnappschuss fotografiert werden.
 
-Ein Überraschungs-Antrag in den Dolomiten ist nicht inszeniert, sondern gestohlen: ein ehrlicher Moment, 2.000 Meter hoch, während die Drei Zinnen vom anderen Talende zusehen.
+Ich hatte die beiden auf dem Grat der Cadini di Misurina gesehen und gefragt, ob ich ein Foto von ihnen mit ihrem Handy machen soll – schließlich hatten sie bisher nur Selfies von sich.
+
+Kim stellte sich neben Conner, ahnungslos, was gleich passieren würde.
+
+Und während ich noch das Handy in der Hand hatte, ging Conner plötzlich auf die Knie und stellte ihr die Frage aller Fragen.
+
+Ein völlig unerwarteter Moment, irgendwo hoch oben in den Dolomiten. Keine Inszenierung, kein perfektes Setting – einfach ein echter Moment, den die beiden für immer mit diesem Ort verbinden werden.
+
+Genau deshalb liebe ich Überraschungsanträge in den Bergen.
