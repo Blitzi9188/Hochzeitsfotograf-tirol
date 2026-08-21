@@ -49,9 +49,6 @@ gallery:
   - image: "/assets/uploads/Blitzkneisser-Elopement_lago-di-Braies-8.jpg"
     alt: Mystisches Elopement am Pragser Wildsee
     link: ""
-  - image: "/assets/uploads/Blitzkneisser-Elopement_lago-di-Braies-9.jpg"
-    alt: Mystisches Elopement am Pragser Wildsee
-    link: ""
   - image: "/assets/uploads/Blitzkneisser-Elopement_lago-di-Braies-10.jpg"
     alt: Mystisches Elopement am Pragser Wildsee
     link: ""
