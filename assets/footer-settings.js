@@ -163,9 +163,10 @@
     if (!document.getElementById("navAutoHideStyle")) {
       const style = document.createElement("style");
       style.id = "navAutoHideStyle";
+      // 'top' statt 'transform': auf manchen Seiten ist transform am Nav blockiert.
       style.textContent = `
-        #mainNav { transition: transform 0.35s ease; will-change: transform; }
-        #mainNav.nav-hidden { transform: translateY(-100%); }
+        #mainNav { transition: top 0.35s ease, background 0.3s ease, border-color 0.3s ease; will-change: top; }
+        #mainNav.nav-hidden { top: -160px !important; }
       `;
       document.head.appendChild(style);
     }
@@ -175,7 +176,7 @@
     const MIN_DELTA = 6;    // Mindest-Scrollweg gegen Zittern
     const onScroll = () => {
       ticking = false;
-      const y = window.scrollY;
+      const y = window.scrollY || document.documentElement.scrollTop || document.body.scrollTop || 0;
       if (Math.abs(y - lastY) < MIN_DELTA) return;
       // Mobile-Menü offen -> Nav immer sichtbar lassen
       if (nav.classList.contains("is-open")) {
