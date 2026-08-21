@@ -413,11 +413,7 @@
     }
 
     #mainNav {
-      transition: transform 0.3s ease;
-    }
-
-    #mainNav.nav-hidden {
-      transform: translateY(-100%);
+      transition: background 0.3s ease, border-color 0.3s ease;
     }
 
     .mobile-menu-toggle {
@@ -2583,23 +2579,6 @@
         if (window.innerWidth >= 768) closeNavMenu();
       });
 
-      // Hide-on-scroll-down / show-on-scroll-up
-      // Threshold 6px verhindert Jitter durch iOS-Adressleiste.
-      // Bei offenem Menue kein Ausblenden.
-      let lastScrollY = window.scrollY;
-      const NAV_HEIGHT = nav.offsetHeight;
-      window.addEventListener("scroll", () => {
-        if (nav.classList.contains("is-open")) return;
-        const currentY = window.scrollY;
-        const delta = currentY - lastScrollY;
-        if (Math.abs(delta) < 6) return;
-        if (currentY > NAV_HEIGHT && delta > 0) {
-          nav.classList.add("nav-hidden");
-        } else {
-          nav.classList.remove("nav-hidden");
-        }
-        lastScrollY = currentY;
-      }, { passive: true });
 
       // BEWUSST kein Schliessen-bei-Scroll: auf iOS aendert das Ein-/Ausblenden der
       // Adressleiste window.scrollY sprunghaft und wuerde das gerade geoeffnete Menue
