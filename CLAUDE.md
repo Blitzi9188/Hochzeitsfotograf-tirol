@@ -1,3 +1,19 @@
+# PROJEKT-IDENTITÄT — ZUERST LESEN, NAMEN SIND IRREFÜHREND
+
+## Verbindliche Zuordnung
+- Website:  hochzeitsfotograf.tirol  (Deutsch, Tirol/Innsbruck Hochzeitsfotograf)
+- Git-Repo: Hochzeitsfotograf-tirol.git
+- Ordner:   …/Dropbox/Neuer Versuch
+- Typ:      Node.js, plain HTML (mit /assets/seo.js) — nur bestätigen, nicht darauf verlassen
+
+## Harte Regel — vor JEDER Änderung
+1. `git remote -v` ausführen. Die URL MUSS `Hochzeitsfotograf-tirol` enthalten.
+   Erscheint `blitzkneisser-hub` → FALSCHES Repo → SOFORT STOPP, nichts ändern, nachfragen.
+2. Canonical / SITE_URL / hreflang / og:url zeigen hier IMMER auf https://hochzeitsfotograf.tirol — NIE auf blitzkneisser.com. (Ausnahme: die E-Mail foto@blitzkneisser.com im JSON-LD ist korrekt.)
+3. Verlass dich NIE auf Ordner- oder Repo-Namen. Nur `git remote -v` + diese Datei zählen.
+
+---
+
 # CLAUDE.md — hochzeitsfotograf.tirol
 
 ## Graphify — Strenger Modus
