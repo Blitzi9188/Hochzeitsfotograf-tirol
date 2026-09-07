@@ -494,6 +494,7 @@
       policyVersion: "2026-04"
     };
     localStorage.setItem(CONSENT_KEY, JSON.stringify(payload));
+    window.dispatchEvent(new CustomEvent("bk:consent-updated", { detail: payload }));
   };
 
   const ensureConsentStyles = () => {
