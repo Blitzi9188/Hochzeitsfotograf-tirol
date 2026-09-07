@@ -1,3 +1,15 @@
+/* Cloudflare Web Analytics – cookielos, ohne Wiedererkennung, ohne Speicherung
+   am Geraet. Braucht deshalb keine Einwilligung und laeuft vor dem Banner, damit
+   die Reichweite vollstaendig gezaehlt wird. Google Analytics weiter unten bleibt
+   an die Zustimmung gekoppelt. */
+(function () {
+  var s = document.createElement("script");
+  s.type = "module";
+  s.src = "https://static.cloudflareinsights.com/beacon.min.js";
+  s.setAttribute("data-cf-beacon", '{"token": "2c5a9c2490964ff895aa83b4d5935f60"}');
+  (document.head || document.documentElement).appendChild(s);
+})();
+
 /* Google Analytics 4 für blitzkneisser.com
    Lädt Google erst, wenn im Cookie-Banner die Kategorie "Statistik" zugestimmt wurde.
    Der Zustimmungsstand liegt unter bk-privacy-consent-v1 (siehe footer-settings.js). */
