@@ -187,7 +187,7 @@
       if (y > lastY && y > HIDE_AFTER) {
         nav.style.top = "-160px";  // runter -> ausblenden
       } else {
-        nav.style.top = "";        // hoch -> einblenden (zurueck zu CSS top:0)
+        nav.style.top = "0px";     // hoch -> einblenden (explizit, nicht per CSS-Cascade)
       }
       lastY = y;
     };
@@ -897,6 +897,11 @@
     }
     window.setTimeout(callback, 1200);
   };
+
+  // Beim Laden jeder Seite immer an den Anfang scrollen (verhindert, dass der
+  // Browser die Scroll-Position der vorherigen Seite wiederherstellt).
+  if ("scrollRestoration" in history) history.scrollRestoration = "manual";
+  window.scrollTo(0, 0);
 
   document.addEventListener("DOMContentLoaded", async () => {
     ensureMobileBackToTop();
