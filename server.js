@@ -362,7 +362,11 @@ const isBlockedStaticPath = (absolutePath) => {
 // dem Volume. Sonst bedient der einmal geseedete Volume-Stand veraltete Dateien und
 // Git-Deploys werden nie sichtbar (Volume-Trap). Guides werden ausschliesslich per
 // Git gepflegt -> Repo ist die Quelle der Wahrheit.
-const REPO_FIRST_PREFIXES = ["/guides/", "/content/guides/", "/sitemap.xml", "/robots.txt", "/content/about/"];
+const REPO_FIRST_PREFIXES = [
+  "/guides/", "/content/guides/", "/sitemap.xml", "/robots.txt", "/content/about/",
+  "/assets/footer-settings.js", "/assets/home.css", "/assets/seo.js",
+  "/assets/home-", "/assets/seo-"
+];
 
 const getStaticCandidates = (pathname) => {
   const cleanPath = pathname === "/" ? "/index.html" : pathname;
@@ -401,7 +405,9 @@ const escapeInlineJson = (value) =>
     .replace(/&/g, "\\u0026");
 
 const serveHomepage = async (req, res) => {
-  const template = await readFirstAvailableFile("index.html", "utf8");
+  // index.html is a code file (git-managed template), always read from rootDir to avoid
+  // the volume-trap where a seeded old copy blocks git deploys from taking effect.
+  const template = await fsp.readFile(path.join(rootDir, "index.html"), "utf8");
   const requestUrl = new URL(req.url || "/", "http://localhost");
   const requestedLang = requestUrl.searchParams.get("lang") === "en" ? "en" : "de";
   const homepageBootstrap = {

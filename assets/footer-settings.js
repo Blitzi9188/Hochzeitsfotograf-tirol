@@ -244,7 +244,17 @@
       impressum: "Impressum",
       agb: "AGB",
       instagram: "Instagram",
-      instagramFeedTitle: "Neu auf Instagram"
+      instagramFeedTitle: "Neu auf Instagram",
+      footerBrandCopy: "Hochzeitsfotografie in Innsbruck und ganz Tirol. Standesamt, kleine Hochzeit, Berghochzeit. Ruhig, ehrlich, ohne Inszenierung.",
+      footerServicesTitle: "Leistungen",
+      footerServices: [
+        { label: "Standesamt & kleine Hochzeit", href: "/standesamt-hochzeit/" },
+        { label: "Freie Trauung", href: "/freie-trauung/" },
+        { label: "Berghochzeit in Tirol", href: "/berghochzeit-tirol/" },
+        { label: "Familien Shootings", href: "/familien-fotografie/" },
+        { label: "Portraits", href: "/portrait/" }
+      ],
+      footerContactTitle: "Kontakt"
     },
     en: {
       contact: "Contact",
@@ -256,7 +266,17 @@
       impressum: "Legal Notice",
       agb: "Terms",
       instagram: "Instagram",
-      instagramFeedTitle: "Latest on Instagram"
+      instagramFeedTitle: "Latest on Instagram",
+      footerBrandCopy: "Wedding photography in Innsbruck and Tyrol. Civil ceremony, intimate weddings, mountain weddings. Calm, honest, unscripted.",
+      footerServicesTitle: "Services",
+      footerServices: [
+        { label: "Civil Ceremony & Intimate Wedding", href: "/standesamt-hochzeit/?lang=en" },
+        { label: "Free Ceremony", href: "/freie-trauung/?lang=en" },
+        { label: "Mountain Wedding in Tyrol", href: "/berghochzeit-tirol/?lang=en" },
+        { label: "Family Photography", href: "/familien-fotografie/?lang=en" },
+        { label: "Portraits", href: "/portrait/?lang=en" }
+      ],
+      footerContactTitle: "Contact"
     }
   };
 
@@ -885,6 +905,61 @@
     }
     if (locationNode) {
       locationNode.textContent = locality;
+    }
+
+    // LEISTUNGEN / Services column
+    const servicesColId = "footerServicesCol";
+    let servicesCol = document.getElementById(servicesColId);
+    if (!servicesCol) {
+      servicesCol = document.createElement("div");
+      servicesCol.id = servicesColId;
+      servicesCol.className = "flex flex-col gap-3";
+      footerNode.appendChild(servicesCol);
+    }
+    const serviceLinks = (t.footerServices || []).map((s) =>
+      `<a href="${s.href}" class="block hover:text-brand-text transition-colors duration-300">${s.label}</a>`
+    ).join("");
+    servicesCol.innerHTML = `
+      <div class="mb-2 font-semibold">${t.footerServicesTitle || "Leistungen"}</div>
+      ${serviceLinks}
+    `;
+
+    // KONTAKT column
+    const contactColId = "footerContactCol";
+    let contactCol = document.getElementById(contactColId);
+    if (!contactCol) {
+      contactCol = document.createElement("div");
+      contactCol.id = contactColId;
+      contactCol.className = "flex flex-col gap-3";
+      footerNode.appendChild(contactCol);
+    }
+    const emailHref = settings.email ? `mailto:${settings.email}` : "#";
+    const emailText = settings.email || "";
+    const phoneHref = settings.phone ? `tel:${String(settings.phone).replace(/[^+\d]/g, "")}` : "#";
+    const phoneText = settings.contactPhone || settings.phone || "";
+    const igHandle = (settings.instagram || "").replace(/.*instagram\.com\//, "").replace(/\/$/, "");
+    contactCol.innerHTML = `
+      <div class="mb-2 font-semibold">${t.footerContactTitle || "Kontakt"}</div>
+      ${emailText ? `<a href="${emailHref}" class="block hover:text-brand-text transition-colors duration-300">${emailText}</a>` : ""}
+      ${phoneText ? `<a href="${phoneHref}" class="block hover:text-brand-text transition-colors duration-300">${phoneText}</a>` : ""}
+      ${igHandle ? `<a href="https://www.instagram.com/${igHandle}/" target="_blank" rel="noreferrer" class="block hover:text-brand-text transition-colors duration-300">@${igHandle}</a>` : ""}
+    `;
+
+    // Brand bio copy (shown below brand name)
+    const brandCopyId = "footerBrandCopy";
+    let brandCopyEl = document.getElementById(brandCopyId);
+    if (!brandCopyEl && metaNode) {
+      brandCopyEl = document.createElement("p");
+      brandCopyEl.id = brandCopyId;
+      brandCopyEl.className = "max-w-xs leading-relaxed normal-case tracking-normal font-light text-[10px] md:text-xs";
+      if (brandNode) {
+        metaNode.insertBefore(brandCopyEl, brandNode.nextSibling);
+      } else {
+        metaNode.appendChild(brandCopyEl);
+      }
+    }
+    if (brandCopyEl) {
+      brandCopyEl.textContent = t.footerBrandCopy || "";
     }
 
     renderInstagramFeed(settings, lang, posts, fallbackImages);
