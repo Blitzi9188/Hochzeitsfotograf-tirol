@@ -1208,14 +1208,14 @@
               <textarea name="message" rows="5" class="w-full border-b border-brand-text bg-transparent px-0 py-3 outline-none" required></textarea>
             </label>
             <label class="block">
-              <span class="mb-3 block text-[10px] uppercase tracking-[0.22em] text-brand-muted">Wie habt ihr mich gefunden? (optional)</span>
+              <span class="mb-3 block text-[10px] uppercase tracking-[0.22em] text-brand-muted" data-i18n="contact.form.referralLabel">Wie habt ihr mich gefunden? (optional)</span>
               <select id="homeReferralSelect" name="referral" class="w-full border-b border-brand-text bg-transparent px-0 py-3 outline-none">
-                <option value="">Bitte auswählen (optional)</option>
+                <option value="" data-de="Bitte auswählen (optional)" data-en="Please select (optional)">Bitte auswählen (optional)</option>
                 <option value="Instagram">Instagram</option>
                 <option value="Facebook">Facebook</option>
-                <option value="Weiterempfehlung">Weiterempfehlung</option>
+                <option value="Weiterempfehlung" data-de="Weiterempfehlung" data-en="Referral">Weiterempfehlung</option>
                 <option value="Google">Google</option>
-                <option value="KI Suche">KI Suche</option>
+                <option value="KI Suche" data-de="KI Suche" data-en="AI Search">KI Suche</option>
               </select>
             </label>
             <div class="md:col-span-2 pt-2">
@@ -1398,18 +1398,18 @@
     </div>
   </div>
 
-  <footer class="py-10 px-6 md:px-12 border-t border-brand-border text-[10px] md:text-xs text-brand-muted tracking-[0.2em] uppercase font-medium bg-brand-bg">
-    <div class="mx-auto max-w-[120rem] flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
-      <div id="footerBrandText">© 2026 Blitzkneisser</div>
-      <div class="flex flex-wrap gap-5 md:gap-10">
-        <a href="https://instagram.com/blitzkneisser" target="_blank" rel="noreferrer" class="hover:text-brand-text transition-colors duration-300" id="footerInstagramLink">Instagram</a>
-        <a href="/contact/" class="hover:text-brand-text transition-colors duration-300" id="footerContactLink">Kontakt</a>
-        <a href="/journal/" class="hover:text-brand-text transition-colors duration-300" id="footerJournalLink">Journal</a>
-        <a href="/dsgvo/" class="hover:text-brand-text transition-colors duration-300" id="footerDsgvoLink">DSGVO</a>
-        <a href="/impressum/" class="hover:text-brand-text transition-colors duration-300" id="footerImpressumLink">Impressum</a>
-        <a href="/agb/" class="hover:text-brand-text transition-colors duration-300" id="footerAgbLink">AGB</a>
+  <footer class="py-16 px-6 md:px-12 border-t border-brand-border flex flex-col gap-8 text-[10px] md:flex-row md:items-start md:justify-between md:gap-16 md:text-xs text-brand-muted tracking-[0.2em] uppercase font-medium bg-brand-bg">
+    <div id="footerMetaGroup" class="flex flex-col items-start gap-4 text-left">
+      <div id="footerBrandText" class="max-w-xl text-left leading-[1.5]">© 2026 Blitzkneisser</div>
+      <div class="flex flex-wrap items-center justify-start gap-x-6 gap-y-3 md:gap-x-8">
+        <a href="https://instagram.com/blitzkneisser" target="_blank" rel="noreferrer" class="hover:text-brand-text transition-colors duration-300 md:hidden" id="footerInstagramLink">Instagram</a>
+        <a href="/dsgvo/" class="hover:text-brand-text transition-colors duration-300" id="footerDsgvoLink">Privacy</a>
+        <a href="/impressum/" class="hover:text-brand-text transition-colors duration-300" id="footerImpressumLink">Legal Notice</a>
+        <a href="/agb/" class="hover:text-brand-text transition-colors duration-300" id="footerAgbLink">Terms</a>
       </div>
     </div>
+    <div id="footerServicesCol" class="flex flex-col gap-3"></div>
+    <div id="footerContactCol" class="flex flex-col gap-3"></div>
     <div id="footerInstagramFeed" class="footer-instagram-feed">
       <div class="footer-instagram-inner" style="padding:2rem 0 0;max-width:120rem;margin:0 auto;">
         <a href="https://www.instagram.com/blitzkneisser/" target="_blank" rel="noreferrer" class="footer-instagram-title" style="display:block;text-align:center;font-size:0.6rem;letter-spacing:0.2em;text-transform:uppercase;font-weight:500;margin-bottom:1rem;color:inherit;text-decoration:none;">Instagram</a>
@@ -2997,7 +2997,7 @@
       setLanguage(initialLang);
     });
   </script>
-  <script defer src="/assets/footer-settings.js?v=10"></script>
+  <script defer src="/assets/footer-settings.js?v=11"></script>
   <script>
     (() => {
       const loadScript = (src) => {

@@ -254,7 +254,11 @@
         { label: "Familien Shootings", href: "/familien-fotografie/" },
         { label: "Portraits", href: "/portrait/" }
       ],
-      footerContactTitle: "Kontakt"
+      footerContactTitle: "Kontakt",
+      referralLabel: "Wie habt ihr mich gefunden? (optional)",
+      referralPlaceholder: "Bitte auswählen (optional)",
+      referralReferral: "Weiterempfehlung",
+      referralAI: "KI Suche"
     },
     en: {
       contact: "Contact",
@@ -276,7 +280,11 @@
         { label: "Family Photography", href: "/familien-fotografie/?lang=en" },
         { label: "Portraits", href: "/portrait/?lang=en" }
       ],
-      footerContactTitle: "Contact"
+      footerContactTitle: "Contact",
+      referralLabel: "How did you find me? (optional)",
+      referralPlaceholder: "Please select (optional)",
+      referralReferral: "Referral",
+      referralAI: "AI Search"
     }
   };
 
@@ -1009,11 +1017,24 @@
     }
 
     const update = (lang = getLang("en")) => applyFooter(settings, lang, posts, fallbackImages);
+    const applyReferralTranslations = (lang) => {
+      const t = texts[lang] || texts.de;
+      const select = document.getElementById("homeReferralSelect");
+      if (!select) return;
+      Array.from(select.options).forEach((opt) => {
+        const key = opt.getAttribute(`data-${lang}`);
+        if (key) opt.text = key;
+      });
+      const label = select.closest("label")?.querySelector("[data-i18n='contact.form.referralLabel']");
+      if (label) label.textContent = t.referralLabel;
+    };
+
     const syncNavigation = (lang = getLang("en")) => {
       localStorage.setItem("site-lang", lang);
       syncInternalLanguageLinks(lang);
       applyNavigation(settings, lang);
       update(lang);
+      applyReferralTranslations(lang);
     };
 
     syncNavigation();
