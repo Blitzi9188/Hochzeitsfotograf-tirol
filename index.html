@@ -1008,8 +1008,8 @@
                 <span>Journal</span>
                 <span>...</span>
               </div>
-              <h3 class="mt-4 text-2xl leading-tight">Beiträge werden geladen</h3>
-              <p class="mt-4 text-base font-light leading-8 text-brand-text/80">
+              <h3 class="mt-4 text-2xl leading-tight" data-i18n="journal.loadingTitle">Beiträge werden geladen</h3>
+              <p class="mt-4 text-base font-light leading-8 text-brand-text/80" data-i18n="journal.loadingCopy">
                 Die neuesten Geschichten werden automatisch aus dem Journal geladen.
               </p>
             </article>
@@ -1481,6 +1481,7 @@
         "about.copy3": "Für mich geht es nicht nur darum, einzelne Momente festzuhalten, sondern euren Tag als stimmige Geschichte zu erzählen. Jede Reportage soll Nähe, Ruhe, Licht und Persönlichkeit zeigen - modern, emotional und ohne künstliche Inszenierung.",
         "about.copy4": "Wenn ihr eure Hochzeit oder euer Elopement in Tirol plant, begleite ich euch vom ersten Gedanken bis zu den stillen und großen Augenblicken des Tages. So entstehen Bilder, die nicht nur erinnern, sondern eure Hochzeit in den Bergen auch Jahre später noch spürbar machen.",
         "reviews.eyebrow": "Google Reviews",
+        "reviews.starsLabel": "5 von 5 Sternen",
         "reviews.title": "Was Paare sagen",
         "reviews.card1.name": "Kellie + Krake",
         "reviews.card1.date": "Januar 2026",
@@ -1492,6 +1493,8 @@
         "reviews.card3.date": "August 2025",
         "reviews.card3.copy": "Sehr sympathisch, großartig umgesetzt und Bilder, die man sich ein Leben lang gern anschaut. Mit Blitzkneiser haben wir für unsere Hochzeit genau den richtigen Fotografen gewählt. Positiv, hilfsbereit und selbst bei jedem Wetter verlässlich. Danke.",
         "journal.eyebrow": "Journal",
+        "journal.loadingTitle": "Beiträge werden geladen",
+        "journal.loadingCopy": "Die neuesten Geschichten werden automatisch aus dem Journal geladen.",
         "journal.title": "Aktuelle Geschichten aus den Dolomiten",
         "journal.link": "Alle Beiträge ansehen",
         "journal.swipeHint": "Seitlich wischen · Scroll to explore",
@@ -1524,6 +1527,7 @@
         "contact.form.date": "Wunschdatum *",
         "contact.form.location": "Ort",
         "contact.form.details": "Erzählt mir mehr *",
+        "contact.form.referralLabel": "Wie habt ihr mich gefunden? (optional)",
         "contact.human": "Ich bin kein Roboter",
         "contact.privacy": "Mit dem Absenden stimmt ihr der Verarbeitung eurer Daten für die Kontaktaufnahme zu.",
         "contact.validationError": "Bitte füllt Name, E-Mail, Wunschdatum und Nachricht aus, bevor ihr die Anfrage sendet.",
@@ -1602,6 +1606,7 @@
         "about.copy3": "My work is not only about documenting individual moments, but about telling your day as a coherent story. Every report should hold closeness, calm, light and personality - modern, emotional and never overly staged.",
         "about.copy4": "If you are planning your wedding or elopement in Tyrol, I accompany you from the first ideas to the quiet and defining moments of the day. The result is imagery that does more than remind you - it keeps the feeling of your mountain wedding alive for years to come.",
         "reviews.eyebrow": "Google Reviews",
+        "reviews.starsLabel": "5 out of 5 stars",
         "reviews.title": "What couples say",
         "reviews.card1.name": "Kellie + Krake",
         "reviews.card1.date": "January 2026",
@@ -1613,6 +1618,8 @@
         "reviews.card3.date": "August 2025",
         "reviews.card3.copy": "Super personable, great implementation, photos that you'll enjoy looking at for a lifetime. With Blitzkneiser we selected the best photographer for our wedding. Positive and helpful in all weathers - thank you",
         "journal.eyebrow": "Journal",
+        "journal.loadingTitle": "Loading posts",
+        "journal.loadingCopy": "The latest stories are loading automatically from the journal.",
         "journal.title": "Recent stories from the Dolomites",
         "journal.link": "View all posts",
         "journal.swipeHint": "Swipe sideways · Scroll to explore",
@@ -1645,6 +1652,7 @@
         "contact.form.date": "Preferred Date *",
         "contact.form.location": "Location",
         "contact.form.details": "Tell me more *",
+        "contact.form.referralLabel": "How did you find me? (optional)",
         "contact.human": "I'm not a robot",
         "contact.privacy": "By submitting this form, you agree that your data may be processed for the purpose of responding to your inquiry.",
         "contact.validationError": "Please fill in name, email, preferred date and message before sending your inquiry.",
@@ -2256,6 +2264,10 @@
         if (attribute && key && translations[lang][key]) {
           node.setAttribute(attribute, translations[lang][key]);
         }
+      });
+      document.querySelectorAll("option[data-de], option[data-en]").forEach((option) => {
+        const text = lang === "en" ? option.dataset.en : option.dataset.de;
+        if (text) option.textContent = text;
       });
     };
 
