@@ -248,11 +248,11 @@
       footerBrandCopy: "Hochzeitsfotografie in Innsbruck und ganz Tirol. Standesamt, kleine Hochzeit, Berghochzeit. Ruhig, ehrlich, ohne Inszenierung.",
       footerServicesTitle: "Leistungen",
       footerServices: [
-        { label: "Standesamt & kleine Hochzeit", href: "/standesamt-hochzeit/" },
-        { label: "Freie Trauung", href: "/freie-trauung/" },
-        { label: "Berghochzeit in Tirol", href: "/berghochzeit-tirol/" },
-        { label: "Familien Shootings", href: "/familien-fotografie/" },
-        { label: "Portraits", href: "/portrait/" }
+        { label: "Elopement in den Dolomiten", href: "/guides/dolomites-elopement-guide/" },
+        { label: "Beliebteste Elopement-Orte", href: "/guides/best-dolomites-elopement-locations/" },
+        { label: "Heiratsantrag in den Dolomiten", href: "/guides/dolomites-proposal-guide/" },
+        { label: "Helikopter-Elopement", href: "/guides/helicopter-elopement-guide/" },
+        { label: "Alle Guides", href: "/guides/" }
       ],
       footerContactTitle: "Kontakt",
       referralLabel: "Wie habt ihr mich gefunden? (optional)",
@@ -274,11 +274,11 @@
       footerBrandCopy: "Wedding photography in Innsbruck and Tyrol. Civil ceremony, intimate weddings, mountain weddings. Calm, honest, unscripted.",
       footerServicesTitle: "Services",
       footerServices: [
-        { label: "Civil Ceremony & Intimate Wedding", href: "/standesamt-hochzeit/?lang=en" },
-        { label: "Free Ceremony", href: "/freie-trauung/?lang=en" },
-        { label: "Mountain Wedding in Tyrol", href: "/berghochzeit-tirol/?lang=en" },
-        { label: "Family Photography", href: "/familien-fotografie/?lang=en" },
-        { label: "Portraits", href: "/portrait/?lang=en" }
+        { label: "Dolomites Elopement", href: "/guides/dolomites-elopement-guide/?lang=en" },
+        { label: "Best Elopement Locations", href: "/guides/best-dolomites-elopement-locations/?lang=en" },
+        { label: "Proposal in the Dolomites", href: "/guides/dolomites-proposal-guide/?lang=en" },
+        { label: "Helicopter Elopement", href: "/guides/helicopter-elopement-guide/?lang=en" },
+        { label: "All Guides", href: "/guides/?lang=en" }
       ],
       footerContactTitle: "Contact",
       referralLabel: "How did you find me? (optional)",
