@@ -50,7 +50,7 @@ Der Markdown-Body unter `---` bleibt LEER. Die Render-Reihenfolge auf der Seite:
 5. `galleryIntroText` → zweiter Textblock (Haltung/These)
 6. Restliche `gallery`-Bilder
 7. `galleryOutroHeading` + `galleryOutroText` → Abschluss/CTA mit
-   `www.hochzeitsfotograf.tirol/contact/`
+   `blitzkneisser.com/contact/`
 
 Pflichtfelder (alle zweisprachig DE + En-Variante):
 
@@ -70,7 +70,7 @@ body: "…\n\n…"                # mehrzeilig mit \n\n, + bodyEn
 galleryIntroHeading: "…"      # + galleryIntroHeadingEn
 galleryIntroText: "…\n\n…"    # + galleryIntroTextEn
 galleryOutroHeading: "…"      # + galleryOutroHeadingEn
-galleryOutroText: "…\n\nwww.hochzeitsfotograf.tirol/contact/"  # + galleryOutroTextEn
+galleryOutroText: "…\n\nblitzkneisser.com/contact/"  # + galleryOutroTextEn
 showToc: false
 gallery:
   - image: /assets/uploads/…
