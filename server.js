@@ -479,7 +479,7 @@ const listJournalRelPaths = async () => {
   return [...bySlug.values()].sort().map((name) => `content/journal/${name}`);
 };
 
-const SITE_ORIGIN = "https://blitzkneisser.com";
+const SITE_ORIGIN = "https://hochzeitsfotograf.tirol";
 // Cloudflare Turnstile (Bot-Schutz Kontaktformular). Beide via Railway-Env setzen:
 // TURNSTILE_SITEKEY (oeffentlich, wird ins HTML injiziert) + TURNSTILE_SECRET (geheim,
 // serverseitige Pruefung). Solange nicht gesetzt: Fallback auf die Rechenaufgabe.
