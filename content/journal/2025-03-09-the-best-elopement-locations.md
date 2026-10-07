@@ -5,8 +5,8 @@ titleEn: The best places for intimate weddings in the Dolomites
 author: Blitzkneisser
 date: "2025-03-09T17:59:00.000Z"
 readingTime: ""
-seoTitle: Die besten Elopement-Orte in den Dolomiten zum Heiraten – Blitzkneisser
-seoTitleEn: the best elopement locations in the dolomites to get married - Blitzkneisser
+seoTitle: Die besten Elopement-Orte in den Dolomiten
+seoTitleEn: The Best Elopement Locations in the Dolomites
 seoDescription: Die besten Elopement Locations in den Dolomiten – von stillen Bergseen bis zu dramatischen Gipfeln.
 seoDescriptionEn: The best elopement locations in the Dolomites – from quiet mountain lakes to dramatic peaks.
 teaserDescription: Eine Auswahl von Orten in den Dolomiten, die sich nicht nur eindrucksvoll zeigen, sondern sich auch persönlich und stimmig erleben lassen.

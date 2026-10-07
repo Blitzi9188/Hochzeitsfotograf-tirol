@@ -5,8 +5,8 @@ titleEn: Ski wedding in the Dolomites
 author: Blitzkneisser
 date: "2026-03-17T07:00:00.000Z"
 readingTime: ""
-seoTitle: Hochzeit auf Ski in den Dolomiten – Sonnenaufgang an den Drei Zinnen & Seceda
-seoTitleEn: Wedding on skis in the Dolomites – sunrise at the Drei Zinnen & Seceda
+seoTitle: Skihochzeit in den Dolomiten – Drei Zinnen & Seceda
+seoTitleEn: Ski Wedding in the Dolomites – Drei Zinnen & Seceda
 seoDescription: Eine intime Skihochzeit in den Dolomiten mit frischem Neuschnee, ruhigem Morgenlicht und einer besonderen Atmosphäre mitten in den Bergen.
 seoDescriptionEn: An intimate ski wedding in the Dolomites with fresh snow, calm morning light and a special atmosphere in the middle of the mountains.
 teaserDescription: Kalte Luft, frühes Licht und ein Tagesbeginn, der mehr nach Weite, Stille und Bewegung in den Bergen klingt.

@@ -5,9 +5,9 @@ titleEn: Helicopter Elopement in the Dolomites – Jasmi & Dominik
 author: Blitzkneisser
 date: "2026-06-06T10:00:00.000Z"
 readingTime: ""
-seoTitle: Helikopter-Elopement in den Dolomiten – Hochzeitsfotograf Tirol
-seoTitleEn: Helicopter Elopement in the Dolomites – Wedding Photographer Tyrol
-seoDescription: Jasmi & Dominik heirateten am 06.06. mitten in den Dolomiten – per Helikopter, ohne Zuschauer, bei wolkenverhangenen Gipfeln und einem unvergesslichen Sonnenuntergang.
+seoTitle: Helikopter-Elopement in den Dolomiten – Jasmi & Dominik
+seoTitleEn: Helicopter Elopement in the Dolomites – Jasmi & Dominik
+seoDescription: Jasmi & Dominik heirateten am 06.06. in den Dolomiten – per Helikopter, ohne Zuschauer, bei wolkenverhangenen Gipfeln und unvergesslichem Sonnenuntergang.
 seoDescriptionEn: Jasmi & Dominik married on 06.06. in the heart of the Dolomites – by helicopter, without spectators, beneath clouded peaks and an unforgettable sunset.
 featuredImage: /assets/uploads/Blitzkneisser-Heli-Elopement-Brixen-Dolomites-10.jpg
 featuredImageAlt: Brautpaar beim Helikopter-Elopement in den Dolomiten bei Sonnenuntergang

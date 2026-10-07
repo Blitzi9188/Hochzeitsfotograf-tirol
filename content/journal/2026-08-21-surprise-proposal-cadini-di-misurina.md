@@ -5,7 +5,7 @@ titleEn: "A Surprise Proposal in the Heart of the Dolomites"
 author: Blitzkneisser
 date: "2026-08-21T09:00:00.000Z"
 readingTime: ""
-seoTitle: "Überraschungs-Antrag am Cadini di Misurina – Dolomiten Proposal"
+seoTitle: "Überraschungs-Antrag am Cadini di Misurina – Dolomiten"
 seoTitleEn: "Surprise Proposal at Cadini di Misurina – Dolomites"
 seoDescription: "Kim dachte, sie posiert für das Foto eines Fremden – dann kniete Conner nieder. Ein Überraschungs-Antrag am Cadini di Misurina in den Dolomiten. Jetzt anfragen."
 seoDescriptionEn: "Kim thought she was posing for a stranger's photo – then Conner dropped to one knee. A surprise proposal at Cadini di Misurina in the Dolomites. Get in touch."

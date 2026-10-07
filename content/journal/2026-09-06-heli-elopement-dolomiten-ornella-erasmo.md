@@ -8,7 +8,7 @@ readingTime: ""
 seoTitle: "Heli-Elopement Dolomiten – Ornella & Erasmo | Blitzkneisser"
 seoTitleEn: "Helicopter Elopement in the Dolomites – Ornella & Erasmo"
 seoDescription: "Ornella & Erasmo heirateten geheim, allein und hoch in den Dolomiten – First Look, Gelübde am Bergsee und drei Helikopterflüge mit Kron Air. Jetzt anfragen."
-seoDescriptionEn: "Ornella & Erasmo married secretly, alone and high in the Dolomites — first look, vows by an alpine lake and three helicopter flights with Kron Air. Get in touch."
+seoDescriptionEn: "Ornella & Erasmo married secretly, alone and high in the Dolomites — first look, vows by an alpine lake and three helicopter flights with Kron Air."
 featuredImage: /assets/uploads/Blitzkneisser-Ornella-Erasmo-Heli-30.jpg
 featuredImageAlt: "Brautpaar geht über den Grat zum Kron-Air-Helikopter in den Dolomiten – Heli-Elopement Fotograf"
 featuredImageAltEn: "Couple walking along the ridge to the Kron Air helicopter in the Dolomites — helicopter elopement photographer"

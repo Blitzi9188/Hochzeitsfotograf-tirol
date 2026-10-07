@@ -5,8 +5,8 @@ titleEn: Two Skies in One Day
 author: Blitzkneisser
 date: "2026-07-12T08:00:00.000Z"
 readingTime: ""
-seoTitle: Elopement Pragser Wildsee & Hubschrauber Dolomiten | Blitzkneisser
-seoTitleEn: Elopement Lago di Braies & Helicopter Dolomites | Blitzkneisser
+seoTitle: Elopement Pragser Wildsee & Hubschrauber Dolomiten
+seoTitleEn: Elopement Lago di Braies & Helicopter Dolomites
 seoDescription: Freie Trauung am Pragser Wildsee im Morgengrauen, dann Hubschrauber zu den Cadini und den Drei Zinnen. Ein unvergesslicher Elopement-Tag in den Dolomiten.
 seoDescriptionEn: Intimate ceremony at Lago di Braies at dawn, then helicopter to the Cadini peaks and Tre Cime. An unforgettable elopement day in the Dolomites.
 featuredImage: /assets/uploads/Blitzkneisser-Lago-Heli-Mountain-Elopement-23.jpg

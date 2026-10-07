@@ -8,7 +8,7 @@ readingTime: ""
 seoTitle: Regenhochzeit am Pragser Wildsee – Hochzeitsfotograf Tirol
 seoTitleEn: Rainy Wedding at Lago di Braies – Wedding Photographer Tyrol
 seoDescription: Regenhochzeit am Pragser Wildsee in den Dolomiten – wie Nebel, Licht und Regentropfen einen Hochzeitstag unvergesslich machen. Hochzeitsfotograf Blitzkneisser.
-seoDescriptionEn: A rainy wedding at Lago di Braies in the Dolomites – how mist, soft light and raindrops make a wedding day truly unforgettable. Wedding photographer Blitzkneisser.
+seoDescriptionEn: A rainy wedding at Lago di Braies in the Dolomites – how mist, soft light and raindrops make a wedding day truly unforgettable.
 featuredImage: /assets/uploads/Blitzkneisser-Rainy-Wedding-Pragser-Wildsee-24.jpg
 featuredImageAlt: Brautpaar am Pragser Wildsee im Regen – Regenhochzeit Dolomiten
 featuredImageAltEn: Bride and groom at Lago di Braies in the rain – rainy wedding Dolomites
