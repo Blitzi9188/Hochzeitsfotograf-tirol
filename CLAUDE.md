@@ -20,13 +20,32 @@
 
 Für dieses Projekt existiert eine Graphify-Karte unter `graphify-out/`. Regel: Bei jeder Frage zur Codebase-Struktur, Dateibeziehungen oder Architektur zuerst `graphify-out/GRAPH_REPORT.md` lesen oder `/graphify query "..."` ausführen — niemals aus dem Gedächtnis antworten, wenn die Karte vorhanden ist.
 
+## Hosting — aktueller Stand (Oktober 2026)
+
+> ⚠️ **Die Website läuft LIVE über C2H.at (Plesk, hinter Cloudflare) — NICHT mehr über Railway.**
+
+### Was gilt:
+- **Live-Server:** C2H.at (Plesk), Domain `hochzeitsfotograf.tirol` via Cloudflare
+- **Kein Auto-Deploy eingerichtet:** Ein `git push` deployt NICHTS automatisch nach C2H. Änderungen sind erst live, wenn der C2H-Deploy-Mechanismus (SFTP/rsync oder Plesk-Node-App) eingerichtet und konfiguriert ist. Die Zugangsdaten dafür kommen von C2H und werden nachgereicht.
+- **railway.json / netlify.toml im Repo:** Veraltete Altlasten — beschreiben NICHT den aktuellen Live-Weg, nicht löschen, aber ignorieren.
+
+### ⚠️ Railway NICHT abschalten (solange Server-Funktionen noch dort laufen):
+Dieses Projekt ist eine **Node.js-App mit Server-Teil** (`server.js`, CMS-API, Kontaktformular, Uploads). Diese Server-Funktionen laufen derzeit noch über Railway. Railway darf erst abgeschaltet werden, wenn die gesamte App inklusive Kontaktformular und Uploads nachweislich auf C2H läuft und getestet ist.
+
+### Referenzen:
+- **GitHub:** https://github.com/Blitzi9188/Hochzeitsfotograf-tirol.git
+- **Live site:** https://hochzeitsfotograf.tirol
+
+### Technische Beobachtung (Live-Check 21.10.2026) — bitte vor dem C2H-Umzug klären
+Beim Live-Abgleich ergaben sich Punkte, die zur obigen Zuordnung noch verifiziert werden sollten:
+- **`blitzkneisser.com`** antwortet über `server: nginx` und liefert **genau diese Node-App aus** (server-seitig injiziertes `window.__HOMEPAGE_BOOTSTRAP__` / `__SITE_ORIGIN__`), Canonical = `https://blitzkneisser.com/`.
+- **`hochzeitsfotograf.tirol`** antwortet über `server: cloudflare` und zeigt **eine andere Seite** (kein `__HOMEPAGE_BOOTSTRAP__`, separate Vite-SPA).
+- Im Repo setzt `server.js` (Commit `cd311b3`, 07.10.2026) `SITE_ORIGIN = "https://hochzeitsfotograf.tirol"`, **live sendet `blitzkneisser.com` jedoch weiterhin `blitzkneisser.com`** als Origin/Canonical.
+- **Konsequenz:** Welche Domain genau auf C2H und welche (noch) auf Railway bzw. Cloudflare läuft, ist vor dem Umzug zu bestätigen — sonst drohen falsche Canonicals. Dieser Hinweis ändert nichts an den obigen Deploy-Regeln, er markiert nur offenen Klärungsbedarf.
+
 ## Project Overview
 
-Wedding photography website for Blitzkneisser. Node.js server with file-based CMS (no database). Content is edited via JSON/Markdown files. Deployed on Railway via GitHub.
-
-**Live site:** https://hochzeitsfotograf.tirol  
-**GitHub:** https://github.com/Blitzi9188/Hochzeitsfotograf-tirol.git  
-**Branch:** `main` → Railway auto-deploys on push
+Wedding photography website for Blitzkneisser. Node.js server with file-based CMS (no database). Content is edited via JSON/Markdown files.
 
 ---
 
@@ -81,13 +100,15 @@ Images are set directly in `index.html` (the `portfolioGallery` array in JSON is
 
 ## Deployment
 
+> ⚠️ **VERALTET — beschreibt den alten Railway-Weg, NICHT den aktuellen Live-Weg.** Maßgeblich ist oben „## Hosting — aktueller Stand": Live läuft über **C2H.at (Plesk, hinter Cloudflare)**, und es ist **kein Auto-Deploy** eingerichtet — ein `git push` bringt derzeit NICHTS automatisch online, bis der C2H-Deploy (SFTP/rsync oder Plesk-Node-App) konfiguriert ist (Zugangsdaten kommen von C2H). Railway nicht abschalten, solange Server-Teil/Kontaktformular noch dort laufen.
+
 ```bash
 git add index.html content/homepage/de.json content/homepage/en.json
 git commit -m "Your message"
 git push origin main
 ```
 
-Railway detects the push and auto-deploys within ~2 minutes.
+Railway detects the push and auto-deploys within ~2 minutes. *(Historischer Railway-Flow — aktuell NICHT der Live-Weg, siehe Warnung oben.)*
 
 ### Railway Environment Variables
 - `ADMIN_TOKEN` — **required** shared secret for the admin/CMS API (`X-Admin-Token` header). Without it the admin API is locked to localhost only (safe, but unusable remotely). Generate: `node -e "console.log(require('crypto').randomBytes(32).toString('base64url'))"`
